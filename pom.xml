@@ -34,6 +34,7 @@
             net.sf.cglib*
         </servicemix.osgi.export.pkg>
 	    <servicemix.osgi.import.pkg>
+            net.sf.cglib.asm.util;resolution:=optional,
             org.apache.tools.ant*;resolution:=optional,
             org.codehaus.aspectwerkz.hook;resolution:=optional,
             *
