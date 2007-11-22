@@ -50,6 +50,7 @@
             <groupId>wsdl4j</groupId>
             <artifactId>wsdl4j</artifactId>
             <version>${pkgVersion}</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
