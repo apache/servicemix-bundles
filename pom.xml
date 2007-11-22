@@ -39,7 +39,7 @@
 
     <properties>
         <pkgArtifactId>jaxb-impl</pkgArtifactId>
-        <pkgVersion>2.0.3</pkgVersion>
+        <pkgVersion>${jaxb.impl.version}</pkgVersion>
         <pomVersion>4.0-SNAPSHOT</pomVersion>
         <servicemix.osgi.export.pkg>
             com.sun.xml.bind*,
@@ -58,7 +58,7 @@
         <dependency>
             <groupId>com.sun.xml.bind</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
-            <version>${pkgVersion}</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 </project>
