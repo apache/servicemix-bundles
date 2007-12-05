@@ -58,7 +58,7 @@
         <dependency>
             <groupId>com.sun.xml.bind</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
-            <scope>provided</scope>
+            <optional>true</optional>
         </dependency>
     </dependencies>
 </project>
