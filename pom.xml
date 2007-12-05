@@ -57,6 +57,7 @@
             <groupId>cglib</groupId>
             <artifactId>cglib-nodep</artifactId>
             <version>${pkgVersion}</version>
+            <optional>true</optional>
         </dependency>
     </dependencies>
 
