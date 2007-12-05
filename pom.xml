@@ -42,26 +42,16 @@
         <pkgVersion>1.7.0</pkgVersion>
         <pomVersion>4.0-SNAPSHOT</pomVersion>
 
-    <servicemix.osgi.export.pkg>org.apache.tools</servicemix.osgi.export.pkg>
-<!--
+        <servicemix.osgi.export.pkg>org.apache.tools</servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            com.ibm*;resolution:=optional,
-            com.sun*;resolution:=optional,
-            junit.framework*;resolution:=optional,
-            org.apache.commons.lang*;resolution:=optional,
-            org.apache.log4j*;resolution:=optional,
-            org.apache.neethi*;resolution:=optional,
-            org.apache.tools.ant*;resolution:=optional,
-            org.apache.velocity*;resolution:=optional,
-            org.apache.ws.commons.schema*;resolution:=optional,
-            org.apache.xml.resolver*;resolution:=optional,
-            org.junit*;resolution:=optional,
-            org.mortbay*;resolution:=optional,
-            org.springframework*;resolution:=optional,
-            org.xmlsoap.schemas.wsdl.http*;resolution:=optional,
+            com.sun.tools.javac*;resolution:=optional,
+            org.apache.env*;resolution:=optional,
+            org.apache.tools.ant.taskdefs.optional*;resolution:=optional,
+            org.apache.tools.ant.util.java15*;resolution:=optional,
+            sun.rmi*;resolution:=optional,
+            sun.tools.javac*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
--->
     </properties>
 
     <repositories>
@@ -76,11 +66,13 @@
             <groupId>org.apache.ant</groupId>
             <artifactId>ant</artifactId>
             <version>${pkgVersion}</version>
+            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>org.apache.ant</groupId>
             <artifactId>ant-launcher</artifactId>
             <version>${pkgVersion}</version>
+            <optional>true</optional>
         </dependency>
     </dependencies>
 
