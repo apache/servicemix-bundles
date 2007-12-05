@@ -48,6 +48,7 @@
             <groupId>asm</groupId>
             <artifactId>asm-all</artifactId>
             <version>${pkgVersion}</version>
+            <optional>true</optional>
         </dependency>
     </dependencies>
 
