@@ -39,7 +39,7 @@
 
     <properties>
         <pkgArtifactId>mina</pkgArtifactId>
-        <pkgVersion>1.1.5</pkgVersion>
+        <pkgVersion>${mina.version}</pkgVersion>
         <pomVersion>4.0-SNAPSHOT</pomVersion>
         <servicemix.osgi.import.pkg>
              com.jcraft.jzlib*;resolution:=optional,
@@ -53,37 +53,31 @@
         <dependency>
             <groupId>org.apache.mina</groupId>
             <artifactId>mina-core</artifactId>
-            <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>org.apache.mina</groupId>
             <artifactId>mina-filter-codec-netty</artifactId>
-            <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>org.apache.mina</groupId>
             <artifactId>mina-filter-compression</artifactId>
-            <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>org.apache.mina</groupId>
             <artifactId>mina-filter-ssl</artifactId>
-            <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>org.apache.mina</groupId>
             <artifactId>mina-integration-jmx</artifactId>
-            <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>org.apache.mina</groupId>
             <artifactId>mina-integration-spring</artifactId>
-            <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
     </dependencies>
