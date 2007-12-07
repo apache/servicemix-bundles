@@ -23,14 +23,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.apache.servicemix</groupId>
+        <groupId>org.apache.servicemix.runtime.bundles</groupId>
         <artifactId>bundles</artifactId>
-        <version>4.0-SNAPSHOT</version>
+        <version>0.1-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>${pom.groupId}.${pkgArtifactId}</artifactId>
-    <version>${pkgVersion}-${pomVersion}</version>
+    <artifactId>${pom.groupId}.${pkgArtifactId}-${pkgVersion}</artifactId>
     <packaging>bundle</packaging>
     <name>ServiceMix OSGI Common Bundles: ${pkgArtifactId}</name>
     <description>
@@ -39,9 +38,7 @@
 
     <properties>
         <pkgArtifactId>ant</pkgArtifactId>
-        <pkgVersion>1.7.0</pkgVersion>
-        <pomVersion>4.0-SNAPSHOT</pomVersion>
-
+        <pkgVersion>${ant.version}</pkgVersion>
         <servicemix.osgi.export.pkg>org.apache.tools</servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             com.sun.tools.javac*;resolution:=optional,
