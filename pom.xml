@@ -23,14 +23,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.apache.servicemix</groupId>
+        <groupId>org.apache.servicemix.camel.bundles</groupId>
         <artifactId>bundles</artifactId>
-        <version>4.0-SNAPSHOT</version>
+        <version>1.0-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>${pom.groupId}.${pkgArtifactId}</artifactId>
-    <version>${pkgVersion}-${pomVersion}</version>
+    <artifactId>${pom.groupId}.${pkgArtifactId}-${pkgVersion}</artifactId>
+    <version>1.0-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>ServiceMix OSGI Common Bundles: ${pkgArtifactId}</name>
     <description>
@@ -40,7 +40,6 @@
     <properties>
         <pkgArtifactId>jaxb-impl</pkgArtifactId>
         <pkgVersion>${jaxb.impl.version}</pkgVersion>
-        <pomVersion>4.0-SNAPSHOT</pomVersion>
         <servicemix.osgi.export.pkg>
             com.sun.xml.bind*,
             com.sun.istack*,
@@ -58,6 +57,7 @@
         <dependency>
             <groupId>com.sun.xml.bind</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
     </dependencies>
