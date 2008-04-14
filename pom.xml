@@ -25,12 +25,12 @@
     <parent>
         <groupId>org.apache.servicemix.transaction.bundles</groupId>
         <artifactId>bundles</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>4.0-m1-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.howl-1.0.1-1</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>4.0-m1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>ServiceMix OSGI Common Bundles: ${pkgArtifactId}</name>
     <description>
