@@ -25,12 +25,12 @@
     <parent>
         <groupId>org.apache.servicemix.war.bundles</groupId>
         <artifactId>bundles</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>4.0-m1-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>${pom.groupId}.${pkgArtifactId}-${pkgVersion}</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>4.0-m1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>ServiceMix OSGI Common Bundles: ${pkgArtifactId}</name>
     <description>
