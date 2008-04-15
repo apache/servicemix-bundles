@@ -32,7 +32,7 @@
     <artifactId>org.apache.servicemix.bundles.neethi-2.0.2</artifactId>
     <version>4.0-m1-SNAPSHOT</version>
     <packaging>bundle</packaging>
-    <name>ServiceMix OSGI Common Bundles: ${pkgArtifactId}</name>
+    <name>Apache ServiceMix OSGI Common Bundles: ${pkgArtifactId}</name>
     <description>
         This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
     </description>
