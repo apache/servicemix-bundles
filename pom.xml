@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <!--
 
@@ -25,12 +23,12 @@
     <parent>
         <groupId>org.apache.servicemix.cxf.bundles</groupId>
         <artifactId>bundles</artifactId>
-        <version>4.0-m1-SNAPSHOT</version>
+        <version>4.0-m1</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.neethi-2.0.2</artifactId>
-    <version>4.0-m1-SNAPSHOT</version>
+    <version>4.0-m1</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix OSGI Common Bundles: ${pkgArtifactId}</name>
     <description>
@@ -48,7 +46,7 @@
         <servicemix.osgi.export.pkg>
             org.apache.neethi
 		</servicemix.osgi.export.pkg>
-        <servicemix.osgi.private.pkg></servicemix.osgi.private.pkg>
+        <servicemix.osgi.private.pkg />
     </properties>
 
     <dependencies>
