@@ -31,7 +31,7 @@
     <artifactId>${pom.groupId}.${pkgArtifactId}-${pkgVersion}</artifactId>
     <packaging>bundle</packaging>
     <version>1.0-m2-SNAPSHOT</version>
-    <name>ServiceMix OSGI Common Bundles: ${pkgArtifactId}-${pkgVersion}</name>
+    <name>Apache ServiceMix OSGI Common Bundles: ${pkgArtifactId}-${pkgVersion}</name>
     <description>
         This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
     </description>
@@ -48,6 +48,9 @@
             com.ctc.wstx*;version=${pkgVersion};-split-package:=merge-first,
             org.codehaus.stax2*;version=${pkgVersion};-split-package:=merge-first,
         </servicemix.osgi.export>
+        <servicemix.osgi.private.pkg>
+            META-INF*
+        </servicemix.osgi.private.pkg>
     </properties>
 
     <dependencies>
@@ -64,9 +67,9 @@
             </exclusions>
         </dependency>
         <dependency>
-            <groupId>org.apache.geronimo.specs</groupId>
-            <artifactId>geronimo-stax-api_1.0_spec</artifactId>
-            <version>${geronimo.stax.version}</version>
+            <groupId>org.apache.servicemix.specs</groupId>
+            <artifactId>org.apache.servicemix.specs.stax-api-1.0</artifactId>
+            <version>${servicemix.specs.version}</version>
             <optional>true</optional>
         </dependency>
     </dependencies>
