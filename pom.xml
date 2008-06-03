@@ -39,8 +39,13 @@
         <pkgArtifactId>commons-jxpath</pkgArtifactId>
         <pkgVersion>${commons-jxpath.version}</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.apache.commons.jxpath*
+            org.apache.commons.jxpath*,org.apache.commons.beanutils*,org.apache.commons.collections*,org.jdom*,org.apache.xerces*,
+            javax.servlet.jsp*,org.apache.xml*
         </servicemix.osgi.export.pkg>
+        <servicemix.osgi.import.pkg>
+            oracle.xml.parser*;resolution:=optional,org.jaxen.*;resolution:=optional,org.saxpath*;resolution:=optional,*
+            
+        </servicemix.osgi.import.pkg>
     </properties>
 
     <dependencies>
