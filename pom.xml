@@ -21,26 +21,24 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.apache.servicemix.kernel.bundles</groupId>
-        <artifactId>bundles</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+	    <groupId>org.apache.servicemix.bundles</groupId>
+	    <artifactId>bundles-pom</artifactId>
+	    <version>1-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <!--
-    <artifactId>${pom.groupId}.${pkgArtifactId}-${pkgVersion}</artifactId>
-    -->
-    <artifactId>org.apache.servicemix.bundles.cglib-2.1_3</artifactId>
+    <artifactId>org.apache.servicemix.bundles.cglib</artifactId>
     <packaging>bundle</packaging>
-    <version>1.0.0-SNAPSHOT</version>
-    <name>Apache ServiceMix OSGI Common Bundles: ${pkgArtifactId}-${pkgVersion}</name>
+    <version>2.1_3_1-SNAPSHOT</version>
+    <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${pkgVersion}</name>
     <description>
         This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
     </description>
 
     <properties>
+        <pkgGroupId>cglib</pkgGroupId>
         <pkgArtifactId>cglib</pkgArtifactId>
-        <pkgVersion>${cglib.version}</pkgVersion>
+        <pkgVersion>2.1_3</pkgVersion>
         <servicemix.osgi.export.pkg>net.sf.cglib</servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             net.sf.cglib.asm.util;resolution:=optional,
@@ -52,17 +50,45 @@
 
     <dependencies>
         <dependency>
-            <groupId>cglib</groupId>
+            <groupId>${pkgGroupId}</groupId>
             <artifactId>cglib-nodep</artifactId>
             <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>${junit.version}</version>
-            <scope>test</scope>
-        </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <artifactSet>
+                                <includes>
+                                    <include>${pkgGroupId}:cglib-nodep</include>
+                                </includes>
+                            </artifactSet>
+                            <filters>
+                                <filter>
+                                    <artifact>${pkgGroupId}:cglib-nodep</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                            </filters>
+                            <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
+                            <createDependencyReducedPom>true</createDependencyReducedPom>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
