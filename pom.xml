@@ -21,26 +21,24 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.apache.servicemix.kernel.bundles</groupId>
-        <artifactId>bundles</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+	    <groupId>org.apache.servicemix.bundles</groupId>
+	    <artifactId>bundles-pom</artifactId>
+	    <version>1-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <!--
-    <artifactId>${pom.groupId}.${pkgArtifactId}-${pkgVersion}</artifactId>
-    -->
-    <artifactId>org.apache.servicemix.bundles.mina-1.1.6</artifactId>
+    <artifactId>org.apache.servicemix.bundles.mina</artifactId>
     <packaging>bundle</packaging>
-    <version>1.0.0-SNAPSHOT</version>
-    <name>Apache ServiceMix OSGI Common Bundles: ${pkgArtifactId}-${pkgVersion}</name>
+    <version>1.1.6_1-SNAPSHOT</version>
+    <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${pkgVersion}</name>
     <description>
         This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
     </description>
 
     <properties>
+        <pkgGroupId>org.apache.mina</pkgGroupId>
         <pkgArtifactId>mina</pkgArtifactId>
-        <pkgVersion>${mina.version}</pkgVersion>
+        <pkgVersion>1.1.6</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.apache.mina
 	    </servicemix.osgi.export.pkg>
@@ -53,47 +51,104 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.apache.mina</groupId>
+            <groupId>${pkgGroupId}</groupId>
             <artifactId>mina-core</artifactId>
             <version>${pkgVersion}</version>
-            <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>org.apache.mina</groupId>
+            <groupId>${pkgGroupId}</groupId>
             <artifactId>mina-filter-codec-netty</artifactId>
             <version>${pkgVersion}</version>
-            <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>org.apache.mina</groupId>
+            <groupId>${pkgGroupId}</groupId>
             <artifactId>mina-filter-compression</artifactId>
             <version>${pkgVersion}</version>
-            <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>org.apache.mina</groupId>
+            <groupId>${pkgGroupId}</groupId>
             <artifactId>mina-filter-ssl</artifactId>
             <version>${pkgVersion}</version>
-            <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>org.apache.mina</groupId>
+            <groupId>${pkgGroupId}</groupId>
             <artifactId>mina-integration-jmx</artifactId>
             <version>${pkgVersion}</version>
-            <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>org.apache.mina</groupId>
+            <groupId>${pkgGroupId}</groupId>
             <artifactId>mina-integration-spring</artifactId>
             <version>${pkgVersion}</version>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>${junit.version}</version>
-            <scope>test</scope>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <artifactSet>
+                                <includes>
+                                    <include>${pkgGroupId}:mina-core</include>
+                                    <include>${pkgGroupId}:mina-filter-codec-netty</include>
+                                    <include>${pkgGroupId}:mina-filter-compression</include>
+                                    <include>${pkgGroupId}:mina-filter-ssl</include>
+                                    <include>${pkgGroupId}:mina-integration-jmx</include>
+                                    <include>${pkgGroupId}:mina-integration-spring</include>
+                                </includes>
+                            </artifactSet>
+                            <filters>
+                                <filter>
+                                    <artifact>${pkgGroupId}:mina-core</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:mina-filter-codec-netty</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:mina-filter-compression</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:mina-filter-ssl</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:mina-integration-jmx</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:mina-integration-spring</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                            </filters>
+                            <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
+                            <createDependencyReducedPom>true</createDependencyReducedPom>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
