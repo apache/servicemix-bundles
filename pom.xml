@@ -21,21 +21,22 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.apache.servicemix.cxf.bundles</groupId>
-        <artifactId>bundles</artifactId>
-        <version>4.0-m2-SNAPSHOT</version>
+	    <groupId>org.apache.servicemix.bundles</groupId>
+	    <artifactId>bundles-pom</artifactId>
+	    <version>1-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.wsdl4j-1.6.1</artifactId>
-    <version>4.0-m2-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.wsdl4j</artifactId>
+    <version>1.6.1_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
-    <name>Apache ServiceMix OSGI Common Bundles: ${pkgArtifactId}</name>
+    <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${pkgVersion}</name>
     <description>
         This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
     </description>
 
     <properties>
+        <pkgGroupId>wsdl4j</pkgGroupId>
         <pkgArtifactId>wsdl4j</pkgArtifactId>
         <pkgVersion>1.6.1</pkgVersion>
         <servicemix.osgi.export>
@@ -46,11 +47,45 @@
 
     <dependencies>
         <dependency>
-            <groupId>wsdl4j</groupId>
-            <artifactId>wsdl4j</artifactId>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <artifactSet>
+                                <includes>
+                                    <include>${pkgGroupId}:${pkgArtifactId}</include>
+                                </includes>
+                            </artifactSet>
+                            <filters>
+                                <filter>
+                                    <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                            </filters>
+                            <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
+                            <createDependencyReducedPom>true</createDependencyReducedPom>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
