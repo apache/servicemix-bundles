@@ -21,43 +21,77 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.apache.servicemix.kernel.bundles</groupId>
-        <artifactId>bundles</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+	    <groupId>org.apache.servicemix.bundles</groupId>
+	    <artifactId>bundles-pom</artifactId>
+	    <version>1-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <!--
-    <artifactId>${pom.groupId}.${pkgArtifactId}-${pkgVersion}</artifactId>
-    -->
-    <artifactId>org.apache.servicemix.bundles.junit-4.4</artifactId>
+    <artifactId>org.apache.servicemix.bundles.junit</artifactId>
     <packaging>bundle</packaging>
-    <version>1.0.0-SNAPSHOT</version>
-    <name>Apache ServiceMix OSGI Common Bundles: ${pkgArtifactId}-${pkgVersion}</name>
+    <version>4.4_1-SNAPSHOT</version>
+    <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${pkgVersion}</name>
     <description>
         This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
     </description>
 
     <properties>
+        <pkgGroupId>junit</pkgGroupId>
         <pkgArtifactId>junit</pkgArtifactId>
-        <pkgVersion>${junit.version}</pkgVersion>
+        <pkgVersion>4.4</pkgVersion>
         <servicemix.osgi.export>
             org.junit*;version=${pkgVersion};-split-package:=merge-first,
             junit*;version=${pkgVersion};-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
-            org.hamcrest*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
+        <servicemix.osgi.private.pkg>
+            org.hamcrest*
+        </servicemix.osgi.private.pkg>
     </properties>
 
     <dependencies>
         <dependency>
-            <groupId>junit</groupId>
+            <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <artifactSet>
+                                <includes>
+                                    <include>${pkgGroupId}:${pkgArtifactId}</include>
+                                </includes>
+                            </artifactSet>
+                            <filters>
+                                <filter>
+                                    <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                            </filters>
+                            <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
+                            <createDependencyReducedPom>true</createDependencyReducedPom>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
