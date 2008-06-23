@@ -22,23 +22,24 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.apache.servicemix.nmr.bundles</groupId>
-        <artifactId>bundles</artifactId>
-        <version>1.0-m2-SNAPSHOT</version>
+	    <groupId>org.apache.servicemix.bundles</groupId>
+	    <artifactId>bundles-pom</artifactId>
+	    <version>1-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>${pom.groupId}.${pkgArtifactId}-${pkgVersion}</artifactId>
+    <artifactId>org.apache.servicemix.bundles.woodstox</artifactId>
     <packaging>bundle</packaging>
-    <version>1.0-m2-SNAPSHOT</version>
-    <name>Apache ServiceMix OSGI Common Bundles: ${pkgArtifactId}-${pkgVersion}</name>
+    <version>3.2.6_1-SNAPSHOT</version>
+    <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${pkgVersion}</name>
     <description>
         This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
     </description>
 
     <properties>
+        <pkgGroupId>org.codehaus.woodstox</pkgGroupId>
         <pkgArtifactId>woodstox</pkgArtifactId>
-        <pkgVersion>${woodstox.version}</pkgVersion>
+        <pkgVersion>3.2.6</pkgVersion>
         <servicemix.osgi.import.pkg>
             com.sun.msv*;resolution:=optional,
             org.relaxng*;resolution:=optional,
@@ -55,7 +56,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.codehaus.woodstox</groupId>
+            <groupId>${pkgGroupId}</groupId>
             <artifactId>wstx-asl</artifactId>
             <version>${pkgVersion}</version>
             <optional>true</optional>
@@ -69,9 +70,43 @@
         <dependency>
             <groupId>org.apache.servicemix.specs</groupId>
             <artifactId>org.apache.servicemix.specs.stax-api-1.0</artifactId>
-            <version>${servicemix.specs.version}</version>
+            <version>1.0.0</version>
             <optional>true</optional>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <artifactSet>
+                                <includes>
+                                    <include>${pkgGroupId}:wstx-asl</include>
+                                </includes>
+                            </artifactSet>
+                            <filters>
+                                <filter>
+                                    <artifact>${pkgGroupId}:wstx-asl</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                            </filters>
+                            <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
+                            <createDependencyReducedPom>true</createDependencyReducedPom>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
