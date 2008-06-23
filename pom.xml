@@ -21,23 +21,24 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.apache.servicemix.camel.bundles</groupId>
-        <artifactId>bundles</artifactId>
-        <version>4.0-m2-SNAPSHOT</version>
+	    <groupId>org.apache.servicemix.bundles</groupId>
+	    <artifactId>bundles-pom</artifactId>
+	    <version>1-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>${pom.groupId}.${pkgArtifactId}-${pkgVersion}</artifactId>
-    <version>4.0-m2-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.commons-jxpath</artifactId>
+    <version>1.2_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
-    <name>Apache ServiceMix OSGI Common Bundles: ${pkgArtifactId}</name>
+    <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${pkgVersion}</name>
     <description>
         This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
     </description>
 
     <properties>
+        <pkgGroupId>commons-jxpath</pkgGroupId>
         <pkgArtifactId>commons-jxpath</pkgArtifactId>
-        <pkgVersion>${commons-jxpath.version}</pkgVersion>
+        <pkgVersion>1.2</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.apache.commons.jxpath*,org.apache.commons.beanutils*,org.apache.commons.collections*,org.jdom*,org.apache.xerces*,
             javax.servlet.jsp*,org.apache.xml*
@@ -50,15 +51,44 @@
 
     <dependencies>
         <dependency>
-            <groupId>commons-jxpath</groupId>
-            <artifactId>commons-jxpath</artifactId>
-            <version>${commons-jxpath.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>${junit.version}</version>
-            <scope>test</scope>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <artifactSet>
+                                <includes>
+                                    <include>${pkgGroupId}:${pkgArtifactId}</include>
+                                </includes>
+                            </artifactSet>
+                            <filters>
+                                <filter>
+                                    <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                            </filters>
+                            <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
+                            <createDependencyReducedPom>true</createDependencyReducedPom>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>
