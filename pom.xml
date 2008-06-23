@@ -21,21 +21,22 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.apache.servicemix.cxf.bundles</groupId>
-        <artifactId>bundles</artifactId>
-        <version>4.0-m2-SNAPSHOT</version>
+	    <groupId>org.apache.servicemix.bundles</groupId>
+	    <artifactId>bundles-pom</artifactId>
+	    <version>1-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.saaj-impl-1.3</artifactId>
-    <version>4.0-m2-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.saaj-impl</artifactId>
+    <version>1.3_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
-    <name>Apache ServiceMix OSGI Common Bundles: ${pkgArtifactId}</name>
+    <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${pkgVersion}</name>
     <description>
         This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
     </description>
 
     <properties>
+        <pkgGroupId>com.sun.xml.messaging.saaj</pkgGroupId>
         <pkgArtifactId>saaj-impl</pkgArtifactId>
         <pkgVersion>1.3</pkgVersion>
         <servicemix.osgi.export.pkg>com.sun.xml.messaging.saaj</servicemix.osgi.export.pkg>
@@ -50,7 +51,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.sun.xml.messaging.saaj</groupId>
+            <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
             <optional>true</optional>
@@ -62,10 +63,44 @@
             </exclusions>
         </dependency>
         <dependency>
-		    <groupId>org.apache.geronimo.specs</groupId>
-            <artifactId>geronimo-saaj_1.3_spec</artifactId>
-            <version>${geronimo.saaj.version}</version>
-            <optional>true</optional>
+		    <groupId>org.apache.servicemix.specs</groupId>
+            <artifactId>org.apache.servicemix.specs.saaj-api-1.3</artifactId>
+            <version>1.0.0</version>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <artifactSet>
+                                <includes>
+                                    <include>${pkgGroupId}:${pkgArtifactId}</include>
+                                </includes>
+                            </artifactSet>
+                            <filters>
+                                <filter>
+                                    <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                            </filters>
+                            <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
+                            <createDependencyReducedPom>true</createDependencyReducedPom>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>
