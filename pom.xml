@@ -21,23 +21,24 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.apache.servicemix.camel.bundles</groupId>
-        <artifactId>bundles</artifactId>
-        <version>4.0-m2-SNAPSHOT</version>
+	    <groupId>org.apache.servicemix.bundles</groupId>
+	    <artifactId>bundles-pom</artifactId>
+	    <version>1-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>${pom.groupId}.${pkgArtifactId}-${pkgVersion}</artifactId>
-    <version>4.0-m2-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.jaxb-impl</artifactId>
+    <version>2.1.6_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
-    <name>Apache ServiceMix OSGI Common Bundles: ${pkgArtifactId}</name>
+    <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${pkgVersion}</name>
     <description>
         This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
     </description>
 
     <properties>
+        <pkgGroupId>com.sun.xml.bind</pkgGroupId>
         <pkgArtifactId>jaxb-impl</pkgArtifactId>
-        <pkgVersion>${jaxb.impl.version}</pkgVersion>
+        <pkgVersion>2.1.6</pkgVersion>
         <servicemix.osgi.export.pkg>
             com.sun.xml.bind*,
             com.sun.istack*,
@@ -59,28 +60,54 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.sun.xml.bind</groupId>
+            <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
-            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>org.apache.servicemix.specs</groupId>
             <artifactId>org.apache.servicemix.specs.stax-api-1.0</artifactId>
-            <version>${servicemix.specs.version}</version>
-            <optional>true</optional>
+            <version>1.0.0</version>
         </dependency>
         <dependency>
             <groupId>org.apache.servicemix.specs</groupId>
-            <artifactId>org.apache.servicemix.specs.jaxb-api-${jaxb.api.version}</artifactId>
-            <version>${servicemix.specs.version}</version>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>${junit.version}</version>
-            <scope>test</scope>
+            <artifactId>org.apache.servicemix.specs.jaxb-api-2.1</artifactId>
+            <version>1.0.0</version>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <artifactSet>
+                                <includes>
+                                    <include>${pkgGroupId}:${pkgArtifactId}</include>
+                                </includes>
+                            </artifactSet>
+                            <filters>
+                                <filter>
+                                    <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                            </filters>
+                            <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
+                            <createDependencyReducedPom>true</createDependencyReducedPom>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>
