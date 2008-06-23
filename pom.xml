@@ -39,7 +39,39 @@
         <servicemix.osgi.private.pkg />
     </properties>
 
+    <scm>
+        <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/trunk</connection>
+        <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/trunk</developerConnection>
+        <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/trunk/</url>
+    </scm>
+
     <build>
+        <defaultGoal>install</defaultGoal>
+
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-release-plugin</artifactId>
+                    <version>2.0-beta-7</version>
+                    <configuration>
+                        <preparationGoals>clean,verify,install</preparationGoals>
+                        <autoVersionSubmodules>true</autoVersionSubmodules>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>2.3.1</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-shade-plugin</artifactId>
+                    <version>1.1</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+
         <plugins>
             <plugin>
                 <groupId>org.apache.felix</groupId>
@@ -62,6 +94,64 @@
                     </instructions>
                     <unpackBundle>true</unpackBundle>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>2.0</version>
+                <executions>
+                    <execution>
+                        <id>copy-legal</id>
+                        <phase>generate-resources</phase>
+                        <goals>
+                            <goal>copy</goal>
+                        </goals>
+                        <configuration>
+                            <artifactItems>
+                                <artifactItem>
+                                    <groupId>org.apache.servicemix.legal</groupId>
+                                    <artifactId>legal</artifactId>
+                                    <version>${servicemix.legal.version}</version>
+                                    <type>xml</type>
+                                    <outputDirectory>target/legal/</outputDirectory>
+                                </artifactItem>
+                            </artifactItems>
+                            <stripVersion>true</stripVersion>
+                        </configuration>
+                    </execution>
+                </executions>
+                <dependencies>                  
+                    <dependency>
+                         <groupId>org.apache.servicemix.legal</groupId>
+                         <artifactId>legal</artifactId>
+                         <version>${servicemix.legal.version}</version>
+                         <type>xml</type>
+                    </dependency>
+                </dependencies>
+            </plugin>
+            <plugin>
+                <artifactId>maven-remote-resources-plugin</artifactId>
+                <version>1.0</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>process</goal>
+                        </goals>
+                        <configuration>
+                            <resourceBundles>
+                                <resourceBundle>org.apache:apache-jar-resource-bundle:1.4</resourceBundle>
+                            </resourceBundles>
+                            <supplementalModels>
+                                <supplementalModel>target/legal/legal.xml</supplementalModel>
+                            </supplementalModels>
+                            <properties>
+                                <addLicense>true</addLicense>
+                                <addArtifact>true</addArtifact>
+                                <projectName>Apache ServiceMix</projectName>
+                            </properties>
+                        </configuration>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
