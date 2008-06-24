@@ -111,7 +111,7 @@
                                 <artifactItem>
                                     <groupId>org.apache.servicemix.legal</groupId>
                                     <artifactId>legal</artifactId>
-                                    <version>${servicemix.legal.version}</version>
+                                    <version>1.0</version>
                                     <type>xml</type>
                                     <outputDirectory>target/legal/</outputDirectory>
                                 </artifactItem>
@@ -124,7 +124,7 @@
                     <dependency>
                          <groupId>org.apache.servicemix.legal</groupId>
                          <artifactId>legal</artifactId>
-                         <version>${servicemix.legal.version}</version>
+                         <version>1.0</version>
                          <type>xml</type>
                     </dependency>
                 </dependencies>
