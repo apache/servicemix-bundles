@@ -40,13 +40,14 @@
         <pkgArtifactId>commons-jxpath</pkgArtifactId>
         <pkgVersion>1.2</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.apache.commons.jxpath*,org.apache.commons.beanutils*,org.apache.commons.collections*,org.jdom*,org.apache.xerces*,
-            javax.servlet.jsp*,org.apache.xml*
+            org.apache.commons.jxpath
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            oracle.xml.parser*;resolution:=optional,org.jaxen.*;resolution:=optional,org.saxpath*;resolution:=optional,*
-            
+            javax.servlet*;resolution:=optional,
+            org.jdom*;resolution:=optional,
+            *
         </servicemix.osgi.import.pkg>
+        <servicemix.osgi.failok>true</servicemix.osgi.failok>
     </properties>
 
     <dependencies>
