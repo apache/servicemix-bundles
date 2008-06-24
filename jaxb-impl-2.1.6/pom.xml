@@ -40,9 +40,9 @@
         <pkgArtifactId>jaxb-impl</pkgArtifactId>
         <pkgVersion>2.1.6</pkgVersion>
         <servicemix.osgi.export.pkg>
-            com.sun.xml.bind*,
-            com.sun.istack*,
-            com.sun.xml.txw2*
+            com.sun.xml.bind*;-split-package:=merge-first,
+            com.sun.istack*;-split-package:=merge-first,
+            com.sun.xml.txw2*;-split-package:=merge-first
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             com.sun.xml.fastinfoset*;resolution:=optional,

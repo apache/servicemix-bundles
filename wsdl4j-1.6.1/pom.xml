@@ -40,8 +40,8 @@
         <pkgArtifactId>wsdl4j</pkgArtifactId>
         <pkgVersion>1.6.1</pkgVersion>
         <servicemix.osgi.export>
-            javax.wsdl*;version=1.2,
-            com.ibm.wsdl*;version=${pkgVersion}
+            javax.wsdl*;version=1.2;-split-package:=merge-first,
+            com.ibm.wsdl*;version=${pkgVersion};-split-package:=merge-first
         </servicemix.osgi.export>
     </properties>
 
