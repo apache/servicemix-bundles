@@ -50,7 +50,9 @@
             org.codehaus.stax2*;version=${pkgVersion};-split-package:=merge-first,
         </servicemix.osgi.export>
         <servicemix.osgi.private.pkg>
-            META-INF*
+            META-INF;-split-package:=merge-first,
+            META-INF.maven.org.apache.servicemix.bundles*;-split-package:=merge-first,
+            META-INF.services;-split-package:=merge-first,
         </servicemix.osgi.private.pkg>
     </properties>
 
