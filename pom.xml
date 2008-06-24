@@ -47,6 +47,11 @@
             org.jvnet.fastinfoset*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
+        <servicemix.osgi.private.pkg>
+            META-INF;-split-package:=merge-first,
+            META-INF.maven.org.apache.servicemix.bundles*;-split-package:=merge-first,
+            META-INF.services;-split-package:=merge-first,
+        </servicemix.osgi.private.pkg>
     </properties>
 
     <dependencies>
