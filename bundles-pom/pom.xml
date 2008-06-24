@@ -39,6 +39,10 @@
         <servicemix.osgi.private.pkg />
     </properties>
 
+    <prerequisites>
+        <maven>2.0.9</maven>
+    </prerequisites>
+
     <scm>
         <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/trunk</connection>
         <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/trunk</developerConnection>
