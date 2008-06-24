@@ -37,6 +37,7 @@
         <servicemix.osgi.export.pkg />
         <servicemix.osgi.import.pkg />
         <servicemix.osgi.private.pkg />
+        <servicemix.osgi.failok>false</servicemix.osgi.failok>
     </properties>
 
     <prerequisites>
@@ -98,6 +99,7 @@
                         <Export-Package>${servicemix.osgi.export}</Export-Package>
                         <Import-Package>${servicemix.osgi.import.pkg}*</Import-Package>
                         <Private-Package>${servicemix.osgi.private.pkg}</Private-Package>
+                        <_failok>${servicemix.osgi.failok}</_failok>
                     </instructions>
                     <unpackBundle>true</unpackBundle>
                 </configuration>
