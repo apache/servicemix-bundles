@@ -48,6 +48,7 @@
         <module>cglib-2.1_3</module>
         <module>commons-io-1.3.2</module>
         <module>commons-jxpath-1.2</module>
+        <module>commons-httpclient-3.1</module>
         <module>howl-1.0.1-1</module>
         <module>jasper-6.0.14</module>
         <module>jaxb-impl-2.1.6</module>
@@ -59,8 +60,10 @@
         <module>saxon-9.0</module>
         <module>woodstox-3.2.6</module>
         <module>wsdl4j-1.6.1</module>
+        <module>wss4j-1.5.4</module>
         <module>xmlresolver-1.2</module>
         <module>xmlschema-1.4.2</module>
+        <module>xmlsec-1.3.0</module>
     </modules>
 
 </project>
