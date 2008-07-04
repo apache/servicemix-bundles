@@ -27,21 +27,26 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.oro</artifactId>
-    <version>2.0.8_1-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.jsch</artifactId>
     <packaging>bundle</packaging>
+    <version>0.1.31_1-SNAPSHOT</version>
     <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${pkgVersion}</name>
     <description>
         This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
     </description>
 
     <properties>
-        <pkgGroupId>oro</pkgGroupId>
-        <pkgArtifactId>oro</pkgArtifactId>
-        <pkgVersion>2.0.8</pkgVersion>
+        <pkgGroupId>com.jcraft</pkgGroupId>
+        <pkgArtifactId>jsch</pkgArtifactId>
+        <pkgVersion>0.1.31</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.apache.oro*
+           com.jcraft.jsch*
         </servicemix.osgi.export.pkg>
+        <servicemix.osgi.import.pkg>
+           com.jcraft.jsch,com.jcraft.jsch.jce,com.jcraft.jsch.jcraft,
+           com.jcraft.jzlib;resolution:=optional,
+           javax.crypto,javax.crypto.interfaces,javax.crypto.spec
+        </servicemix.osgi.import.pkg>
     </properties>
 
     <dependencies>
