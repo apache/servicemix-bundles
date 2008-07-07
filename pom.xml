@@ -51,6 +51,7 @@
         <module>commons-jxpath-1.2</module>
         <module>commons-httpclient-3.1</module>
         <module>commons-net-1.4.1</module>
+        <module>fastinfoset-1.2.2</module>
         <module>howl-1.0.1-1</module>
         <module>jasper-6.0.14</module>
         <module>jaxb-impl-2.1.6</module>
