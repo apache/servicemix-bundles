@@ -27,53 +27,31 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.saxon</artifactId>
+    <artifactId>org.apache.servicemix.bundles.jetty-sslengine</artifactId>
+    <version>6.1.11_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
-    <version>9.0_1-SNAPSHOT</version>
     <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${pkgVersion}</name>
     <description>
         This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
     </description>
 
     <properties>
-        <pkgGroupId>net.sf.saxon</pkgGroupId>
-        <pkgArtifactId>saxon</pkgArtifactId>
-        <pkgVersion>9.0</pkgVersion>
-        <servicemix.osgi.export.pkg>net.sf.saxon</servicemix.osgi.export.pkg>
-        <servicemix.osgi.import.pkg>
-            *
-        </servicemix.osgi.import.pkg>
+        <pkgGroupId>org.mortbay.jetty</pkgGroupId>
+        <pkgArtifactId>jetty-sslengine</pkgArtifactId>
+        <pkgVersion>6.1.11</pkgVersion>
+        <servicemix.osgi.export.pkg>
+            org.mortbay.jetty.security*
+        </servicemix.osgi.export.pkg>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
-            <artifactId>saxon</artifactId>
-            <version>${pkgVersion}</version>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>${pkgGroupId}</groupId>
-            <artifactId>saxon-dom</artifactId>
-            <version>${pkgVersion}</version>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>${pkgGroupId}</groupId>
-            <artifactId>saxon-sql</artifactId>
+            <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
     </dependencies>
-
-    <repositories>
-        <!-- ServiceMix repo -->
-        <repository>
-            <id>servicemix</id>
-            <name>Apache ServiceMix Repository</name>
-            <url>http://svn.apache.org/repos/asf/servicemix/m2-repo</url>
-        </repository>
-    </repositories>
 
     <build>
         <plugins>
@@ -89,34 +67,19 @@
                         <configuration>
                             <artifactSet>
                                 <includes>
-                                    <include>${pkgGroupId}:saxon</include>
-                                    <include>${pkgGroupId}:saxon-dom</include>
-                                    <include>${pkgGroupId}:saxon-sql</include>
+                                    <include>${pkgGroupId}:${pkgArtifactId}</include>
                                 </includes>
                             </artifactSet>
                             <filters>
                                 <filter>
-                                    <artifact>${pkgGroupId}:saxon</artifact>
-                                    <excludes>
-                                        <exclude>**</exclude>
-                                    </excludes>
-                                </filter>
-                                <filter>
-                                    <artifact>${pkgGroupId}:saxon-dom</artifact>
-                                    <excludes>
-                                        <exclude>**</exclude>
-                                    </excludes>
-                                </filter>
-                                <filter>
-                                    <artifact>${pkgGroupId}:saxon-sql</artifact>
+                                    <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
                                     <excludes>
                                         <exclude>**</exclude>
                                     </excludes>
                                 </filter>
                             </filters>
                             <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
-                            <createDependencyReducedPom>false</createDependencyReducedPom>
-                            <keepDependenciesWithProvidedScope>true</keepDependenciesWithProvidedScope>
+                            <createDependencyReducedPom>true</createDependencyReducedPom>
                         </configuration>
                     </execution>
                 </executions>
