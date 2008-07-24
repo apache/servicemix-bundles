@@ -62,7 +62,9 @@
         <module>jencks-2.1</module>
         <module>jetty-client-6.1.11</module>
         <module>jetty-sslengine-6.1.11</module>
+        <module>jline-0.9.94</module>
         <module>jsch-0.1.31</module>
+        <module>junit-3.8.2</module>
         <!--
         <module>junit-4.4</module>
         <module>mina-1.1.6</module>
@@ -70,7 +72,7 @@
         <module>oro-2.0.8</module>
         <module>neethi-2.0.4</module>
         <module>saaj-impl-1.3</module>
-        <module>saxon-9.0</module>
+        <module>saxon-9.1.0.1</module>
         <module>woodstox-3.2.6</module>
         <module>wsdl4j-1.6.1</module>
         <module>wss4j-1.5.4</module>
