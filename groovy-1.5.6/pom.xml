@@ -50,6 +50,7 @@
             org.apache.commons.cli*;resolution:=optional,
             org.apache.commons.lang*;resolution:=optional,
             org.apache.tools.ant*;resolution:=optional,
+            !groovy.runtime.metaclass*,
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.export>
