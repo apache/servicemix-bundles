@@ -30,7 +30,7 @@
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.woodstox</artifactId>
     <packaging>bundle</packaging>
-    <version>3.2.6_1-SNAPSHOT</version>
+    <version>3.2.7_1-SNAPSHOT</version>
     <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${pkgVersion}</name>
     <description>
         This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
@@ -39,7 +39,7 @@
     <properties>
         <pkgGroupId>org.codehaus.woodstox</pkgGroupId>
         <pkgArtifactId>woodstox</pkgArtifactId>
-        <pkgVersion>3.2.6</pkgVersion>
+        <pkgVersion>3.2.7</pkgVersion>
         <servicemix.osgi.import.pkg>
             com.sun.msv*;resolution:=optional,
             org.relaxng*;resolution:=optional,
