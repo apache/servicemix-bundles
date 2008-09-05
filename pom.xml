@@ -44,10 +44,8 @@
         <!--
         <module>bundles-pom</module>
         <module>ant-1.7.0</module>
-        -->
         <module>antlr-3.0.1</module>
         <module>antlr-runtime-3.0.1</module>
-        <!--
         <module>aopalliance-1.0</module>
         <module>asm-2.2.3</module>
         <module>cglib-2.1_3</module>
@@ -57,16 +55,20 @@
         <module>commons-io-1.3.2</module>
         -->
         <module>commons-jxpath-1.2</module>
+        <!--
         <module>commons-httpclient-3.1</module>
         <module>commons-net-1.4.1</module>
         <module>drools-4.0.7</module>
         <module>fastinfoset-1.2.2</module>
         <module>groovy-1.5.6</module>
         <module>howl-1.0.1-1</module>
+        -->
         <module>jasper-6.0.14</module>
+        <!--
         <module>jaxb-impl-2.1.6</module>
         <module>jdt-core-3.2.3</module>
         <module>jencks-2.1</module>
+        -->
         <module>jetty-client-6.1.11</module>
         <module>jetty-sslengine-6.1.11</module>
         <module>jline-0.9.94</module>
@@ -75,14 +77,15 @@
         <!--
         <module>junit-4.4</module>
         <module>mina-1.1.6</module>
-        -->
         <module>neethi-2.0.4</module>
         <module>oro-2.0.8</module>
         <module>oscore-2.2.4</module>
         <module>osworkflow-2.7.0</module>
         <module>propertyset-1.3</module>
         <module>quartz-1.5.2</module>
+        -->
         <module>saaj-impl-1.3</module>
+        <!--
         <module>saxon-9.1.0.1</module>
         <module>woodstox-3.2.7</module>
         <module>wsdl4j-1.6.1</module>
@@ -90,6 +93,7 @@
         <module>xmlresolver-1.2</module>
         <module>xmlschema-1.4.2</module>
         <module>xmlsec-1.3.0</module>
+        -->
     </modules>
 
 </project>
