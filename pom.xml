@@ -68,13 +68,11 @@
         <module>jaxb-impl-2.1.6</module>
         <module>jdt-core-3.2.3</module>
         <module>jencks-2.1</module>
-        -->
         <module>jetty-client-6.1.11</module>
         <module>jetty-sslengine-6.1.11</module>
         <module>jline-0.9.94</module>
         <module>jsch-0.1.31</module>
         <module>junit-3.8.2</module>
-        <!--
         <module>junit-4.4</module>
         <module>mina-1.1.6</module>
         <module>neethi-2.0.4</module>
