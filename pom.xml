@@ -68,6 +68,9 @@
         <module>jaxb-impl-2.1.6</module>
         <module>jdt-core-3.2.3</module>
         <module>jencks-2.1</module>
+        -->
+        <module>jetty-bundle-6.1.12rc1</module>
+        <!--
         <module>jetty-client-6.1.11</module>
         <module>jetty-sslengine-6.1.11</module>
         <module>jline-0.9.94</module>
