@@ -33,6 +33,7 @@
     <name>Apache ServiceMix Bundles</name>
 
     <properties>
+        <servicemix.legal.version>1.0</servicemix.legal.version>
         <servicemix.osgi.export>${servicemix.osgi.export.pkg}*;version=${pkgVersion};-split-package:=merge-first</servicemix.osgi.export>
         <servicemix.osgi.export.pkg />
         <servicemix.osgi.import.pkg />
@@ -116,7 +117,7 @@
                                 <artifactItem>
                                     <groupId>org.apache.servicemix.legal</groupId>
                                     <artifactId>legal</artifactId>
-                                    <version>1.0</version>
+                                    <version>${servicemix.legal.version}</version>
                                     <type>xml</type>
                                     <outputDirectory>target/legal/</outputDirectory>
                                 </artifactItem>
@@ -129,7 +130,7 @@
                     <dependency>
                          <groupId>org.apache.servicemix.legal</groupId>
                          <artifactId>legal</artifactId>
-                         <version>1.0</version>
+                         <version>${servicemix.legal.version}</version>
                          <type>xml</type>
                     </dependency>
                 </dependencies>
