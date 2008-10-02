@@ -101,6 +101,7 @@
         <module>jing-20030619</module>
         <module>joda-time-1.5.2</module>
         <module>josql-1.5</module>
+        <module>jsch-0.1.31</module>
         <module>juel-2.1.0</module>
         <module>qpid-1.0-incubating-M2.1</module>
         <module>ognl-2.7.3</module>
