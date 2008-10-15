@@ -42,6 +42,16 @@
         <servicemix.osgi.export.pkg>
             org.apache.commons.vfs*
         </servicemix.osgi.export.pkg>
+        <servicemix.osgi.import.pkg>
+            com.jcraft.jsch*;resolution:=optional,
+            org.apache.avalon.framework.logger*;resolution:=optional,
+            org.apache.commons.collections*;resolution:=optional,
+            org.apache.commons.httpclient*;resolution:=optional,
+            org.apache.commons.net.ftp*;resolution:=optional,
+            org.apache.log4j*;resolution:=optional,
+            org.apache.tools.ant*;resolution:=optional,
+            *
+        </servicemix.osgi.import.pkg>
     </properties>
 
     <dependencies>
