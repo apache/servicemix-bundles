@@ -52,6 +52,15 @@
             <optional>true</optional>
         </dependency>
     </dependencies>
+    
+    <repositories>
+        <!-- ServiceMix repo -->
+        <repository>
+            <id>servicemix</id>
+            <name>Apache ServiceMix Repository</name>
+            <url>http://svn.apache.org/repos/asf/servicemix/m2-repo</url>
+        </repository>
+    </repositories>
 
     <build>
         <plugins>
