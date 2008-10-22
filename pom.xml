@@ -28,7 +28,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.jdom</artifactId>
-    <version>1.1_1-SNAPSHOT</version>
+    <version>1.1_1</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${pkgVersion}</name>
     <description>
@@ -48,7 +48,8 @@
            javax.xml.transform.sax,
            javax.xml.transform.stream,
            oracle.xml.parser;resolution:=optional,
-           oracle.xml.parser.v2;resolution:=optional,           org.apache.xerces.dom;resolution:=optional,
+           oracle.xml.parser.v2;resolution:=optional,
+           org.apache.xerces.dom;resolution:=optional,
            org.apache.xerces.parsers;resolution:=optional,
            org.jaxen;resolution:=optional,
            org.jaxen.jdom;resolution:=optional,
@@ -105,4 +106,10 @@
             </plugin>
         </plugins>
     </build>
+
+  <scm>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.jdom-1.1_1</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.jdom-1.1_1</developerConnection>
+    <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.jdom-1.1_1</url>
+  </scm>
 </project>
