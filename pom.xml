@@ -86,7 +86,6 @@
         <module>xmlresolver-1.2</module>
         <module>xmlschema-1.4.2</module>
         <module>xmlsec-1.3.0</module>
-        -->
         <module>abdera-0.4.0-incubating</module>
         <module>commons-beanutils-1.7.0</module>
         <module>commons-csv-1.0</module>
@@ -99,27 +98,34 @@
         <module>hamcrest-1.1</module>
         <module>ibatis-sqlmap-2.3.4.726</module>
         <module>irclib-1.10</module>
-        <!--
-        <module>jaxp-ri-1.4.2</module>
         -->
+        <module>jaxp-ri-1.4.2</module>
+        <!--
         <module>jcr-api-1.0</module>
         <module>jdom-1.1</module>
         <module>jexcelapi-2.4.2</module>
         <module>jing-20030619</module>
         <module>joda-time-1.5.2</module>
         <module>josql-1.5</module>
+        -->
+        <module>jruby-1.1.2</module>
+        <!--
         <module>jsch-0.1.31</module>
         <module>juel-2.1.0</module>
         <module>qpid-1.0-incubating-M2.1</module>
         <module>ognl-2.7.3</module>
         <module>openjpa-1.2.0</module>
         <module>oscache-2.4</module>
+        -->
+        <module>rhino-1.7-R1</module>
+        <!--
         <module>smack-3.0.4</module>
         <module>velocity-1.5</module>
         <module>werken-xpath-0.9.4</module>
         <module>xmlbeans-2.4.0</module>
         <module>xpp3-1.1.4c</module>
         <module>xstream-1.3</module>
+        -->
     </modules>
 
 </project>
