@@ -27,30 +27,25 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.rhino</artifactId>
-    <version>1.7R1_1-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.bcprov-jdk15</artifactId>
     <packaging>bundle</packaging>
+    <version>140_1-SNAPSHOT</version>
     <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${pkgVersion}</name>
     <description>
         This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
     </description>
 
     <properties>
-        <pkgGroupId>rhino</pkgGroupId>
-        <pkgArtifactId>js</pkgArtifactId>
-        <pkgVersion>1.7R1</pkgVersion>
+        <pkgGroupId>bouncycastle</pkgGroupId>
+        <pkgArtifactId>bcprov-jdk15</pkgArtifactId>
+        <pkgVersion>140</pkgVersion>
+        <servicemix.osgi.export.pkg>
+            org.bouncycastle
+	    </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            javax.swing*;resolution:=optional,
-            javax.xml*;resolution:=optional,
-            org.apache.xmlbeans*;resolution:=optional,
-            org.mozilla*;resolution:=optional,
-            org.w3c*;resolution:=optional,
-            org.xml*;resolution:=optional,
+            junit*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
-        <servicemix.osgi.export>
-            org.mozilla*;version=${pkgVersion};-split-package:=merge-first
-        </servicemix.osgi.export>
     </properties>
 
     <dependencies>
@@ -58,7 +53,6 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
-            <optional>true</optional>
         </dependency>
     </dependencies>
 
