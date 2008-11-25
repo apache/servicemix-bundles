@@ -41,8 +41,8 @@
     <name>Apache ServiceMix Bundles</name>
 
     <modules>
-        <!--
         <module>bundles-pom</module>
+        <!--
         <module>ant-1.7.0</module>
         <module>antlr-3.0.1</module>
         <module>antlr-runtime-3.0.1</module>
