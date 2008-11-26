@@ -98,6 +98,9 @@
         <module>flatpack-3.1.1</module>
         <module>httpcore-4.0-alpha6</module>
         <module>hamcrest-1.1</module>
+-->
+        <module>hamcrest-1.2</module>
+<!--
         <module>ibatis-sqlmap-2.3.4.726</module>
         <module>irclib-1.10</module>
         -->
