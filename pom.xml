@@ -74,6 +74,9 @@
         <module>junit-3.8.2</module>
         <module>junit-4.4</module>
         <module>mina-1.1.6</module>
+        -->
+        <module>mina-1.1.7</module>
+        <!--
         <module>neethi-2.0.4</module>
         <module>oro-2.0.8</module>
         <module>oscore-2.2.4</module>
