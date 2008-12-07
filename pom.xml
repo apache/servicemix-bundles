@@ -68,7 +68,9 @@
         <module>jetty-bundle-6.1.12rc1</module>
         <module>jetty-client-6.1.11</module>
         <module>jetty-sslengine-6.1.11</module>
+        -->
         <module>jline-0.9.94</module>
+        <!--
         <module>jruby-1.1.2</module>
         <module>jsch-0.1.31</module>
         <module>junit-3.8.2</module>
