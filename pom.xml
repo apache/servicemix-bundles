@@ -130,7 +130,7 @@
         <module>oscache-2.4</module>
         -->
         <module>rhino-1.7-R1</module>
-        <module>geronimo-javamail_1.4_provider-1.2</module>
+        <module>geronimo-javamail_1.4_provider</module>
         <!--
         <module>smack-3.0.4</module>
         <module>velocity-1.5</module>
