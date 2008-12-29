@@ -28,7 +28,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.geronimo-javamail_1.4_provider</artifactId>
-    <version>1.5_1-SNAPSHOT</version>
+    <version>1.6_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${pkgVersion}</name>
     <description>
@@ -38,7 +38,7 @@
     <properties>
         <pkgGroupId>org.apache.geronimo.javamail</pkgGroupId>
         <pkgArtifactId>geronimo-javamail_1.4_provider</pkgArtifactId>
-        <pkgVersion>1.5</pkgVersion>
+        <pkgVersion>1.6</pkgVersion>
         <servicemix.osgi.export.pkg>
               org.apache.geronimo.javamail
         </servicemix.osgi.export.pkg>
