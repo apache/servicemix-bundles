@@ -65,7 +65,7 @@
                         <useReleaseProfile>false</useReleaseProfile>
                         <preparationGoals>clean verify install</preparationGoals>
                         <goals>deploy</goals>
-                        <arguments>-Prelease,deploy</arguments>
+                        <arguments>-Prelease,deploy -DaltDeploymentRepository=${deploy.altRepository}</arguments>
                         <autoVersionSubmodules>true</autoVersionSubmodules>
                     </configuration>
                 </plugin>
@@ -175,6 +175,7 @@
                         <artifactId>maven-deploy-plugin</artifactId>
                         <version>2.3</version>
                         <configuration>
+                            <altDeploymentRepository>${deploy.altRepository}</altDeploymentRepository>
                             <updateReleaseInfo>true</updateReleaseInfo>
                         </configuration>
                     </plugin>
