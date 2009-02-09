@@ -21,9 +21,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-	    <groupId>org.apache.servicemix.bundles</groupId>
-	    <artifactId>bundles-pom</artifactId>
-	    <version>3-SNAPSHOT</version>
+      <groupId>org.apache.servicemix.bundles</groupId>
+      <artifactId>bundles-pom</artifactId>
+      <version>3</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -47,7 +47,7 @@
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
             META-INF;-split-package:=merge-first,
-            META-INF.services;-split-package:=merge-first,
+            META-INF.services;-split-package:=merge-first
             META-INF.maven.org.apache.servicemix.bundles*;-split-package:=merge-first
         </servicemix.osgi.private.pkg>
     </properties>
