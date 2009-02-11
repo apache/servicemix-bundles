@@ -41,6 +41,7 @@
         <pkgVersion>1.6.1</pkgVersion>
         <servicemix.osgi.import.pkg>
             javax.ejb*;resolution:=optional,
+            javax.jms*;resolution:=optional,
             javax.mail*;resolution:=optional,
             javax.naming*;resolution:=optional,
             javax.rmi*;resolution:=optional,
