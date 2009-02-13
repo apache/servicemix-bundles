@@ -42,6 +42,9 @@
         <servicemix.osgi.export.pkg>
             jline*
         </servicemix.osgi.export.pkg>
+        <servicemix.osgi.dynamicimport.pkg>
+            *
+        </servicemix.osgi.dynamicimport.pkg>
     </properties>
 
     <dependencies>
