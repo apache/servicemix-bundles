@@ -88,6 +88,7 @@
                                     <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
                                     <excludes>
                                         <exclude>**</exclude>
+                                        <exclude>META-INF/javamail.default.providers</exclude>
                                     </excludes>
                                 </filter>
                             </filters>
