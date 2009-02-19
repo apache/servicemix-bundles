@@ -31,7 +31,7 @@
 # $Rev: 398634 $ $Date: 2006-05-01 12:56:06 -0400 (Mon, 01 May 2006) $
 #
 protocol=smtp; type=transport; class=org.apache.geronimo.javamail.transport.smtp.SMTPTransport; vendor=Apache Software Foundation; version=1.0
-protocol=smtps; type=transport; class=org.apache.geronimo.javamail.transport.smtp.SMTPTSransport; vendor=Apache Software Foundation; version=1.0
+protocol=smtps; type=transport; class=org.apache.geronimo.javamail.transport.smtp.SMTPSTransport; vendor=Apache Software Foundation; version=1.0
 protocol=nntp-post; type=transport; class=org.apache.geronimo.javamail.transport.nntp.NNTPTransport; vendor=Apache Software Foundation; version=1.0
 protocol=nntp-posts; type=transport; class=org.apache.geronimo.javamail.transport.nntp.NNTPSSLTransport; vendor=Apache Software Foundation; version=1.0
 protocol=nntp; type=store; class=org.apache.geronimo.javamail.store.nntp.NNTPStore; vendor=Apache Software Foundation; version=1.0
