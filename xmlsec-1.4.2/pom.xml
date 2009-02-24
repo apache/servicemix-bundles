@@ -39,7 +39,7 @@
         <pkgGroupId>org.apache.santuario</pkgGroupId>
         <pkgArtifactId>xmlsec</pkgArtifactId>
         <pkgVersion>1.4.2</pkgVersion>
-        <servicemix.osgi.export.pkg>org.apache.xml.security,javax.xml.crypto</servicemix.osgi.export.pkg>
+        <servicemix.osgi.export.pkg>org.apache.xml.security*,org.jcp.xml*,javax.xml.crypto*</servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             *
         </servicemix.osgi.import.pkg>
