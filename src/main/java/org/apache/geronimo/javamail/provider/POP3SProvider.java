@@ -18,13 +18,14 @@ package org.apache.geronimo.javamail.provider;
 
 import javax.mail.Provider;
 
-public class SMTPProvider extends Provider {
+public class POP3SProvider extends Provider {
 
-    public SMTPProvider() {
-        super(Type.TRANSPORT,
-                "smtp",
-                "org.apache.geronimo.javamail.transport.smtp.SMTPTransport",
+    public POP3SProvider() {
+        super(Type.STORE,
+                "pop3s",
+                "org.apache.geronimo.javamail.store.pop3.POP3SSLStore",
                 "Apache Software Foundation",
                 "1.0");
     }
+
 }

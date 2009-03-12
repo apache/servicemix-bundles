@@ -19,12 +19,13 @@ package org.apache.geronimo.javamail.provider;
 import javax.mail.Provider;
 
 public class NNTPPostProvider extends Provider {
-	public NNTPPostProvider() {
-		super(Type.TRANSPORT, 
-				  "nntp-post", 
-				  "org.apache.geronimo.javamail.transport.nntp.NNTPTransport",
-				  "Apache Software Foundation",
-				  "1.0");
-	}
-	
+
+    public NNTPPostProvider() {
+        super(Type.TRANSPORT,
+                "nntp-post",
+                "org.apache.geronimo.javamail.transport.nntp.NNTPTransport",
+                "Apache Software Foundation",
+                "1.0");
+    }
+
 }

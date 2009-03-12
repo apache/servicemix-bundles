@@ -18,13 +18,14 @@ package org.apache.geronimo.javamail.provider;
 
 import javax.mail.Provider;
 
-public class SMTPProvider extends Provider {
+public class NNTPPostSProvider extends Provider {
 
-    public SMTPProvider() {
+    public NNTPPostSProvider() {
         super(Type.TRANSPORT,
-                "smtp",
-                "org.apache.geronimo.javamail.transport.smtp.SMTPTransport",
+                "nntp-posts",
+                "org.apache.geronimo.javamail.transport.nntp.NNTPSSLTransport",
                 "Apache Software Foundation",
                 "1.0");
     }
+
 }
