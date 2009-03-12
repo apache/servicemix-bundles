@@ -18,15 +18,14 @@ package org.apache.geronimo.javamail.provider;
 
 import javax.mail.Provider;
 
-
 public class IMAPSProvider extends Provider {
-        
-        public IMAPSProvider() {
-                super(Type.STORE, 
-                                  "imaps", 
-                                  "org.apache.geronimo.javamail.store.imap.IMAPSSLStore",
-                                  "Apache Software Foundation",
-                                  "1.0");
-        }
+
+    public IMAPSProvider() {
+        super(Type.STORE,
+                "imaps",
+                "org.apache.geronimo.javamail.store.imap.IMAPSSLStore",
+                "Apache Software Foundation",
+                "1.0");
+    }
 
 }

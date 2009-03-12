@@ -19,11 +19,12 @@ package org.apache.geronimo.javamail.provider;
 import javax.mail.Provider;
 
 public class NNTPProvider extends Provider {
-	public NNTPProvider() {
-		super(Type.STORE, 
-				  "nntp", 
-				  "org.apache.geronimo.javamail.store.nntp.NNTPStore",
-				  "Apache Software Foundation",
-				  "1.0");
-	}
+
+    public NNTPProvider() {
+        super(Type.STORE,
+                "nntp",
+                "org.apache.geronimo.javamail.store.nntp.NNTPStore",
+                "Apache Software Foundation",
+                "1.0");
+    }
 }

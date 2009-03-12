@@ -21,11 +21,11 @@ import javax.mail.Provider;
 
 public class SMTPSProvider extends Provider {
 
-	public SMTPSProvider() {
-		super(Type.TRANSPORT, 
-			  "smtps", 
-			  "org.apache.geronimo.javamail.transport.smtp.SMTPSTransport",
-			  "Apache Software Foundation",
-			  "1.0");
-	}
+    public SMTPSProvider() {
+        super(Type.TRANSPORT,
+                "smtps",
+                "org.apache.geronimo.javamail.transport.smtp.SMTPSTransport",
+                "Apache Software Foundation",
+                "1.0");
+    }
 }
