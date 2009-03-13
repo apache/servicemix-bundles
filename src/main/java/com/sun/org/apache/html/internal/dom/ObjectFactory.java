@@ -1,13 +1,12 @@
 /*
- * Licensed to the Apache Software Foundation (ASF) under one
- * or more contributor license agreements. See the NOTICE file
- * distributed with this work for additional information
- * regarding copyright ownership. The ASF licenses this file
- * to you under the Apache License, Version 2.0 (the  "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
  *
- *     http://www.apache.org/licenses/LICENSE-2.0
+ *      http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -15,20 +14,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-/*
- * $Id$
- */
 
-package com.sun.org.apache.xalan.internal.xsltc.trax;
+package com.sun.org.apache.html.internal.dom;
 
-import java.io.InputStream;
-import java.io.IOException;
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
-
-import java.util.Properties;
-import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.Properties;
 
 /**
  * This class is duplicated for each JAXP subpackage so keep it in sync.
@@ -37,47 +32,48 @@ import java.io.InputStreamReader;
  * <p>
  * This code is designed to implement the JAXP 1.1 spec pluggability
  * feature and is designed to run on JDK version 1.1 and
- * later, and to compile on JDK 1.2 and onward.  
+ * later, and to compile on JDK 1.2 and onward.
  * The code also runs both as part of an unbundled jar file and
  * when bundled as part of the JDK.
  * <p>
- * This class was moved from the <code>javax.xml.parsers.ObjectFactory</code>
- * class and modified to be used as a general utility for creating objects 
- * dynamically.
+ *
+ * @xerces.internal
  *
  * @version $Id$
  */
-class ObjectFactory {
+final class ObjectFactory {
 
     //
     // Constants
     //
 
     // name of default properties file to look for in JDK's jre/lib directory
-    private static final String DEFAULT_PROPERTIES_FILENAME =
-                                                     "xalan.properties";
-
-    private static final String SERVICES_PATH = "META-INF/services/";
+    private static final String DEFAULT_PROPERTIES_FILENAME = "xerces.properties";
 
     /** Set to true for debugging */
     private static final boolean DEBUG = false;
 
-    /** cache the contents of the xalan.properties file.
+    /**
+     * Default columns per line.
+     */
+    private static final int DEFAULT_LINE_LENGTH = 80;
+
+    /** cache the contents of the xerces.properties file.
      *  Until an attempt has been made to read this file, this will
      * be null; if the file does not exist or we encounter some other error
      * during the read, this will be empty.
      */
-    private static Properties fXalanProperties = null;
+    private static Properties fXercesProperties = null;
 
     /***
-     * Cache the time stamp of the xalan.properties file so
+     * Cache the time stamp of the xerces.properties file so
      * that we know if it's been modified and can invalidate
      * the cache when necessary.
      */
     private static long fLastModified = -1;
 
     //
-    // Public static methods
+    // static methods
     //
 
     /**
@@ -89,7 +85,7 @@ class ObjectFactory {
      *  <li>use fallback classname
      * </ol>
      *
-     * @return instance of factory, never null
+     * @return Class object of factory, never null
      *
      * @param factoryId             Name of the factory to find, same as
      *                              a property name
@@ -113,177 +109,54 @@ class ObjectFactory {
      *  <li>use fallback classname
      * </ol>
      *
-     * @return instance of factory, never null
-     *
-     * @param factoryId             Name of the factory to find, same as
-     *                              a property name
-     * @param propertiesFilename The filename in the $java.home/lib directory
-     *                           of the properties file.  If none specified,
-     *                           ${java.home}/lib/xalan.properties will be used.
-     * @param fallbackClassName     Implementation class name, if nothing else
-     *                              is found.  Use null to mean no fallback.
-     *
-     * @exception ObjectFactory.ConfigurationError
-     */
-    static Object createObject(String factoryId, 
-                                      String propertiesFilename,
-                                      String fallbackClassName)
-        throws ConfigurationError
-    {
-        Class factoryClass = lookUpFactoryClass(factoryId,
-                                                propertiesFilename,
-                                                fallbackClassName);
-
-        if (factoryClass == null) {
-            throw new ConfigurationError(
-                "Provider for " + factoryId + " cannot be found", null);
-        }
-
-        try{
-            Object instance = factoryClass.newInstance();
-            debugPrintln("created new instance of factory " + factoryId);
-            return instance;
-        } catch (Exception x) {
-            throw new ConfigurationError(
-                "Provider for factory " + factoryId
-                    + " could not be instantiated: " + x, x);
-        }
-    } // createObject(String,String,String):Object
-
-    /**
-     * Finds the implementation Class object in the specified order.  The
-     * specified order is the following:
-     * <ol>
-     *  <li>query the system property using <code>System.getProperty</code>
-     *  <li>read <code>$java.home/lib/<i>propertiesFilename</i></code> file
-     *  <li>read <code>META-INF/services/<i>factoryId</i></code> file
-     *  <li>use fallback classname
-     * </ol>
-     *
      * @return Class object of factory, never null
      *
      * @param factoryId             Name of the factory to find, same as
      *                              a property name
-     *
-     * @exception ObjectFactory.ConfigurationError
-     */
-    static Class lookUpFactoryClass(String factoryId) 
-        throws ConfigurationError
-    {
-        return lookUpFactoryClass(factoryId, null, null);
-    } // lookUpFactoryClass(String):Class
-
-    /**
-     * Finds the implementation Class object in the specified order.  The
-     * specified order is the following:
-     * <ol>
-     *  <li>query the system property using <code>System.getProperty</code>
-     *  <li>read <code>$java.home/lib/<i>propertiesFilename</i></code> file
-     *  <li>read <code>META-INF/services/<i>factoryId</i></code> file
-     *  <li>use fallback classname
-     * </ol>
-     *
-     * @return Class object that provides factory service, never null
-     *
-     * @param factoryId             Name of the factory to find, same as
-     *                              a property name
      * @param propertiesFilename The filename in the $java.home/lib directory
      *                           of the properties file.  If none specified,
-     *                           ${java.home}/lib/xalan.properties will be used.
+     *                           ${java.home}/lib/xerces.properties will be used.
      * @param fallbackClassName     Implementation class name, if nothing else
      *                              is found.  Use null to mean no fallback.
      *
      * @exception ObjectFactory.ConfigurationError
      */
-    static Class lookUpFactoryClass(String factoryId,
-                                           String propertiesFilename,
-                                           String fallbackClassName)
+    static Object createObject(String factoryId,
+                                      String propertiesFilename,
+                                      String fallbackClassName)
         throws ConfigurationError
     {
-        String factoryClassName = lookUpFactoryClassName(factoryId,
-                                                         propertiesFilename,
-                                                         fallbackClassName);
+        if (DEBUG) debugPrintln("debug is on");
+
         ClassLoader cl = findClassLoader();
-
-        if (factoryClassName == null) {
-            factoryClassName = fallbackClassName;
-        }
-
-        // assert(className != null);
-        try{
-            Class providerClass = findProviderClass(factoryClassName,
-                                                    cl,
-                                                    true);
-            debugPrintln("created new instance of " + providerClass +
-                   " using ClassLoader: " + cl);
-            return providerClass;
-        } catch (ClassNotFoundException x) {
-            throw new ConfigurationError(
-                "Provider " + factoryClassName + " not found", x);
-        } catch (Exception x) {
-            throw new ConfigurationError(
-                "Provider "+factoryClassName+" could not be instantiated: "+x,
-                x);
-        }
-    } // lookUpFactoryClass(String,String,String):Class
-
-    /**
-     * Finds the name of the required implementation class in the specified
-     * order.  The specified order is the following:
-     * <ol>
-     *  <li>query the system property using <code>System.getProperty</code>
-     *  <li>read <code>$java.home/lib/<i>propertiesFilename</i></code> file
-     *  <li>read <code>META-INF/services/<i>factoryId</i></code> file
-     *  <li>use fallback classname
-     * </ol>
-     *
-     * @return name of class that provides factory service, never null
-     *
-     * @param factoryId             Name of the factory to find, same as
-     *                              a property name
-     * @param propertiesFilename The filename in the $java.home/lib directory
-     *                           of the properties file.  If none specified,
-     *                           ${java.home}/lib/xalan.properties will be used.
-     * @param fallbackClassName     Implementation class name, if nothing else
-     *                              is found.  Use null to mean no fallback.
-     *
-     * @exception ObjectFactory.ConfigurationError
-     */
-    static String lookUpFactoryClassName(String factoryId,
-                                                String propertiesFilename,
-                                                String fallbackClassName)
-    {
-        SecuritySupport ss = SecuritySupport.getInstance();
 
         // Use the system property first
         try {
-            String systemProp = ss.getSystemProperty(factoryId);
-            if (systemProp != null) {
-                debugPrintln("found system property, value=" + systemProp);
-                return systemProp;
+            String systemProp = SecuritySupport.getInstance().getSystemProperty(factoryId);
+            if (systemProp != null && systemProp.length() > 0) {
+                if (DEBUG) debugPrintln("found system property, value=" + systemProp);
+                return newInstance(systemProp, cl, true);
             }
         } catch (SecurityException se) {
             // Ignore and continue w/ next location
         }
 
-        // Try to read from propertiesFilename, or
-        // $java.home/lib/xalan.properties
+        // Try to read from propertiesFilename, or $java.home/lib/xerces.properties
         String factoryClassName = null;
-        // no properties file name specified; use
-        // $JAVA_HOME/lib/xalan.properties:
+        // no properties file name specified; use $JAVA_HOME/lib/xerces.properties:
         if (propertiesFilename == null) {
             File propertiesFile = null;
             boolean propertiesFileExists = false;
             try {
-                String javah = ss.getSystemProperty("java.home");
+                String javah = SecuritySupport.getInstance().getSystemProperty("java.home");
                 propertiesFilename = javah + File.separator +
                     "lib" + File.separator + DEFAULT_PROPERTIES_FILENAME;
                 propertiesFile = new File(propertiesFilename);
-                propertiesFileExists = ss.getFileExists(propertiesFile);
+                propertiesFileExists = SecuritySupport.getInstance().getFileExists(propertiesFile);
             } catch (SecurityException e) {
                 // try again...
                 fLastModified = -1;
-                fXalanProperties = null;
+                fXercesProperties = null;
             }
 
             synchronized (ObjectFactory.class) {
@@ -293,36 +166,35 @@ class ObjectFactory {
                     // file existed last time
                     if(fLastModified >= 0) {
                         if(propertiesFileExists &&
-                                (fLastModified < (fLastModified = ss.getLastModified(propertiesFile)))) {
+                                (fLastModified < (fLastModified = SecuritySupport.getInstance().getLastModified(propertiesFile)))) {
                             loadProperties = true;
                         } else {
                             // file has stopped existing...
                             if(!propertiesFileExists) {
                                 fLastModified = -1;
-                                fXalanProperties = null;
+                                fXercesProperties = null;
                             } // else, file wasn't modified!
                         }
                     } else {
                         // file has started to exist:
                         if(propertiesFileExists) {
                             loadProperties = true;
-                            fLastModified = ss.getLastModified(propertiesFile);
+                            fLastModified = SecuritySupport.getInstance().getLastModified(propertiesFile);
                         } // else, nothing's changed
                     }
                     if(loadProperties) {
-                        // must never have attempted to read xalan.properties
-                        // before (or it's outdeated)
-                        fXalanProperties = new Properties();
-                        fis = ss.getFileInputStream(propertiesFile);
-                        fXalanProperties.load(fis);
+                        // must never have attempted to read xerces.properties before (or it's outdeated)
+                        fXercesProperties = new Properties();
+                        fis = SecuritySupport.getInstance().getFileInputStream(propertiesFile);
+                        fXercesProperties.load(fis);
                     }
-	        } catch (Exception x) {
-	            fXalanProperties = null;
-	            fLastModified = -1;
+                } catch (Exception x) {
+                    fXercesProperties = null;
+                    fLastModified = -1;
                     // assert(x instanceof FileNotFoundException
-	            //        || x instanceof SecurityException)
-	            // In both cases, ignore and continue w/ next location
-	        }
+                    //        || x instanceof SecurityException)
+                    // In both cases, ignore and continue w/ next location
+                }
                 finally {
                     // try to close the input stream if one was opened.
                     if (fis != null) {
@@ -332,15 +204,15 @@ class ObjectFactory {
                         // Ignore the exception.
                         catch (IOException exc) {}
                     }
-                }	            
+                }
             }
-            if(fXalanProperties != null) {
-                factoryClassName = fXalanProperties.getProperty(factoryId);
+            if(fXercesProperties != null) {
+                factoryClassName = fXercesProperties.getProperty(factoryId);
             }
         } else {
             FileInputStream fis = null;
             try {
-                fis = ss.getFileInputStream(new File(propertiesFilename));
+                fis = SecuritySupport.getInstance().getFileInputStream(new File(propertiesFilename));
                 Properties props = new Properties();
                 props.load(fis);
                 factoryClassName = props.getProperty(factoryId);
@@ -358,17 +230,27 @@ class ObjectFactory {
                     // Ignore the exception.
                     catch (IOException exc) {}
                 }
-            }               
+            }
         }
         if (factoryClassName != null) {
-            debugPrintln("found in " + propertiesFilename + ", value="
-                          + factoryClassName);
-            return factoryClassName;
+            if (DEBUG) debugPrintln("found in " + propertiesFilename + ", value=" + factoryClassName);
+            return newInstance(factoryClassName, cl, true);
         }
 
         // Try Jar Service Provider Mechanism
-        return findJarServiceProviderName(factoryId);
-    } // lookUpFactoryClass(String,String):String
+        Object provider = findJarServiceProvider(factoryId);
+        if (provider != null) {
+            return provider;
+        }
+
+        if (fallbackClassName == null) {
+            throw new ConfigurationError(
+                "Provider for " + factoryId + " cannot be found", null);
+        }
+
+        if (DEBUG) debugPrintln("using fallback, value=" + fallbackClassName);
+        return newInstance(fallbackClassName, cl, true);
+    } // createObject(String,String,String):Object
 
     //
     // Private static methods
@@ -387,17 +269,15 @@ class ObjectFactory {
      */
     static ClassLoader findClassLoader()
         throws ConfigurationError
-    { 
+    {
         // Now we just return the ClassLoader which loads this class
         // to work in OSGI platform
         return ObjectFactory.class.getClassLoader();
         /*
-        SecuritySupport ss = SecuritySupport.getInstance();
-
         // Figure out which ClassLoader to use for loading the provider
         // class.  If there is a Context ClassLoader then use it.
-        ClassLoader context = ss.getContextClassLoader();
-        ClassLoader system = ss.getSystemClassLoader();
+        ClassLoader context = SecuritySupport.getInstance().getContextClassLoader();
+        ClassLoader system = SecuritySupport.getInstance().getSystemClassLoader();
 
         ClassLoader chain = system;
         while (true) {
@@ -405,7 +285,7 @@ class ObjectFactory {
                 // Assert: we are on JDK 1.1 or we have no Context ClassLoader
                 // or any Context ClassLoader in chain of system classloader
                 // (including extension ClassLoader) so extend to widest
-                // ClassLoader (always look in system ClassLoader if Xalan
+                // ClassLoader (always look in system ClassLoader if Xerces
                 // is in boot/extension/system classpath and in current
                 // ClassLoader otherwise); normal classloaders delegate
                 // back to system ClassLoader first so this widening doesn't
@@ -422,7 +302,7 @@ class ObjectFactory {
                     if (chain == null) {
                         break;
                     }
-                    chain = ss.getParentClassLoader(chain);
+                    chain = SecuritySupport.getInstance().getParentClassLoader(chain);
                 }
 
                 // Assert: Current ClassLoader not in chain of
@@ -437,18 +317,18 @@ class ObjectFactory {
 
             // Check for any extension ClassLoaders in chain up to
             // boot ClassLoader
-            chain = ss.getParentClassLoader(chain);
+            chain = SecuritySupport.getInstance().getParentClassLoader(chain);
         };
 
         // Assert: Context ClassLoader not in chain of
         // boot/extension/system ClassLoaders
         return context;
-    */
+        */
     } // findClassLoader():ClassLoader
 
     /**
      * Create an instance of a class using the specified ClassLoader
-     */ 
+     */
     static Object newInstance(String className, ClassLoader cl,
                                       boolean doFallback)
         throws ConfigurationError
@@ -457,7 +337,7 @@ class ObjectFactory {
         try{
             Class providerClass = findProviderClass(className, cl, doFallback);
             Object instance = providerClass.newInstance();
-            debugPrintln("created new instance of " + providerClass +
+            if (DEBUG) debugPrintln("created new instance of " + providerClass +
                    " using ClassLoader: " + cl);
             return instance;
         } catch (ClassNotFoundException x) {
@@ -472,25 +352,20 @@ class ObjectFactory {
 
     /**
      * Find a Class using the specified ClassLoader
-     */ 
+     */
     static Class findProviderClass(String className, ClassLoader cl,
-                                           boolean doFallback)
+                                      boolean doFallback)
         throws ClassNotFoundException, ConfigurationError
-    {   
-        //throw security exception if the calling thread is not allowed to access the
-        //class. Restrict the access to the package classes as specified in java.security policy.
+    {
+        //throw security exception if the calling thread is not allowed to access the package
+        //restrict the access to package as speicified in java.security policy
         SecurityManager security = System.getSecurityManager();
-        try{
-                if (security != null){
-                    final int lastDot = className.lastIndexOf(".");
-                    String packageName = className;
-                    if (lastDot != -1) packageName = className.substring(0, lastDot);
-                    security.checkPackageAccess(packageName);
-                 }   
-        }catch(SecurityException e){
-            throw e;
+        if (security != null) {
+            final int lastDot = className.lastIndexOf(".");
+            String packageName = className;
+            if (lastDot != -1) packageName = className.substring(0, lastDot);
+            security.checkPackageAccess(packageName);
         }
-        
         Class providerClass;
         if (cl == null) {
             // XXX Use the bootstrap ClassLoader.  There is no way to
@@ -527,28 +402,28 @@ class ObjectFactory {
         return providerClass;
     }
 
-    /**
-     * Find the name of service provider using Jar Service Provider Mechanism
+    /*
+     * Try to find provider using Jar Service Provider Mechanism
      *
      * @return instance of provider class if found or null
      */
-    private static String findJarServiceProviderName(String factoryId)
+    private static Object findJarServiceProvider(String factoryId)
+        throws ConfigurationError
     {
-        SecuritySupport ss = SecuritySupport.getInstance();
-        String serviceId = SERVICES_PATH + factoryId;
+        String serviceId = "META-INF/services/" + factoryId;
         InputStream is = null;
 
         // First try the Context ClassLoader
         ClassLoader cl = findClassLoader();
 
-        is = ss.getResourceAsStream(cl, serviceId);
+        is = SecuritySupport.getInstance().getResourceAsStream(cl, serviceId);
 
         // If no provider found then try the current ClassLoader
         if (is == null) {
             ClassLoader current = ObjectFactory.class.getClassLoader();
             if (cl != current) {
                 cl = current;
-                is = ss.getResourceAsStream(cl, serviceId);
+                is = SecuritySupport.getInstance().getResourceAsStream(cl, serviceId);
             }
         }
 
@@ -557,7 +432,7 @@ class ObjectFactory {
             return null;
         }
 
-        debugPrintln("found jar resource=" + serviceId +
+        if (DEBUG) debugPrintln("found jar resource=" + serviceId +
                " using ClassLoader: " + cl);
 
         // Read the service provider name in UTF-8 as specified in
@@ -578,11 +453,11 @@ class ObjectFactory {
         // jkesselm]
         BufferedReader rd;
         try {
-            rd = new BufferedReader(new InputStreamReader(is, "UTF-8"));
+            rd = new BufferedReader(new InputStreamReader(is, "UTF-8"), DEFAULT_LINE_LENGTH);
         } catch (java.io.UnsupportedEncodingException e) {
-            rd = new BufferedReader(new InputStreamReader(is));
+            rd = new BufferedReader(new InputStreamReader(is), DEFAULT_LINE_LENGTH);
         }
-        
+
         String factoryClassName = null;
         try {
             // XXX Does not handle all possible input as specified by the
@@ -599,18 +474,18 @@ class ObjectFactory {
             }
             // Ignore the exception.
             catch (IOException exc) {}
-        }          
+        }
 
         if (factoryClassName != null &&
             ! "".equals(factoryClassName)) {
-            debugPrintln("found in resource, value="
+            if (DEBUG) debugPrintln("found in resource, value="
                    + factoryClassName);
 
             // Note: here we do not want to fall back to the current
             // ClassLoader because we want to avoid the case where the
             // resource file was found using one ClassLoader and the
             // provider class was instantiated using a different one.
-            return factoryClassName;
+            return newInstance(factoryClassName, cl, false);
         }
 
         // No provider found
@@ -624,9 +499,12 @@ class ObjectFactory {
     /**
      * A configuration error.
      */
-    static class ConfigurationError 
+    static final class ConfigurationError
         extends Error {
-                static final long serialVersionUID = -1877553852268428278L;
+
+        /** Serialization version. */
+        static final long serialVersionUID = 2646822752226280048L;
+
         //
         // Data
         //
@@ -648,7 +526,7 @@ class ObjectFactory {
         } // <init>(String,Exception)
 
         //
-        // Public methods
+        // methods
         //
 
         /** Returns the exception associated to this error. */
