@@ -133,6 +133,9 @@
         <module>geronimo-javamail_1.4_provider</module>
         <!--
         <module>smack-3.0.4</module>
+        -->
+        <module>stringtemplate-3.2</module>
+        <!--
         <module>velocity-1.5</module>
         <module>werken-xpath-0.9.4</module>
         <module>xmlbeans-2.4.0</module>
