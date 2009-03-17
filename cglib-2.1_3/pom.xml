@@ -39,7 +39,7 @@
         <pkgGroupId>cglib</pkgGroupId>
         <pkgArtifactId>cglib</pkgArtifactId>
         <pkgVersion>2.1_3</pkgVersion>
-        <servicemix.osgi.export.pkg>net.sf.cglib</servicemix.osgi.export.pkg>
+        <servicemix.osgi.export.pkg>net.sf.cglib*;version="2.1.3",</servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             net.sf.cglib.asm.util;resolution:=optional,
             org.apache.tools.ant*;resolution:=optional,
