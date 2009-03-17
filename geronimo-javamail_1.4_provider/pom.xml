@@ -35,10 +35,25 @@
         This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
     </description>
 
+    <repositories>
+       <!-- ServiceMix repo -->
+       <repository>
+           <id>servicemix</id>
+           <name>Apache ServiceMix Repository</name>
+           <url>http://svn.apache.org/repos/asf/servicemix/m2-repo</url>
+           <releases>
+               <enabled>true</enabled>
+           </releases>
+           <snapshots>     
+               <enabled>true</enabled>
+           </snapshots>     
+       </repository>
+    </repositories>
+
     <properties>
         <pkgGroupId>org.apache.geronimo.javamail</pkgGroupId>
         <pkgArtifactId>geronimo-javamail_1.4_provider</pkgArtifactId>
-        <pkgVersion>1.6</pkgVersion>
+        <pkgVersion>1.8-r755222</pkgVersion>
         <servicemix.osgi.export.pkg>
               org.apache.geronimo.javamail
         </servicemix.osgi.export.pkg>
