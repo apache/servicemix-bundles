@@ -75,6 +75,9 @@
         <!--
         <module>jruby-1.1.2</module>
         <module>jsch-0.1.31</module>
+        -->
+        <module>jsmpp-2.0</module>
+        <!--
         <module>junit-3.8.2</module>
         <module>junit-4.4</module>
         <module>mina-1.1.6</module>
@@ -140,6 +143,7 @@
         <module>werken-xpath-0.9.4</module>
         <module>xmlbeans-2.4.0</module>
         -->
+        <module>xmlschema-1.4.3</module>
         <module>xmlsec-1.4.2</module>
         <!--
         <module>xpp3-1.1.4c</module>
