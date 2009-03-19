@@ -28,7 +28,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.xmlschema</artifactId>
-    <version>1.4.2_2-SNAPSHOT</version>
+    <version>1.4.3_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${pkgVersion}</name>
     <description>
@@ -37,7 +37,7 @@
 
     <properties>
         <pkgArtifactId>xmlschema</pkgArtifactId>
-        <pkgVersion>1.4.2</pkgVersion>
+        <pkgVersion>1.4.3</pkgVersion>
         <servicemix.osgi.export.pkg>org.apache.ws.commons.schema</servicemix.osgi.export.pkg>
         <servicemix.osgi.private.pkg />
     </properties>
