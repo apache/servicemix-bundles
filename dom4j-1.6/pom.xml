@@ -51,6 +51,8 @@
             org.jaxen.pattern;resolution:=optional,
             org.jaxen.saxpath;resolution:=optional,
             org.relaxng.datatype;resolution:=optional,
+            org.relaxng.datatype;resolution:=optional,
+            org.xmlpull.v1;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
     </properties>
