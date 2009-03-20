@@ -28,7 +28,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.geronimo-javamail_1.4_provider</artifactId>
-    <version>1.8-r755222_1-SNAPSHOT</version>
+    <version>1.8-r755222_1</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${pkgVersion}</name>
     <description>
@@ -115,4 +115,10 @@
             </plugin>
         </plugins>
     </build>
+
+  <scm>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.geronimo-javamail_1.4_provider-1.8-r755222_1</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.geronimo-javamail_1.4_provider-1.8-r755222_1</developerConnection>
+    <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.geronimo-javamail_1.4_provider-1.8-r755222_1</url>
+  </scm>
 </project>
