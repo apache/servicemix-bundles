@@ -39,14 +39,17 @@
         <pkgGroupId>org.apache.xmlbeans</pkgGroupId>
         <pkgArtifactId>xmlbeans</pkgArtifactId>
         <pkgVersion>2.4.0</pkgVersion>
-        <servicemix.osgi.export.pkg>
+        <servicemix.osgi.export>
             !repackage,
-            org.apache.xmlbeans*
-        </servicemix.osgi.export.pkg>
+            org.apache.xmlbeans*;version=${pkgVersion},
+            schemaorg_apache_xmlbeans*;version=${pkgVersion}
+        </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
             !repackage,
+            !org.apache.xml.resolver*,
             com.sun.javadoc;resolution:=optional,
             com.sun.tools.javadoc;resolution:=optional,
+            org.apache.tools.ant*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
     </properties>
