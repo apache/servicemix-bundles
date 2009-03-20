@@ -39,9 +39,10 @@
         <pkgGroupId>commons-dbcp</pkgGroupId>
         <pkgArtifactId>commons-dbcp</pkgArtifactId>
         <pkgVersion>1.2.2</pkgVersion>
-        <servicemix.osgi.export.pkg>
-            org.apache.commons*
-        </servicemix.osgi.export.pkg>
+        <servicemix.osgi.export>
+            org.apache.commons.dbcp*;version=${pkgVersion},
+            org.apache.commons.jocl*;version=${pkgVersion}
+        </servicemix.osgi.export>
     </properties>
 
     <dependencies>
