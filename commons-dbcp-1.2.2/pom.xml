@@ -42,7 +42,6 @@
         <servicemix.osgi.export.pkg>
             org.apache.commons*
         </servicemix.osgi.export.pkg>
-        <servicemix.osgi.dynamicimport.pkg>*</servicemix.osgi.dynamicimport.pkg>
     </properties>
 
     <dependencies>
