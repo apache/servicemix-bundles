@@ -28,7 +28,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.xmlbeans</artifactId>
-    <version>2.4.0_2-SNAPSHOT</version>
+    <version>2.4.0_2</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${pkgVersion}</name>
     <description>
@@ -39,14 +39,17 @@
         <pkgGroupId>org.apache.xmlbeans</pkgGroupId>
         <pkgArtifactId>xmlbeans</pkgArtifactId>
         <pkgVersion>2.4.0</pkgVersion>
-        <servicemix.osgi.export.pkg>
+        <servicemix.osgi.export>
             !repackage,
-            org.apache.xmlbeans*
-        </servicemix.osgi.export.pkg>
+            org.apache.xmlbeans*;version=${pkgVersion},
+            schemaorg_apache_xmlbeans*;version=${pkgVersion}
+        </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
             !repackage,
+            !org.apache.xml.resolver*,
             com.sun.javadoc;resolution:=optional,
             com.sun.tools.javadoc;resolution:=optional,
+            org.apache.tools.ant*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
     </properties>
@@ -93,4 +96,10 @@
             </plugin>
         </plugins>
     </build>
+
+  <scm>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.xmlbeans-2.4.0_2</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.xmlbeans-2.4.0_2</developerConnection>
+    <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.xmlbeans-2.4.0_2</url>
+  </scm>
 </project>
