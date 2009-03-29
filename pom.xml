@@ -144,6 +144,9 @@
         <module>xmlbeans-2.4.0</module>
         -->
         <module>xmlschema-1.4.3</module>
+        <module>xalan-2.7.1</module>
+        <module>xalan-serializer-2.7.1</module>
+        <module>xerces-2.9.1</module>
         <module>xmlsec-1.4.2</module>
         <!--
         <module>xpp3-1.1.4c</module>
