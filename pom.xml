@@ -111,6 +111,9 @@
         <module>httpcore-4.0-alpha6</module>
         <module>hamcrest-1.1</module>
         <module>hamcrest-1.2</module>
+        -->
+        <module>hapi-0.5.1</module>
+        <!--
         <module>ibatis-sqlmap-2.3.4.726</module>
         <module>irclib-1.10</module>
         <module>isorelax-20050913</module>
@@ -125,6 +128,9 @@
         <module>jruby-1.1.2</module>
         <module>jsch-0.1.31</module>
         <module>juel-2.1.0</module>
+        -->
+        <module>mvel-2.0.8</module>
+        <!--
         <module>qpid-1.0-incubating-M2.1</module>
         <module>ognl-2.7.3</module>
         <module>openjpa-1.2.0</module>
@@ -132,6 +138,9 @@
         <module>rhino-1.7-R1</module>
         <module>smack-3.0.4</module>
         <module>stringtemplate-3.2</module>
+        -->
+        <module>tagsoup-1.2</module>
+        <!--
         <module>velocity-1.5</module>
         <module>werken-xpath-0.9.4</module>
         <module>xmlbeans-2.4.0</module>

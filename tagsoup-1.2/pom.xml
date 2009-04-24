@@ -27,8 +27,8 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.freemarker</artifactId>
-    <version>2.3.15_1-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.tagsoup</artifactId>
+    <version>1.2_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${pkgVersion}</name>
     <description>
@@ -36,21 +36,14 @@
     </description>
 
     <properties>
-        <pkgGroupId>org.freemarker</pkgGroupId>
-        <pkgArtifactId>freemarker</pkgArtifactId>
-        <pkgVersion>2.3.15</pkgVersion>
+        <pkgGroupId>org.ccil.cowan.tagsoup</pkgGroupId>
+        <pkgArtifactId>tagsoup</pkgArtifactId>
+        <pkgVersion>1.2</pkgVersion>
         <servicemix.osgi.import.pkg>
-            org.apache.log;resolution:=optional,
-            org.apache.xml.utils;resolution:=optional,
-            org.apache.xpath*;resolution:=optional,
-            org.jaxen*;resolution:=optional,
-            org.mozilla.javascript;resolution:=optional,
-            org.python*;resolution:=optional,
-            org.zeroturnaround.javarebel;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.export>
-            freemarker*
+            org.ccil.cowan.tagsoup*
         </servicemix.osgi.export>
     </properties>
 
