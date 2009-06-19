@@ -43,8 +43,10 @@
             org.apache.mina
 	    </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
+            !org.apache.mina*,
             com.jcraft.jzlib*;resolution:=optional,
             net.gleamynode.netty2*;resolution:=optional,
+            org.springframework*;version="[2.0,3.0)";resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
     </properties>
