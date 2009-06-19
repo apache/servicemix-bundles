@@ -89,7 +89,7 @@
             <plugin>
                 <groupId>org.apache.felix</groupId>
                 <artifactId>maven-bundle-plugin</artifactId>
-                <version>1.4.1</version>
+                <version>2.0.0</version>
                 <extensions>true</extensions>
                 <configuration>
                     <instructions>
@@ -99,6 +99,7 @@
                         <Private-Package>${servicemix.osgi.private.pkg}</Private-Package>
                         <DynamicImport-Package>${servicemix.osgi.dynamicimport.pkg}</DynamicImport-Package>
                         <_failok>${servicemix.osgi.failok}</_failok>
+                        <_versionpolicy>[$(version;==;$(@)),$(version;+;$(@)))</_versionpolicy>
                     </instructions>
                     <unpackBundle>true</unpackBundle>
                 </configuration>
