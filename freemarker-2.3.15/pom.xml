@@ -41,6 +41,7 @@
         <pkgVersion>2.3.15</pkgVersion>
         <servicemix.osgi.import.pkg>
             org.apache.log;resolution:=optional,
+            org.apache.tools.ant;resolution:=optional,
             org.apache.xml.utils;resolution:=optional,
             org.apache.xpath*;resolution:=optional,
             org.jaxen*;resolution:=optional,
