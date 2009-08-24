@@ -144,6 +144,7 @@
         <module>xpp3-1.1.4c</module>
         <module>xstream-1.3</module>
         -->
+        <module>javax-mail-1.4.1</module>
     </modules>
 
 </project>
