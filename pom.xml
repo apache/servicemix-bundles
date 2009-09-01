@@ -23,7 +23,7 @@
     <parent>
       <groupId>org.apache.servicemix.bundles</groupId>
       <artifactId>bundles-pom</artifactId>
-      <version>3</version>
+      <version>4-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -39,11 +39,16 @@
         <pkgGroupId>org.apache.santuario</pkgGroupId>
         <pkgArtifactId>xmlsec</pkgArtifactId>
         <pkgVersion>1.4.3</pkgVersion>
-        <servicemix.osgi.export.pkg>org.apache.xml.security*,org.jcp.xml*,javax.xml.crypto*</servicemix.osgi.export.pkg>
+        <servicemix.osgi.export.pkg>
+            org.apache.xml.security*;-split-package:=merge-first,
+            org.jcp.xml*;-split-package:=merge-first,
+            javax.xml.crypto*
+        </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !org.apache.xml.security.*,
-            !org.jcp.xml.dsig.internal.*,
-            *;resolution:=optional,
+            org.apache.xml.dtm*;resolution:=optional,
+            org.apache.xml.utils*;resolution:=optional,
+            org.apache.xpath*;resolution:=optional,
+            *
         </servicemix.osgi.import.pkg>
     </properties>
 
