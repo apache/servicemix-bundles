@@ -23,7 +23,7 @@
     <parent>
       <groupId>org.apache.servicemix</groupId>
       <artifactId>servicemix-pom</artifactId>
-      <version>2</version>
+      <version>3</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
