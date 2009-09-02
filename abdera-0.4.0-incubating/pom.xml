@@ -41,6 +41,10 @@
         <pkgVersion>0.4.0-incubating</pkgVersion>
         <servicemix.osgi.export.pkg>org.apache.abdera*</servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
+            org.apache.axiom*;resolution:=optional,
+            org.jaxen*;resolution:=optional,
+            javax.servlet;resolution:=optional,
+            javax.xml*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
     </properties>
@@ -49,6 +53,30 @@
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>abdera-core</artifactId>
+            <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>abdera-i18n</artifactId>
+            <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>abdera-parser</artifactId>
+            <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>abdera-extensions-json</artifactId>
+            <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>abdera-extensions-main</artifactId>
             <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
