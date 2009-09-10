@@ -23,7 +23,7 @@
     <parent>
 	    <groupId>org.apache.servicemix.bundles</groupId>
 	    <artifactId>bundles-pom</artifactId>
-	    <version>1</version>
+	    <version>4-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -43,8 +43,9 @@
             org.apache.commons.beanutils
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !org.apache.commons.beanutils,
-            org.apache.commons.collections*;resolution:=optional,
+            !org.apache.commons.beanutils*,
+            org.apache.commons.collections*;version="[2.0,3)";resolution:=optional,
+            org.apache.commons.logging*;version="[1.0,2)",
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
