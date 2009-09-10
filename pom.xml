@@ -42,6 +42,9 @@
         <servicemix.osgi.export.pkg>
             org.apache.commons.codec*
         </servicemix.osgi.export.pkg>
+        <servicemix.osgi.import.pkg>
+            !org.apache.commons.codec*
+        </servicemix.osgi.import.pkg>
     </properties>
 
     <dependencies>
