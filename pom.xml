@@ -146,6 +146,7 @@
         -->
         <module>xmlsec-1.4.3</module>
         <module>javax-mail-1.4.1</module>
+        <module>twitter4j-2.0.9</module>
     </modules>
 
 </project>
