@@ -23,7 +23,7 @@
     <parent>
       <groupId>org.apache.servicemix.bundles</groupId>
       <artifactId>bundles-pom</artifactId>
-      <version>3</version>
+      <version>4-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -43,10 +43,10 @@
             twitter4j*
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-	    com.sun.syndication.feed.synd;resolution:=optional,
+	        com.sun.syndication.feed.synd;resolution:=optional,
             com.sun.syndication.io;resolution:=optional,
             dalvik.system;resolution:=optional,
-	    javax.crypto;resolution:=optional,
+	        javax.crypto;resolution:=optional,
             javax.crypto.spec;resolution:=optional,
             javax.xml.parsers;resolution:=optional,
             org.slf4j;resolution:=optional,
