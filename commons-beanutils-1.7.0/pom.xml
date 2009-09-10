@@ -43,6 +43,7 @@
             org.apache.commons.beanutils
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
+            !org.apache.commons.beanutils,
             org.apache.commons.collections*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
