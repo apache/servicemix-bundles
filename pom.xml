@@ -72,9 +72,6 @@
         <module>jetty-cometd-6.1.11</module>
         <module>jetty-sslengine-6.1.11</module>
         <module>jline-0.9.94</module>
-        -->
-        <module>jna-3.0.5</module>
-        <!--
         <module>jruby-1.1.2</module>
         <module>jsch-0.1.31</module>
         <module>jsmpp-2.0</module>
