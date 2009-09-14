@@ -23,7 +23,7 @@
     <parent>
 	    <groupId>org.apache.servicemix.bundles</groupId>
 	    <artifactId>bundles-pom</artifactId>
-	    <version>1</version>
+	    <version>4-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -41,14 +41,14 @@
         <pkgVersion>1.7.0</pkgVersion>
         <servicemix.osgi.export.pkg>org.apache.tools</servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            com.sun.tools.javac*;resolution:=optional,
-            org.apache.env*;resolution:=optional,
-            org.apache.tools.ant.taskdefs.optional*;resolution:=optional,
-            org.apache.tools.ant.util.java15*;resolution:=optional,
-            sun.rmi*;resolution:=optional,
-            sun.tools.javac*;resolution:=optional,
+            !org.apache.tools*,
+            !com.sun.tools.javac*,
+            !org.apache.env*,
+            !sun.rmi*,
+            !sun.tools.javac*,
             *
         </servicemix.osgi.import.pkg>
+        <servicemix.osgi.failok>true</servicemix.osgi.failok>
     </properties>
 
     <dependencies>
