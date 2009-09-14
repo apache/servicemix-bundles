@@ -23,7 +23,7 @@
     <parent>
 	    <groupId>org.apache.servicemix.bundles</groupId>
 	    <artifactId>bundles-pom</artifactId>
-	    <version>3</version>
+	    <version>4-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -43,7 +43,8 @@
             org.apache.commons.httpclient*
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            org.apache.commons.codec*;resolution:=optional,
+            !org.apache.commons.httpclient*,
+            org.apache.commons.logging*;version="[1.1,2)",
             *
         </servicemix.osgi.import.pkg>
     </properties>
@@ -53,6 +54,17 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>commons-codec</groupId>
+                    <artifactId>commons-codec</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.servicemix.bundles</groupId>
+            <artifactId>org.apache.servicemix.bundles.commons-codec</artifactId>
+            <version>1.3_1-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
