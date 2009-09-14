@@ -23,7 +23,7 @@
     <parent>
       <groupId>org.apache.servicemix.bundles</groupId>
       <artifactId>bundles-pom</artifactId>
-      <version>3</version>
+      <version>4-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -43,13 +43,15 @@
             org.apache.commons.vfs*
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            com.jcraft.jsch*;resolution:=optional,
+            !org.apache.commons.vfs*,
+            com.jcraft.jsch*;resolution:=optional;version="[0.1.23,2)",
             org.apache.avalon.framework.logger*;resolution:=optional,
-            org.apache.commons.collections*;resolution:=optional,
-            org.apache.commons.httpclient*;resolution:=optional,
-            org.apache.commons.net.ftp*;resolution:=optional,
+            org.apache.commons.collections*;resolution:=optional;version="[3.1,4)",
+            org.apache.commons.httpclient*;resolution:=optional;version="[2.0.2,3)",
+            org.apache.commons.logging*;version="[1.0,2)",
+            org.apache.commons.net.ftp*;resolution:=optional;version="[1.4.1,2)",
             org.apache.log4j*;resolution:=optional,
-            org.apache.tools.ant*;resolution:=optional,
+            org.apache.tools.ant*;resolution:=optional;version="[1.6.2,2)",
             *
         </servicemix.osgi.import.pkg>
     </properties>
