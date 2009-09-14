@@ -23,7 +23,7 @@
     <parent>
 	    <groupId>org.apache.servicemix.bundles</groupId>
 	    <artifactId>bundles-pom</artifactId>
-	    <version>3</version>
+	    <version>4-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -40,6 +40,7 @@
         <pkgArtifactId>antlr</pkgArtifactId>
         <pkgVersion>2.7.7</pkgVersion>
         <servicemix.osgi.import.pkg>
+            !antlr*,
             javax.swing*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>

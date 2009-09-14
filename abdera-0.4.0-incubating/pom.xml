@@ -23,7 +23,7 @@
     <parent>
       <groupId>org.apache.servicemix.bundles</groupId>
       <artifactId>bundles-pom</artifactId>
-      <version>3</version>
+      <version>4-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -39,12 +39,18 @@
         <pkgGroupId>org.apache.abdera</pkgGroupId>
         <pkgArtifactId>abdera</pkgArtifactId>
         <pkgVersion>0.4.0-incubating</pkgVersion>
-        <servicemix.osgi.export.pkg>org.apache.abdera*</servicemix.osgi.export.pkg>
+        <servicemix.osgi.export.pkg>
+            org.apache.abdera*
+        </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            org.apache.axiom*;resolution:=optional,
-            org.jaxen*;resolution:=optional,
-            javax.servlet;resolution:=optional,
+            !org.apache.abdera*,
+            org.apache.axiom*;resolution:=optional;version="[1.2.5,2)",
+            org.apache.commons.httpclient*;resolution:=optional,
+            org.apache.commons.logging*;version="[1.1,2)",
+            org.jaxen*;resolution:=optional;version="[1.1.1,2)",
+            javax.servlet*;resolution:=optional;version="[2.4,3)",
             javax.xml*;resolution:=optional,
+            nu.validator*;resolution:=optional;version="[1.0,2)",
             *
         </servicemix.osgi.import.pkg>
     </properties>
@@ -55,6 +61,12 @@
             <artifactId>abdera-core</artifactId>
             <version>${pkgVersion}</version>
             <optional>true</optional>
+            <exclusions>
+                <exclusion>
+                    <groupId>commons-codec</groupId>
+                    <artifactId>commons-codec</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
@@ -78,6 +90,23 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>abdera-extensions-main</artifactId>
             <version>${pkgVersion}</version>
+            <optional>true</optional>
+            <exclusions>
+                <exclusion>
+                    <groupId>commons-httpclient</groupId>
+                    <artifactId>commons-httpclient</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.servicemix.bundles</groupId>
+            <artifactId>org.apache.servicemix.bundles.commons-codec</artifactId>
+            <version>1.3_1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.servicemix.bundles</groupId>
+            <artifactId>org.apache.servicemix.bundles.commons-httpclient</artifactId>
+            <version>3.1_2-SNAPSHOT</version>
             <optional>true</optional>
         </dependency>
     </dependencies>

@@ -23,7 +23,7 @@
     <parent>
 	    <groupId>org.apache.servicemix.bundles</groupId>
 	    <artifactId>bundles-pom</artifactId>
-	    <version>3</version>
+	    <version>4-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -40,11 +40,13 @@
         <pkgArtifactId>commons-jxpath</pkgArtifactId>
         <pkgVersion>1.2</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.apache.commons.jxpath
+            org.apache.commons.jxpath*
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            javax.servlet*;resolution:=optional,
-            org.jdom*;resolution:=optional,
+            !org.apache.commons.jxpath*,
+            javax.servlet*;resolution:=optional;version="[2.2,3)",
+            org.apache.commons.beanutils*;version="[1.4,2)",
+            org.jdom*;resolution:=optional;version="[1.0,2)",
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.failok>true</servicemix.osgi.failok>
