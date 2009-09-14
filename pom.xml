@@ -23,7 +23,7 @@
     <parent>
 	    <groupId>org.apache.servicemix.bundles</groupId>
 	    <artifactId>bundles-pom</artifactId>
-	    <version>1</version>
+	    <version>4-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -40,6 +40,11 @@
         <pkgArtifactId>asm</pkgArtifactId>
         <pkgVersion>2.2.3</pkgVersion>
         <servicemix.osgi.export.pkg>org.objectweb.asm</servicemix.osgi.export.pkg>
+        <servicemix.osgi.import.pkg>
+            !org.objectweb.asm*,
+            *;resolution:=optional,
+            *
+        </servicemix.osgi.import.pkg>
     </properties>
 
     <dependencies>
