@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="
+		http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <parent>
+    <artifactId>bundles-pom</artifactId>
+    <groupId>org.apache.servicemix.bundles</groupId>
+    <version>1.0-fuse</version>
+  </parent>
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.apache.servicemix.bundles</groupId>
+  <artifactId>org.apache.servicemix.bundles.serp</artifactId>
+  <packaging>bundle</packaging>
+  <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${pkgVersion}</name>
+  <version>1.13.1_1-SNAPSHOT</version>
+  <description>This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.</description>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-shade-plugin</artifactId>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>shade</goal>
+            </goals>
+            <configuration>
+              <artifactSet>
+                <includes>
+                  <include>${pkgGroupId}:${pkgArtifactId}</include>
+                </includes>
+              </artifactSet>
+              <filters>
+                <filter>
+                  <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
+                  <excludes>
+                    <exclude>**</exclude>
+                  </excludes>
+                </filter>
+              </filters>
+              <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
+              <createDependencyReducedPom>true</createDependencyReducedPom>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+
+  <dependencies>
+    <dependency>
+      <groupId>${pkgGroupId}</groupId>
+      <artifactId>${pkgArtifactId}</artifactId>
+      <version>${pkgVersion}</version>
+    </dependency>
+  </dependencies>
+
+  <properties>
+    <pkgGroupId>net.sourceforge.serp</pkgGroupId>
+    <pkgArtifactId>serp</pkgArtifactId>
+    <pkgVersion>1.13.1</pkgVersion>
+    <servicemix.osgi.export.pkg>
+      serp.bytecode.visitor,
+      serp.bytecode,
+      serp.bytecode.lowlevel,
+      serp.util
+    </servicemix.osgi.export.pkg>
+  </properties>
+</project>
+
