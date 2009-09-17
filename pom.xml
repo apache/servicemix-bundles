@@ -156,6 +156,7 @@
         <module>twitter4j-2.0.9</module>
         <module>openjpa-1.2.1</module>
         <module>serp-1.13.1</module>
+        <module>dom4j-1.6.1</module>
     </modules>
 
 </project>
