@@ -18,11 +18,12 @@
 package org.apache.commons.dbcp;
 
 import java.io.PrintWriter;
-import java.util.Properties;
 import java.sql.Connection;
 import java.sql.Driver;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.util.Properties;
+
 import javax.sql.DataSource;
 
 import org.apache.commons.pool.impl.GenericKeyedObjectPool;
@@ -1241,7 +1242,7 @@ public class BasicDataSource implements DataSource {
         dataSource = new PoolingDataSource(connectionPool);
         ((PoolingDataSource) dataSource).setAccessToUnderlyingConnectionAllowed(isAccessToUnderlyingConnectionAllowed());
         dataSource.setLogWriter(logWriter);
-        
+
         try {
             for (int i = 0 ; i < initialSize ; i++) {
                 connectionPool.addObject();
@@ -1281,5 +1282,19 @@ public class BasicDataSource implements DataSource {
         if (logWriter != null) {
             logWriter.println(message);
         }
+    }
+
+    /* (non-Javadoc)
+     * @see java.sql.Wrapper#isWrapperFor(java.lang.Class)
+     */
+    public boolean isWrapperFor(Class iface) throws SQLException {
+    	return false;
+    }
+    
+    /* (non-Javadoc)
+     * @see java.sql.Wrapper#unwrap(java.lang.Class)
+     */
+    public Object unwrap(Class iface) throws SQLException {
+    	throw new SQLException("BasicDataSource is not a wrapper.");
     }
 }
