@@ -23,7 +23,7 @@
     <parent>
 	    <groupId>org.apache.servicemix.bundles</groupId>
 	    <artifactId>bundles-pom</artifactId>
-	    <version>3</version>
+	    <version>4-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -43,6 +43,10 @@
             javax.wsdl*;version=1.2;-split-package:=merge-first,
             com.ibm.wsdl*;version=${pkgVersion};-split-package:=merge-first
         </servicemix.osgi.export>
+        <servicemix.osgi.import.pkg>
+            !com.ibm.wsdl*,
+            *
+        </servicemix.osgi.import.pkg>
     </properties>
 
     <dependencies>
