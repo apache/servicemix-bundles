@@ -40,17 +40,20 @@
         <pkgArtifactId>groovy</pkgArtifactId>
         <pkgVersion>1.5.6</pkgVersion>
         <servicemix.osgi.import.pkg>
-            com.mockobjects*;resolution:=optional,
-            com.thoughtworks.xstream*;resolution:=optional,
-            javax.servlet*;resolution:=optional,
+            !groovy*,
+            !org.codehaus.groovy*,
+            antlr*;version="[2.7.6,3)",
+            com.mockobjects*;resolution:=optional;version="[0.9,1)",
+            com.thoughtworks.xstream*;resolution:=optional;version="[1.2.2,2)",
+            javax.servlet*;resolution:=optional;version="[2.4,3)",
             javax.swing*;resolution:=optional,
-            jline*;resolution:=optional,
-            junit*;resolution:=optional,
-            org.apache.bsf*;resolution:=optional,
-            org.apache.commons.cli*;resolution:=optional,
+            jline*;resolution:=optional;version="[0.9.94,1)",
+            junit*;resolution:=optional;version="[2.8.2,4)",
+            org.apache.bsf*;resolution:=optional;version="[2.4,3)",
+            org.apache.commons.cli*;resolution:=optional;version="[1.1,2)",
             org.apache.commons.lang*;resolution:=optional,
-            org.apache.tools.ant*;resolution:=optional,
-            !groovy.runtime.metaclass*,
+            org.apache.tools.ant*;resolution:=optional;version="[1.7,2)",
+            org.objectweb.asm*;version="[2.2,3)",
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.export>
