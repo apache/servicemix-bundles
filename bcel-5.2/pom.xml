@@ -27,31 +27,32 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.xmlresolver</artifactId>
-    <version>1.2_2-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.bcel</artifactId>
     <packaging>bundle</packaging>
+    <version>5.2_1-SNAPSHOT</version>
     <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${pkgVersion}</name>
     <description>
         This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
     </description>
 
     <properties>
-        <pkgArtifactId>xmlresolver</pkgArtifactId>
-        <pkgVersion>1.2</pkgVersion>
+        <pkgGroupId>org.apache.bcel</pkgGroupId>
+        <pkgArtifactId>bcel</pkgArtifactId>
+        <pkgVersion>5.2</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.apache.xml.resolver
+            org.apache.bcel
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !org.apache.xml.resolver*,
+            !org.apache.bcel*,
+            javax.swing*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
-        <servicemix.osgi.private.pkg />
     </properties>
 
     <dependencies>
         <dependency>
-            <groupId>xml-resolver</groupId>
-            <artifactId>xml-resolver</artifactId>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
@@ -71,12 +72,12 @@
                         <configuration>
                             <artifactSet>
                                 <includes>
-                                    <include>xml-resolver:xml-resolver</include>
+                                    <include>${pkgGroupId}:cglib-nodep</include>
                                 </includes>
                             </artifactSet>
                             <filters>
                                 <filter>
-                                    <artifact>xml-resolver:xml-resolver</artifact>
+                                    <artifact>${pkgGroupId}:cglib-nodep</artifact>
                                     <excludes>
                                         <exclude>**</exclude>
                                     </excludes>
