@@ -43,21 +43,15 @@
             twitter4j*
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-	        com.sun.syndication.feed.synd;resolution:=optional,
-            com.sun.syndication.io;resolution:=optional,
-            dalvik.system;resolution:=optional,
+            !twitter4j*,
+	        com.sun.syndication.*;resolution:=optional;version="[0.9,1)",
+            !dalvik.system*,
 	        javax.crypto;resolution:=optional,
             javax.crypto.spec;resolution:=optional,
-            javax.xml.parsers;resolution:=optional,
-            org.slf4j;resolution:=optional,
-            org.w3c.dom;resolution:=optional,
-            org.xml.sax;resolution:=optional,
-            twitter4j;resolution:=optional,
-            twitter4j.examples;resolution:=optional,
-            twitter4j.http;resolution:=optional,
-            twitter4j.org.json;resolution:=optional,
+            org.slf4j;resolution:=optional;version="[1.2.15,2)",
             *
         </servicemix.osgi.import.pkg>
+        <servicemix.osgi.failok>true</servicemix.osgi.failok>
     </properties>
 
     <dependencies>
