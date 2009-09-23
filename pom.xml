@@ -44,7 +44,6 @@
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             !org.apache.commons.codec*,
-            org.apache.commons.httpclient*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
     </properties>
