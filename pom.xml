@@ -43,15 +43,15 @@
             org.dom4j*
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            com.sun.msv.datatype;resolution:=optional,
-            com.sun.msv.datatype.xsd;resolution:=optional,
-            org.gjt.xpp;resolution:=optional,
-            org.jaxen;resolution:=optional,
-            org.jaxen.dom4j;resolution:=optional,
-            org.jaxen.pattern;resolution:=optional,
-            org.jaxen.saxpath;resolution:=optional,
-            org.relaxng.datatype;resolution:=optional,
-            org.xmlpull.v1;resolution:=optional,
+            !org.dom4j*,
+            com.sun.msv.datatype*;resolution:=optional,
+            javax.swing*;resolution:=optional,
+            javax.xml.bind*;resolution:=optional;version="[2.0,3)",
+            javax.xml.stream*;version="[1.0,2)",
+            org.gjt.xpp;resolution:=optional;version="[2,3)",
+            org.jaxen*;resolution:=optional;version="[1.1.1,2)",
+            org.relaxng.datatype;resolution:=optional;version="[1,2)",
+            org.xmlpull.v1;resolution:=optional;version="[1.1.3.3,2)",
             *
         </servicemix.osgi.import.pkg>
     </properties>
