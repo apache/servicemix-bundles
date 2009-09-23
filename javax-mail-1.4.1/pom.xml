@@ -23,7 +23,7 @@
     <parent>
 	    <groupId>org.apache.servicemix.bundles</groupId>
 	    <artifactId>bundles-pom</artifactId>
-	    <version>3</version>
+	    <version>4-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -41,12 +41,12 @@
         <pkgVersion>1.4.1</pkgVersion>
         <servicemix.osgi.export.pkg>
             javax*;-split-package:=merge-first;version="${pkgVersion}",
-            com.sun.mail*;-split-package:=merge-first
+            com.sun.mail*;-split-package:=merge-first;version="${pkgVersion}"
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            javax.activation*;version="[1.1,2.0.0)",
-            javax.net*;-split-package:=merge-first,
-            javax.security*;-split-package:=merge-first
+            javax.activation*;version="[1.1,2)",
+            javax.net*,
+            javax.security*
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
             META-INF;-split-package:=merge-first,

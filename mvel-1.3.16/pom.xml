@@ -27,8 +27,8 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.twitter4j</artifactId>
-    <version>2.0.9_1-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.mvel</artifactId>
+    <version>2.0.8_2-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${pkgVersion}</name>
     <description>
@@ -36,21 +36,18 @@
     </description>
 
     <properties>
-        <pkgGroupId>net.homeip.yusuke</pkgGroupId>
-        <pkgArtifactId>twitter4j</pkgArtifactId>
-        <pkgVersion>2.0.9</pkgVersion>
-        <servicemix.osgi.export.pkg>
-            twitter4j*
-        </servicemix.osgi.export.pkg>
+        <pkgGroupId>org.mvel</pkgGroupId>
+        <pkgArtifactId>mvel</pkgArtifactId>
+        <pkgVersion>1.3.16</pkgVersion>
         <servicemix.osgi.import.pkg>
-            !twitter4j*,
-	        com.sun.syndication.*;resolution:=optional;version="[0.9,1)",
-            !dalvik.system*,
-	        javax.crypto;resolution:=optional,
-            javax.crypto.spec;resolution:=optional,
-            org.slf4j;resolution:=optional;version="[1.2.15,2)",
+            !org.mvel*,
+            !junit*,
             *
         </servicemix.osgi.import.pkg>
+        <servicemix.osgi.export.pkg>
+            !org.mvel.tests*,
+            org.mvel*
+        </servicemix.osgi.export.pkg>
         <servicemix.osgi.failok>true</servicemix.osgi.failok>
     </properties>
 
@@ -58,7 +55,7 @@
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
-            <version>${pkgVersion}</version>
+            <version>${pkgVersion}-java1.5</version>
             <optional>true</optional>
         </dependency>
     </dependencies>

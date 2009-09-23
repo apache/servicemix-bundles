@@ -23,7 +23,7 @@
     <parent>
       <groupId>org.apache.servicemix.bundles</groupId>
       <artifactId>bundles-pom</artifactId>
-      <version>3</version>
+      <version>4-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -40,11 +40,14 @@
         <pkgArtifactId>mvel2</pkgArtifactId>
         <pkgVersion>2.0.8</pkgVersion>
         <servicemix.osgi.import.pkg>
+            !org.mvel2*,
+            !sun.misc,
             *
         </servicemix.osgi.import.pkg>
-        <servicemix.osgi.export>
+        <servicemix.osgi.export.pkg>
             org.mvel2*
-        </servicemix.osgi.export>
+        </servicemix.osgi.export.pkg>
+        <servicemix.osgi.failok>true</servicemix.osgi.failok>
     </properties>
 
     <dependencies>

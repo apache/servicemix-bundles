@@ -23,7 +23,7 @@
     <parent>
 	    <groupId>org.apache.servicemix.bundles</groupId>
 	    <artifactId>bundles-pom</artifactId>
-	    <version>3</version>
+	    <version>4-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -40,6 +40,7 @@
         <pkgArtifactId>drools</pkgArtifactId>
         <pkgVersion>4.0.7</pkgVersion>
         <servicemix.osgi.import.pkg>
+            !org.drools*,
             COM.jrockit*;resolution:=optional,
             com.thoughtworks.xstream*;resolution:=optional,
             javax.jcr*;resolution:=optional,
@@ -52,12 +53,12 @@
             org.eclipse.jdt*;resolution:=optional,
             org.tmatesoft*;resolution:=optional,
             sun*;resolution:=optional,
+            org.mvel*;version="[1.3,2)",
             *
         </servicemix.osgi.import.pkg>
-        <servicemix.osgi.export>
-            org.drools*;version=${pkgVersion};-split-package:=merge-first,
-            org.mvel*;version=${pkgVersion};-split-package:=merge-first,
-        </servicemix.osgi.export>
+        <servicemix.osgi.export.pkg>
+            org.drools*
+        </servicemix.osgi.export.pkg>
     </properties>
 
     <repositories>

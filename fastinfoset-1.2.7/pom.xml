@@ -23,7 +23,7 @@
     <parent>
 	    <groupId>org.apache.servicemix.bundles</groupId>
 	    <artifactId>bundles-pom</artifactId>
-	    <version>3</version>
+	    <version>4-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -40,9 +40,15 @@
         <pkgArtifactId>FastInfoset</pkgArtifactId>
         <pkgVersion>1.2.7</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.jvnet.fastinfoset*,
-            com.sun.xml.fastinfoset*
+            org.jvnet.fastinfoset*;version=${pkgVersion},
+            com.sun.xml.fastinfoset*;version=${pkgVersion}
         </servicemix.osgi.export.pkg>
+        <servicemix.osgi.import.pkg>
+            javax.xml.stream*;version="[1,2)",
+            !org.jvnet.fastinfoset*,
+            !com.sun.xml.fastinfoset*,
+            *
+        </servicemix.osgi.import.pkg>
     </properties>
 
     <dependencies>

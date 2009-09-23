@@ -40,14 +40,16 @@
         <pkgArtifactId>xmlsec</pkgArtifactId>
         <pkgVersion>1.4.3</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.apache.xml.security*;-split-package:=merge-first,
-            org.jcp.xml*;-split-package:=merge-first,
-            javax.xml.crypto*
+            org.apache.xml.security*;-split-package:=merge-first;version=${pkgVersion},
+            org.jcp.xml*;-split-package:=merge-first;version=${pkgVersion},
+            javax.xml.crypto*;version=${pkgVersion}
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            org.apache.xml.dtm*;resolution:=optional,
-            org.apache.xml.utils*;resolution:=optional,
-            org.apache.xpath*;resolution:=optional,
+            !org.apache.xml.security*,
+            org.apache.commons.logging;version="[1.1,2)"
+            org.apache.xml.dtm*;resolution:=optional;version="[2.7,3)",
+            org.apache.xml.utils*;resolution:=optional;version="[2.7,3)",
+            org.apache.xpath*;resolution:=optional;version="[2.7,3)",
             *
         </servicemix.osgi.import.pkg>
     </properties>

@@ -44,7 +44,7 @@
         <module>bundles-pom</module>
         <module>abdera-0.4.0-incubating</module>
         <module>ant-1.7.0</module>
-        <!--<module>antlr-2.7.7</module>-->
+        <module>antlr-2.7.7</module>
         <module>antlr-3.0.1</module>
         <!--
         <module>antlr-runtime-3.0.1</module>
@@ -53,7 +53,7 @@
         <module>asm-2.2.3</module>
         <module>cglib-2.1_3</module>
         <module>commons-codec-1.2</module>
-        <!--<module>commons-codec-1.3</module>-->
+        <module>commons-codec-1.3</module>
         <module>commons-csv-1.0</module>
         <module>commons-dbcp-1.2.2</module>
         <module>commons-httpclient-3.1</module>
@@ -63,22 +63,52 @@
         <module>commons-lang-2.4</module>
         <module>commons-net-1.4.1</module>
         <module>commons-vfs-1.0</module>
+        
         <!--
+        <module>commons-beanutils-1.7.0</module>
+        -->
+       
+        <!-- 
         <module>dom4j-1.6</module>
+        -->
+        <module>dom4j-1.6.1</module>
+        <!--
         <module>drools-4.0.7</module>
-        <module>fastinfoset-1.2.2</module>
+        -->
+        <module>fastinfoset-1.2.7</module>
+        <module>flatpack-3.1.1</module>
         <module>freemarker-2.3.15</module>
+        <!--
+        <module>geronimo-javamail_1.4_provider</module>
+        -->
         <module>groovy-1.5.6</module>
+        <!--
+        <module>httpcore-4.0-alpha6</module>
+        <module>hamcrest-1.1</module>
+        <module>hamcrest-1.2</module>
+        <module>hapi-0.5.1</module>
         <module>howl-1.0.1-1</module>
-        <module>jasper-6.0.14</module>
+        <module>ibatis-sqlmap-2.3.4.726</module>
+        <module>irclib-1.10</module>
+        <module>isorelax-20050913</module>
+        -->
+        <module>javax-mail-1.4.1</module>
+        <!--
         <module>jaxb-impl-2.1.6</module>
+        <module>jaxp-ri-1.4.2</module>
+        <module>jasper-6.0.14</module>
+        <module>jcr-api-1.0</module>
         <module>jdt-core-3.2.3</module>
-        <module>jencks-2.1</module>
-        <module>jetty-bundle-6.1.12rc1</module>
-        <module>jetty-client-6.1.11</module>
-        <module>jetty-cometd-6.1.11</module>
-        <module>jetty-sslengine-6.1.11</module>
+        <module>jdom-1.1</module>
+        <module>jetty-bundle-6.1.14</module>
+        <module>jexcelapi-2.4.2</module>
+        <module>jing-20030619</module>
         <module>jline-0.9.94</module>
+        <module>joda-time-1.5.2</module>
+        <module>josql-1.5</module>
+        <module>jruby-1.1.2</module>
+        <module>jsch-0.1.31</module>
+        <module>juel-2.1.0</module>
         <module>jruby-1.1.2</module>
         <module>jsch-0.1.31</module>
         <module>jsmpp-2.0</module>
@@ -86,77 +116,58 @@
         <module>junit-4.4</module>
         <module>mina-1.1.6</module>
         <module>mina-1.1.7</module>
+        -->
+        <module>mvel-1.3.16</module>
+        <module>mvel-2.0.8</module>
+        <!--
         <module>neethi-2.0.4</module>
         <module>oro-2.0.8</module>
         <module>oscore-2.2.4</module>
         <module>osworkflow-2.7.0</module>
+        <module>ognl-2.7.3</module>
+        <module>openjpa-1.2.0</module>
+        -->
+        <module>openjpa-1.2.1</module>
+        <!--
+        <module>opensaml-1.1</module>
+        <module>oscache-2.4</module>
         <module>propertyset-1.3</module>
+        <module>qpid-1.0-incubating-M2.1</module>
         <module>quartz-1.5.2</module>
         <module>quartz-1.6.1</module>
         <module>rhino-1.7-R1</module>
         <module>saaj-impl-1.3</module>
         <module>saxon-9.1.0.1</module>
-        <module>woodstox-3.2.7</module>
-        <module>wsdl4j-1.6.1</module>
-        <module>wss4j-1.5.4</module>
-        <module>xmlresolver-1.2</module>
-        <module>xmlschema-1.4.2</module>
-        <module>xmlsec-1.3.0</module>
-        <module>abdera-0.4.0-incubating</module>
-        <module>commons-beanutils-1.7.0</module>
-        <module>commons-csv-1.0</module>
-        <module>commons-dbcp-1.2.2</module>
-        <module>commons-jexl-1.1</module>
-        <module>commons-vfs-1.0</module>
-        <module>dom4j-1.6</module>
-        <module>flatpack-3.1.1</module>
-        <module>geronimo-javamail_1.4_provider</module>
-        <module>httpcore-4.0-alpha6</module>
-        <module>hamcrest-1.1</module>
-        <module>hamcrest-1.2</module>
-        <module>hapi-0.5.1</module>
-        <module>ibatis-sqlmap-2.3.4.726</module>
-        <module>irclib-1.10</module>
-        <module>isorelax-20050913</module>
-        <module>jetty-bundle-6.1.14</module>
-        <module>jaxp-ri-1.4.2</module>
-        <module>jcr-api-1.0</module>
-        <module>jdom-1.1</module>
-        <module>jexcelapi-2.4.2</module>
-        <module>jing-20030619</module>
-        <module>joda-time-1.5.2</module>
-        <module>josql-1.5</module>
-        <module>jruby-1.1.2</module>
-        <module>jsch-0.1.31</module>
-        <module>juel-2.1.0</module>
-        <module>mvel-2.0.8</module>
-        <module>qpid-1.0-incubating-M2.1</module>
-        <module>ognl-2.7.3</module>
-        <module>openjpa-1.2.0</module>
-        <module>opensaml-1.1</module>
-        <module>oscache-2.4</module>
-        <module>rhino-1.7-R1</module>
+        -->
+        <module>serp-1.13.1</module>
+        <!--
         <module>smack-3.0.4</module>
         <module>stringtemplate-3.2</module>
         <module>tagsoup-1.2</module>
+        -->
+        <module>twitter4j-2.0.9</module>
+        <!--
         <module>velocity-1.5</module>
-        <module>werken-xpath-0.9.4</module>
-        <module>xmlbeans-2.4.0</module>
-        <module>xmlschema-1.4.3</module>
         <module>velocity-1.6.2</module>
+        <module>werken-xpath-0.9.4</module>
+        <module>woodstox-3.2.7</module>
+        <module>wsdl4j-1.6.1</module>
+        <module>wss4j-1.5.4</module>
         <module>xalan-2.7.1</module>
         <module>xalan-serializer-2.7.1</module>
         <module>xerces-2.9.1</module>
+        <module>xmlbeans-2.4.0</module>
+        <module>xmlresolver-1.2</module>
+        <module>xmlschema-1.4.2</module>
+        <module>xmlschema-1.4.3</module>
+        <module>xmlsec-1.3.0</module>
         <module>xmlsec-1.4.2</module>
+        -->
+        <module>xmlsec-1.4.3</module>
+        <!--
         <module>xpp3-1.1.4c</module>
         <module>xstream-1.3</module>
         -->
-        <module>xmlsec-1.4.3</module>
-        <module>javax-mail-1.4.1</module>
-        <module>twitter4j-2.0.9</module>
-        <module>openjpa-1.2.1</module>
-        <module>serp-1.13.1</module>
-        <module>dom4j-1.6.1</module>
     </modules>
 
 </project>

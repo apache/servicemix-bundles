@@ -62,11 +62,12 @@
     <pkgArtifactId>serp</pkgArtifactId>
     <pkgVersion>1.13.1</pkgVersion>
     <servicemix.osgi.export.pkg>
-      serp.bytecode.visitor,
-      serp.bytecode,
-      serp.bytecode.lowlevel,
-      serp.util
+      serp*
     </servicemix.osgi.export.pkg>
+    <servicemix.osgi.import.pkg>
+        !serp*,
+        *
+    </servicemix.osgi.import.pkg>
   </properties>
 </project>
 
