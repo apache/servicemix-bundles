@@ -23,7 +23,7 @@
     <parent>
 	    <groupId>org.apache.servicemix.bundles</groupId>
 	    <artifactId>bundles-pom</artifactId>
-	    <version>3</version>
+	    <version>4-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -38,7 +38,13 @@
     <properties>
         <pkgArtifactId>xmlresolver</pkgArtifactId>
         <pkgVersion>1.2</pkgVersion>
-        <servicemix.osgi.export.pkg>org.apache.xml.resolver</servicemix.osgi.export.pkg>
+        <servicemix.osgi.export.pkg>
+            org.apache.xml.resolver
+        </servicemix.osgi.export.pkg>
+        <servicemix.osgi.import.pkg>
+            !org.apache.xml.resolver*,
+            *
+        </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg />
     </properties>
 
