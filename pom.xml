@@ -23,7 +23,7 @@
     <parent>
 	    <groupId>org.apache.servicemix.bundles</groupId>
 	    <artifactId>bundles-pom</artifactId>
-	    <version>3</version>
+	    <version>4-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -40,6 +40,7 @@
         <pkgArtifactId>osworkflow</pkgArtifactId>
         <pkgVersion>2.7.0</pkgVersion>
         <servicemix.osgi.import.pkg>
+            !com.opensymphony.workflow*,
             bsh*;resolution:=optional,
             com.ibm.bsf*;resolution:=optional,
             com.opensymphony.user*;resolution:=optional,
