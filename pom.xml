@@ -42,7 +42,8 @@
         <servicemix.osgi.export.pkg>org.apache.qpid*</servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             !org.apache.qpid*,
-            javax.jms*;version="[1.1,2)"
+            edu.emory.mathcs.backport.java.util.concurrent*;resolution:=optional,
+            javax.jms*;version="[1.1,2)",
             org.apache.commons.collections*;version="[3.2,4)",
             org.apache.commons.lang*;version="[2.2,3)",
             org.apache.mina*;version="[1.0.1,2)",
