@@ -39,10 +39,10 @@
         <pkgGroupId>cglib</pkgGroupId>
         <pkgArtifactId>cglib</pkgArtifactId>
         <pkgVersion>2.1_3</pkgVersion>
-        <servicemix.osgi.export.pkg>net.sf.cglib*;version="2.1.3"</servicemix.osgi.export.pkg>
+        <servicemix.osgi.export>net.sf.cglib*;version="2.1.3"</servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
             !net.sf.cglib*,
-            org.apache.tools.ant*;version="[1.7,2)",resolution:=optional,
+            org.apache.tools.ant*;version="[1.7,2)";resolution:=optional,
             org.codehaus.aspectwerkz.hook;version="[0.8.1,0.9)";resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
