@@ -23,7 +23,7 @@
     <parent>
       <groupId>org.apache.servicemix.bundles</groupId>
       <artifactId>bundles-pom</artifactId>
-      <version>3</version>
+      <version>4-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -42,6 +42,10 @@
         <servicemix.osgi.export.pkg>
             org.xmlpull*
         </servicemix.osgi.export.pkg>
+        <servicemix.osgi.import.pkg>
+            !org.xmlpull*,
+            *
+        </servicemix.osgi.import.pkg>
     </properties>
 
     <dependencies>
