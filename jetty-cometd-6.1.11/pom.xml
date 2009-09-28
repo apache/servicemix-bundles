@@ -23,7 +23,7 @@
     <parent>
       <groupId>org.apache.servicemix.bundles</groupId>
       <artifactId>bundles-pom</artifactId>
-      <version>3</version>
+      <version>4-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -39,9 +39,15 @@
         <pkgGroupId>org.mortbay.jetty</pkgGroupId>
         <pkgArtifactId>cometd-bayeux</pkgArtifactId>
         <pkgVersion>6.1.11</pkgVersion>
-        <servicemix.osgi.export.pkg>
-            org.mortbay.cometd*,dojox.cometd
-        </servicemix.osgi.export.pkg>
+        <servicemix.osgi.import.pkg>
+            !org.mortbay.cometd*,
+            !dojox.cometd,
+            *
+        </servicemix.osgi.import.pkg>
+        <servicemix.osgi.export>
+            org.mortbay.cometd*;version=${pkgVersion},
+            dojox.cometd;version=${pkgVersion}
+        </servicemix.osgi.export>
     </properties>
 
     <dependencies>

@@ -23,7 +23,7 @@
     <parent>
       <groupId>org.apache.servicemix.bundles</groupId>
       <artifactId>bundles-pom</artifactId>
-      <version>3</version>
+      <version>4-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -43,11 +43,15 @@
             org.josql*
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            com.gentlyweb.utils;resolution:=optional, 
-            gnu.regexp;resolution:=optional,
-            javax.servlet.jsp*;resolution:=optional,
-            net.sf.jasperreports.engine;resolution:=optional,
-            org.apache.regexp;resolution:=optional,
+            !org.josql*,
+            com.gentlyweb*;resolution:=optional, 
+            gnu.regexp*;resolution:=optional,
+            javax.servlet*;resolution:=optional,
+            javax.swing*;resolution:=optional,
+            net.sf.jasperreports*;resolution:=optional,
+            org.apache.oro*;resolution:=optional,
+            org.apache.regexp*;resolution:=optional,
+            org.apache.tools.ant*;resolution:=optional,
             org.jfree.data*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>

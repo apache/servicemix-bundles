@@ -28,7 +28,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.commons-csv</artifactId>
-    <version>1.0-r706900_2-SNAPSHOT</version>
+    <version>1.0-r706899_2-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${pkgVersion}</name>
     <description>

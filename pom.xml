@@ -117,11 +117,16 @@
         <module>jdt-core-3.2.3</module>
         <module>jdom-1.1</module>
         <module>jetty-bundle-6.1.14</module>
+        -->
+        <module>jetty-cometd-6.1.11</module>
+        <!--
         <module>jexcelapi-2.4.2</module>
         <module>jing-20030619</module>
         <module>jline-0.9.94</module>
         <module>joda-time-1.5.2</module>
+        -->
         <module>josql-1.5</module>
+        <!--
         <module>jruby-1.1.2</module>
         <module>jsch-0.1.31</module>
         <module>juel-2.1.0</module>
@@ -131,46 +136,52 @@
         <module>junit-3.8.2</module>
         <module>junit-4.4</module>
         <module>mina-1.1.6</module>
-        <module>mina-1.1.7</module>
         -->
+        <module>mina-1.1.7</module>
         <!--
         <module>mvel-1.3.16</module>
         -->
         <module>mvel-2.0.8</module>
         <!--
         <module>neethi-2.0.4</module>
+        -->
         <module>oro-2.0.8</module>
         <module>oscore-2.2.4</module>
+        <!--
         <module>osworkflow-2.7.0</module>
+        -->
         <module>ognl-2.7.3</module>
+        <!--
         <module>openjpa-1.2.0</module>
         -->
         <module>openjpa-1.2.1</module>
-        <!--
         <module>opensaml-1.1</module>
         <module>oscache-2.4</module>
         <module>propertyset-1.3</module>
-        -->
         <module>qpid-0.5.0</module>
         <!--
         <module>qpid-1.0-incubating-M2.1</module>
         <module>quartz-1.5.2</module>
+        -->
         <module>quartz-1.6.1</module>
+        <!--
         <module>rhino-1.7-R1</module>
         <module>saaj-impl-1.3</module>
-        <module>saxon-9.1.0.1</module>
         -->
+        <module>saxon-9.1.0.1</module>
         <module>serp-1.13.1</module>
         <!--
         <module>smack-3.0.4</module>
+        -->
         <module>stringtemplate-3.2</module>
         <module>tagsoup-1.2</module>
-        -->
         <module>twitter4j-2.0.9</module>
         <!--
         <module>velocity-1.5</module>
+        -->
         <module>velocity-1.6.2</module>
         <module>werken-xpath-0.9.4</module>
+        <!--
         <module>woodstox-3.2.7</module>
         -->
         <module>wsdl4j-1.6.2</module>
@@ -193,10 +204,8 @@
         <module>xmlsec-1.4.2</module>
         -->
         <module>xmlsec-1.4.3</module>
-        <!--
         <module>xpp3-1.1.4c</module>
         <module>xstream-1.3</module>
-        -->
     </modules>
 
 </project>
