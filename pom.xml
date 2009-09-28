@@ -48,7 +48,7 @@
             javax.swing*;resolution:=optional,
             org.apache.log;resolution:=optional;version="[1.0.1,1.0.1]",
             org.apache.log4j;resolution:=optional;version="[1.2,2)",
-            org.apache.tools.ant;resolution:=optional;version="[1.7,2)",
+            org.apache.tools.ant*;resolution:=optional;version="[1.7,2)",
             org.apache.xml.utils;resolution:=optional;version="[2.7,3)",
             org.apache.xpath*;resolution:=optional;version="[2.7,3)",
             org.dom4j*;resolution:=optional;version="[1.6.1,2)",
@@ -59,9 +59,9 @@
             org.zeroturnaround.javarebel;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
-        <servicemix.osgi.export>
-            freemarker*
-        </servicemix.osgi.export>
+        <servicemix.osgi.export.pkg>
+            freemarker
+        </servicemix.osgi.export.pkg>
         <servicemix.osgi.failok>true</servicemix.osgi.failok>
     </properties>
 
