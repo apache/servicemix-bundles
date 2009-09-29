@@ -49,8 +49,8 @@
             javax.sql*;resolution:=optional,
             net.sf.hibernate*;resolution:=optional;version="[3.2,4)",
             org.apache.commons.logging*;version="[1.1,2)",
-            org.apache.ojb*;resolution:=optional;version="[)",
-            org.ofbiz*;resolution:=optional;version="[)",
+            org.apache.ojb*;resolution:=optional,
+            org.ofbiz*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.export>
