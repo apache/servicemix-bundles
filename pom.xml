@@ -46,14 +46,14 @@
             !com.thoughtworks.xstream*,
             !sun.misc*,
             !sun.reflect*,
-            javax.xml.stream*;version="[1.0.1,2)",
+            javax.xml.stream*;version="[1.0,2)",
             net.sf.cglib*;resolution:=optional;version="[2.1.3,3)",
             nu.xom;resolution:=optional;version="[1.1,2)",
             org.codehaus.jettison*;resolution:=optional;version="[1,2)",
             org.dom4j*;resolution:=optional;version="[1.6.1,2)",
             org.jdom*;resolution:=optional;version="[1,2)",
             org.joda.time*;resolution:=optional;version="[0.9,1)",
-            org.xmlpull*;version="[1.1.3,2)",
+            org.xmlpull*;version="[1.1,2)",
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.failok>true</servicemix.osgi.failok>
