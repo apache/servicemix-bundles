@@ -39,9 +39,9 @@
         <pkgGroupId>xpp3</pkgGroupId>
         <pkgArtifactId>xpp3</pkgArtifactId>
         <pkgVersion>1.1.4c</pkgVersion>
-        <servicemix.osgi.export.pkg>
-            org.xmlpull*
-        </servicemix.osgi.export.pkg>
+        <servicemix.osgi.export>
+            org.xmlpull*;version=1.1.4.c
+        </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
             !org.xmlpull*,
             *
