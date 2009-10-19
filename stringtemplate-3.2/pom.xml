@@ -46,7 +46,7 @@
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.export>
-            org.antlr.stringtemplate*
+            org.antlr.stringtemplate*;version=${pkgVersion}
         </servicemix.osgi.export>
     </properties>
 
