@@ -44,7 +44,7 @@
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.export>
-            org.ccil.cowan.tagsoup*
+            org.ccil.cowan.tagsoup*;version=${pkgVersion}
         </servicemix.osgi.export>
     </properties>
 
