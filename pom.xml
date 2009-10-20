@@ -23,13 +23,13 @@
     <parent>
 	    <groupId>org.apache.servicemix.bundles</groupId>
 	    <artifactId>bundles-pom</artifactId>
-	    <version>4-SNAPSHOT</version>
+	    <version>4</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.ant</artifactId>
     <packaging>bundle</packaging>
-    <version>1.7.0_3-SNAPSHOT</version>
+    <version>1.7.0_2-SNAPSHOT</version>
     <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${pkgVersion}</name>
     <description>
         This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
