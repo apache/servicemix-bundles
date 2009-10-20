@@ -60,6 +60,7 @@
             groovy*;version=${pkgVersion};-split-package:=merge-first,
             org.codehaus.groovy*;version=${pkgVersion};-split-package:=merge-first
         </servicemix.osgi.export>
+        <servicemix.osgi.failok>true</servicemix.osgi.failok>
     </properties>
 
     <dependencies>
