@@ -170,6 +170,7 @@
         -->
         <module>saxon-9.1.0.1</module>
         <module>serp-1.13.1</module>
+        <module>snmp4j-1.8.1</module>
         <!--
         <module>smack-3.0.4</module>
         -->
