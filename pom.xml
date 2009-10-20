@@ -65,7 +65,7 @@
                         <useReleaseProfile>false</useReleaseProfile>
                         <preparationGoals>clean verify install</preparationGoals>
                         <goals>deploy</goals>
-                        <arguments>-Prelease,deploy -Ddeploy.altRepository=${deploy.altRepository}</arguments>
+                        <arguments>-Prelease,deploy</arguments>
                         <autoVersionSubmodules>true</autoVersionSubmodules>
                     </configuration>
                 </plugin>
