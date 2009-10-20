@@ -23,7 +23,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>3</version>
+        <version>4-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -42,11 +42,11 @@
         <servicemix.osgi.import.pkg>
             javax.crypto*;resolution:=optional,
             org.apache.log4j*;resolution:=optional,
-            org.snmp4j*;resolution:=optional,
+            !org.snmp4j*,
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.export>
-            org.snmp4j*;version=${pkgVersion};-split-package:=merge-first
+            org.snmp4j*;version=${pkgVersion}
         </servicemix.osgi.export>
     </properties>
 
