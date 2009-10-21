@@ -23,7 +23,7 @@
     <parent>
 	    <groupId>org.apache.servicemix.bundles</groupId>
 	    <artifactId>bundles-pom</artifactId>
-	    <version>5-SNAPSHOT</version>
+	    <version>4</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -41,6 +41,7 @@
         <pkgVersion>1.3</pkgVersion>
         <servicemix.osgi.export.pkg>com.sun.xml.messaging.saaj</servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
+            !com.sun.xml.messaging.saaj*,
             com.sun.image.codec.jpeg*;resolution:=optional,
             com.sun.xml.fastinfoset*;resolution:=optional,
             javax.xml.soap,
