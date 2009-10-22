@@ -23,31 +23,35 @@
     <parent>
 	    <groupId>org.apache.servicemix.bundles</groupId>
 	    <artifactId>bundles-pom</artifactId>
-	    <version>1</version>
+	    <version>4</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.junit</artifactId>
+    <artifactId>org.apache.servicemix.bundles.saaj-impl</artifactId>
+    <version>1.3.2_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
-    <version>4.4_2-SNAPSHOT</version>
     <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${pkgVersion}</name>
     <description>
         This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
     </description>
 
     <properties>
-        <pkgGroupId>junit</pkgGroupId>
-        <pkgArtifactId>junit</pkgArtifactId>
-        <pkgVersion>4.4</pkgVersion>
-        <servicemix.osgi.export>
-            org.junit*;version=${pkgVersion};-split-package:=merge-first,
-            junit*;version=${pkgVersion};-split-package:=merge-first
-        </servicemix.osgi.export>
+        <pkgGroupId>com.sun.xml.messaging.saaj</pkgGroupId>
+        <pkgArtifactId>saaj-impl</pkgArtifactId>
+        <pkgVersion>1.3.2</pkgVersion>
+        <servicemix.osgi.export.pkg>com.sun.xml.messaging.saaj</servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
+            !com.sun.xml.messaging.saaj*,
+            com.sun.image.codec.jpeg*;resolution:=optional,
+            com.sun.xml.fastinfoset*;resolution:=optional,
+            javax.xml.soap,
+            org.jvnet.fastinfoset*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
-            org.hamcrest*
+            META-INF;-split-package:=merge-first,
+            META-INF.maven.org.apache.servicemix.bundles*;-split-package:=merge-first,
+            META-INF.services;-split-package:=merge-first,
         </servicemix.osgi.private.pkg>
     </properties>
 
@@ -57,6 +61,17 @@
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
             <optional>true</optional>
+            <exclusions>
+                <exclusion>
+                    <groupId>javax.xml.soap</groupId>
+                    <artifactId>saaj-api</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+		    <groupId>org.apache.servicemix.specs</groupId>
+            <artifactId>org.apache.servicemix.specs.saaj-api-1.3</artifactId>
+            <version>1.0.0</version>
         </dependency>
     </dependencies>
 

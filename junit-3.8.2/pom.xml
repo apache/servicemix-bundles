@@ -23,7 +23,7 @@
     <parent>
       <groupId>org.apache.servicemix.bundles</groupId>
       <artifactId>bundles-pom</artifactId>
-      <version>5-SNAPSHOT</version>
+      <version>4-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -40,10 +40,10 @@
         <pkgArtifactId>junit</pkgArtifactId>
         <pkgVersion>3.8.2</pkgVersion>
         <servicemix.osgi.export>
-            org.junit*;version=${pkgVersion};-split-package:=merge-first,
-            junit*;version=${pkgVersion};-split-package:=merge-first
+            junit*;version=${pkgVersion}
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
+            !junit*,
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>

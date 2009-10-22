@@ -23,7 +23,7 @@
     <parent>
       <groupId>org.apache.servicemix.bundles</groupId>
       <artifactId>bundles-pom</artifactId>
-      <version>5-SNAPSHOT</version>
+      <version>4-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -39,8 +39,11 @@
         <pkgGroupId>org.igniterealtime.smack</pkgGroupId>
         <pkgArtifactId>smack</pkgArtifactId>
         <pkgVersion>3.0.4</pkgVersion>
-        <servicemix.osgi.export.pkg>org.jivesoftware</servicemix.osgi.export.pkg>
+        <servicemix.osgi.export.pkg>
+            org.jivesoftware
+        </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
+            !org.jivesoftware
             *
         </servicemix.osgi.import.pkg>
     </properties>

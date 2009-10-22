@@ -21,39 +21,40 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-      <groupId>org.apache.servicemix.bundles</groupId>
-      <artifactId>bundles-pom</artifactId>
-      <version>5-SNAPSHOT</version>
+	    <groupId>org.apache.servicemix.bundles</groupId>
+	    <artifactId>bundles-pom</artifactId>
+	    <version>4-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.dom4j</artifactId>
-    <version>1.6_2-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.junit</artifactId>
     <packaging>bundle</packaging>
+    <version>4.7_1-SNAPSHOT</version>
     <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${pkgVersion}</name>
     <description>
         This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
     </description>
 
     <properties>
-        <pkgGroupId>dom4j</pkgGroupId>
-        <pkgArtifactId>dom4j</pkgArtifactId>
-        <pkgVersion>1.6</pkgVersion>
-        <servicemix.osgi.export.pkg>
-            org.dom4j*
-        </servicemix.osgi.export.pkg>
+        <pkgGroupId>junit</pkgGroupId>
+        <pkgArtifactId>junit</pkgArtifactId>
+        <pkgVersion>4.7</pkgVersion>
+        <servicemix.osgi.export>
+            org.hamcrest*;version="1.1",
+            org.junit*;version=${pkgVersion};-split-package:=merge-first,
+            junit*;version=${pkgVersion};-split-package:=merge-first
+        </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
-            com.sun.msv.datatype;resolution:=optional,
-            com.sun.msv.datatype.xsd;resolution:=optional,
-            org.gjt.xpp;resolution:=optional,
-            org.jaxen;resolution:=optional,
-            org.jaxen.dom4j;resolution:=optional,
-            org.jaxen.pattern;resolution:=optional,
-            org.jaxen.saxpath;resolution:=optional,
-            org.relaxng.datatype;resolution:=optional,
-            org.xmlpull.v1;resolution:=optional,
+            !org.hamcrest,
+            !org.junit*,
+            !junit*
             *
         </servicemix.osgi.import.pkg>
+        <!--
+        <servicemix.osgi.private.pkg>
+            org.hamcrest*
+        </servicemix.osgi.private.pkg>
+        -->
     </properties>
 
     <dependencies>
