@@ -28,7 +28,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.commons-httpclient</artifactId>
-    <version>3.1_4</version>
+    <version>3.1_5-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${pkgVersion}</name>
     <description>
@@ -101,10 +101,4 @@
             </plugin>
         </plugins>
     </build>
-
-  <scm>
-    <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.commons-httpclient-3.1_4</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.commons-httpclient-3.1_4</developerConnection>
-    <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.commons-httpclient-3.1_4</url>
-  </scm>
 </project>
