@@ -43,7 +43,7 @@
             org.jivesoftware
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !org.jivesoftware
+            !org.jivesoftware,
             *
         </servicemix.osgi.import.pkg>
     </properties>
