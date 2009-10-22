@@ -21,14 +21,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-	    <groupId>org.apache.servicemix.bundles</groupId>
-	    <artifactId>bundles-pom</artifactId>
-	    <version>4</version>
+      <groupId>org.apache.servicemix.bundles</groupId>
+      <artifactId>bundles-pom</artifactId>
+      <version>4</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.drools</artifactId>
-    <version>4.0.7_4-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.mvel</artifactId>
+    <version>1.3.12_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${pkgVersion}</name>
     <description>
@@ -36,82 +36,26 @@
     </description>
 
     <properties>
-        <pkgGroupId>org.drools</pkgGroupId>
-        <pkgArtifactId>drools</pkgArtifactId>
-        <pkgVersion>4.0.7</pkgVersion>
+        <pkgGroupId>org.mvel</pkgGroupId>
+        <pkgArtifactId>mvel</pkgArtifactId>
+        <pkgVersion>1.3.12</pkgVersion>
         <servicemix.osgi.import.pkg>
-            !org.drools*,
-            COM.jrockit*;resolution:=optional,
-            com.thoughtworks.xstream*;resolution:=optional,
-            javax.jcr*;resolution:=optional,
-            javax.rules*;resolution:=optional,
-            jrockit*;resolution:=optional,
-            jxl*;resolution:=optional,
-            org.apache.jackrabbit*;resolution:=optional,
-            org.apache.tools.ant*;resolution:=optional,
-            org.codehaus.janino*;resolution:=optional,
-            org.eclipse.jdt*;resolution:=optional,
-            org.tmatesoft*;resolution:=optional,
-            sun*;resolution:=optional,
-            org.mvel*;version="[1.3,1.3.16)",
+            !org.mvel*,
+            !junit*,
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.export.pkg>
-            org.drools*
+            !org.mvel.tests*,
+            org.mvel*
         </servicemix.osgi.export.pkg>
-        <servicemix.osgi.embed.dependency>
-            *;inline=META-INF/drools.*
-        </servicemix.osgi.embed.dependency>
+        <servicemix.osgi.failok>true</servicemix.osgi.failok>
     </properties>
-
-    <repositories>
-      <repository>
-        <id>jboss</id>
-        <url>http://repository.jboss.com/maven2</url>
-      </repository>
-    </repositories>
 
     <dependencies>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
-            <artifactId>drools-analytics</artifactId>
-            <version>${pkgVersion}</version>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>${pkgGroupId}</groupId>
-            <artifactId>drools-ant</artifactId>
-            <version>${pkgVersion}</version>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>${pkgGroupId}</groupId>
-            <artifactId>drools-compiler</artifactId>
-            <version>${pkgVersion}</version>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>${pkgGroupId}</groupId>
-            <artifactId>drools-core</artifactId>
-            <version>${pkgVersion}</version>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>${pkgGroupId}</groupId>
-            <artifactId>drools-decisiontables</artifactId>
-            <version>${pkgVersion}</version>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>${pkgGroupId}</groupId>
-            <artifactId>drools-jsr94</artifactId>
-            <version>${pkgVersion}</version>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>${pkgGroupId}</groupId>
-            <artifactId>drools-repository</artifactId>
-            <version>${pkgVersion}</version>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}-java1.5</version>
             <optional>true</optional>
         </dependency>
     </dependencies>
@@ -149,4 +93,10 @@
             </plugin>
         </plugins>
     </build>
+
+  <scm>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.mvel-1.3.16_1</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.mvel-1.3.16_1</developerConnection>
+    <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.mvel-1.3.16_1</url>
+  </scm>
 </project>
