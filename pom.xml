@@ -29,7 +29,7 @@
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.smack</artifactId>
     <packaging>bundle</packaging>
-    <version>3.0.4_3-SNAPSHOT</version>
+    <version>3.0.4_2-SNAPSHOT</version>
     <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${pkgVersion}</name>
     <description>
         This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
