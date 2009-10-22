@@ -29,7 +29,7 @@
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>bundles-pom</artifactId>
     <packaging>pom</packaging>
-    <version>5-SNAPSHOT</version>
+    <version>4-SNAPSHOT</version>
     <name>Apache ServiceMix Bundles</name>
 
     <properties>
@@ -40,6 +40,7 @@
         <servicemix.osgi.private.pkg />
         <servicemix.osgi.dynamicimport.pkg />
         <servicemix.osgi.failok>false</servicemix.osgi.failok>
+        <servicemix.osgi.embed.dependency />
     </properties>
 
     <prerequisites>
@@ -98,9 +99,10 @@
                         <Import-Package>${servicemix.osgi.import.pkg}*</Import-Package>
                         <Private-Package>${servicemix.osgi.private.pkg}</Private-Package>
                         <DynamicImport-Package>${servicemix.osgi.dynamicimport.pkg}</DynamicImport-Package>
+                        <Embed-Dependency>${servicemix.osgi.embed.dependency}</Embed-Dependency>
                         <_failok>${servicemix.osgi.failok}</_failok>
                         <_versionpolicy>[$(version;==;$(@)),$(version;+;$(@)))</_versionpolicy>
-                        <_removeheaders>Ignore-Package,Include-Resource,Private-Package</_removeheaders>
+                        <_removeheaders>Ignore-Package,Include-Resource,Private-Package,Embed-Dependency</_removeheaders>
                     </instructions>
                     <unpackBundle>true</unpackBundle>
                 </configuration>
