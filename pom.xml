@@ -23,13 +23,13 @@
     <parent>
 	    <groupId>org.apache.servicemix.bundles</groupId>
 	    <artifactId>bundles-pom</artifactId>
-	    <version>1</version>
+	    <version>4-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.junit</artifactId>
     <packaging>bundle</packaging>
-    <version>4.4_2-SNAPSHOT</version>
+    <version>4.7_1-SNAPSHOT</version>
     <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${pkgVersion}</name>
     <description>
         This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
@@ -38,17 +38,23 @@
     <properties>
         <pkgGroupId>junit</pkgGroupId>
         <pkgArtifactId>junit</pkgArtifactId>
-        <pkgVersion>4.4</pkgVersion>
+        <pkgVersion>4.7</pkgVersion>
         <servicemix.osgi.export>
+            org.hamcrest*;version="1.1",
             org.junit*;version=${pkgVersion};-split-package:=merge-first,
             junit*;version=${pkgVersion};-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
+            !org.hamcrest,
+            !org.junit*,
+            !junit*
             *
         </servicemix.osgi.import.pkg>
+        <!--
         <servicemix.osgi.private.pkg>
             org.hamcrest*
         </servicemix.osgi.private.pkg>
+        -->
     </properties>
 
     <dependencies>
