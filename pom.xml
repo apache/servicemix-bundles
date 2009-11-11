@@ -47,9 +47,9 @@
         <servicemix.osgi.import.pkg>
             !org.apache.xml.security*,
             org.apache.commons.logging;version="[1.1,2)",
-            org.apache.xml.dtm*;version="[2.7,3)",
-            org.apache.xml.utils*;version="[2.7,3)",
-            org.apache.xpath*;version="[2.7,3)",
+            org.apache.xml.dtm*;resolution:=optional;version="[2.7,3)",
+            org.apache.xml.utils*;resolution:=optional;version="[2.7,3)",
+            org.apache.xpath*;resolution:=optional;version="[2.7,3)",
             *
         </servicemix.osgi.import.pkg>
     </properties>
