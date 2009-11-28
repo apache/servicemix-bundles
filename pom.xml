@@ -41,7 +41,7 @@
     <name>Apache ServiceMix Bundles</name>
 
     <modules>
-      <module>quartz-1.6.6</module>
+      <module>juel-2.1.2</module>
     </modules>
 
 </project>
