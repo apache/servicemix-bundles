@@ -41,7 +41,6 @@
     <name>Apache ServiceMix Bundles</name>
 
     <modules>
-      <module>juel-2.1.2</module>
     </modules>
 
 </project>
