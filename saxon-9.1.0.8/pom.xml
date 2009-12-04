@@ -41,6 +41,7 @@
         <pkgVersion>9.1.0.8</pkgVersion>
         <servicemix.osgi.export.pkg>net.sf.saxon</servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
+            !net.sf.saxon*,
             *
         </servicemix.osgi.import.pkg>
     </properties>
