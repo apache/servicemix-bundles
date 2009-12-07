@@ -39,7 +39,10 @@
         <pkgGroupId>net.sf.saxon</pkgGroupId>
         <pkgArtifactId>saxon</pkgArtifactId>
         <pkgVersion>9.1.0.8</pkgVersion>
-        <servicemix.osgi.export.pkg>net.sf.saxon</servicemix.osgi.export.pkg>
+        <servicemix.osgi.export.pkg>
+            net.sf.saxon*;version=${pkgVersion};-split-package:=merge-first,
+            javax.xml.xquery
+        </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             !net.sf.saxon*,
             *
