@@ -41,6 +41,7 @@
     <name>Apache ServiceMix Bundles</name>
 
     <modules>
+        <module>jetty-bundle-6.1.22</module>
     </modules>
 
 </project>
