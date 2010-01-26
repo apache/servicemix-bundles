@@ -41,6 +41,7 @@
     <name>Apache ServiceMix Bundles</name>
 
     <modules>
+      <module>dozer-5.2.0</module>
       <module>protobuf-2.2.0</module>
       <module>jetty-bundle-6.1.22</module>
     </modules>
