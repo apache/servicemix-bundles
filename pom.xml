@@ -30,7 +30,7 @@
   <groupId>org.apache.servicemix.bundles</groupId>
   <artifactId>org.apache.servicemix.bundles.dozer</artifactId>
   <packaging>bundle</packaging>
-  <version>5.2.0_1-SNAPSHOT</version>
+  <version>5.2.0_1</version>
   <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${pkgVersion}</name>
   <description>
         This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar. 
@@ -44,20 +44,24 @@
         org.dozer
     </servicemix.osgi.export.pkg>
     <servicemix.osgi.import.pkg>
-        !org.dozer,
-        javax.management;resolution:=optional,
-        javax.xml.datatype;resolution:=optional,
-        javax.xml.parsers;resolution:=optional,
-        org.apache.commons.beanutils*;resolution:=optional;version="[1.7,2)",
-        org.apache.commons.collections;resolution:=optional,
-        org.apache.commons.lang;resolution:=optional,
-        org.apache.commons.logging;resolution:=optional,
-        org.springframework.beans.factory;resolution:=optional,
-        org.springframework.core.io;resolution:=optional,
-        org.w3c.dom;resolution:=optional,
-        org.xml.sax;resolution:=optional,
-        org.xml.sax.helpers;resolution:=optional,
-        *
+        !org.dozer,       
+        javax.management,
+        javax.xml.datatype,
+        javax.xml.parsers,
+        org.apache.commons.beanutils;version="[1.7,2)",
+        org.apache.commons.beanutils.converters;version="[1.7,2)",
+        org.apache.commons.collections;version="3.2",
+        org.apache.commons.collections.map;version="3.2",
+        org.apache.commons.collections.set;version="3.2",
+        org.apache.commons.lang;version="2.4",
+        org.apache.commons.lang.builder;version="2.4",
+        org.apache.commons.logging,
+        org.springframework.beans.factory,
+        org.springframework.core.io,
+        org.w3c.dom,
+        org.xml.sax,
+        org.xml.sax.helpers,
+        *        
     </servicemix.osgi.import.pkg>
   </properties>
 
@@ -103,4 +107,10 @@
     </plugins>
   </build>
  
+
+  <scm>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.dozer-5.2.0_1</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.dozer-5.2.0_1</developerConnection>
+    <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.dozer-5.2.0_1</url>
+  </scm>
 </project>
