@@ -29,7 +29,7 @@
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.jetty-bundle</artifactId>
     <packaging>bundle</packaging>
-    <version>6.1.22_1</version>
+    <version>6.1.22_2-SNAPSHOT</version>
     <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${artifactVersion}</name>
     <description>
         This bundle simply wraps ${pkgArtifactId}-${artifactVersion}.jar.
@@ -150,10 +150,4 @@
             </plugin>
         </plugins>
     </build>
-
-  <scm>
-    <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.jetty-bundle-6.1.22_1</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.jetty-bundle-6.1.22_1</developerConnection>
-    <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.jetty-bundle-6.1.22_1</url>
-  </scm>
 </project>
