@@ -28,7 +28,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.jasper</artifactId>
-    <version>6.0.14_2</version>
+    <version>6.0.14_3-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${pkgVersion}</name>
     <description>
