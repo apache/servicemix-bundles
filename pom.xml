@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <!--
@@ -17,15 +18,15 @@
         See the License for the specific language governing permissions and
         limitations under the License.
     -->
-
+    
     <modelVersion>4.0.0</modelVersion>
-
+    
     <parent>
-	    <groupId>org.apache.servicemix.bundles</groupId>
-	    <artifactId>bundles-pom</artifactId>
-	    <version>3</version>
+        <groupId>org.apache.servicemix.bundles</groupId>
+        <artifactId>bundles-pom</artifactId>
+        <version>4</version>
     </parent>
-
+    
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.antlr-runtime</artifactId>
     <version>3.0.1_2-SNAPSHOT</version>
@@ -34,21 +35,22 @@
     <description>
         This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
     </description>
-
+    
     <properties>
         <pkgGroupId>org.antlr</pkgGroupId>
         <pkgArtifactId>antlr-runtime</pkgArtifactId>
         <pkgVersion>3.0.1</pkgVersion>
         <servicemix.osgi.import.pkg>
+            !org.antlr.runtime*,
             javax.swing*;resolution:=optional,
             org.antlr.stringtemplate*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.export>
-            org.antlr.runtime*;version=${pkgVersion};-split-package:=merge-first,
+            org.antlr.runtime*;version=${pkgVersion};-split-package:=merge-first
         </servicemix.osgi.export>
     </properties>
-
+    
     <dependencies>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
@@ -57,7 +59,7 @@
             <optional>true</optional>
         </dependency>
     </dependencies>
-
+    
     <build>
         <plugins>
             <plugin>
@@ -91,4 +93,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
