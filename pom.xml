@@ -41,6 +41,7 @@
     <name>Apache ServiceMix Bundles</name>
 
     <modules>
+        <module>lucene-3.0.0</module>
     </modules>
 
 </project>
