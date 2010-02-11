@@ -42,7 +42,7 @@
         <servicemix.osgi.import.pkg>
             !groovy*,
             !org.codehaus.groovy*,
-            antlr*;version="[2.7.6,3)",
+            antlr*;version="[2.7.6,4)",
             com.mockobjects*;resolution:=optional;version="[0.9,1)",
             com.thoughtworks.xstream*;resolution:=optional;version="[1.2.2,2)",
             javax.servlet*;resolution:=optional;version="[2.4,3)",
