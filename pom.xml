@@ -43,6 +43,7 @@
     <modules>
         <module>lucene-3.0.0</module>
         <module>javassist-3.7.ga</module>
+        <module>groovy-1.5.6</module>
     </modules>
 
 </project>
