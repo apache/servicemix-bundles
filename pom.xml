@@ -46,9 +46,9 @@
             org.antlr.stringtemplate*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
-        <servicemix.osgi.export>
-            org.antlr.runtime*;version=${pkgVersion};-split-package:=merge-first
-        </servicemix.osgi.export>
+        <servicemix.osgi.export.pkg>
+            org.antlr.runtime
+        </servicemix.osgi.export.pkg>
     </properties>
     
     <dependencies>
