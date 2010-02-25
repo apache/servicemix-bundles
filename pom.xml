@@ -40,10 +40,11 @@
         <pkgArtifactId>serializer</pkgArtifactId>
         <pkgVersion>2.7.1</pkgVersion>
         <servicemix.osgi.import.pkg>
+          !org.apache.xml.serializer*,
           *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.export.pkg>
-          org.apache.xml.serializer*
+          org.apache.xml.serializer
         </servicemix.osgi.export.pkg>
     </properties>
 
