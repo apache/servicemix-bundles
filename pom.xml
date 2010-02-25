@@ -40,7 +40,7 @@
         <pkgArtifactId>dom4j</pkgArtifactId>
         <pkgVersion>1.6.1</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.dom4j*
+            org.dom4j
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             !org.dom4j*,
