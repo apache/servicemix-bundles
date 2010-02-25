@@ -40,8 +40,12 @@
         <pkgArtifactId>jcr</pkgArtifactId>
         <pkgVersion>1.0</pkgVersion>
         <servicemix.osgi.export.pkg>
-            javax.jcr*
+            javax.jcr
         </servicemix.osgi.export.pkg>
+        <servicemix.osgi.import.pkg>
+            !javax.jcr*,
+            *
+        </servicemix.osgi.import.pkg>
     </properties>
 
     <dependencies>
