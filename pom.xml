@@ -40,7 +40,7 @@
         <pkgArtifactId>oscache</pkgArtifactId>
         <pkgVersion>2.4</pkgVersion>
         <servicemix.osgi.export.pkg>
-            com.opensymphony.oscache*
+            com.opensymphony.oscache
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             !com.opensymphony.oscache*,
