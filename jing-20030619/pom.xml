@@ -40,9 +40,10 @@
         <pkgArtifactId>jing</pkgArtifactId>
         <pkgVersion>20030619</pkgVersion>
         <servicemix.osgi.export.pkg>
-            com.thaiopensource*
+            com.thaiopensource
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
+            !com.thaiopensource*,
             com.icl.saxon;resolution:=optional,
             org.apache.xalan*;resolution:=optional,
             org.apache.xerces*;resolution:=optional,

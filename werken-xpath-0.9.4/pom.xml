@@ -40,7 +40,7 @@
         <pkgArtifactId>werken-xpath</pkgArtifactId>
         <pkgVersion>0.9.4</pkgVersion>
         <servicemix.osgi.export.pkg>
-            com.werken.xpath*
+            com.werken.xpath
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             !com.werken.xpath*,

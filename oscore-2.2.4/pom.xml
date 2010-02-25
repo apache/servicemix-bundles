@@ -53,9 +53,9 @@
             org.apache.xpath*;resolution:=optional;version="[2.4,3)",
             *
         </servicemix.osgi.import.pkg>
-        <servicemix.osgi.export>
-            com.opensymphony*;version=${pkgVersion};-split-package:=merge-first
-        </servicemix.osgi.export>
+        <servicemix.osgi.export.pkg>
+            com.opensymphony
+        </servicemix.osgi.export.pkg>
     </properties>
 
     <dependencies>

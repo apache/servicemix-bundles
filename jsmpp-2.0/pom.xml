@@ -39,10 +39,11 @@
         <pkgGroupId>com.google.code</pkgGroupId>
         <pkgArtifactId>jsmpp</pkgArtifactId>
         <pkgVersion>2.0</pkgVersion>
-        <servicemix.osgi.export>
-            org.jsmpp*;version=${pkgVersion};-split-package:=merge-first,
-        </servicemix.osgi.export>
+        <servicemix.osgi.export.pkg>
+            org.jsmpp
+        </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
+            !org.jsmpp*,
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>

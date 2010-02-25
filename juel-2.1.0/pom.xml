@@ -40,8 +40,12 @@
         <pkgArtifactId>juel</pkgArtifactId>
         <pkgVersion>2.1.0</pkgVersion>
         <servicemix.osgi.export.pkg>
-            de.odysseus.el*
+            de.odysseus.el
         </servicemix.osgi.export.pkg>
+        <servicemix.osgi.import.pkg>
+            !de.odysseus.el*,
+            *
+        </servicemix.osgi.import.pkg>
     </properties>
 
     <dependencies>

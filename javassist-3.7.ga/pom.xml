@@ -41,7 +41,7 @@
         <pkgArtifactId>javassist</pkgArtifactId>
         <pkgVersion>3.7.ga</pkgVersion>
         <servicemix.osgi.export.pkg>
-            javassist*
+            javassist
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             !javassist*,

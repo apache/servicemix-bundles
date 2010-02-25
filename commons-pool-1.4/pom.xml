@@ -41,7 +41,7 @@
         <pkgArtifactId>commons-pool</pkgArtifactId>
         <pkgVersion>1.4</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.apache.commons.pool*
+            org.apache.commons.pool
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             !org.apache.commons.pool*,

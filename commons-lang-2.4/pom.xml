@@ -40,7 +40,7 @@
         <pkgArtifactId>commons-lang</pkgArtifactId>
         <pkgVersion>2.4</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.apache.commons.lang*
+            org.apache.commons.lang
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             !org.apache.commons.lang*,

@@ -40,7 +40,7 @@
         <pkgArtifactId>opensaml</pkgArtifactId>
         <pkgVersion>1.1</pkgVersion>
         <servicemix.osgi.export.pkg>
-             org.opensaml*
+             org.opensaml
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             !org.opensaml*,

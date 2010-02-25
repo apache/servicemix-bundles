@@ -40,8 +40,12 @@
         <pkgArtifactId>ibatis-sqlmap</pkgArtifactId>
         <pkgVersion>2.3.4.726</pkgVersion>
         <servicemix.osgi.export.pkg>
-            com.ibatis*
+            com.ibatis
         </servicemix.osgi.export.pkg>
+        <servicemix.osgi.import.pkg>
+            !com.ibatis*,
+            *
+        </servicemix.osgi.import.pkg>
     </properties>
 
     <dependencies>

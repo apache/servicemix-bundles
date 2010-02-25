@@ -40,7 +40,7 @@
         <pkgArtifactId>oro</pkgArtifactId>
         <pkgVersion>2.0.8</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.apache.oro*
+            org.apache.oro
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             !org.apache.oro*,

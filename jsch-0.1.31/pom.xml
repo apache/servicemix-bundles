@@ -40,7 +40,7 @@
         <pkgArtifactId>jsch</pkgArtifactId>
         <pkgVersion>0.1.31</pkgVersion>
         <servicemix.osgi.export.pkg>
-           com.jcraft.jsch*
+           com.jcraft.jsch
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
            !com.jcraft.jsch*,

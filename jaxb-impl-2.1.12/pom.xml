@@ -45,6 +45,9 @@
             com.sun.xml.txw2*;-split-package:=merge-first
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
+            !com.sun.xml.bind*,
+            !com.sun.istack*,
+            !com.sun.xml.txw2*,
             com.sun.xml.fastinfoset*;resolution:=optional,
             javax.xml.stream*;resolution:=optional,
             org.jvnet.fastinfoset*;resolution:=optional,

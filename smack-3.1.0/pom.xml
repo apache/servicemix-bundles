@@ -44,7 +44,7 @@
             org.jivesoftware
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !org.jivesoftware,
+            !org.jivesoftware*,
             org.xmlpull*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>

@@ -40,6 +40,7 @@
         <pkgArtifactId>core</pkgArtifactId>
         <pkgVersion>3.2.3.v_686_R32x</pkgVersion>
         <servicemix.osgi.import.pkg>
+            !org.eclipse.jdt*,
             org.eclipse.core*;resolution:=optional,
             org.eclipse.jface*;resolution:=optional,
             org.eclipse.osgi.util*;resolution:=optional,

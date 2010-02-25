@@ -40,7 +40,7 @@
         <pkgArtifactId>commons-jxpath</pkgArtifactId>
         <pkgVersion>1.2</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.apache.commons.jxpath*
+            org.apache.commons.jxpath
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             !org.apache.commons.jxpath*,

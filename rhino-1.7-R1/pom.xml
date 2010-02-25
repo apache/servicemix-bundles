@@ -40,6 +40,7 @@
         <pkgArtifactId>js</pkgArtifactId>
         <pkgVersion>1.7R1</pkgVersion>
         <servicemix.osgi.import.pkg>
+            !org.mozilla*,
             javax.swing*;resolution:=optional,
             javax.xml*;resolution:=optional,
             org.apache.xmlbeans*;resolution:=optional,
@@ -48,9 +49,9 @@
             org.xml*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
-        <servicemix.osgi.export>
-            org.mozilla*;version=${pkgVersion};-split-package:=merge-first
-        </servicemix.osgi.export>
+        <servicemix.osgi.export.pkg>
+            org.mozilla
+        </servicemix.osgi.export.pkg>
     </properties>
 
     <dependencies>

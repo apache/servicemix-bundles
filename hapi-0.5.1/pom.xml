@@ -40,13 +40,14 @@
         <pkgArtifactId>hapi</pkgArtifactId>
         <pkgVersion>0.5.1</pkgVersion>
         <servicemix.osgi.import.pkg>
+            !ca.uhn*,
             sun.jdbc.odbc;resolution:=optional,
             org.apache.commons.cli;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
-        <servicemix.osgi.export>
-            ca.uhn*
-        </servicemix.osgi.export>
+        <servicemix.osgi.export.pkg>
+            ca.uhn
+        </servicemix.osgi.export.pkg>
     </properties>
 
     <repositories>

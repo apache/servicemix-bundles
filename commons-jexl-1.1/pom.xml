@@ -40,7 +40,7 @@
         <pkgArtifactId>commons-jexl</pkgArtifactId>
         <pkgVersion>1.1</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.apache.commons.jexl*
+            org.apache.commons.jexl
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             !org.apache.commons.jexl*,

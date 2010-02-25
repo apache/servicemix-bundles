@@ -40,7 +40,7 @@
         <pkgArtifactId>josql</pkgArtifactId>
         <pkgVersion>1.5</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.josql*
+            org.josql
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             !org.josql*,

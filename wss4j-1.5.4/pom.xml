@@ -41,6 +41,7 @@
         <pkgVersion>1.5.4</pkgVersion>
         <servicemix.osgi.export.pkg>org.apache.ws</servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
+            !org.apache.ws*,
             javax.xml.rpc*;resolution:=optional,
             javax.xml.soap*;resolution:=optional,
             org.apache.axis*;resolution:=optional,

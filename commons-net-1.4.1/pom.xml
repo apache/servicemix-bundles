@@ -40,7 +40,7 @@
         <pkgArtifactId>commons-net</pkgArtifactId>
         <pkgVersion>1.4.1</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.apache.commons.net*
+            org.apache.commons.net
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             !org.apache.commons.net*,

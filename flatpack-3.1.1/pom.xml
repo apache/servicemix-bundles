@@ -40,7 +40,7 @@
         <pkgArtifactId>flatpack</pkgArtifactId>
         <pkgVersion>3.1.1</pkgVersion>
         <servicemix.osgi.export.pkg>
-            net.sf.flatpack*
+            net.sf.flatpack
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             !net.sf.flatpack*,

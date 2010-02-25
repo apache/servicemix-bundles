@@ -40,9 +40,10 @@
         <pkgArtifactId>irclib</pkgArtifactId>
         <pkgVersion>1.10</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.schwering.irc*
+            org.schwering.irc
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
+            !org.schwering.irc*,
             com.sun.net.ssl*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
