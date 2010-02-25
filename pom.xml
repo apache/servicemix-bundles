@@ -40,7 +40,7 @@
         <pkgArtifactId>ognl</pkgArtifactId>
         <pkgVersion>2.7.3</pkgVersion>
         <servicemix.osgi.export.pkg>
-            ognl*
+            ognl
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             !ognl*,
