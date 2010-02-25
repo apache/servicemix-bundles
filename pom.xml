@@ -39,7 +39,7 @@
         <pkgGroupId>org.apache.qpid</pkgGroupId>
         <pkgArtifactId>qpid</pkgArtifactId>
         <pkgVersion>0.5.0</pkgVersion>
-        <servicemix.osgi.export.pkg>org.apache.qpid*</servicemix.osgi.export.pkg>
+        <servicemix.osgi.export.pkg>org.apache.qpid</servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             !org.apache.qpid*,
             edu.emory.mathcs.backport.java.util.concurrent*;resolution:=optional,
