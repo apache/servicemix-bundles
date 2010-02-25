@@ -40,7 +40,7 @@
         <pkgArtifactId>twitter4j</pkgArtifactId>
         <pkgVersion>2.0.9</pkgVersion>
         <servicemix.osgi.export.pkg>
-            twitter4j*
+            twitter4j
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             !twitter4j*,
