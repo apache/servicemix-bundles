@@ -57,7 +57,7 @@
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.export.pkg>
-            org.drools*
+            org.drools
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.embed.dependency>
             *;inline=META-INF/drools.*
