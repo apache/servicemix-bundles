@@ -40,8 +40,12 @@
         <pkgArtifactId>joda-time</pkgArtifactId>
         <pkgVersion>1.5.2</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.joda.time*
+            org.joda.time
         </servicemix.osgi.export.pkg>
+        <servicemix.osgi.import.pkg>
+            !org.joda.time*,
+            *
+        </servicemix.osgi.import.pkg>
     </properties>
 
     <dependencies>
