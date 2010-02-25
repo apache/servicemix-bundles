@@ -59,7 +59,7 @@
     <pkgArtifactId>serp</pkgArtifactId>
     <pkgVersion>1.13.1</pkgVersion>
     <servicemix.osgi.export.pkg>
-      serp*
+      serp
     </servicemix.osgi.export.pkg>
     <servicemix.osgi.import.pkg>
         !serp*,
