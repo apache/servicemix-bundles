@@ -44,9 +44,9 @@
             javax.swing*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
-        <servicemix.osgi.export>
-            antlr*;version=${pkgVersion};-split-package:=merge-first,
-        </servicemix.osgi.export>
+        <servicemix.osgi.export.pkg>
+            antlr
+        </servicemix.osgi.export.pkg>
     </properties>
 
     <dependencies>
