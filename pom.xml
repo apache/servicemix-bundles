@@ -55,9 +55,10 @@
         <pkgArtifactId>hamcrest-all</pkgArtifactId>
         <pkgVersion>1.2-dev1</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.hamcrest*
+            org.hamcrest
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
+            !org.hamcrest*,
             org.easymock;resolution:=optional,
             org.jmock.core;resolution:=optional,
             *
