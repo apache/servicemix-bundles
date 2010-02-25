@@ -40,7 +40,7 @@
         <pkgArtifactId>protobuf-java</pkgArtifactId>
         <pkgVersion>2.2.0</pkgVersion>
         <servicemix.osgi.export.pkg>
-            com.google.protobuf*
+            com.google.protobuf
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             !com.google.protobuf*,
