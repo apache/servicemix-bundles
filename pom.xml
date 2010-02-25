@@ -39,7 +39,10 @@
         <pkgGroupId>org.apache.lucene</pkgGroupId>
         <pkgArtifactId>lucene-core</pkgArtifactId>
         <pkgVersion>3.0.0</pkgVersion>
-        <servicemix.osgi.import.pkg/>
+        <servicemix.osgi.import.pkg>
+            !org.apache.lucene*,
+            *
+        </servicemix.osgi.import.pkg>
         <servicemix.osgi.export>
             org.apache.lucene*;version="${pkgVersion}"
         </servicemix.osgi.export>
