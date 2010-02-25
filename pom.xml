@@ -40,7 +40,7 @@
         <pkgArtifactId>jdom</pkgArtifactId>
         <pkgVersion>1.1</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.jdom*
+            org.jdom
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
            javax.xml.parsers,
