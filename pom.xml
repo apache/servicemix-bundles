@@ -40,11 +40,12 @@
         <pkgArtifactId>jettison</pkgArtifactId>
         <pkgVersion>1.0.1</pkgVersion>
         <servicemix.osgi.import.pkg>
+            !org.codehaus.jettison*,
             *
         </servicemix.osgi.import.pkg>
-        <servicemix.osgi.export>
-            org.codehaus.jettison*
-        </servicemix.osgi.export>
+        <servicemix.osgi.export.pkg>
+            org.codehaus.jettison
+        </servicemix.osgi.export.pkg>
     </properties>
 
     <dependencies>
