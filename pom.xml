@@ -42,6 +42,7 @@
         <artifactVersion>6.1.22</artifactVersion>
         <servicemix.osgi.export.pkg>org.mortbay</servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
+            !org.mortbay*,
             *
         </servicemix.osgi.import.pkg>
     </properties>
