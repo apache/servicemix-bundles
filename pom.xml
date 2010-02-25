@@ -40,13 +40,13 @@
         <pkgGroupId>commons-pool</pkgGroupId>
         <pkgArtifactId>commons-pool</pkgArtifactId>
         <pkgVersion>1.5.4</pkgVersion>
-        <servicemix.osgi.export>
-            org.apache.commons.pool*;version=${pkgVersion}
-        </servicemix.osgi.export>
-        <servicemix.osgi.import>
+        <servicemix.osgi.export.pkg>
+            org.apache.commons.pool*
+        </servicemix.osgi.export.pkg>
+        <servicemix.osgi.import.pkg>
             !org.apache.commons.pool*,
             *
-        </servicemix.osgi.import>
+        </servicemix.osgi.import.pkg>
     </properties>
     
     <dependencies>
