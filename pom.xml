@@ -40,6 +40,8 @@
         <pkgArtifactId>isorelax</pkgArtifactId>
         <pkgVersion>20050913</pkgVersion>
         <servicemix.osgi.import.pkg>
+            !org.iso_relax*,
+            !jp.gr.xml.relax*,
             jp.co.swiftinc.relax*;resolution:=optional,
             org.apache.xerces.parsers;resolution:=optional,
             *
