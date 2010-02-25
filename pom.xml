@@ -40,7 +40,7 @@
         <pkgArtifactId>commons-codec</pkgArtifactId>
         <pkgVersion>1.2</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.apache.commons.codec*
+            org.apache.commons.codec
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             !org.apache.commons.codec*
