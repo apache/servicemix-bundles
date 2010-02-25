@@ -40,7 +40,7 @@
         <pkgArtifactId>velocity</pkgArtifactId>
         <pkgVersion>1.6.2</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.apache.velocity*
+            org.apache.velocity
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             !org.apache.velocity*,
