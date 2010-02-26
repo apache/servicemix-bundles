@@ -92,7 +92,6 @@
         </plugins>
     </build>
 
-
   <scm>
     <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.commons-pool-1.4_1</connection>
     <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.commons-pool-1.4_1</developerConnection>
