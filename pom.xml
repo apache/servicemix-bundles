@@ -29,7 +29,7 @@
     
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.commons-pool</artifactId>
-    <version>1.4_2-SNAPSHOT</version>
+    <version>1.4_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${pkgVersion}</name>
     <description>
