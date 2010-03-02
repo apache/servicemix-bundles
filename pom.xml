@@ -41,9 +41,7 @@
     <name>Apache ServiceMix Bundles</name>
 
     <modules>
-        <module>lucene-3.0.0</module>
         <module>lucene-3.0.1</module>
-        <module>javassist-3.7.ga</module>
     </modules>
 
 </project>
