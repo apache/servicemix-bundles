@@ -40,7 +40,7 @@
         <pkgGroupId>org.mortbay.jetty</pkgGroupId>
         <pkgArtifactId>cometd-server</pkgArtifactId>
         <pkgVersion>6.1.22</pkgVersion>
-        <cometdApiVersion>1.0.0rc0</cometdApiVersion>
+        <cometdApiVersion>1.0.1</cometdApiVersion>
         <servicemix.osgi.import.pkg>
             !org.mortbay.cometd*,
             !org.cometd*,
@@ -48,7 +48,7 @@
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.export>
             org.mortbay.cometd*;version=${pkgVersion},
-            org.cometd;version=${pkgVersion}
+            org.cometd;version=${cometdApiVersion}
         </servicemix.osgi.export>
     </properties>
 
