@@ -45,6 +45,7 @@
             org.eclipse.jface*;resolution:=optional,
             org.eclipse.osgi.util*;resolution:=optional,
             org.eclipse.text.edits*;resolution:=optional,
+            org.osgi.service.prefs*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.export>
