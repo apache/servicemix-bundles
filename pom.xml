@@ -42,6 +42,7 @@
 
     <modules>
         <module>lucene-3.0.1</module>
+        <module>smack-3.1.0</module>
     </modules>
 
 </project>
