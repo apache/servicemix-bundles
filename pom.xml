@@ -29,6 +29,7 @@
     
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.jsendnsca-core</artifactId>
+    <packaging>bundle</packaging>
     <version>1.3.1_1-SNAPSHOT</version>
     <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${pkgVersion}</name>
     <description>
@@ -40,10 +41,10 @@
         <pkgArtifactId>jsendnsca-core</pkgArtifactId>
         <pkgVersion>1.3.1</pkgVersion>
         <servicemix.osgi.export.pkg>
-            com.googlecode.jsendnsca.core
+            com.googlecode.jsendnsca
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !com.googlecode.jsendnsca.core*,
+            !com.googlecode.jsendnsca*,
             *
         </servicemix.osgi.import.pkg>
     </properties>
