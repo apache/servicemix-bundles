@@ -51,6 +51,10 @@
             org.apache.xml.security*;version="[1.0.5,2)",
             *
         </servicemix.osgi.import.pkg>
+        <servicemix.osgi.private.pkg>
+            conf;-split-package:=merge-first,
+            schemas;-split-package:=merge-first,
+        </servicemix.osgi.private.pkg>
     </properties>
 
     <dependencies>
