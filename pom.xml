@@ -41,6 +41,7 @@
     <name>Apache ServiceMix Bundles</name>
 
     <modules>
+        <module>hibernate-validator-4.0.2.GA</module>
         <module>lucene-3.0.1</module>
         <module>smack-3.1.0</module>
         <module>opensaml-1.1</module>
