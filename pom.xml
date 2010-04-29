@@ -41,7 +41,10 @@
     <name>Apache ServiceMix Bundles</name>
 
     <modules>
+        <module>cometd-java-server-1.0.1</module>
         <module>hibernate-validator-4.0.2.GA</module>
+        <module>jsendnsca-core-1.3.1</module>
+        <module>jsch-0.1.42</module>
         <module>lucene-3.0.1</module>
         <module>smack-3.1.0</module>
         <module>opensaml-1.1</module>
