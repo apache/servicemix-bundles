@@ -41,6 +41,7 @@
     <name>Apache ServiceMix Bundles</name>
 
     <modules>
+      <module>jsmpp-2.1.0</module>
     </modules>
 
 </project>
