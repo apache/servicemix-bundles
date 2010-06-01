@@ -29,7 +29,7 @@
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.jsmpp</artifactId>
     <packaging>bundle</packaging>
-    <version>2.0_3-SNAPSHOT</version>
+    <version>2.1.0_1-SNAPSHOT</version>
     <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${pkgVersion}</name>
     <description>
         This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
@@ -38,7 +38,7 @@
     <properties>
         <pkgGroupId>com.google.code</pkgGroupId>
         <pkgArtifactId>jsmpp</pkgArtifactId>
-        <pkgVersion>2.0</pkgVersion>
+        <pkgVersion>2.1.0</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.jsmpp
         </servicemix.osgi.export.pkg>
