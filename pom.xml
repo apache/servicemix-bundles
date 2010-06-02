@@ -52,6 +52,7 @@
             org.apache.commons.net.ftp*;resolution:=optional;version="[1.4.1,2)",
             org.apache.log4j*;resolution:=optional,
             org.apache.tools.ant*;resolution:=optional;version="[1.6.2,2)",
+            javax.crypto,
             *
         </servicemix.osgi.import.pkg>
     </properties>
