@@ -44,6 +44,7 @@
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             !org.jsmpp*,
+	    org.testng*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
