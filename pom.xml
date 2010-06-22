@@ -43,7 +43,7 @@
     <modules>
       <module>jsmpp-2.1.0</module>
       <module>commons-vfs-1.0</module>
-      <module>quartz-1.8.1</module>
+      <module>quartz-1.8.2</module>
     </modules>
 
 </project>
