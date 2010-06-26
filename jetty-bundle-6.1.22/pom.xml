@@ -30,9 +30,9 @@
     <artifactId>org.apache.servicemix.bundles.jetty-bundle</artifactId>
     <packaging>bundle</packaging>
     <version>6.1.22_2-SNAPSHOT</version>
-    <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${artifactVersion}</name>
+    <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${pkgVersion}</name>
     <description>
-        This bundle simply wraps ${pkgArtifactId}-${artifactVersion}.jar.
+        This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
     </description>
 
     <properties>
@@ -51,31 +51,31 @@
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>jetty</artifactId>
-            <version>${artifactVersion}</version>
+            <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>jetty-management</artifactId>
-            <version>${artifactVersion}</version>
+            <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>jetty-util</artifactId>
-            <version>${artifactVersion}</version>
+            <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>jetty-sslengine</artifactId>
-            <version>${artifactVersion}</version>
+            <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>jetty-client</artifactId>
-            <version>${artifactVersion}</version>
+            <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
     </dependencies>
