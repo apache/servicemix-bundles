@@ -31,6 +31,7 @@
     <parent>
       <groupId>org.apache.servicemix</groupId>
       <artifactId>servicemix-pom</artifactId>
+      <relativePath>../servicemix-pom/pom.xml</relativePath>
       <version>2</version>
     </parent>
 
