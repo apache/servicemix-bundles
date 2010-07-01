@@ -31,8 +31,7 @@
     <parent>
       <groupId>org.apache.servicemix</groupId>
       <artifactId>servicemix-pom</artifactId>
-      <relativePath>../servicemix-pom/pom.xml</relativePath>
-      <version>2</version>
+      <version>4</version>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -42,12 +41,6 @@
     <name>Apache ServiceMix Bundles</name>
 
     <modules>
-      <module>jetty-bundle-6.1.24</module>
-      <module>jsmpp-2.1.0</module>
-      <module>commons-vfs-1.0</module>
-      <module>quartz-1.8.3</module>
-      <module>scala-compiler-2.8.0.RC7</module>
-      <module>scala-library-2.8.0.RC7</module>
     </modules>
 
 </project>
