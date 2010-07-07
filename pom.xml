@@ -41,6 +41,10 @@
     <name>Apache ServiceMix Bundles</name>
 
     <modules>
+        <module>commons-beanutils-1.8.2</module>
+        <module>commons-collections-3.2.1</module>
+        <module>commons-io-1.4</module>
+        <module>jaxen-1.1.1</module>
     </modules>
 
 </project>
