@@ -46,6 +46,7 @@
         <module>commons-io-1.4</module>
         <module>jaxen-1.1.1</module>
         <module>protobuf-2.3.0</module>
+        <module>jaxb-impl-2.1.13</module>
     </modules>
 
 </project>
