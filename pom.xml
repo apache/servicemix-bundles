@@ -47,6 +47,7 @@
         <module>jaxen-1.1.1</module>
         <module>protobuf-2.3.0</module>
         <module>jaxb-impl-2.1.13</module>
+        <module>xmlbeans-2.5.0</module>
     </modules>
 
 </project>
