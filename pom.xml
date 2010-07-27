@@ -44,19 +44,53 @@
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             !org.codehaus.xfire*,
-            com.meterware*;resolution:=optional,
-            com.sun*;resolution:=optional,
-            com.thoughtworks.qdox*;resolution:=optional,
-            javanet.staxutils*;resolution:=optional,
-            junit.framework*;resolution:=optional,
-            org.apache.commons.attributes;resolution:=optional,
-            org.mortbay.http;resolution:=optional,
+            com.thoughtworks.qdox*;version="[1.5,2)",
+            org.apache.commons.attributes;version="[2.1,3)",
+            javanet.staxutils*,
+            com.sun.codemodel*;resolution:=optional,
+            com.sun.tools.xjc*;resolution:=optional,
+            com.meterware.httpunit*;resolution:=optional,
+            com.meterware.servletunit*;resolution:=optional,
+            org.mortbay.http*;resolution:=optional,
             org.springframework.web*;resolution:=optional,
+            org.exolab.castor*;resolution:=optional,
+            org.jibx*;resolution:=optional,
+            junit*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
     </properties>
     
     <dependencies>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>xfire-aegis</artifactId>
+            <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>xfire-annotations</artifactId>
+            <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>xfire-castor</artifactId>
+            <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>xfire-core</artifactId>
+            <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>xfire-generator</artifactId>
+            <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>xfire-jaxb2</artifactId>
@@ -66,6 +100,18 @@
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>xfire-jaxws</artifactId>
+            <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>xfire-jibx</artifactId>
+            <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>xfire-xmlbeans</artifactId>
             <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
@@ -85,11 +131,48 @@
                         <configuration>
                             <artifactSet>
                                 <includes>
+                                    <include>${pkgGroupId}:xfire-aegis</include>
+                                    <include>${pkgGroupId}:xfire-annotations</include>
+                                    <include>${pkgGroupId}:xfire-castor</include>
+                                    <include>${pkgGroupId}:xfire-core</include>
+                                    <include>${pkgGroupId}:xfire-generator</include>
                                     <include>${pkgGroupId}:xfire-jaxb2</include>
                                     <include>${pkgGroupId}:xfire-jaxws</include>
+                                    <include>${pkgGroupId}:xfire-jibx</include>
+                                    <include>${pkgGroupId}:xfire-xmlbeans</include>
                                 </includes>
                             </artifactSet>
                             <filters>
+                                <filter>
+                                    <artifact>${pkgGroupId}:xfire-aegis</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:xfire-annotations</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:xfire-castor</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:xfire-core</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:xfire-generator</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
                                 <filter>
                                     <artifact>${pkgGroupId}:xfire-jaxb2</artifact>
                                     <excludes>
@@ -98,6 +181,18 @@
                                 </filter>
                                 <filter>
                                     <artifact>${pkgGroupId}:xfire-jaxws</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:xfire-jibx</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:xfire-xmlbeans</artifact>
                                     <excludes>
                                         <exclude>**</exclude>
                                     </excludes>
