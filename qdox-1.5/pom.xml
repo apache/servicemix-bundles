@@ -44,7 +44,7 @@
             com.thoughtworks.qdox
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !com.thoughtworks.qdox*;version=${pkgVersion},
+            !com.thoughtworks.qdox*,
             junit*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
