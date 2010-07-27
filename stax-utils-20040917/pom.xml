@@ -44,7 +44,7 @@
             javanet.staxutils
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !javanet.staxutils*;version=${pkgVersion},
+            !javanet.staxutils*,
             *
         </servicemix.osgi.import.pkg>
     </properties>
