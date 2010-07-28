@@ -38,7 +38,7 @@
     <artifactId>org.apache.servicemix.bundles.pom</artifactId>
     <version>1-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>Apache ServiceMix Bundles</name>
+    <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
         <module>commons-beanutils-1.8.2</module>
