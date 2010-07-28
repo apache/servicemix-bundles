@@ -30,7 +30,7 @@
     <artifactId>bundles-pom</artifactId>
     <packaging>pom</packaging>
     <version>5-SNAPSHOT</version>
-    <name>Apache ServiceMix Bundles</name>
+    <name>Apache ServiceMix :: Bundles</name>
 
     <properties>
         <servicemix.legal.version>1.0</servicemix.legal.version>
