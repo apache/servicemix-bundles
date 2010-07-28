@@ -31,7 +31,7 @@
     <artifactId>org.apache.servicemix.bundles.jibx</artifactId>
     <packaging>bundle</packaging>
     <version>1.1.3_1-SNAPSHOT</version>
-    <name>Apache ServiceMix Bundles: jibx-${pkgVersion}</name>
+    <name>Apache ServiceMix :: Bundles :: jibx ${pkgVersion}</name>
     <description>
         This bundle simply wraps jibx ${pkgVersion} jar files.
     </description>
