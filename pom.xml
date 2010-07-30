@@ -30,7 +30,7 @@
     <artifactId>org.apache.servicemix.bundles.twitter4j</artifactId>
     <version>2.0.9_3-SNAPSHOT</version>
     <packaging>bundle</packaging>
-    <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${pkgVersion}</name>
+    <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId} ${pkgVersion}</name>
     <description>
         This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
     </description>
