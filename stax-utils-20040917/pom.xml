@@ -31,7 +31,7 @@
     <artifactId>org.apache.servicemix.bundles.stax-utils</artifactId>
     <packaging>bundle</packaging>
     <version>20040917_1-SNAPSHOT</version>
-    <name>Apache ServiceMix Bundles: ${pkgArtifactId}-${pkgVersion}</name>
+    <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId} ${pkgVersion}</name>
     <description>
         This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
     </description>
