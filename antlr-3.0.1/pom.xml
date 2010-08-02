@@ -30,7 +30,7 @@
     <artifactId>org.apache.servicemix.bundles.antlr</artifactId>
     <version>3.0.1_4-SNAPSHOT</version>
     <packaging>bundle</packaging>
-    <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId} ${pkgVersion}</name>
+    <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>
         This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
     </description>

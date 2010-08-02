@@ -31,7 +31,7 @@
     <artifactId>org.apache.servicemix.bundles.commons-attributes</artifactId>
     <packaging>bundle</packaging>
     <version>2.1_1-SNAPSHOT</version>
-    <name>Apache ServiceMix :: Bundles :: commons-attributes ${pkgVersion}</name>
+    <name>Apache ServiceMix :: Bundles :: commons-attributes</name>
     <description>
         This bundle simply wraps commons-attributes-${pkgVersion} jar files.
     </description>
