@@ -30,7 +30,7 @@
     <artifactId>org.apache.servicemix.bundles.josql</artifactId>
     <version>1.5_4-SNAPSHOT</version>
     <packaging>bundle</packaging>
-    <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId} ${pkgVersion}</name>
+    <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>
         This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
     </description>
