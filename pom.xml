@@ -31,7 +31,7 @@
     <artifactId>org.apache.servicemix.bundles.jstl</artifactId>
     <packaging>bundle</packaging>
     <version>1.1.2_1-SNAPSHOT</version>
-    <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId} ${pkgVersion}</name>
+    <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>
         This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
     </description>
