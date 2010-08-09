@@ -57,6 +57,7 @@
         <module>scala-library-2.8.0</module>
         <module>wsdl4j-1.6.2</module>
         <module>commons-digester-1.8</module>
+        <module>commons-configuration-1.4</module>
     </modules>
 
 </project>
