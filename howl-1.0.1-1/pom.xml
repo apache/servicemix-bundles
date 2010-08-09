@@ -28,7 +28,7 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.how</artifactId>
+    <artifactId>org.apache.servicemix.bundles.howl</artifactId>
     <version>1.0.1-1_2-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
