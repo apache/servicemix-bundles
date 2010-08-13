@@ -40,12 +40,15 @@
         <pkgGroupId>org.igniterealtime.smack</pkgGroupId>
         <pkgArtifactId>smack</pkgArtifactId>
         <pkgVersion>3.1.0</pkgVersion>
-        <servicemix.osgi.export.pkg>
-            org.jivesoftware
-        </servicemix.osgi.export.pkg>
+        <servicemix.osgi.export>
+            org.jivesoftware*;version=${pkgVersion};-split-package:=merge-first,
+            com.jcraft.jzlib*;version=${pkgVersion};-split-package:=merge-first,
+            org.xmlpull*;version=${pkgVersion};-split-package:=merge-first
+        </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
             !org.jivesoftware*,
-            org.xmlpull*;resolution:=optional,
+            !com.jcraft.jzlib*,
+            !org.xmlpull*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
     </properties>
