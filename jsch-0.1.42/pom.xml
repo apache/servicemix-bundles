@@ -30,7 +30,7 @@
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.jsch</artifactId>
     <packaging>bundle</packaging>
-    <version>0.1.42_2-SNAPSHOT</version>
+    <version>0.1.42_2</version>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>
         This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
@@ -92,4 +92,10 @@
             </plugin>
         </plugins>
     </build>
+
+  <scm>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.jsch-0.1.42_2</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.jsch-0.1.42_2</developerConnection>
+    <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.jsch-0.1.42_2</url>
+  </scm>
 </project>
