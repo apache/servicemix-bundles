@@ -29,7 +29,7 @@
 	<artifactId>org.apache.servicemix.bundles.serp</artifactId>
 	<packaging>bundle</packaging>
 	<name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
-	<version>1.13.1_3-SNAPSHOT</version>
+	<version>1.13.1_3</version>
 	<description>This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.</description>
 	
     <properties>
@@ -86,4 +86,10 @@
 		</plugins>
 	</build>
 
+
+  <scm>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.serp-1.13.1_3</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.serp-1.13.1_3</developerConnection>
+    <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.serp-1.13.1_3</url>
+  </scm>
 </project>
