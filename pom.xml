@@ -30,7 +30,7 @@
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.xfire</artifactId>
     <packaging>bundle</packaging>
-    <version>1.2.5_1</version>
+    <version>1.2.5_2-SNAPSHOT</version>
     <name>Apache ServiceMix :: Bundles :: xfire</name>
     <description>
         This bundle simply wraps xfire ${pkgVersion} jars.
@@ -206,11 +206,4 @@
             </plugin>
         </plugins>
     </build>
-    
-
-  <scm>
-    <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.xfire-1.2.5_1</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.xfire-1.2.5_1</developerConnection>
-    <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.xfire-1.2.5_1</url>
-  </scm>
 </project>
