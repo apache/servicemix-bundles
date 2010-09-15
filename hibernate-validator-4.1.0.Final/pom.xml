@@ -29,7 +29,7 @@
     
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.hibernate-validator</artifactId>
-    <version>4.1.0.Final_1-SNAPSHOT</version>
+    <version>4.1.0.Final_1</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>
@@ -144,4 +144,10 @@
         </plugins>
     </build>
 
+
+  <scm>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.hibernate-validator-4.1.0.Final_1</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.hibernate-validator-4.1.0.Final_1</developerConnection>
+    <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.hibernate-validator-4.1.0.Final_1</url>
+  </scm>
 </project>
