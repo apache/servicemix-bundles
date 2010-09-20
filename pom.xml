@@ -58,6 +58,8 @@
         <module>wsdl4j-1.6.2</module>
         <module>commons-digester-1.8</module>
         <module>commons-configuration-1.4</module>
+        <module>hibernate-validator-4.1.0.Final</module>
+        <module>jain-sip-ri-1.2.154</module>
     </modules>
 
 </project>
