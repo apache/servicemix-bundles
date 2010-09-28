@@ -60,6 +60,8 @@
         <module>commons-configuration-1.4</module>
         <module>hibernate-validator-4.1.0.Final</module>
         <module>jain-sip-ri-1.2.154</module>
+        <module>hsqldb-1.8.0.7</module>
+        <module>hsqldb-1.8.0.10</module>
     </modules>
 
 </project>
