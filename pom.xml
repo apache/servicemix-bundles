@@ -51,6 +51,7 @@
         <module>jaxen-1.1.1</module>
         <module>protobuf-2.3.0</module>
         <module>jaxb-impl-2.1.13</module>
+        <module>jaxb-xjc-2.1.13</module>
         <module>xmlbeans-2.5.0</module>
         <module>jsch-0.1.43</module>
         <module>saxon-9.1.0.8</module>
@@ -63,6 +64,7 @@
         <module>jain-sip-ri-1.2.154</module>
         <module>hsqldb-1.8.0.7</module>
         <module>hsqldb-1.8.0.10</module>
+        <module>mybatis-3.0.2</module>
     </modules>
 
 </project>
