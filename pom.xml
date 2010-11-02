@@ -67,6 +67,7 @@
         <module>mybatis-3.0.2</module>
         <module>dozer-5.3.0</module>
         <module>javassist-3.12.ga</module>
+        <module>jsch-0.1.44</module>
     </modules>
 
 </project>
