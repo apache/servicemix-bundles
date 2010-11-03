@@ -32,6 +32,7 @@
       <groupId>org.apache.servicemix</groupId>
       <artifactId>servicemix-pom</artifactId>
       <version>4</version>
+      <relativePath>../servicemix-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -43,6 +44,7 @@
     <modules>
         <module>ant-1.7.0</module>
         <module>aopalliance-1.0</module>
+        <module>bundles-pom</module>
         <module>cglib-2.1_3</module>
         <module>commons-beanutils-1.8.2</module>
         <module>commons-collections-3.2.1</module>

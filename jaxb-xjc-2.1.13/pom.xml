@@ -23,7 +23,8 @@
     <parent>
 	    <groupId>org.apache.servicemix.bundles</groupId>
 	    <artifactId>bundles-pom</artifactId>
-	    <version>4</version>
+	    <version>5-SNAPSHOT</version>
+        <relativePath>../bundles-pom/pom.xml</relativePath>        
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -107,11 +108,11 @@
     </dependencies>
 
     <repositories>
-        <repository>
-            <id>java.net</id>
-            <name>java.net Maven Repository</name>
-            <url>http://download.java.net/maven/1/</url>
-            <layout>legacy</layout>
+       <repository>
+            <id>maven2-repository.dev.java.net</id>
+            <name>Java.net Repository for Maven</name>
+            <url>http://download.java.net/maven/2/</url>
+            <layout>default</layout>
             <releases>
                 <enabled>true</enabled>
             </releases>
