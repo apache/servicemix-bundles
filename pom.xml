@@ -57,7 +57,7 @@
                 <artifactId>maven-bundle-plugin</artifactId>
                 <configuration>
                     <instructions>
-                        <Bundle-SymbolicName>${pom.artifactId}</Bundle-SymbolicName>
+                        <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
                         <Export-Package>org.apache.openjpa*;version=2.0.0;-split-package:=merge-first;noimport:=true</Export-Package>
                         <Import-Package>
                             com.ibm*;resolution:=optional,
