@@ -30,10 +30,10 @@
     </parent>
     
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.hsqldb-1.8.0.7</artifactId>
-    <version>1.8.0.7</version>
+    <artifactId>org.apache.servicemix.bundles.hsqldb</artifactId>
+    <version>1.8.0.7_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
-    <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId} 1.8.0.7</name>
+    <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>
         This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
     </description>

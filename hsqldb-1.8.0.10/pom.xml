@@ -29,10 +29,10 @@
         <relativePath>../bundles-pom/pom.xml</relativePath>        
     </parent>
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.hsqldb-1.8.0.10</artifactId>
-    <version>1.8.0.10</version>
+    <artifactId>org.apache.servicemix.bundles.hsqldb</artifactId>
+    <version>1.8.0.10_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
-    <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId} 1.8.0.10</name>
+    <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>
         This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
     </description>
