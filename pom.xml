@@ -23,7 +23,8 @@
     <parent>
       <groupId>org.apache.servicemix</groupId>
       <artifactId>servicemix-pom</artifactId>
-      <version>3</version>
+      <version>5</version>
+      <relativePath>../../servicemix-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -94,7 +95,7 @@
                 <extensions>true</extensions>
                 <configuration>
                     <instructions>
-                        <Bundle-SymbolicName>${pom.artifactId}</Bundle-SymbolicName>
+                        <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
                         <Export-Package>${servicemix.osgi.export}</Export-Package>
                         <Import-Package>${servicemix.osgi.import.pkg}*</Import-Package>
                         <Private-Package>${servicemix.osgi.private.pkg}</Private-Package>
