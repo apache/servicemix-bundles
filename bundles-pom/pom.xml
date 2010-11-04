@@ -68,6 +68,7 @@
                         <goals>deploy</goals>
                         <arguments>-Prelease</arguments>
                         <autoVersionSubmodules>true</autoVersionSubmodules>
+                        <remoteTagging>false</remoteTagging>  <!-- avoid remote tagging as it requires an <scm/> section for every bundle -->
                     </configuration>
                 </plugin>
                 <plugin>
