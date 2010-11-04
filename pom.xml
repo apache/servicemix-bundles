@@ -42,18 +42,6 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
-        <module>commons-configuration-1.4</module>        
-        <module>commons-digester-1.8</module>        
-        <module>dozer-5.3.0</module>        
-        <module>drools-5.1.1</module>
-        <!-- <module>hsqldb-1.8.0.7</module> - remember to release this one as well --> 
-        <module>hsqldb-1.8.0.10</module>        
-        <module>jain-sip-ri-1.2.154</module>        
-        <module>javassist-3.12.ga</module>        
-        <module>jaxb-xjc-2.1.13</module>
-        <module>jetty-6.1.25</module>        
-        <module>jsch-0.1.44</module>        
-        <module>mybatis-3.0.2</module>
     </modules>
 
 </project>
