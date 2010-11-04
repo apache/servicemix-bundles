@@ -51,6 +51,15 @@
         </servicemix.osgi.import.pkg>
     </properties>
 
+    <repositories>
+        <!-- jsch 0.1.44 is not in central repo -->
+        <repository>
+            <id>servicemix-m2-repo</id>
+            <name>Servicemix Maven2 Repository</name>
+            <url>http://svn.apache.org/repos/asf/servicemix/m2-repo</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
