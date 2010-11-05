@@ -23,12 +23,13 @@
     <parent>
       <groupId>org.apache.servicemix.bundles</groupId>
       <artifactId>bundles-pom</artifactId>
-      <version>4</version>
+      <version>6-SNAPSHOT</version>
+      <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.jaxp-ri</artifactId>
-    <version>1.4.2_5-SNAPSHOT</version>
+    <version>1.4.4_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>
@@ -38,7 +39,7 @@
     <properties>
         <pkgGroupId>com.sun.xml.parsers</pkgGroupId>
         <pkgArtifactId>jaxp-ri</pkgArtifactId>
-        <pkgVersion>1.4.2</pkgVersion>
+        <pkgVersion>1.4.4</pkgVersion>
         <servicemix.osgi.export.pkg>com.sun</servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             com.sun.java_cup.internal;resolution:=optional,
@@ -48,8 +49,7 @@
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
             META-INF;-split-package:=merge-first,
-            META-INF.maven.org.apache.servicemix.bundles*;-split-package:=merge-first,
-            META-INF.services;-split-package:=merge-first,
+            META-INF.services;-split-package:=merge-first
         </servicemix.osgi.private.pkg>
     </properties>
 
@@ -69,18 +69,18 @@
     </dependencies>
 
     <repositories>
-        <repository>
-            <id>java.net</id>
-            <name>java.net Maven Repository</name>
-            <url>http://download.java.net/maven/1/</url>
-            <layout>legacy</layout>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
+       <!-- com.sun.xml.parses:jaxp-ri:1.4.4 is available in ServiceMix' repo -->
+       <repository>
+           <id>servicemix</id>
+           <name>Apache ServiceMix Repository</name>
+           <url>http://svn.apache.org/repos/asf/servicemix/m2-repo</url>
+           <releases>
+               <enabled>true</enabled>
+           </releases>
+           <snapshots>
+               <enabled>false</enabled>
+           </snapshots>
+       </repository>
     </repositories>
 
     <build>
