@@ -46,6 +46,7 @@
       <module>jaxp-ri-1.4.4</module>
       <module>asm-3.1</module>
       <module>asm-3.3</module>
+      <module>jasypt-1.7</module>
     </modules>
 
 </project>
