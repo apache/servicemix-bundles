@@ -44,6 +44,7 @@
     <modules>
       <module>bundles-pom</module> <!-- no need to re-release this one, is required to get a working build -->
       <module>jaxb-impl-2.2.1</module>
+      <module>jaxb-xjc-2.2.1</module>
     </modules>
 
 </project>
