@@ -1,0 +1,158 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <!--
+
+        Licensed to the Apache Software Foundation (ASF) under one or more
+        contributor license agreements.  See the NOTICE file distributed with
+        this work for additional information regarding copyright ownership.
+        The ASF licenses this file to You under the Apache License, Version 2.0
+        (the "License"); you may not use this file except in compliance with
+        the License.  You may obtain a copy of the License at
+
+           http://www.apache.org/licenses/LICENSE-2.0
+
+        Unless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an "AS IS" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License.
+    -->
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.apache.servicemix.bundles</groupId>
+        <artifactId>bundles-pom</artifactId>
+        <version>5</version>
+        <relativePath>../bundles-pom/pom.xml</relativePath>        
+    </parent>
+
+    <groupId>org.apache.servicemix.bundles</groupId>
+    <artifactId>org.apache.servicemix.bundles.jaxb-xjc</artifactId>
+    <version>2.2.1.1_1-SNAPSHOT</version>
+    <packaging>bundle</packaging>
+    <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
+    <description>
+        This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
+    </description>
+
+    <properties>
+        <pkgGroupId>com.sun.xml.bind</pkgGroupId>
+        <pkgArtifactId>jaxb-xjc</pkgArtifactId>
+        <pkgVersion>2.2.1.1</pkgVersion>
+        <servicemix.osgi.export.pkg>
+            com.sun.tools.xjc*;-split-package:=merge-first;-noimport:=true,
+            com.sun.tools.jxc*;-split-package:=merge-first;-noimport:=true,
+            com.sun.codemodel*;-split-package:=merge-first;-noimport:=true,
+            com.sun.istack.tools*;-split-package:=merge-first;-noimport:=true
+        </servicemix.osgi.export.pkg>
+        <servicemix.osgi.import.pkg>
+			!com.sun.codemodel*,
+			!com.sun.istack.tools*,
+			!com.sun.relaxng.javadt,
+			!com.sun.tools.jxc*,
+			!com.sun.tools.xjc*,
+			!com.sun.xml.bind.serializer,
+			!com.sun.xml.bind.validator,
+			!com.sun.xml.bind.xmlschema,
+			!com.sun.xml.util,
+			!org.apache.xml.resolver*,
+			com.sun.mirror*;resolution:=optional,
+			com.sun.msv*;resolution:=optional,
+			com.sun.org*;resolution:=optional,
+            com.sun.xml.fastinfoset*;resolution:=optional,
+            javax.xml.stream*;resolution:=optional,
+			org.apache.tools.ant*;resolution:=optional,
+			org.dom4j*;resolution:=optional,
+			org.iso_relax*;resolution:=optional,
+            org.jvnet.fastinfoset*;resolution:=optional,
+            org.jvnet.staxex*;resolution:=optional,
+			sun.nio.cs*;resolution:=optional,
+            *
+        </servicemix.osgi.import.pkg>
+        <servicemix.osgi.private.pkg>
+			1.0.com.sun*,
+			com.sun.org.*,
+			com.sun.xml.dtdparser*,
+			com.sun.xml.xsom*,
+			org.kohsuke.rngom*,
+			org.relaxng.datatype*,
+            META-INF;-split-package:=merge-first,
+            META-INF.maven.org.apache.servicemix.bundles*;-split-package:=merge-first,
+            META-INF.services;-split-package:=merge-first,
+        </servicemix.osgi.private.pkg>
+        <servicemix.osgi.failok>true</servicemix.osgi.failok>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.servicemix.bundles</groupId>
+            <artifactId>org.apache.servicemix.bundles.jaxb-impl</artifactId>
+            <version>${pkgVersion}_1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.servicemix.specs</groupId>
+            <artifactId>org.apache.servicemix.specs.stax-api-1.0</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.servicemix.specs</groupId>
+            <artifactId>org.apache.servicemix.specs.jaxb-api-2.2</artifactId>
+            <version>1.6-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+    <repositories>
+       <repository>
+            <id>maven2-repository.dev.java.net</id>
+            <name>Java.net Repository for Maven</name>
+            <url>http://download.java.net/maven/2/</url>
+            <layout>default</layout>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <artifactSet>
+                                <includes>
+                                    <include>${pkgGroupId}:${pkgArtifactId}</include>
+                                </includes>
+                            </artifactSet>
+                            <filters>
+                                <filter>
+                                    <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                            </filters>
+                            <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
+                            <createDependencyReducedPom>true</createDependencyReducedPom>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
