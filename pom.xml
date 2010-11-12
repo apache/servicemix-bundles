@@ -47,7 +47,8 @@
       <module>jasypt-1.7</module>      
       <module>jaxb-impl-2.2.1</module>
       <module>jaxb-xjc-2.2.1</module>
-      <module>jaxp-ri-1.4.4</module>      
+      <module>jaxp-ri-1.4.4</module>
+      <module>jetty-bundle-6.1.26</module>
     </modules>
 
 </project>
