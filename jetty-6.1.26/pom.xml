@@ -27,7 +27,7 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.jetty-bundle</artifactId>
+    <artifactId>org.apache.servicemix.bundles.jetty</artifactId>
     <packaging>bundle</packaging>
     <version>6.1.26_1-SNAPSHOT</version>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
