@@ -51,6 +51,7 @@
       <module>jetty-6.1.26</module>
       <module>scala-compiler-2.8.1</module>
       <module>scala-library-2.8.1</module>
+      <module>mvel-2.0.18</module>
     </modules>
 
 </project>
