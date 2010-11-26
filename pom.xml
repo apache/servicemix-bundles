@@ -42,7 +42,9 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
-      <!-- <module>asm-3.1</module> - also needs to be released but causes duplicate bundle with Maven 2.2.1 -->
+      <!-- The following bundles need to be released but causes duplicate bundle with Maven 2.2.1 -->
+      <!-- <module>asm-3.1</module> -->
+      <!-- <module>ehcache-2.3.0</module> -->
       <module>asm-3.3</module>
       <module>jasypt-1.7</module>      
       <module>jaxb-impl-2.2.1</module>
