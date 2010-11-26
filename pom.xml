@@ -53,6 +53,7 @@
       <module>scala-library-2.8.1</module>
       <module>mvel-2.0.18</module>
       <module>mongodb-2.3</module>
+      <module>ehcache-1.6.2</module>
     </modules>
 
 </project>
