@@ -28,7 +28,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.rhino</artifactId>
-    <version>1.7R1_4-SNAPSHOT</version>
+    <version>1.7R2_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>
@@ -38,7 +38,7 @@
     <properties>
         <pkgGroupId>rhino</pkgGroupId>
         <pkgArtifactId>js</pkgArtifactId>
-        <pkgVersion>1.7R1</pkgVersion>
+        <pkgVersion>1.7R2</pkgVersion>
         <servicemix.osgi.import.pkg>
             !org.mozilla*,
             javax.swing*;resolution:=optional,
