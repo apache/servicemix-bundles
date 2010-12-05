@@ -64,6 +64,7 @@
       <module>qpid-0.6.0</module>
       <module>xmlsec-1.4.4</module>
       <module>rhino-1.7-R2</module>
+      <module>velocity-1.7</module>
     </modules>
 
 </project>
