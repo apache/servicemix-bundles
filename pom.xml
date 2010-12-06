@@ -66,6 +66,7 @@
       <module>rhino-1.7-R2</module>
       <module>velocity-1.7</module>
       <module>quartz-1.8.4</module>
+      <module>lucene-3.0.3</module>
     </modules>
 
 </project>
