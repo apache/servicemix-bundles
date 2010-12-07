@@ -43,31 +43,15 @@
         <pkgVersion>2.0</pkgVersion>
         <servicemix.osgi.export>
             org.guiceyfruit*;version=${pkgVersion};-split-package:=merge-first,
-            com.google.inject;version=${pkgVersion};-split-package:=merge-first,
-            com.google.inject.binder;version=${pkgVersion};-split-package:=merge-first,
-            com.google.inject.internal;version=${pkgVersion};-split-package:=merge-first,
-            com.google.inject.internal.asm;version=${pkgVersion};-split-package:=merge-first,
-            com.google.inject.internal.cglib*;version=${pkgVersion};-split-package:=merge-first,
-            com.google.inject.matcher;version=${pkgVersion};-split-package:=merge-first,
-            com.google.inject.name;version=${pkgVersion};-split-package:=merge-first,
-            com.google.inject.spi;version=${pkgVersion};-split-package:=merge-first,
-            com.google.inject.util;version=${pkgVersion};-split-package:=merge-first,
+            com.google.inject*;version=${pkgVersion};-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
             !org.guiceyfruit*,
-            !com.google.inject,
-            !com.google.inject.binder,
-            !com.google.inject.internal,
-            !com.google.inject.internal.asm,
-            !com.google.inject.internal.cglib*,
-            !com.google.inject.matcher,
-            !com.google.inject.name,
-            !com.google.inject.spi,
-            !com.google.inject.util,
+            com.google.inject.internal.asm.util*;resolution:=optional,
+            !com.google.inject*,
             javax.annotation,
             javax.naming*,
             org.aopalliance*,
-            com.google.inject.internal.asm.util*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
     </properties>
