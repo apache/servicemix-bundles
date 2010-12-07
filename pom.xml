@@ -71,6 +71,7 @@
       <module>netty-3.2.3.Final</module>
       <module>quickfix-1.5.0</module>
       <module>javassist-3.9.0.GA</module>
+      <module>restlet-1.1.10</module>
     </modules>
 
 </project>
