@@ -68,6 +68,7 @@
       <module>quartz-1.8.4</module>
       <module>lucene-3.0.3</module>
       <module>netty-3.2.3.Final</module>
+      <module>quickfix-1.5.0</module>
     </modules>
 
 </project>
