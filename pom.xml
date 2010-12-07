@@ -48,6 +48,7 @@
       <!-- <module>ehcache-2.1.1</module> -->
       <!-- <module>ehcache-2.2.0</module> -->
       <!-- <module>ehcache-2.3.0</module> -->
+      <!-- <module>javassist-3.11.0.GA</module> -->
       <module>asm-3.1</module>
       <module>jasypt-1.7</module>      
       <module>jaxb-impl-2.2.1</module>
@@ -69,6 +70,7 @@
       <module>lucene-3.0.3</module>
       <module>netty-3.2.3.Final</module>
       <module>quickfix-1.5.0</module>
+      <module>javassist-3.9.0.GA</module>
     </modules>
 
 </project>
