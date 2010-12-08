@@ -102,17 +102,20 @@
                             <filters>
                                 <filter>
                                     <artifact>org.restlet:org.restlet</artifact>
-                                    <excludes>
-                                        <exclude>**</exclude>
-                                    </excludes>
+                                    <includes>
+                                        <include>**/*.properties</include>
+                                        <include>**/*.xsd</include>
+                                    </includes>
                                 </filter>
                                 <filter>
                                     <artifact>com.noelios.restlet:com.noelios.restlet</artifact>
-                                    <excludes>
-                                        <exclude>**</exclude>
-                                    </excludes>
+                                    <includes>
+                                        <include>META-INF/services/*</include>
+                                    </includes>
                                 </filter>
                             </filters>
+                            <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
+                            <createDependencyReducedPom>true</createDependencyReducedPom>
                         </configuration>
                     </execution>
                 </executions>
