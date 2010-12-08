@@ -31,7 +31,7 @@
     <artifactId>org.apache.servicemix.bundles.mongodb</artifactId>
     <version>2.3_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
-    <name>Apache ServiceMix :: Bundles :: mongdb</name>
+    <name>Apache ServiceMix :: Bundles :: mongodb</name>
     <description>
         This bundle simply wraps mongodb-${pkgVersion}.jar.
     </description>
