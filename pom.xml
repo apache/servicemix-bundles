@@ -44,7 +44,7 @@
             org.apache.qpid
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !org.apache.qpid,
+            !org.apache.qpid*,
             edu.emory.mathcs.backport.java.util.concurrent*;resolution:=optional,
             javax.jms*;version="[1.1,2)",
             javax.naming*,
@@ -114,6 +114,9 @@
                                     </excludes>
                                 </filter>
                             </filters>
+                            <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
+                            <createDependencyReducedPom>false</createDependencyReducedPom>
+                            <keepDependenciesWithProvidedScope>true</keepDependenciesWithProvidedScope>
                         </configuration>
                     </execution>
                 </executions>
