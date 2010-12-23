@@ -25,12 +25,13 @@
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
         <version>5</version>
+        <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.qpid</artifactId>
     <packaging>bundle</packaging>
-    <version>0.6.0_2-SNAPSHOT</version>
+    <version>0.8.0_1-SNAPSHOT</version>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>
         This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
@@ -39,7 +40,7 @@
     <properties>
         <pkgGroupId>org.apache.qpid</pkgGroupId>
         <pkgArtifactId>qpid</pkgArtifactId>
-        <pkgVersion>0.6.0</pkgVersion>
+        <pkgVersion>0.8.0</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.apache.qpid
         </servicemix.osgi.export.pkg>
@@ -51,8 +52,6 @@
             javax.net*,
             javax.security*,
             javax.transaction*,
-            org.apache.commons.collections*;version="[3.2,4)",
-            org.apache.commons.lang*;version="[2.4,3)",
             org.apache.mina*;version="[1.1,2)",
             org.slf4j*;resolution:=optional,
             *
@@ -70,13 +69,13 @@
     <dependencies>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
-            <artifactId>${pkgArtifactId}-client</artifactId>
+            <artifactId>${pkgArtifactId}-common</artifactId>
             <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
-            <artifactId>${pkgArtifactId}-common</artifactId>
+            <artifactId>${pkgArtifactId}-client</artifactId>
             <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
@@ -96,19 +95,19 @@
                         <configuration>
                             <artifactSet>
                                 <includes>
-                                    <include>${pkgGroupId}:${pkgArtifactId}-client</include>
                                     <include>${pkgGroupId}:${pkgArtifactId}-common</include>
+                                    <include>${pkgGroupId}:${pkgArtifactId}-client</include>
                                 </includes>
                             </artifactSet>
                             <filters>
                                 <filter>
-                                    <artifact>${pkgGroupId}:${pkgArtifactId}-client</artifact>
+                                    <artifact>${pkgGroupId}:${pkgArtifactId}-common</artifact>
                                     <excludes>
                                         <exclude>**</exclude>
                                     </excludes>
                                 </filter>
                                 <filter>
-                                    <artifact>${pkgGroupId}:${pkgArtifactId}-common</artifact>
+                                    <artifact>${pkgGroupId}:${pkgArtifactId}-client</artifact>
                                     <excludes>
                                         <exclude>**</exclude>
                                     </excludes>
@@ -123,4 +122,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
