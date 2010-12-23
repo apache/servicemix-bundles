@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <!--
+
+        Licensed to the Apache Software Foundation (ASF) under one or more
+        contributor license agreements.  See the NOTICE file distributed with
+        this work for additional information regarding copyright ownership.
+        The ASF licenses this file to You under the Apache License, Version 2.0
+        (the "License"); you may not use this file except in compliance with
+        the License.  You may obtain a copy of the License at
+
+           http://www.apache.org/licenses/LICENSE-2.0
+
+        Unless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an "AS IS" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License.
+    -->
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.apache.servicemix.bundles</groupId>
+        <artifactId>bundles-pom</artifactId>
+        <version>5</version>
+        <relativePath>../bundles-pom/pom.xml</relativePath>
+    </parent>
+
+    <groupId>org.apache.servicemix.bundles</groupId>
+    <artifactId>org.apache.servicemix.bundles.jibx</artifactId>
+    <packaging>bundle</packaging>
+    <version>1.2.2_1-SNAPSHOT</version>
+    <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
+    <description>
+        Thi bundle simply wraps ${pkgArtifactId} ${pkgVersion} jar files.
+    </description>
+
+    <properties>
+        <pkgGroupId>org.jibx</pkgGroupId>
+        <pkgArtifactId>jibx</pkgArtifactId>
+        <pkgVersion>1.2.2</pkgVersion>
+        <servicemix.osgi.export.pkg>
+            org.jibx
+        </servicemix.osgi.export.pkg>
+        <servicemix.osgi.import.pkg>
+            !org.jibx*,
+            javax.xml*,
+            org.apache.bcel*;version="[5.0.0,6)",
+            org.dom4j*;version="[1.6,2)",
+            org.jdom*;version="[1.0,2)",
+            org.w3c.dom,
+            org.xmlpull*;version="[1.1.3.1,2)",
+            org.apache.log4j*;resolution:=optional,
+            org.apache.tools.ant*;resolution:=optional,
+            org.joda.time*;resolution:=optional,
+            *
+        </servicemix.osgi.import.pkg>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}-bind</artifactId>
+            <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}-extras</artifactId>
+            <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}-run</artifactId>
+            <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <artifactSet>
+                                <includes>
+                                    <include>${pkgGroupId}:${pkgArtifactId}-bind</include>
+                                    <include>${pkgGroupId}:${pkgArtifactId}-extras</include>
+                                    <include>${pkgGroupId}:${pkgArtifactId}-run</include>
+                                </includes>
+                            </artifactSet>
+                            <filters>
+                                <filter>
+                                    <artifact>${pkgGroupId}:${pkgArtifactId}-bind</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:${pkgArtifactId}-extras</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:${pkgArtifactId}-run</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                            </filters>
+                            <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
+                            <createDependencyReducedPom>true</createDependencyReducedPom>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
