@@ -51,6 +51,9 @@
             !org.xmlpull*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
+        <servicemix.osgi.embed.dependency>
+            *;inline=META-INF/smack.providers|META-INF/smack-config.xml|META-INF/services/*
+        </servicemix.osgi.embed.dependency>
     </properties>
     
     <dependencies>
