@@ -31,7 +31,7 @@
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.jibx</artifactId>
     <packaging>bundle</packaging>
-    <version>1.2.2_1-SNAPSHOT</version>
+    <version>1.2.2_1</version>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>
         Thi bundle simply wraps ${pkgArtifactId} ${pkgVersion} jar files.
@@ -128,4 +128,10 @@
         </plugins>
     </build>
 
+
+  <scm>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.jibx-1.2.2_1</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.jibx-1.2.2_1</developerConnection>
+    <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.jibx-1.2.2_1</url>
+  </scm>
 </project>
