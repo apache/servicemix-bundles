@@ -42,13 +42,6 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
-        <module>aws-java-sdk-1.1.1</module>
-        <module>smack-3.1.0</module>
-        <module>qpid-0.8.0</module>
-        <module>jibx-1.2.2</module>
-        <module>cglib-2.2</module>
-        <module>spymemcached-2.5</module>
-        <module>jasypt-1.7</module>
     </modules>
 
 </project>
