@@ -33,7 +33,19 @@
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>
-        This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
+        SYNOPSIS
+            This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.
+
+        DESCRIPTION
+            Pool provides an Object-pooling API, with three major aspects:
+
+                1. A generic object pool interface that clients and implementors can use to provide easily
+                   interchangable pooling implementations.
+                2. A toolkit for creating modular object pools.
+                3. Several general purpose pool implementations.
+
+        SEE ALSO
+            http://commons.apache.org/pool/
     </description>
     
     <properties>
