@@ -33,7 +33,15 @@
     <version>2.1_3_7-SNAPSHOT</version>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>
-        This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
+        SYNOPSIS
+            This OSGi bundle wraps cglib-nodep ${pkgVersion} jar file.
+
+        DESCRIPTION
+            cglib is a powerful, high performance and quality Code Generation Library, It is used to extend JAVA
+            classes and implements interfaces at runtime.
+
+        SEE ALSO
+            http://cglib.sourceforge.net/
     </description>
 
     <properties>

@@ -32,7 +32,41 @@
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>
-        This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
+        SYNOPSIS
+            This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.
+
+        DESCRIPTION
+            Many Apache projects support interaction with a relational database. Creating a new connection for each user
+            can be time consuming (often requiring multiple seconds of clock time), in order to perform a database
+            transaction that might take milliseconds. Opening a connection per user can be unfeasible in a
+            publicly-hosted Internet application where the number of simultaneous users can be very large. Accordingly,
+            developers often wish to share a "pool" of open connections between all of the application's current users.
+            The number of users actually performing a request at any given time is usually a very small percentage of
+            the total number of active users, and during request processing is the only time that a database connection
+            is required. The application itself logs into the DBMS, and handles any user account issues internally.
+
+            There are several Database Connection Pools already available, both within Apache products and elsewhere.
+            This Commons package provides an opportunity to coordinate the efforts required to create and maintain an
+            efficient, feature-rich package under the ASF license.
+
+            The commons-dbcp package relies on code in the commons-pool package to provide the underlying object pool
+            mechanisms that it utilizes.
+
+            DBCP now comes in two different versions, one to support JDBC 3 and one to support JDBC 4.
+            Here is how it works:
+
+            * DBCP 1.4 compiles and runs under JDK 1.6 only (JDBC 4)
+            * DBCP 1.3 compiles and runs under JDK 1.4-1.5 only (JDBC 3)
+
+            DBCP 1.4 binaries should be used by applications running under JDK 1.6.
+
+            DBCP 1.3 should be used when running under JDK 1.4 or 1.5.
+
+            There is no difference in the codebase supporting these two versions, other than that the code implementing
+            methods added to support JDBC 4 has been filtered out of the DBCP 1.3 sources.
+
+        SEE ALSO
+            http://commons.apache.org/dbcp/
     </description>
 
     <properties>

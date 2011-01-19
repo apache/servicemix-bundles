@@ -33,7 +33,15 @@
     <version>0.9.6_2-SNAPSHOT</version>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>
-        This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
+        SYNOPSIS
+            This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.
+
+        DESCRIPTION
+            Castor is an Open Source data binding framework for Java[tm]. It's the shortest path between Java objects,
+            XML documents and relational tables. Castor provides Java-to-XML binding, Java-to-SQL persistence, and more.
+
+        SEE ALSO
+            http://www.castor.org/
     </description>
     
     <properties>
