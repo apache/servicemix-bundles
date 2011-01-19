@@ -33,7 +33,14 @@
     <version>2.1_2-SNAPSHOT</version>
     <name>Apache ServiceMix :: Bundles :: commons-attributes</name>
     <description>
-        This bundle simply wraps commons-attributes-${pkgVersion} jar files.
+        SYNOPSIS
+            This OSGi bundle wraps commons-attributes-api and commons-attributes-plugin ${pkgVersion} jar files.
+
+        DESCRIPTION
+            Commons Attributes enables Java programmers to use C#/.Net-style attributes in their code.
+
+        SEE ALSO
+            http://commons.apache.org/attributes/
     </description>
     
     <properties>
