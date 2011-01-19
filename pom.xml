@@ -32,7 +32,46 @@
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>
-        This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
+        SYNOPSIS
+            This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.
+
+        DESCRIPTION
+            The org.apache.commons.jxpath package defines a simple interpreter of an expression language called XPath.
+            JXPath applies XPath  expressions to graphs of objects of all kinds: JavaBeans, Maps, Servlet contexts,
+            DOM etc, including mixtures thereof.
+
+            Consider this example:
+
+                Address address = (Address)JXPathContext.newContext(vendor).
+                    getValue("locations[address/zipCode='90210']/address");
+
+            This XPath expression is equivalent to the following Java code:
+
+                Address address = null;
+                Collection locations = vendor.getLocations();
+                Iterator it = locations.iterator();
+                while (it.hasNext()){
+                    Location location = (Location)it.next();
+                    String zipCode = location.getAddress().getZipCode();
+                    if (zipCode.equals("90210")){
+                    address = location.getAddress();
+                    break;
+                }
+            }
+
+            XPath was standardized by W3C and is used in both XSLT and XPointer.
+
+            If you want to find out more about XPath, a good place to start is an excellent XPath Tutorial by W3Schools
+
+            The official definition of XPath by W3C can be found at XML Path Language (XPath) Version 1.0
+
+            Primary applications of JXPath are in scripting: JSP and similar template/script based technologies.
+            However, programmers who prefer XML-flavored APIs, should consider JXPath as an alternative to other
+            expression languages as well. JXPath is a must-have tool for those who work with mixtures of Java objects
+            and XML and need to frequently traverse through graphs of those.
+
+        SEE ALSO
+            http://commons.apache.org/jxpath/
     </description>
 
     <properties>
