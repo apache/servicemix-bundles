@@ -33,7 +33,15 @@
     <version>1.7.0_5-SNAPSHOT</version>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>
-        This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
+        SYNOPSIS
+            This OSGi bundle wraps ant and ant-launcher ${pkgVersion} jar files.
+
+        DESCRIPTION
+            Apache Ant is a Java library and command-line tool who's mission is to drive processes described in build
+            files as targets and extension upon each other.
+
+        SEE ALSO
+            http://ant.apache.org/
     </description>
 
     <properties>
