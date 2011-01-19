@@ -33,7 +33,35 @@
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>
-        This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
+        SYNOPSIS
+            This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.
+
+        DESCRIPTION
+            Commons Configuration provides a generic configuration interface which enables a Java application to read
+            configuration data from a variety of sources. Commons Configuration provides typed access to single, and
+            multi-valued configuration parameters as demonstrated by the following code:
+
+                Double double = config.getDouble("number");
+                Integer integer = config.getInteger("number");
+
+            Configuration parameters may be loaded from the following sources:
+
+            * Properties files
+            * XML documents
+            * Windows INI files
+            * Property list files (plist)
+            * JNDI
+            * JDBC Datasource
+            * System properties
+            * Applet parameters
+            * Servlet parameters
+
+            Different configuration sources can be mixed using a ConfigurationFactory and a CompositeConfiguration.
+            Additional sources of configuration parameters can be created by using custom configuration objects.
+            This customization can be achieved by extending AbstractConfiguration or AbstractFileConfiguration.
+
+        SEE ALSO
+            http://commons.apache.org/configuration/
     </description>
 
     <properties>
