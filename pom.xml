@@ -23,7 +23,7 @@
     <parent>
 	    <groupId>org.apache.servicemix.bundles</groupId>
 	    <artifactId>bundles-pom</artifactId>
-	    <version>5-SNAPSHOT</version>
+	    <version>6-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>        
     </parent>
 
@@ -32,22 +32,7 @@
     <packaging>bundle</packaging>
     <version>1.0_5-SNAPSHOT</version>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
-    <description>
-        SYNOPSIS
-            This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.
-
-        DESCRIPTION
-            The AOP Alliance project is a joint open-source project between software engineering people who are
-            interested in AOP and Java.
-
-            Aspect-Oriented Programming (AOP) offers a better solution to many problems than do existing technologies
-            such as EJB. AOP Alliance intends to facilitate and standardize the use of AOP to enhance existing
-            middleware environment (such as JEE), or development environments (e.g. Eclipse). The AOP Alliance also
-            aims to ensure interoperability between Java/JEE AOP implementations.
-
-        SEE ALSO
-            http://aopalliance.sourceforge.net/
-    </description>
+    <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
 
     <properties>
         <pkgGroupId>aopalliance</pkgGroupId>
