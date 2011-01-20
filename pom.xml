@@ -23,7 +23,7 @@
     <parent>
 	    <groupId>org.apache.servicemix.bundles</groupId>
 	    <artifactId>bundles-pom</artifactId>
-	    <version>5-SNAPSHOT</version>
+	    <version>6-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -32,17 +32,7 @@
     <packaging>bundle</packaging>
     <version>1.7.0_5-SNAPSHOT</version>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
-    <description>
-        SYNOPSIS
-            This OSGi bundle wraps ant and ant-launcher ${pkgVersion} jar files.
-
-        DESCRIPTION
-            Apache Ant is a Java library and command-line tool who's mission is to drive processes described in build
-            files as targets and extension upon each other.
-
-        SEE ALSO
-            http://ant.apache.org/
-    </description>
+    <description>This OSGi bundle wraps ant and ant-launcher ${pkgVersion} jar files.</description>
 
     <properties>
         <pkgGroupId>org.apache.ant</pkgGroupId>

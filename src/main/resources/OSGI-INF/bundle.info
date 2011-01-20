@@ -1,0 +1,9 @@
+SYNOPSIS
+    ${project.description}
+
+DESCRIPTION
+    Apache Ant is a Java library and command-line tool who's mission is to drive processes described in build
+    files as targets and extension upon each other.
+
+SEE ALSO
+    http://ant.apache.org/
