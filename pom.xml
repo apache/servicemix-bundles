@@ -24,7 +24,8 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>4</version>
+        <version>6-SNAPSHOT</version>
+        <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
     
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -32,16 +33,7 @@
     <packaging>bundle</packaging>
     <version>2.1_2-SNAPSHOT</version>
     <name>Apache ServiceMix :: Bundles :: commons-attributes</name>
-    <description>
-        SYNOPSIS
-            This OSGi bundle wraps commons-attributes-api and commons-attributes-plugin ${pkgVersion} jar files.
-
-        DESCRIPTION
-            Commons Attributes enables Java programmers to use C#/.Net-style attributes in their code.
-
-        SEE ALSO
-            http://commons.apache.org/attributes/
-    </description>
+    <description>This OSGi bundle wraps commons-attributes-api and commons-attributes-plugin ${pkgVersion} jar files.</description>
     
     <properties>
         <pkgGroupId>commons-attributes</pkgGroupId>
