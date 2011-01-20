@@ -1,0 +1,13 @@
+SYNOPSIS
+    ${project.description}
+
+DESCRIPTION
+    Some aspects of system implementation, such as logging, error handling, standards enforcement
+    and feature variations are notoriously difficult to implement in a modular way. The result is that code
+    is tangled across a system and leads to quality, productivity and maintenance problems. AspectJ is a
+    seamless aspect-oriented extension to the Java programming language that enables clean modularization of
+    these 'crosscutting concerns'. For the best AspectJ development experience, the AspectJ Development Tools
+    (AJDT) project provides Eclipse platform based tool support for AOSD with AspectJ.
+
+SEE ALSO
+    http://www.eclipse.org/aspectj/
