@@ -1,0 +1,9 @@
+SYNOPSIS
+    ${project.description}
+
+DESCRIPTION
+    Apache Abdera is a functionally-complete, high-performance implementation of the IETF Atom Syndication
+    format (RFC 4287) and Atom Publishing Protocol(RFC 5023) specification.
+
+SEE ALSO
+    http://abdera.apache.org/
