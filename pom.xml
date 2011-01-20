@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>5</version>
+        <version>6-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -33,17 +33,7 @@
     <version>1.3.1_2-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
-    <description>
-        SYNOPSIS
-            This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.
-
-        DESCRIPTION
-            Castor is an Open Source data binding framework for Java[tm]. It's the shortest path between Java objects,
-            XML documents and relational tables. Castor provides Java-to-XML binding, Java-to-SQL persistence, and more.
-
-        SEE ALSO
-            http://www.castor.org/
-    </description>
+    <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
 
     <properties>
         <pkgGroupId>org.codehaus.castor</pkgGroupId>
