@@ -1,0 +1,28 @@
+SYNOPSIS
+    ${project.description}
+
+DESCRIPTION
+    The Java Collections Framework was a major addition in JDK 1.2. It added many powerful data structures that
+    accelerate development of most significant Java applications. Since that time it has become the recognised
+    standard for collection handling in Java.
+
+    Commons-Collections seek to build upon the JDK classes by providing new interfaces, implementations and
+    utilities. There are many features, including:
+
+        * Bag interface for collections that have a number of copies of each object
+        * Buffer interface for collections that have a well defined removal order, like FIFOs
+        * BidiMap interface for maps that can be looked up from value to key as well and key to value
+        * MapIterator interface to provide simple and quick iteration over maps
+        * Type checking decorators to ensure that only instances of a certain type can be added
+        * Transforming decorators that alter each object as it is added to the collection
+        * Composite collections that make multiple collections look like one
+        * Ordered maps and sets that retain the order elements are added in, including an LRU based map
+        * Identity map that compares objects based on their identity (==) instead of the equals method
+        * Reference map that allows keys and/or values to be garbage collected under close control
+        * Many comparator implementations
+        * Many iterator implementations
+        * Adapter classes from array and enumerations to collections
+        * Utilities to test or create typical set-theory properties of collections such as union, intersection, and closure
+
+SEE ALSO
+    http://commons.apache.org/collections/

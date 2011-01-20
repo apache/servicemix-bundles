@@ -1,0 +1,12 @@
+SYNOPSIS
+    ${project.description}
+
+DESCRIPTION
+    ANTLR, ANother Tool for Language Recognition, is a language tool that provides a framework for constructing
+    recognizers, interpreters, compilers, and translators from grammatical descriptions containing actions in a
+    variety of target languages (Java, C, C++, Python, etc).
+    ANTLR provides excellent support for tree constructions, tree walking, translation, error recovery, and
+    error reporting.
+
+SEE ALSO
+    http://www.antlr.org/

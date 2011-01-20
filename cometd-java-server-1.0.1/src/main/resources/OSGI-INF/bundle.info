@@ -1,0 +1,10 @@
+SYNOPSIS
+    ${project.description}
+
+DESCRIPTION
+    CometD is a scalable HTTP-based event routing bus that uses a Ajax Push technology pattern known as Comet.
+    CometD is a Dojo Foundation project to provide implementations of the Bayeux protocol in javascript,
+    java, perl, python and other languages.
+
+SEE ALSO
+    http://cometd.org/

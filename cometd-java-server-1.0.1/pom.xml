@@ -24,7 +24,8 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>4</version>
+        <version>6-SNAPSHOT</version>
+        <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
     
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -32,18 +33,7 @@
     <version>1.0.1_3-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
-    <description>
-        SYNOPSIS
-            This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.
-
-        DESCRIPTION
-            CometD is a scalable HTTP-based event routing bus that uses a Ajax Push technology pattern known as Comet.
-            CometD is a Dojo Foundation project to provide implementations of the Bayeux protocol in javascript,
-            java, perl, python and other languages.
-
-        SEE ALSO
-            http://cometd.org/
-    </description>
+    <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
     
     <properties>
         <pkgGroupId>org.cometd.java</pkgGroupId>

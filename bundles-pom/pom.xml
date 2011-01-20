@@ -45,7 +45,7 @@
     </properties>
 
     <prerequisites>
-        <maven>2.0.9</maven>
+        <maven>2.2.1</maven>
     </prerequisites>
 
     <scm>
@@ -56,6 +56,15 @@
 
     <build>
         <defaultGoal>install</defaultGoal>
+        <resources>
+            <resource>
+                <directory>${project.basedir}/src/main/resources</directory>
+                <filtering>true</filtering>
+                <includes>
+                    <include>**/*</include>
+                </includes>
+            </resource>
+        </resources>
 
         <pluginManagement>
             <plugins>

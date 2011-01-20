@@ -21,9 +21,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-      <groupId>org.apache.servicemix.bundles</groupId>
-      <artifactId>bundles-pom</artifactId>
-      <version>4</version>
+        <groupId>org.apache.servicemix.bundles</groupId>
+        <artifactId>bundles-pom</artifactId>
+        <version>6-SNAPSHOT</version>
+        <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -31,22 +32,7 @@
     <version>1.0-r706899_5-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
-    <description>
-        SYNOPSIS
-            This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.
-
-        DESCRIPTION
-            Commons CSV was started to unify a common and simple interface for reading and writing CSV files under an
-            ASL license. It has been bootstrapped by a code donation from Netcetera in Switzerland. There are three
-            pre-existing BSD compatible CSV parsers which this component will hopefully make redundant:
-
-            * Skife CSV
-            * Open CSV
-            * Genjava CSV
-
-        SEE ALSO
-            http://commons.apache.org/sandbox/csv/
-    </description>
+    <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
 
     <properties>
         <pkgGroupId>org.apache.commons</pkgGroupId>

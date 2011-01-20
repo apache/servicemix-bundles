@@ -1,0 +1,14 @@
+SYNOPSIS
+    ${project.description}
+
+DESCRIPTION
+    Commons CSV was started to unify a common and simple interface for reading and writing CSV files under an
+    ASL license. It has been bootstrapped by a code donation from Netcetera in Switzerland. There are three
+    pre-existing BSD compatible CSV parsers which this component will hopefully make redundant:
+
+        * Skife CSV
+        * Open CSV
+        * Genjava CSV
+
+SEE ALSO
+    http://commons.apache.org/sandbox/csv/

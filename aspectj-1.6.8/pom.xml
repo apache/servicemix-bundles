@@ -24,7 +24,8 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>4</version>
+        <version>6-SNAPSHOT</version>
+        <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
     
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -32,21 +33,7 @@
     <packaging>bundle</packaging>
     <version>1.6.8_2-SNAPSHOT</version>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
-    <description>
-        SYNOPSIS
-            This OSGi bundle wraps aspectjrt and aspectjweaver ${pkgVersion} jar files.
-
-        DESCRIPTION
-            Some aspects of system implementation, such as logging, error handling, standards enforcement
-            and feature variations are notoriously difficult to implement in a modular way. The result is that code
-            is tangled across a system and leads to quality, productivity and maintenance problems. AspectJ is a
-            seamless aspect-oriented extension to the Java programming language that enables clean modularization of
-            these 'crosscutting concerns'. For the best AspectJ development experience, the AspectJ Development Tools
-            (AJDT) project provides Eclipse platform based tool support for AOSD with AspectJ.
-
-        SEE ALSO
-            http://www.eclipse.org/aspectj/
-    </description>
+    <description>This OSGi bundle wraps aspectjrt and aspectjweaver ${pkgVersion} jar files.</description>
     
     <properties>
         <pkgGroupId>org.aspectj</pkgGroupId>

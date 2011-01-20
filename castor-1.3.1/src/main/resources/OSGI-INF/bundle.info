@@ -1,0 +1,9 @@
+SYNOPSIS
+    ${project.description}
+
+DESCRIPTION
+    Castor is an Open Source data binding framework for Java[tm]. It's the shortest path between Java objects,
+    XML documents and relational tables. Castor provides Java-to-XML binding, Java-to-SQL persistence, and more.
+
+SEE ALSO
+    http://www.castor.org/

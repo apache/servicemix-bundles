@@ -1,0 +1,8 @@
+SYNOPSIS
+    ${project.description}
+
+DESCRIPTION
+    Commons Attributes enables Java programmers to use C#/.Net-style attributes in their code.
+
+SEE ALSO
+    http://commons.apache.org/attributes/
