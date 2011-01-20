@@ -23,7 +23,8 @@
     <parent>
 	    <groupId>org.apache.servicemix.bundles</groupId>
 	    <artifactId>bundles-pom</artifactId>
-	    <version>4</version>
+	    <version>6-SNAPSHOT</version>
+        <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -31,20 +32,7 @@
     <version>2.7.7_4-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
-    <description>
-        SYNOPSIS
-            This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.
-
-        DESCRIPTION
-            ANTLR, ANother Tool for Language Recognition, is a language tool that provides a framework for constructing
-            recognizers, interpreters, compilers, and translators from grammatical descriptions containing actions in a
-            variety of target languages (Java, C, C++, Python, etc).
-            ANTLR provides excellent support for tree constructions, tree walking, translation, error recovery, and
-            error reporting.
-
-        SEE ALSO
-            http://www.antlr2.org/
-    </description>
+    <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
 
     <properties>
         <pkgGroupId>antlr</pkgGroupId>
