@@ -1,0 +1,9 @@
+SYNOPSIS
+    ${project.description}
+
+DESCRIPTION
+    Commons Codec provides implementations of common encoders and decoders such as Base64, Hex, Phonetic
+    and URLs.
+
+SEE ALSO
+    http://commons.apache.org/codec/
