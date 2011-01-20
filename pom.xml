@@ -23,7 +23,7 @@
     <parent>
 	    <groupId>org.apache.servicemix.bundles</groupId>
 	    <artifactId>bundles-pom</artifactId>
-	    <version>5-SNAPSHOT</version>
+	    <version>6-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>        
     </parent>
 
@@ -32,17 +32,7 @@
     <packaging>bundle</packaging>
     <version>2.1_3_7-SNAPSHOT</version>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
-    <description>
-        SYNOPSIS
-            This OSGi bundle wraps cglib-nodep ${pkgVersion} jar file.
-
-        DESCRIPTION
-            cglib is a powerful, high performance and quality Code Generation Library, It is used to extend JAVA
-            classes and implements interfaces at runtime.
-
-        SEE ALSO
-            http://cglib.sourceforge.net/
-    </description>
+    <description>This OSGi bundle wraps cglib-nodep ${pkgVersion} jar file.</description>
 
     <properties>
         <pkgGroupId>cglib</pkgGroupId>
