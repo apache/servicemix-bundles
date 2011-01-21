@@ -1,7 +1,7 @@
-SYNOPSIS
+\u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
-DESCRIPTION
+\u001B[1mDESCRIPTION\u001B[0m
     The AOP Alliance project is a joint open-source project between software engineering people who are
     interested in AOP and Java.
 
@@ -10,5 +10,5 @@ DESCRIPTION
     middleware environment (such as JEE), or development environments (e.g. Eclipse). The AOP Alliance also
     aims to ensure interoperability between Java/JEE AOP implementations.
 
-SEE ALSO
-    http://aopalliance.sourceforge.net/
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://aopalliance.sourceforge.net/\u001B[0m
