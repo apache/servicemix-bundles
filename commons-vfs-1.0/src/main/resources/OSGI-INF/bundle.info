@@ -1,0 +1,22 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+\u001B[1mDESCRIPTION\u001B[0m
+    Commons VFS provides a single API for accessing various different file systems. It presents a uniform view
+    of the files from various different sources, such as the files on local disk, on an HTTP server, or inside
+    a Zip archive.
+
+    Some of the features of Commons VFS are:
+
+        * A single consistent API for accessing files of different types.
+        * Support for numerous file system types .
+        * Caching of file information. Caches information in-JVM, and optionally can cache remote file
+          information on the local file system.
+        * Event delivery.
+        * Support for logical file systems made up of files from various different file systems.
+        * Utilities for integrating Commons VFS into applications, such as a VFS-aware ClassLoader and
+          URLStreamHandlerFactory.
+        * A set of VFS-enabled Ant tasks.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://commons.apache.org/vfs/\u001B[0m

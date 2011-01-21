@@ -1,0 +1,9 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+\u001B[1mDESCRIPTION\u001B[0m
+    dom4j is an easy to use, open source library for working with XML, XPath and XSLT on the Java platform
+    using the Java Collections Framework and with full support for DOM, SAX and JAXP.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://dom4j.sourceforge.net/\u001B[1m

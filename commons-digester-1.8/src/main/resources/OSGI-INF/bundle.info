@@ -1,7 +1,7 @@
-SYNOPSIS
+\u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
-DESCRIPTION
+\u001B[1mDESCRIPTION\u001B[0m
     Many projects read XML configuration files to provide initialization of various Java objects within the
     system. There are several ways of doing this, and the Digester component was designed to provide a common
     implementation that can be used in many different projects.
@@ -22,5 +22,5 @@ DESCRIPTION
     maintainability of both Java code and XML documents, since rules are now defined in POJOs and Digester
     parser instances can be generated at run-time, avoiding manual updates.
 
-SEE ALSO
-    http://commons.apache.org/digester/
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://commons.apache.org/digester/\u001B[0m

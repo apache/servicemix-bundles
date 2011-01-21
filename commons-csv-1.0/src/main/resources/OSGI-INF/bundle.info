@@ -1,7 +1,7 @@
-SYNOPSIS
+\u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
-DESCRIPTION
+\u001B[1mDESCRIPTION\u001B[0m
     Commons CSV was started to unify a common and simple interface for reading and writing CSV files under an
     ASL license. It has been bootstrapped by a code donation from Netcetera in Switzerland. There are three
     pre-existing BSD compatible CSV parsers which this component will hopefully make redundant:
@@ -10,5 +10,5 @@ DESCRIPTION
         * Open CSV
         * Genjava CSV
 
-SEE ALSO
-    http://commons.apache.org/sandbox/csv/
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://commons.apache.org/sandbox/csv/\u001B[0m

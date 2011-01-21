@@ -1,7 +1,7 @@
-SYNOPSIS
+\u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
-DESCRIPTION
+\u001B[1mDESCRIPTION\u001B[0m
     Many Apache projects support interaction with a relational database. Creating a new connection for each user
     can be time consuming (often requiring multiple seconds of clock time), in order to perform a database
     transaction that might take milliseconds. Opening a connection per user can be unfeasible in a
@@ -31,5 +31,5 @@ DESCRIPTION
     There is no difference in the codebase supporting these two versions, other than that the code implementing
     methods added to support JDBC 4 has been filtered out of the DBCP 1.3 sources.
 
-SEE ALSO
-    http://commons.apache.org/dbcp/
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://commons.apache.org/dbcp/\u001B[0m

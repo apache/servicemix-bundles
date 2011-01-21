@@ -1,7 +1,7 @@
-SYNOPSIS
+\u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
-DESCRIPTION
+\u001B[1mDESCRIPTION\u001B[0m
     ASM is an all purpose Java bytecode manipulation and analysis framework. It can be used to modify existing
     classes or dynamically generate classes, directly in binary form. Provided common transformations and
     analysis algorithms allow to easily assembly custom complex transformations and code analysis tools.
@@ -10,5 +10,5 @@ DESCRIPTION
     performance. Because it was designed and implemented to be as small and as fast as possible, it makes it
     very attractive for using in dynamic systems.
 
-SEE ALSO
-    http://asm.ow2.org/
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://asm.ow2.org/\u001B[0m

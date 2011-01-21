@@ -21,9 +21,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-      <groupId>org.apache.servicemix.bundles</groupId>
-      <artifactId>bundles-pom</artifactId>
-      <version>4</version>
+        <groupId>org.apache.servicemix.bundles</groupId>
+        <artifactId>bundles-pom</artifactId>
+        <version>6-SNAPSHOT</version>
+        <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -31,30 +32,7 @@
     <version>1.0_6-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
-    <description>
-        SYNOPSIS
-            This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.
-
-        DESCRIPTION
-            Commons VFS provides a single API for accessing various different file systems. It presents a uniform view
-            of the files from various different sources, such as the files on local disk, on an HTTP server, or inside
-            a Zip archive.
-
-            Some of the features of Commons VFS are:
-
-                * A single consistent API for accessing files of different types.
-                * Support for numerous file system types .
-                * Caching of file information. Caches information in-JVM, and optionally can cache remote file
-                  information on the local file system.
-                * Event delivery.
-                * Support for logical file systems made up of files from various different file systems.
-                * Utilities for integrating Commons VFS into applications, such as a VFS-aware ClassLoader and
-                  URLStreamHandlerFactory.
-                * A set of VFS-enabled Ant tasks.
-
-        SEE ALSO
-            http://commons.apache.org/vfs/
-    </description>
+    <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
 
     <properties>
         <pkgGroupId>commons-vfs</pkgGroupId>

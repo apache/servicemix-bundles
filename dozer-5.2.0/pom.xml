@@ -22,9 +22,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>bundles-pom</artifactId>
-    <version>4</version>
+        <groupId>org.apache.servicemix.bundles</groupId>
+        <artifactId>bundles-pom</artifactId>
+        <version>6-SNAPSHOT</version>
+        <relativePath>../bundles-pom/pom.xml</relativePath>
   </parent>
 
   <groupId>org.apache.servicemix.bundles</groupId>
@@ -32,31 +33,7 @@
   <packaging>bundle</packaging>
   <version>5.2.0_3-SNAPSHOT</version>
   <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
-  <description>
-      SYNOPSIS
-        This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.
-
-      DESCRIPTION
-        Dozer is a Java Bean to Java Bean mapper that recursively copies data from one object to another.
-        Typically, these Java Beans will be of different complex types.
-
-        Dozer supports simple property mapping, complex type mapping, bi-directional mapping, implicit-explicit mapping,
-        as well as recursive mapping. This includes mapping collection attributes that also need mapping at the element
-        level.
-
-        Dozer not only supports mapping between attribute names, but also automatically converting between types.
-        Most conversion scenarios are supported out of the box, but Dozer also allows you to specify custom conversions
-        via XML.
-
-        The mapper is used any time you need to take one type of Java Bean and map it to another type of Java Bean.
-        Most field mapping can be done automatically by Dozer using reflection, but any custom mapping can be
-        predescribed in XML format. Mapping is bi-directional so only one relationship between classes needs defining.
-        If any property names on both objects are the same you do not even need to do any explicit property mapping for
-        these fields.
-
-      SEE ALSO
-        http://dozer.sourceforge.net/
-  </description>
+  <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
     
   <properties>
     <pkgGroupId>net.sf.dozer</pkgGroupId>

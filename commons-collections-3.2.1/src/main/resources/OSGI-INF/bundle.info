@@ -1,7 +1,7 @@
-SYNOPSIS
+\u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
-DESCRIPTION
+\u001B[1mDESCRIPTION\u001B[0m
     The Java Collections Framework was a major addition in JDK 1.2. It added many powerful data structures that
     accelerate development of most significant Java applications. Since that time it has become the recognised
     standard for collection handling in Java.
@@ -24,5 +24,5 @@ DESCRIPTION
         * Adapter classes from array and enumerations to collections
         * Utilities to test or create typical set-theory properties of collections such as union, intersection, and closure
 
-SEE ALSO
-    http://commons.apache.org/collections/
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://commons.apache.org/collections/\u001B[0m
