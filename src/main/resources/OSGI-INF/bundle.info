@@ -1,7 +1,7 @@
-SYNOPSIS
+\u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
-DESCRIPTION
+\u001B[1mDESCRIPTION\u001B[0m
     Most Java developers are used to creating Java classes that conform to the JavaBeans naming patterns for
     property getters and setters. It is natural to then access these methods directly, using calls to the
     corresponding getXxx and setXxx methods. However, there are some occasions where dynamic access to Java
@@ -19,5 +19,5 @@ DESCRIPTION
     packages in the JDK Javadocs). However, these APIs can be quite complex to understand and utilize.
     The BeanUtils component provides easy-to-use wrappers around these capabilities.
 
-SEE ALSO
-    http://commons.apache.org/beanutils/
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://commons.apache.org/beanutils/\u001B[0m
