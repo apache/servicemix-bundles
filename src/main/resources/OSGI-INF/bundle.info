@@ -1,9 +1,9 @@
-SYNOPSIS
+\u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
-DESCRIPTION
+\u001B[1mDESCRIPTION\u001B[0m
     Commons Codec provides implementations of common encoders and decoders such as Base64, Hex, Phonetic
     and URLs.
 
-SEE ALSO
-    http://commons.apache.org/codec/
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://commons.apache.org/codec/\u001B[0m
