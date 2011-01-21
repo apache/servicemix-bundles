@@ -1,7 +1,7 @@
-SYNOPSIS
+\u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
-DESCRIPTION
+\u001B[1mDESCRIPTION\u001B[0m
     The Hyper-Text Transfer Protocol (HTTP) is perhaps the most significant protocol used on the Internet today.
     Web services, network-enabled appliances and the growth of network computing continue to expand the role of
     the HTTP protocol beyond user-driven web browsers, while increasing the number of applications that require
@@ -12,5 +12,5 @@ DESCRIPTION
     HTTP proxies, web service transport libraries, or systems that leverage or extend the HTTP protocol for
     distributed communication.
 
-SEE ALSO
-    http://hc.apache.org/
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://hc.apache.org/\u001B[0m
