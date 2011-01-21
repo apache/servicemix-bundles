@@ -1,7 +1,7 @@
-SYNOPSIS
+\u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
-DESCRIPTION
+\u001B[1mDESCRIPTION\u001B[0m
     Some aspects of system implementation, such as logging, error handling, standards enforcement
     and feature variations are notoriously difficult to implement in a modular way. The result is that code
     is tangled across a system and leads to quality, productivity and maintenance problems. AspectJ is a
@@ -9,5 +9,5 @@ DESCRIPTION
     these 'crosscutting concerns'. For the best AspectJ development experience, the AspectJ Development Tools
     (AJDT) project provides Eclipse platform based tool support for AOSD with AspectJ.
 
-SEE ALSO
-    http://www.eclipse.org/aspectj/
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://www.eclipse.org/aspectj/\u001B[0m
