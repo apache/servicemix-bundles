@@ -1,7 +1,7 @@
-SYNOPSIS
+\u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
-DESCRIPTION
+\u001B[1mDESCRIPTION\u001B[0m
     Since early 2006, Amazon Web Services (AWS) has provided companies of all sizes with an infrastructure web
     services platform in the cloud. With AWS you can requisition compute power, storage, and other
     services–gaining access to a suite of elastic IT infrastructure services as your business demands them.
@@ -17,5 +17,5 @@ DESCRIPTION
     videos, music, and more; and an enterprise can deploy bandwidth-consuming services and training to its
     mobile workforce.
 
-SEE ALSO
-    http://aws.amazon.com/
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://aws.amazon.com/\u001B[0m
