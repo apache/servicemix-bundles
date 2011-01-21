@@ -83,7 +83,8 @@
         <module>dom4j-1.6.1</module>
         <module>dozer-5.2.0</module>
         <module>dozer-5.3.0</module>
-
+        <module>drools-4.0.7</module>
+        <module>drools-5.1.1</module>
         <module>ehcache-1.6.2</module>
         <module>ehcache-2.0.1</module>
         <module>ehcache-2.1.1</module>
@@ -95,6 +96,9 @@
         <module>freemarker-2.3.15</module>
         <module>groovy-1.5.6</module>
         <module>groovy-1.6.3</module>
+        <module>guice-2.0</module>
+        <module>hamcrest-1.2</module>
+        <module>hapi-0.5.1</module>
     </modules>
 
 </project>

@@ -1,0 +1,14 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+\u001B[1mDESCRIPTION\u001B[0m
+    HAPI (HL7 application programming interface; pronounced "happy") is an
+    open-source, object-oriented HL7 2.x parser for Java. HL7
+    is a messaging specification for healthcare information systems. This project
+    is not affiliated with the HL7 organization; we are just writing some software
+    that conforms to their specification. The project was initiated by University
+    Health Network (a large multi-site teaching hospital in Toronto, Canada).
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://hl7api.sourceforge.net/\u001B[0m
+    \u001B[36mhttp://hl7.org\u001B[0m

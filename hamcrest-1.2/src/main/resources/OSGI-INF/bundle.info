@@ -1,0 +1,16 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+\u001B[1mDESCRIPTION\u001B[0m
+    Hamcrest provides a library of matcher objects (also known as constraints or
+    predicates) allowing 'match' rules to be defined declaratively, to be
+    used in other frameworks. Typical scenarios include testing frameworks,
+    mocking libraries and UI validation rules.
+
+    Hamcrest has been ported to Java, C++, Objective-C, Python, PHP and Erlang.
+
+    Note: Hamcrest it is not a testing library: it just happens that matchers are
+    very useful for testing.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://code.google.com/p/hamcrest/\u001B[0m
