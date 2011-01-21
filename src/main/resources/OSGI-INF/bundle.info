@@ -1,7 +1,7 @@
-SYNOPSIS
+\u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
-DESCRIPTION
+\u001B[1mDESCRIPTION\u001B[0m
     The Byte Code Engineering Library (BCEL) is intended to give users a convenient possibility to analyze,
     create, and manipulate (binary) Java class files (those ending with .class). Classes are represented by
     objects which contain all the symbolic information of the given class: methods, fields and byte code
@@ -20,5 +20,5 @@ DESCRIPTION
     code generators and analysis tools. Unfortunately there hasn't been much development going on over the past
     few years. Feel free to help out or you might want to have a look into the ASM project at objectweb.
 
-SEE ALSO
-    http://jakarta.apache.org/bcel/
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://jakarta.apache.org/bcel/\u001B[0m
