@@ -23,7 +23,8 @@
     <parent>
 	    <groupId>org.apache.servicemix.bundles</groupId>
 	    <artifactId>bundles-pom</artifactId>
-	    <version>4</version>
+	    <version>6-SNAPSHOT</version>
+        <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -31,37 +32,7 @@
     <version>1.4.1_5-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
-    <description>
-        SYNOPSIS
-            This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.
-
-        DESCRIPTION
-            Apache Commons Net implements the client side of many basic Internet protocols. The purpose of the library
-            is to provide fundamental protocol access, not higher-level abstractions. Therefore, some of the design
-            violates object-oriented design principles. Our philosophy is to make the global functionality of a protocol
-            accessible (e.g., TFTP send file and receive file) when possible, but also provide access to the fundamental
-            protocols where applicable so that the programmer may construct his own custom implementations (e.g, the
-            TFTP packet classes and the TFTP packet send and receive methods are exposed).
-
-            Supported protocols are:
-
-                * FTP/FTPS
-                * NNTP
-                * SMTP
-                * POP3
-                * Telnet
-                * TFTP
-                * Finger
-                * Whois
-                * rexec/rcmd/rlogin
-                * Time (rdate) and Daytime
-                * Echo
-                * Discard
-                * NTP/SNTP
-
-        SEE ALSO
-            http://commons.apache.org/net/
-    </description>
+    <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
 
     <properties>
         <pkgGroupId>commons-net</pkgGroupId>
