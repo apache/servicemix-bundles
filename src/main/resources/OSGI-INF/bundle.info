@@ -1,0 +1,13 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+\u001B[1mDESCRIPTION\u001B[0m
+    HOWL is a logger implementation providing features required by the ObjectWeb JOTM project, with a public API that
+    is generally usable by any Transaction Manager. HOWL uses unformatted binary logs to maximize performance and
+    specifies a journalization API with methods necessary to support JOTM recovery operations.
+
+    HOWL is intended to be used for logging of temporary data such as XA transaction events. HOWL is not a replacement
+    for traditional log kits such as LOG4J and Java SE Logging.
+
+\u011B[1mSEE ALSO\u001B[0m
+     \u001B[36mhttp://howl.ow2.org/\u001B[0m
