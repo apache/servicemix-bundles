@@ -107,6 +107,14 @@
         <module>ibatis-sqlmap-2.3.4.726</module>
         <module>irclib-1.10</module>
         <module>isorelax-20050913</module>
+        <module>jain-sip-ri-1.2.154</module>
+        <module>jasper-6.0.14</module>
+        <module>jasypt-1.6</module>
+        <module>jasypt-1.7</module>
+        <module>javassist-3.11.0.GA</module>
+        <module>javassist-3.12.ga</module>
+        <module>javassist-3.7.ga</module>
+        <module>javassist-3.9.0.GA</module>
     </modules>
 
 </project>
