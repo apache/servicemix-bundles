@@ -1,0 +1,19 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+\u001B[1mDESCRIPTION\u001B[0m
+    HSQLDB (HyperSQL DataBase) is the leading SQL relational database engine written in Java. It has a JDBC driver and
+    supports nearly full ANSI-92 SQL (BNF format) plus many SQL:2008 enhancements. It offers a small, fast
+    multithreaded and transactional database engine which offers in-memory and disk-based tables and supports embedded
+    and server modes. Additionally, it includes tools such as a command line SQL tool and GUI query tools.
+
+    The product is currently being used as a database and persistence engine in many Open Source Software projects and
+    in commercial projects and products. In its current supported versions it is extremely stable and reliable. It is
+    best known for its small size, ability to execute completely in memory, its flexibility and speed.
+
+    This feature-packed software is completely free to use and distribute under our licenses , based on the standard
+    BSD license. Completely free of cost or restrictions and fully compatible with all major open source licenses.
+    Java source code and extensive documentation included.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://hsqldb.org/\u001B[0m
