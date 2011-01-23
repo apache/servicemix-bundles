@@ -31,9 +31,7 @@
     <version>6.0.14_4-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
-    <description>
-        This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
-    </description>
+    <description>This OSGi bundles wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
 
     <properties>
         <pkgGroupId>org.apache.tomcat</pkgGroupId>

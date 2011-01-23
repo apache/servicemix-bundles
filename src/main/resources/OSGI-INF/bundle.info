@@ -1,0 +1,33 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+\u001B[1mDESCRIPTION\u001B[0m
+    Tomcat 6.0 uses the Jasper 2 JSP Engine to implement the JavaServer Pages 2.0
+    specification.
+
+    Jasper 2 has been redesigned to significantly improve performance over the
+    original Jasper. In addition to general code improvements the following
+    changes were made:
+
+        * JSP Custom Tag Pooling - The java objects instantiated for JSP Custom
+          Tags can now be pooled and reused. This significantly boosts the
+          performance of JSP pages which use custom tags.
+        * Background JSP compilation - If you make a change to a JSP page which
+          had already been compiled Jasper 2 can recompile that page in the
+          background. The previously compiled JSP page will still be available to
+          serve requests. Once the new page has been compiled successfully it will
+          replace the old page. This helps improve availability of your JSP pages
+          on a production server.
+        * Recompile JSP when included page changes - Jasper 2 can now detect when
+          a page included at compile time from a JSP has changed and then
+          recompile the parent JSP.
+        * JDT used to compile JSP pages - The Eclipse JDT Java compiler is now
+          used to perform JSP java source code compilation. This compiler loads
+          source dependencies from the container classloader. Ant and javac can
+          still be used.
+
+    Jasper is implemented using the servlet class
+    org.apache.jasper.servlet.JspServlet.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://tomcat.apache.org/tomcat-6.0-doc/jasper-howto.html\u001B[0m
