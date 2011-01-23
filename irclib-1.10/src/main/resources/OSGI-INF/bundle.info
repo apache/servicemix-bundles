@@ -1,0 +1,14 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+\u001B[1mDESCRIPTION\u001B[0m
+    IRClib is a free Java implementation of the IRC protocol. It requires J2SE 1.2 or later. (Under J2SE 1.2 and 1.3,
+    Sun's JSSE is needed to enable SSL support. JSSE is not needed since J2SE 1.4 anymore.)
+    IRClib is free software; it's triple-licensed under the GNU LGPL, Apache License 2.0 and Eclipse Public License.
+    It's RFC1459 and RFC2812 compliant.
+    The core IRClib (org.schwering.irc.lib) is a thin library. There's also a more high-level implementation on-top of
+    the core IRClib (org.schwering.irc.manager). The latter is under development at the moment and only available at
+    the SVN repository.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://moepii.sourceforge.net/\u001B[0m

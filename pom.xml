@@ -99,6 +99,14 @@
         <module>guice-2.0</module>
         <module>hamcrest-1.2</module>
         <module>hapi-0.5.1</module>
+        <module>hibernate-validator-4.0.2.GA</module>
+        <module>hibernate-validator-4.1.0.Final</module>
+        <module>howl-1.0.1-1</module>
+        <module>hsqldb-1.8.0.10</module>
+        <module>hsqldb-1.8.0.7</module>
+        <module>ibatis-sqlmap-2.3.4.726</module>
+        <module>irclib-1.10</module>
+        <module>isorelax-20050913</module>
     </modules>
 
 </project>
