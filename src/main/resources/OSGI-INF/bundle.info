@@ -1,0 +1,14 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+\u001B[1mDESCRIPTION\u001B[0m
+    The MyBatis data mapper framework makes it easier to use a relational database with object-oriented applications.
+    MyBatis couples objects with stored procedures or SQL statements using a XML descriptor. Simplicity is the biggest
+    advantage of the MyBatis data mapper over object relational mapping tools.
+
+    To use the MyBatis data mapper, you rely on your own objects, XML, and SQL. There is little to learn that you
+    don't already know. With the MyBatis Data Mapper, you have the full power of both SQL and stored procedures at your
+    fingertips.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://www.mybatis.org/\u001B[0m
