@@ -1,0 +1,29 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+\u001B[1mDESCRIPTION\u001B[0m
+    Java Excel API is a mature, open source java API enabling developers to read, write, and modifiy Excel spreadsheets
+    dynamically. Now java developers can read Excel spreadsheets, modify them with a convenient and simple API, and
+    write the changes to any output stream (e.g. disk, HTTP, database, or any socket).
+
+    Any operating system which can run a Java virtual machine (i.e., not just Windows) can both process and deliver
+    Excel spreadsheets. Because it is Java, the API can be invoked from within a servlet, thus giving access to Excel
+    spreadsheets over internet and intranet web applications.
+
+    Some features:
+        * Reads data from Excel 95, 97, 2000, XP, and 2003 workbooks
+        * Reads and writes formulas (Excel 97 and later only)
+        * Generates spreadsheets in Excel 2000 format
+        * Supports font, number and date formatting
+        * Supports shading, bordering, and coloring of cells
+        * Modifies existing worksheets
+        * Is internationalized, enabling processing in almost any locale, country, language, or character encoding
+          (formulas are currently only supported in English, French, Spanish, and German, but more can be added if
+          translated)
+        * Supports copying of charts
+        * Supports insertion and copying of images into spreadsheets
+        * Supports logging with Jakarta Commons Logging, log4j, JDK 1.4 Logger, etc
+        * ...and much more
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://jexcelapi.sourceforge.net/\u001B[0m
