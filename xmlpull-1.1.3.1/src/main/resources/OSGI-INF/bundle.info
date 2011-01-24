@@ -1,0 +1,17 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    XMLPULL is a new streaming API that can read arbitrarily large documents
+    like SAX. However, as the name indicates, it is based on a pull model rather
+    than a push model. In XMLPULL the client is in control rather than the parser.
+    The application tells the parser when it wants to receive the next data chunk
+    rather than the parser telling the client when the next chunk of data is available.
+
+    Like SAX, XMLPULL is an open source, parser independent pure Java API based on
+    interfaces that can be implemented by multiple parsers.
+
+\u001B[1mSEE ALSO\u001B[0m
