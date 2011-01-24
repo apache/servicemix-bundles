@@ -1,0 +1,46 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+\u001B[1mDESCRIPTION\u001B[0m
+    JSch is a pure Java implementation of SSH2.
+    JSch allows you to connect to an sshd server and use port forwarding, X11 forwarding, file transfer, etc., and you
+    can integrate its functionality into your own Java programs. JSch is licensed under BSD style license.
+
+    The current JSch has the following features.
+
+        * JSch is in pure Java, but it depends on JavaTM Cryptography Extension (JCE). JSch is know to work with:
+            o J2SE 1.4.0 or later (no additional libraries required).
+            o J2SE 1.3 and Sun's JCE reference implementation that can be obtained at
+              \u001B[36mhttp://java.sun.com/products/jce/\u001B[0m.
+            o J2SE 1.2.2 and later and Bouncycastle's JCE implementation that can be obtained at
+              \u001B[36mhttp://www.bouncycastle.org/\u001B[0m.
+        * SSH2 protocol support.
+        * Key exchange: diffie-hellman-group-exchange-sha1, diffie-hellman-group1-sha1
+        * Cipher: blowfish-cbc,3des-cbc,aes128-cbc,aes192-cbc,aes256-cbc,aes128-ctr,aes192-ctr,aes256-ctr,3des-ctr,
+          arcfour,arcfour128,arcfour256
+        * MAC: hmac-md5, hmac-sha1, hmac-md5-96, hmac-sha1-96
+        * Host key type: ssh-dss,ssh-rsa
+        * Userauth: password
+        * Userauth: publickey(DSA,RSA)
+        * Userauth: keyboard-interactive
+        * Userauth: gss-api-with-mic
+        * X11 forwarding
+        * xauth spoofing
+        * connection through HTTP proxy.
+        * connection through SOCKS5 proxy.
+        * port forwarding.
+        * stream forwarding.
+        * signal sending. The unofficial patch for sshd of openssh will be found in this thread.
+        * envrironment variable passing.
+        * remote exec.
+        * generating DSA and RSA key pairs.
+        * changing the passphrase for a private key.
+        * partial authentication
+        * SSH File Transfer Protocol(version 0, 1, 2, 3)
+        * packet compression: zlib, zlib@openssh.com JZlib has been used.
+        * hashed known_hosts file.
+        * NONE Cipher switching. High Performace Enabled SSH/SCP supports NONE Cipher switching.
+        * JSch is licensed under BSD style license.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://www.jcraft.com/jsch/\u001B[0m
