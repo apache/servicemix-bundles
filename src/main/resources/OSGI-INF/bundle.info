@@ -1,0 +1,14 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URLs:
+        \u001B[33mmvn:${pkgGroupId}/smack/${pkgVersion}\u001B[0m
+        \u001B[33mmvn:${pkgGroupId}/smackx/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    Smack is an Open Source XMPP (Jabber) client library for instant messaging and presence. A pure Java library, it
+    can be embedded into your applications to create anything from a full XMPP client to simple XMPP integrations such
+    as sending notification messages and presence-enabling devices.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://www.igniterealtime.org/projects/smack/\u001B[0m
