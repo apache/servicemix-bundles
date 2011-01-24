@@ -1,0 +1,12 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+\u001B[1mDESCRIPTION\u001B[0m
+    JCR API (Content Repository for Java Technology API) is specified in JSR 170 and 283.
+
+    A content repository is a hierarchical content store with support for structured and unstructured content, full
+    text search, versioning, transactions, observation, and more.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://jcp.org/en/jsr/detail?id=170\u001B[0m
+    \u001B[36mhttp://jcp.org/en/jsr/detail?id=283\u001B[0m
