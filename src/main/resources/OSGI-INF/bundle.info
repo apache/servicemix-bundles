@@ -1,0 +1,8 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+\u001B[1mDESCRIPTION\u001B[0m
+    Jing is a RELAX NG validator in Java.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://www.thaiopensource.com/relaxng/jing.html\u001B[0m
