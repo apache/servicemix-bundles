@@ -1,0 +1,15 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    PropertySet is a persistence-agnostic module that can be used to fulfill storage requirements in applications that
+    can change constantly. An example of this might be a "User Preferences" storage device. It may be impossible to know
+    what the user can store at any given time in your application's lifecycle, so employing a PropertySet can help.
+    Backed by XML, EJB, Ofbiz, JDBC, Castor JDO, or any other persistence mechanism, you can provide a complete typed
+    key-value pair implementation.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://www.opensymphony.com/propertyset/\u001B[0m
