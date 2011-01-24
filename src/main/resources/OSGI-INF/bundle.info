@@ -1,0 +1,18 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URLs:
+        \u001B[33mmvn:org.restlet/org.restlet/${pkgVersion}\u001B[0m
+        \u001B[33mmvn:com.noelios.restlet/com.noelios.restlet/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    Noelios Restlet Engine (NRE) is the leading REST framework in Java. First software, across all languages, to have
+    proposed a development framework designed from the REST concepts in 2005. First also by the size and quality of
+    its community of users and contributors.
+
+    NRE is developed in the context of the open source Restlet project. You can find all the technical documentation
+    and download the latest version of the software on the community site.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://www.restlet.org/\u001B[0m
+    \u001B[36mhttp://www.noelios.com/products/restlet-engine\u001B[0m
