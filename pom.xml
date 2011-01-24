@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>5</version>
+        <version>6-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -33,9 +33,7 @@
     <packaging>bundle</packaging>
     <version>1.2.2_2-SNAPSHOT</version>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
-    <description>
-        Thi bundle simply wraps ${pkgArtifactId} ${pkgVersion} jar files.
-    </description>
+    <description>This OSGi bundle wraps jibx-bind, jibx-extras, and jibx-run ${pkgVersion} jar files.</description>
 
     <properties>
         <pkgGroupId>org.jibx</pkgGroupId>
