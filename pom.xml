@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>5</version>
+        <version>6-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>        
     </parent>
 
@@ -33,9 +33,7 @@
     <packaging>bundle</packaging>
     <version>0.1.44_2-SNAPSHOT</version>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
-    <description>
-        This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
-    </description>
+    <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
 
     <properties>
         <pkgGroupId>com.jcraft</pkgGroupId>
