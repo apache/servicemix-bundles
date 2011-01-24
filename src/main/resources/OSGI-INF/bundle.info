@@ -1,0 +1,8 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+\u001B[1mDESCRIPTION\u001B[0m
+    JDOM provides a complete, Java-based solution for accessing, manipulating, and outputting XML data from Java code.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://www.jdom.org/\u001B[0m
