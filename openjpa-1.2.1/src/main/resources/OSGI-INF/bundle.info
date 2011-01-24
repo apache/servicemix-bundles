@@ -1,0 +1,17 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    Apache OpenJPA is a Java persistence project at The Apache Software Foundation that can be used as a stand-alone
+    POJO persistence layer or integrated into any Java EE compliant container and many other lightweight frameworks,
+    such as Tomcat and Spring.
+
+    The 1.x releases are a production ready, feature-rich, compliant implementation of the
+    Java Persistence API (JPA) 1.0 part of the JSR-220 Enterprise Java Beans 3.0 specification, which pass the
+    Sun JPA 1.0b Technology Compatibility Kit.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://openjpa.apache.org/\u001B[0m

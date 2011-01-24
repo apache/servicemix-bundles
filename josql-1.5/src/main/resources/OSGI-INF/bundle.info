@@ -1,0 +1,10 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+\u001B[1mDESCRIPTION\u001B[0m
+    JoSQL (SQL for Java Objects) provides the ability for a developer to apply a SQL statement to a collection of
+    Java Objects. JoSQL provides the ability to search, order and group ANY Java objects and should be applied when you
+    want to perform SQL-like queries on a collection of Java Objects.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://josql.sourceforge.net/\u001B[0m

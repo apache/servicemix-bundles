@@ -1,0 +1,14 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+\u001B[1mDESCRIPTION\u001B[0m
+    OGNL stands for Object-Graph Navigation Language; it is an expression language for getting and setting properties
+    of Java objects. You use the same expression for both getting and setting the value of a property.
+
+    The ognl.Ognl class contains convenience methods for evaluating OGNL expressions. You can do this in two stages,
+    parsing an expression into an internal form and then using that internal form to either set or get the value of a
+    property; or you can do it in a single stage, and get or set a property using the String form of the expression
+    directly.
+
+ \u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://www.opensymphony.com/ognl/\u001B[0m

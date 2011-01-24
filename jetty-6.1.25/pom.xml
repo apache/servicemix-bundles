@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>5</version>
+        <version>6-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>        
     </parent>
 
@@ -33,9 +33,8 @@
     <packaging>bundle</packaging>
     <version>6.1.25_2-SNAPSHOT</version>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
-    <description>
-        This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
-    </description>
+    <description>This OSGi bundle wraps jetty, jetty-util, jetty-management, jetty-client, and jetty-sslengine
+        ${pkgVersion} jar files.</description>
 
     <properties>
         <pkgGroupId>org.mortbay.jetty</pkgGroupId>

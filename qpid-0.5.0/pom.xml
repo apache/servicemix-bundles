@@ -21,9 +21,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-      <groupId>org.apache.servicemix.bundles</groupId>
-      <artifactId>bundles-pom</artifactId>
-      <version>4</version>
+        <groupId>org.apache.servicemix.bundles</groupId>
+        <artifactId>bundles-pom</artifactId>
+        <version>6-SNAPSHOT</version>
+        <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -31,9 +32,7 @@
     <packaging>bundle</packaging>
     <version>0.5.0_4-SNAPSHOT</version>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
-    <description>
-        This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
-    </description>
+    <description>This OSGi bundle wraps qpid-common, and qpid-client ${pkgVersion} jar files.</description>
 
     <properties>
         <pkgGroupId>org.apache.qpid</pkgGroupId>

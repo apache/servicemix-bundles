@@ -1,0 +1,26 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    OSCore is a set of utility-classes that are common to the other components of OpenSymphony. Contains essential
+    functionality for any J2EE application.
+
+    * TextUtils - useful functions for manipulating Strings. Examples include: extracting primitive types, verifying
+      e-mail addresses, splitting and joining, escaping characters, hyperlinking text, indentation, etc.
+    * XMLUtils - common XML functions such as parsing and printing DOM documents, performing XSL transformations and
+      selecting nodes using XPATH.
+    * EJBUtils - common EJB and JNDI based functions such as looking up and narrowing home interfaces and looking up
+      entity-beans directly.
+    * BeanUtils - useful methods for accessing values of objects using reflection.
+    * MultipartException - a special type of Exception designed to be subclassed for holding many child Exceptions.
+      Useful if validation can throw many Exceptions and they all need to be wrapped up into and report (for example).
+    * Data - an Object wrapper for binary data.
+    * OrderedMap - a java.util.Map implementation that retains the order items were added in.
+    * DataUtil - a small class that helps convert Objects to their primitive types.
+    * DateUtil - a small class for handling ISO 8601 International Date formats.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://www.opensymphony.com/oscore/\u001B[0m

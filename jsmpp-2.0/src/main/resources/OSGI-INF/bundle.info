@@ -1,0 +1,16 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+\u001B[1mDESCRIPTION\u001B[0m
+    JSMPP is a java implementation (SMPP API) of SMPP protocol (currently support SMPP v3.4). It provides interfaces to
+    communicate with Message Center or ESME (External Short Message Entity) and able to handle traffic 3000-5000
+    messages per second.
+
+    SMPP is stand for Short Message Peer to Peer. It is a standard protocol for exchanging SMS messages between SMS
+    entities over TCP/IP or X.25 connections.
+
+    This API created to reduce the verbosity of the existing SMPP API. It's very simple and easy to use because it
+    hides the complexity of the low level protocol communication such as automatically enquire link request-response.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://code.google.com/p/jsmpp/\u001B[0m

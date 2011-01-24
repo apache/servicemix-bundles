@@ -1,0 +1,17 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+\u001B[1mDESCRIPTION\u001B[0m
+    The JavaServer Pages Standard Tag Library (JSTL) encapsulates as simple tags the core functionality common to many
+    Web applications. JSTL has support for common, structural tasks such as iteration and conditionals, tags for
+    manipulating XML documents, internationalization tags, and SQL tags. It also provides a framework for integrating
+    existing custom tags with JSTL tags.
+
+    The JSTL 1.2 Maintenance Release aligns with the Unified Expression Language (EL) that is being delivered as part
+    of the JavaServer Pages (JSP) 2.1 specification. Thanks to the Unified EL, JSTL tags, such as the JSTL iteration
+    tags, can now be used with JavaServer Faces components in an intuitive way.
+
+    JSTL 1.2 is part of the Java EE 5 platform.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://www.oracle.com/technetwork/java/index-jsp-135995.html\u001B[0m

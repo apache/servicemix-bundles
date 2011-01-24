@@ -22,7 +22,8 @@
 	<parent>
 		<artifactId>bundles-pom</artifactId>
 		<groupId>org.apache.servicemix.bundles</groupId>
-		<version>4</version>
+		<version>6-SNAPSHOT</version>
+        <relativePath>../bundles-pom/pom.xml</relativePath>
 	</parent>
 
 	<groupId>org.apache.servicemix.bundles</groupId>
@@ -30,7 +31,7 @@
 	<packaging>bundle</packaging>
 	<name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
 	<version>1.13.1_4-SNAPSHOT</version>
-	<description>This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.</description>
+	<description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
 	
     <properties>
         <pkgGroupId>net.sourceforge.serp</pkgGroupId>
