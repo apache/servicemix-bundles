@@ -24,7 +24,8 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>5</version>
+        <version>6-SNAPSHOT</version>
+        <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -32,9 +33,7 @@
     <version>2.3_2-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: mongodb</name>
-    <description>
-        This bundle simply wraps mongodb-${pkgVersion}.jar.
-    </description>
+    <description>This OSGi bundle wraps bson, and mongo-java-driver ${pkgVersion} jar files.</description>
 
     <properties>
         <pkgGroupId>org.mongodb</pkgGroupId>
