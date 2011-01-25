@@ -1,6 +1,9 @@
 \u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
 \u001B[1mDESCRIPTION\u001B[0m
     IRClib is a free Java implementation of the IRC protocol. It requires J2SE 1.2 or later. (Under J2SE 1.2 and 1.3,
     Sun's JSSE is needed to enable SSL support. JSSE is not needed since J2SE 1.4 anymore.)
