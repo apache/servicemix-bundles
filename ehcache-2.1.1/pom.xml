@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>5</version>
+        <version>6-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -33,18 +33,7 @@
     <version>2.1.1_2-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
-    <description>
-        SYNOPSIS
-            This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.
-
-        DESCRIPTION
-            Ehcache is an open source, standards-based cache used to boost performance, offload the database and
-            simplify scalability. Ehcache is robust, proven and full-featured, which has made it the most popular
-            Java-based cache with 100,000’s of production deployments.
-
-        SEE ALSO
-            http://ehcache.org/
-    </description>
+    <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
 
     <properties>
         <pkgGroupId>net.sf.ehcache</pkgGroupId>

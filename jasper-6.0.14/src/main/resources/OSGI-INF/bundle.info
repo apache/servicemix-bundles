@@ -1,6 +1,9 @@
 \u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
 \u001B[1mDESCRIPTION\u001B[0m
     Tomcat 6.0 uses the Jasper 2 JSP Engine to implement the JavaServer Pages 2.0
     specification.

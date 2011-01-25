@@ -1,6 +1,10 @@
 \u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
+    Original Maven URLs:
+        \u001B[33mmvn:${pkgGroupId}/commons-attributes-api/${pkgVersion}\u001B[0m
+        \u001B[33mmvn:${pkgGroupId}/commons-attributes-plugin/${pkgVersion}\u001B[0m
+
 \u001B[1mDESCRIPTION\u001B[0m
     Commons Attributes enables Java programmers to use C#/.Net-style attributes in their code.
 

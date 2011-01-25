@@ -1,6 +1,10 @@
 \u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
+    Original Maven URLs:
+        \u001B[33mmvn:${pkgGroupId}/ant/${pkgVersion}\u001B[0m
+        \u001B[33mmvn:${pkgGroupId}/ant-launcher/${pkgVersion}\u001B[0m
+
 \u001B[1mDESCRIPTION\u001B[0m
     Apache Ant is a Java library and command-line tool who's mission is to drive processes described in build
     files as targets and extension upon each other.

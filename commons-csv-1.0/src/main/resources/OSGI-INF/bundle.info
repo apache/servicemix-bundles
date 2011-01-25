@@ -1,6 +1,9 @@
 \u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
+    Original Maven URL:
+        \u001B[33mmvn:http://svn.apache.org/repos/asf/servicemix/m2-repo:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
 \u001B[1mDESCRIPTION\u001B[0m
     Commons CSV was started to unify a common and simple interface for reading and writing CSV files under an
     ASL license. It has been bootstrapped by a code donation from Netcetera in Switzerland. There are three

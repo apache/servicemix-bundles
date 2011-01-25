@@ -1,6 +1,9 @@
 \u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
+    Original Maven URL:
+        \u001B[33mmvn:http://repository.jboss.org/nexus/content/groups/public/:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
 \u001B[1mDESCRIPTION\u001B[0m
     This project publishes the Reference Implementation, Technology Compatibility
     Kit, examples and tools for JAIN-SIP-1.2 (JSR-32 maintenance release) and an

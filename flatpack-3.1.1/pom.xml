@@ -21,9 +21,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-      <groupId>org.apache.servicemix.bundles</groupId>
-      <artifactId>bundles-pom</artifactId>
-      <version>4</version>
+        <groupId>org.apache.servicemix.bundles</groupId>
+        <artifactId>bundles-pom</artifactId>
+        <version>6-SNAPSHOT</version>
+        <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -31,28 +32,7 @@
     <version>3.1.1_5-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
-    <description>
-        SYNOPSIS
-            This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.
-
-        DESCRIPTION
-            FlatPack came out of the frustration of having to mix file parsing logic with business logic.
-
-            FlatPack is a Java (1.4+) flat file parser that handles CSV, fixed length and custom delimiters. The
-            formats are configured in XML, it is fast and released under Apache license 2.0.
-
-            Starting at release 3.1, FlatPack introduces exporters via the writer package. This mechanism allows you
-            to export a DataSet to a fixed length or delimited format.
-
-            Substrings in a fixed width parse can be daunting to deal with when trying to analyze what existing code is
-            doing, and what about when you have no comments...
-
-            It also provides delimited file parsing; works with any delimiter / qualifier, multiline records, delimiter
-            or qualifier allowed in column value.
-
-        SEE ALSO
-            http://flatpack.sourceforge.net/
-    </description>
+    <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
 
     <properties>
         <pkgGroupId>net.sf.flatpack</pkgGroupId>

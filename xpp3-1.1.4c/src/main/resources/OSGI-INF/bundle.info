@@ -1,0 +1,34 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    MXP1: Xml Pull Parser 3rd Edition (XPP3)
+
+    MXP1 is a stable XmlPull parsing engine that is based on ideas from XPP and in particular XPP2 but completely
+    revised and rewritten to take the best advantage of latest JIT JVMs such as Hotspot in JDK 1.4+.
+
+    MXP1 was designed to use best available the latest and the most advanced JIT engines such as Hotspot in JDK1.4.
+    If you are working on older JDK then previous engine may work faster (both MXP1 and old engine are included in
+    XPP3 download).
+
+    MXP1 has following features:
+
+        * fast - let me say it again it is fast :-)
+        * small - lot of performance packed in JAR file that is less than 20KB!
+        * easy to use - the parser implements common XML pull parsing API (XMLPULL) described at http://www.xmlpull.org
+
+    Performance tests that compare MXP1 to other leading XML parsers are available at
+    http://www.extreme.indiana.edu/~aslom/xpp_sax2bench/
+
+    Looking on test results (at http://www.extreme.indiana.edu/~aslom/xpp_sax2bench/results.html) in all but two tests
+    MXP1 is the fastest parser by about 5-20% than second fastest Piccolo - MXP1 is slower than Piccolo for 'Mostly text'
+    and  'Random XML' as MXP1 will report text always combined as one event. that means that in application there is
+    really no need to use StringBuffer to collect element content. i have kept string buffer in all tests for symmetry
+    but removing it will speed up test to the same level as Piccolo for example doing this for test setup
+    "data\rand_100.xml 2000 ns_on" (Random XML 100) resulted in speedup from 4.3ms to 3.9ms.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://www.extreme.indiana.edu/xgws/xsoap/xpp/mxp1/index.html\u001B[0m

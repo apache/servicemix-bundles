@@ -1,6 +1,10 @@
 \u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
+    Original Maven URLs:
+        \u001B[33mmvn:${pkgGroupId}/castor-core/${pkgVersion}\u001B[0m
+        \u001B[33mmvn:${pkgGroupId}/castor-xml/${pkgVersion}\u001B[0m
+
 \u001B[1mDESCRIPTION\u001B[0m
     Castor is an Open Source data binding framework for Java[tm]. It's the shortest path between Java objects,
     XML documents and relational tables. Castor provides Java-to-XML binding, Java-to-SQL persistence, and more.

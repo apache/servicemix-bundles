@@ -1,6 +1,10 @@
 \u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
+    Original Maven URLs:
+        \u001B[33mmvn:${pkgGroupId}/aspectjrt/${pkgVersion}\u001B[0m
+        \u001B[33mmvn:${pkgGroupId}/aspectjweaver/${pkgVersion}\u001B[0m
+
 \u001B[1mDESCRIPTION\u001B[0m
     Some aspects of system implementation, such as logging, error handling, standards enforcement
     and feature variations are notoriously difficult to implement in a modular way. The result is that code

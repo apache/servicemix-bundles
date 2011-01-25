@@ -1,6 +1,9 @@
 \u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
+    Original Maven URL:
+        \u001B[33mmvn:http://svn.apache.org/repos/asf/servicemix/m2-repo:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
 \u001B[1mDESCRIPTION\u001B[0m
     HAPI (HL7 application programming interface; pronounced "happy") is an
     open-source, object-oriented HL7 2.x parser for Java. HL7

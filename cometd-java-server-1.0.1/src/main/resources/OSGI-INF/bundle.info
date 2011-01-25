@@ -1,6 +1,9 @@
 \u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
 \u001B[1mDESCRIPTION\u001B[0m
     CometD is a scalable HTTP-based event routing bus that uses a Ajax Push technology pattern known as Comet.
     CometD is a Dojo Foundation project to provide implementations of the Bayeux protocol in javascript,

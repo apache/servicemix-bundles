@@ -1,6 +1,9 @@
 \u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
 \u001B[1mDESCRIPTION\u001B[0m
     JUEL is an implementation of the Unified Expression Language (EL), specified as part of the JSP 2.1 standard
     (JSR-245), which has been introduced in JEE5. Additionally, JUEL 2.2 implements the JSP 2.2 maintenance release

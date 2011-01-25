@@ -1,6 +1,9 @@
 \u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
+    Original Maven URL:
+        \u001B[33mmvn:http://repository.jboss.com/maven2:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
 \u001B[1mDESCRIPTION\u001B[0m
 
     Hibernate Validator 4.x is the reference implementation for JSR 303 - Bean Validation of which Red Hat is the

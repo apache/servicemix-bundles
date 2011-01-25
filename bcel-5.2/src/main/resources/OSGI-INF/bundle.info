@@ -1,6 +1,9 @@
 \u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/cglib-nodep/${pkgVersion}\u001B[0m
+
 \u001B[1mDESCRIPTION\u001B[0m
     The Byte Code Engineering Library (BCEL) is intended to give users a convenient possibility to analyze,
     create, and manipulate (binary) Java class files (those ending with .class). Classes are represented by

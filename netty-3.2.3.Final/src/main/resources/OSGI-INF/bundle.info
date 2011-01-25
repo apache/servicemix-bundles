@@ -1,6 +1,9 @@
 \u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
+    Original Maven URL:
+        \u001B[33mmvn:http://repository.jboss.org/nexus/content/groups/public:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
 \u001B[1mDESCRIPTION\u001B[0m
     Netty is a NIO client server framework which enables quick and easy development of network applications such as
     protocol servers and clients. It greatly simplifies and streamlines network programming such as TCP and UDP
