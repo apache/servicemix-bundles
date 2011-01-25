@@ -1,6 +1,9 @@
 \u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
+    Original Maven URL:
+        \u001B[33mmvn:http://repo.fusesource.com/maven2-all:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
 \u001B[1mDESCRIPTION\u001B[0m
     HSQLDB (HyperSQL DataBase) is the leading SQL relational database engine written in Java. It has a JDBC driver and
     supports nearly full ANSI-92 SQL (BNF format) plus many SQL:2008 enhancements. It offers a small, fast
