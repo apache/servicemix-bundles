@@ -1,6 +1,9 @@
 \u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
 \u001B[1mDESCRIPTION\u001B[0m
     HOWL is a logger implementation providing features required by the ObjectWeb JOTM project, with a public API that
     is generally usable by any Transaction Manager. HOWL uses unformatted binary logs to maximize performance and
