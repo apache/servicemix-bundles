@@ -1,6 +1,9 @@
 \u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
+    Original Maven URL:
+        \u001B[33mmvn:http://svn.apache.org/repos/asf/servicemix/m2-repo:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
 \u001B[1mDESCRIPTION\u001B[0m
     JSMPP is a java implementation (SMPP API) of SMPP protocol (currently support SMPP v3.4). It provides interfaces to
     communicate with Message Center or ESME (External Short Message Entity) and able to handle traffic 3000-5000
