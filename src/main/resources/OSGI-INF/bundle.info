@@ -1,6 +1,9 @@
 \u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
 \u001B[1mDESCRIPTION\u001B[0m
     Java Excel API is a mature, open source java API enabling developers to read, write, and modifiy Excel spreadsheets
     dynamically. Now java developers can read Excel spreadsheets, modify them with a convenient and simple API, and
