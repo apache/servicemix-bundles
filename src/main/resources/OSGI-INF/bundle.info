@@ -1,6 +1,11 @@
 \u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
+    Original Maven URLs:
+        \u001B[33mmvn:${pkgGroupId}/jibx-bind/${pkgVersion}\u001B[0m
+        \u001B[33mmvn:${pkgGroupId}/jibx-extras/${pkgVersion}\u001B[0m
+        \u001B[33mmvn:${pkgGroupId}/jibx-run/${pkgVersion}\u001B[0m
+
 \u001B[1mDESCRIPTION\u001B[0m
     JiBX is a tool for binding XML data to Java objects. It's extremely flexible, allowing you to start from existing
     Java code and generate an XML schema, start from an XML schema and generate Java code, or bridge your existing code
