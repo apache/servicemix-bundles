@@ -1,6 +1,10 @@
 \u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
+    Original Maven URLs:
+        \u001B[33mmvn:${pkgGroupId}/bson/${pkgVersion}\u001B[0m
+        \u001B[33mmvn:${pkgGroupId}/mongo-java-driver/${pkgVersion}\u001B[0m
+
 \u001B[1mDESCRIPTION\u001B[0m
     This bundle provides JDBC driver and classes allowing you to connect to a MongoDB database from Java code.
 
