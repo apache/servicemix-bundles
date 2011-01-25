@@ -1,6 +1,9 @@
 \u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
 \u001B[1mDESCRIPTION\u001B[0m
     Apache Commons Net implements the client side of many basic Internet protocols. The purpose of the library
     is to provide fundamental protocol access, not higher-level abstractions. Therefore, some of the design
