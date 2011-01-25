@@ -1,6 +1,9 @@
 \u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
 \u001B[1mDESCRIPTION\u001B[0m
     The Hyper-Text Transfer Protocol (HTTP) is perhaps the most significant protocol used on the Internet today.
     Web services, network-enabled appliances and the growth of network computing continue to expand the role of
