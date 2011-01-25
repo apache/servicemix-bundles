@@ -1,6 +1,9 @@
 \u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
 \u001B[1mDESCRIPTION\u001B[0m
     dom4j is an easy to use, open source library for working with XML, XPath and XSLT on the Java platform
     using the Java Collections Framework and with full support for DOM, SAX and JAXP.
