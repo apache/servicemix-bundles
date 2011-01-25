@@ -1,6 +1,9 @@
 \u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
 \u001B[1mDESCRIPTION\u001B[0m
     Many Apache projects support interaction with a relational database. Creating a new connection for each user
     can be time consuming (often requiring multiple seconds of clock time), in order to perform a database
