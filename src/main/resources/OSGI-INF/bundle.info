@@ -1,6 +1,9 @@
 \u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
 \u001B[1mDESCRIPTION\u001B[0m
     Apache Neethi provides general framework for the programmers to use WS Policy. It is compliant with latest
     WS Policy specification which was published in March 2006. This framework is specifically written to enable the
