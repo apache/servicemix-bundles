@@ -1,6 +1,9 @@
 \u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
+    Original Maven URL:
+        \u001B[33mmvn:http://download.java.net/maven/1/:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
 \u001B[1mDESCRIPTION\u001B[0m
     The goal of the JAXB project is to develop and evolve the code base for the Reference of JAXB, the Java Architecture
     for XML Binding. The JAXB specification is developed through the Java Community Process following the process
