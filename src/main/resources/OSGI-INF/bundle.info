@@ -1,6 +1,9 @@
 \u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
 \u001B[1mDESCRIPTION\u001B[0m
     Since early 2006, Amazon Web Services (AWS) has provided companies of all sizes with an infrastructure web
     services platform in the cloud. With AWS you can requisition compute power, storage, and other
