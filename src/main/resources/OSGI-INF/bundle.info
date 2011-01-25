@@ -1,6 +1,9 @@
 \u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
+    Original Maven URL:
+        \u001B[33mmvn:http://repository.jboss.org/maven2-brew/:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
 \u001B[1mDESCRIPTION\u001B[0m
 	Javassist (Java Programming Assistant) makes Java bytecode manipulation
 	simple. It is a class library for editing bytecodes in Java; it enables
