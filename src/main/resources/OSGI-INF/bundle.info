@@ -1,6 +1,9 @@
 \u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
+    Original Maven URL:
+        \u001B[33mmvn:http://guiceyfruit.googlecode.com/svn/repo/releases/:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
 \u001B[1mDESCRIPTION\u001B[0m
     Hamcrest provides a library of matcher objects (also known as constraints or
     predicates) allowing 'match' rules to be defined declaratively, to be
