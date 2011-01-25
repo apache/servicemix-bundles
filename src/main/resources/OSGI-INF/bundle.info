@@ -1,6 +1,9 @@
 \u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
 \u001B[1mDESCRIPTION\u001B[0m
     OGNL stands for Object-Graph Navigation Language; it is an expression language for getting and setting properties
     of Java objects. You use the same expression for both getting and setting the value of a property.
