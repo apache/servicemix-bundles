@@ -23,7 +23,8 @@
     <parent>
 	    <groupId>org.apache.servicemix.bundles</groupId>
 	    <artifactId>bundles-pom</artifactId>
-	    <version>4</version>
+	    <version>6-SNAPSHOT</version>
+        <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -93,9 +94,4 @@
         </plugins>
     </build>
 
-  <scm>
-    <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.jasper-6.0.14_2</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.jasper-6.0.14_2</developerConnection>
-    <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.jasper-6.0.14_2</url>
-  </scm>
 </project>
