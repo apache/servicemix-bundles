@@ -1,6 +1,9 @@
 \u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
+    Original Maven URL:
+        \u001B[33mmvn:http://download.java.net/maven/1/:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
 \u001B[1mDESCRIPTION\u001B[0m
     The Java API for XML Processing (JAXP) enables applications to parse, transform, validate and query XML documents
     using an API that is independent of a particular XML processor implementation. JAXP provides a pluggability layer
