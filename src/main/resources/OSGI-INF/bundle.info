@@ -1,6 +1,10 @@
 \u001B[1mSYNOPSIS\u001B[0m
     ${project.description}
 
+    Original Maven URLs:
+        \u001B[33mmvn:javax.servlet/jstl/${pkgVersion}\u001B[0m
+        \u001B[33mmvn:taglibs/standard/${pkgVersion}\u001B[0m
+
 \u001B[1mDESCRIPTION\u001B[0m
     The JavaServer Pages Standard Tag Library (JSTL) encapsulates as simple tags the core functionality common to many
     Web applications. JSTL has support for common, structural tasks such as iteration and conditionals, tags for
