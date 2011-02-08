@@ -37,14 +37,16 @@
     <properties>
         <pkgGroupId>commons-dbcp</pkgGroupId>
         <pkgArtifactId>commons-dbcp</pkgArtifactId>
-        <pkgVersion>1.2.2</pkgVersion>
+        <pkgVersion>1.4</pkgVersion>
         <servicemix.osgi.export>
             org.apache.commons.dbcp*;version=${pkgVersion},
-            org.apache.commons.jocl*;version=${pkgVersion}
+            org.apache.commons.jocl*;version=${pkgVersion},
+            org.apache.commons.dbcp.managed*;version=${pkgVersion}
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
             !org.apache.commons.dbcp*,
             !org.apache.commons.jocl*,
+            !org.apache.commons.dbcp.managed*,
             org.apache.commons.pool*;version="[1.3,2)",
             *
         </servicemix.osgi.import.pkg>
