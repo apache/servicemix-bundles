@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-
     <!--
 
         Licensed to the Apache Software Foundation (ASF) under one or more
@@ -18,89 +16,67 @@
         See the License for the specific language governing permissions and
         limitations under the License.
     -->
-    
+
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.apache.servicemix.bundles</groupId>
-        <artifactId>bundles-pom</artifactId>
-        <version>6-SNAPSHOT</version>
-        <relativePath>../bundles-pom/pom.xml</relativePath>
+      <groupId>org.apache.servicemix.bundles</groupId>
+      <artifactId>bundles-pom</artifactId>
+      <version>6-SNAPSHOT</version>
+      <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
-    
+
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.hibernate-validator</artifactId>
-    <version>4.0.2.GA_3-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.perf4j</artifactId>
+    <version>0.9.13_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
-    <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
-    
+    <description>
+        This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
+    </description>
+
     <properties>
-        <pkgGroupId>org.hibernate</pkgGroupId>
-        <pkgArtifactId>hibernate-validator</pkgArtifactId>
-        <pkgVersion>4.0.2.GA</pkgVersion>
+        <pkgGroupId>org.perf4j</pkgGroupId>
+        <pkgArtifactId>perf4j</pkgArtifactId>
+        <pkgVersion>0.9.13</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.hibernate.validator
+            org.perf4j
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !org.hibernate.validator*,
-            javax.persistence;resolution:=optional,
-            javax.xml.bind*;resolution:=optional,
-            javax.xml.namespace*;resolution:=optional,
-            javax.xml.transform*;resolution:=optional,
-            org.xml.sax*;resolution:=optional,
+            !org.perf4j*,
+            javax.interceptor*;resolution:=optional,
+            javax.management*;resolution:=optional,
+            javax.servlet*;resolution:=optional,
+            org.apache.commons.jexl*;resolution:=optional,
+            org.apache.commons.logging*;resolution:=optional,                
+            org.apache.log4j*;resolution:=optional,
+            org.aspectj.lang*;resolution:=optional,
+            org.slf4j;resolution:=optional,                                                                       
             *
         </servicemix.osgi.import.pkg>
-        <servicemix.osgi.private.pkg>
-            com.googlecode.jtype,
-            META-INF;-split-package:=merge-first,
-            META-INF.maven.org.apache.servicemix.bundles*;-split-package:=merge-first,
-            META-INF.services;-split-package:=merge-first
-        </servicemix.osgi.private.pkg>
     </properties>
-    
-    <dependencies>
-        <dependency>
-            <groupId>${pkgGroupId}</groupId>
-            <artifactId>${pkgArtifactId}</artifactId>
-            <version>${pkgVersion}</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>javax.xml.bind</groupId>
-                    <artifactId>jaxb-api</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>javax.xml.bind</groupId>
-                    <artifactId>jaxb-impl</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>com.googlecode.jtype</groupId>
-            <artifactId>jtype</artifactId>
-            <version>0.1.1</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.servicemix.specs</groupId>
-            <artifactId>org.apache.servicemix.specs.jsr303-api-1.0.0</artifactId>
-            <version>1.5.0</version>
-        </dependency>
-    </dependencies>
-    
+
     <repositories>
         <repository>
-            <id>jboss</id>
-            <name>JBoss Maven Repository</name>
-            <url>http://repository.jboss.com/maven2</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
+            <id>spy</id>
+            <name>Spy Repository</name>
+            <layout>default</layout>
+            <url>http://bleu.west.spy.net/~dustin/m2repo/</url>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
         </repository>
     </repositories>
-    
+
+    <dependencies>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>
@@ -116,18 +92,11 @@
                             <artifactSet>
                                 <includes>
                                     <include>${pkgGroupId}:${pkgArtifactId}</include>
-                                    <include>com.sun.xml.bind:jaxb-impl</include>
                                 </includes>
                             </artifactSet>
                             <filters>
                                 <filter>
                                     <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
-                                    <excludes>
-                                        <exclude>**</exclude>
-                                    </excludes>
-                                </filter>
-                                <filter>
-                                    <artifact>com.sun.xml.bind:jaxb-impl</artifact>
                                     <excludes>
                                         <exclude>**</exclude>
                                     </excludes>
