@@ -55,6 +55,7 @@
         <module>aspectj-1.6.8</module>
         <module>aws-java-sdk-1.1.1</module>
         <module>bcel-5.2</module>
+        <module>bundles-pom</module>
         <module>castor-0.9.6</module>
         <module>castor-1.3.1</module>
         <module>cglib-2.1_3</module>
@@ -154,8 +155,9 @@
         <module>jsmpp-2.0</module>
         <module>jsmpp-2.1.0</module>
         <module>jstl-1.1.2</module>
-        <module>juel-2.1.0</module>
-        <module>juel-2.1.2</module>
+        <!-- <module>juel-2.1.0</module>
+        <module>juel-2.1.2</module>  -->
+        
         <module>junit-3.8.2</module>
         <module>junit-4.7</module>
         <module>lucene-3.0.0</module>

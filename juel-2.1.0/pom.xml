@@ -42,8 +42,7 @@
             de.odysseus.el
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !de.odysseus.el*,
-            *
+            !de.odysseus.el*,*
         </servicemix.osgi.import.pkg>
     </properties>
 
