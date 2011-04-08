@@ -39,9 +39,12 @@
         <pkgGroupId>org.opensaml</pkgGroupId>
         <pkgArtifactId>opensaml</pkgArtifactId>
         <pkgVersion>2.4.1</pkgVersion>
-        <servicemix.osgi.export.pkg>
-             org.opensaml
-        </servicemix.osgi.export.pkg>
+        <servicemix.osgi.export>
+             org.opensaml.util*;version="1.4.1";-split-package:=merge-first,
+             org.opensaml.ws*;version="1.4.1";-split-package:=merge-first,
+             org.opensaml.xml*;version="1.3.1";-split-package:=merge-first,
+             org.opensaml*;version="2.4.1";-split-package:=merge-first
+        </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
             !org.opensaml*,
             javax.crypto,
@@ -82,6 +85,18 @@
             <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
+        <dependency>
+            <groupId>org.opensaml</groupId>
+            <artifactId>openws</artifactId>
+            <version>1.4.1</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.opensaml</groupId>
+            <artifactId>xmltooling</artifactId>
+            <version>1.3.1</version>
+            <optional>true</optional>
+        </dependency>
     </dependencies>
 
     <build>
@@ -89,6 +104,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
+                <version>1.4</version>
                 <executions>
                     <execution>
                         <phase>package</phase>
@@ -99,16 +115,10 @@
                             <artifactSet>
                                 <includes>
                                     <include>${pkgGroupId}:${pkgArtifactId}</include>
+                                    <include>${pkgGroupId}:openws</include>
+                                    <include>${pkgGroupId}:xmltooling</include>
                                 </includes>
                             </artifactSet>
-                            <filters>
-                                <filter>
-                                    <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
-                                    <includes>
-                                        <include>*.xml</include>
-                                    </includes>
-                                </filter>
-                            </filters>
                             <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
                             <createDependencyReducedPom>true</createDependencyReducedPom>
                         </configuration>
