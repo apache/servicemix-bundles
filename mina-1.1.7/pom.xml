@@ -30,7 +30,7 @@
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.mina</artifactId>
     <packaging>bundle</packaging>
-    <version>1.1.7_5-SNAPSHOT</version>
+    <version>1.1.7_5</version>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps mina-core, mina-filter-codec-netty, mina-filter-compression,
         mina-filter-ssl, mina-integration-jmx, and mina-integration-spring ${pkgVersion} jar files.</description>
@@ -152,4 +152,10 @@
             </plugin>
         </plugins>
     </build>
+
+  <scm>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.mina-1.1.7_5</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.mina-1.1.7_5</developerConnection>
+    <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.mina-1.1.7_5</url>
+  </scm>
 </project>
