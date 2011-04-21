@@ -48,7 +48,8 @@
             javax.net.ssl,
             org.apache.mina*;version="[1.1,2)",
             org.codehaus.jackson.map;resolution:=optional,
-            org.slf4j*;version="[1.6,2)";resolution:=optional
+            org.slf4j*;version="[1.6,2)";resolution:=optional,
+            *
         </servicemix.osgi.import.pkg>
     </properties>
 
