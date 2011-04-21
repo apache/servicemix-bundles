@@ -46,6 +46,8 @@
         <module>juel-2.1.2</module>
         <module>wss4j-1.5.4</module>
         -->
+
+        <module>freemarker-2.3.16</module>
     </modules>
 
 </project>
