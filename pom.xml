@@ -49,6 +49,7 @@
 
         <module>freemarker-2.3.16</module>
         <module>java-apns-0.1.6</module>
+        <module>netty-3.2.4.Final</module>
 
     </modules>
 
