@@ -44,6 +44,7 @@
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
             !org.cometd*,
+            org.eclipse.jetty.websocket;resolution:=optional;version="[7.3,8)",
             *
         </servicemix.osgi.import.pkg>
     </properties>
