@@ -53,6 +53,7 @@
         <module>mybatis-3.0.4</module>
         <module>struts2-2.2.1.1</module>
         <module>struts2-xwork-2.2.1.1</module>
+        <module>cometd-java-server-2.1.1</module>
 
     </modules>
 
