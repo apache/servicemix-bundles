@@ -54,6 +54,7 @@
         <module>struts2-2.2.1.1</module>
         <module>struts2-xwork-2.2.1.1</module>
         <module>cometd-java-server-2.1.1</module>
+        <module>ehcache-2.3.0</module>
 
     </modules>
 
