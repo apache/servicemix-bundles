@@ -59,6 +59,7 @@
         <module>javax-inject-1</module>
         <module>bcprov-jdk15-1.46</module>
         <module>bcprov-jdk15-1.46</module>
+        <module>oauth-commons-20100527</module>
 
     </modules>
 
