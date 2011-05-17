@@ -57,6 +57,7 @@
         <module>ehcache-2.3.0</module>
         <module>wsdl4j-1.6.2</module>
         <module>javax-inject-1</module>
+        <module>bcprov-jdk15-1.46</module>
 
     </modules>
 
