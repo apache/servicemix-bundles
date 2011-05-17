@@ -56,6 +56,7 @@
         <module>cometd-java-server-2.1.1</module>
         <module>ehcache-2.3.0</module>
         <module>wsdl4j-1.6.2</module>
+        <module>javax-inject-1</module>
 
     </modules>
 
