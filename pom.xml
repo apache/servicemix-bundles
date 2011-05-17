@@ -46,7 +46,8 @@
             javax.crypto*;resolution:=optional,
             javax.naming*;resolution:=optional,
             javax.security*;resolution:=optional,
-            junit*;resolution:=optional
+            junit*;resolution:=optional,
+            *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
         </servicemix.osgi.private.pkg>
