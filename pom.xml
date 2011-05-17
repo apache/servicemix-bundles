@@ -60,6 +60,7 @@
         <module>bcprov-jdk15-1.46</module>
         <module>bcprov-jdk15-1.46</module>
         <module>oauth-commons-20100527</module>
+        <module>java-xmlbuilder-0.3</module>
 
     </modules>
 
