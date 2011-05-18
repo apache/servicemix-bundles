@@ -55,7 +55,8 @@
             com.kenai.jnr.x86asm;resolution:=optional,
             org.apache.bsf*;resolution:=optional,
             org.jgrapht*;resolution:=optional,
-            org.objectweb.asm*;resolution:=optional
+            org.objectweb.asm*;resolution:=optional,
+            *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
             builtin*,
