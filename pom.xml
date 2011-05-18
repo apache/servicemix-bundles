@@ -63,6 +63,7 @@
         <module>java-xmlbuilder-0.3</module>
         <module>java-xmlbuilder-0.4</module>
         <module>jruby-1.5.2</module>
+        <module>jruby-1.5.6</module>
 
     </modules>
 
