@@ -66,6 +66,8 @@
         <module>derbynet-10.7.1.1</module>
         <module>derbynet-10.8.1.2</module>
         <module>freemarker-2.3.17</module>
+        <module>scala-compiler-2.9.0</module>
+        <module>scala-library-2.9.0</module>
 
     </modules>
 
