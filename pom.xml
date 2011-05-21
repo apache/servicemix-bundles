@@ -42,7 +42,27 @@
         <servicemix.osgi.export.pkg>org.mortbay</servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             !org.mortbay,
-            *
+            javax.mail,
+            javax.management,
+            javax.management.loading,
+            javax.management.modelmbean,
+            javax.naming,
+            javax.naming.spi,
+            javax.net,
+            javax.net.ssl,
+            javax.security.auth,
+            javax.security.auth.callback,
+            javax.security.auth.login,
+            javax.security.auth.spi,
+            javax.security.cert,
+            javax.servlet,
+            javax.servlet.http,
+            javax.sql,
+            javax.transaction,
+            javax.xml.parsers,
+            org.slf4j;resolution:=optional,
+            org.xml.sax,
+            org.xml.sax.helpers
         </servicemix.osgi.import.pkg>
     </properties>
 
@@ -77,6 +97,18 @@
             <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>jetty-naming</artifactId>
+            <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>jetty-plus</artifactId>
+            <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
     </dependencies>
 
     <build>
@@ -98,6 +130,8 @@
                                     <include>${pkgGroupId}:jetty-management</include>
                                     <include>${pkgGroupId}:jetty-client</include>
                                     <include>${pkgGroupId}:jetty-sslengine</include>
+                                    <include>${pkgGroupId}:jetty-naming</include>
+                                    <include>${pkgGroupId}:jetty-plus</include>
                                 </includes>
                             </artifactSet>
                             <filters>
@@ -127,6 +161,18 @@
                                 </filter>
                                 <filter>
                                     <artifact>${pkgGroupId}:jetty-sslengine</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:jetty-naming</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:jetty-plus</artifact>
                                     <excludes>
                                         <exclude>**</exclude>
                                     </excludes>
