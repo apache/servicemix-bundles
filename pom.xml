@@ -68,6 +68,10 @@
         <module>freemarker-2.3.17</module>
         <module>scala-compiler-2.9.0</module>
         <module>scala-library-2.9.0</module>
+        <module>jetty-6.1.26</module>
+        <module>jetty-6.1.25</module>
+        <module>jetty-bundle-6.1.24</module>
+        <module>jetty-bundle-6.1.22</module>
 
     </modules>
 
