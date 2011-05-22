@@ -47,32 +47,6 @@
         <module>wss4j-1.5.4</module>
         -->
 
-        <module>freemarker-2.3.16</module>
-        <module>java-apns-0.1.6</module>
-        <module>netty-3.2.4.Final</module>
-        <module>mybatis-3.0.4</module>
-        <module>struts2-2.2.1.1</module>
-        <module>struts2-xwork-2.2.1.1</module>
-        <module>cometd-java-server-2.1.1</module>
-        <module>ehcache-2.3.0</module>
-        <module>wsdl4j-1.6.2</module>
-        <module>javax-inject-1</module>
-        <module>bcprov-jdk15-1.46</module>
-        <module>oauth-commons-20100527</module>
-        <module>java-xmlbuilder-0.3</module>
-        <module>java-xmlbuilder-0.4</module>
-        <module>jruby-1.5.2</module>
-        <module>jruby-1.5.6</module>
-        <module>derbynet-10.7.1.1</module>
-        <module>derbynet-10.8.1.2</module>
-        <module>freemarker-2.3.17</module>
-        <module>scala-compiler-2.9.0</module>
-        <module>scala-library-2.9.0</module>
-        <module>jetty-6.1.26</module>
-        <module>jetty-6.1.25</module>
-        <module>jetty-bundle-6.1.24</module>
-        <module>jetty-bundle-6.1.22</module>
-
     </modules>
 
 </project>
