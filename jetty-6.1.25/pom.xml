@@ -31,7 +31,7 @@
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.jetty</artifactId>
     <packaging>bundle</packaging>
-    <version>6.1.25_3-SNAPSHOT</version>
+    <version>6.1.25_3</version>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps jetty, jetty-util, jetty-management, jetty-client, and jetty-sslengine
         ${pkgVersion} jar files.</description>
@@ -190,4 +190,10 @@
             </plugin>
         </plugins>
     </build>
+
+  <scm>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.jetty-6.1.25_3</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.jetty-6.1.25_3</developerConnection>
+    <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.jetty-6.1.25_3</url>
+  </scm>
 </project>
