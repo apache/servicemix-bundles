@@ -1,0 +1,20 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    The Google Data Protocol is a REST-inspired technology for reading, writing, and modifying information on the web.
+
+    Many services at Google provide external access to data and functionality through APIs that utilize the Google
+    Data Protocol. The protocol currently supports two primary modes of access:
+
+        * AtomPub: Information is sent as a collection of Atom items, using the standard Atom syndication format
+          to represent data and HTTP to handle communication. The Google Data Protocol extends AtomPub for processing
+          queries, authentication, and batch requests.
+        * JSON: Information is sent as JSON objects that mirror the Atom representation.
+
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://code.google.com/apis/gdata/\u001B[0m
