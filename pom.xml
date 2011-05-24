@@ -48,6 +48,7 @@
         -->
 
         <module>freemarker-2.3.18</module>
+        <module>xmlsec-1.4.5</module>
 
     </modules>
 
