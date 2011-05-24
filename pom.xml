@@ -49,6 +49,8 @@
 
         <module>freemarker-2.3.18</module>
         <module>xmlsec-1.4.5</module>
+        <module>gae-1.4.3</module>
+        <module>gdata-1.41.1</module>
 
     </modules>
 
