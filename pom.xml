@@ -47,6 +47,8 @@
         <module>wss4j-1.5.4</module>
         -->
 
+        <module>freemarker-2.3.18</module>
+
     </modules>
 
 </project>
