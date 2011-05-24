@@ -1,0 +1,22 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    The Apache Santuario project is aimed at providing implementation of security standards for XML. Currently the
+    focus is on the W3C standards :
+
+        * XML-Signature Syntax and Processing; and
+        * XML Encryption Syntax and Processing.
+
+    Santuario provides a Java library, which includes a mature Digital Signature and Encryption implementation.
+    It also includes the standard JSR 105 (Java XML Digital Signature) API. Applications can use the standard
+    JSR 105 API or the Apache Santuario API to create and validate XML Signatures.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://santuario.apache.org/index.html\u001B[0m
+    \u001B[36mhttp://www.w3.org/Signature/\u001B[0m
+    \u001B[36mhttp://www.w3.org/Encryption/2001/\u001B[0m
+    \u001B[36mhttp://www.w3.org/2001/XKMS/\u001B[0m
