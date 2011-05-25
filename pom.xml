@@ -51,6 +51,7 @@
         <module>xmlsec-1.4.5</module>
         <module>gae-1.4.3</module>
         <module>gdata-1.41.1</module>
+        <module>guava-09</module>
 
     </modules>
 
