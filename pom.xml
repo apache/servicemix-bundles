@@ -57,7 +57,7 @@
             org.apache.commons.io*,
             org.apache.tools.ant*;resolution:=optional,
             org.apache.xmlgraphics*,
-            org.w3c.dom*,
+            org.w3c.dom*;resolution:=optional,
             org.xml.sax*
         </servicemix.osgi.import.pkg>
     </properties>
