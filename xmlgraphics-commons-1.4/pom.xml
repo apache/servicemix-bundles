@@ -29,35 +29,27 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.fop</artifactId>
-    <version>1.0_1-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.xmlgraphics-commons</artifactId>
+    <version>1.4_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
 
     <properties>
         <pkgGroupId>org.apache.xmlgraphics</pkgGroupId>
-        <pkgArtifactId>fop</pkgArtifactId>
-        <pkgVersion>1.0</pkgVersion>
+        <pkgArtifactId>xmlgraphics-commons</pkgArtifactId>
+        <pkgVersion>1.4</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.apache.fop
+            org.apache.xmlgraphics
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !org.apache.fop*,
-            javax.crypto,
-            javax.crypto.spec,
-            javax.media.jai;resolution:=optional,
-            javax.servlet*;resolution:=optional,
-            javax.swing*;resolution:=optional,
-            javax.xml.parsers,
+            !org.apache.xmlgraphics*,
+            com.sun.image.codec.jpeg;resolution:=optional,
+            javax.imageio*,
             javax.xml.transform*,
-            org.apache.avalon.framework*;resolution:=optional,
-            org.apache.batik*,
-            org.apache.commons.logging*;resolution:=optional,
             org.apache.commons.io*,
-            org.apache.tools.ant*;resolution:=optional,
-            org.apache.xmlgraphics*,
-            org.w3c.dom*;resolution:=optional,
+            org.apache.commons.logging;resolution:=optional,
+            org.w3c.dom,
             org.xml.sax*
         </servicemix.osgi.import.pkg>
     </properties>

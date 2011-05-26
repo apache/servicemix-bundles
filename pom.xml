@@ -54,6 +54,7 @@
         <module>guava-09</module>
         <module>fop-1.0</module>
         <module>batik-1.7</module>
+        <module>xmlgraphics-commons-1.4</module>
 
     </modules>
 
