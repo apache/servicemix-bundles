@@ -52,6 +52,7 @@
         <module>gae-1.4.3</module>
         <module>gdata-1.41.1</module>
         <module>guava-09</module>
+        <module>fop-1.0</module>
 
     </modules>
 
