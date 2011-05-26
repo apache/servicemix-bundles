@@ -53,6 +53,7 @@
         <module>gdata-1.41.1</module>
         <module>guava-09</module>
         <module>fop-1.0</module>
+        <module>batik-1.7</module>
 
     </modules>
 
