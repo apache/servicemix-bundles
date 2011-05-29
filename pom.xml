@@ -56,6 +56,7 @@
         <module>batik-1.7</module>
         <module>xmlgraphics-commons-1.4</module>
         <module>dbunit-2.2</module>
+        <module>japex-1.2.3</module>
 
     </modules>
 
