@@ -46,6 +46,7 @@
             !org.apache.hadoop*,
             com.sun.security.auth;resolution:=optional,
             com.sun.security.auth.module;resolution:=optional,
+            sun.security*;resolution:=optional,
             javax.crypto,
             javax.crypto.spec,
             javax.management,
@@ -87,6 +88,7 @@
             org.codehaus.jackson.map,
             org.jets3t.service*;resolution:=optional,
             org.kosmix*;resolution:=optional,
+            org.znerd.xmlenc;resolution:=optional,
             org.mortbay*,
         </servicemix.osgi.import.pkg>
     </properties>
