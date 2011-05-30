@@ -57,6 +57,7 @@
         <module>xmlgraphics-commons-1.4</module>
         <module>dbunit-2.2</module>
         <module>japex-1.2.3</module>
+        <module>hadoop-core-0.20.203.0</module>
 
     </modules>
 
