@@ -54,6 +54,7 @@
             org.jdom*;resolution:=optional;version="[1,2)",
             *
         </servicemix.osgi.import.pkg>
+        <servicemix.osgi.dynamicimport.pkg>*</servicemix.osgi.dynamicimport.pkg>
     </properties>
 
     <dependencies>
