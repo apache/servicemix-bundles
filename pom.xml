@@ -47,21 +47,6 @@
         <module>wss4j-1.5.4</module>
         -->
 
-        <module>freemarker-2.3.18</module>
-        <module>xmlsec-1.4.5</module>
-        <module>gae-1.4.3</module>
-        <module>gdata-1.41.1</module>
-        <module>guava-09</module>
-        <module>fop-1.0</module>
-        <module>batik-1.7</module>
-        <module>xmlgraphics-commons-1.4</module>
-        <module>dbunit-2.2</module>
-        <module>japex-1.2.3</module>
-        <module>hadoop-core-0.20.203.0</module>
-        <module>velocity-1.7</module>
-        <module>velocity-1.6.2</module>
-        <module>velocity-1.6.4</module>
-        <module>avalon-framework-4.3.1</module>
      </modules>
 
 </project>
