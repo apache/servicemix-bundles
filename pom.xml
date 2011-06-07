@@ -47,6 +47,8 @@
         <module>wss4j-1.5.4</module>
         -->
 
+        <module>java-apns-0.1.6</module>
+
      </modules>
 
 </project>
