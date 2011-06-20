@@ -1,0 +1,8 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+\u001B[1mDESCRIPTION\u001B[0m
+    scalaj-collection is a library for converting between Java and Scala collections.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttps://github.com/scalaj/scalaj-collection\u001B[0m
