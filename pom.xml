@@ -40,8 +40,11 @@
         <pkgArtifactId>scalaj-collection_2.8.0</pkgArtifactId>
         <pkgVersion>1.0</pkgVersion>
         <servicemix.osgi.export.pkg>
-            scalaj.collection;-noimport:=true
+            scalaj.collection
         </servicemix.osgi.export.pkg>
+        <servicemix.osgi.import.pkg>
+            !scalaj.collection,*
+        </servicemix.osgi.import.pkg>
     </properties>
 
 	<repositories>
