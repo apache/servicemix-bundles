@@ -1,0 +1,8 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+\u001B[1mDESCRIPTION\u001B[0m
+    Casbah is a Scala toolkit for MongoDB---We use the term "toolkit" rather than "driver", as Casbah integrates a layer on top of the official mongo-java-driver for better integration with Scala.  This is as opposed to a native implementation of the MongoDB wire protocol, which the Java driver does exceptionally well. Rather than a complete rewrite, Casbah uses implicits, and `Pimp My Library` code to enhance the existing Java code.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://api.mongodb.org/scala/casbah/current/\u001B[0m
