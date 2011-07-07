@@ -46,6 +46,8 @@
         <module>quartz-2.0.1</module>
         <module>scalaj-collection-1.0</module>
         <module>smack-3.2.0</module>
+        <module>axiom-api-1.2.11</module>
+        <module>axiom-impl-1.2.11</module>
     </modules>
 
 </project>
