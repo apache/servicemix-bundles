@@ -33,7 +33,7 @@
     <packaging>bundle</packaging>
     <version>0.8.0_3-SNAPSHOT</version>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
-    <description>This OSGi bundle wraps qpid-common, and qpid-client ${pkgVersion} jar files.</description>
+    <description>This OSGi bundle wraps qpid-common, qpid-client, and qpid-broker ${pkgVersion} jar files.</description>
 
     <properties>
         <pkgGroupId>org.apache.qpid</pkgGroupId>
@@ -43,8 +43,11 @@
             org.apache.qpid
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !org.apache.qpid*,
+            org.apache.qpid.management*;resolution:=optional,
             edu.emory.mathcs.backport.java.util.concurrent*;resolution:=optional,
+            com.sun.security.auth;resolution:=optional,
+            org.apache.felix.framework*;resolution:=optional,
+            org.apache.felix.main*;resolution:=optional,
             javax.jms*;version="[1.1,2)",
             javax.naming*,
             javax.net*,
@@ -77,6 +80,12 @@
             <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}-broker</artifactId>
+            <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
     </dependencies>
 
     <build>
@@ -95,6 +104,7 @@
                                 <includes>
                                     <include>${pkgGroupId}:${pkgArtifactId}-common</include>
                                     <include>${pkgGroupId}:${pkgArtifactId}-client</include>
+                                    <include>${pkgGroupId}:${pkgArtifactId}-broker</include>
                                 </includes>
                             </artifactSet>
                             <filters>
@@ -106,6 +116,12 @@
                                 </filter>
                                 <filter>
                                     <artifact>${pkgGroupId}:${pkgArtifactId}-client</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:${pkgArtifactId}-broker</artifact>
                                     <excludes>
                                         <exclude>**</exclude>
                                     </excludes>
