@@ -49,6 +49,7 @@
         <module>axiom-api-1.2.12</module>
         <module>axiom-impl-1.2.12</module>
         <module>quartz-1.8.5</module>
+        <module>xmlsec-1.4.4</module>
     </modules>
 
 </project>
