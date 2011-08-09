@@ -44,6 +44,8 @@
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             !com.thoughtworks.xstream*,
+            sun.misc;resolution:=optional,
+            sun.reflect;resolution:=optional,
             com.bea.xml.stream;resolution:=optional,
             javax.security.auth,
             javax.swing,
