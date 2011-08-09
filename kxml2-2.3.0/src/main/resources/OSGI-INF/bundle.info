@@ -1,0 +1,13 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    kXML 2 implements the XmlPull API. Please find general information about XmlPull parsers including the interface documentation at xmlpull.org.
+
+    kXML 2 is licensed under the BSD license.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://kxml.sourceforge.net/kxml2/\u001B[0m

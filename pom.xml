@@ -54,6 +54,7 @@
         <module>lucene-3.3.0</module>
         <module>netty-3.2.5.Final</module>
         <module>xstream-1.4</module>
+        <module>kxml2-2.3.0</module>
     </modules>
 
 </project>
