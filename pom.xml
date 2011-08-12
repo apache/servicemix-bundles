@@ -41,6 +41,7 @@
         <servicemix.osgi.import.pkg>
             !antlr*,
             javax.swing*;resolution:=optional,
+            org.hibernate.hql.ast*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.export.pkg>
