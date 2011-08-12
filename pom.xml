@@ -41,6 +41,8 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+        <module>antlr-2.7.7</module>
+        <module>antlr-3.0.1</module>
     </modules>
 
 </project>
