@@ -43,6 +43,7 @@
     <modules>
         <module>antlr-2.7.7</module>
         <module>antlr-3.0.1</module>
+        <module>jsoup-1.5.2</module>
     </modules>
 
 </project>
