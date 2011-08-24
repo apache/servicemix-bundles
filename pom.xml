@@ -41,6 +41,7 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+        <module>xstream-1.4.1</module>
     </modules>
 
 </project>
