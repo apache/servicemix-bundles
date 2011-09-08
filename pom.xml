@@ -29,7 +29,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.saaj-impl</artifactId>
-    <version>1.3.2_4-SNAPSHOT</version>
+    <version>1.3.9_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -37,21 +37,41 @@
     <properties>
         <pkgGroupId>com.sun.xml.messaging.saaj</pkgGroupId>
         <pkgArtifactId>saaj-impl</pkgArtifactId>
-        <pkgVersion>1.3.2</pkgVersion>
+        <pkgVersion>1.3.9</pkgVersion>
+        <servicemix.osgi.failok>true</servicemix.osgi.failok>
         <servicemix.osgi.export.pkg>com.sun.xml.messaging.saaj</servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             !com.sun.xml.messaging.saaj*,
+            !com.sun.org.apache.xerces.internal*,
+            !com.sun.org.apache.xerces.internal.*,
+            !com.sun.org.apache.xml.internal*,
+            !com.sun.org.apache.xml.internal.*,
+            !com.sun.xml.internal.*,
+            sun.io*;resolution:=optional,
+            org.jvnet.mimepull*;resolution:=optional,
             com.sun.image.codec.jpeg*;resolution:=optional,
             com.sun.xml.fastinfoset*;resolution:=optional,
             javax.xml.soap,
-            org.jvnet.fastinfoset*;resolution:=optional,
+            org.jvnet.fastinfoset*;resolution:=optional,            
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
             META-INF;-split-package:=merge-first,
             META-INF.maven.org.apache.servicemix.bundles*;-split-package:=merge-first,
-            META-INF.services;-split-package:=merge-first,
-        </servicemix.osgi.private.pkg>
+            META-INF.services;-split-package:=first,
+            com.sun.org.apache.xerces.internal.dom*;-split-package:=merge-first,
+            com.sun.org.apache.xerces.internal.jaxp*;-split-package:=merge-first,
+            com.sun.org.apache.xerces.internal.util*;-split-package:=merge-first,
+            com.sun.org.apache.xerces.internal.impl*;-split-package:=merge-first,
+            com.sun.org.apache.xerces.internal.xni*;-split-package:=merge-first,
+            com.sun.org.apache.xerces.internal.parsers*;-split-package:=merge-first,
+            com.sun.org.apache.xerces.internal.xs*;-split-package:=merge-first,
+            com.sun.org.apache.xml.internal.serialize,
+            com.sun.xml.internal.stream*,
+            com.sun.org.apache.xml.internal.resolver*,
+            com.sun.org.apache.xerces.internal.xinclude, 
+            com.sun.org.apache.xerces.internal.xpointer
+    </servicemix.osgi.private.pkg>
     </properties>
 
     <dependencies>
@@ -68,6 +88,19 @@
             </exclusions>
         </dependency>
         <dependency>
+            <groupId>com.sun.xml.parsers</groupId>
+            <artifactId>jaxp-ri</artifactId>
+            <version>1.4.2</version>
+            <optional>true</optional>
+            <scope>provided</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>javax.xml.parsers</groupId>
+                    <artifactId>jaxp-api</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
 		    <groupId>org.apache.servicemix.specs</groupId>
             <artifactId>org.apache.servicemix.specs.saaj-api-1.3</artifactId>
             <version>1.0.0</version>
@@ -79,6 +112,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
+                <version>1.4</version>
                 <executions>
                     <execution>
                         <phase>package</phase>
