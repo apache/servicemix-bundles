@@ -41,6 +41,8 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+        <module>jaxb-impl-2.2.4</module>
+        <module>jaxb-xjc-2.2.4</module>
     </modules>
 
 </project>
