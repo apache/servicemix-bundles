@@ -67,6 +67,7 @@
             org.apache.xml.security*;resolution:=optional,
             org.bouncycastle*;resolution:=optional,
             org.joda.time*;version="[1.5,2.0)",
+            org.owasp.esapi*;resolution:=optional,
             org.slf4j;resolution:=optional,
             org.w3c.dom*,
             org.xml.sax,
