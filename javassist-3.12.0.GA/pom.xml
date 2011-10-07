@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <!--
 
@@ -18,23 +18,23 @@
         See the License for the specific language governing permissions and
         limitations under the License.
     -->
-    
+
     <modelVersion>4.0.0</modelVersion>
-    
+
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
         <version>6</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
-    
+
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.javassist</artifactId>
-    <version>3.12.1.ga_2-SNAPSHOT</version>
+    <version>3.12.0.GA_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
-    
+
     <properties>
         <pkgGroupId>javassist</pkgGroupId>
         <pkgArtifactId>javassist</pkgArtifactId>
@@ -48,20 +48,15 @@
             *
         </servicemix.osgi.import.pkg>
     </properties>
-   
+
     <repositories>
         <repository>
-            <id>jboss</id>
-            <name>New JBoss Maven2 Repository</name>
-            <url>http://repository.jboss.org/maven2-brew/</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
+            <id>jboss.m2</id>
+            <name>JBoss Maven2 Repository</name>
+            <url>http://repository.jboss.org/maven2</url>
         </repository>
-    </repositories> 
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
@@ -70,7 +65,7 @@
             <optional>true</optional>
         </dependency>
     </dependencies>
-    
+
     <build>
         <plugins>
             <plugin>
@@ -96,8 +91,6 @@
                                     </excludes>
                                 </filter>
                             </filters>
-                            <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
-                            <createDependencyReducedPom>true</createDependencyReducedPom>
                         </configuration>
                     </execution>
                 </executions>
