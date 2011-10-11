@@ -46,6 +46,7 @@
         <module>ognl-3.0.2</module>
         <module>javassist-3.12.0.GA</module>
         <module>javassist-3.12.1.GA</module>
+        <module>guava-10.0.1</module>
     </modules>
 
 </project>
