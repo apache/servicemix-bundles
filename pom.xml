@@ -52,7 +52,8 @@
             com.sun.image.codec.jpeg*;resolution:=optional,
             com.sun.xml.fastinfoset*;resolution:=optional,
             javax.xml.soap,
-            org.jvnet.fastinfoset*;resolution:=optional,            
+            org.jvnet.fastinfoset*;resolution:=optional,
+            javax.xml.transform.stax*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
