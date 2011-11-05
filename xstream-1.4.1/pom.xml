@@ -25,7 +25,7 @@
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
         <version>6</version>
-        <relativePath>../pom.xml</relativePath>
+        <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -38,7 +38,7 @@
     <properties>
         <pkgGroupId>com.thoughtworks.xstream</pkgGroupId>
         <pkgArtifactId>xstream</pkgArtifactId>
-        <pkgVersion>1.4</pkgVersion>
+        <pkgVersion>1.4.1</pkgVersion>
         <servicemix.osgi.export.pkg>
             com.thoughtworks.xstream*
         </servicemix.osgi.export.pkg>
