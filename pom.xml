@@ -42,6 +42,7 @@
 
     <modules>
         <module>xstream-1.4.2</module>
+        <module>quartz-2.1.0</module>
     </modules>
 
 </project>
