@@ -1,0 +1,13 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    Beanlib is a utility library for use with JavaBean. Beanlib for Hibernate in particular makes it easy for
+    developers to reuse the same pojo classes for both persistence and data transfer objects. This enables clean data
+    access API to be designed with pojos that are free of any hidden persistent state.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://beanlib.sourceforge.net\u001B[0m

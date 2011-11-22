@@ -44,6 +44,7 @@
         <module>xstream-1.4.2</module>
         <module>quartz-2.1.0</module>
         <module>commons-validator-1.3.1</module>
+        <module>beanlib-5.0.2beta</module>
     </modules>
 
 </project>
