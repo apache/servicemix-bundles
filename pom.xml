@@ -46,6 +46,7 @@
         <module>commons-validator-1.3.1</module>
         <module>beanlib-5.0.2beta</module>
         <module>jcip-annotations-1.0</module>
+        <module>qpid-0.12</module>
     </modules>
 
 </project>
