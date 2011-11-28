@@ -1,0 +1,23 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URLs:
+        \u001B[33mmvn:${pkgGroupId}/atlassian-xmlrpc-binder-annotations/${pkgVersion}\u001B[0m
+        \u001B[33mmvn:${pkgGroupId}/atlassian-xmlrpc-binder/${pkgVersion}\u001B[0m
+        \u001B[33mmvn:${pkgGroupId}/atlassian-xmlrpc-binder-client-apache/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    The Atlassian XML-RPC binder is an XML-RPC library for Java 1.5 for both connecting to or creating your own
+    XML-RPC services.
+
+    The main features are:
+
+    * The description and binding of remote services using interfaces and dynamic proxies
+    * Type safety
+    * Automatic bean type conversion for parameters and return values
+    * XML-RPC Servlet
+    * Reuse of same interface contract for both client and server
+    * Spring Integration
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttps://labs.atlassian.com/wiki/display/XMLRPC/Home\u001B[0m
