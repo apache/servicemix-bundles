@@ -47,6 +47,7 @@
         <module>beanlib-5.0.2beta</module>
         <module>jcip-annotations-1.0</module>
         <module>qpid-0.12</module>
+        <module>atlassian-xmlrpc-0.11</module>
     </modules>
 
 </project>
