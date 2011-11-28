@@ -40,7 +40,7 @@
         <pkgArtifactId>xstream</pkgArtifactId>
         <pkgVersion>1.4.2</pkgVersion>
         <servicemix.osgi.export.pkg>
-            com.thoughtworks.xstream*
+            com.thoughtworks.xstream
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             !com.thoughtworks.xstream*,
