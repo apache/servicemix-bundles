@@ -45,7 +45,9 @@
         <servicemix.osgi.export.pkg>
             com.atlassian.xmlrpc
         </servicemix.osgi.export.pkg>
-        <servicemix.osgi.import.pkg></servicemix.osgi.import.pkg>
+        <servicemix.osgi.import.pkg>
+
+        </servicemix.osgi.import.pkg>
     </properties>
 
     <repositories>
