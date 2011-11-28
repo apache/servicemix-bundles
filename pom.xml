@@ -50,7 +50,7 @@
             javax.xml.namespace,
             javax.xml.parsers,
             org.apache.ws.commons.serialize,
-            org.apache.ws.commons.util,
+            org.apache.ws.commons.util;version="[1,2)",
             org.w3c.dom,
             org.xml.sax,
             org.xml.sax.helpers,
