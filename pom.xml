@@ -31,7 +31,8 @@
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.atlassian-xmlrpc</artifactId>
     <packaging>bundle</packaging>
-    <version>0.11_1-SNAPSHOT</version><name>Apache ServiceMix :: Bundles :: Atlassian XMLRPC</name>
+    <version>0.11_1-SNAPSHOT</version>
+    <name>Apache ServiceMix :: Bundles :: Atlassian XMLRPC</name>
     <description>
         This OSGi bundle wraps atlassian-xmlrpc-binder-annotations,
         atlassian-xmlrpc-binder, atlassian-xmlrpc-binder-client-apache
