@@ -52,6 +52,7 @@
         <module>xmlrpc-server-3.1.2</module>
         <module>xmlrpc-server-3.1.3</module>
         <module>ws-commons-util-1.0.2</module>
+        <module>solr-solrj-3.4.0</module>
     </modules>
 
 </project>
