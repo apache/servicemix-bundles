@@ -54,6 +54,8 @@
         <module>ws-commons-util-1.0.2</module>
         <module>solr-solrj-3.4.0</module>
         <module>solr-solrj-3.5.0</module>
+        <module>bcprov-jdk15-1.46</module>
+        <module>bcprov-jdk16-1.46</module>
     </modules>
 
 </project>
