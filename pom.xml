@@ -95,6 +95,24 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jarsigner-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>package</id>
+                        <goals>
+                            <goal>sign</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <keystore>${keystore}</keystore>
+                    <alias>${alias}</alias>
+                    <storepass>${storepass}</storepass>
+                    <keypass>${keypass}</keypass>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 </project>
