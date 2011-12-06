@@ -41,25 +41,6 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
-        <module>bundles-pom</module>
-        <module>xstream-1.4.2</module>
-        <module>quartz-2.1.0</module>
-        <module>commons-validator-1.3.1</module>
-        <module>beanlib-5.0.2beta</module>
-        <module>jcip-annotations-1.0</module>
-        <module>aws-java-sdk-1.2.12</module>
-        <module>qpid-0.12</module>
-        <module>atlassian-xmlrpc-0.11</module>
-        <module>xmlrpc-server-3.1.2</module>
-        <module>xmlrpc-server-3.1.3</module>
-        <module>ws-commons-util-1.0.2</module>
-        <module>solr-solrj-3.4.0</module>
-        <module>solr-solrj-3.5.0</module>
-        <module>bcprov-jdk15-1.46</module>
-        <module>bcprov-jdk16-1.46</module>
-        <module>jasypt-1.8</module>
-        <module>quickfix-1.5.0</module>
-        <module>quickfix-1.5.1</module>
     </modules>
 
 </project>
