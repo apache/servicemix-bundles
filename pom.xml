@@ -41,6 +41,7 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+        <module>bundles-pom</module>
         <module>xstream-1.4.2</module>
         <module>quartz-2.1.0</module>
         <module>commons-validator-1.3.1</module>
