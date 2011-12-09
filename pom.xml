@@ -41,8 +41,6 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
-        <module>struts2-2.2.3.1</module>
-        <module>struts2-xwork-2.2.3.1</module>
     </modules>
 
 </project>
