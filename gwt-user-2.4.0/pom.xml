@@ -47,8 +47,6 @@
             com.google.web*;version=${pkgVersion}
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
-            !com.google.gwt*,
-            !com.google.web*,
             com.gargoylesoftware.htmlunit;resolution:=optional,
             com.gargoylesoftware.htmlunit.html;resolution:=optional,
             com.gargoylesoftware.htmlunit.javascript;resolution:=optional,
