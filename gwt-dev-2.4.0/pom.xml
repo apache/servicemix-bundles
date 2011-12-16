@@ -49,10 +49,36 @@
             com.google.gwt*;version=${pkgVersion}
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
+	        net.sourceforge.htmlunit.corejs.javascript;resolution:=optional,
+			org.apache.catalina;resolution:=optional,
+			org.apache.catalina.core;resolution:=optional,
+			org.apache.catalina.logger;resolution:=optional,
+			org.apache.catalina.startup;resolution:=optional,
+			org.apache.commons.collections.map;resolution:=optional,
+			org.apache.coyote.tomcat5;resolution:=optional,
+			org.apache.tools.ant.types;resolution:=optional,
+			org.eclipse.jdt.internal.core.util;resolution:=optional,
+			org.mortbay.component;resolution:=optional,
+			org.mortbay.jetty;resolution:=optional,
+			org.mortbay.jetty.handler;resolution:=optional,
+			org.mortbay.jetty.nio;resolution:=optional,
+			org.mortbay.jetty.security;resolution:=optional,
+			org.mortbay.jetty.webapp;resolution:=optional,
+			org.mortbay.log;resolution:=optional,
+			com.gargoylesoftware.htmlunit;resolution:=optional,
+			com.gargoylesoftware.htmlunit.html;resolution:=optional,
+			com.gargoylesoftware.htmlunit.javascript;resolution:=optional,
+			com.gargoylesoftware.htmlunit.javascript.background;resolution:=optional,
+			com.gargoylesoftware.htmlunit.javascript.host;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private>
-			
+			com.google.gwt.core*,
+			com.google.gwt.dev*,
+			com.google.gwt.lang*,
+			com.google.gwt.soyc*,
+            com.google.gwt.thirdparty*,
+            com.google.gwt.util*			
 	    </servicemix.osgi.private>
     </properties>
 
