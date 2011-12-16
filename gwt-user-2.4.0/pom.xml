@@ -55,9 +55,20 @@
             com.ibm.icu.util;resolution:=optional,
             com.thoughtworks.selenium;resolution:=optional,
             junit.framework;resolution:=optional,
+            net.sourceforge.htmlunit.corejs.javascript;resolution:=optional,
+	        org.apache.tapestry.util.text;resolution:=optional,
+	        org.mortbay.jetty;resolution:=optional,
+	        org.mortbay.jetty.servlet;resolution:=optional,
+	        org.mortbay.jetty.webapp;resolution:=optional,
+	        org.w3c.css.sac;resolution:=optional,
+		    org.w3c.flute.parser;resolution:=optional,
             sun.misc;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
+        <servicemix.osgi.private>
+	        com.google.gwt*,
+            com.google.web*
+	    </servicemix.osgi.private>
     </properties>
 
     <dependencies>
