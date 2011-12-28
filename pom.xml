@@ -41,6 +41,7 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+      <module>smack-3.2.1</module>
     </modules>
 
 </project>
