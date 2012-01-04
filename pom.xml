@@ -43,6 +43,7 @@
     <modules>
       <module>smack-3.2.1</module>
       <module>paranamer-2.4</module>
+      <module>jopt-simple-4.3</module>
     </modules>
 
 </project>
