@@ -45,6 +45,7 @@
       <module>paranamer-2.4</module>
       <module>jopt-simple-4.3</module>
       <module>not-yet-commons-ssl-0.3.11</module>
+      <module>guava-11</module>
     </modules>
 
 </project>
