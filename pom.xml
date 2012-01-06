@@ -46,6 +46,7 @@
       <module>jopt-simple-4.3</module>
       <module>not-yet-commons-ssl-0.3.11</module>
       <module>guava-11</module>
+      <module>twitter4j-core-2.2.5</module>
     </modules>
 
 </project>
