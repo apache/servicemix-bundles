@@ -31,17 +31,28 @@
     <artifactId>org.apache.servicemix.bundles.twitter4j</artifactId>
     <version>2.2.5_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
-    <name>Apache ServiceMix :: Bundles :: twitter4j</name>
-    <description>This OSGi bundle wraps twitter4j-core and twitter-stream ${pkgVersion} jar file.</description>
+    <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
+    <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
 
     <properties>
         <pkgGroupId>org.twitter4j</pkgGroupId>
+        <pkgArtifactId>twitter4j</pkgArtifactId>
         <pkgVersion>2.2.5</pkgVersion>
         <servicemix.osgi.export.pkg>
             twitter4j
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             !twitter4j*,
+            !dalvik.system,
+            !com.google.appengine.api.urlfetch.URLFetchService,
+	    javax.crypto;resolution:=optional,
+            javax.crypto.spec;resolution:=optional,
+            javax.management;resolution:=optional,
+            javax.management.openmbean;resolution:=optional,
+            org.slf4j;resolution:=optional;version="[1.5.8,2)",
+            org.apache.commons.logging;resolution:=optional;version="[1.1,2)",
+            org.apache.http*;resolution:=optional;version="[4,5)",
+            org.apache.log4j;resolution:=optional;version="[1.2.9,2)",
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.failok>true</servicemix.osgi.failok>
@@ -57,6 +68,12 @@
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>twitter4j-stream</artifactId>
+            <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>twitter4j-httpclient-support</artifactId>
             <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
@@ -78,6 +95,7 @@
                                 <includes>
                                     <include>${pkgGroupId}:twitter4j-core</include>
                                     <include>${pkgGroupId}:twitter4j-stream</include>
+                                    <include>${pkgGroupId}:twitter4j-httpclient-support</include>
                                 </includes>
                             </artifactSet>
                             <filters>
@@ -89,6 +107,12 @@
                                 </filter>
                                 <filter>
                                     <artifact>${pkgGroupId}:twitter4j-stream</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:twitter4j-httpclient-support</artifact>
                                     <excludes>
                                         <exclude>**</exclude>
                                     </excludes>

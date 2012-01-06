@@ -42,6 +42,7 @@
 
     <modules>
       <module>smack-3.2.1</module>
+      <module>twitter4j-2.2.5</module>
       <module>paranamer-2.4</module>
       <module>jopt-simple-4.3</module>
       <module>not-yet-commons-ssl-0.3.11</module>
