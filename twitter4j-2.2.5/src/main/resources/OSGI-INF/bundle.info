@@ -4,7 +4,6 @@
     Original Maven URL:
         \u001B[33mmvn:${pkgGroupId}/twitter4j-core\u001B[0m
         \u001B[33mmvn:${pkgGroupId}/twitter4j-stream\u001B[0m
-        \u001B[33mmvn:${pkgGroupId}/twitter4j-httpclient-support\u001B[0m
 
 \u001B[1mDESCRIPTION\u001B[0m
     Twitter4J is an unofficial Java library for the Twitter API.
