@@ -28,15 +28,14 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.twitter4j-core</artifactId>
+    <artifactId>org.apache.servicemix.bundles.twitter4j</artifactId>
     <version>2.2.5_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
-    <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
-    <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
+    <name>Apache ServiceMix :: Bundles :: twitter4j</name>
+    <description>This OSGi bundle wraps twitter4j-core and twitter-stream ${pkgVersion} jar file.</description>
 
     <properties>
         <pkgGroupId>org.twitter4j</pkgGroupId>
-        <pkgArtifactId>twitter4j-core</pkgArtifactId>
         <pkgVersion>2.2.5</pkgVersion>
         <servicemix.osgi.export.pkg>
             twitter4j
@@ -51,7 +50,13 @@
     <dependencies>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
-            <artifactId>${pkgArtifactId}</artifactId>
+            <artifactId>twitter4j-core</artifactId>
+            <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>twitter4j-stream</artifactId>
             <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
@@ -71,12 +76,19 @@
                         <configuration>
                             <artifactSet>
                                 <includes>
-                                    <include>${pkgGroupId}:${pkgArtifactId}</include>
+                                    <include>${pkgGroupId}:twitter4j-core</include>
+                                    <include>${pkgGroupId}:twitter4j-stream</include>
                                 </includes>
                             </artifactSet>
                             <filters>
                                 <filter>
-                                    <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
+                                    <artifact>${pkgGroupId}:twitter4j-core</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:twitter4j-stream</artifact>
                                     <excludes>
                                         <exclude>**</exclude>
                                     </excludes>
