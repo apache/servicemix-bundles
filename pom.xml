@@ -52,6 +52,7 @@
       <module>libthrift-0.8.0</module>
       <module>snappy-java-1.0.4.1</module>
       <module>saxon-9.3.0.11</module>
+      <module>junit-4.10</module>
     </modules>
 
 </project>
