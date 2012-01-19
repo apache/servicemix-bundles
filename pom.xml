@@ -54,6 +54,7 @@
       <module>saxon-9.3.0.11</module>
       <module>junit-4.10</module>
       <module>ant-1.8.2</module>
+      <module>antlr-3.4</module>
     </modules>
 
 </project>
