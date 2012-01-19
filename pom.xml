@@ -30,7 +30,7 @@
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>bundles-pom</artifactId>
     <packaging>pom</packaging>
-    <version>9-SNAPSHOT</version>
+    <version>8-SNAPSHOT</version>
     <name>Apache ServiceMix :: Bundles</name>
 
     <properties>
