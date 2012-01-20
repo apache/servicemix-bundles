@@ -71,6 +71,7 @@
       <module>jain-sip-ri-1.2.166</module>
       <module>japex-1.2.4</module>
       <module>jasper-6.0.35</module>
+      <module>jasypt-1.9.0</module>
     </modules>
 
 </project>
