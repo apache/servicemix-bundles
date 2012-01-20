@@ -1,0 +1,26 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    The Fast Infoset standard draft (currently being developed as joint work by ISO/IEC JTC 1 and ITU-T)
+    specifies a binary format for XML infosets that is an efficient alternative to XML. An instance of this
+    binary format is called a fast infoset document. Fast infoset documents are analogous to XML documents.
+    Each has a physical form and an XML infoset. Fast infoset documents are, given the results presented, faster
+    to serialize and parse, and smaller in size, than the equivalent XML documents. Thus, fast infoset documents
+    may be used whenever the size and processing time of XML documents is an issue.
+
+    The binary format is optimized to balance the needs of both document size and processing time. Fast infoset
+    documents are useful in a number of domains from bandwidth- and resource-constrained mobile devices to
+    high-bandwidth high-throughput systems. In general, smaller documents are possible at the expense of either
+    increased processing or loss of self-description and dependence on a schema. Faster processing is possible
+    at the expense of loss of self-description and dependence on a schema. For example, standard compression
+    (LZH) or XML-specific compression techniques (XMill) may be applied to XML documents to obtain smaller
+    document sizes, but this adds to the processing time, especially in the compression phase, and can affect
+    server-side performance.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://java.sun.com/developer/technicalArticles/xml/fastinfoset/\u001B[0m
+    \u001B[36mhttp://java.sun.com/developer/technicalArticles/WebServices/soa2/fastinfoset-soa.html\u001B[0m
