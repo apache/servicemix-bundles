@@ -62,6 +62,7 @@
       <module>cglib-2.2.2</module>
       <module>derbynet-10.8.2.2</module>
       <module>dozer-5.3.2</module>
+      <module>ehcache-2.5.0</module>
     </modules>
 
 </project>
