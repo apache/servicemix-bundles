@@ -68,6 +68,7 @@
       <module>gae-1.6.1.1</module>
       <module>guava-11.0.1</module>
       <module>hadoop-core-1.0.0</module>
+      <module>jain-sip-ri-1.2.166</module>
     </modules>
 
 </project>
