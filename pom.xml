@@ -60,6 +60,7 @@
       <module>aws-java-sdk-1.3.0</module>
       <module>castor-1.3.2</module>
       <module>cglib-2.2.2</module>
+      <module>derbynet-10.8.2.2</module>
     </modules>
 
 </project>
