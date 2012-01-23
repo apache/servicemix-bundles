@@ -31,21 +31,19 @@
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.saxon</artifactId>
     <packaging>bundle</packaging>
-    <version>9.3.0.11_1-SNAPSHOT</version>
+    <version>9.4.0.1_1-SNAPSHOT</version>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
-    <description>This OSGi bundle wraps saxon he
-        ${pkgVersion} jar files.</description>
+    <description>This OSGi bundle wraps saxon he ${pkgVersion} jar files.</description>
 
     <properties>
         <pkgGroupId>net.sf.saxon</pkgGroupId>
         <pkgArtifactId>saxon9he</pkgArtifactId>
-        <pkgVersion>9.3.0.11</pkgVersion>
+        <pkgVersion>9.4.0.1</pkgVersion>
         <servicemix.osgi.export>
             net.sf.saxon*;version=${pkgVersion};-split-package:=merge-first,
             javax.xml.xquery
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
-            !net.sf.saxon*,
             *
         </servicemix.osgi.import.pkg>
     </properties>
