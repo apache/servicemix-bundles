@@ -83,6 +83,7 @@
         <module>jetty-cometd-6.1.26</module>
         <module>jsch-0.1.45</module>
         <module>lucene-3.5.0</module>
+        <module>ognl-3.0.4</module>
     </modules>
 
 </project>
