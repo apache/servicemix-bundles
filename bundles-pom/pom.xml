@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <!--
@@ -21,10 +22,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-      <groupId>org.apache.servicemix</groupId>
-      <artifactId>servicemix-pom</artifactId>
-      <version>5</version>
-      <relativePath>../../servicemix-pom/pom.xml</relativePath>
+        <groupId>org.apache.servicemix</groupId>
+        <artifactId>servicemix-pom</artifactId>
+        <version>5</version>
+        <relativePath>../../servicemix-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -35,13 +36,14 @@
 
     <properties>
         <servicemix.legal.version>1.0</servicemix.legal.version>
-        <servicemix.osgi.export>${servicemix.osgi.export.pkg}*;version=${pkgVersion};-split-package:=merge-first</servicemix.osgi.export>
-        <servicemix.osgi.export.pkg />
-        <servicemix.osgi.import.pkg />
-        <servicemix.osgi.private.pkg />
-        <servicemix.osgi.dynamicimport.pkg />
+        <servicemix.osgi.export>${servicemix.osgi.export.pkg}*;version=${pkgVersion};-split-package:=merge-first
+        </servicemix.osgi.export>
+        <servicemix.osgi.export.pkg/>
+        <servicemix.osgi.import.pkg/>
+        <servicemix.osgi.private.pkg/>
+        <servicemix.osgi.dynamicimport.pkg/>
         <servicemix.osgi.failok>false</servicemix.osgi.failok>
-        <servicemix.osgi.embed.dependency />
+        <servicemix.osgi.embed.dependency/>
     </properties>
 
     <prerequisites>
@@ -50,7 +52,8 @@
 
     <scm>
         <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/trunk</connection>
-        <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/trunk</developerConnection>
+        <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/trunk
+        </developerConnection>
         <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/trunk/</url>
     </scm>
 
@@ -71,19 +74,21 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-release-plugin</artifactId>
+                    <version>2.2.1</version>
                     <configuration>
                         <useReleaseProfile>false</useReleaseProfile>
                         <preparationGoals>clean install</preparationGoals>
                         <goals>deploy</goals>
                         <arguments>-Prelease</arguments>
                         <autoVersionSubmodules>true</autoVersionSubmodules>
-                        <remoteTagging>false</remoteTagging>  <!-- avoid remote tagging as it requires an <scm /> section for every bundle -->
+                        <remoteTagging>false</remoteTagging>
+                        <!-- avoid remote tagging as it requires an <scm /> section for every bundle -->
                     </configuration>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
-                    <version>2.3.1</version>
+                    <version>2.9</version>
                     <configuration>
                         <skip>true</skip>
                     </configuration>
@@ -91,7 +96,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-shade-plugin</artifactId>
-                    <version>1.1</version>
+                    <version>1.4</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
@@ -113,7 +118,7 @@
                     </configuration>
                 </plugin>
             </plugins>
-    
+
         </pluginManagement>
 
         <plugins>
@@ -135,7 +140,8 @@
                         <Bundle-Activator>${servicemix.osgi.activator}</Bundle-Activator>
                         <_failok>${servicemix.osgi.failok}</_failok>
                         <_versionpolicy>[$(version;==;$(@)),$(version;+;$(@)))</_versionpolicy>
-                        <_removeheaders>Ignore-Package,Include-Resource,Private-Package,Embed-Dependency</_removeheaders>
+                        <_removeheaders>Ignore-Package,Include-Resource,Private-Package,Embed-Dependency
+                        </_removeheaders>
                     </instructions>
                     <unpackBundle>true</unpackBundle>
                 </configuration>
@@ -143,7 +149,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
-                <version>2.0</version>
+                <version>2.3</version>
                 <executions>
                     <execution>
                         <id>copy-legal</id>
@@ -165,18 +171,18 @@
                         </configuration>
                     </execution>
                 </executions>
-                <dependencies>                  
+                <dependencies>
                     <dependency>
-                         <groupId>org.apache.servicemix.legal</groupId>
-                         <artifactId>legal</artifactId>
-                         <version>${servicemix.legal.version}</version>
-                         <type>xml</type>
+                        <groupId>org.apache.servicemix.legal</groupId>
+                        <artifactId>legal</artifactId>
+                        <version>${servicemix.legal.version}</version>
+                        <type>xml</type>
                     </dependency>
                 </dependencies>
             </plugin>
             <plugin>
                 <artifactId>maven-remote-resources-plugin</artifactId>
-                <version>1.0</version>
+                <version>1.2.1</version>
                 <executions>
                     <execution>
                         <goals>
@@ -200,7 +206,7 @@
             </plugin>
         </plugins>
     </build>
-    
+
     <profiles>
         <profile>
             <id>release</id>
@@ -210,7 +216,7 @@
                     <plugin>
                         <inherited>true</inherited>
                         <artifactId>maven-deploy-plugin</artifactId>
-                        <version>2.3</version>
+                        <version>2.7</version>
                         <configuration>
                             <updateReleaseInfo>true</updateReleaseInfo>
                         </configuration>
@@ -218,7 +224,7 @@
                     <!-- We want to sign the artifact, the POM, and all attached artifacts -->
                     <plugin>
                         <artifactId>maven-gpg-plugin</artifactId>
-                        <version>1.0-alpha-4</version>
+                        <version>1.4</version>
                         <executions>
                             <execution>
                                 <goals>
