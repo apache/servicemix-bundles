@@ -90,6 +90,7 @@
         <module>protobuf-2.4.1</module>
         <module>quartz-2.1.2</module>
         <module>saaj-impl-1.3.18</module>
+        <module>snmp4j-1.10.1</module>
     </modules>
 
 </project>
