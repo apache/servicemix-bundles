@@ -80,6 +80,7 @@
         <module>jdom-1.1.2</module>
         <module>avro-1.6.1</module>
         <module>avro-ipc-1.6.1</module>
+        <module>jetty-cometd-6.1.26</module>
     </modules>
 
 </project>
