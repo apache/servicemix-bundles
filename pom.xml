@@ -95,6 +95,7 @@
         <module>tagsoup-1.2.1</module>
         <module>xerces-2.10.0</module>
         <module>xfire-1.2.6</module>
+        <module>velocity-tools-2.0</module>
     </modules>
 
 </project>
