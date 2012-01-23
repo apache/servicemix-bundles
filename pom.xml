@@ -81,6 +81,7 @@
         <module>avro-1.6.1</module>
         <module>avro-ipc-1.6.1</module>
         <module>jetty-cometd-6.1.26</module>
+        <module>jsch-0.1.45</module>
     </modules>
 
 </project>
