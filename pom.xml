@@ -86,6 +86,7 @@
         <module>ognl-3.0.4</module>
         <module>oscache-2.4.1</module>
         <module>perf4j-0.9.16</module>
+        <module>protobuf-2.4.1</module>
     </modules>
 
 </project>
