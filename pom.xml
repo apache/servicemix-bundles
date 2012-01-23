@@ -94,6 +94,7 @@
         <module>stringtemplate-4.0.2</module>
         <module>tagsoup-1.2.1</module>
         <module>xerces-2.10.0</module>
+        <module>xfire-1.2.6</module>
     </modules>
 
 </project>
