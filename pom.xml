@@ -68,6 +68,20 @@
             <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>smack</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>smackx</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
     </dependencies>
 
     <repositories>
@@ -86,6 +100,7 @@
                 <artifactId>maven-shade-plugin</artifactId>
                 <executions>
                     <execution>
+                        <id>jar</id>
                         <phase>package</phase>
                         <goals>
                             <goal>shade</goal>
