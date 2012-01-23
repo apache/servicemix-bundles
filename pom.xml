@@ -68,6 +68,8 @@
             <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
+
+        <!-- sources -->
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>smack</artifactId>
