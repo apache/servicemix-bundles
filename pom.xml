@@ -84,6 +84,7 @@
         <module>jsch-0.1.45</module>
         <module>lucene-3.5.0</module>
         <module>ognl-3.0.4</module>
+        <module>oscache-2.4.1</module>
     </modules>
 
 </project>

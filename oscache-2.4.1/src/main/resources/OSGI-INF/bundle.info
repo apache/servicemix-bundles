@@ -1,0 +1,14 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    OSCache is a caching solution that includes a JSP tag library and set of classes to perform fine grained dynamic
+    caching of JSP content, servlet responses or arbitrary objects. It provides both in memory and persistent on disk
+    caches, and can allow your site to have graceful error tolerance (eg if an error occurs like your db goes down, you
+    can serve the cached content so people can still surf the site almost without knowing).
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://www.opensymphony.com/oscache/\u001B[0m
