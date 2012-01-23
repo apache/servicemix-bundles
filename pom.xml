@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>6</version>
+        <version>8-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -77,6 +77,29 @@
             <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
+
+        <!-- sources -->
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>atlassian-xmlrpc-binder-annotations</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>atlassian-xmlrpc-binder</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>atlassian-xmlrpc-binder-client-apache</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
     </dependencies>
 
     <build>
@@ -126,4 +149,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
