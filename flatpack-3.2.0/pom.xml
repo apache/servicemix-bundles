@@ -18,23 +18,23 @@
         See the License for the specific language governing permissions and
         limitations under the License.
     -->
-    
+
     <modelVersion>4.0.0</modelVersion>
-    
+
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>6</version>
+        <version>8-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
-    
+
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.flatpack</artifactId>
     <version>3.2.0_3-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
-    
+
     <properties>
         <pkgGroupId>net.sf.flatpack</pkgGroupId>
         <pkgArtifactId>flatpack</pkgArtifactId>
@@ -43,14 +43,13 @@
             net.sf.flatpack
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !net.sf.flatpack*,
             jxl*;resolution:=optional;version="[2.4.2,3)",
             org.jdom*;resolution:=optional;version="[1.0,2)",
             org.slf4j*;resolution:=optional;version="[1.1,2)",
             *
         </servicemix.osgi.import.pkg>
     </properties>
-    
+
     <dependencies>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
@@ -58,23 +57,33 @@
             <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
+
+        <!-- sources -->
+        <!-- Not available on ServiceMix repo
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
+        -->
     </dependencies>
-    
+
     <repositories>
-         <!-- ServiceMix repo -->
-       <repository>
-           <id>servicemix</id>
-           <name>Apache ServiceMix Repository</name>
-           <url>http://svn.apache.org/repos/asf/servicemix/m2-repo</url>
-           <releases>
-               <enabled>true</enabled>
-           </releases>
-           <snapshots>
-               <enabled>false</enabled>
-           </snapshots>
-       </repository>
+        <repository>
+            <id>servicemix</id>
+            <name>Apache ServiceMix Repository</name>
+            <url>http://svn.apache.org/repos/asf/servicemix/m2-repo</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
     </repositories>
-    
+
     <build>
         <plugins>
             <plugin>
@@ -108,4 +117,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>

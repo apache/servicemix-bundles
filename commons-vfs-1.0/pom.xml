@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <!--
 
@@ -23,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>6</version>
+        <version>8-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -42,12 +43,11 @@
             org.apache.commons.vfs
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !org.apache.commons.vfs*,
             com.jcraft.jsch*;resolution:=optional;version="[0.1.23,2)",
             org.apache.avalon.framework.logger*;resolution:=optional,
             org.apache.commons.collections*;resolution:=optional;version="[3.1,4)",
             org.apache.commons.httpclient*;resolution:=optional;version="[2.0.2,3)",
-            org.apache.commons.logging*;version="[1.0,2)",
+            org.apache.commons.logging*;version="[1.0,2)";resolution:=optional,
             org.apache.commons.net.ftp*;resolution:=optional;version="[1.4.1,2)",
             org.apache.log4j*;resolution:=optional,
             org.apache.tools.ant*;resolution:=optional;version="[1.6.2,2)",
@@ -63,6 +63,17 @@
             <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
+
+        <!-- sources -->
+        <!-- Not available on Central
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
+        -->
     </dependencies>
 
     <build>
@@ -98,4 +109,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>

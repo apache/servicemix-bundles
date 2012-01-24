@@ -43,7 +43,6 @@
             com.google.common*;version=11;-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
-            !com.google.common*,
             sun.misc;resolution:=optional,
             javax.annotation
         </servicemix.osgi.import.pkg>
@@ -54,6 +53,15 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
+
+        <!-- sources -->
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
             <optional>true</optional>
         </dependency>
     </dependencies>
@@ -89,4 +97,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>

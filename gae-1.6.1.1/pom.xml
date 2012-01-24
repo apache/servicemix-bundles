@@ -43,6 +43,7 @@
             com.google.apphosting.api*;version=${pkgVersion};-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
+
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
             com.google.appengine.repackaged*,
@@ -68,6 +69,24 @@
             <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
+
+        <!-- sources -->
+        <!-- Not available on Central
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>appengine-api-1.0-sdk</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>appengine-api-labs</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
+        -->
     </dependencies>
 
     <build>

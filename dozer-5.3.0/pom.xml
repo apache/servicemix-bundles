@@ -24,8 +24,8 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>6</version>
-        <relativePath>../bundles-pom/pom.xml</relativePath>        
+        <version>8-SNAPSHOT</version>
+        <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -43,7 +43,6 @@
             org.dozer
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !org.dozer*,
             javax.management,
             javax.xml.datatype,
             javax.xml.parsers,
@@ -54,7 +53,7 @@
             org.apache.commons.collections.set;version="3.2",
             org.apache.commons.lang;version="2.4",
             org.apache.commons.lang.builder;version="2.4",
-            org.apache.commons.logging,
+            org.apache.commons.logging;resolution:=optional,
             org.springframework.beans.factory,
             org.springframework.core.io,
             org.w3c.dom,
@@ -70,6 +69,16 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
+
+        <!-- sources -->
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
         </dependency>
     </dependencies>
 
@@ -106,4 +115,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>

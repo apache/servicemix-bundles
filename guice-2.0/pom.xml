@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>6</version>
+        <version>8-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -44,9 +44,7 @@
             com.google.inject*;version=${pkgVersion};-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
-            !org.guiceyfruit*,
             com.google.inject.internal.asm.util*;resolution:=optional,
-            !com.google.inject*,
             javax.annotation,
             javax.naming*,
             org.aopalliance*,
@@ -81,6 +79,24 @@
             <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
+
+        <!-- sources -->
+        <!-- Not available on Google repo
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>guiceyfruit-core</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>guice-all</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
+        -->
     </dependencies>
 
     <build>
@@ -123,4 +139,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>

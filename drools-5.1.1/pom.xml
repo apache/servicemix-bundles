@@ -18,23 +18,23 @@
         See the License for the specific language governing permissions and
         limitations under the License.
     -->
-    
+
     <modelVersion>4.0.0</modelVersion>
-    
+
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>6</version>
-        <relativePath>../bundles-pom/pom.xml</relativePath>        
+        <version>8-SNAPSHOT</version>
+        <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
-    
+
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.drools</artifactId>
     <version>5.1.1_3-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
-    
+
     <properties>
         <pkgGroupId>org.drools</pkgGroupId>
         <pkgArtifactId>drools</pkgArtifactId>
@@ -51,7 +51,7 @@
             javax.rules*;resolution:=optional,
             org.apache.jackrabbit*;resolution:=optional,
             org.codehaus.janino*;resolution:=optional,
-            org.slf4j*;version="[1.5,2.0)",
+            org.slf4j*;version="[1.5,2.0)";resolution:=optional,
             org.tmatesoft*;resolution:=optional,
             org.antlr.stringtemplate*;resolution:=optional,
             *
@@ -71,14 +71,21 @@
             *;inline=META-INF/drools*
         </servicemix.osgi.embed.dependency>
     </properties>
-    
+
     <repositories>
         <repository>
             <id>jboss</id>
-            <url>https://repository.jboss.org/nexus/content/groups/public/</url>
+            <name>JBoss Maven Repository</name>
+            <url>http://repository.jboss.org/nexus/content/groups/public-jboss/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
         </repository>
     </repositories>
-    
+
     <dependencies>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
@@ -116,8 +123,52 @@
             <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
+
+        <!-- sources -->
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>drools-api</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>drools-compiler</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>drools-core</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>drools-decisiontables</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>drools-jsr94</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>drools-repository</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
     </dependencies>
-    
+
     <build>
         <plugins>
             <plugin>
@@ -132,12 +183,54 @@
                         <configuration>
                             <artifactSet>
                                 <includes>
-                                    <include>${pkgGroupId}:${pkgArtifactId}</include>
+                                    <include>${pkgGroupId}:drools-analytics</include>
+                                    <include>${pkgGroupId}:drools-ant</include>
+                                    <include>${pkgGroupId}:drools-compiler</include>
+                                    <include>${pkgGroupId}:drools-core</include>
+                                    <include>${pkgGroupId}:drools-decisiontables</include>
+                                    <include>${pkgGroupId}:drools-jsr94</include>
+                                    <include>${pkgGroupId}:drools-repository</include>
                                 </includes>
                             </artifactSet>
                             <filters>
                                 <filter>
-                                    <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
+                                    <artifact>${pkgGroupId}:drools-analytics</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:drools-ant</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:drools-compiler</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:drools-core</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:drools-decisiontables</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:drools-jsr94</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:drools-repository</artifact>
                                     <excludes>
                                         <exclude>**</exclude>
                                     </excludes>
@@ -151,4 +244,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>

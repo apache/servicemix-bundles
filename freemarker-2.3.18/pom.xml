@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>6</version>
+        <version>8-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -40,7 +40,6 @@
         <pkgArtifactId>freemarker</pkgArtifactId>
         <pkgVersion>2.3.18</pkgVersion>
         <servicemix.osgi.import.pkg>
-            !freemarker*,
             !com.sun.org.apache*,
             javax.el*;resolution:=optional;version="[1,2)",
             javax.servlet*;resolution:=optional;version="[2.5,3)",
@@ -70,6 +69,15 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
+
+        <!-- sources -->
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
             <optional>true</optional>
         </dependency>
     </dependencies>
@@ -107,4 +115,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
