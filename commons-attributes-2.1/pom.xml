@@ -18,23 +18,24 @@
         See the License for the specific language governing permissions and
         limitations under the License.
     -->
-    
+
     <modelVersion>4.0.0</modelVersion>
-    
+
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>6</version>
+        <version>8-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
-    
+
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.commons-attributes</artifactId>
     <packaging>bundle</packaging>
     <version>2.1_3-SNAPSHOT</version>
     <name>Apache ServiceMix :: Bundles :: commons-attributes</name>
-    <description>This OSGi bundle wraps commons-attributes-api and commons-attributes-plugin ${pkgVersion} jar files.</description>
-    
+    <description>This OSGi bundle wraps commons-attributes-api and commons-attributes-plugin ${pkgVersion} jar files.
+    </description>
+
     <properties>
         <pkgGroupId>commons-attributes</pkgGroupId>
         <pkgVersion>2.1</pkgVersion>
@@ -46,7 +47,7 @@
             *
         </servicemix.osgi.import.pkg>
     </properties>
-    
+
     <dependencies>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
@@ -60,8 +61,26 @@
             <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
+
+        <!-- sources -->
+        <!-- Not available on Central
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>commons-attributes-api</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>commons-attributes-plugin</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
+        -->
     </dependencies>
-    
+
     <build>
         <plugins>
             <plugin>
@@ -102,4 +121,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
