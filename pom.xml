@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <!--
 
@@ -26,14 +24,13 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>6</version>
+        <version>8-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.gwt-user</artifactId>
     <version>2.4.0_1-SNAPSHOT</version>
-
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -43,8 +40,8 @@
         <pkgArtifactId>gwt-user</pkgArtifactId>
         <pkgVersion>2.4.0</pkgVersion>
         <servicemix.osgi.export>
-            com.google.gwt*;version=${pkgVersion},
-            com.google.web*;version=${pkgVersion}
+            com.google.gwt*;version=${pkgVersion};-split-package:=merge-first,
+            com.google.web*;version=${pkgVersion};-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
             com.gargoylesoftware.htmlunit;resolution:=optional,
@@ -56,19 +53,19 @@
             com.thoughtworks.selenium;resolution:=optional,
             junit.framework;resolution:=optional,
             net.sourceforge.htmlunit.corejs.javascript;resolution:=optional,
-	        org.apache.tapestry.util.text;resolution:=optional,
-	        org.mortbay.jetty;resolution:=optional,
-	        org.mortbay.jetty.servlet;resolution:=optional,
-	        org.mortbay.jetty.webapp;resolution:=optional,
-	        org.w3c.css.sac;resolution:=optional,
-		    org.w3c.flute.parser;resolution:=optional,
+            org.apache.tapestry.util.text;resolution:=optional,
+            org.mortbay.jetty;resolution:=optional,
+            org.mortbay.jetty.servlet;resolution:=optional,
+            org.mortbay.jetty.webapp;resolution:=optional,
+            org.w3c.css.sac;resolution:=optional,
+            org.w3c.flute.parser;resolution:=optional,
             sun.misc;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private>
-	        com.google.gwt*,
+            com.google.gwt*,
             com.google.web*
-	    </servicemix.osgi.private>
+        </servicemix.osgi.private>
     </properties>
 
     <dependencies>
@@ -76,6 +73,15 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
+
+        <!-- sources -->
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
             <optional>true</optional>
         </dependency>
     </dependencies>
@@ -113,4 +119,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
