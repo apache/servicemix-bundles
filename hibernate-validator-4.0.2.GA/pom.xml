@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <!--
 
@@ -18,23 +18,23 @@
         See the License for the specific language governing permissions and
         limitations under the License.
     -->
-    
+
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>6</version>
+        <version>8-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
-    
+
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.hibernate-validator</artifactId>
     <version>4.0.2.GA_4-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
-    
+
     <properties>
         <pkgGroupId>org.hibernate</pkgGroupId>
         <pkgArtifactId>hibernate-validator</pkgArtifactId>
@@ -43,7 +43,6 @@
             org.hibernate.validator
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !org.hibernate.validator*,
             javax.persistence;resolution:=optional,
             javax.xml.bind*;resolution:=optional,
             javax.xml.namespace*;resolution:=optional,
@@ -58,7 +57,7 @@
             META-INF.services;-split-package:=merge-first
         </servicemix.osgi.private.pkg>
     </properties>
-    
+
     <dependencies>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
@@ -85,8 +84,26 @@
             <artifactId>org.apache.servicemix.specs.jsr303-api-1.0.0</artifactId>
             <version>1.5.0</version>
         </dependency>
+
+        <!-- sources -->
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <exclusions>
+                <exclusion>
+                    <groupId>javax.xml.bind</groupId>
+                    <artifactId>jaxb-api</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>javax.xml.bind</groupId>
+                    <artifactId>jaxb-impl</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
     </dependencies>
-    
+
     <repositories>
         <repository>
             <id>jboss</id>
@@ -100,7 +117,7 @@
             </snapshots>
         </repository>
     </repositories>
-    
+
     <build>
         <plugins>
             <plugin>
@@ -141,4 +158,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>

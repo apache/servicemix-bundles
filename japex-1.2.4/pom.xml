@@ -43,7 +43,6 @@
             com.sun.japex
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !com.sun.japex*,
             javax.mail,
             javax.mail.internet,
             javax.xml.bind,
@@ -67,6 +66,15 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
+
+        <!-- sources -->
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
             <optional>true</optional>
         </dependency>
     </dependencies>

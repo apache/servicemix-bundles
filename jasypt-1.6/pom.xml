@@ -18,29 +18,28 @@
         See the License for the specific language governing permissions and
         limitations under the License.
     -->
-    
+
     <modelVersion>4.0.0</modelVersion>
-    
+
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>6</version>
+        <version>8-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
-    
+
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.jasypt</artifactId>
     <version>1.6_3-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
-    
+
     <properties>
         <pkgGroupId>org.jasypt</pkgGroupId>
         <pkgArtifactId>jasypt</pkgArtifactId>
         <pkgVersion>1.6</pkgVersion>
         <servicemix.osgi.import.pkg>
-            !org.jasypt*,
             com.ibm.icu.text*;resolution:=optional,
             org.acegisecurity*;resolution:=optional,
             javax.crypto*,
@@ -56,7 +55,7 @@
             org.jasypt
         </servicemix.osgi.export.pkg>
     </properties>
-    
+
     <dependencies>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
@@ -64,8 +63,17 @@
             <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
+
+        <!-- sources -->
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
     </dependencies>
-    
+
     <build>
         <plugins>
             <plugin>
@@ -99,4 +107,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
