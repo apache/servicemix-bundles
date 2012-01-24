@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <!--
 
@@ -21,10 +22,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-	    <groupId>org.apache.servicemix.bundles</groupId>
-	    <artifactId>bundles-pom</artifactId>
-	    <version>6</version>
-       <relativePath>../bundles-pom/pom.xml</relativePath>
+        <groupId>org.apache.servicemix.bundles</groupId>
+        <artifactId>bundles-pom</artifactId>
+        <version>8-SNAPSHOT</version>
+        <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -42,8 +43,7 @@
             org.apache.commons.httpclient
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !org.apache.commons.httpclient*,
-            org.apache.commons.logging*;version="[1.1,2)",
+            org.apache.commons.logging*;version="[1.1,2)";resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
     </properties>
@@ -53,6 +53,7 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
+            <optional>true</optional>
             <exclusions>
                 <exclusion>
                     <groupId>commons-codec</groupId>
@@ -64,6 +65,21 @@
             <groupId>org.apache.servicemix.bundles</groupId>
             <artifactId>org.apache.servicemix.bundles.commons-codec</artifactId>
             <version>1.3_2</version>
+        </dependency>
+
+        <!-- sources -->
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+            <exclusions>
+                <exclusion>
+                    <groupId>commons-codec</groupId>
+                    <artifactId>commons-codec</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
     </dependencies>
 
@@ -100,4 +116,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
