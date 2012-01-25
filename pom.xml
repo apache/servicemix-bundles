@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <!--
 
@@ -44,8 +44,8 @@
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.export>
-            org.mortbay.cometd*;version=${pkgVersion},
-            org.cometd;version=${cometdApiVersion}
+            org.mortbay.cometd*;version=${pkgVersion};-split-package:=merge-first,
+            org.cometd;version=${cometdApiVersion};-split-package:=merge-first
         </servicemix.osgi.export>
     </properties>
 
@@ -54,11 +54,29 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
+            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>org.cometd.java</groupId>
             <artifactId>cometd-api</artifactId>
             <version>${cometdApiVersion}</version>
+            <optional>true</optional>
+        </dependency>
+
+        <!-- sources -->
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.cometd.java</groupId>
+            <artifactId>cometd-api</artifactId>
+            <version>${cometdApiVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
         </dependency>
     </dependencies>
 
