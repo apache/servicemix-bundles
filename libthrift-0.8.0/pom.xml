@@ -39,11 +39,10 @@
         <pkgGroupId>org.apache.thrift</pkgGroupId>
         <pkgArtifactId>libthrift</pkgArtifactId>
         <pkgVersion>0.8.0</pkgVersion>
-        <servicemix.osgi.export>
-            org.apache.thrift*;version="${pkgVersion}";-split-package:=merge-first
-        </servicemix.osgi.export>
+        <servicemix.osgi.export.pkg>
+            org.apache.thrift
+        </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !org.apache.thrift*,
             org.apache.http*;version="[4,5)",
             org.apache.commons.lang*;version="[2,3)",
             org.slf4j*;version="[1.4,2)",
@@ -61,6 +60,17 @@
             <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
+
+        <!-- sources -->
+        <!-- Not available
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
+        -->
     </dependencies>
 
     <build>
@@ -94,4 +104,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>

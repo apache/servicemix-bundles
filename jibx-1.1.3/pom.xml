@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>6</version>
+        <version>8-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
     
@@ -42,7 +42,6 @@
             org.jibx
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !org.jibx*,
             org.dom4j*;version="[1.6,2)",
             org.xmlpull*;version="[1.1.3.1,2)",
             *
@@ -82,6 +81,31 @@
             <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
+
+        <!-- sources -->
+        <!-- Not available
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>jibx-bind</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>jibx-extras</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>jibx-run</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
+        -->
     </dependencies>
     
     <build>
@@ -131,4 +155,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>

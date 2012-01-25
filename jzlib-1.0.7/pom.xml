@@ -24,8 +24,8 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>6</version>
-        <relativePath>../pom.xml</relativePath>
+        <version>8-SNAPSHOT</version>
+        <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -40,10 +40,10 @@
         <pkgArtifactId>jzlib</pkgArtifactId>
         <pkgVersion>1.0.7</pkgVersion>
         <servicemix.osgi.export.pkg>
-           com.jcraft.jzlib*;version="${pkgVersion}" 
+           com.jcraft.jzlib
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-           !com.jcraft.jzlib*
+
         </servicemix.osgi.import.pkg>
     </properties>
 
@@ -52,6 +52,15 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
+
+        <!-- sources -->
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
             <optional>true</optional>
         </dependency>
     </dependencies>
@@ -89,4 +98,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>

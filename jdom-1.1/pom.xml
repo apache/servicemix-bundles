@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <!--
 
@@ -21,10 +22,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-      <groupId>org.apache.servicemix.bundles</groupId>
-      <artifactId>bundles-pom</artifactId>
-      <version>6</version>
-      <relativePath>../bundles-pom/pom.xml</relativePath>
+        <groupId>org.apache.servicemix.bundles</groupId>
+        <artifactId>bundles-pom</artifactId>
+        <version>8-SNAPSHOT</version>
+        <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -42,24 +43,24 @@
             org.jdom
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-           javax.xml.parsers,
-           javax.xml.transform,
-           javax.xml.transform.sax,
-           javax.xml.transform.stream,
-           oracle.xml.parser;resolution:=optional,
-           oracle.xml.parser.v2;resolution:=optional,
-           org.apache.xerces.dom;resolution:=optional,
-           org.apache.xerces.parsers;resolution:=optional,
-           org.jaxen;resolution:=optional,
-           org.jaxen.jdom;resolution:=optional,
-           org.jdom;version="1.1",
-           org.jdom.adapters;version="1.1",
-           org.jdom.filter;version="1.1",
-           org.jdom.input;version="1.1",
-           org.jdom.output;version="1.1",
-           org.jdom.transform;version="1.1",
-           org.jdom.xpath;version="1.1",
-           org.w3c.dom,org.xml.sax,org.xml.sax.ext,org.xml.sax.helpers
+            javax.xml.parsers,
+            javax.xml.transform,
+            javax.xml.transform.sax,
+            javax.xml.transform.stream,
+            oracle.xml.parser;resolution:=optional,
+            oracle.xml.parser.v2;resolution:=optional,
+            org.apache.xerces.dom;resolution:=optional,
+            org.apache.xerces.parsers;resolution:=optional,
+            org.jaxen;resolution:=optional,
+            org.jaxen.jdom;resolution:=optional,
+            org.jdom;version="1.1",
+            org.jdom.adapters;version="1.1",
+            org.jdom.filter;version="1.1",
+            org.jdom.input;version="1.1",
+            org.jdom.output;version="1.1",
+            org.jdom.transform;version="1.1",
+            org.jdom.xpath;version="1.1",
+            org.w3c.dom,org.xml.sax,org.xml.sax.ext,org.xml.sax.helpers
         </servicemix.osgi.import.pkg>
     </properties>
 
@@ -68,6 +69,15 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
+
+        <!-- sources -->
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
             <optional>true</optional>
         </dependency>
     </dependencies>
@@ -105,4 +115,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>

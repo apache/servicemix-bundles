@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <!--
 
@@ -21,10 +22,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-      <groupId>org.apache.servicemix.bundles</groupId>
-      <artifactId>bundles-pom</artifactId>
-      <version>6</version>
-      <relativePath>../bundles-pom/pom.xml</relativePath>
+        <groupId>org.apache.servicemix.bundles</groupId>
+        <artifactId>bundles-pom</artifactId>
+        <version>8-SNAPSHOT</version>
+        <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -38,7 +39,9 @@
         <pkgGroupId>com.sun.xml.parsers</pkgGroupId>
         <pkgArtifactId>jaxp-ri</pkgArtifactId>
         <pkgVersion>1.4.4</pkgVersion>
-        <servicemix.osgi.export.pkg>com.sun</servicemix.osgi.export.pkg>
+        <servicemix.osgi.export.pkg>
+            com.sun
+        </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             com.sun.java_cup.internal;resolution:=optional,
             javax.xml.transform.stax;resolution:=optional,
@@ -64,21 +67,37 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
+        <!-- sources -->
+        <!-- Not available
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+            <exclusions>
+                <exclusion>
+                    <groupId>javax.xml.parsers</groupId>
+                    <artifactId>jaxp-api</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        -->
     </dependencies>
 
     <repositories>
-       <!-- com.sun.xml.parses:jaxp-ri:1.4.4 is available in ServiceMix' repo -->
-       <repository>
-           <id>servicemix</id>
-           <name>Apache ServiceMix Repository</name>
-           <url>http://svn.apache.org/repos/asf/servicemix/m2-repo</url>
-           <releases>
-               <enabled>true</enabled>
-           </releases>
-           <snapshots>
-               <enabled>false</enabled>
-           </snapshots>
-       </repository>
+        <repository>
+            <id>servicemix</id>
+            <name>Apache ServiceMix Repository</name>
+            <url>http://svn.apache.org/repos/asf/servicemix/m2-repo</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
     </repositories>
 
     <build>
@@ -114,4 +133,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
