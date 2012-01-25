@@ -36,7 +36,6 @@
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
 
-
     <properties>
         <pkgGroupId>net.jcip</pkgGroupId>
         <pkgArtifactId>jcip-annotations</pkgArtifactId>
@@ -45,7 +44,7 @@
             net.jcip.annotations
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !net.jcip.annotations*
+
         </servicemix.osgi.import.pkg>
     </properties>
 
@@ -54,6 +53,15 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
+
+        <!-- sources -->
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
             <optional>true</optional>
         </dependency>
     </dependencies>
@@ -91,4 +99,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
