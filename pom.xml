@@ -1,4 +1,6 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <!--
 
@@ -23,7 +25,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>6</version>
+        <version>8-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -42,8 +44,7 @@
             org.jsmpp
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !org.jsmpp*,
-	    org.testng*;resolution:=optional,
+            org.testng*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
@@ -57,29 +58,30 @@
             <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
+
+        <!-- sources -->
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
     </dependencies>
+
     <repositories>
-         <!-- ServiceMix repo -->
-       <repository>
-           <id>servicemix</id>
-           <name>Apache ServiceMix Repository</name>
-           <url>http://svn.apache.org/repos/asf/servicemix/m2-repo</url>
-           <releases>
-               <enabled>true</enabled>
-           </releases>
-           <snapshots>
-               <enabled>false</enabled>
-           </snapshots>
-       </repository>
+        <repository>
+            <id>servicemix</id>
+            <name>Apache ServiceMix Repository</name>
+            <url>http://svn.apache.org/repos/asf/servicemix/m2-repo</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
     </repositories>
-    <pluginRepositories>
-      <!-- ServiceMix repo -->
-      <pluginRepository>
-          <id>servicemix</id>
-          <name>Apache ServiceMix Repository</name>
-          <url>http://svn.apache.org/repos/asf/servicemix/m2-repo</url>
-      </pluginRepository>
-    </pluginRepositories>    
 
     <build>
         <plugins>
@@ -114,4 +116,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
