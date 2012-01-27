@@ -39,11 +39,10 @@
         <pkgGroupId>org.xerial.snappy</pkgGroupId>
         <pkgArtifactId>snappy-java</pkgArtifactId>
         <pkgVersion>1.0.4.1</pkgVersion>
-        <servicemix.osgi.export>
-            org.xerial.snappy;version="${pkgVersion}";-split-package:=merge-first
-        </servicemix.osgi.export>
+        <servicemix.osgi.export.pkg>
+            org.xerial.snappy
+        </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !org.xerial.snappy*,
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.native>
@@ -68,6 +67,15 @@
             <groupId>org.osgi</groupId>
             <artifactId>org.osgi.core</artifactId>
             <version>4.2.0</version>
+        </dependency>
+
+        <!-- sources -->
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
         </dependency>
     </dependencies>
 
@@ -137,4 +145,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
