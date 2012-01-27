@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <!--
 
@@ -42,10 +43,9 @@
             twitter4j
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !twitter4j*,
             !dalvik.system,
             !com.google.appengine.api.urlfetch.URLFetchService,
-	    javax.crypto;resolution:=optional,
+	        javax.crypto;resolution:=optional,
             javax.crypto.spec;resolution:=optional,
             javax.management;resolution:=optional,
             javax.management.openmbean;resolution:=optional,
@@ -68,6 +68,22 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>twitter4j-stream</artifactId>
             <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
+
+        <!-- sources -->
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>twitter4j-core</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>twitter4j-stream</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
             <optional>true</optional>
         </dependency>
     </dependencies>
@@ -112,4 +128,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
