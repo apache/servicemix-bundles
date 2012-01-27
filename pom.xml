@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <!--
 
@@ -21,10 +22,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-	    <groupId>org.apache.servicemix.bundles</groupId>
-	    <artifactId>bundles-pom</artifactId>
-	    <version>6</version>
-       <relativePath>../bundles-pom/pom.xml</relativePath>
+        <groupId>org.apache.servicemix.bundles</groupId>
+        <artifactId>bundles-pom</artifactId>
+        <version>8-SNAPSHOT</version>
+        <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -39,15 +40,14 @@
         <pkgArtifactId>neethi</pkgArtifactId>
         <pkgVersion>2.0.4</pkgVersion>
         <servicemix.osgi.import.pkg>
-            !org.apache.neethi*,
             org.apache.axiom*;resolution:=optional,
             sun.misc*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.export.pkg>
             org.apache.neethi
-		</servicemix.osgi.export.pkg>
-        <servicemix.osgi.private.pkg />
+        </servicemix.osgi.export.pkg>
+        <servicemix.osgi.private.pkg/>
     </properties>
 
     <dependencies>
@@ -55,6 +55,41 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
+            <optional>true</optional>
+            <exclusions>
+                <exclusion>
+                    <groupId>log4j</groupId>
+                    <artifactId>log4j</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>javax.servlet</groupId>
+                    <artifactId>servlet-api</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.apache.ws.commons.axiom</groupId>
+                    <artifactId>axiom-impl</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.apache.ws.commons.axiom</groupId>
+                    <artifactId>axiom-parent</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.apache.ws.commons.axiom</groupId>
+                    <artifactId>axiom-api</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>woodstox</groupId>
+                    <artifactId>wstx-asl</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <!-- sources -->
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
             <optional>true</optional>
             <exclusions>
                 <exclusion>
@@ -118,4 +153,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
