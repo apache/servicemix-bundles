@@ -24,7 +24,7 @@
     <parent>
 	    <groupId>org.apache.servicemix.bundles</groupId>
 	    <artifactId>bundles-pom</artifactId>
-	    <version>8-SNAPSHOT</version>
+	    <version>8</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
