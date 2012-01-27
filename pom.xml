@@ -31,19 +31,19 @@
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>bundles-pom</artifactId>
     <packaging>pom</packaging>
-    <version>8-SNAPSHOT</version>
+    <version>8</version>
     <name>Apache ServiceMix :: Bundles</name>
 
     <properties>
         <servicemix.legal.version>1.0</servicemix.legal.version>
         <servicemix.osgi.export>${servicemix.osgi.export.pkg}*;version=${pkgVersion};-split-package:=merge-first
         </servicemix.osgi.export>
-        <servicemix.osgi.export.pkg/>
-        <servicemix.osgi.import.pkg/>
-        <servicemix.osgi.private.pkg/>
-        <servicemix.osgi.dynamicimport.pkg/>
+        <servicemix.osgi.export.pkg />
+        <servicemix.osgi.import.pkg />
+        <servicemix.osgi.private.pkg />
+        <servicemix.osgi.dynamicimport.pkg />
         <servicemix.osgi.failok>false</servicemix.osgi.failok>
-        <servicemix.osgi.embed.dependency/>
+        <servicemix.osgi.embed.dependency />
     </properties>
 
     <prerequisites>
@@ -51,10 +51,10 @@
     </prerequisites>
 
     <scm>
-        <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/trunk</connection>
-        <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/trunk
+        <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/bundles-pom-8</connection>
+        <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/bundles-pom-8
         </developerConnection>
-        <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/trunk/</url>
+        <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/tags/bundles-pom-8</url>
     </scm>
 
     <build>
