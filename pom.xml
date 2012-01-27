@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <!--
 
@@ -23,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>6</version>
+        <version>8-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -43,7 +44,6 @@
             org.apache.mina
 	    </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !org.apache.mina*,
             com.jcraft.jzlib*;resolution:=optional,
             net.gleamynode.netty2*;resolution:=optional,
             org.springframework*;version="[2.0,3.0)";resolution:=optional,
@@ -56,31 +56,81 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>mina-core</artifactId>
             <version>${pkgVersion}</version>
+            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>mina-filter-codec-netty</artifactId>
             <version>${pkgVersion}</version>
+            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>mina-filter-compression</artifactId>
             <version>${pkgVersion}</version>
+            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>mina-filter-ssl</artifactId>
             <version>${pkgVersion}</version>
+            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>mina-integration-jmx</artifactId>
             <version>${pkgVersion}</version>
+            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>mina-integration-spring</artifactId>
             <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
+
+        <!-- sources -->
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>mina-core</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>mina-filter-codec-netty</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>mina-filter-compression</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>mina-filter-ssl</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>mina-integration-jmx</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>mina-integration-spring</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
         </dependency>
     </dependencies>
 
@@ -152,4 +202,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
