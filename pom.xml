@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <!--
 
@@ -23,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>6</version>
+        <version>8-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -39,13 +40,6 @@
         <pkgArtifactId>xalan</pkgArtifactId>
         <pkgVersion>2.7.1</pkgVersion>
         <servicemix.osgi.import.pkg>
-          !java_cup*,
-          !org.apache.xalan*,
-          !org.apache.xml.dtm*,
-          !org.apache.xml.res*,
-          !org.apache.xml.serializer*,
-          !org.apache.xml.utils*,
-          !org.apache.xpath*,
           org.apache.bcel*;version="[5.1,6)",
           org.apache.xerces*;version="[2.8.1,3)",
           org.apache.xml.serialize*;version="[2.8.1,3)",
@@ -53,13 +47,13 @@
           *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.export>
-          java_cup*;version=${pkgVersion}, 
-          org.apache.xalan*;version=${pkgVersion},
-          org.apache.xml.dtm*;version=${pkgVersion}, 
-          org.apache.xml.res*;version=${pkgVersion}, 
-          org.apache.xml.serializer*;version=${pkgVersion}, 
-          org.apache.xml.utils*;version=${pkgVersion}, 
-          org.apache.xpath*;version=${pkgVersion}
+          java_cup*;version=${pkgVersion};-split-package:=merge-first,
+          org.apache.xalan*;version=${pkgVersion};-split-package:=merge-first,
+          org.apache.xml.dtm*;version=${pkgVersion};-split-package:=merge-first,
+          org.apache.xml.res*;version=${pkgVersion};-split-package:=merge-first,
+          org.apache.xml.serializer*;version=${pkgVersion};-split-package:=merge-first,
+          org.apache.xml.utils*;version=${pkgVersion};-split-package:=merge-first,
+          org.apache.xpath*;version=${pkgVersion};-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.private.pkg>
             META-INF.services
@@ -71,6 +65,16 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
+
+        <!-- sources -->
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
         </dependency>
     </dependencies>
 
@@ -107,4 +111,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
