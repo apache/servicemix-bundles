@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>6</version>
+        <version>8-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -43,7 +43,6 @@
             org.jboss.netty
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !org.jboss.netty*,
             javax.net*,
             com.google.protobuf*;resolution:=optional;version="[2,3)",
             javax.servlet*;resolution:=optional;version="[2.5,3)",
@@ -75,6 +74,15 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
+
+        <!-- sources -->
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
             <optional>true</optional>
         </dependency>
     </dependencies>
@@ -112,4 +120,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
