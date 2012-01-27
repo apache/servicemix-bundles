@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <!--
 
@@ -42,12 +42,11 @@
         <servicemix.osgi.import.pkg>
             javax.crypto*;resolution:=optional,
             org.apache.log4j*;resolution:=optional,
-            !org.snmp4j*,
             *
         </servicemix.osgi.import.pkg>
-        <servicemix.osgi.export>
-            org.snmp4j*;version=${pkgVersion}
-        </servicemix.osgi.export>
+        <servicemix.osgi.export.pkg>
+            org.snmp4j
+        </servicemix.osgi.export.pkg>
     </properties>
 
     <dependencies>
@@ -57,6 +56,17 @@
             <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
+
+        <!-- sources -->
+        <!-- Not available
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
+        -->
     </dependencies>
 
     <build>

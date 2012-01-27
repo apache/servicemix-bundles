@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>6</version>
+        <version>8-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -44,7 +44,7 @@
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.export>
-            scala*;version=${pkgVersion};-noimport:=true                                    
+            scala*;version=${pkgVersion};-split-package:=merge-first;-noimport:=true
         </servicemix.osgi.export>
     </properties>
 
@@ -53,6 +53,15 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
+
+        <!-- sources -->
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
             <optional>true</optional>
         </dependency>
     </dependencies>
@@ -90,4 +99,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>

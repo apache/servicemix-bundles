@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <!--
 
@@ -23,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>6</version>
+        <version>8-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -38,9 +39,10 @@
         <pkgGroupId>org.apache.ws.security</pkgGroupId>
         <pkgArtifactId>wss4j</pkgArtifactId>
         <pkgVersion>1.5.4</pkgVersion>
-        <servicemix.osgi.export.pkg>org.apache.ws</servicemix.osgi.export.pkg>
+        <servicemix.osgi.export.pkg>
+            org.apache.ws
+        </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !org.apache.ws*,
             javax.xml.rpc*;resolution:=optional,
             javax.xml.soap*;resolution:=optional,
             org.apache.axis*;resolution:=optional,
@@ -66,6 +68,29 @@
                    <artifactId>bcprov-jdk15</artifactId>
                </exclusion>
                <exclusion>
+                    <groupId>bouncycastle</groupId>
+                    <artifactId>bcprov-jdk13</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <!-- sources -->
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+            <exclusions>
+                <exclusion>
+                    <groupId>axis</groupId>
+                    <artifactId>axis-ant</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>bouncycastle</groupId>
+                    <artifactId>bcprov-jdk15</artifactId>
+                </exclusion>
+                <exclusion>
                     <groupId>bouncycastle</groupId>
                     <artifactId>bcprov-jdk13</artifactId>
                 </exclusion>

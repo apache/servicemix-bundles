@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <!--
 
         Licensed to the Apache Software Foundation (ASF) under one or more
@@ -20,10 +21,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-      <groupId>org.apache.servicemix.bundles</groupId>
-      <artifactId>bundles-pom</artifactId>
-      <version>6</version>
-      <relativePath>../bundles-pom/pom.xml</relativePath>
+        <groupId>org.apache.servicemix.bundles</groupId>
+        <artifactId>bundles-pom</artifactId>
+        <version>8-SNAPSHOT</version>
+        <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -31,21 +32,18 @@
     <version>0.6.3_2-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
-    <description>
-        This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.
-    </description>
+    <description>This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.</description>
 
     <properties>
         <pkgGroupId>org.idevlab</pkgGroupId>
         <pkgArtifactId>rjc</pkgArtifactId>
         <pkgVersion>0.6.3</pkgVersion>
         <servicemix.osgi.export.pkg>
-             org.idevlab.rjc*
+            org.idevlab.rjc
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !org.idevlab.rjc*;version=${project.version},
             org.apache.commons.pool;version="[1.4,1.5]",
-            org.slf4j;version="[1.4,1.6]",
+            org.slf4j;version="[1.4,1.6]";resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
     </properties>
@@ -55,6 +53,15 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
+
+        <!-- sources -->
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
             <optional>true</optional>
         </dependency>
     </dependencies>
@@ -92,4 +99,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>

@@ -18,16 +18,16 @@
         See the License for the specific language governing permissions and
         limitations under the License.
     -->
-    
+
     <modelVersion>4.0.0</modelVersion>
-    
+
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>6</version>
+        <version>8-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
-    
+
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.xfire</artifactId>
     <packaging>bundle</packaging>
@@ -37,7 +37,7 @@
         This OSGi bundle wraps xfire-aegis, xfire-annotations, xfire-castor, xfire-core, xfire-generator,
         xfire-jaxb2, xfire-jaxws, xfire-jibx, xfire-xmlbeans ${pkgVersion} jar files.
     </description>
-    
+
     <properties>
         <pkgGroupId>org.codehaus.xfire</pkgGroupId>
         <pkgVersion>1.2.5</pkgVersion>
@@ -45,7 +45,6 @@
             org.codehaus.xfire
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !org.codehaus.xfire*,
             com.thoughtworks.qdox*;version="[1.5,2)",
             org.apache.commons.attributes;version="[2.1,3)",
             javanet.staxutils*,
@@ -61,64 +60,261 @@
             *
         </servicemix.osgi.import.pkg>
     </properties>
-    
+
     <dependencies>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>xfire-aegis</artifactId>
             <version>${pkgVersion}</version>
             <optional>true</optional>
+            <exclusions>
+                <exclusion>
+                    <groupId>castor</groupId>
+                    <artifactId>castor</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>xfire-annotations</artifactId>
             <version>${pkgVersion}</version>
             <optional>true</optional>
+            <exclusions>
+                <exclusion>
+                    <groupId>castor</groupId>
+                    <artifactId>castor</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>xfire-castor</artifactId>
             <version>${pkgVersion}</version>
             <optional>true</optional>
+            <exclusions>
+                <exclusion>
+                    <groupId>castor</groupId>
+                    <artifactId>castor</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>xfire-core</artifactId>
             <version>${pkgVersion}</version>
             <optional>true</optional>
+            <exclusions>
+                <exclusion>
+                    <groupId>castor</groupId>
+                    <artifactId>castor</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>xfire-generator</artifactId>
             <version>${pkgVersion}</version>
             <optional>true</optional>
+            <exclusions>
+                <exclusion>
+                    <groupId>castor</groupId>
+                    <artifactId>castor</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>xfire-jaxb2</artifactId>
             <version>${pkgVersion}</version>
             <optional>true</optional>
+            <exclusions>
+                <exclusion>
+                    <groupId>castor</groupId>
+                    <artifactId>castor</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>xfire-jaxws</artifactId>
             <version>${pkgVersion}</version>
             <optional>true</optional>
+            <exclusions>
+                <exclusion>
+                    <groupId>castor</groupId>
+                    <artifactId>castor</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>xfire-jibx</artifactId>
             <version>${pkgVersion}</version>
             <optional>true</optional>
+            <exclusions>
+                <exclusion>
+                    <groupId>castor</groupId>
+                    <artifactId>castor</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>jibx</groupId>
+                    <artifactId>jibx-run</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>jibx</groupId>
+                    <artifactId>jibx-bind</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>jibx</groupId>
+                    <artifactId>jibx-extras</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>xfire-xmlbeans</artifactId>
             <version>${pkgVersion}</version>
             <optional>true</optional>
+            <exclusions>
+                <exclusion>
+                    <groupId>castor</groupId>
+                    <artifactId>castor</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <!-- sources -->
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>xfire-aegis</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+            <exclusions>
+                <exclusion>
+                    <groupId>castor</groupId>
+                    <artifactId>castor</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>xfire-annotations</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+            <exclusions>
+                <exclusion>
+                    <groupId>castor</groupId>
+                    <artifactId>castor</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>xfire-castor</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+            <exclusions>
+                <exclusion>
+                    <groupId>castor</groupId>
+                    <artifactId>castor</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>xfire-core</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+            <exclusions>
+                <exclusion>
+                    <groupId>castor</groupId>
+                    <artifactId>castor</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>xfire-generator</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+            <exclusions>
+                <exclusion>
+                    <groupId>castor</groupId>
+                    <artifactId>castor</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>xfire-jaxb2</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+            <exclusions>
+                <exclusion>
+                    <groupId>castor</groupId>
+                    <artifactId>castor</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>xfire-jaxws</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+            <exclusions>
+                <exclusion>
+                    <groupId>castor</groupId>
+                    <artifactId>castor</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>xfire-jibx</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+            <exclusions>
+                <exclusion>
+                    <groupId>castor</groupId>
+                    <artifactId>castor</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>jibx</groupId>
+                    <artifactId>jibx-run</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>jibx</groupId>
+                    <artifactId>jibx-bind</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>jibx</groupId>
+                    <artifactId>jibx-extras</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>xfire-xmlbeans</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+            <exclusions>
+                <exclusion>
+                    <groupId>castor</groupId>
+                    <artifactId>castor</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
     </dependencies>
-    
+
     <build>
         <plugins>
             <plugin>
@@ -208,4 +404,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>

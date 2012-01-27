@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <!--
 
@@ -22,10 +22,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-	    <groupId>org.apache.servicemix.bundles</groupId>
-	    <artifactId>bundles-pom</artifactId>
-	    <version>6</version>
-       <relativePath>../bundles-pom/pom.xml</relativePath>
+        <groupId>org.apache.servicemix.bundles</groupId>
+        <artifactId>bundles-pom</artifactId>
+        <version>8-SNAPSHOT</version>
+        <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -63,8 +63,8 @@
             <optional>true</optional>
             <exclusions>
                 <exclusion>
-		            <groupId>stax</groupId>
-		            <artifactId>stax-api</artifactId>
+                    <groupId>stax</groupId>
+                    <artifactId>stax-api</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
@@ -73,6 +73,21 @@
             <artifactId>org.apache.servicemix.specs.stax-api-1.0</artifactId>
             <version>1.0.0</version>
             <optional>true</optional>
+        </dependency>
+
+        <!-- sources -->
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>wstx-asl</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+            <exclusions>
+                <exclusion>
+                    <groupId>stax</groupId>
+                    <artifactId>stax-api</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
     </dependencies>
 
@@ -109,4 +124,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>

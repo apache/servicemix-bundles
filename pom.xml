@@ -101,6 +101,7 @@
         <module>guava-11.0.1</module>
         <module>gwt-dev-2.4.0</module>
         <module>gwt-user-2.4.0</module>
+        <module>hadoop-core-1.0.0</module>
         <module>hibernate-validator-4.1.0.Final</module>
         <module>howl-1.0.1-1</module>
         <module>irclib-1.10</module>
@@ -139,28 +140,64 @@
         <module>libthrift-0.8.0</module>
         <module>lucene-3.3.0</module>
         <module>lucene-3.5.0</module>
-
-        <module>smack-3.2.1</module>
-        <module>paranamer-2.4</module>
+        <module>mina-1.1.7</module>
+        <module>mongodb-2.3</module>
+        <module>mvel-2.0.18</module>
+        <module>mybatis-3.0.4</module>
+        <module>neethi-2.0.4</module>
+        <module>netty-3.2.6.Final</module>
         <module>not-yet-commons-ssl-0.3.11</module>
-        <module>twitter4j-2.2.5</module>
-        <module>snappy-java-1.0.4.1</module>
+        <module>oauth-commons-20100527</module>
+        <module>ognl-3.0.4</module>
+        <module>openjpa-2.0.0</module>
+        <module>opensaml-2.5.1</module>
+        <module>oro-2.0.8</module>
+        <module>oscache-2.4.1</module>
+        <module>paranamer-2.4</module>
+        <module>perf4j-0.9.16</module>
+        <module>poi-3.6</module>
+        <module>protobuf-2.3.0</module>
+        <module>protobuf-2.4.1</module>
+        <module>qdox-1.5</module>
+        <module>qpid-0.12</module>
+        <module>quartz-1.8.5</module>
+        <module>quartz-2.1.2</module>
+        <module>regexp-1.3</module>
+        <module>restlet-1.1.10</module>
+        <module>rhino-1.7-R2</module>
+        <module>rjc-0.6.3</module>
+        <module>rome-1.0</module>
+        <module>saaj-impl-1.3.18</module>
         <module>saxon-9.3.0.11</module>
         <module>saxon-9.4.0.1</module>
         <module>scala-compiler-2.9.1</module>
-        <module>hadoop-core-1.0.0</module>
-        <module>ognl-3.0.4</module>
-        <module>oscache-2.4.1</module>
-        <module>perf4j-0.9.16</module>
-        <module>protobuf-2.4.1</module>
-        <module>quartz-2.1.2</module>
-        <module>saaj-impl-1.3.18</module>
+        <module>scala-library-2.9.1</module>
+        <module>shiro-1.1.0</module>
+        <module>smack-3.2.1</module>
+        <module>snappy-java-1.0.4.1</module>
+        <module>snmp4j-1.8.1</module>
         <module>snmp4j-1.10.1</module>
+        <module>solr-solrj-3.5.0</module>
         <module>stringtemplate-4.0.2</module>
+        <module>struts2-2.2.1.1</module>
+        <module>struts2-xwork-2.2.1.1</module>
         <module>tagsoup-1.2.1</module>
+        <module>twitter4j-2.2.5</module>
+        <module>velocity-1.6.4</module>
+        <module>velocity-1.7</module>
+        <module>velocity-tools-2.0</module>
+        <module>woodstox-3.2.9</module>
+        <module>ws-commons-util-1.0.2</module>
+        <module>wsdl4j-1.6.2</module>
+        <module>wss4j-1.5.4</module>
+        <module>xalan-2.7.1</module>
         <module>xerces-2.10.0</module>
         <module>xfire-1.2.6</module>
-        <module>velocity-tools-2.0</module>
+        <module>xmlgraphics-commons-1.4</module>
+        <module>xmlresolver-1.2</module>
+        <module>xmlrpc-server-3.1.3</module>
+        <module>xpp3-1.1.4c</module>
+        <module>xstream-1.4.2</module>
     </modules>
 
 </project>
