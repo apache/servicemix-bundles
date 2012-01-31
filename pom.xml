@@ -29,7 +29,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.rjc</artifactId>
-    <version>0.6.3_2-SNAPSHOT</version>
+    <version>0.6.3_2</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.</description>
@@ -100,4 +100,10 @@
         </plugins>
     </build>
 
+
+  <scm>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.rjc-0.6.3_2</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.rjc-0.6.3_2</developerConnection>
+    <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.rjc-0.6.3_2</url>
+  </scm>
 </project>
