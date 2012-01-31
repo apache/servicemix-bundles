@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.jettison</artifactId>
-    <version>1.0.1_5</version>
+    <version>1.0.1_6-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGI bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -98,11 +98,4 @@
             </plugin>
         </plugins>
     </build>
-
-
-  <scm>
-    <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.jettison-1.0.1_5</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.jettison-1.0.1_5</developerConnection>
-    <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.jettison-1.0.1_5</url>
-  </scm>
 </project>
