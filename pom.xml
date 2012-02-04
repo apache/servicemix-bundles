@@ -42,7 +42,8 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
-
+         <module>avro-1.6.1</module>
+        <module>avro-ipc-1.6.1</module>
     </modules>
 
 </project>
