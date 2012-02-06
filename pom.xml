@@ -45,6 +45,7 @@
         <module>avro-1.6.1</module>
         <module>avro-ipc-1.6.1</module>
         <module>jdiff-1.0.9</module>
+        <module>beanio-1.2.2</module>
     </modules>
 
 </project>
