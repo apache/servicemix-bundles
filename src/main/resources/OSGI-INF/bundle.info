@@ -1,0 +1,14 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}-core/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+     JUNG — the Java Universal Network/Graph Framework--is a software library that provides a common and extendible language
+     for the modeling, analysis, and visualization of data that can be represented as a graph or network. It is written
+     in Java, which allows JUNG-based applications to make use of the extensive built-in capabilities of the Java API, as
+      well as those of other existing third-party Java libraries.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://jung.sourceforge.net/\u001B[0m
