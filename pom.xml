@@ -50,6 +50,7 @@
         <module>jung-2.0.1</module>
         <module>collections-generic-4.01</module>
         <module>colt-1.2.0</module>
+        <module>commons-beanutils-1.8.3</module>
     </modules>
 
 </project>
