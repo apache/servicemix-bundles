@@ -54,6 +54,7 @@
         <module>protobuf-2.4.0a</module>
         <module>avro-ipc-1.5.3</module>
         <module>avro-1.5.3</module>
+        <module>jets3t-0.6.1</module>
     </modules>
 
 </project>
