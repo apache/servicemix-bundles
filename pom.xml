@@ -52,6 +52,8 @@
         <module>colt-1.2.0</module>
         <module>commons-beanutils-1.8.3</module>
         <module>protobuf-2.4.0a</module>
+        <module>avro-ipc-1.5.3</module>
+        <module>avro-1.5.3</module>
     </modules>
 
 </project>
