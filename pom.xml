@@ -43,7 +43,7 @@
             com.google.protobuf
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            *
+            !com.google.protobuf*
         </servicemix.osgi.import.pkg>
     </properties>
 
