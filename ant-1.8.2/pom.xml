@@ -46,8 +46,8 @@
             !org.apache.env*,
             !sun.rmi*,
             !sun.tools.javac*,
-	    !kaffe.util*,
-	    !weblogic*,
+	        !kaffe.util*,
+	        !weblogic*,
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.failok>true</servicemix.osgi.failok>

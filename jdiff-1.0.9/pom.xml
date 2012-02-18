@@ -43,8 +43,9 @@
             jdiff
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-	    com.sun.javadoc;resolution:=optional,
-	    org.xml*
+            !jdiff*,
+	        com.sun.javadoc;resolution:=optional,
+	        org.xml*
         </servicemix.osgi.import.pkg>
     </properties>
 

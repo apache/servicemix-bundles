@@ -43,7 +43,7 @@
             org.kosmix.kosmosfs
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-
+            !org.kosmix.kosmosfs*
         </servicemix.osgi.import.pkg>
     </properties>
 
