@@ -43,7 +43,8 @@
             org.znerd.xmlenc
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-
+            !org.znerd.xmlenc*,
+            org.xml.sax
         </servicemix.osgi.import.pkg>
     </properties>
 
