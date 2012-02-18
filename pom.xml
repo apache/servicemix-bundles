@@ -61,6 +61,7 @@
         <module>kfs-0.3</module>
         <module>xmlenc-0.52</module>
         <module>ant-1.8.1</module>
+        <module>ant-1.8.2</module>
     </modules>
 
 </project>

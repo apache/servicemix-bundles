@@ -42,10 +42,12 @@
         <servicemix.osgi.export.pkg>org.apache.tools</servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             !org.apache.tools*,
-            !com.sun.tools.javac*,
+            !com.sun.tools*,
             !org.apache.env*,
             !sun.rmi*,
             !sun.tools.javac*,
+	    !kaffe.util*,
+	    !weblogic*,
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.failok>true</servicemix.osgi.failok>
