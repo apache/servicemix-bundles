@@ -39,10 +39,11 @@
         <pkgGroupId>org.apache.avro</pkgGroupId>
         <pkgArtifactId>avro-ipc</pkgArtifactId>
         <pkgVersion>1.6.1</pkgVersion>
-        <servicemix.osgi.export.pkg>
+        <servicemix.osgi.export>
             org.apache.avro.ipc*;version="${project.version}";-noimport:=true
-        </servicemix.osgi.export.pkg>
+        </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
+            !org.apache.avro.ipc*,
             javax.security*,
             javax.servlet*;resolution:=optional,
             org.apache.avro*;version="[1.6,2)",
