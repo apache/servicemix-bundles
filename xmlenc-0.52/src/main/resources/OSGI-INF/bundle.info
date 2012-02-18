@@ -1,0 +1,12 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    The xmlenc library is a fast stream-based XML output library for Java. Main design goals are performance,
+    simplicitity and pureness. As far as known, xmlenc is the fastest XML output library for Java.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://xmlenc.sourceforge.net/\u001B[0m
