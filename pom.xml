@@ -39,11 +39,12 @@
         <pkgGroupId>org.apache.avro</pkgGroupId>
         <pkgArtifactId>avro</pkgArtifactId>
         <pkgVersion>1.6.1</pkgVersion>
-        <servicemix.osgi.export.pkg>
+        <servicemix.osgi.export>
             !org.apache.avro.ipc;version="${project.version}",
             org.apache.avro*;version="${project.version}";-noimport:=true
-        </servicemix.osgi.export.pkg>
+        </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
+            !org.apache.avro*,
             com.thoughtworks.paranamer;version="[2.3,3)",
             org.codehaus.jackson;version="[1.8,2)",
             org.xerial.snappy;version="[1.0,2)",
