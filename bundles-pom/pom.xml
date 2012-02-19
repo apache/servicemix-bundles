@@ -31,7 +31,7 @@
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>bundles-pom</artifactId>
     <packaging>pom</packaging>
-    <version>9-SNAPSHOT</version>
+    <version>10-SNAPSHOT</version>
     <name>Apache ServiceMix :: Bundles</name>
 
     <properties>
@@ -44,6 +44,7 @@
         <servicemix.osgi.dynamicimport.pkg />
         <servicemix.osgi.failok>false</servicemix.osgi.failok>
         <servicemix.osgi.embed.dependency />
+        <servicemix.osgi.fragment.host/>
     </properties>
 
     <prerequisites>
@@ -189,6 +190,7 @@
                         <Embed-Dependency>${servicemix.osgi.embed.dependency}</Embed-Dependency>
                         <Bundle-NativeCode>${servicemix.osgi.native}</Bundle-NativeCode>
                         <Bundle-Activator>${servicemix.osgi.activator}</Bundle-Activator>
+                        <Fragment-Host>${servicemix.osgi.fragment.host}</Fragment-Host>
                         <_failok>${servicemix.osgi.failok}</_failok>
                         <_versionpolicy>[$(version;==;$(@)),$(version;+;$(@)))</_versionpolicy>
                         <_removeheaders>Ignore-Package,Include-Resource,Private-Package,Embed-Dependency

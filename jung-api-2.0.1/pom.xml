@@ -24,12 +24,12 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>10-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.jung</artifactId>
+    <artifactId>org.apache.servicemix.bundles.jung-api</artifactId>
     <version>2.0.1_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
@@ -37,7 +37,7 @@
 
     <properties>
         <pkgGroupId>net.sf.jung</pkgGroupId>
-        <pkgArtifactId>jung</pkgArtifactId>
+        <pkgArtifactId>jung-api</pkgArtifactId>
         <pkgVersion>2.0.1</pkgVersion>
         <servicemix.osgi.export.pkg>
             edu.uci.ics.jung*;version="${project.version}";-noimport:=true
@@ -51,14 +51,7 @@
     <dependencies>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
-            <artifactId>${pkgArtifactId}-api</artifactId>
-            <version>${pkgVersion}</version>
-            <optional>true</optional>
-        </dependency>
-
-        <dependency>
-            <groupId>${pkgGroupId}</groupId>
-            <artifactId>${pkgArtifactId}-graph-impl</artifactId>
+            <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
@@ -79,19 +72,12 @@
                         <configuration>
                             <artifactSet>
                                 <includes>
-                                    <include>${pkgGroupId}:${pkgArtifactId}-api</include>
-                                    <include>${pkgGroupId}:${pkgArtifactId}-graph-impl</include>
+                                    <include>${pkgGroupId}:${pkgArtifactId}</include>
                                 </includes>
                             </artifactSet>
                             <filters>
                                 <filter>
-                                    <artifact>${pkgGroupId}:${pkgArtifactId}-api</artifact>
-                                    <excludes>
-                                        <exclude>**</exclude>
-                                    </excludes>
-                                </filter>
-                                <filter>
-                                    <artifact>${pkgGroupId}:${pkgArtifactId}-graph-impl</artifact>
+                                    <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
                                     <excludes>
                                         <exclude>**</exclude>
                                     </excludes>
