@@ -39,9 +39,9 @@
         <pkgGroupId>net.sourceforge.collections</pkgGroupId>
         <pkgArtifactId>collections-generic</pkgArtifactId>
         <pkgVersion>4.01</pkgVersion>
-        <servicemix.osgi.export.pkg>
+        <servicemix.osgi.export>
             org.apache.commons.collections15*;version="${project.version}";-noimport:=true
-        </servicemix.osgi.export.pkg>
+        </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
             org.apache.commons.collections15;resolution:=optional,
             *
@@ -64,7 +64,6 @@
             <classifier>sources</classifier>
             <optional>true</optional>
         </dependency>
-
     </dependencies>
 
     <build>
@@ -72,7 +71,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
-                <version>1.4</version>
                 <executions>
                     <execution>
                         <phase>package</phase>
@@ -101,4 +99,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
