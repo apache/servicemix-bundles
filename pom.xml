@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>10-SNAPSHOT</version>
+        <version>8</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -39,9 +39,9 @@
         <pkgGroupId>net.sf.jung</pkgGroupId>
         <pkgArtifactId>jung-graph-impl</pkgArtifactId>
         <pkgVersion>2.0.1</pkgVersion>
-        <servicemix.osgi.export.pkg>
+        <servicemix.osgi.export>
             edu.uci.ics.jung*;version="${project.version}";-noimport:=true
-        </servicemix.osgi.export.pkg>
+        </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
             org.apache.commons.collections15;version:="[4,5)",
             *
@@ -56,6 +56,15 @@
             <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
+
+        <!-- sources -->
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
     </dependencies>
 
     <build>
@@ -63,7 +72,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
-                <version>1.4</version>
                 <executions>
                     <execution>
                         <phase>package</phase>
@@ -92,4 +100,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
