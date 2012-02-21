@@ -65,6 +65,7 @@
         <module>ant-1.8.2</module>
         <module>twitter4j-2.2.5</module>
         <module>jersey-core-1.11</module>
+        <module>jasper-5.5.23</module>
     </modules>
 
 </project>
