@@ -44,8 +44,9 @@
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             !dalvik.system,
-            !com.google.appengine.api.urlfetch.URLFetchService,
-	        javax.crypto;resolution:=optional,
+            !twitter4j*,
+            !com.google.appengine.api.urlfetch,
+	    javax.crypto;resolution:=optional,
             javax.crypto.spec;resolution:=optional,
             javax.management;resolution:=optional,
             javax.management.openmbean;resolution:=optional,
