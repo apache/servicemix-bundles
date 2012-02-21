@@ -64,6 +64,7 @@
         <module>ant-1.8.1</module>
         <module>ant-1.8.2</module>
         <module>twitter4j-2.2.5</module>
+        <module>jersey-core-1.11</module>
     </modules>
 
 </project>
