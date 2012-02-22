@@ -42,29 +42,6 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
-        <module>avro-1.6.1</module>
-        <module>avro-ipc-1.6.1</module>
-        <module>jdiff-1.0.9</module>
-        <module>beanio-1.2.2</module>
-        <module>netty-3.2.7.Final</module>
-        <module>jung-api-2.0.1</module>
-        <module>jung-graph-impl-2.0.1</module>
-        <module>collections-generic-4.01</module>
-        <module>colt-1.2.0</module>
-        <module>commons-beanutils-1.8.3</module>
-        <module>protobuf-2.4.0a</module>
-        <module>avro-ipc-1.5.3</module>
-        <module>avro-1.5.3</module>
-        <module>jets3t-0.6.1</module>
-        <module>jets3t-0.7.1</module>
-        <module>jets3t-0.7.4</module>
-        <module>jets3t-0.8.1</module>
-        <module>kfs-0.3</module>
-        <module>xmlenc-0.52</module>
-        <module>ant-1.8.1</module>
-        <module>ant-1.8.2</module>
-        <module>twitter4j-2.2.5</module>
-        <module>jersey-core-1.11</module>
         <module>jasper-5.5.23</module>
     </modules>
 
