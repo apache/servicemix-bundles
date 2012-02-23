@@ -43,6 +43,8 @@
 
     <modules>
         <module>jasper-5.5.23</module>
+        <module>scala-compiler-2.9.1</module>
+        <module>scala-library-2.9.1</module>
     </modules>
 
 </project>

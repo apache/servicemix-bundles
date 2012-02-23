@@ -46,6 +46,9 @@
         <servicemix.osgi.export>
             scala*;version=${pkgVersion};-split-package:=merge-first;-noimport:=true
         </servicemix.osgi.export>
+        <servicemix.osgi.embed.dependency>
+            *;inline=library.properties
+        </servicemix.osgi.embed.dependency>
     </properties>
 
     <dependencies>
