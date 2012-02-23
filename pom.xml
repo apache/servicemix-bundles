@@ -51,6 +51,9 @@
             ch.epfl*;version=${pkgVersion};-split-package:=merge-first;-noimport:=true
         </servicemix.osgi.export>
         <servicemix.osgi.failok>true</servicemix.osgi.failok>
+        <servicemix.osgi.embed.dependency>
+            *;inline=compiler.properties
+        </servicemix.osgi.embed.dependency>
     </properties>
 
     <dependencies>
