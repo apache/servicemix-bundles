@@ -39,18 +39,25 @@
         <pkgGroupId>org.apache.ant</pkgGroupId>
         <pkgArtifactId>ant</pkgArtifactId>
         <pkgVersion>1.8.1</pkgVersion>
-        <servicemix.osgi.export.pkg>org.apache.tools</servicemix.osgi.export.pkg>
+        <servicemix.osgi.export.pkg>
+            org.apache.tools
+        </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             !org.apache.tools*,
-            !com.sun.tools*,
-            !org.apache.env*,
-            !sun.rmi*,
-            !sun.tools.javac*,
-	        !kaffe.util*,
-	        !weblogic*,
-            *
+            com.sun.tools*;resolution:=optional,
+            javax.mail.internet;resolution:=optional,
+            kaffe.util;resolution:=optional,
+            org.apache.env;resolution:=optional,
+            org.apache.tools.ant.taskdefs.optional;resolution:=optional,
+            org.apache.tools.ant.util.java15;resolution:=optional,
+            sun.rmi.rmic;resolution:=optional,
+            sun.tools.javac;resolution:=optional,
+            weblogic;resolution:=optional,
+            javax.activation,
+            javax.xml*,
+            org.w3c.dom*,
+            org.xml.sax*
         </servicemix.osgi.import.pkg>
-        <servicemix.osgi.failok>true</servicemix.osgi.failok>
     </properties>
 
     <dependencies>
@@ -110,4 +117,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
