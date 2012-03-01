@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
     <!--
 
         Licensed to the Apache Software Foundation (ASF) under one or more
@@ -21,10 +22,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-      <groupId>org.apache.servicemix.bundles</groupId>
-      <artifactId>bundles-pom</artifactId>
-      <version>6</version>
-      <relativePath>../bundles-pom/pom.xml</relativePath>
+        <groupId>org.apache.servicemix.bundles</groupId>
+        <artifactId>bundles-pom</artifactId>
+        <version>8</version>
+        <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -46,10 +47,10 @@
             javax.management*;resolution:=optional,
             javax.servlet*;resolution:=optional,
             org.apache.commons.jexl*;resolution:=optional,
-            org.apache.commons.logging*;resolution:=optional,                
+            org.apache.commons.logging*;resolution:=optional,
             org.apache.log4j*;resolution:=optional,
             org.aspectj.lang*;resolution:=optional,
-            org.slf4j;resolution:=optional,                                                                       
+            org.slf4j;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
     </properties>
