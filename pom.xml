@@ -53,6 +53,7 @@
             org.hibernate*;resolution:=optional,
             org.slf4j;resolution:=optional,
             javax.jms;resolution:=optional,
+            sun.misc;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
     </properties>
