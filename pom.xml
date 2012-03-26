@@ -44,7 +44,8 @@
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             !net.oauth*,
-            net.oauth.signature;version=${pkgVersion},
+            javax.crypto,
+            javax.crypto.spec,
             javax.servlet,
             javax.servlet.http
         </servicemix.osgi.import.pkg>
@@ -56,12 +57,6 @@
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
             <optional>true</optional>
-            <exclusions>
-                <exclusion>
-                    <groupId>${pkgGroupId}</groupId>
-                    <artifactId>oauth</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
 
         <!-- sources -->
@@ -71,12 +66,6 @@
             <version>${pkgVersion}</version>
             <classifier>sources</classifier>
             <optional>true</optional>
-            <exclusions>
-                <exclusion>
-                    <groupId>${pkgGroupId}</groupId>
-                    <artifactId>oauth</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
     </dependencies>
 
@@ -105,7 +94,7 @@
                                     </excludes>
                                 </filter>
                             </filters>
-                            <promoteTransitiveDependencies>false</promoteTransitiveDependencies>
+                            <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
                             <createDependencyReducedPom>true</createDependencyReducedPom>
                         </configuration>
                     </execution>
