@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.jasper</artifactId>
-    <version>5.5.23_3-SNAPSHOT</version>
+    <version>5.5.23_2-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundles wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
