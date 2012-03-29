@@ -42,19 +42,6 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
-        <module>jasper-5.5.23</module>
-        <module>scala-compiler-2.9.1</module>
-        <module>scala-library-2.9.1</module>
-        <module>jung-graph-impl-2.0.1</module>
-        <module>ant-1.8.1</module>
-        <module>ant-1.8.2</module>
-        <module>jsch-0.1.46</module>
-        <module>freemarker-2.3.19</module>
-        <module>ehcache-2.5.0</module>
-        <module>ehcache-2.5.1</module>
-        <module>quartz-1.8.6</module>
-        <module>commons-dbcp-1.4</module>
-        <module>oauth-provider-20100527</module>
     </modules>
 
 </project>
