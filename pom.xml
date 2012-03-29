@@ -103,7 +103,6 @@
         </plugins>
     </build>
 
-
   <scm>
     <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.jsch-0.1.46_1</connection>
     <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.jsch-0.1.46_1</developerConnection>
