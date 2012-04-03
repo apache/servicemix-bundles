@@ -39,17 +39,15 @@
         <pkgGroupId>org.antlr</pkgGroupId>
         <pkgArtifactId>antlr</pkgArtifactId>
         <pkgVersion>3.4</pkgVersion>
-        <servicemix.osgi.import.pkg>
-            org.antlr.stringtemplate*;resolution:=optional;version="[3.1.0.b1,4)",
-            !org.antlr*,
-            antlr*;resolution:=optional;version="[2.7.7,3)",
-            org.hibernate.hql.ast;resolution:=optional,
-            *
-        </servicemix.osgi.import.pkg>
         <servicemix.osgi.export>
             !org.antlr.stringtemplate*,
             org.antlr*;version=${pkgVersion};-split-package:=merge-first,
         </servicemix.osgi.export>
+        <servicemix.osgi.import.pkg>
+            org.stringtemplate*;resolution:=optional;version="[4,5)",
+            org.antlr.stringtemplate*;resolution:=optional;version="[3,4)",
+            org.hibernate.hql.ast;resolution:=optional
+        </servicemix.osgi.import.pkg>
     </properties>
 
     <dependencies>

@@ -51,6 +51,7 @@
         <module>ant-1.8.2</module>
         <module>antlr-2.7.7</module>
         <module>antlr-3.0.1</module>
+        <module>antlr-3.4</module>
     </modules>
 
 </project>
