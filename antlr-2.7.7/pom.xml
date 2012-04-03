@@ -39,15 +39,13 @@
         <pkgGroupId>antlr</pkgGroupId>
         <pkgArtifactId>antlr</pkgArtifactId>
         <pkgVersion>2.7.7</pkgVersion>
-        <servicemix.osgi.import.pkg>
-            !antlr*,
-            javax.swing*;resolution:=optional,
-            org.hibernate.hql.ast;resolution:=optional,
-            *
-        </servicemix.osgi.import.pkg>
         <servicemix.osgi.export.pkg>
             antlr
         </servicemix.osgi.export.pkg>
+        <servicemix.osgi.import.pkg>
+            javax.swing*;resolution:=optional,
+            org.hibernate.hql.ast;resolution:=optional
+        </servicemix.osgi.import.pkg>
     </properties>
 
     <dependencies>

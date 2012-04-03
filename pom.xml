@@ -49,6 +49,7 @@
         <module>jung-api-2.0.1</module>
         <module>jung-graph-impl-2.0.1</module>
         <module>ant-1.8.2</module>
+        <module>antlr-2.7.7</module>
     </modules>
 
 </project>
