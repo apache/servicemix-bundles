@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -39,8 +39,12 @@
         <pkgGroupId>aopalliance</pkgGroupId>
         <pkgArtifactId>aopalliance</pkgArtifactId>
         <pkgVersion>1.0</pkgVersion>
-        <servicemix.osgi.export.pkg>org.aopalliance</servicemix.osgi.export.pkg>
-        <servicemix.osgi.import.pkg>!org.aopalliance*,*</servicemix.osgi.import.pkg>
+        <servicemix.osgi.export.pkg>
+            org.aopalliance
+        </servicemix.osgi.export.pkg>
+        <servicemix.osgi.import.pkg>
+
+        </servicemix.osgi.import.pkg>
     </properties>
 
     <dependencies>

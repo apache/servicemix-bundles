@@ -42,6 +42,7 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+        <module>bundles-pom</module>
         <module>ezmorph-1.0.6</module>
         <module>json-lib-2.4</module>
         <module>quartz-1.8.5</module>
@@ -55,6 +56,7 @@
         <module>antlr-runtime-3.0.1</module>
         <module>antlr-runtime-3.2</module>
         <module>antlr-runtime-3.4</module>
+        <module>aopalliance-1.0</module>
     </modules>
 
 </project>
