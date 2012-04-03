@@ -61,6 +61,7 @@
         <module>asm-3.1</module>
         <module>asm-3.3</module>
         <module>asm-3.3.1</module>
+        <module>aspectj-1.6.8</module>
     </modules>
 
 </project>
