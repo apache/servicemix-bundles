@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -40,14 +40,16 @@
         <pkgArtifactId>axiom-impl</pkgArtifactId>
         <pkgVersion>1.2.12</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.apache.axiom.om.impl.llom*;version="1.2.12",
-            org.apache.axiom.soap.impl.llom*
+            org.apache.axiom
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !org.apache.axiom.om.impl.llom*,
-            !org.apache.axiom.soap.impl.llom*,
-            org.apache.commons.logging*;resolution:=optional;version="[1.1,2)",
-            *
+            javax.activation,
+            javax.mail*;resolution:=optional,
+            javax.xml*,
+            org.jaxen*,
+            org.w3c.dom,
+            org.xml.sax*,
+            org.apache.commons.logging*;resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
 
