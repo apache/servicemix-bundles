@@ -57,6 +57,7 @@
         <module>antlr-runtime-3.2</module>
         <module>antlr-runtime-3.4</module>
         <module>aopalliance-1.0</module>
+        <module>asm-2.2.3</module>
     </modules>
 
 </project>
