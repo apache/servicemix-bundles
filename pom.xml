@@ -59,6 +59,7 @@
         <module>aopalliance-1.0</module>
         <module>asm-2.2.3</module>
         <module>asm-3.1</module>
+        <module>asm-3.3</module>
     </modules>
 
 </project>
