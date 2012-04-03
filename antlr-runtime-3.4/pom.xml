@@ -43,10 +43,7 @@
             org.antlr.runtime
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !org.antlr.runtime*,
-            javax.swing*;resolution:=optional,
-            org.antlr.stringtemplate*;resolution:=optional,
-            *
+            org.antlr.stringtemplate*;resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
     
