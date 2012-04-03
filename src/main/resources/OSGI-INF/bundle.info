@@ -1,0 +1,12 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URLs:
+        \u001B[33mmvn:${pkgGroupId}/json-lib/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    JSON-lib is a java library for transforming beans, maps, collections, java arrays and XML to JSON and
+    back again to beans and DynaBeans.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://json-lib.sourceforge.net/\u001B[0m
