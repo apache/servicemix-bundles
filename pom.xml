@@ -75,6 +75,7 @@
         <module>axiom-api-1.2.12</module>
         <module>axiom-impl-1.2.12</module>
         <module>batik-1.7</module>
+        <module>bcel-5.2</module>
     </modules>
 
 </project>
