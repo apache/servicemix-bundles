@@ -43,7 +43,6 @@
             org.apache.tools
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !org.apache.tools*,
             com.sun.tools*;resolution:=optional,
             gnu.gcj;resolution:=optional,
             javax.mail.internet;resolution:=optional,
