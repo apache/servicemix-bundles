@@ -24,7 +24,7 @@
     <parent>
 	    <groupId>org.apache.servicemix.bundles</groupId>
 	    <artifactId>bundles-pom</artifactId>
-	    <version>8</version>
+	    <version>9-SNAPSHOT</version>
 	    <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -38,13 +38,16 @@
     <properties>
         <pkgGroupId>org.apache.avalon.framework</pkgGroupId>
         <pkgVersion>4.3.1</pkgVersion>
-        <servicemix.osgi.export.pkg>org.apache.avalon.framework</servicemix.osgi.export.pkg>
+        <servicemix.osgi.export.pkg>
+            org.apache.avalon.framework
+        </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !org.apache.avalon.framework*,
-            org.apache.log*;resolution:=optional,
-            *
+            javax.xml*,
+            org.xml.sax*,
+            org.w3c.dom,
+            org.apache.commons.logging;resolution:=optional,
+            org.apache.log*;resolution:=optional
         </servicemix.osgi.import.pkg>
-        <servicemix.osgi.failok>true</servicemix.osgi.failok>
     </properties>
 
     <dependencies>
