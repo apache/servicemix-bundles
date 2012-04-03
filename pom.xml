@@ -46,6 +46,8 @@
         <module>json-lib-2.4</module>
         <module>quartz-1.8.5</module>
         <module>quartz-1.8.6</module>
+        <module>jung-api-2.0.1</module>
+        <module>jung-graph-impl-2.0.1</module>
     </modules>
 
 </project>
