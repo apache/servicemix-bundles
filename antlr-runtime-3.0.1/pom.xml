@@ -39,15 +39,12 @@
         <pkgGroupId>org.antlr</pkgGroupId>
         <pkgArtifactId>antlr-runtime</pkgArtifactId>
         <pkgVersion>3.0.1</pkgVersion>
-        <servicemix.osgi.import.pkg>
-            !org.antlr.runtime*,
-            javax.swing*;resolution:=optional,
-            org.antlr.stringtemplate*;resolution:=optional,
-            *
-        </servicemix.osgi.import.pkg>
         <servicemix.osgi.export.pkg>
             org.antlr.runtime
         </servicemix.osgi.export.pkg>
+        <servicemix.osgi.import.pkg>
+            org.antlr.stringtemplate*;resolution:=optional
+        </servicemix.osgi.import.pkg>
     </properties>
     
     <dependencies>
