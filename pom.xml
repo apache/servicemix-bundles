@@ -53,6 +53,7 @@
         <module>antlr-3.0.1</module>
         <module>antlr-3.4</module>
         <module>antlr-runtime-3.0.1</module>
+        <module>antlr-runtime-3.2</module>
     </modules>
 
 </project>
