@@ -40,10 +40,10 @@
         <pkgArtifactId>jung-graph-impl</pkgArtifactId>
         <pkgVersion>2.0.1</pkgVersion>
         <servicemix.osgi.export>
-            edu.uci.ics.jung*;version="${project.version}";-noimport:=true
+            edu.uci.ics.jung*;version="${project.version}";-noimport:=true;-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
-            org.apache.commons.collections15;version:="[4,5)",
+            org.apache.commons.collections15;version="[4,5)",
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.fragment.host>org.apache.servicemix.bundles.jung-api;bundle-version="[2,3)"</servicemix.osgi.fragment.host>
