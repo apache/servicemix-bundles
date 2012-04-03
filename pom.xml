@@ -77,6 +77,7 @@
         <module>batik-1.7</module>
         <module>bcel-5.2</module>
         <module>bcpg-jdk15-1.46</module>
+        <module>bcpg-jdk16-1.46</module>
     </modules>
 
 </project>
