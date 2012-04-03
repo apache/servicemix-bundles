@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -41,12 +41,11 @@
         <pkgVersion>1.5.3</pkgVersion>
         <servicemix.osgi.export>
             !org.apache.avro.ipc;version="${project.version}",
-            org.apache.avro*;version="${project.version}";-noimport:=true
+            org.apache.avro*;version="${project.version}";-noimport:=true;-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
-            !org.apache.avro*,
             com.thoughtworks.paranamer;version="[2.3,3)",
-            org.codehaus.jackson;version="[1.7,2)",
+            org.codehaus.jackson*;version="[1.7,2)",
             org.xerial.snappy;version="[1.0,2)",
             *
         </servicemix.osgi.import.pkg>
