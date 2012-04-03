@@ -63,6 +63,7 @@
         <module>asm-3.3.1</module>
         <module>aspectj-1.6.8</module>
         <module>aspectj-1.6.12</module>
+        <module>atlassian-xmlrpc-0.11</module>
     </modules>
 
 </project>
