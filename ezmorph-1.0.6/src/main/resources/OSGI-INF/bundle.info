@@ -1,0 +1,11 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URLs:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    EZMorph is simple java library for transforming an Object to another Object.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://ezmorph.sourceforge.net/\u001B[0m
