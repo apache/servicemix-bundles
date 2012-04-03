@@ -69,6 +69,7 @@
         <module>avro-1.6.1</module>
         <module>avro-ipc-1.5.3</module>
         <module>avro-ipc-1.6.1</module>
+        <module>aws-java-sdk-1.1.1</module>
     </modules>
 
 </project>
