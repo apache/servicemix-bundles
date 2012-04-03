@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -40,17 +40,16 @@
         <pkgArtifactId>avro-ipc</pkgArtifactId>
         <pkgVersion>1.5.3</pkgVersion>
         <servicemix.osgi.export>
-            org.apache.avro.ipc*;version="${project.version}";-noimport:=true
+            org.apache.avro.ipc*;version="${project.version}";-noimport:=true;-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
-            !org.apache.avro.ipc*,
             javax.security*,
-            javax.servlet*;resolution:=optional,
             org.apache.avro*;version="[1.5,2)",
-            org.apache.velocity*;resultion:=optional,
+            javax.servlet*;resolution:=optional,
+            org.apache.velocity*;resolution:=optional,
             org.jboss.netty*;resolution:=optional,
             org.mortbay*;resolution:=optional,
-            *
+            org.slf4j;resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
 
