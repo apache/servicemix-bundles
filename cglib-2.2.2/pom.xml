@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -43,11 +43,9 @@
             net.sf.cglib
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !net.sf.cglib*,
-            org.apache.tools.ant*;version="[1.6,2)";resolution:=optional,
-            *
+            net.sf.cglib.asm.util;resolution:=optional,
+            org.apache.tools.ant*;version="[1.6,2)";resolution:=optional
         </servicemix.osgi.import.pkg>
-        <servicemix.osgi.failok>true</servicemix.osgi.failok>
     </properties>
 
     <dependencies>
@@ -99,4 +97,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
