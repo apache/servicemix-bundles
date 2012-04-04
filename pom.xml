@@ -80,6 +80,7 @@
         <module>bcpg-jdk16-1.46</module>
         <module>bcprov-jdk15-1.46</module>
         <module>bcprov-jdk16-1.46</module>
+        <module>beanio-1.2.2</module>
     </modules>
 
 </project>
