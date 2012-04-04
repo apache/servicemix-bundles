@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
     
@@ -32,18 +32,21 @@
     <artifactId>org.apache.servicemix.bundles.casbah</artifactId>
     <packaging>bundle</packaging>
     <version>2.1.2_3-SNAPSHOT</version>
-    <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
+    <name>Apache ServiceMix :: Bundles :: casbah</name>
     <description>This OSGi bundle wraps casbah ${pkgVersion} jar files.</description>
     
     <properties>
         <pkgGroupId>com.mongodb.casbah</pkgGroupId>
-        <pkgArtifactId>casbah_2.8.1</pkgArtifactId>
         <pkgVersion>2.1.2</pkgVersion>
         <servicemix.osgi.export.pkg>
             com.mongodb.casbah*
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !com.mongodb.casbah*,*	
+            com.mongodb*;version="[2.5,3)",
+            org.bson*,
+            org.joda.time*;version="[1.8,2)",
+            scala*;resolution:=optional,
+            org.slf4j;resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
     
