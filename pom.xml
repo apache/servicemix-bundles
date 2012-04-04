@@ -78,6 +78,8 @@
         <module>bcel-5.2</module>
         <module>bcpg-jdk15-1.46</module>
         <module>bcpg-jdk16-1.46</module>
+        <module>bcprov-jdk15-1.46</module>
+        <module>bcprov-jdk16-1.46</module>
     </modules>
 
 </project>
