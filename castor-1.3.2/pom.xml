@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -40,19 +40,19 @@
         <pkgArtifactId>castor</pkgArtifactId>
         <pkgVersion>1.3.2</pkgVersion>
         <servicemix.osgi.export>
-            org.castor*;version=${pkgVersion};-split-package=merge-first,
-            org.exolab*;version=${pkgVersion};-split-package=merge-first
+            org.castor*;version=${pkgVersion};-split-package:=merge-first,
+            org.exolab*;version=${pkgVersion};-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
             javax.naming*,
-            javax.xml.parsers,
+            javax.xml*,
             org.w3c.dom,
             org.xml.sax*,
+            org.apache.commons.lang;version="[2.1,3)",
             org.apache.oro*;version="[2,3)",
             org.apache.regexp*;version="[1.4,2)",
             netscape.ldap;resolution:=optional,
-            org.apache.commons.logging;resolution:=optional,
-            *
+            org.apache.commons.logging;resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
 
@@ -127,4 +127,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
