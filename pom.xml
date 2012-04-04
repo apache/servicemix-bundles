@@ -83,6 +83,7 @@
         <module>beanio-1.2.2</module>
 
         <module>casbah-2.1.2</module>
+        <module>castor-0.9.6</module>
     </modules>
 
 </project>
