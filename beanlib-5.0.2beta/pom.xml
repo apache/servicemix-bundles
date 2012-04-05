@@ -43,7 +43,6 @@
             net.sf.beanlib
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !net.sf.beanlib*,
             com.thoughtworks.xstream;version="[1.4,2)",
             net.jcip.annotations,
             net.sf.cglib.proxy;version="[2,3)",
