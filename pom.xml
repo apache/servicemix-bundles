@@ -112,6 +112,7 @@
         <module>commons-jexl-1.1</module>
         <module>commons-jxpath-1.2</module>
         <module>commons-lang-2.4</module>
+        <module>commons-net-1.4.1</module>
     </modules>
 
 </project>
