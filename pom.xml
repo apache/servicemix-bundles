@@ -185,7 +185,7 @@
                         <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
                         <Bundle-Description>${project.description}</Bundle-Description>
                         <Export-Package>${servicemix.osgi.export}</Export-Package>
-                        <Import-Package>${servicemix.osgi.import.pkg}*</Import-Package>
+                        <Import-Package>${servicemix.osgi.import.pkg}</Import-Package>
                         <Private-Package>${servicemix.osgi.private.pkg}</Private-Package>
                         <DynamicImport-Package>${servicemix.osgi.dynamicimport.pkg}</DynamicImport-Package>
                         <Embed-Dependency>${servicemix.osgi.embed.dependency}</Embed-Dependency>
