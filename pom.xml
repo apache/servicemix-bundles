@@ -89,6 +89,7 @@
         <module>cglib-2.1_3</module>
         <module>cglib-2.2</module>
         <module>cglib-2.2.2</module>
+        <module>collections-generic-4.01</module>
     </modules>
 
 </project>
