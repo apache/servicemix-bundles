@@ -90,6 +90,7 @@
         <module>cglib-2.2</module>
         <module>cglib-2.2.2</module>
         <module>collections-generic-4.01</module>
+        <module>colt-1.2.0</module>
     </modules>
 
 </project>
