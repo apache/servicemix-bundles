@@ -94,6 +94,7 @@
         <module>cometd-java-server-1.0.1</module>
         <module>cometd-java-server-2.1.1</module>
         <module>commons-attributes-2.1</module>
+        <module>commons-beanutils-1.7.0</module>
     </modules>
 
 </project>
