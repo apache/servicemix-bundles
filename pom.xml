@@ -92,6 +92,7 @@
         <module>collections-generic-4.01</module>
         <module>colt-1.2.0</module>
         <module>cometd-java-server-1.0.1</module>
+        <module>cometd-java-server-2.1.1</module>
     </modules>
 
 </project>
