@@ -97,6 +97,7 @@
         <module>commons-beanutils-1.7.0</module>
         <module>commons-beanutils-1.8.2</module>
         <module>commons-beanutils-1.8.3</module>
+        <module>commons-codec-1.2</module>
     </modules>
 
 </project>
