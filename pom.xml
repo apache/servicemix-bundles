@@ -39,17 +39,16 @@
         <pkgGroupId>commons-beanutils</pkgGroupId>
         <pkgArtifactId>commons-beanutils</pkgArtifactId>
         <pkgVersion>1.7.0</pkgVersion>
-        <servicemix.osgi.export.pkg>
-            org.apache.commons.beanutils
-        </servicemix.osgi.export.pkg>
+        <servicemix.osgi.export>
+            org.apache.commons.beanutils*;version=${project.version};-split-package:=merge-first,
+            !org.apache.commons.collections*
+        </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
-            !org.apache.commons.beanutils*,
             org.apache.commons.collections*;version="[2.0,3)";resolution:=optional,
-            org.apache.commons.logging*;version="[1.0,2)",
-            *
+            org.apache.commons.logging*;version="[1.0,2)";resolution:=optional
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
-            org.apache.commons.collections*
+            org.apache.commons.collections*;-split-package:=merge-first
         </servicemix.osgi.private.pkg>
     </properties>
 
