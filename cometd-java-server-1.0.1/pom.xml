@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -39,11 +39,12 @@
         <pkgGroupId>org.cometd.java</pkgGroupId>
         <pkgArtifactId>cometd-java-server</pkgArtifactId>
         <pkgVersion>1.0.1</pkgVersion>
-        <servicemix.osgi.export>
-            org.cometd*;version=${pkgVersion}
-        </servicemix.osgi.export>
+        <servicemix.osgi.export.pkg>
+            org.cometd
+        </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !org.cometd*,
+            javax.servlet*,
+            org.eclipse.jetty*;version="[7,9)",
             *
         </servicemix.osgi.import.pkg>
     </properties>
