@@ -103,6 +103,7 @@
         <module>commons-configuration-1.4</module>
         <module>commons-csv-1.0</module>
         <module>commons-dbcp-1.2.2</module>
+        <module>commons-dbcp-1.3</module>
     </modules>
 
 </project>
