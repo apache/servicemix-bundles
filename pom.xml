@@ -118,6 +118,7 @@
         <module>commons-validator-1.3.1</module>
         <module>commons-vfs-1.0</module>
         <module>dbunit-2.2</module>
+        <module>derbynet-10.7.1.1</module>
     </modules>
 
 </project>
