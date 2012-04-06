@@ -114,6 +114,7 @@
         <module>commons-lang-2.4</module>
         <module>commons-net-1.4.1</module>
         <module>commons-pool-1.4</module>
+        <module>commons-pool-1.5.4</module>
     </modules>
 
 </project>
