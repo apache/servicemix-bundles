@@ -121,6 +121,7 @@
         <module>derbynet-10.7.1.1</module>
         <module>derbynet-10.8.1.2</module>
         <module>derbynet-10.8.2.2</module>
+        <module>dom4j-1.6.1</module>
     </modules>
 
 </project>
