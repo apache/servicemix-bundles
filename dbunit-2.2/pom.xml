@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -36,7 +36,7 @@
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
 
     <properties>
-        <pkgGroupId>dbunit</pkgGroupId>
+        <pkgGroupId>org.dbunit</pkgGroupId>
         <pkgArtifactId>dbunit</pkgArtifactId>
         <pkgVersion>2.2</pkgVersion>
         <servicemix.osgi.export.pkg>
@@ -46,16 +46,14 @@
             javax.naming,
             javax.sql,
             javax.xml.parsers,
-            junit.framework;resolution:=optional,
-            oracle.sql;resolution:=optional,
-            org.apache.commons.collections*,
-            org.apache.commons.lang*,
+            org.xml.sax*,
+            org.apache.commons.collections*;version="[3.1,4)",
+            org.apache.commons.lang*;version="[2.1,3)",
             org.apache.commons.logging*;resolution:=optional,
             org.apache.poi*;resolution:=optional,
             org.apache.tools.ant*;resolution:=optional,
-            org.xml.sax,
-            org.xml.sax.ext,
-            org.xml.sax.helpers
+            junit.framework;resolution:=optional,
+            oracle.sql;resolution:=optional,
         </servicemix.osgi.import.pkg>
     </properties>
 
@@ -110,4 +108,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
