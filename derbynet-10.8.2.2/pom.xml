@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -43,28 +43,19 @@
             org.apache.derby
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            javax.crypto,
-            javax.crypto.interfaces,
-            javax.crypto.spec,
+            javax.crypto*,
             javax.management,
-            javax.naming,
-            javax.naming.directory,
-            javax.naming.spi,
-            javax.net,
-            javax.net.ssl,
+            javax.naming*,
+            javax.net*,
             javax.security.auth,
-            javax.servlet,
-            javax.servlet.http,
+            javax.servlet*,
             javax.sql,
             javax.transaction.xa,
-            javax.xml.parsers,
-            javax.xml.transform,
-            javax.xml.transform.dom,
-            javax.xml.transform.stream,
-            org.w3c.dom,
-            org.w3c.dom.xpath,
+            javax.xml*,
+            org.w3c.dom*,
             org.xml.sax,
-            *
+            org.osgi.framework,
+            com.ibm.jvm;resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
 
