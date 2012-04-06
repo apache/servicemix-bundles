@@ -119,6 +119,7 @@
         <module>commons-vfs-1.0</module>
         <module>dbunit-2.2</module>
         <module>derbynet-10.7.1.1</module>
+        <module>derbynet-10.8.1.2</module>
     </modules>
 
 </project>
