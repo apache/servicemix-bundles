@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -43,24 +43,18 @@
             org.dozer
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
+            javax.el,
             javax.management,
-            javax.xml.datatype,
-            javax.xml.parsers,
-            org.apache.commons.beanutils;version="[1.7,2)",
-            org.apache.commons.beanutils.converters;version="[1.7,2)",
-            org.apache.commons.collections;version="3.2",
-            org.apache.commons.collections.map;version="3.2",
-            org.apache.commons.collections.set;version="3.2",
-            org.apache.commons.lang;version="2.4",
-            org.apache.commons.lang.builder;version="2.4",
-            org.apache.commons.logging;resolution:=optional,
+            javax.xml*,
+            org.xml.sax*,
+            org.w3c.dom,
+            org.apache.commons.beanutils*;version="[1.8.3,2)",
+            org.apache.commons.lang*;version="[2.5,3)",
             org.springframework.beans.factory,
             org.springframework.core.io,
-            org.w3c.dom,
-            org.xml.sax,
-            org.xml.sax.helpers,
             org.hibernate.proxy;resolution:=optional,
-            *
+            org.apache.commons.logging;resolution:=optional,
+            org.slf4j;resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
 
