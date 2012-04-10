@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -45,19 +45,19 @@
         <servicemix.osgi.import.pkg>
             javax.crypto,
             javax.crypto.spec,
+            javax.xml.parsers,
+            javax.xml.transform*,
+            org.xml.sax*,
+            org.apache.batik*,
+            org.apache.commons.io*,
+            org.apache.xmlgraphics*,
             javax.media.jai;resolution:=optional,
             javax.servlet*;resolution:=optional,
             javax.swing*;resolution:=optional,
-            javax.xml.parsers,
-            javax.xml.transform*,
-            org.apache.avalon.framework*;resolution:=optional,
-            org.apache.batik*,
-            org.apache.commons.logging*;resolution:=optional,
-            org.apache.commons.io*,
-            org.apache.tools.ant*;resolution:=optional,
-            org.apache.xmlgraphics*,
             org.w3c.dom*;resolution:=optional,
-            org.xml.sax*
+            org.apache.tools.ant*;resolution:=optional,
+            org.apache.commons.logging*;resolution:=optional,
+            org.apache.avalon.framework*;resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
 
@@ -112,4 +112,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
