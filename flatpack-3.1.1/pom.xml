@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -43,10 +43,10 @@
             net.sf.flatpack
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
+            org.xml.sax,
             jxl*;resolution:=optional;version="[2.4.2,3)",
             org.jdom*;resolution:=optional;version="[1.0,2)",
-            org.slf4j*;version="[1.1,2)";resolution:=optional,
-            *
+            org.slf4j*;version="[1.1,2)";resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
 
