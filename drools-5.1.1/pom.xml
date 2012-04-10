@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -40,10 +40,15 @@
         <pkgArtifactId>drools</pkgArtifactId>
         <pkgVersion>5.1.1</pkgVersion>
         <servicemix.osgi.import.pkg>
-            !org.drools*,
-            !org.mvel2*,
-            !jxl*,
-            !org.antlr.runtime,
+            javax.management*,
+            javax.swing*,
+            javax.xml*,
+            org.osgi.framework,
+            org.osgi.util.tracker,
+            org.w3c.dom,
+            org.xml.sax*,
+            org.eclipse.jdt*;resolution:=optional,
+            org.quartz;resolution:=optional,
             com.sun*;resolution:=optional,
             sun*;resolution:=optional,
             com.thoughtworks.xstream*;resolution:=optional,
@@ -53,14 +58,12 @@
             org.codehaus.janino*;resolution:=optional,
             org.slf4j*;version="[1.5,2.0)";resolution:=optional,
             org.tmatesoft*;resolution:=optional,
-            org.antlr.stringtemplate*;resolution:=optional,
-            *
+            org.antlr.stringtemplate*;resolution:=optional
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.export>
             org.drools*;version=${pkgVersion};-split-package:=merge-first,
             !org.mvel2*;-split-package:=merge-first,
             !jxl*;-split-package:=merge-first,
-            !org.antlr.stringtemplate*;-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.private.pkg>
             org.mvel2*,
