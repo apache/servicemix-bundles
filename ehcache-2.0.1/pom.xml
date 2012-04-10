@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -51,8 +51,7 @@
             javax.transaction*;resolution:=optional,
             bitronix.tm*;resolution:=optional,
             org.hibernate*;resolution:=optional,
-            org.slf4j;resolution:=optional,
-            *
+            org.slf4j;resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
 
