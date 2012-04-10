@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -39,11 +39,16 @@
         <pkgGroupId>org.freemarker</pkgGroupId>
         <pkgArtifactId>freemarker</pkgArtifactId>
         <pkgVersion>2.3.17</pkgVersion>
+        <servicemix.osgi.export.pkg>
+            freemarker
+        </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !com.sun.org.apache*,
+            javax.xml*,
+            org.w3c.dom*,
+            org.xml.sax*,
+            com.sun.org.apache*;resolution:=optional,
             javax.el*;resolution:=optional;version="[1,2)",
             javax.servlet*;resolution:=optional;version="[2.5,3)",
-            javax.servlet.jsp*;resolution:=optional;version="[2.1,3)",
             javax.swing*;resolution:=optional,
             org.apache.log;resolution:=optional;version="[1.0.1,1.0.1]",
             org.apache.log4j;resolution:=optional;version="[1.2,2)",
@@ -56,12 +61,9 @@
             org.mozilla.javascript;resolution:=optional,
             org.python*;resolution:=optional;version="[2.2.1,2.3)",
             org.zeroturnaround.javarebel;resolution:=optional,
-            *
+            org.apache.commons.logging;resolution:=optional,
+            org.slf4j*;resolution:=optional
         </servicemix.osgi.import.pkg>
-        <servicemix.osgi.export.pkg>
-            freemarker
-        </servicemix.osgi.export.pkg>
-        <servicemix.osgi.failok>true</servicemix.osgi.failok>
     </properties>
 
     <dependencies>
