@@ -45,6 +45,7 @@
         <module>bundles-pom</module>
         <module>ezmorph-1.0.6</module>
         <module>json-lib-2.4</module>
+        <module>lucene-3.6.0</module>
     </modules>
 
 </project>
