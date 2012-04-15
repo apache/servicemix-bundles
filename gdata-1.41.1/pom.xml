@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -44,16 +44,15 @@
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             com.google.common.collect,
-            com.sun.mirror.apt;resolution:=optional,
-            com.sun.mirror.declaration;resolution:=optional,
-            com.sun.mirror.type;resolution:=optional,
-            com.sun.mirror.util;resolution:=optional,
             javax.crypto,
             javax.crypto.spec,
             javax.xml.parsers,
             javax.xml.validation,
-            org.xml.sax,
-            org.xml.sax.helpers
+            org.xml.sax*,
+            com.sun.mirror.apt;resolution:=optional,
+            com.sun.mirror.declaration;resolution:=optional,
+            com.sun.mirror.type;resolution:=optional,
+            com.sun.mirror.util;resolution:=optional,
         </servicemix.osgi.import.pkg>
     </properties>
 
