@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -44,11 +44,10 @@
             com.google.inject*;version=${pkgVersion};-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
-            com.google.inject.internal.asm.util*;resolution:=optional,
             javax.annotation,
             javax.naming*,
-            org.aopalliance*,
-            *
+            org.aopalliance*;version="[1.0,2)",
+            com.google.inject.internal.asm.util*;resolution:=optional,
         </servicemix.osgi.import.pkg>
     </properties>
 
