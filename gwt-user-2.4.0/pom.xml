@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -44,6 +44,17 @@
             com.google.web*;version=${pkgVersion};-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
+            javax.annotation*,
+            javax.imageio*,
+            javax.lang*,
+            javax.servlet*,
+            javax.tools*,
+            javax.validation*,
+            javax.xml*,
+            org.w3c.dom,
+            org.xml.sax*,
+            org.json,
+            com.google.gwt*;version="[2,3)",
             com.gargoylesoftware.htmlunit;resolution:=optional,
             com.gargoylesoftware.htmlunit.html;resolution:=optional,
             com.gargoylesoftware.htmlunit.javascript;resolution:=optional,
@@ -59,8 +70,7 @@
             org.mortbay.jetty.webapp;resolution:=optional,
             org.w3c.css.sac;resolution:=optional,
             org.w3c.flute.parser;resolution:=optional,
-            sun.misc;resolution:=optional,
-            *
+            sun.misc;resolution:=optional
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private>
             com.google.gwt*,
