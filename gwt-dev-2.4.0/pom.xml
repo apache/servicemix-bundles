@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -46,15 +46,24 @@
             com.google.gwt*;version=${pkgVersion};-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
+            javax.annotation,
+            javax.imageio,
+            javax.management,
+            javax.servlet*,
+            javax.swing*,
+            javax.xml*,
+            org.w3c.dom,
+            org.xml.sax*,
             net.sourceforge.htmlunit.corejs.javascript;resolution:=optional,
             org.apache.catalina;resolution:=optional,
             org.apache.catalina.core;resolution:=optional,
             org.apache.catalina.logger;resolution:=optional,
             org.apache.catalina.startup;resolution:=optional,
             org.apache.commons.collections.map;resolution:=optional,
+            org.apache.commons.logging;resolution:=optional,
             org.apache.coyote.tomcat5;resolution:=optional,
             org.apache.tools.ant.types;resolution:=optional,
-            org.eclipse.jdt.internal.core.util;resolution:=optional,
+            org.eclipse.jdt*;resolution:=optional,
             org.mortbay.component;resolution:=optional,
             org.mortbay.jetty;resolution:=optional,
             org.mortbay.jetty.handler;resolution:=optional,
@@ -66,8 +75,7 @@
             com.gargoylesoftware.htmlunit.html;resolution:=optional,
             com.gargoylesoftware.htmlunit.javascript;resolution:=optional,
             com.gargoylesoftware.htmlunit.javascript.background;resolution:=optional,
-            com.gargoylesoftware.htmlunit.javascript.host;resolution:=optional,
-            *
+            com.gargoylesoftware.htmlunit.javascript.host;resolution:=optional
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private>
             com.google.gwt.core*,
@@ -130,4 +138,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
