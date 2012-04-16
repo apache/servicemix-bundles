@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -43,8 +43,8 @@
             com.google.common*;version=11;-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
-            sun.misc;resolution:=optional,
-            javax.annotation
+            javax.annotation,
+            sun.misc;resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
 
@@ -97,4 +97,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
