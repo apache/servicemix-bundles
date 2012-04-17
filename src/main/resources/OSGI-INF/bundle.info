@@ -1,0 +1,27 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URLs:
+        \u001B[33mmvn:${pkgGroupId}/qpid-common/${pkgVersion}\u001B[0m
+        \u001B[33mmvn:${pkgGroupId}/qpid-client/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    Apache Qpid is a cross-platform Enterprise Messaging system which implements the Advanced Message Queuing Protocol
+    (AMQP), providing message brokers written in C++ and Java, along with clients for C++, Java JMS, .Net, Python,
+    and Ruby.
+
+    Enterprise Messaging systems let programs communicate by exchanging messages, much as people communicate by
+    exchanging email. Unlike email, enterprise messaging systems provide guaranteed delivery, speed, security, and
+    freedom from spam. Until recently, there was no open standard for Enterprise Messaging systems, so programmers
+    either wrote their own, or used expensive proprietary systems.
+
+    AMQP is the first open standard for Enterprise Messaging. It is designed to support messaging for just about any
+    distributed or business application. Routing can be configured flexibly, easily supporting common messaging
+    paradigms like point-to-point, fanout, publish-subscribe, and request-response.
+
+    Apache Qpid implements the latest AMQP specification, providing transaction management, queuing, distribution,
+    security, management, clustering, federation and heterogeneous multi-platform support and a lot more.
+    And Apache Qpid is extremely fast. Apache Qpid aims to be 100% AMQP Compliant.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://qpid.apache.org/\u001B[0m
