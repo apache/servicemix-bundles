@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -54,13 +54,18 @@
         <pkgGroupId>hsqldb</pkgGroupId>
         <pkgArtifactId>hsqldb</pkgArtifactId>
         <pkgVersion>1.8.0.7</pkgVersion>
-        <servicemix.osgi.import.pkg>
-            sun.security.action;resolution:=optional,
-            *
-        </servicemix.osgi.import.pkg>
         <servicemix.osgi.export.pkg>
             org.hsqldb
         </servicemix.osgi.export.pkg>
+        <servicemix.osgi.import.pkg>
+            javax.naming*,
+            javax.net*,
+            javax.security*,
+            javax.sql,
+            javax.servlet*;resolution:=optional,
+            javax.swing*;resolution:=optional,
+            sun.security.action;resolution:=optional
+        </servicemix.osgi.import.pkg>
     </properties>
 
     <dependencies>
