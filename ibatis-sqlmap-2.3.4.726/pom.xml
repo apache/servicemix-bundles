@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -43,7 +43,17 @@
             com.ibatis
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            *
+            javax.naming*,
+            javax.sql,
+            javax.transaction,
+            javax.xml*,
+            org.w3c.dom,
+            org.xml.sax*,
+            org.apache.commons.dbcp,
+            net.sf.cglib*,
+            com.opensymphony.oscache*;resolution:=optional,
+            org.apache.commons.logging;resolution:=optional,
+            org.apache.log4j;resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
 
