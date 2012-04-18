@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -39,12 +39,12 @@
         <pkgGroupId>org.objectweb.howl</pkgGroupId>
         <pkgArtifactId>howl</pkgArtifactId>
         <pkgVersion>1.0.1-1</pkgVersion>
-        <servicemix.osgi.import.pkg>
-            *
-        </servicemix.osgi.import.pkg>
         <servicemix.osgi.export.pkg>
              org.objectweb.howl
         </servicemix.osgi.export.pkg>
+        <servicemix.osgi.import.pkg>
+
+        </servicemix.osgi.import.pkg>
     </properties>
     
     <dependencies>
@@ -98,4 +98,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
