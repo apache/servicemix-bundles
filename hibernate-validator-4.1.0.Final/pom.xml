@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -44,17 +44,19 @@
             org.hibernate.validator
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
+            javax.validation*,
             javax.persistence;resolution:=optional,
+            javax.script;resolution:=optional,
             javax.xml.bind*;resolution:=optional,
             javax.xml.namespace*;resolution:=optional,
             javax.xml.transform*;resolution:=optional,
+            javax.xml.validation;resolution:=optional,
             org.xml.sax*;resolution:=optional,
-            *
+            org.slf4j;resolution:=optional
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
             com.googlecode.jtype,
             META-INF;-split-package:=merge-first,
-            META-INF.maven.org.apache.servicemix.bundles*;-split-package:=merge-first,
             META-INF.services;-split-package:=merge-first
         </servicemix.osgi.private.pkg>
     </properties>
@@ -159,4 +161,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
