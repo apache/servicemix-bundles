@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -40,15 +40,13 @@
         <pkgArtifactId>javax.inject</pkgArtifactId>
         <pkgVersion>1</pkgVersion>
         <servicemix.osgi.export.pkg>
-            javax.inject*;-split-package:=merge-first;version="${pkgVersion}",
+            javax.inject
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
 
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
             META-INF;-split-package:=merge-first,
-            META-INF.services;-split-package:=merge-first
-            META-INF.maven.org.apache.servicemix.bundles*;-split-package:=merge-first
         </servicemix.osgi.private.pkg>
     </properties>
 
@@ -103,4 +101,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
