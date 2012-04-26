@@ -97,9 +97,9 @@
                             <filters>
                                 <filter>
                                     <artifact>${pkgGroupId}:saxon9he</artifact>
-                                    <excludes>
-                                        <exclude>**</exclude>
-                                    </excludes>
+                                    <includes>
+                                        <include>edition.properties</include>
+                                    </includes>
                                 </filter>
                             </filters>
                             <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
