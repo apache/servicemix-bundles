@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
     
@@ -44,7 +44,12 @@
         <servicemix.osgi.import.pkg>
             org.dom4j*;version="[1.6,2)",
             org.xmlpull*;version="[1.1.3.1,2)",
-            *
+            javax.xml.parsers,
+            javax.xml.stream,
+            org.apache.bcel*,
+            org.jdom,
+            org.w3c.dom,
+            org.apache.tools.ant*;resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
     
