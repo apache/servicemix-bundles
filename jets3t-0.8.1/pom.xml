@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -45,15 +45,12 @@
             contribs.mx;version=${project.version};-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
-            !org.jets3t*,
             org.apache.commons.codec*;version="[1.3,2)",
             org.apache.commons.httpclient*;version="[3.1,4)",
             com.jamesmurty.utils;resolution:=optional,
             com.sun.java.browser.net;resolution:=optional,
-            org.apache.axis*;resolution:=optional,
             org.apache.commons.logging;resolution:=optional,
             org.bouncycastle.jce.provider;resolution:=optional,
-            javax.xml.rpc*;resolution:=optional,
             javax.swing*;resolution:=optional,
             sun.plugin.protocol;resolution:=optional,
             javax.crypto*,
