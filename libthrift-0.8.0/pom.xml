@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -45,11 +45,10 @@
         <servicemix.osgi.import.pkg>
             org.apache.http*;version="[4,5)",
             org.apache.commons.lang*;version="[2,3)",
-            org.slf4j*;version="[1.4,2)",
+            org.slf4j*;version="[1.4,2)";resolution:=optional,
             javax.net*,
             javax.security*,
-            javax.servlet*;resolution:=optional,
-            *
+            javax.servlet*;resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
 
