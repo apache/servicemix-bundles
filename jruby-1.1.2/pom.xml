@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -40,18 +40,10 @@
         <pkgArtifactId>jruby</pkgArtifactId>
         <pkgVersion>1.1.2</pkgVersion>
         <servicemix.osgi.import.pkg>
-            builtin*;resolution:=optional,
             com.sun*;resolution:=optional,
             javax.swing*;resolution:=optional,
-            jline*;resolution:=optional,
-            jruby*;resolution:=optional,
             org.apache.bsf*;resolution:=optional,
-            org.joda*;resolution:=optional,
-            org.joni*;resolution:=optional,
-            org.jruby*;resolution:=optional,
-            org.jvyamlb*;resolution:=optional,
-            sun.misc*;resolution:=optional,
-            *
+            sun.misc*;resolution:=optional
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.export>
             org.jruby*;version=${pkgVersion};-split-package:=merge-first,
