@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -54,22 +54,21 @@
             com.kenai.jnr.x86asm;resolution:=optional,
             org.apache.bsf*;resolution:=optional,
             org.jgrapht*;resolution:=optional,
-            org.objectweb.asm*;resolution:=optional,
-            *
+            org.objectweb.asm*;resolution:=optional
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
-            builtin*,
-            jruby*,
-            com.kenai*,
-            jline*,
-            org.jcodings*,
-            org.joni*,
-            jnr*,
-            jni*,
-            org.joda*,
-            jay*,
-            com.martiansoftware*,
-            org.apache.tools.ant*
+            builtin*;-split-package:=merge-first,
+            jruby*;-split-package:=merge-first,
+            com.kenai*;-split-package:=merge-first,
+            jline*;-split-package:=merge-first,
+            org.jcodings*;-split-package:=merge-first,
+            org.joni*;-split-package:=merge-first,
+            jnr*;-split-package:=merge-first,
+            jni*;-split-package:=merge-first,
+            org.joda*;-split-package:=merge-first,
+            jay*;-split-package:=merge-first,
+            com.martiansoftware*;-split-package:=merge-first,
+            org.apache.tools.ant*;-split-package:=merge-firs
         </servicemix.osgi.private.pkg>
     </properties>
 
