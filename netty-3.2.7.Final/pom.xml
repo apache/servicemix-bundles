@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -50,7 +50,9 @@
             org.apache.log4j*;resolution:=optional,
             org.jboss.logging*;resolution:=optional,
             org.slf4j*;resolution:=optional,
-            *
+            org.osgi.framework,
+            org.osgi.service.log,
+            org.osgi.util.tracker
         </servicemix.osgi.import.pkg>
     </properties>
 
