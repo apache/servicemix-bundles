@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -37,6 +37,7 @@
 
     <properties>
         <pkgGroupId>junit</pkgGroupId>
+        <pkgArtifactId>junit</pkgArtifactId>
         <pkgVersion>4.9</pkgVersion>
         <servicemix.osgi.export>
             org.hamcrest*;version="1.1";-split-package:=merge-first,
@@ -44,7 +45,7 @@
             junit*;version=${pkgVersion};-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
-            *
+
         </servicemix.osgi.import.pkg>
     </properties>
 
