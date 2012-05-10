@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -43,10 +43,13 @@
             com.sun*;resolution:=optional,
             javax.swing*;resolution:=optional,
             org.apache.bsf*;resolution:=optional,
+            org.apache.tools.ant;resolution:=optional,
             org.jruby*;resolution:=optional,
             org.jgrapht*;resolution:=optional,
             org.objectweb.asm*;resolution:=optional,
-            *
+            sun.misc;resolution:=optional,
+            javax.management,
+            javax.script
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.export.pkg>
             org.jruby
@@ -61,7 +64,7 @@
             jni*,
             jruby*,
             org.dynalang*,
-            org.jcodings,
+            org.jcodings*,
             org.joda.time*,
             org.joni*
         </servicemix.osgi.private.pkg>
