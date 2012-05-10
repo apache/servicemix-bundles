@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -42,8 +42,7 @@
         <servicemix.osgi.import.pkg>
             bsh*;resolution:=optional,
             com.ibm.bsf*;resolution:=optional,
-            com.opensymphony.user*;resolution:=optional,
-            com.opensymphony.xwork*;resolution:=optional,
+            com.opensymphony.*;resolution:=optional,
             electric*;resolution:=optional,
             javax.ejb*;resolution:=optional,
             javax.jms*;resolution:=optional,
@@ -53,14 +52,17 @@
             javax.servlet*;resolution:=optional,
             javax.sql*;resolution:=optional,
             net.sf.hibernate*;resolution:=optional,
+            org.apache.commons.logging;resolution:=optional,
             org.apache.ojb*;resolution:=optional,
             org.apache.velocity*;resolution:=optional,
             org.ofbiz.core*;resolution:=optional,
             org.prevayler*;resolution:=optional,
-            org.quartz,
             org.springframework.orm.hibernate*;resolution:=optional,
             webwork*;resolution:=optional,
-            *
+            org.quartz*,
+            javax.xml.parsers,
+            org.w3c.dom,
+            org.xml.sax
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.export.pkg>
             com.opensymphony.workflow
