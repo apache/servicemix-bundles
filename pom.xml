@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -44,7 +44,8 @@
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             org.testng*;resolution:=optional,
-            *
+            org.apache.log4j;resolution:=optional,
+            org.slf4j;resolution:=optional
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
         </servicemix.osgi.private.pkg>
