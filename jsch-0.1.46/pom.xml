@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>        
     </parent>
 
@@ -47,7 +47,10 @@
             keypairgen;resolution:=optional,
             signature;resolution:=optional,
             userauth;resolution:=optional,
-            *
+            org.ietf.jgss;resolution:=optional,
+            javax.crypto,
+            javax.crypto.interfaces,
+            javax.crypto.spec
         </servicemix.osgi.import.pkg>
     </properties>
 
