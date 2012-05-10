@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
     
@@ -40,15 +40,30 @@
         <pkgArtifactId>jstl</pkgArtifactId>
         <pkgVersion>1.1.2</pkgVersion>
         <servicemix.osgi.export>
-            javax.servlet.jsp.jstl*;version=${pkgVersion};-split-package=merge-first,
-            org.apache.taglibs.standard*;version=${pkgVersion};-split-package=merge-first
+            javax.servlet.jsp.jstl*;version=${pkgVersion};-split-package:=merge-first,
+            org.apache.taglibs.standard*;version=${pkgVersion};-split-package:=merge-first
         </servicemix.osgi.export>
-        <servicemix.osgi.import>
+        <servicemix.osgi.import.pkg>
             org.apache.xalan*;resolution:=optional,
             org.apache.xml*;resolution:=optional,
             org.apache.xpath*;resolution:=optional,
-            *
-        </servicemix.osgi.import>
+            javax.naming,
+            javax.servlet,
+            javax.servlet.http,
+            javax.servlet.jsp,
+            javax.servlet.jsp.el,
+            javax.servlet.jsp.tagext,
+            javax.sql,
+            javax.xml.parsers,
+            javax.xml.transform,
+            javax.xml.transform.dom,
+            javax.xml.transform.sax,
+            javax.xml.transform.stream,
+            org.w3c.dom,
+            org.w3c.dom.traversal,
+            org.xml.sax,
+            org.xml.sax.helpers
+        </servicemix.osgi.import.pkg>
     </properties>
     
     <dependencies>
