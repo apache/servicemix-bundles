@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -50,7 +50,13 @@
             org.apache.log4j*;resolution:=optional;version="[1.2.8,2)",
             org.apache.xalan.serialize*;resolution:=optional;version="[2.4,3)",
             org.apache.xpath*;resolution:=optional;version="[2.4,3)",
-            *
+            javax.xml.parsers,
+            javax.xml.transform,
+            javax.xml.transform.dom,
+            javax.xml.transform.stream,
+            org.w3c.dom,
+            org.xml.sax,
+            org.xml.sax.helpers
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.export.pkg>
             com.opensymphony
