@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -46,7 +46,6 @@
              org.opensaml*;version="2.5.1";-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
-            !org.opensaml*,
             javax.crypto,
             javax.net,
             javax.net.ssl,
@@ -70,8 +69,7 @@
             org.owasp.esapi*;resolution:=optional,
             org.slf4j;resolution:=optional,
             org.w3c.dom*,
-            org.xml.sax,
-            *
+            org.xml.sax
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
             schema;-split-package:=merge-first,
