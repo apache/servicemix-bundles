@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -43,8 +43,7 @@
             ognl
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            javassist*;version="[3.11,4)",
-            *
+            javassist*;version="[3.11,4)"
         </servicemix.osgi.import.pkg>
     </properties>
 
