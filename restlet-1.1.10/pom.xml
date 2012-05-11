@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -50,7 +50,7 @@
             javax.xml*,
             org.w3c.dom,
             org.xml.sax*,
-            *
+            org.osgi.framework
         </servicemix.osgi.import.pkg>
     </properties>
 
