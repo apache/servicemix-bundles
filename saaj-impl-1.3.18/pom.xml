@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -44,24 +44,35 @@
             com.sun.xml.messaging.saaj
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !com.sun.xml.messaging.saaj*,
-            !com.sun.org.apache.xerces.internal*,
-            !com.sun.org.apache.xerces.internal.*,
-            !com.sun.org.apache.xml.internal*,
-            !com.sun.org.apache.xml.internal.*,
-            !com.sun.xml.internal.*,
-            sun.io*;resolution:=optional,
             org.jvnet.mimepull*;resolution:=optional,
-            com.sun.image.codec.jpeg*;resolution:=optional,
-            com.sun.xml.fastinfoset*;resolution:=optional,
             javax.xml.soap,
-            org.jvnet.fastinfoset*;resolution:=optional,
             javax.xml.transform.stax*;resolution:=optional,
-            *
+            javax.activation,
+            javax.imageio,
+            javax.imageio.stream,
+            javax.xml.datatype,
+            javax.xml.namespace,
+            javax.xml.parsers,
+            javax.xml.stream,
+            javax.xml.stream.events,
+            javax.xml.stream.util,
+            javax.xml.transform,
+            javax.xml.transform.dom,
+            javax.xml.transform.sax,
+            javax.xml.transform.stream,
+            javax.xml.validation,
+            org.w3c.dom,
+            org.w3c.dom.events,
+            org.w3c.dom.html,
+            org.w3c.dom.ls,
+            org.w3c.dom.ranges,
+            org.w3c.dom.traversal,
+            org.xml.sax,
+            org.xml.sax.ext,
+            org.xml.sax.helpers
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
             META-INF;-split-package:=merge-first,
-            META-INF.maven.org.apache.servicemix.bundles*;-split-package:=merge-first,
             META-INF.services;-split-package:=first,
             com.sun.org.apache.xerces.internal.dom*;-split-package:=merge-first,
             com.sun.org.apache.xerces.internal.jaxp*;-split-package:=merge-first,
