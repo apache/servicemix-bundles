@@ -52,7 +52,7 @@
             javax.xml*,
             org.w3c.dom,
             org.xml.sax*,
-            org.apache.commons.codec.binary,
+            org.apache.commons.codec.binary;version="[1.3,2)",
             org.apache.commons.configuration,
             org.apache.commons.daemon,
             org.apache.commons.httpclient*,
