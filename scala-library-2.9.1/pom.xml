@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -39,13 +39,16 @@
         <pkgGroupId>org.scala-lang</pkgGroupId>
         <pkgArtifactId>scala-library</pkgArtifactId>
         <pkgVersion>2.9.1</pkgVersion>
-        <servicemix.osgi.import.pkg>
-            sun.misc;resolution:=optional,
-            *
-        </servicemix.osgi.import.pkg>
         <servicemix.osgi.export>
             scala*;version=${pkgVersion};-split-package:=merge-first;-noimport:=true
         </servicemix.osgi.export>
+        <servicemix.osgi.import.pkg>
+            sun.misc;resolution:=optional,
+            javax.xml.parsers,
+            org.xml.sax,
+            org.xml.sax.ext,
+            org.xml.sax.helpers
+        </servicemix.osgi.import.pkg>
         <servicemix.osgi.embed.dependency>
             *;inline=library.properties
         </servicemix.osgi.embed.dependency>
