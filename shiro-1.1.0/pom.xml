@@ -23,7 +23,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -46,8 +46,7 @@
             javax.naming*,
             javax.sql*,
             org.apache.commons.beanutils;version="[1.7,2)",
-            org.slf4j;version="[1.5,2)";resolution:=optional,
-            *
+            org.slf4j;version="[1.5,2)";resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
 
