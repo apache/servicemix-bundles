@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -45,10 +45,17 @@
             org.xmlpull*;version=${pkgVersion};-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
-            !org.jivesoftware*,
-            !com.jcraft.jzlib*,
-            !org.xmlpull*;resolution:=optional,
-            *
+            javax.swing;resolution:=optional,
+            javax.naming,
+            javax.naming.directory,
+            javax.net,
+            javax.net.ssl,
+            javax.security.auth.callback,
+            javax.security.sasl,
+            javax.xml.parsers,
+            javax.xml.transform,
+            javax.xml.transform.stream,
+            org.w3c.dom
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.embed.dependency>
             *;inline=META-INF/smack.providers|META-INF/smack-config.xml|META-INF/services/*
