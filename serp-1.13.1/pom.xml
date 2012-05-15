@@ -23,7 +23,7 @@
     <parent>
         <artifactId>bundles-pom</artifactId>
         <groupId>org.apache.servicemix.bundles</groupId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -42,7 +42,7 @@
             serp
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            *
+
         </servicemix.osgi.import.pkg>
     </properties>
 
