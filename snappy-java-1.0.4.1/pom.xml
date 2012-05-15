@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -43,7 +43,7 @@
             org.xerial.snappy
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            *
+            org.osgi.framework
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.native>
             org/xerial/snappy/native/Mac/x86_64/libsnappyjava.jnilib;osname=macosx;processor=x86_64,
