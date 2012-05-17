@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -39,12 +39,16 @@
         <pkgGroupId>org.ccil.cowan.tagsoup</pkgGroupId>
         <pkgArtifactId>tagsoup</pkgArtifactId>
         <pkgVersion>1.2.1</pkgVersion>
-        <servicemix.osgi.import.pkg>
-            *
-        </servicemix.osgi.import.pkg>
         <servicemix.osgi.export.pkg>
             org.ccil.cowan.tagsoup
         </servicemix.osgi.export.pkg>
+        <servicemix.osgi.import.pkg>
+            javax.xml.parsers,
+            org.w3c.dom,
+            org.xml.sax,
+            org.xml.sax.ext,
+            org.xml.sax.helpers
+        </servicemix.osgi.import.pkg>
     </properties>
 
     <dependencies>
