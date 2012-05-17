@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -43,9 +43,6 @@
             twitter4j
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !dalvik.system,
-            !twitter4j*,
-            !com.google.appengine.api.urlfetch,
 	    javax.crypto;resolution:=optional,
             javax.crypto.spec;resolution:=optional,
             javax.management;resolution:=optional,
@@ -53,9 +50,10 @@
             org.slf4j;resolution:=optional;version="[1.5.8,2)",
             org.apache.commons.logging;resolution:=optional;version="[1.1,2)",
             org.apache.log4j;resolution:=optional;version="[1.2.9,2)",
-            *
+            com.google.appengine.api.urlfetch;resolution:=optional,
+            dalvik.system;resolution:=optional,
+            twitter4j.internal.http.alternative;resolution:=optional
         </servicemix.osgi.import.pkg>
-        <servicemix.osgi.failok>true</servicemix.osgi.failok>
     </properties>
 
     <dependencies>
