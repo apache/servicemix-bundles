@@ -51,6 +51,7 @@
         <module>saxon-9.4.0.1</module>
         <module>saxon-9.3.0.11</module>
         <module>hadoop-core-0.20.203.0</module>
+        <module>hadoop-core-1.0.0</module>
     </modules>
 
 </project>
