@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
     
@@ -43,7 +43,15 @@
             javanet.staxutils
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            *
+            javax.xml.namespace,
+            javax.xml.stream,
+            javax.xml.stream.events,
+            javax.xml.stream.util,
+            javax.xml.transform,
+            javax.xml.transform.sax,
+            org.xml.sax,
+            org.xml.sax.ext,
+            org.xml.sax.helpers
         </servicemix.osgi.import.pkg>
     </properties>
     
