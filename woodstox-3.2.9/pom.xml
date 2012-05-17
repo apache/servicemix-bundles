@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -39,18 +39,29 @@
         <pkgGroupId>org.codehaus.woodstox</pkgGroupId>
         <pkgArtifactId>woodstox</pkgArtifactId>
         <pkgVersion>3.2.9</pkgVersion>
-        <servicemix.osgi.import.pkg>
-            com.sun.msv*;resolution:=optional,
-            org.relaxng*;resolution:=optional,
-            *
-        </servicemix.osgi.import.pkg>
         <servicemix.osgi.export>
             com.ctc.wstx*;version=${pkgVersion};-split-package:=merge-first,
             org.codehaus.stax2*;version=${pkgVersion};-split-package:=merge-first,
         </servicemix.osgi.export>
+        <servicemix.osgi.import.pkg>
+            com.sun.msv*;resolution:=optional,
+            org.relaxng*;resolution:=optional,
+            javax.xml.namespace,
+            javax.xml.parsers,
+            javax.xml.stream,
+            javax.xml.stream.events,
+            javax.xml.stream.util,
+            javax.xml.transform,
+            javax.xml.transform.dom,
+            javax.xml.transform.sax,
+            javax.xml.transform.stream,
+            org.w3c.dom,
+            org.xml.sax,
+            org.xml.sax.ext,
+            org.xml.sax.helpers
+        </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
             META-INF;-split-package:=merge-first,
-            META-INF.maven.org.apache.servicemix.bundles*;-split-package:=merge-first,
             META-INF.services;-split-package:=merge-first,
         </servicemix.osgi.private.pkg>
     </properties>
