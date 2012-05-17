@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -39,14 +39,14 @@
         <pkgGroupId>org.antlr</pkgGroupId>
         <pkgArtifactId>stringtemplate</pkgArtifactId>
         <pkgVersion>3.2</pkgVersion>
-        <servicemix.osgi.import.pkg>
-            antlr*;resolution:=optional;version="[2.7.7,3)",
-            junit*;resolution:=optional;version="[3.8,4)",
-            *
-        </servicemix.osgi.import.pkg>
         <servicemix.osgi.export.pkg>
             org.antlr.stringtemplate
         </servicemix.osgi.export.pkg>
+        <servicemix.osgi.import.pkg>
+            antlr*;resolution:=optional;version="[2.7.7,3)",
+            junit*;resolution:=optional;version="[3.8,4)",
+            javax.swing*;resolution:=optional
+        </servicemix.osgi.import.pkg>
     </properties>
 
     <dependencies>
