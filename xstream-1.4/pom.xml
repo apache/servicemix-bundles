@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -46,6 +46,13 @@
             sun.misc;resolution:=optional,
             sun.reflect;resolution:=optional,
             com.bea.xml.stream;resolution:=optional,
+            net.sf.cglib*;resolution:=optional;version="[2.1.3,3)",
+            nu.xom;resolution:=optional;version="[1.1,2)",
+            org.codehaus.jettison*;resolution:=optional;version="[1,2)",
+            org.dom4j*;resolution:=optional;version="[1.6.1,2)",
+            org.jdom*;resolution:=optional;version="[1,2)",
+            org.joda.time*;resolution:=optional;version="[0.9,1)",
+            org.kxml2*;resolution:=optional;version="[2,3)",
             javax.security.auth,
             javax.swing,
             javax.swing.plaf,
@@ -56,14 +63,11 @@
             javax.xml.transform,
             javax.xml.transform.sax,
             javax.xml.transform.stream,
-            net.sf.cglib*;resolution:=optional;version="[2.1.3,3)",
-            nu.xom;resolution:=optional;version="[1.1,2)",
-            org.codehaus.jettison*;resolution:=optional;version="[1,2)",
-            org.dom4j*;resolution:=optional;version="[1.6.1,2)",
-            org.jdom*;resolution:=optional;version="[1,2)",
-            org.joda.time*;resolution:=optional;version="[0.9,1)",
-            org.kxml2*;resolution:=optional;version="[2,3)",
-            *
+            org.w3c.dom,
+            org.xml.sax,
+            org.xml.sax.helpers,
+            org.xmlpull.mxp1,
+            org.xmlpull.v1
         </servicemix.osgi.import.pkg>
     </properties>
 
