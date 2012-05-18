@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
     
@@ -52,12 +52,43 @@
             com.sun.tools.xjc*;resolution:=optional,
             com.meterware.httpunit*;resolution:=optional,
             com.meterware.servletunit*;resolution:=optional,
-            org.mortbay.http*;resolution:=optional,
+            org.apache.commons.logging;resolution:=optional,
+            org.apache.tools.ant*;resolution:=optional,
+            org.mortbay.jetty*;resolution:=optional,
             org.springframework.web*;resolution:=optional,
             org.exolab.castor*;resolution:=optional,
             org.jibx*;resolution:=optional,
             junit*;resolution:=optional,
-            *
+            javax.mail*;resolution:=optional, 
+            com.ibm.wsdl.extensions*,
+            javax.activation,
+            javax.jws*,
+            javax.net*,
+            javax.servlet*,
+            javax.wsdl*,
+            javax.xml.bind*,
+            javax.xml.datatype,
+            javax.xml.namespace,
+            javax.xml.parsers,
+            javax.xml.soap,
+            javax.xml.stream,
+            javax.xml.transform*,
+            javax.xml.validation,
+            javax.xml.ws*,
+            org.aopalliance*,
+            org.apache.commons.httpclient*,
+            org.apache.ws.commons.schema*,
+            org.apache.xbean*,
+            org.apache.xmlbeans,
+            org.jdom*,
+            org.springframework.aop*, 
+            org.springframework.beans*,
+            org.springframework.context*,
+            org.springframework.core.io,
+            org.springframework.remoting,
+            org.w3c.dom,
+            org.xml.sax,
+            org.xml.sax.helpers
         </servicemix.osgi.import.pkg>
     </properties>
     
