@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -42,7 +42,12 @@
             org.apache.xml.resolver
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            *
+            javax.xml.parsers,
+            javax.xml.transform,
+            javax.xml.transform.sax,
+            org.w3c.dom,
+            org.xml.sax,
+            org.xml.sax.helpers
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg />
     </properties>
