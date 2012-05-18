@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -39,21 +39,32 @@
         <pkgGroupId>xerces</pkgGroupId>
         <pkgArtifactId>xercesImpl</pkgArtifactId>
         <pkgVersion>2.10.0</pkgVersion>
-        <servicemix.osgi.import.pkg>
-          !sun.io*,
-          org.apache.xml.resolver*;version="[1.2,2)",
-          *
-        </servicemix.osgi.import.pkg>
         <servicemix.osgi.export.pkg>
           org.apache.html*;version=${pkgVersion};-split-package:=merge-first,
           org.apache.wml*;version=${pkgVersion};-split-package:=merge-first,
           org.apache.xerces*;version=${pkgVersion};-split-package:=merge-first,
           org.apache.xml.serialize*;version=${pkgVersion};-split-package:=merge-first
         </servicemix.osgi.export.pkg>
+        <servicemix.osgi.import.pkg>
+          sun.io*;resolution:=optional,
+          org.apache.xml.resolver*;version="[1.2,2)",
+          javax.xml.datatype,
+          javax.xml.namespace,
+          javax.xml.parsers,
+          javax.xml.stream,
+          javax.xml.stream.events,
+          javax.xml.transform,
+          javax.xml.transform.dom,
+          javax.xml.transform.sax,
+          javax.xml.transform.stax,
+          javax.xml.transform.stream,
+          javax.xml.validation,
+          org.w3c.dom*,
+          org.xml.sax*
+        </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
-            META-INF.services*
+          META-INF.services*
         </servicemix.osgi.private.pkg>
-        <servicemix.osgi.failok>true</servicemix.osgi.failok>
     </properties>
 
     <dependencies>
