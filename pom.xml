@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>8</version>
+        <version>9-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -39,13 +39,6 @@
         <pkgGroupId>xalan</pkgGroupId>
         <pkgArtifactId>xalan</pkgArtifactId>
         <pkgVersion>2.7.1</pkgVersion>
-        <servicemix.osgi.import.pkg>
-          org.apache.bcel*;version="[5.1,6)",
-          org.apache.xerces*;version="[2.8.1,3)",
-          org.apache.xml.serialize*;version="[2.8.1,3)",
-          org.w3c.dom.xpath;resolution:=optional,
-          *
-        </servicemix.osgi.import.pkg>
         <servicemix.osgi.export>
           java_cup*;version=${pkgVersion};-split-package:=merge-first,
           org.apache.xalan*;version=${pkgVersion};-split-package:=merge-first,
@@ -55,8 +48,24 @@
           org.apache.xml.utils*;version=${pkgVersion};-split-package:=merge-first,
           org.apache.xpath*;version=${pkgVersion};-split-package:=merge-first
         </servicemix.osgi.export>
+        <servicemix.osgi.import.pkg>
+          org.apache.bcel*;version="[5.1,6)",
+          org.apache.xerces*;version="[2.8.1,3)",
+          org.apache.xml.serialize*;version="[2.8.1,3)",
+          org.w3c.dom.xpath;resolution:=optional,
+          javax.naming,
+          javax.xml.namespace,
+          javax.xml.parsers,
+          javax.xml.transform,
+          javax.xml.transform.dom,
+          javax.xml.transform.sax,
+          javax.xml.transform.stream,
+          javax.xml.xpath,
+          org.w3c.dom*,
+          org.xml.sax*
+        </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
-            META-INF.services
+            META-INF.services;-split-package:=merge-first
         </servicemix.osgi.private.pkg>
     </properties>
 
