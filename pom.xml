@@ -24,14 +24,14 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>9-SNAPSHOT</version>
+        <version>9</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.qpid</artifactId>
     <packaging>bundle</packaging>
-    <version>0.14_1-SNAPSHOT</version>
+    <version>0.14_1</version>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps qpid-common and qpid-client ${pkgVersion} jar files.</description>
 
@@ -127,4 +127,10 @@
         </plugins>
     </build>
 
+
+  <scm>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.qpid-0.14_1</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.qpid-0.14_1</developerConnection>
+    <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.qpid-0.14_1</url>
+  </scm>
 </project>
