@@ -42,16 +42,6 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
-        <module>bundles-pom</module>
-        <module>ezmorph-1.0.6</module>
-        <module>json-lib-2.4</module>
-        <module>lucene-3.6.0</module>
-        <module>solr-solrj-3.6.0</module>
-        <module>qpid-0.14</module>
-        <module>saxon-9.4.0.1</module>
-        <module>saxon-9.3.0.11</module>
-        <module>hadoop-core-0.20.203.0</module>
-        <module>hadoop-core-1.0.0</module>
     </modules>
 
 </project>
