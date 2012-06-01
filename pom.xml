@@ -42,6 +42,7 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+        <module>qpid-0.16</module>
         <module>ehcache-2.5.2</module>
         <module>hadoop-core-1.0.3</module>
         <module>aws-java-sdk-1.3.10</module>
