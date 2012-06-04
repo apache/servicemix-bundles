@@ -52,6 +52,7 @@
         <module>avro-ipc-1.6.3</module>
         <module>casbah-2.1.5-1</module>
         <module>dbunit-2.4.8</module>
+        <module>gae-1.6.6</module>
     </modules>
 
 </project>
