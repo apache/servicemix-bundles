@@ -57,6 +57,7 @@
         <module>jcifs-1.3.17</module>
         <module>jdom-2.0.1</module>
         <module>jets3t-0.9.0</module>
+        <module>jsch-0.1.48</module>
     </modules>
 
 </project>
