@@ -58,6 +58,7 @@
         <module>jdom-2.0.1</module>
         <module>jets3t-0.9.0</module>
         <module>jsch-0.1.48</module>
+        <module>jsr305-2.0.0</module>
     </modules>
 
 </project>
