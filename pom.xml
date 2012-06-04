@@ -50,6 +50,7 @@
         <module>ant-1.8.4</module>
         <module>avro-1.6.3</module>
         <module>avro-ipc-1.6.3</module>
+        <module>casbah-2.1.5-1</module>
     </modules>
 
 </project>
