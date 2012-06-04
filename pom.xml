@@ -47,6 +47,7 @@
         <module>ehcache-2.5.2</module>
         <module>hadoop-core-1.0.3</module>
         <module>aws-java-sdk-1.3.10</module>
+        <module>ant-1.8.4</module>
     </modules>
 
 </project>
