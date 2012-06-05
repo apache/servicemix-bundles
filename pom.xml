@@ -62,6 +62,7 @@
         <module>jzlib-1.1.1</module>
         <module>ognl-3.0.5</module>
         <module>paranamer-2.5</module>
+        <module>quartz-2.1.5</module>
     </modules>
 
 </project>
