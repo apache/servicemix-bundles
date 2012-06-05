@@ -63,6 +63,7 @@
         <module>ognl-3.0.5</module>
         <module>paranamer-2.5</module>
         <module>quartz-2.1.5</module>
+        <module>saaj-impl-1.3.19</module>
     </modules>
 
 </project>
