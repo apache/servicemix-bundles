@@ -21,6 +21,13 @@
 
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+	    <groupId>org.apache.servicemix.bundles</groupId>
+	    <artifactId>bundles-pom</artifactId>
+	    <version>9</version>
+	    <relativePath>../bundles-pom/pom.xml</relativePath>
+    </parent>
+
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>src-assembly</artifactId>
     <version>1.0-SNAPSHOT</version>
