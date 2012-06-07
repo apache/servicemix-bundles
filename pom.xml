@@ -31,7 +31,7 @@
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>bundles-pom</artifactId>
     <packaging>pom</packaging>
-    <version>10</version>
+    <version>11-SNAPSHOT</version>
     <name>Apache ServiceMix :: Bundles</name>
 
     <properties>
@@ -52,10 +52,10 @@
     </prerequisites>
 
     <scm>
-        <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/bundles-pom-10</connection>
-        <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/bundles-pom-10
+        <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/trunk</connection>
+        <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/trunk
         </developerConnection>
-        <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/tags/bundles-pom-10</url>
+        <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/trunk/</url>
     </scm>
 
     <build>
