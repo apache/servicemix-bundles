@@ -42,32 +42,6 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
-        <module>src-assembly</module>
-        <module>bundles-pom</module>
-        <module>quickfix-1.5.2</module>
-        <module>qpid-0.16</module>
-        <module>ehcache-2.5.2</module>
-        <module>hadoop-core-1.0.3</module>
-        <module>aws-java-sdk-1.3.10</module>
-        <module>ant-1.8.4</module>
-        <module>avro-1.6.3</module>
-        <module>avro-ipc-1.6.3</module>
-        <module>casbah-2.1.5-1</module>
-        <module>dbunit-2.4.8</module>
-        <module>gae-1.6.6</module>
-        <module>jain-sip-ri-1.2.169</module>
-        <module>jcifs-1.3.17</module>
-        <module>jdom-2.0.1</module>
-        <module>jets3t-0.9.0</module>
-        <module>jsch-0.1.48</module>
-        <module>jsr305-2.0.0</module>
-        <module>jzlib-1.1.1</module>
-        <module>ognl-3.0.5</module>
-        <module>paranamer-2.5</module>
-        <module>quartz-2.1.5</module>
-        <module>saaj-impl-1.3.19</module>
-        <module>hbase-0.90.4</module>
-        <module>hbase-0.94</module>
     </modules>
 
 </project>
