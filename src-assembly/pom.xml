@@ -30,12 +30,5 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>src-assembly</artifactId>
-    <version>1.0</version>
-
-
-  <scm>
-    <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/src-assembly-1.0</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/src-assembly-1.0</developerConnection>
-    <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/tags/src-assembly-1.0</url>
-  </scm>
+    <version>1.1-SNAPSHOT</version>
 </project>
