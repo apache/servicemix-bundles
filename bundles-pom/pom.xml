@@ -263,7 +263,7 @@
                     <dependency>
                         <groupId>org.apache.servicemix.bundles</groupId>
                         <artifactId>src-assembly</artifactId>
-                        <version>1.0-SNAPSHOT</version>
+                        <version>1.0</version>
                     </dependency>
                 </dependencies>
                 <executions>
