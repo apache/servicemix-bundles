@@ -42,6 +42,7 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+        <module>batik-1.7</module>
     </modules>
 
 </project>

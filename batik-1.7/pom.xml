@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>9-SNAPSHOT</version>
+        <version>11-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -49,7 +49,15 @@
             org.apache.xpath*,
             org.mozilla.javascript;resolution:=optional,
             org.w3c*;resolution:=optional,
-            org.xml.sax*
+            org.xml.sax*,
+            com.sun.image.codec.jpeg;resolution:=optional, 
+            javax.imageio, 
+            javax.imageio.event, 
+            javax.imageio.metadata, 
+            javax.imageio.plugins.jpeg, 
+            javax.imageio.stream,
+            javax.xml.transform.dom, 
+            javax.xml.transform.stream
         </servicemix.osgi.import.pkg>
     </properties>
 
@@ -75,6 +83,12 @@
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>batik-transcoder</artifactId>
+            <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>batik-codec</artifactId>
             <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
@@ -130,6 +144,7 @@
                                     <include>${pkgGroupId}:batik-extension</include>
                                     <include>${pkgGroupId}:batik-svggen</include>
                                     <include>${pkgGroupId}:batik-transcoder</include>
+                                    <include>${pkgGroupId}:batik-codec</include>
                                 </includes>
                             </artifactSet>
                             <filters>
@@ -153,6 +168,12 @@
                                 </filter>
                                 <filter>
                                     <artifact>${pkgGroupId}:batik-transcoder</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:batik-codec</artifact>
                                     <excludes>
                                         <exclude>**</exclude>
                                     </excludes>
