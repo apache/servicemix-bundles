@@ -43,6 +43,7 @@
 
     <modules>
         <module>batik-1.7</module>
+        <module>snmp4j-2.1.0</module>
     </modules>
 
 </project>
