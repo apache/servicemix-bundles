@@ -44,6 +44,7 @@
     <modules>
         <module>batik-1.7</module>
         <module>snmp4j-2.1.0</module>
+        <module>guava-11.0.2</module>
     </modules>
 
 </project>
