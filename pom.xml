@@ -50,19 +50,29 @@
             javax.servlet,
             javax.servlet.http,
             org.xml.sax,
+            com.google.common*,
             com.google.protobuf,
             org.apache.lucene*,
+            org.codehaus.jackson*,
+            org.joda.time*,
+            org.mvel2*,
             org.tartarus.snowball*,
+            com.ning.compress*;resolution:=optional,
+            gnu.trove*;resolution:=optional,
             org.elasticsearch.common.inject.internal.asm.util;resolution:=optional,
+            org.elasticsearch.common.joda.convert;resolution:=optional,
             jline;resolution:=optional,
+            jsr166e*;resolution:=optional,
+            jsr166y;resolution:=optional,
             org.apache.commons.logging;resolution:=optional,
             org.apache.log4j*;resolution:=optional,
             org.hyperic.sigar;resolution:=optional,
             org.jboss.logging;resolution:=optional,
+            org.jboss.netty*;resolution:=optional,
             org.slf4j;resolution:=optional,
+            org.yaml.snakeyaml*;resolution:=optional,
             com.sun.jna;resolution:=optional,
-            sun.misc;resolution:=optional,
-            *
+            sun.misc;resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
 
