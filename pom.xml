@@ -47,6 +47,8 @@
         <module>guava-11.0.2</module>
         <module>scala-compiler-2.9.2</module>
         <module>scala-library-2.9.2</module>
+        <module>elasticsearch-0.16.2</module>
+        <module>elasticsearch-0.19.8</module>
     </modules>
 
 </project>
