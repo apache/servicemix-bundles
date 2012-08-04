@@ -50,6 +50,7 @@
         <module>elasticsearch-0.16.2</module>
         <module>elasticsearch-0.19.8</module>
         <module>ehcache-2.5.3</module>
+        <module>jdo2-api-2.0</module>
     </modules>
 
 </project>
