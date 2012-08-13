@@ -52,6 +52,7 @@
         <module>ehcache-2.5.3</module>
         <module>jdo2-api-2.0</module>
         <module>jamod-1.2</module>
+        <module>hbase-0.90.4</module>
     </modules>
 
 </project>
