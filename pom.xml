@@ -54,6 +54,7 @@
         <module>jamod-1.2</module>
         <module>hbase-0.90.4</module>
         <module>hbase-0.90.5</module>
+        <module>aspectj-1.7.0</module>
     </modules>
 
 </project>
