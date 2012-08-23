@@ -67,6 +67,7 @@
         <module>jdom-2.0.2</module>
         <module>jsr305-2.0.1</module>
         <module>poi-3.8</module>
+        <module>quartz-2.1.6</module>
     </modules>
 
 </project>
