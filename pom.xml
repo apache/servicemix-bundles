@@ -63,6 +63,7 @@
         <module>ehcache-2.6.0</module>
         <module>gae-1.7.1</module>
         <module>hamcrest-1.3</module>
+        <module>jaxen-1.1.4</module>
     </modules>
 
 </project>
