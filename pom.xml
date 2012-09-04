@@ -72,6 +72,7 @@
         <module>twitter4j-2.2.6</module>
         <module>xstream-1.4.3</module>
         <module>jt400-6.0</module>
+        <module>jt400-6.7</module>
     </modules>
 
 </project>
