@@ -42,37 +42,6 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
-        <module>batik-1.7</module>
-        <module>snmp4j-2.1.0</module>
-        <module>guava-11.0.2</module>
-        <module>scala-compiler-2.9.2</module>
-        <module>scala-library-2.9.2</module>
-        <module>elasticsearch-0.16.2</module>
-        <module>elasticsearch-0.19.8</module>
-        <module>ehcache-2.5.3</module>
-        <module>jdo2-api-2.0</module>
-        <module>jamod-1.2</module>
-        <module>hbase-0.90.4</module>
-        <module>hbase-0.90.5</module>
-        <module>aspectj-1.7.0</module>
-        <module>avro-1.7.1</module>
-        <module>avro-ipc-1.7.1</module>
-        <module>aws-java-sdk-1.3.14</module>
-        <module>axiom-api-1.2.13</module>
-        <module>axiom-impl-1.2.13</module>
-        <module>ehcache-2.6.0</module>
-        <module>gae-1.7.1</module>
-        <module>hamcrest-1.3</module>
-        <module>jaxen-1.1.4</module>
-        <module>jdom-2.0.2</module>
-        <module>jsr305-2.0.1</module>
-        <module>poi-3.8</module>
-        <module>quartz-2.1.6</module>
-        <module>stax-utils-20070216</module>
-        <module>twitter4j-2.2.6</module>
-        <module>xstream-1.4.3</module>
-        <module>jt400-6.0</module>
-        <module>jt400-6.7</module>
     </modules>
 
 </project>
