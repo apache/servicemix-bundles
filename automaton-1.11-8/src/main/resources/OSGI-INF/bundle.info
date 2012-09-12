@@ -1,0 +1,13 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URLs:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    A DFA/NFA (finite-state automata) implementation with Unicode alphabet (UTF16) and support for the standard regular
+    expression operations (concatenation, union, Kleene star) and a number of non-standard ones
+    (intersection, complement, etc.)
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://www.brics.dk/automaton/\u001B[0m
