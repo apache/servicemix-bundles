@@ -47,6 +47,8 @@
         <module>automaton-1.11-8</module>
         <module>gentlyweb-utils-1.5</module>
         <module>velocity-1.7</module>
+        <module>derbynet-10.8.1.2</module>
+        <module>derbynet-10.8.2.2</module>
     </modules>
 
 </project>
