@@ -46,6 +46,7 @@
         <module>elasticsearch-0.19.9</module>
         <module>automaton-1.11-8</module>
         <module>gentlyweb-utils-1.5</module>
+        <module>velocity-1.7</module>
     </modules>
 
 </project>
