@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>9-SNAPSHOT</version>
+        <version>10</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -39,21 +39,39 @@
         <pkgGroupId>org.apache.derby</pkgGroupId>
         <pkgArtifactId>derbynet</pkgArtifactId>
         <pkgVersion>10.8.2.2</pkgVersion>
-        <servicemix.osgi.export.pkg>
-            org.apache.derby
-        </servicemix.osgi.export.pkg>
+        <servicemix.osgi.export>
+            org.apache.derby.drda;version=${pkgVersion};-split-package:=merge-first,
+            org.apache.derby.impl.drda;version=${pkgVersion};-split-package:=merge-first,
+            org.apache.derby.impl.tools.sysinfo;version=${pkgVersion};-split-package:=merge-first,
+            org.apache.derby.mbeans.drda;version=${pkgVersion};-split-package:=merge-first
+        </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
             javax.crypto*,
             javax.management,
-            javax.naming*,
             javax.net*,
             javax.security.auth,
             javax.servlet*,
             javax.sql,
             javax.transaction.xa,
-            javax.xml*,
-            org.w3c.dom*,
             org.xml.sax,
+            org.apache.derby.catalog,
+            org.apache.derby.iapi.db,
+            org.apache.derby.iapi.error,
+            org.apache.derby.iapi.jdbc,
+            org.apache.derby.iapi.services.i18n,
+            org.apache.derby.iapi.services.info,
+            org.apache.derby.iapi.services.io,
+            org.apache.derby.iapi.services.jmx,
+            org.apache.derby.iapi.services.monitor,
+            org.apache.derby.iapi.services.property,
+            org.apache.derby.iapi.services.stream,
+            org.apache.derby.iapi.store.access.xa,
+            org.apache.derby.iapi.tools.i18n,
+            org.apache.derby.iapi.util,
+            org.apache.derby.impl.jdbc,
+            org.apache.derby.jdbc,
+            org.apache.derby.mbeans,
+            org.apache.derby.security,
             org.osgi.framework,
             com.ibm.jvm;resolution:=optional
         </servicemix.osgi.import.pkg>
@@ -65,6 +83,12 @@
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
             <optional>true</optional>
+            <exclusions>
+                <exclusion>
+                    <groupId>${pkgGroupId}</groupId>
+                    <artifactId>derby</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <!-- sources -->
@@ -99,9 +123,10 @@
                             <filters>
                                 <filter>
                                     <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
-                                    <excludes>
-                                        <exclude>**</exclude>
-                                    </excludes>
+                                    <includes>
+                                        <include>**/*.properties</include>
+                                        <include>**/*.policy</include>
+                                    </includes>
                                 </filter>
                             </filters>
                             <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
