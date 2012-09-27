@@ -50,6 +50,7 @@
         <module>derbynet-10.8.1.2</module>
         <module>derbynet-10.8.2.2</module>
         <module>commons-configuration-1.8</module>
+        <module>abdera-parser-1.1.2</module>
     </modules>
 
 </project>
