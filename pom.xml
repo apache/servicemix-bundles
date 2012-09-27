@@ -52,6 +52,7 @@
         <module>commons-configuration-1.8</module>
         <module>abdera-parser-1.1.2</module>
         <module>fop-1.0</module>
+        <module>saxon-9.4.0.1</module>
     </modules>
 
 </project>
