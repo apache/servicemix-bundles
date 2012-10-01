@@ -40,7 +40,11 @@
         <pkgVersion>1.7.1</pkgVersion>
         <servicemix.osgi.export>
             com.google.appengine.api*;version=${pkgVersion};-split-package:=merge-first,
-            com.google.apphosting.api*;version=${pkgVersion};-split-package:=merge-first
+            com.google.apphosting.api*;version=${pkgVersion};-split-package:=merge-first,
+            com.google.apphosting.base;version=${pkgVersion};-split-package:=merge-first,
+            com.google.apphosting.utils*;version=${pkgVersion};-split-package:=merge-first,
+            com.google.cloud*;version=${pkgVersion};-split-package:=merge-first,
+            com.google.appengine.labs*;version=${pkgVersion};-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
 
@@ -110,15 +114,20 @@
                             <filters>
                                 <filter>
                                     <artifact>${pkgGroupId}:appengine-api-1.0-sdk</artifact>
-                                    <excludes>
-                                        <exclude>**</exclude>
-                                    </excludes>
+                                    <includes>
+                                        <include>META-INF/**/*</include>
+                                    </includes>
                                 </filter>
                                 <filter>
                                     <artifact>${pkgGroupId}:appengine-api-labs</artifact>
-                                    <excludes>
-                                        <exclude>**</exclude>
-                                    </excludes>
+                                    <includes>
+                                        <include>**/*.gif</include>
+                                        <include>**/*.css</include>
+                                        <include>**/*.js</include>
+                                        <include>**/*.html</include>
+                                        <include>**/*.so</include>
+                                        <include>**/*.xml</include>
+                                    </includes>
                                 </filter>
                             </filters>
                             <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
