@@ -55,6 +55,7 @@
         <module>saxon-9.4.0.1</module>
         <module>saxon-9.4.0.4</module>
         <module>derby-10.8.1.2</module>
+        <module>derby-10.8.2.2</module>
     </modules>
 
 </project>
