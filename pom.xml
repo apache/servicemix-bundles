@@ -57,6 +57,7 @@
         <module>derby-10.8.1.2</module>
         <module>derby-10.8.2.2</module>
         <module>gae-1.7.1</module>
+        <module>gae-1.6.6</module>
     </modules>
 
 </project>
