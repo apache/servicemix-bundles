@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.elasticsearch</artifactId>
-    <version>0.19.9_2-SNAPSHOT</version>
+    <version>0.19.9_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -141,4 +141,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>

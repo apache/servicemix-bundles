@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.gae</artifactId>
-    <version>1.6.6_3-SNAPSHOT</version>
+    <version>1.6.6_2-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: Google App Engine (GAE)</name>
     <description>This bundle wraps Google App Engine (GAE) 1.6.1.1 API jar files.</description>

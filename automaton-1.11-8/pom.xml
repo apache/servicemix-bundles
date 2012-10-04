@@ -31,7 +31,7 @@
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.automaton</artifactId>
     <packaging>bundle</packaging>
-    <version>1.11-8_2-SNAPSHOT</version>
+    <version>1.11-8_1-SNAPSHOT</version>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
 
@@ -98,4 +98,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
