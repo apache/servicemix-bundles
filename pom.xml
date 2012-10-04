@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.struts</artifactId>
-    <version>1.3.10_2-SNAPSHOT</version>
+    <version>1.3.10_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: struts</name>
     <description>This OSGi bundle wraps struts-core, struts-extras, struts-tiles ${pkgVersion} jar file.</description>
@@ -146,4 +146,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
