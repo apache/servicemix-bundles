@@ -48,11 +48,12 @@
             javax.net.ssl,
             javax.servlet,
             javax.servlet.http,
-            org.xml.sax,
+            javax.xml.parsers,
+            org.xml.sax*,
             com.fasterxml.jackson*,
             com.google.common*,
             com.google.protobuf,
-            org.apache.lucene*,
+            org.apache.regexp,
             org.joda.time*,
             org.mvel2*,
             org.tartarus.snowball*,
@@ -74,6 +75,9 @@
             com.sun.jna;resolution:=optional,
             sun.misc;resolution:=optional
         </servicemix.osgi.import.pkg>
+        <servicemix.osgi.private.pkg>
+            org.apache.lucene*;-split-package:=merge-first
+        </servicemix.osgi.private.pkg>
     </properties>
 
     <repositories>
@@ -128,9 +132,9 @@
                             <filters>
                                 <filter>
                                     <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
-                                    <excludes>
-                                        <exclude>**</exclude>
-                                    </excludes>
+                                    <includes>
+                                        <include>config/**</include>
+                                    </includes>
                                 </filter>
                             </filters>
                             <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
