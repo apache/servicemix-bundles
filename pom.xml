@@ -42,6 +42,8 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+        <module>bcpg-jdk15on-1.47</module>
+        <module>bcprov-jdk15on-1.47</module>
     </modules>
 
 </project>
