@@ -24,13 +24,13 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>9-SNAPSHOT</version>
+        <version>11-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.jaxb-impl</artifactId>
-    <version>2.2.4_3-SNAPSHOT</version>
+    <version>2.2.6_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -38,7 +38,7 @@
     <properties>
         <pkgGroupId>com.sun.xml.bind</pkgGroupId>
         <pkgArtifactId>jaxb-impl</pkgArtifactId>
-        <pkgVersion>2.2.4-1</pkgVersion>
+        <pkgVersion>2.2.6</pkgVersion>
         <servicemix.osgi.export.pkg>
             com.sun.xml.bind*;-split-package:=merge-first,
             com.sun.istack*;-split-package:=merge-first,
@@ -61,6 +61,7 @@
             javax.xml.transform.sax,
             javax.xml.transform.stream,
             javax.xml.validation,
+            javax.xml.xpath,
             org.w3c.dom,
             org.xml.sax,
             org.xml.sax.ext,
@@ -92,6 +93,16 @@
             <groupId>org.apache.servicemix.specs</groupId>
             <artifactId>org.apache.servicemix.specs.jaxb-api-2.2</artifactId>
             <version>1.6.0</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>javax.activation</groupId>
+                    <artifactId>activation</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.apache.geronimo.specs</groupId>
+                    <artifactId>geronimo-activation_1.1_spec</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <!-- sources -->
