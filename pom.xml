@@ -44,6 +44,8 @@
     <modules>
         <module>bcpg-jdk15on-1.47</module>
         <module>bcprov-jdk15on-1.47</module>
+        <module>jaxb-xjc-2.2.6</module>
+        <module>jaxb-impl-2.2.4</module>
     </modules>
 
 </project>
