@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>11-SNAPSHOT</version>
+        <version>10</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>        
     </parent>
 
@@ -73,9 +73,9 @@
 			1.0.com.sun*,
 			com.sun.org.*,
 			com.sun.xml.dtdparser*,
-			com.sun.xml.xsom*,
-			org.kohsuke.rngom*,
-			org.relaxng.datatype*,
+			com.sun.xml.xsom*;-split-package:=merge-first,
+			org.kohsuke.rngom*;-split-package:=merge-first,
+			org.relaxng.datatype*;-split-package:=merge-first,
             META-INF;-split-package:=merge-first,
             META-INF.maven.org.apache.servicemix.bundles*;-split-package:=merge-first,
             META-INF.services;-split-package:=merge-first,
@@ -136,9 +136,10 @@
                             <filters>
                                 <filter>
                                     <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
-                                    <excludes>
-                                        <exclude>**</exclude>
-                                    </excludes>
+                                    <includes>
+                                        <include>*.properties</include>
+                                        <include>*.rng</include>
+                                    </includes>
                                 </filter>
                             </filters>
                             <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
