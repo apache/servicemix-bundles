@@ -53,6 +53,7 @@
         <module>xerces-2.11.0</module>
         <module>xalan-serializer-2.7.1</module>
         <module>xalan-2.7.1</module>
+        <module>velocity-1.7</module>
     </modules>
 
 </project>
