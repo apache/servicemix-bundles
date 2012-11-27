@@ -55,6 +55,7 @@
         <module>xalan-2.7.1</module>
         <module>velocity-1.7</module>
         <module>jsch-0.1.49</module>
+        <module>aspectj-1.7.1</module>
     </modules>
 
 </project>
