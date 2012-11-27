@@ -66,31 +66,31 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>batik-bridge</artifactId>
             <version>${pkgVersion}</version>
-            <optional>true</optional>
+            <optional>false</optional>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>batik-extension</artifactId>
             <version>${pkgVersion}</version>
-            <optional>true</optional>
+            <optional>false</optional>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>batik-svggen</artifactId>
             <version>${pkgVersion}</version>
-            <optional>true</optional>
+            <optional>false</optional>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>batik-transcoder</artifactId>
             <version>${pkgVersion}</version>
-            <optional>true</optional>
+            <optional>false</optional>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>batik-codec</artifactId>
             <version>${pkgVersion}</version>
-            <optional>true</optional>
+            <optional>false</optional>
         </dependency>
 
         <!-- sources -->
