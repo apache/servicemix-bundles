@@ -60,6 +60,7 @@
         <module>avro-1.7.2</module>
         <module>avro-1.7.1</module>
         <module>avro-ipc-1.7.2</module>
+        <module>avro-ipc-1.7.1</module>
     </modules>
 
 </project>
