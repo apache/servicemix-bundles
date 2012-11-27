@@ -66,6 +66,7 @@
         <module>axiom-api-1.2.13</module>
         <module>axiom-impl-1.2.13</module>
         <module>batik-1.7</module>
+        <module>dbunit-2.4.9</module>
     </modules>
 
 </project>
