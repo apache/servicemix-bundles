@@ -46,7 +46,6 @@
             com.atlassian.xmlrpc
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !com.atlassian.xmlrpc*,
             org.apache.commons.beanutils,
             org.apache.ws.commons.util,
             org.apache.xmlrpc*,
@@ -67,19 +66,19 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>atlassian-xmlrpc-binder-annotations</artifactId>
             <version>${pkgVersion}</version>
-            <optional>true</optional>
+            <optional>false</optional>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>atlassian-xmlrpc-binder</artifactId>
             <version>${pkgVersion}</version>
-            <optional>true</optional>
+            <optional>false</optional>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>atlassian-xmlrpc-binder-client-apache</artifactId>
             <version>${pkgVersion}</version>
-            <optional>true</optional>
+            <optional>false</optional>
         </dependency>
 
         <!-- sources -->
@@ -88,21 +87,21 @@
             <artifactId>atlassian-xmlrpc-binder-annotations</artifactId>
             <version>${pkgVersion}</version>
             <classifier>sources</classifier>
-            <optional>true</optional>
+            <optional>false</optional>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>atlassian-xmlrpc-binder</artifactId>
             <version>${pkgVersion}</version>
             <classifier>sources</classifier>
-            <optional>true</optional>
+            <optional>false</optional>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>atlassian-xmlrpc-binder-client-apache</artifactId>
             <version>${pkgVersion}</version>
             <classifier>sources</classifier>
-            <optional>true</optional>
+            <optional>false</optional>
         </dependency>
     </dependencies>
 
