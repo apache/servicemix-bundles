@@ -71,6 +71,7 @@
         <module>derby-10.9.1.0</module>
         <module>derbynet-10.9.1.0</module>
         <module>ehcache-2.6.2</module>
+        <module>fop-1.0</module>
     </modules>
 
 </project>
