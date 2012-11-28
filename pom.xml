@@ -73,6 +73,7 @@
         <module>ehcache-2.6.2</module>
         <module>fop-1.0</module>
         <module>gae-1.7.3</module>
+        <module>guava-11.0.2</module>
     </modules>
 
 </project>
