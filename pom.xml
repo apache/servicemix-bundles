@@ -75,6 +75,8 @@
         <module>gae-1.7.3</module>
         <module>guava-11.0.2</module>
         <module>hadoop-core-1.0.3</module>
+        <module>hadoop-core-1.0.4</module>
+        <module>hadoop-core-1.1.0</module>
     </modules>
 
 </project>
