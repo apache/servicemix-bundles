@@ -68,6 +68,8 @@
         <module>batik-1.7</module>
         <module>dbunit-2.4.9</module>
         <module>dbunit-2.4.8</module>
+        <module>derby-10.9.1.0</module>
+        <module>derbynet-10.9.1.0</module>
     </modules>
 
 </project>

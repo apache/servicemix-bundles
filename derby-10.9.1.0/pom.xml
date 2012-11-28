@@ -30,14 +30,14 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.derby</artifactId>
-    <version>10.8.2.2_2-SNAPSHOT</version>
+    <version>10.9.1.0_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: derby</name>
     <description>This OSGi bundle wraps derby, derbyclient and derbynet ${pkgVersion} jar files.</description>
 
     <properties>
         <pkgGroupId>org.apache.derby</pkgGroupId>
-        <pkgVersion>10.8.2.2</pkgVersion>
+        <pkgVersion>10.9.1.0</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.apache.derby
         </servicemix.osgi.export.pkg>
