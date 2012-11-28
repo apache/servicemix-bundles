@@ -72,6 +72,7 @@
         <module>derbynet-10.9.1.0</module>
         <module>ehcache-2.6.2</module>
         <module>fop-1.0</module>
+        <module>gae-1.7.3</module>
     </modules>
 
 </project>
