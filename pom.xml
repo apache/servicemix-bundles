@@ -77,6 +77,7 @@
         <module>hadoop-core-1.0.3</module>
         <module>hadoop-core-1.0.4</module>
         <module>hadoop-core-1.1.0</module>
+        <module>hbase-0.90.5</module>
     </modules>
 
 </project>
