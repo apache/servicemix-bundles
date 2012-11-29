@@ -84,6 +84,7 @@
         <module>jaxen-1.1.4</module>
         <module>jdo2-api-2.0</module>
         <module>jdo2-api-2.2</module>
+        <module>jets3t-0.9.0</module>
     </modules>
 
 </project>
