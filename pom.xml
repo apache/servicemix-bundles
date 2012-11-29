@@ -80,6 +80,7 @@
         <module>hbase-0.90.5</module>
         <module>hbase-0.94</module>
         <module>hbase-0.94.2</module>
+        <module>jain-sip-ri-1.2.169</module>
     </modules>
 
 </project>
