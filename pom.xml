@@ -81,6 +81,7 @@
         <module>hbase-0.94</module>
         <module>hbase-0.94.2</module>
         <module>jain-sip-ri-1.2.169</module>
+        <module>jaxen-1.1.4</module>
     </modules>
 
 </project>
