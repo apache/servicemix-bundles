@@ -130,7 +130,7 @@
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                                     <manifestEntries>
-                                        <DynamicImport-Packages>*</DynamicImport-Packages>
+                                        <DynamicImport-Package>*</DynamicImport-Package>
                                     </manifestEntries>
                                 </transformer>
                             </transformers>
