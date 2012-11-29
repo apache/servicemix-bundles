@@ -151,7 +151,7 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
-            <optional>true</optional>
+            <optional>false</optional>
         </dependency>
 
         <!-- sources -->
@@ -160,7 +160,7 @@
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
             <classifier>sources</classifier>
-            <optional>true</optional>
+            <optional>false</optional>
         </dependency>
     </dependencies>
 
