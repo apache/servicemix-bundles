@@ -83,6 +83,7 @@
         <module>jain-sip-ri-1.2.169</module>
         <module>jaxen-1.1.4</module>
         <module>jdo2-api-2.0</module>
+        <module>jdo2-api-2.2</module>
     </modules>
 
 </project>
