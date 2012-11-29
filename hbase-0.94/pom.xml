@@ -38,7 +38,7 @@
     <properties>
         <pkgGroupId>org.apache.hbase</pkgGroupId>
         <pkgArtifactId>hbase</pkgArtifactId>
-        <pkgVersion>0.90.4</pkgVersion>
+        <pkgVersion>0.94.0</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.apache.hadoop.hbase
         </servicemix.osgi.export.pkg>
@@ -112,16 +112,18 @@
             org.apache.hadoop*,
             org.apache.jasper*,
             org.apache.log;resolution:=optional,
+            org.apache.log4j;resolution:=optional,
             org.apache.oro.text.regex,
             org.apache.thrift*,
             org.apache.zookeeper*;resolution:=optional,
-            org.codehaus.jackson.map.jsontype,
-            org.codehaus.jackson.map.jsontype.impl,
+            org.cliffc.high_scale_lib;resolution:=optional,
+            org.codehaus.jackson*,
             org.codehaus.jettison.json,
             org.eclipse.core.resources;resolution:=optional,
             org.eclipse.jface.text;resolution:=optional,
             org.eclipse.osgi.util;resolution:=optional,
             org.eclipse.text.edits;resolution:=optional,
+            org.jamon*;resolution:=optional,
             org.jets3t.service,
             org.jets3t.service.impl.rest.httpclient,
             org.jets3t.service.model,
