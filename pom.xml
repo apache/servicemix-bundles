@@ -97,6 +97,7 @@
         <module>ognl-3.0.6</module>
         <module>opensaml-2.5.1</module>
         <module>paranamer-2.5.1</module>
+        <module>poi-3.8</module>
     </modules>
 
 </project>
