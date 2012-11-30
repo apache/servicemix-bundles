@@ -104,6 +104,7 @@
         <module>scalaj-collection-1.0</module>
         <module>serp-1.14.1</module>
         <module>solr-solrj-4.0.0</module>
+        <module>stringtemplate-4.0.2</module>
     </modules>
 
 </project>
