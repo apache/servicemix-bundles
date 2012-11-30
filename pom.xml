@@ -58,19 +58,19 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
-            <optional>true</optional>
+            <optional>false</optional>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>poi-contrib</artifactId>
             <version>3.6</version>
-            <optional>true</optional>
+            <optional>false</optional>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>poi-scratchpad</artifactId>
             <version>${pkgVersion}</version>
-            <optional>true</optional>
+            <optional>false</optional>
         </dependency>
 
         <!-- sources -->
@@ -79,21 +79,21 @@
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
             <classifier>sources</classifier>
-            <optional>true</optional>
+            <optional>false</optional>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>poi-contrib</artifactId>
             <version>3.6</version>
             <classifier>sources</classifier>
-            <optional>true</optional>
+            <optional>false</optional>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>poi-scratchpad</artifactId>
             <version>${pkgVersion}</version>
             <classifier>sources</classifier>
-            <optional>true</optional>
+            <optional>false</optional>
         </dependency>
     </dependencies>
     
