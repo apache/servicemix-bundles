@@ -90,6 +90,7 @@
         <module>jt400-6.7</module>
         <module>junit-4.11</module>
         <module>kxml2-2.3.0</module>
+        <module>libthrift-0.8.0</module>
     </modules>
 
 </project>
