@@ -70,6 +70,8 @@
         <module>dbunit-2.4.8</module>
         <module>derby-10.9.1.0</module>
         <module>derbynet-10.9.1.0</module>
+        <module>ehcache-2.5.3</module>
+        <module>ehcache-2.6.0</module>
         <module>ehcache-2.6.2</module>
         <module>fop-1.0</module>
         <module>gae-1.7.3</module>
