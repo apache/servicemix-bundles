@@ -103,6 +103,7 @@
         <module>scala-compiler-2.9.2</module>
         <module>scalaj-collection-1.0</module>
         <module>serp-1.14.1</module>
+        <module>solr-solrj-4.0.0</module>
     </modules>
 
 </project>
