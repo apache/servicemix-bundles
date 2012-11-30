@@ -100,6 +100,7 @@
         <module>poi-3.8</module>
         <module>qpid-0.18</module>
         <module>rjc-0.6.3</module>
+        <module>scala-compiler-2.9.2</module>
     </modules>
 
 </project>
