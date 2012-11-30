@@ -92,6 +92,7 @@
         <module>kxml2-2.3.0</module>
         <module>libthrift-0.8.0</module>
         <module>libthrift-0.9.0</module>
+        <module>lucene-4.0.0</module>
     </modules>
 
 </project>
