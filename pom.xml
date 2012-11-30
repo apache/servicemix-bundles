@@ -88,6 +88,7 @@
         <module>jdo2-api-2.2</module>
         <module>jets3t-0.9.0</module>
         <module>jt400-6.7</module>
+        <module>junit-4.11</module>
     </modules>
 
 </project>
