@@ -99,6 +99,7 @@
         <module>paranamer-2.5.1</module>
         <module>poi-3.8</module>
         <module>qpid-0.18</module>
+        <module>rjc-0.6.3</module>
     </modules>
 
 </project>
