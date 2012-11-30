@@ -101,6 +101,7 @@
         <module>qpid-0.18</module>
         <module>rjc-0.6.3</module>
         <module>scala-compiler-2.9.2</module>
+        <module>scalaj-collection-1.0</module>
     </modules>
 
 </project>
