@@ -105,6 +105,7 @@
         <module>serp-1.14.1</module>
         <module>solr-solrj-4.0.0</module>
         <module>stringtemplate-4.0.2</module>
+        <module>twitter4j-3.0.1</module>
     </modules>
 
 </project>
