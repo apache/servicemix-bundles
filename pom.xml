@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>11-SNAPSHOT</version>
+        <version>10</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -46,10 +46,7 @@
             javax.crypto*;resolution:=optional,
             javax.naming*;resolution:=optional,
             javax.security*;resolution:=optional,
-            junit*;resolution:=optional
         </servicemix.osgi.import.pkg>
-        <servicemix.osgi.private.pkg>
-        </servicemix.osgi.private.pkg>
     </properties>
 
     <dependencies>
