@@ -51,10 +51,13 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.security.authentication.util.KerberosUtil;
 import org.apache.hadoop.security.token.Token;
 import org.apache.hadoop.security.token.TokenIdentifier;
 import org.apache.hadoop.util.Shell;
+
+import com.sun.security.auth.NTUserPrincipal;
+import com.sun.security.auth.UnixPrincipal;
+import com.sun.security.auth.module.Krb5LoginModule;
 
 /**
  * User and group information for Hadoop.
@@ -68,7 +71,6 @@ public class UserGroupInformation {
    * Percentage of the ticket window to use before we renew ticket.
    */
   private static final float TICKET_RENEW_WINDOW = 0.80f;
-  static final String HADOOP_USER_NAME = "HADOOP_USER_NAME";
   
   /**
    * A login module that looks at the Kerberos, Unix, or Windows principal and
@@ -91,39 +93,18 @@ public class UserGroupInformation {
 
     @Override
     public boolean commit() throws LoginException {
-      if (LOG.isDebugEnabled()) {
-        LOG.debug("hadoop login commit");
-      }
       // if we already have a user, we are done.
       if (!subject.getPrincipals(User.class).isEmpty()) {
-        if (LOG.isDebugEnabled()) {
-          LOG.debug("using existing subject:"+subject.getPrincipals());
-        }
         return true;
       }
       Principal user = null;
       // if we are using kerberos, try it out
       if (useKerberos) {
         user = getCanonicalUser(KerberosPrincipal.class);
-        if (LOG.isDebugEnabled()) {
-          LOG.debug("using kerberos user:"+user);
-        }
       }
-      //If we don't have a kerberos user and security is disabled, check
-      //if user is specified in the environment or properties
-      if (!isSecurityEnabled() && (user == null)) {
-        String envUser = System.getenv(HADOOP_USER_NAME);
-        if (envUser == null) {
-          envUser = System.getProperty(HADOOP_USER_NAME);
-        }
-        user = envUser == null ? null : new User(envUser);
-      }
-      // use the OS user
+      // if we don't have a kerberos user, use the OS user
       if (user == null) {
         user = getCanonicalUser(OS_PRINCIPAL_CLASS);
-        if (LOG.isDebugEnabled()) {
-          LOG.debug("using local user:"+user);
-        }
       }
       // if we found the user, add our principal
       if (user != null) {
@@ -142,17 +123,11 @@ public class UserGroupInformation {
 
     @Override
     public boolean login() throws LoginException {
-      if (LOG.isDebugEnabled()) {
-        LOG.debug("hadoop login");
-      }
       return true;
     }
 
     @Override
     public boolean logout() throws LoginException {
-      if (LOG.isDebugEnabled()) {
-        LOG.debug("hadoop logout");
-      }
       return true;
     }
   }
@@ -204,6 +179,11 @@ public class UserGroupInformation {
     if (!(groups instanceof TestingGroups)) {
       groups = Groups.getUserToGroupsMappingService(conf);
     }
+    // Set the configuration for JAAS to be the Hadoop configuration. 
+    // This is done here rather than a static initializer to avoid a
+    // circular dependence.
+    javax.security.auth.login.Configuration.setConfiguration
+        (new HadoopConfiguration());
     // give the configuration on how to translate Kerberos names
     try {
       KerberosName.setConfiguration(conf);
@@ -250,52 +230,21 @@ public class UserGroupInformation {
   private final boolean isKeytab;
   private final boolean isKrbTkt;
   
-  private static String OS_LOGIN_MODULE_NAME;
-  private static Class<? extends Principal> OS_PRINCIPAL_CLASS;
+  private static final String OS_LOGIN_MODULE_NAME;
+  private static final Class<? extends Principal> OS_PRINCIPAL_CLASS;
   private static final boolean windows = 
                            System.getProperty("os.name").startsWith("Windows");
   private static Thread renewerThread = null;
   private static volatile boolean shouldRunRenewerThread = true;
   
-  /* Return the OS login module class name */
-  private static String getOSLoginModuleName() {
-    if (System.getProperty("java.vendor").contains("IBM")) {
-      return windows ? "com.ibm.security.auth.module.NTLoginModule"
-       : "com.ibm.security.auth.module.LinuxLoginModule";    
-    } else {
-      return windows ? "com.sun.security.auth.module.NTLoginModule"
-        : "com.sun.security.auth.module.UnixLoginModule";
-    }
-  }
-
-  /* Return the OS principal class */
-  @SuppressWarnings("unchecked")
-  private static Class<? extends Principal> getOsPrincipalClass() {
-    ClassLoader cl = ClassLoader.getSystemClassLoader();
-    try {
-      if (System.getProperty("java.vendor").contains("IBM")) {
-        if (windows) {
-          return (Class<? extends Principal>)
-            cl.loadClass("com.ibm.security.auth.UsernamePrincipal");
-        } else {
-          return (Class<? extends Principal>)
-            (System.getProperty("os.arch").contains("64")
-             ? cl.loadClass("com.ibm.security.auth.UsernamePrincipal")
-             : cl.loadClass("com.ibm.security.auth.LinuxPrincipal"));
-        }
-      } else {
-        return (Class<? extends Principal>) (windows
-           ? cl.loadClass("com.sun.security.auth.NTUserPrincipal")
-           : cl.loadClass("com.sun.security.auth.UnixPrincipal"));
-      }
-    } catch (ClassNotFoundException e) {
-      LOG.error("Unable to find JAAS classes:" + e.getMessage());
-    }
-    return null;
-  }
   static {
-    OS_LOGIN_MODULE_NAME = getOSLoginModuleName();
-    OS_PRINCIPAL_CLASS = getOsPrincipalClass();
+    if (windows) {
+      OS_LOGIN_MODULE_NAME = "com.sun.security.auth.module.NTLoginModule";
+      OS_PRINCIPAL_CLASS = NTUserPrincipal.class;
+    } else {
+      OS_LOGIN_MODULE_NAME = "com.sun.security.auth.module.UnixLoginModule";
+      OS_PRINCIPAL_CLASS = UnixPrincipal.class;
+    }
   }
   
   private static class RealUser implements Principal {
@@ -367,7 +316,7 @@ public class UserGroupInformation {
       }
     }
     private static final AppConfigurationEntry USER_KERBEROS_LOGIN =
-      new AppConfigurationEntry(KerberosUtil.getKrb5LoginModuleName(),
+      new AppConfigurationEntry(Krb5LoginModule.class.getName(),
                                 LoginModuleControlFlag.OPTIONAL,
                                 USER_KERBEROS_OPTIONS);
     private static final Map<String,String> KEYTAB_KERBEROS_OPTIONS = 
@@ -378,7 +327,7 @@ public class UserGroupInformation {
       KEYTAB_KERBEROS_OPTIONS.put("storeKey", "true");
     }
     private static final AppConfigurationEntry KEYTAB_KERBEROS_LOGIN =
-      new AppConfigurationEntry(KerberosUtil.getKrb5LoginModuleName(),
+      new AppConfigurationEntry(Krb5LoginModule.class.getName(),
                                 LoginModuleControlFlag.REQUIRED,
                                 KEYTAB_KERBEROS_OPTIONS);
     
@@ -405,11 +354,6 @@ public class UserGroupInformation {
       }
       return null;
     }
-  }
-  
-  private static LoginContext
-  newLoginContext(String appName, Subject subject) throws LoginException {
-    return new LoginContext(appName, subject, null, new HadoopConfiguration());
   }
   
   private LoginContext getLogin() {
@@ -445,11 +389,14 @@ public class UserGroupInformation {
    * @return the current user
    * @throws IOException if login fails
    */
-  public synchronized
-  static UserGroupInformation getCurrentUser() throws IOException {
+  public static UserGroupInformation getCurrentUser() throws IOException {
     AccessControlContext context = AccessController.getContext();
     Subject subject = Subject.getSubject(context);
-    return subject == null ? getLoginUser() : new UserGroupInformation(subject);
+    // As the Apache Karaf provides the Subject by default, we need to make sure hadoopcan get the User.class information first
+    if (subject != null && subject.getPrincipals(User.class).iterator().hasNext()) {
+        return new UserGroupInformation(subject);
+    }
+    return getLoginUser();
   }
 
   /**
@@ -464,9 +411,9 @@ public class UserGroupInformation {
         Subject subject = new Subject();
         LoginContext login;
         if (isSecurityEnabled()) {
-          login = newLoginContext(HadoopConfiguration.USER_KERBEROS_CONFIG_NAME, subject);
+          login = new LoginContext(HadoopConfiguration.USER_KERBEROS_CONFIG_NAME, subject);
         } else {
-          login = newLoginContext(HadoopConfiguration.SIMPLE_CONFIG_NAME, subject);
+          login = new LoginContext(HadoopConfiguration.SIMPLE_CONFIG_NAME, subject);
         }
         login.login();
         loginUser = new UserGroupInformation(subject);
@@ -488,9 +435,6 @@ public class UserGroupInformation {
         loginUser.spawnAutoRenewalThreadForUserCreds();
       } catch (LoginException le) {
         throw new IOException("failure to login", le);
-      }
-      if (LOG.isDebugEnabled()) {
-        LOG.debug("UGI loginUser:"+loginUser);
       }
     }
     return loginUser;
@@ -616,7 +560,7 @@ public class UserGroupInformation {
     }
     try {
       login = 
-        newLoginContext(HadoopConfiguration.KEYTAB_KERBEROS_CONFIG_NAME, subject);
+        new LoginContext(HadoopConfiguration.KEYTAB_KERBEROS_CONFIG_NAME, subject);
       start = System.currentTimeMillis();
       login.login();
       metrics.addLoginSuccess(System.currentTimeMillis() - start);
@@ -662,7 +606,7 @@ public class UserGroupInformation {
       //login and also update the subject field of this instance to 
       //have the new credentials (pass it to the LoginContext constructor)
       login = 
-        newLoginContext(HadoopConfiguration.USER_KERBEROS_CONFIG_NAME, 
+        new LoginContext(HadoopConfiguration.USER_KERBEROS_CONFIG_NAME, 
             getSubject());
       LOG.info("Initiating re-login for " + getUserName());
       login.login();
@@ -699,7 +643,7 @@ public class UserGroupInformation {
       Subject subject = new Subject();
       
       LoginContext login = 
-        newLoginContext(HadoopConfiguration.KEYTAB_KERBEROS_CONFIG_NAME, subject); 
+        new LoginContext(HadoopConfiguration.KEYTAB_KERBEROS_CONFIG_NAME, subject); 
        
       start = System.currentTimeMillis();
       login.login();
@@ -773,7 +717,7 @@ public class UserGroupInformation {
         //login and also update the subject field of this instance to 
         //have the new credentials (pass it to the LoginContext constructor)
         login = 
-          newLoginContext(HadoopConfiguration.KEYTAB_KERBEROS_CONFIG_NAME, 
+          new LoginContext(HadoopConfiguration.KEYTAB_KERBEROS_CONFIG_NAME, 
                            getSubject());
         LOG.info("Initiating re-login for " + keytabPrincipal);
         start = System.currentTimeMillis();
@@ -1037,7 +981,7 @@ public class UserGroupInformation {
   @Override
   public String toString() {
     if (getRealUser() != null) {
-      return getUserName() + " via " + getRealUser().toString();
+      return getUserName() + " via " +  getRealUser().toString();
     } else {
       return getUserName();
     }
@@ -1099,7 +1043,6 @@ public class UserGroupInformation {
    * @return the value from the run method
    */
   public <T> T doAs(PrivilegedAction<T> action) {
-    logPriviledgedAction(subject, action);
     return Subject.doAs(subject, action);
   }
   
@@ -1117,11 +1060,9 @@ public class UserGroupInformation {
   public <T> T doAs(PrivilegedExceptionAction<T> action
                     ) throws IOException, InterruptedException {
     try {
-      logPriviledgedAction(subject, action);
       return Subject.doAs(subject, action);
     } catch (PrivilegedActionException pae) {
       Throwable cause = pae.getCause();
-      LOG.error("PriviledgedActionException as:"+this+" cause:"+cause);
       if (cause instanceof IOException) {
         throw (IOException) cause;
       } else if (cause instanceof Error) {
@@ -1133,14 +1074,6 @@ public class UserGroupInformation {
       } else {
         throw new UndeclaredThrowableException(pae,"Unknown exception in doAs");
       }
-    }
-  }
-
-  private void logPriviledgedAction(Subject subject, Object action) {
-    if (LOG.isDebugEnabled()) {
-      // would be nice if action included a descriptive toString()
-      String where = new Throwable().getStackTrace()[2].toString();
-      LOG.debug("PriviledgedAction as:"+this+" from:"+where);
     }
   }
 
@@ -1182,3 +1115,4 @@ public class UserGroupInformation {
   }
 
 }
+
