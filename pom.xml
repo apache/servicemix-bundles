@@ -24,14 +24,14 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>11-SNAPSHOT</version>
+        <version>10</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.xmlrpc-client</artifactId>
     <packaging>bundle</packaging>
-    <version>3.1.3_1-SNAPSHOT</version>
+    <version>3.1.3_1</version>
     <name>Apache ServiceMix :: Bundles :: XML-RPC Client</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
 
@@ -63,7 +63,7 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
-            <optional>true</optional>
+            <optional>false</optional>
         </dependency>
 
         <!-- sources -->
@@ -72,7 +72,7 @@
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
             <classifier>sources</classifier>
-            <optional>true</optional>
+            <optional>false</optional>
         </dependency>
     </dependencies>
 
@@ -109,4 +109,10 @@
             </plugin>
         </plugins>
     </build>
+
+  <scm>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.xmlrpc-client-3.1.3_1</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.xmlrpc-client-3.1.3_1</developerConnection>
+    <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.xmlrpc-client-3.1.3_1</url>
+  </scm>
 </project>
