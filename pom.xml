@@ -24,14 +24,14 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>9-SNAPSHOT</version>
+        <version>10</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.atlassian-xmlrpc</artifactId>
     <packaging>bundle</packaging>
-    <version>0.11_3-SNAPSHOT</version>
+    <version>0.11_3</version>
     <name>Apache ServiceMix :: Bundles :: Atlassian XMLRPC</name>
     <description>
         This OSGi bundle wraps atlassian-xmlrpc-binder-annotations,
@@ -152,4 +152,10 @@
             </plugin>
         </plugins>
     </build>
+
+  <scm>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.atlassian-xmlrpc-0.11_3</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.atlassian-xmlrpc-0.11_3</developerConnection>
+    <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.atlassian-xmlrpc-0.11_3</url>
+  </scm>
 </project>
