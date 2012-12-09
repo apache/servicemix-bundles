@@ -66,6 +66,7 @@
             org.codehaus.jackson*,
             org.mortbay*,
             sun.net*;resolution:=optional,
+            com.sun.security*;resolution:=optional,
             org.apache.commons.cli;resolution:=optional,
             org.apache.commons.logging*;resolution:=optional,
             org.apache.jasper.runtime;resolution:=optional,
