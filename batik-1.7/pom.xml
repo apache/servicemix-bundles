@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.batik</artifactId>
-    <version>1.7_3-SNAPSHOT</version>
+    <version>1.7_3</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: batik</name>
     <description>This OSGi bundle wraps batik-bridge, batik-extension, batik-svggen, batik-transcoder ${pkgVersion} jar files.</description>
@@ -187,4 +187,10 @@
             </plugin>
         </plugins>
     </build>
+
+  <scm>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.batik-1.7_3</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.batik-1.7_3</developerConnection>
+    <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.batik-1.7_3</url>
+  </scm>
 </project>
