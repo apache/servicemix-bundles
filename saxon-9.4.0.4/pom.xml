@@ -116,8 +116,6 @@
                                         <include>*.xml</include>
                                         <include>*.xsl</include>
                                         <include>*.properties</include>
-                                        <include>META-INF/*.RSA</include>
-                                        <include>META-INF/*.SF</include>
                                         <include>META-INF/services/**</include>
                                         <include>w3c/**</include>
                                     </includes>

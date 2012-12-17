@@ -42,6 +42,8 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+        <module>saxon-9.4.0.1</module>
+        <module>saxon-9.4.0.4</module>
     </modules>
 
 </project>
