@@ -91,9 +91,11 @@
                             <filters>
                                 <filter>
                                     <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
-                                    <excludes>
-                                        <exclude>**</exclude>
-                                    </excludes>
+                                    <includes>
+                                        <include>META-INF/services/**</include>
+                                        <include>**/*.txt</include>
+                                        <include>**/*.properties</include>
+                                    </includes>
                                 </filter>
                             </filters>
                             <createDependencyReducedPom>true</createDependencyReducedPom>
