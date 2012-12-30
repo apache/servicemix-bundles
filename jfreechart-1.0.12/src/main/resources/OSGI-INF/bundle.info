@@ -1,0 +1,12 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    JFreeChart is a free 100% Java chart library that makes it easy for developers to display
+    professional quality charts in their applications.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://www.jfree.org/jfreechart/\u001B[0m
