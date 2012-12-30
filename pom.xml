@@ -46,6 +46,7 @@
         <module>saxon-9.4.0.4</module>
         <module>xmlgraphics-commons-1.4</module>
         <module>jcommon-1.0.15</module>
+        <module>jcommon-1.0.16</module>
     </modules>
 
 </project>
