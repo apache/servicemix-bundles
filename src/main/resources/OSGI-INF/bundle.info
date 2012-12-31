@@ -1,0 +1,13 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    A Java Web Filter for any J2EE compliant web application server (such as
+    Resin, Orion or Tomcat), which allows you to rewrite URLs before they get
+    to your code. It is a very powerful tool just like Apache's mod_rewrite.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://www.tuckey.org/urlrewrite/\u001B[0m
