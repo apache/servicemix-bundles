@@ -49,6 +49,7 @@
         <module>jcommon-1.0.16</module>
         <module>jfreechart-1.0.12</module>
         <module>urlrewritefilter-4.0.4</module>
+        <module>fop-1.1</module>
     </modules>
 
 </project>
