@@ -33,7 +33,7 @@
     <version>1.3.1.RELEASE_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: spring-ldap</name>
-    <description>This OSGi bundle wraps spring-ldap-core, spring-ldap-core-tiger, spring-ldap-odm, spring-ldap-ldif-core ${pkgVersion} jar files.</description>
+    <description>This OSGi bundle wraps spring-ldap-core, spring-ldap-core-tiger, spring-ldap-odm, spring-ldap-ldif-core, spring-ldap-ldif-batch ${pkgVersion} jar files.</description>
 
     <properties>
         <pkgGroupId>org.springframework.ldap</pkgGroupId>
@@ -46,6 +46,7 @@
             javax.net*,
             org.apache.commons.lang*,
             org.apache.commons.pool*,
+            org.springframework.batch*,
             org.springframework.beans*,
             org.springframework.context*,
             org.springframework.core*,
@@ -84,6 +85,11 @@
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>spring-ldap-ldif-core</artifactId>
+            <version>${pkgVersion}</version>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>spring-ldap-ldif-batch</artifactId>
             <version>${pkgVersion}</version>
         </dependency>
 
@@ -127,6 +133,7 @@
                             <include>${pkgGroupId}:spring-ldap-core-tiger</include>
                             <include>${pkgGroupId}:spring-ldap-odm</include>
                             <include>${pkgGroupId}:spring-ldap-ldif-core</include>
+                            <include>${pkgGroupId}:spring-ldap-ldif-batch</include>
                         </includes>
                     </artifactSet>
                     <filters>
@@ -150,6 +157,12 @@
                         </filter>
                         <filter>
                             <artifact>${pkgGroupId}:spring-ldap-ldif-core</artifact>
+                            <excludes>
+                                <exclude>**/*</exclude>
+                            </excludes>
+                        </filter>
+                        <filter>
+                            <artifact>${pkgGroupId}:spring-ldap-ldif-batch</artifact>
                             <excludes>
                                 <exclude>**/*</exclude>
                             </excludes>
