@@ -54,6 +54,7 @@
         <module>twitter4j-3.0.3</module>
         <module>jedis-2.1.0</module>
         <module>scala-compiler-2.10.0</module>
+        <module>scala-library-2.10.0</module>
     </modules>
 
 </project>
