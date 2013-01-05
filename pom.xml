@@ -55,6 +55,7 @@
         <module>jedis-2.1.0</module>
         <module>scala-compiler-2.10.0</module>
         <module>scala-library-2.10.0</module>
+        <module>guice-3.0</module>
     </modules>
 
 </project>
