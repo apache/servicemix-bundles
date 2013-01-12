@@ -29,8 +29,8 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.commons-configuration</artifactId>
-    <version>1.8_2-SNAPSHOT</version>
+    <artifactId>org.apache.servicemmix.bundles.commons-configuration</artifactId>
+    <version>1.9_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -38,7 +38,7 @@
     <properties>
         <pkgGroupId>commons-configuration</pkgGroupId>
         <pkgArtifactId>commons-configuration</pkgArtifactId>
-        <pkgVersion>1.8</pkgVersion>
+        <pkgVersion>1.9</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.apache.commons.configuration
         </servicemix.osgi.export.pkg>
@@ -83,32 +83,25 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>shade</goal>
-                        </goals>
-                        <configuration>
-                            <artifactSet>
-                                <includes>
-                                    <include>${pkgGroupId}:${pkgArtifactId}</include>
-                                </includes>
-                            </artifactSet>
-                            <filters>
-                                <filter>
-                                    <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
-                                    <excludes>
-                                        <exclude>**</exclude>
-                                    </excludes>
-                                </filter>
-                            </filters>
-                            <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
-                            <createDependencyReducedPom>true</createDependencyReducedPom>
-                        </configuration>
-                    </execution>
-                </executions>
+                <configuration>
+                    <artifactSet>
+                        <includes>
+                            <include>${pkgGroupId}:${pkgArtifactId}</include>
+                        </includes>
+                    </artifactSet>
+                    <filters>
+                        <filter>
+                            <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
+                            <excludes>
+                                <exclude>**/*</exclude>
+                            </excludes>
+                        </filter>
+                    </filters>
+                    <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
+                    <createDependencyReducedPom>true</createDependencyReducedPom>
+                </configuration>
             </plugin>
         </plugins>
     </build>
+
 </project>

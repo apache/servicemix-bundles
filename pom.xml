@@ -60,6 +60,8 @@
         <module>lucene-analyzers-common-4.0.0</module>
         <module>lucene-queryparser-4.0.0</module>
         <module>jutf7-1.0.0</module>
+        <module>commons-configuration-1.8</module>
+        <module>commons-configuration-1.9</module>
     </modules>
 
 </project>
