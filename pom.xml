@@ -69,6 +69,11 @@
         <module>hbase-0.90.5</module>
         <module>hbase-0.94</module>
         <module>hbase-0.94.2</module>
+        <module>hadoop-core-0.20.203.0</module>
+        <module>hadoop-core-1.0.0</module>
+        <module>hadoop-core-1.0.3</module>
+        <module>hadoop-core-1.0.4</module>
+        <module>hadoop-core-1.1.0</module>
     </modules>
 
 </project>
