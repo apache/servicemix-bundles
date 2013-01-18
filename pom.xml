@@ -66,6 +66,7 @@
         <module>commons-jxpath-1.3</module>
         <module>castor-1.3.2</module>
         <module>hbase-0.90.4</module>
+        <module>hbase-0.90.5</module>
     </modules>
 
 </project>
