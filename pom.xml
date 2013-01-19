@@ -78,6 +78,7 @@
         <module>poi-3.9</module>
         <module>paranamer-2.5.2</module>
         <module>netty-3.2.8.Final</module>
+        <module>jasper-6.0.36</module>
     </modules>
 
 </project>
