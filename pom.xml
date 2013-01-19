@@ -80,6 +80,7 @@
         <module>netty-3.2.8.Final</module>
         <module>jasper-6.0.36</module>
         <module>gae-1.7.4</module>
+        <module>elasticsearch-0.20.2</module>
     </modules>
 
 </project>
