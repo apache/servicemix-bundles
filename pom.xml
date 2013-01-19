@@ -79,6 +79,7 @@
         <module>paranamer-2.5.2</module>
         <module>netty-3.2.8.Final</module>
         <module>jasper-6.0.36</module>
+        <module>gae-1.7.4</module>
     </modules>
 
 </project>
