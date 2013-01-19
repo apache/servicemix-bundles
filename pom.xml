@@ -82,6 +82,7 @@
         <module>gae-1.7.4</module>
         <module>elasticsearch-0.20.2</module>
         <module>ehcache-2.6.3</module>
+        <module>dozer-5.4.0</module>
     </modules>
 
 </project>
