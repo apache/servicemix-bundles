@@ -87,6 +87,7 @@
         <module>avro-1.7.3</module>
         <module>avro-ipc-1.7.3</module>
         <module>antlr-3.5</module>
+        <module>antlr-runtime-3.5</module>
     </modules>
 
 </project>
