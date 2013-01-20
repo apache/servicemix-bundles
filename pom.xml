@@ -88,6 +88,7 @@
         <module>avro-ipc-1.7.3</module>
         <module>antlr-3.5</module>
         <module>antlr-runtime-3.5</module>
+        <module>hbase-0.94.3</module>
     </modules>
 
 </project>
