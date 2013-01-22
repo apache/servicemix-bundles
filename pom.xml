@@ -43,6 +43,7 @@
 
     <modules>
         <module>spatial4j-0.3</module>
+        <module>quickfix-1.5.3</module>
     </modules>
 
 </project>
