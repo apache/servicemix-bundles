@@ -46,6 +46,7 @@
         <module>quickfix-1.5.3</module>
         <module>xstream-1.4.4</module>
         <module>commons-configuration-1.9</module>
+        <module>lightcouch-0.0.5</module>
     </modules>
 
 </project>
