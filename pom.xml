@@ -29,7 +29,7 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemmix.bundles.commons-configuration</artifactId>
+    <artifactId>org.apache.servicemix.bundles.commons-configuration</artifactId>
     <version>1.9_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
