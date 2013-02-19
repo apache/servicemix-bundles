@@ -52,8 +52,9 @@
             org.springframework.core*,
             org.springframework.dao*,
             org.springframework.jdbc*,
-            org.springframework.orm*,
-            org.springframework.transaction*,
+            org.springframework.transaction,
+            org.springframework.transaction.support,
+            org.springframework.orm*;resolution:=optional,
             org.springframework.util,
             com.sun.jndi.ldap*;resolution:=optional,
             freemarker.template;resolution:=optional,
@@ -62,7 +63,7 @@
             sun.misc;resolution:=optional
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
-            org.springframework.transaction
+            org.springframework.transaction.compensating, org.springframework.transaction.compensating.support
         </servicemix.osgi.private.pkg>
     </properties>
 
