@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.lucene-analyzers-common</artifactId>
-    <version>4.0.0_2-SNAPSHOT</version>
+    <version>4.1.0_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -38,7 +38,7 @@
     <properties>
         <pkgGroupId>org.apache.lucene</pkgGroupId>
         <pkgArtifactId>lucene-analyzers-common</pkgArtifactId>
-        <pkgVersion>4.0.0</pkgVersion>
+        <pkgVersion>4.1.0</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.apache.lucene.analysis
         </servicemix.osgi.export.pkg>
@@ -47,12 +47,13 @@
             org.apache.lucene.index,
             org.apache.lucene.store,
             org.apache.lucene.util,
+            org.apache.lucene.util.automaton,
             org.apache.lucene.util.fst,
             org.xml.sax,
             org.xml.sax.helpers
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
-            org.tartarus.snowball*
+            org.tartarus.snowball*;-split-package:=merge-first
         </servicemix.osgi.private.pkg>
         <servicemix.osgi.embed.dependency>
             *;inline=META-INF/services/*

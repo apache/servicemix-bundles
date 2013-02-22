@@ -52,6 +52,7 @@
         <module>lucene-sandbox-4.0.0</module>
         <module>lucene-queries-4.0.0</module>
         <module>lucene-4.1.0</module>
+        <module>lucene-analyzers-common-4.1.0</module>
     </modules>
 
 </project>
