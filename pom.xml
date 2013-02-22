@@ -48,7 +48,6 @@
             org.apache.lucene.store,
             org.apache.lucene.util,
             org.apache.lucene.util.fst,
-
             org.xml.sax,
             org.xml.sax.helpers
         </servicemix.osgi.import.pkg>
