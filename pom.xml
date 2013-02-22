@@ -50,6 +50,7 @@
         <module>lightcouch-0.0.5</module>
         <module>jakarta-regexp-1.4</module>
         <module>lucene-sandbox-4.0.0</module>
+        <module>lucene-queries-4.0.0</module>
     </modules>
 
 </project>
