@@ -1,0 +1,18 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    Jakarta Regexp is a 100% Pure Java Regular Expression package that was graciously donated to the Apache Software
+    Foundation by Jonathan Locke. He originally wrote this software back in 1996 and it has stood up quite well to
+    the test of time. It includes complete Javadoc documentation as well as a simple applet for visual debugging and
+    testing suite for compatibility.
+
+    This package is intended to be an answer to a question we commonly hear in the Java world:
+
+    "Why isn't there a decent regular expression package available for Java under a BSD-Style (ie: Apache) license?"
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://jakarta.apache.org/regexp/index.html\u001B[0m
