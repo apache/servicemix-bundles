@@ -42,21 +42,6 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
-        <module>spring-ldap-1.3.1.RELEASE</module>
-        <module>spatial4j-0.3</module>
-        <module>quickfix-1.5.3</module>
-        <module>xstream-1.4.4</module>
-        <module>commons-configuration-1.9</module>
-        <module>lightcouch-0.0.5</module>
-        <module>jakarta-regexp-1.4</module>
-        <module>lucene-sandbox-4.0.0</module>
-        <module>lucene-queries-4.0.0</module>
-        <module>lucene-4.1.0</module>
-        <module>lucene-analyzers-common-4.1.0</module>
-        <module>lucene-queries-4.1.0</module>
-        <module>lucene-queryparser-4.1.0</module>
-        <module>lucene-sandbox-4.1.0</module>
-        <module>neo4j-1.8</module>
     </modules>
 
 </project>
