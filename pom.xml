@@ -42,6 +42,7 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+        <module>xmlbeans-2.6.0</module>
     </modules>
 
 </project>

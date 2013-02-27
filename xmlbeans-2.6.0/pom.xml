@@ -52,6 +52,7 @@
             com.sun.javadoc;resolution:=optional,
             com.sun.tools.javadoc;resolution:=optional,
             org.apache.tools.ant*;resolution:=optional;version="[1.7,2)",
+            org.apache.crimson.jaxp*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.failok>true</servicemix.osgi.failok>
