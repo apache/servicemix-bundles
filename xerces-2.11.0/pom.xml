@@ -36,7 +36,7 @@
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
 
     <properties>
-        <pkgGroupId>org.apache.xerces</pkgGroupId>
+        <pkgGroupId>xerces</pkgGroupId>
         <pkgArtifactId>xercesImpl</pkgArtifactId>
         <pkgVersion>2.11.0</pkgVersion>
         <servicemix.osgi.export.pkg>
