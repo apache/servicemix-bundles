@@ -146,6 +146,7 @@
                                     <artifact>${pkgGroupId}:${pkgArtifactId}-core</artifact>
                                     <includes>
                                         <include>ehcache-failsafe.xml</include>
+                                        <include>META-INF/services/net.sf.ehcache.EhcacheInit</include>
                                     </includes>
                                 </filter>
                             </filters>
