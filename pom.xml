@@ -44,6 +44,7 @@
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
         <module>ehcache-2.6.3</module>
+        <module>ehcache-2.6.5</module>
     </modules>
 
 </project>
