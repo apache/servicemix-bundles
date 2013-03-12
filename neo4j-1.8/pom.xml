@@ -57,9 +57,35 @@
             org.osgi.framework,
             org.slf4j*;resolution:=optional,
             scala*;resolution:=optional,
-            sun.misc;resolution:=optional
+            sun.misc;resolution:=optional,
+            com.sun.jersey.api.client;resolution:=optional, 
+            com.sun.jersey.api.client.filter;resolution:=optional, 
+            javax.ws.rs;resolution:=optional, 
+            javax.ws.rs.core;resolution:=optional, 
+            org.apache.commons.configuration;resolution:=optional, 
+            org.codehaus.jackson;resolution:=optional, 
+            org.codehaus.jackson.map;resolution:=optional,
+            com.mysema.query;resolution:=optional, 
+            com.mysema.query.lucene;resolution:=optional, 
+            com.mysema.query.types;resolution:=optional, 
+            com.mysema.query.types.path;resolution:=optional, 
+            org.codehaus.jackson.node;resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
+
+    <repositories>
+        <repository>
+            <id>neo4j.repo</id>
+            <name>neo4j Repository</name>
+            <url>http://m2.neo4j.org/content/repositories/releases</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>    
 
     <dependencies>
         <dependency>
@@ -97,6 +123,16 @@
             <artifactId>neo4j-jmx</artifactId>
             <version>${pkgVersion}</version>
         </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>neo4j-rest-graphdb</artifactId>
+            <version>${pkgVersion}</version>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>neo4j-cypher-dsl</artifactId>
+            <version>${pkgVersion}</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -120,6 +156,8 @@
                                     <include>${pkgGroupId}:neo4j-graph-matching</include>
                                     <include>${pkgGroupId}:neo4j-cypher</include>
                                     <include>${pkgGroupId}:neo4j-jmx</include>
+                                    <include>${pkgGroupId}:neo4j-rest-graphdb</include>
+                                    <include>${pkgGroupId}:neo4j-cypher-dsl</include>
                                 </includes>
                             </artifactSet>
                             <filters>
