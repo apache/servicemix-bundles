@@ -46,6 +46,7 @@
         <module>ehcache-2.6.3</module>
         <module>ehcache-2.6.5</module>
         <module>neo4j-1.8</module>
+        <module>drools-5.5.0</module>
     </modules>
 
 </project>
