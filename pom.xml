@@ -48,6 +48,7 @@
         <module>neo4j-1.8</module>
         <module>drools-5.5.0</module>
         <module>qpid-0.20</module>
+        <module>lucene-3.6.2</module>
     </modules>
 
 </project>
