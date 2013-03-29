@@ -41,26 +41,12 @@
         <pkgVersion>5.5.0.Final</pkgVersion>
         <servicemix.osgi.import.pkg>
             javax.management*,
-            javax.swing*,
             javax.xml*,
             org.osgi.framework,
             org.osgi.util.tracker,
             org.w3c.dom,
             org.xml.sax*,
-            org.eclipse.jdt*;resolution:=optional,
-            org.quartz;resolution:=optional,
-            com.sun*;resolution:=optional,
-            sun*;resolution:=optional,
-            com.thoughtworks.xstream*;resolution:=optional,
-            javax.jcr*;resolution:=optional,
-            javax.rules*;resolution:=optional,
-            org.apache.jackrabbit*;resolution:=optional,
-            org.codehaus.janino*;resolution:=optional,
-            org.slf4j*;version="[1.5,2.0)";resolution:=optional,
-            org.tmatesoft*;resolution:=optional,
-            org.antlr.stringtemplate*;resolution:=optional,
-            com.google.protobuf;resolution:=optional, 
-            javax.inject;resolution:=optional
+            *;resolution:=optional
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.export>
             org.drools*;version=${pkgVersion};-split-package:=merge-first,
@@ -73,7 +59,7 @@
             org.antlr.runtime*
         </servicemix.osgi.private.pkg>
         <servicemix.osgi.embed.dependency>
-            *;inline=META-INF/drools*
+            *;inline=META-INF/drools*|META-INF/spring*
         </servicemix.osgi.embed.dependency>
     </properties>
 
@@ -128,6 +114,18 @@
             <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>drools-spring</artifactId>
+            <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>drools-camel</artifactId>
+            <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
 
         <!-- sources -->
         <dependency>
@@ -172,6 +170,20 @@
             <classifier>sources</classifier>
             <optional>true</optional>
         </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>drools-spring</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>drools-camel</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
     </dependencies>
 
     <build>
@@ -194,6 +206,8 @@
                                     <include>${pkgGroupId}:drools-core</include>
                                     <include>${pkgGroupId}:drools-decisiontables</include>
                                     <include>${pkgGroupId}:drools-jsr94</include>
+                                    <include>${pkgGroupId}:drools-spring</include>
+                                    <include>${pkgGroupId}:drools-camel</include>
                                     <include>${pkgGroupId}:knowledge-api</include>
                                     <include>${pkgGroupId}:knowledge-internal-api</include>
                                 </includes>
@@ -231,6 +245,18 @@
                                 </filter>
                                 <filter>
                                     <artifact>${pkgGroupId}:drools-jsr94</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:drools-spring</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:drools-camel</artifact>
                                     <excludes>
                                         <exclude>**</exclude>
                                     </excludes>
