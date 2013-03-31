@@ -49,6 +49,7 @@
         <module>drools-5.5.0</module>
         <module>qpid-0.20</module>
         <module>lucene-3.6.2</module>
+        <module>quartz-2.1.7</module>
     </modules>
 
 </project>
