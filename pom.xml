@@ -51,6 +51,7 @@
         <module>lucene-3.6.2</module>
         <module>quartz-2.1.7</module>
         <module>netty-3.2.9.Final</module>
+        <module>mybatis-3.2.1</module>
     </modules>
 
 </project>
