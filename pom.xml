@@ -57,6 +57,7 @@
         <module>lucene-4.2.0</module>
         <module>lucene-analyzers-common-4.2.0</module>
         <module>lucene-queries-4.2.0</module>
+        <module>lucene-queryparser-4.2.0</module>
     </modules>
 
 </project>
