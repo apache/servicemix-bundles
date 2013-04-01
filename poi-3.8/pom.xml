@@ -47,9 +47,15 @@
             org.apache.commons.codec*;version="[1.5,3)",
             org.apache.commons.logging;resolution:=optional,
             javax.swing*;resolution:=optional,
+            junit*;resolution:=optional,
+            org.apache.xmlbeans*;resolution:=optional,
+            org.dom4j*;resolution:=optional,
+            org.openxmlformats*;resolution:=optional,
+            schemasMicrosoftCom*;resolution:=optional,
             javax.imageio*,
-            javax.xml.*, 
-            org.w3c.dom
+            javax.xml.*,
+            org.w3c.dom,
+            org.xml.sax*
         </servicemix.osgi.import.pkg>
     </properties>
     
@@ -69,6 +75,12 @@
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>poi-scratchpad</artifactId>
+            <version>${pkgVersion}</version>
+            <optional>false</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>poi-ooxml</artifactId>
             <version>${pkgVersion}</version>
             <optional>false</optional>
         </dependency>
@@ -95,6 +107,13 @@
             <classifier>sources</classifier>
             <optional>false</optional>
         </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>false</optional>
+        </dependency>
     </dependencies>
     
     <build>
@@ -114,6 +133,7 @@
                                     <include>${pkgGroupId}:${pkgArtifactId}</include>
                                     <include>${pkgGroupId}:poi-contrib</include>
                                     <include>${pkgGroupId}:poi-scratchpad</include>
+                                    <include>${pkgGroupId}:poi-ooxml</include>
                                 </includes>
                             </artifactSet>
                             <filters>
@@ -134,6 +154,12 @@
                                     <excludes>
                                         <exclude>**</exclude>
                                     </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:poi-ooxml</artifact>
+                                    <includes>
+                                        <include>**/*.xml</include>
+                                    </includes>
                                 </filter>
                             </filters>
                             <promoteTransitiveDependencies>true</promoteTransitiveDependencies>

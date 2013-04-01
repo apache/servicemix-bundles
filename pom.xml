@@ -53,6 +53,7 @@
         <module>netty-3.2.9.Final</module>
         <module>mybatis-3.2.1</module>
         <module>poi-3.9</module>
+        <module>poi-3.8</module>
     </modules>
 
 </project>
