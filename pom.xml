@@ -54,6 +54,7 @@
         <module>mybatis-3.2.1</module>
         <module>poi-3.9</module>
         <module>poi-3.8</module>
+        <module>lucene-4.2.0</module>
     </modules>
 
 </project>
