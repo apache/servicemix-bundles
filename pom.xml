@@ -59,6 +59,7 @@
         <module>lucene-queries-4.2.0</module>
         <module>lucene-queryparser-4.2.0</module>
         <module>lucene-sandbox-4.2.0</module>
+        <module>jibx-1.2.5</module>
     </modules>
 
 </project>
