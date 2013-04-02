@@ -63,6 +63,7 @@
         <module>hbase-0.94.6</module>
         <module>hadoop-core-1.1.2</module>
         <module>gae-1.7.6</module>
+        <module>aws-java-sdk-1.4.1</module>
     </modules>
 
 </project>
