@@ -66,6 +66,7 @@
         <module>aws-java-sdk-1.4.1</module>
         <module>avro-1.7.4</module>
         <module>avro-ipc-1.7.4</module>
+        <module>aspectj-1.7.2</module>
     </modules>
 
 </project>
