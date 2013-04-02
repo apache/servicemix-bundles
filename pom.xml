@@ -64,6 +64,7 @@
         <module>hadoop-core-1.1.2</module>
         <module>gae-1.7.6</module>
         <module>aws-java-sdk-1.4.1</module>
+        <module>avro-1.7.4</module>
     </modules>
 
 </project>
