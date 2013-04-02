@@ -69,6 +69,7 @@
         <module>aspectj-1.7.2</module>
         <module>wsdl4j-1.6.3</module>
         <module>crimson-1.1.3</module>
+        <module>xstream-1.4.4</module>
     </modules>
 
 </project>
