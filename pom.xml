@@ -54,8 +54,8 @@
             org.joda.time*;resolution:=optional;version="[0.9,1)",
             org.kxml2*;resolution:=optional;version="[2,3)",
             javax.security.auth,
-            javax.swing,
-            javax.swing.plaf,
+            javax.swing;resolution:=optional,
+            javax.swing.plaf;resolution:=optional,
             javax.xml.datatype,
             javax.xml.namespace,
             javax.xml.parsers,
@@ -63,12 +63,12 @@
             javax.xml.transform,
             javax.xml.transform.sax,
             javax.xml.transform.stream,
-            com.ctc.wstx.stax,
+            com.ctc.wstx.stax;resolution:=optional,
             org.w3c.dom,
             org.xml.sax,
             org.xml.sax.helpers,
-            org.xmlpull.mxp1,
-            org.xmlpull.v1
+            org.xmlpull.mxp1;resolution:=optional,
+            org.xmlpull.v1;resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
 
