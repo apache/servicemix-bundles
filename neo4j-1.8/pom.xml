@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.neo4j</artifactId>
-    <version>1.8_2-SNAPSHOT</version>
+    <version>1.8_2</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: neo4j</name>
     <description>
@@ -218,4 +218,10 @@
             </plugin>
         </plugins>
     </build>
+
+  <scm>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.neo4j-1.8_2</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.neo4j-1.8_2</developerConnection>
+    <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.neo4j-1.8_2</url>
+  </scm>
 </project>
