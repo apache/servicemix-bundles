@@ -43,38 +43,6 @@
 
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
-        <module>ehcache-2.6.3</module>
-        <module>ehcache-2.6.5</module>
-        <module>neo4j-1.8</module>
-        <module>drools-5.5.0</module>
-        <module>qpid-0.20</module>
-        <module>lucene-3.6.2</module>
-        <module>quartz-2.1.7</module>
-        <module>netty-3.2.9.Final</module>
-        <module>mybatis-3.2.1</module>
-        <module>poi-3.9</module>
-        <module>poi-3.8</module>
-        <module>lucene-4.2.0</module>
-        <module>lucene-analyzers-common-4.2.0</module>
-        <module>lucene-queries-4.2.0</module>
-        <module>lucene-queryparser-4.2.0</module>
-        <module>lucene-sandbox-4.2.0</module>
-        <module>jibx-1.2.5</module>
-        <module>hbase-0.94.6</module>
-        <module>hadoop-core-1.1.2</module>
-        <module>gae-1.7.6</module>
-        <module>aws-java-sdk-1.4.1</module>
-        <module>avro-1.7.4</module>
-        <module>avro-ipc-1.7.4</module>
-        <module>aspectj-1.7.2</module>
-        <module>wsdl4j-1.6.3</module>
-        <module>crimson-1.1.3</module>
-        <module>xstream-1.4.4</module>
-        <module>xstream-1.4.3</module>
-        <module>scribe-1.3.3</module>
-        <module>xmltooling-1.3.4</module>
-        <module>openws-1.4.4</module>
-        <module>opensaml-2.5.3</module>
     </modules>
 
 </project>
