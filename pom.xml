@@ -62,6 +62,7 @@
         <module>lucene-queries-4.2.1</module>
         <module>lucene-queryparser-4.2.1</module>
         <module>lucene-sandbox-4.2.1</module>
+        <module>hbase-0.95.0</module>
     </modules>
 
 </project>
