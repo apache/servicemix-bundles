@@ -48,6 +48,7 @@
         <module>bcprov-jdk15on-1.48</module>
         <module>bcpg-jdk15on-1.48</module>
         <module>jzlib-1.1.2</module>
+        <module>java-apns-0.2.3</module>
     </modules>
 
 </project>
