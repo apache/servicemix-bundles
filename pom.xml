@@ -59,6 +59,7 @@
         <module>mybatis-3.2.2</module>
         <module>lucene-4.2.1</module>
         <module>lucene-analyzers-common-4.2.1</module>
+        <module>lucene-queries-4.2.1</module>
     </modules>
 
 </project>
