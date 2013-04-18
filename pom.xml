@@ -46,6 +46,7 @@
         <module>ehcache-2.5.1</module>
         <module>ehcache-2.5.2</module>
         <module>bcprov-jdk15on-1.48</module>
+        <module>bcpg-jdk15on-1.48</module>
     </modules>
 
 </project>
