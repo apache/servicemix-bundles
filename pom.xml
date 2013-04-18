@@ -58,6 +58,7 @@
         <module>gae-1.7.7</module>
         <module>mybatis-3.2.2</module>
         <module>lucene-4.2.1</module>
+        <module>lucene-analyzers-common-4.2.1</module>
     </modules>
 
 </project>
