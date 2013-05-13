@@ -49,6 +49,7 @@
             org.w3c*;resolution:=optional,
             org.xml*;resolution:=optional
         </servicemix.osgi.import.pkg>
+        <servicemix.osgi.dynamicimport.pkg>*</servicemix.osgi.dynamicimport.pkg>
     </properties>
 
     <dependencies>
