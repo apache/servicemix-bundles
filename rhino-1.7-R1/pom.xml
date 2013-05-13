@@ -51,6 +51,7 @@
         <servicemix.osgi.export.pkg>
             org.mozilla
         </servicemix.osgi.export.pkg>
+        <servicemix.osgi.dynamicimport.pkg>*</servicemix.osgi.dynamicimport.pkg>
     </properties>
 
     <dependencies>

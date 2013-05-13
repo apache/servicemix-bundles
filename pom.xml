@@ -44,6 +44,8 @@
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
         <module>ical4j-1.0.4</module>
+        <module>rhino-1.7-R1</module>
+        <module>rhino-1.7-R2</module>
         <module>rhino-1.7-R3</module>
     </modules>
 
