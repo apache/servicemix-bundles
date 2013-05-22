@@ -63,7 +63,7 @@
             org.apache.commons.httpclient*;version="[4,5)";resolution:=optional,
             org.apache.commons.ssl;resolution:=optional,
             org.apache.velocity*;resolution:=optional,
-            org.apache.xml.security*;resolution:=optional,
+            org.apache.xml.security*,
             org.bouncycastle*;resolution:=optional,
             org.joda.time*;version="[1.5,2.0)",
             org.owasp.esapi*;resolution:=optional,
