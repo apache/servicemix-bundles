@@ -47,6 +47,9 @@
         <module>rhino-1.7-R1</module>
         <module>rhino-1.7-R2</module>
         <module>rhino-1.7-R3</module>
+        <module>opensaml-2.4.1</module>
+        <module>opensaml-2.5.1</module>
+        <module>opensaml-2.5.3</module>
     </modules>
 
 </project>
