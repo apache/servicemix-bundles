@@ -60,6 +60,7 @@
         <module>java-xmlbuilder-0.6</module>
         <module>jsch-0.1.50</module>
         <module>solr-solrj-4.3.0</module>
+        <module>snmp4j-2.2.1</module>
     </modules>
 
 </project>
