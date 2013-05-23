@@ -55,6 +55,7 @@
         <module>cglib-3.0</module>
         <module>ehcache-2.6.6</module>
         <module>elasticsearch-0.90.0</module>
+        <module>gae-1.8.0</module>
     </modules>
 
 </project>
