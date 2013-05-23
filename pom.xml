@@ -63,6 +63,7 @@
         <module>snmp4j-2.2.1</module>
         <module>neo4j-1.9</module>
         <module>lucene-4.3.0</module>
+        <module>lucene-analyzers-common-4.3.0</module>
     </modules>
 
 </project>
