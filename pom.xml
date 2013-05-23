@@ -51,6 +51,7 @@
         <module>opensaml-2.5.1</module>
         <module>opensaml-2.5.3</module>
         <module>ant-1.9.0</module>
+        <module>aws-java-sdk-1.4.4.2</module>
     </modules>
 
 </project>
