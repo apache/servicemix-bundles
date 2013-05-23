@@ -50,6 +50,7 @@
         <module>opensaml-2.4.1</module>
         <module>opensaml-2.5.1</module>
         <module>opensaml-2.5.3</module>
+        <module>ant-1.9.0</module>
     </modules>
 
 </project>
