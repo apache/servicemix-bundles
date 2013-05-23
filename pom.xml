@@ -61,6 +61,7 @@
         <module>jsch-0.1.50</module>
         <module>solr-solrj-4.3.0</module>
         <module>snmp4j-2.2.1</module>
+        <module>neo4j-1.9</module>
     </modules>
 
 </project>
