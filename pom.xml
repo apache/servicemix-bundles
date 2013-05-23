@@ -58,6 +58,7 @@
         <module>gae-1.8.0</module>
         <module>hadoop-core-1.2.0</module>
         <module>java-xmlbuilder-0.6</module>
+        <module>jsch-0.1.50</module>
     </modules>
 
 </project>
