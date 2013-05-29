@@ -82,19 +82,16 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
-            <optional>false</optional>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>openws</artifactId>
             <version>1.4.4</version>
-            <optional>false</optional>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>xmltooling</artifactId>
             <version>1.3.4</version>
-            <optional>false</optional>
         </dependency>
 
         <!-- sources -->
@@ -103,21 +100,18 @@
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
             <classifier>sources</classifier>
-            <optional>false</optional>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>openws</artifactId>
             <version>1.4.4</version>
             <classifier>sources</classifier>
-            <optional>false</optional>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>xmltooling</artifactId>
             <version>1.3.4</version>
             <classifier>sources</classifier>
-            <optional>false</optional>
         </dependency>
     </dependencies>
 
