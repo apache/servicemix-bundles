@@ -88,12 +88,12 @@
                         <configuration>
                             <artifactSet>
                                 <includes>
-                                    <include>${pkgGroupId}:saxon9he</include>
+                                    <include>${pkgGroupId}:${pkgArtifactId}</include>
                                 </includes>
                             </artifactSet>
                             <filters>
                                 <filter>
-                                    <artifact>${pkgGroupId}:saxon9he</artifact>
+                                    <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
                                     <includes>
                                         <include>*.xml</include>
                                         <include>*.xsl</include>
