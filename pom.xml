@@ -54,6 +54,7 @@
         <module>elasticsearch-0.90.1</module>
         <module>aws-java-sdk-1.4.7</module>
         <module>ant-1.9.1</module>
+        <module>lucene-4.3.1</module>
     </modules>
 
 </project>
