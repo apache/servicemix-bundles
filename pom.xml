@@ -47,6 +47,7 @@
         <module>saxon-9.5.0.2</module>
         <module>mustache-compiler-0.8.12</module>
         <module>geocoder-java-0.15</module>
+        <module>snmp4j-2.2.2</module>
     </modules>
 
 </project>
