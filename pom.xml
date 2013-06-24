@@ -53,6 +53,7 @@
         <module>gae-1.8.1.1</module>
         <module>elasticsearch-0.90.1</module>
         <module>aws-java-sdk-1.4.7</module>
+        <module>ant-1.9.1</module>
     </modules>
 
 </project>
