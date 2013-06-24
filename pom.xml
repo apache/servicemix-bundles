@@ -51,6 +51,7 @@
         <module>solr-solrj-4.3.1</module>
         <module>rhino-1.7-R4</module>
         <module>gae-1.8.1.1</module>
+        <module>elasticsearch-0.90.1</module>
     </modules>
 
 </project>
