@@ -43,22 +43,6 @@
 
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
-        <module>saxon-9.4.0.7</module>
-        <module>saxon-9.5.0.2</module>
-        <module>mustache-compiler-0.8.12</module>
-        <module>geocoder-java-0.15</module>
-        <module>snmp4j-2.2.2</module>
-        <module>solr-solrj-4.3.1</module>
-        <module>rhino-1.7-R4</module>
-        <module>gae-1.8.1.1</module>
-        <module>elasticsearch-0.90.1</module>
-        <module>aws-java-sdk-1.4.7</module>
-        <module>ant-1.9.1</module>
-        <module>lucene-4.3.1</module>
-        <module>lucene-analyzers-common-4.3.1</module>
-        <module>lucene-queries-4.3.1</module>
-        <module>lucene-queryparser-4.3.1</module>
-        <module>lucene-sandbox-4.3.1</module>
     </modules>
 
 </project>
