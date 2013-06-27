@@ -54,7 +54,7 @@
         <repository>
             <id>snmp4j.repo</id>
             <name>SNMP4J Maven Repository</name>
-            <url>https://server.oosnmp.net/dist/release</url>
+            <url>https://oosnmp.net/dist/release</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
