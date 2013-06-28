@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.gae</artifactId>
-    <version>1.8.1.1_2-SNAPSHOT</version>
+    <version>1.8.1.1_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: Google App Engine (GAE)</name>
     <description>This bundle wraps Google App Engine (GAE) ${pkgVersion} API jar files.</description>
