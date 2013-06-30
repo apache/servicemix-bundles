@@ -48,6 +48,8 @@
         <module>mustache-compiler-0.8.12</module>
         <module>geocoder-java-0.15</module>
         <module>snmp4j-2.2.2</module>
+        <module>snmp4j-2.2.1</module>
+        <module>snmp4j-2.1.0</module>
         <module>solr-solrj-4.3.1</module>
         <module>rhino-1.7-R4</module>
         <module>gae-1.8.1.1</module>
