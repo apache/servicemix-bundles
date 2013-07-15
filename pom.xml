@@ -43,6 +43,8 @@
 
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
+        <module>lightcouch-0.0.6</module>
+        <module>freemarker-2.3.20</module>
     </modules>
 
 </project>
