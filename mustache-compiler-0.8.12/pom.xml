@@ -44,8 +44,12 @@
             com.github.mustachejava*
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            *,
+            com.google.common.base;version="[13.0,15.0)",
+            com.google.common.cache;version="[13.0,15.0)",
+            com.google.common.util.concurrent;version="[13.0,15.0)",
             com.twitter.util;resolution:=optional,
+            org.jruby.*;resolution:=optional,
+            scala*;resolution:=optional,
         </servicemix.osgi.import.pkg>
     </properties>
 
