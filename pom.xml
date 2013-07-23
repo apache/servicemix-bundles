@@ -43,6 +43,7 @@
 
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
+        <module>aws-java-sdk-1.5.1</module>
         <module>ant-1.9.2</module>
         <module>casbah-2.6.2</module>
         <module>lightcouch-0.0.6</module>
