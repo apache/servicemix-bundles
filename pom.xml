@@ -43,6 +43,7 @@
 
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
+        <module>gae-1.8.2</module>
         <module>elasticsearch-0.90.2</module>
         <module>aws-java-sdk-1.5.1</module>
         <module>ant-1.9.2</module>
