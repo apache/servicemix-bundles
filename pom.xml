@@ -44,6 +44,7 @@
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
         <module>jasypt-spring31-1.9.0</module>
+        <module>c3p0-0.9.1.2</module>
     </modules>
 
 </project>
