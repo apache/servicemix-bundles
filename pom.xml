@@ -53,6 +53,7 @@
         <module>scala-compiler-2.10.2</module>
         <module>scala-library-2.10.2</module>
         <module>saxon-9.5.1-1</module>
+        <module>quartz-2.2.0</module>
     </modules>
 
 </project>
