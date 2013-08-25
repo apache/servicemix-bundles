@@ -55,6 +55,7 @@
         <module>saxon-9.5.1-1</module>
         <module>quartz-2.2.0</module>
         <module>qpid-0.22</module>
+        <module>paranamer-2.5.6</module>
     </modules>
 
 </project>
