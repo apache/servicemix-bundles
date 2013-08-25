@@ -58,6 +58,7 @@
         <module>paranamer-2.5.6</module>
         <module>openws-1.5.0</module>
         <module>opensaml-2.6.0</module>
+        <module>neo4j-1.9.2</module>
     </modules>
 
 </project>
