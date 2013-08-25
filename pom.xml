@@ -62,6 +62,7 @@
         <module>mustache-compiler-0.8.13</module>
         <module>hbase-0.95.2-hadoop2</module>
         <module>hadoop-core-1.2.1</module>
+        <module>gae-1.8.3</module>
     </modules>
 
 </project>
