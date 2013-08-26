@@ -66,6 +66,7 @@
         <module>elasticsearch-0.90.3</module>
         <module>derby-10.10.1.1</module>
         <module>derbynet-10.10.1.1</module>
+        <module>bcpg-jdk15on-1.49</module>
     </modules>
 
 </project>
