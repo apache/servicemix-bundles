@@ -69,6 +69,7 @@
         <module>bcpg-jdk15on-1.49</module>
         <module>bcprov-jdk15on-1.49</module>
         <module>aws-java-sdk-1.5.4</module>
+        <module>aspectj-1.7.3</module>
     </modules>
 
 </project>
