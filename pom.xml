@@ -67,6 +67,7 @@
         <module>derby-10.10.1.1</module>
         <module>derbynet-10.10.1.1</module>
         <module>bcpg-jdk15on-1.49</module>
+        <module>bcprov-jdk15on-1.49</module>
     </modules>
 
 </project>
