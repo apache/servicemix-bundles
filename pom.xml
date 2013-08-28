@@ -70,6 +70,7 @@
         <module>bcprov-jdk15on-1.49</module>
         <module>aws-java-sdk-1.5.4</module>
         <module>aspectj-1.7.3</module>
+        <module>spring-ldap-1.3.2.RELEASE</module>
     </modules>
 
 </project>
