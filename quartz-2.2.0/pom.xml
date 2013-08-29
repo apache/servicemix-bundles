@@ -75,13 +75,11 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>quartz</artifactId>
             <version>${pkgVersion}</version>
-            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>quartz-jobs</artifactId>
             <version>${pkgVersion}</version>
-            <optional>true</optional>
         </dependency>
 
         <!-- sources -->
@@ -90,14 +88,12 @@
             <artifactId>quartz</artifactId>
             <version>${pkgVersion}</version>
             <classifier>sources</classifier>
-            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>quartz-jobs</artifactId>
             <version>${pkgVersion}</version>
             <classifier>sources</classifier>
-            <optional>true</optional>
         </dependency>
     </dependencies>
 
