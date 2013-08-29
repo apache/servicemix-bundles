@@ -43,6 +43,7 @@
 
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
+        <module>facebook4j-1.1.12</module>
         <module>commons-beanutils-1.7.0</module>
         <module>commons-beanutils-1.8.2</module>
         <module>commons-beanutils-1.8.3</module>
