@@ -257,9 +257,9 @@
                                 </filter>
                                 <filter>
                                     <artifact>${pkgGroupId}:drools-camel</artifact>
-                                    <excludes>
-                                        <exclude>**</exclude>
-                                    </excludes>
+                                    <includes>
+                                        <include>META-INF/services/**</include>
+                                    </includes>
                                 </filter>
                                 <filter>
                                     <artifact>${pkgGroupId}:drools-repository</artifact>
