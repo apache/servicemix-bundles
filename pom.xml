@@ -43,36 +43,6 @@
 
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
-        <module>drools-5.5.0</module>
-        <module>facebook4j-1.1.12</module>
-        <module>commons-beanutils-1.7.0</module>
-        <module>commons-beanutils-1.8.2</module>
-        <module>commons-beanutils-1.8.3</module>
-        <module>jasypt-spring31-1.9.0</module>
-        <module>c3p0-0.9.1.2</module>
-        <module>solr-solrj-4.4.0</module>
-        <module>scribe-1.3.5</module>
-        <module>scala-compiler-2.10.2</module>
-        <module>scala-library-2.10.2</module>
-        <module>saxon-9.5.1-1</module>
-        <module>quartz-2.2.0</module>
-        <module>qpid-0.22</module>
-        <module>paranamer-2.5.6</module>
-        <module>openws-1.5.0</module>
-        <module>opensaml-2.6.0</module>
-        <module>neo4j-1.9.2</module>
-        <module>mustache-compiler-0.8.13</module>
-        <module>hbase-0.95.2-hadoop2</module>
-        <module>hadoop-core-1.2.1</module>
-        <module>gae-1.8.3</module>
-        <module>elasticsearch-0.90.3</module>
-        <module>derby-10.10.1.1</module>
-        <module>derbynet-10.10.1.1</module>
-        <module>bcpg-jdk15on-1.49</module>
-        <module>bcprov-jdk15on-1.49</module>
-        <module>aws-java-sdk-1.5.4</module>
-        <module>aspectj-1.7.3</module>
-        <module>spring-ldap-1.3.2.RELEASE</module>
     </modules>
 
 </project>
