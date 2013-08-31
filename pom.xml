@@ -46,6 +46,7 @@
         <module>esapi-2.0GA</module>
         <module>esapi-2.0.1</module>
         <module>antisamy-1.4.5</module>
+        <module>antisamy-1.5.3</module>
     </modules>
 
 </project>
