@@ -44,6 +44,10 @@
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
         <module>jasypt-1.9.1</module>
+        <module>relaxngDatatype-2011.1</module>
+        <module>xsdlib-2013.6.1</module>
+        <module>isorelax-20090621</module>
+        <module>msv-core-2013.6.1</module>
     </modules>
 
 </project>
