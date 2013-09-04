@@ -1,0 +1,11 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    The Oracle Multi-Schema XML Validator (MSV) is a Java technology tool to validate XML documents against several kinds of XML schemas. It supports RELAX NG, RELAX Namespace, RELAX Core, TREX, XML DTDs, and a subset of XML Schema Part 1. The latest release includes several bug fixes and adds better conformance to RELAX NG/W3C XML standards and JAXP masquerading.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://msv.java.net\u001B[0m
