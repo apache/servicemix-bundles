@@ -43,6 +43,7 @@
 
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
+        <module>vysper-0.7</module>
         <module>splunk-1.2.0</module>
         <module>splunk-1.1.0</module>
         <module>jasypt-1.9.1</module>
