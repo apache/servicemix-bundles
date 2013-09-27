@@ -43,6 +43,7 @@
 
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
+        <module>facebook4j-2.0.0</module>
         <module>jasper-6.0.37</module>
         <module>casbah-2.6.3</module>
         <module>libthrift-0.9.1</module>
