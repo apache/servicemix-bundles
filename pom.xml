@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.isorelax</artifactId>
-    <version>20090621-SNAPSHOT</version>
+    <version>20090621_1</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -40,13 +40,13 @@
         <pkgArtifactId>isorelax</pkgArtifactId>
         <pkgVersion>20090621</pkgVersion>
         <servicemix.osgi.export>
-            org.iso_relax*,
-            jp.gr.xml.relax*
+            org.iso_relax*;version="${pkgVersion}";-split-package:=merge-first,
+            jp.gr.xml.relax*;version="${pkgVersion}";-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
             javax.xml*,
             org.w3c.dom*,
-            org.xml.sax*,
+            org.xml.sax*
         </servicemix.osgi.import.pkg>
     </properties>
 
@@ -104,4 +104,10 @@
         </plugins>
     </build>
 
+
+  <scm>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.isorelax-20090621_1</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.isorelax-20090621_1</developerConnection>
+    <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.isorelax-20090621_1</url>
+  </scm>
 </project>
