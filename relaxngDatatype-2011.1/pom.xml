@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.relaxngDatatype</artifactId>
-    <version>2011.1-SNAPSHOT</version>
+    <version>2011.1_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -39,9 +39,9 @@
         <pkgGroupId>com.github.relaxng</pkgGroupId>
         <pkgArtifactId>relaxngDatatype</pkgArtifactId>
         <pkgVersion>2011.1</pkgVersion>
-        <servicemix.osgi.export>
-            org.relaxng*,
-        </servicemix.osgi.export>
+        <servicemix.osgi.export.pkg>
+            org.relaxng
+        </servicemix.osgi.export.pkg>
     </properties>
 
     <dependencies>
