@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.msv-core</artifactId>
-    <version>2013.6.1-SNAPSHOT</version>
+    <version>2013.6.1_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -77,7 +77,7 @@
         </servicemix.osgi.private.pkg>
         <servicemix.osgi.export.pkg>
             !com.sun.msv.datatype*,
-            com.sun.msv*
+            com.sun.msv*;version="${pkgVersion}";-split-package:=merge-first
         </servicemix.osgi.export.pkg>
     </properties>
 
