@@ -126,19 +126,19 @@
         <dependency>
             <groupId>org.apache.servicemix.bundles</groupId>
             <artifactId>org.apache.servicemix.bundles.xsdlib</artifactId>
-            <version>2013.6.1-SNAPSHOT</version>
+            <version>2013.6.1_1</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.servicemix.bundles</groupId>
             <artifactId>org.apache.servicemix.bundles.isorelax</artifactId>
-            <version>20090621-SNAPSHOT</version>
+            <version>20090621_1</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.servicemix.bundles</groupId>
             <artifactId>org.apache.servicemix.bundles.relaxngDatatype</artifactId>
-            <version>2011.1-SNAPSHOT</version>
+            <version>2011.1_1</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
