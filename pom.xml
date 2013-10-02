@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.opensaml</artifactId>
-    <version>2.6.0_2-SNAPSHOT</version>
+    <version>2.6.0_2</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -65,7 +65,7 @@
             org.apache.velocity*;resolution:=optional,
             org.apache.xml.security*,
             org.bouncycastle*;resolution:=optional,
-            org.joda.time*;version="[1.5,2.0)",
+            org.joda.time*;version="[1.5,3)",
             org.owasp.esapi*;resolution:=optional,
             org.slf4j;resolution:=optional,
             org.w3c.dom*,
@@ -142,4 +142,10 @@
             </plugin>
         </plugins>
     </build>
+
+  <scm>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.opensaml-2.6.0_2</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.opensaml-2.6.0_2</developerConnection>
+    <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.opensaml-2.6.0_2</url>
+  </scm>
 </project>
