@@ -43,6 +43,7 @@
             com.wordnik.swagger*
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
+            sun.reflect.generics.reflectiveObjects;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
     </properties>
