@@ -58,6 +58,7 @@
         <module>lucene-analyzers-common-4.5.1</module>
         <module>lucene-queries-4.5.1</module>
         <module>lucene-queryparser-4.5.1</module>
+        <module>lucene-sandbox-4.5.1</module>
     </modules>
 
 </project>
