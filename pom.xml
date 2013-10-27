@@ -55,6 +55,7 @@
         <module>antlr-3.5.1</module>
         <module>antlr-runtime-3.5.1</module>
         <module>lucene-4.5.1</module>
+        <module>lucene-analyzers-common-4.5.1</module>
     </modules>
 
 </project>
