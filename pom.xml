@@ -52,6 +52,7 @@
         <module>postgresql-9.2-1003-jdbc4</module>
         <module>twitter4j-3.0.4</module>
         <module>hbase-0.96.0-hadoop2</module>
+        <module>antlr-3.5.1</module>
     </modules>
 
 </project>
