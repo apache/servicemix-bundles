@@ -43,6 +43,7 @@
             org.reflections*
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
+            org.osgi.framework,
             com.google.common.base;resolution:=optional,
             com.google.common.cache;resolution:=optional,
 	    com.google.common.collect;resolution:=optional,
@@ -101,6 +102,15 @@
             <classifier>sources</classifier>
             <optional>true</optional>
         </dependency>
+
+        <dependency>
+            <groupId>org.osgi</groupId>
+            <artifactId>org.osgi.core</artifactId>
+            <version>4.3.1</version>
+        </dependency>
+
+
+        
     </dependencies>
 
     <build>
