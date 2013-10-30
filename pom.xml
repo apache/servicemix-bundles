@@ -48,7 +48,7 @@
             javax.xml.parsers,
             javax.xml.transform*,
             org.xml.sax*,
-            org.apache.batik*,
+            org.apache.batik*;resolution:=optional,
             org.apache.commons.io*,
             org.apache.xmlgraphics*,
             javax.media.jai;resolution:=optional,
