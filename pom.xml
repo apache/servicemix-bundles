@@ -60,6 +60,7 @@
         <module>lucene-queryparser-4.5.1</module>
         <module>lucene-sandbox-4.5.1</module>
         <module>opensaml-2.6.0</module>
+        <module>paranamer-2.6</module>
     </modules>
 
 </project>
