@@ -63,6 +63,7 @@
         <module>paranamer-2.6</module>
         <module>solr-solrj-4.5.1</module>
         <module>json4s-3.2.5</module>
+        <module>gae-1.8.6</module>
     </modules>
 
 </project>
