@@ -61,6 +61,7 @@
         <module>lucene-sandbox-4.5.1</module>
         <module>opensaml-2.6.0</module>
         <module>paranamer-2.6</module>
+        <module>solr-solrj-4.5.1</module>
     </modules>
 
 </project>
