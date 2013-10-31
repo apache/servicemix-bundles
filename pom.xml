@@ -39,11 +39,11 @@
         <pkgGroupId>com.fasterxml.jackson.module</pkgGroupId>
         <pkgArtifactId>jackson-module-scala_2.10</pkgArtifactId>
         <pkgVersion>2.1.5</pkgVersion>
-        <servicemix.osgi.export.pkg>
-            com.fasterxml.jackson.module.scala*,
-            org.scalastuff.scalabeans*,
-            scala.metaprogramming
-        </servicemix.osgi.export.pkg>
+        <servicemix.osgi.export>
+            com.fasterxml.jackson.module.scala*;version=${pkgVersion};-split-package:=merge-first,
+            org.scalastuff.scalabeans*;-split-package:=merge-first,
+            scala.metaprogramming;-split-package:=merge-first
+        </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
             sun.misc;resolution:=optional,
             javax.inject;resolution:=optional,
@@ -56,7 +56,6 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
-            <optional>true</optional>
         </dependency>
 
         <!-- sources -->
