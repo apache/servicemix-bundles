@@ -70,6 +70,7 @@
         <module>jsr305-2.0.2</module>
         <module>casbah-2.6.4</module>
         <module>aws-java-sdk-1.6.3</module>
+        <module>xstream-1.4.5</module>
     </modules>
 
 </project>
