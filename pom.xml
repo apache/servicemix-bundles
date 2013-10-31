@@ -69,6 +69,7 @@
         <module>ical4j-1.0.5.2</module>
         <module>jsr305-2.0.2</module>
         <module>casbah-2.6.4</module>
+        <module>aws-java-sdk-1.6.3</module>
     </modules>
 
 </project>
