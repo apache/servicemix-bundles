@@ -71,6 +71,7 @@
         <module>casbah-2.6.4</module>
         <module>aws-java-sdk-1.6.3</module>
         <module>xstream-1.4.5</module>
+        <module>jzlib-1.1.3</module>
     </modules>
 
 </project>
