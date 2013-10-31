@@ -10,10 +10,15 @@ import org.reflections.ReflectionsException;
 import org.reflections.util.Utils;
 
 
+import java.io.BufferedWriter;
+import java.io.DataInputStream;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.OutputStream;
 import java.io.UnsupportedEncodingException;
 import java.net.*;
 import java.util.ArrayList;
@@ -191,9 +196,79 @@ public abstract class Vfs {
 
         } catch (Exception e) {
         }
+        
+        try {
+            byte[] buffer = new byte[8 * 1024];
+
+            InputStream input = url.openStream();
+            java.io.File tmpFile = createTempFile("reflections", ".jar");
+            try {
+                OutputStream output = new FileOutputStream(tmpFile);
+                try {
+                    int bytesRead;
+                    while ((bytesRead = input.read(buffer)) != -1) {
+                        output.write(buffer, 0, bytesRead);
+                    }
+                } finally {
+                    output.close();
+                }
+            } finally {
+                input.close();
+            }
+            return tmpFile;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
         return null;
     }
+    
+    private static java.io.File createTempFile(String prefix, String suffix) throws IOException {
+               java.io.File result = null;
+               java.io.File parent = createTmpDir();
+                   
+               if (suffix == null) {
+                   suffix = ".tmp";
+               }
+               if (prefix == null) {
+                   prefix = "reflections";
+               } else if (prefix.length() < 3) {
+                   prefix = prefix + "reflections";
+               }
+               result = java.io.File.createTempFile(prefix, suffix, parent);
+
+              
+               return result;
+    }
+    
+    private static java.io.File createTmpDir() {
+        int x = (int)(Math.random() * 1000000);
+        String s = System.getProperty("java.io.tmpdir");
+        java.io.File checkExists = new java.io.File(s);
+        if (!checkExists.exists() || !checkExists.isDirectory()) {
+            throw new RuntimeException("The directory " 
+                                   + checkExists.getAbsolutePath() 
+                                   + " does not exist, please set java.io.tempdir"
+                                   + " to an existing directory");
+        }
+        if (!checkExists.canWrite()) {
+            throw new RuntimeException("The directory " 
+                                   + checkExists.getAbsolutePath() 
+                                   + " is now writable, please set java.io.tempdir"
+                                   + " to an writable directory");
+        }
+        java.io.File f = new java.io.File(s, "reflections-" + x);
+        while (!f.mkdir()) {
+            x = (int)(Math.random() * 1000000);
+            f = new java.io.File(s, "reflections-" + x);
+        }
+        java.io.File newTmpDir  = f;
+        return newTmpDir;
+    }
+    
+    
+    
+    
 
     /** default url types used by {@link org.reflections.vfs.Vfs#fromURL(java.net.URL)}
      * <p>
