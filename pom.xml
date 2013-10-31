@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.jackson-module-scala</artifactId>
-    <version>2.1.5_1-SNAPSHOT</version>
+    <version>2.1.5_1</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -39,11 +39,11 @@
         <pkgGroupId>com.fasterxml.jackson.module</pkgGroupId>
         <pkgArtifactId>jackson-module-scala_2.10</pkgArtifactId>
         <pkgVersion>2.1.5</pkgVersion>
-        <servicemix.osgi.export.pkg>
-            com.fasterxml.jackson.module.scala*,
-            org.scalastuff.scalabeans*,
-            scala.metaprogramming
-        </servicemix.osgi.export.pkg>
+        <servicemix.osgi.export>
+            com.fasterxml.jackson.module.scala*;version=${pkgVersion};-split-package:=merge-first,
+            org.scalastuff.scalabeans*;-split-package:=merge-first,
+            scala.metaprogramming;-split-package:=merge-first
+        </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
             sun.misc;resolution:=optional,
             javax.inject;resolution:=optional,
@@ -56,7 +56,6 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
-            <optional>true</optional>
         </dependency>
 
         <!-- sources -->
@@ -102,4 +101,10 @@
             </plugin>
         </plugins>
     </build>
+
+  <scm>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.jackson-module-scala-2.1.5_1</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.jackson-module-scala-2.1.5_1</developerConnection>
+    <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.jackson-module-scala-2.1.5_1</url>
+  </scm>
 </project>
