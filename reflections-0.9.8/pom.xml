@@ -40,7 +40,7 @@
         <pkgArtifactId>reflections</pkgArtifactId>
         <pkgVersion>0.9.8</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.reflections*
+            org.reflections
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             org.osgi.framework,
@@ -108,8 +108,6 @@
             <artifactId>org.osgi.core</artifactId>
             <version>4.3.1</version>
         </dependency>
-
-
         
     </dependencies>
 
