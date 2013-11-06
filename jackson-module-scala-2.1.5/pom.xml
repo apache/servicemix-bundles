@@ -47,10 +47,11 @@
         <servicemix.osgi.import.pkg>
             sun.misc;resolution:=optional,
             javax.inject;resolution:=optional,
-            scala.reflect.internal.pickling;resolution:=optional,
-            scala.reflect.internal;resolution:=optional,
+            scala.reflect.internal.pickling;version="[2.10,2.11)";resolution:=optional,
+            scala.reflect.internal;version="[2.10,2.11)";resolution:=optional,
             com.google.common.collect;resolution:=optional,
             com.thoughtworks.paranamer;resolution:=optional,
+            scala*;version="[2.10,2.11)",
             *
         </servicemix.osgi.import.pkg>
     </properties>
