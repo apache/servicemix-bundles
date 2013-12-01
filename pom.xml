@@ -48,6 +48,7 @@
         <module>lucene-4.6.0</module>
         <module>lucene-analyzers-common-4.6.0</module>
         <module>lucene-queries-4.6.0</module>
+        <module>lucene-queryparser-4.6.0</module>
     </modules>
 
 </project>
