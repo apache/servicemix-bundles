@@ -50,6 +50,7 @@
         <module>lucene-queries-4.6.0</module>
         <module>lucene-queryparser-4.6.0</module>
         <module>lucene-sandbox-4.6.0</module>
+        <module>gae-1.8.8</module>
     </modules>
 
 </project>
