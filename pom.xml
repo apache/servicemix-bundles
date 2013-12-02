@@ -55,6 +55,7 @@
         <module>solr-solrj-4.6.0</module>
         <module>aws-java-sdk-1.6.7</module>
         <module>snmp4j-2.2.3</module>
+        <module>splunk-1.2.1.0</module>
     </modules>
 
 </project>
