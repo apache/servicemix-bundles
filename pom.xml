@@ -53,6 +53,7 @@
         <module>gae-1.8.8</module>
         <module>aspectj-1.7.4</module>
         <module>solr-solrj-4.6.0</module>
+        <module>aws-java-sdk-1.6.7</module>
     </modules>
 
 </project>
