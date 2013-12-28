@@ -43,6 +43,8 @@
 
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
+        <module>bundles-pom</module>
+        <module>elasticsearch-0.90.5</module>
     </modules>
 
 </project>
