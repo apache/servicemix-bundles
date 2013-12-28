@@ -44,8 +44,10 @@
         <servicemix.osgi.failok>false</servicemix.osgi.failok>
         <servicemix.osgi.embed.dependency />
         <servicemix.osgi.fragment.host />
-        <servicemix.provide.capability />
-        <servicemix.require.capability />
+        <servicemix.osgi.native />
+        <servicemix.osgi.activator />
+        <servicemix.osgi.provide.capability />
+        <servicemix.osgi.require.capability />
         <servicemix.spi.provider />
         <servicemix.spi.consumer />
     </properties>
@@ -195,8 +197,8 @@
                         <Bundle-NativeCode>${servicemix.osgi.native}</Bundle-NativeCode>
                         <Bundle-Activator>${servicemix.osgi.activator}</Bundle-Activator>
                         <Fragment-Host>${servicemix.osgi.fragment.host}</Fragment-Host>
-                        <Provide-Capability>${servicemix.provide.capability}</Provide-Capability>
-                        <Require-Capability>${servicemix.require.capability}</Require-Capability>
+                        <Provide-Capability>${servicemix.osgi.provide.capability}</Provide-Capability>
+                        <Require-Capability>${servicemix.osgi.require.capability}</Require-Capability>
                         <SPI-Provider>${servicemix.spi.provider}</SPI-Provider>
                         <SPI-Consumer>${servicemix.spi.consumer}</SPI-Consumer>
                         <_failok>${servicemix.osgi.failok}</_failok>
