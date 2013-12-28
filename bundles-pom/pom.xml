@@ -25,7 +25,7 @@
         <groupId>org.apache.servicemix</groupId>
         <artifactId>servicemix-pom</artifactId>
         <version>5</version>
-        <relativePath>../pom.xml</relativePath>
+        <relativePath>../../servicemix-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
