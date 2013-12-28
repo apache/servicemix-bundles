@@ -1,0 +1,15 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    Redis Java client
+
+    Example usage DataSource dataSource = new SimpleDataSource("192.168.56.101"); 
+    SingleRedisOperations redis = new RedisNode(dataSource); 
+    redis.set("foo", "key1"); System.out.println(redis.get("foo"));
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://e-mzungu.github.io/rjc/\u001B[0m
