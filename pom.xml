@@ -59,6 +59,7 @@
         <module>cglib-3.1</module>
         <module>json4s-3.2.6</module>
         <module>postgresql-9.3-1100-jdbc41</module>
+        <module>facebook4j-2.0.4</module>
     </modules>
 
 </project>
