@@ -57,6 +57,7 @@
         <module>bcprov-jdk15on-1.50</module>
         <module>jaxen-1.1.6</module>
         <module>cglib-3.1</module>
+        <module>json4s-3.2.6</module>
     </modules>
 
 </project>
