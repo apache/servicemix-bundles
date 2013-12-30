@@ -61,6 +61,7 @@
         <module>postgresql-9.3-1100-jdbc41</module>
         <module>facebook4j-2.0.4</module>
         <module>hbase-0.96.1.1-hadoop2</module>
+        <module>javaewah-0.7.9</module>
     </modules>
 
 </project>
