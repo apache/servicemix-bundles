@@ -60,6 +60,7 @@
         <module>json4s-3.2.6</module>
         <module>postgresql-9.3-1100-jdbc41</module>
         <module>facebook4j-2.0.4</module>
+        <module>hbase-0.96.1.1-hadoop2</module>
     </modules>
 
 </project>
