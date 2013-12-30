@@ -63,6 +63,7 @@
         <module>hbase-0.96.1.1-hadoop2</module>
         <module>javaewah-0.7.9</module>
         <module>aws-java-sdk-1.6.10</module>
+        <module>jackson-module-scala-2.3.0</module>
     </modules>
 
 </project>
