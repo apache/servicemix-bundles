@@ -50,6 +50,7 @@
         <module>xstream-1.4.5</module>
         <module>mustache-compiler-0.8.14</module>
         <module>rjc-0.7</module>
+        <module>saaj-impl-1.3.23</module>
     </modules>
 
 </project>
