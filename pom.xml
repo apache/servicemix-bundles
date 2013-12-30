@@ -52,6 +52,7 @@
         <module>rjc-0.7</module>
         <module>saaj-impl-1.3.23</module>
         <module>saxon-9.5.1-3</module>
+        <module>bcpg-jdk15on-1.50</module>
     </modules>
 
 </project>
