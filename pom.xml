@@ -65,6 +65,7 @@
         <module>aws-java-sdk-1.6.10</module>
         <module>jackson-module-scala-2.3.0</module>
         <module>netty-3.2.10.Final</module>
+        <module>hibernate-validator-5.0.2.Final</module>
     </modules>
 
 </project>
