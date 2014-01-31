@@ -43,7 +43,7 @@
 
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
-        <module>opensaml-1.6.1</module>
+        <module>opensaml-2.6.1</module>
     </modules>
 
 </project>
