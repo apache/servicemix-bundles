@@ -47,6 +47,7 @@
         <module>spring-core-3.2.7.RELEASE</module>
         <module>spring-beans-3.2.7.RELEASE</module>
         <module>spring-web-3.2.7.RELEASE</module>
+        <module>spring-webmvc-3.2.7.RELEASE</module>
     </modules>
 
 </project>
