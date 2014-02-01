@@ -44,8 +44,8 @@
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
         <module>opensaml-2.6.1</module>
-        <module>spring-core-3.2.7.RELEASE</module>
         <module>spring-beans-3.2.7.RELEASE</module>
+        <module>spring-core-3.2.7.RELEASE</module>
         <module>spring-web-3.2.7.RELEASE</module>
         <module>spring-webmvc-3.2.7.RELEASE</module>
     </modules>
