@@ -78,6 +78,9 @@
             org.xml.sax.*;resolution:=optional,
             org.w3c.dom.*;resolution:=optional
         </servicemix.osgi.import.pkg>
+        <servicemix.osgi.private.pkg>
+            META-INF.services*
+        </servicemix.osgi.private.pkg>
     </properties>
 
     <dependencies>
@@ -115,23 +118,33 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
-                <configuration>
-                    <artifactSet>
-                        <includes>
-                            <include>${pkgGroupId}:${pkgArtifactId}</include>
-                        </includes>
-                    </artifactSet>
-                    <filters>
-                        <filter>
-                            <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
-                            <includes>
-                                <include>META-INF/spring.*</include>
-                            </includes>
-                        </filter>
-                    </filters>
-                    <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
-                    <createDependencyReducedPom>true</createDependencyReducedPom>
-                </configuration>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <artifactSet>
+                                <includes>
+                                    <include>${pkgGroupId}:${pkgArtifactId}</include>
+                                </includes>
+                            </artifactSet>
+                            <filters>
+                                <filter>
+                                    <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
+                                    <includes>
+                                        <include>**/*.properties</include>
+                                        <include>META-INF/web-fragment.xml</include>
+                                        <include>META-INF/services/**</include>
+                                    </includes>
+                                </filter>
+                            </filters>
+                            <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
+                            <createDependencyReducedPom>true</createDependencyReducedPom>
+                        </configuration>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
