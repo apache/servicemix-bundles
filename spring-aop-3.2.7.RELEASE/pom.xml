@@ -70,14 +70,14 @@
             org.springframework.cglib.core;version=${pkgVersion};resolution:=optional,
             org.springframework.cglib.proxy;version=${pkgVersion};resolution:=optional,
             org.springframework.cglib.transform.impl;version=${pkgVersion};resolution:=optional,
-            org.springframework.core;version=${pkgVersion};resolution:=optional,
-            org.springframework.core.annotation;version=${pkgVersion};resolution:=optional,
-            org.springframework.core.convert.converter;version=${pkgVersion};resolution:=optional,
-            org.springframework.core.task;version=${pkgVersion};resolution:=optional,
-            org.springframework.core.task.support;version=${pkgVersion};resolution:=optional,
-            org.springframework.util;version=${pkgVersion};resolution:=optional,
-            org.springframework.util.comparator;version=${pkgVersion};resolution:=optional,
-            org.springframework.util.xml;version=${pkgVersion};resolution:=optional,
+            org.springframework.core;version=${pkgVersion},
+            org.springframework.core.annotation;version=${pkgVersion},
+            org.springframework.core.convert.converter;version=${pkgVersion},
+            org.springframework.core.task;version=${pkgVersion},
+            org.springframework.core.task.support;version=${pkgVersion},
+            org.springframework.util;version=${pkgVersion},
+            org.springframework.util.comparator;version=${pkgVersion},
+            org.springframework.util.xml;version=${pkgVersion},
             org.w3c.dom;resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
