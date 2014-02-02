@@ -42,11 +42,11 @@
             org.springframework
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            org.springframework.core;version=${pkgVersion};resolution:=optional,
-            org.springframework.core.convert;version=${pkgVersion};resolution:=optional,
-            org.springframework.core.convert.support;version=${pkgVersion};resolution:=optional,
-            org.springframework.core.style;version=${pkgVersion};resolution:=optional,
-            org.springframework.util;version=${pkgVersion};resolution:=optional
+            org.springframework.core;version=${pkgVersion},
+            org.springframework.core.convert;version=${pkgVersion},
+            org.springframework.core.convert.support;version=${pkgVersion},
+            org.springframework.core.style;version=${pkgVersion},
+            org.springframework.util;version=${pkgVersion}
         </servicemix.osgi.import.pkg>
     </properties>
 
