@@ -55,6 +55,7 @@
         <module>spring-jdbc-3.2.7.RELEASE</module>
         <module>spring-jms-3.2.7.RELEASE</module>
         <module>spring-orm-3.2.7.RELEASE</module>
+        <module>spring-oxm-3.2.7.RELEASE</module>
         <module>spring-web-3.2.7.RELEASE</module>
         <module>spring-webmvc-3.2.7.RELEASE</module>
     </modules>
