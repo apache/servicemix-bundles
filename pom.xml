@@ -45,6 +45,7 @@
         <!-- add modules for all bundles to released in the next batch here -->
         <module>opensaml-2.6.1</module>
         <module>spring-aop-3.2.7.RELEASE</module>
+        <module>spring-aop-4.0.1.RELEASE</module>
         <module>spring-aspects-3.2.7.RELEASE</module>
         <module>spring-beans-3.2.7.RELEASE</module>
         <module>spring-context-3.2.7.RELEASE</module>
