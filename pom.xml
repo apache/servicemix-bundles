@@ -71,6 +71,7 @@
         <module>spring-oxm-4.0.1.RELEASE</module>
         <module>spring-struts-3.2.7.RELEASE</module>
         <module>spring-test-3.2.7.RELEASE</module>
+        <module>spring-test-4.0.1.RELEASE</module>
         <module>spring-tx-3.2.7.RELEASE</module>
         <module>spring-web-3.2.7.RELEASE</module>
         <module>spring-webmvc-3.2.7.RELEASE</module>
