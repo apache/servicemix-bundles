@@ -77,6 +77,12 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
     </dependencies>
 
