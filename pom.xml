@@ -49,6 +49,7 @@
         <module>spring-aspects-3.2.7.RELEASE</module>
         <module>spring-aspects-4.0.1.RELEASE</module>
         <module>spring-beans-3.2.7.RELEASE</module>
+        <module>spring-beans-4.0.1.RELEASE</module>
         <module>spring-context-3.2.7.RELEASE</module>
         <module>spring-context-support-3.2.7.RELEASE</module>
         <module>spring-core-3.2.7.RELEASE</module>
