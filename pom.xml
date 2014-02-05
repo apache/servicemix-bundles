@@ -95,6 +95,7 @@
         <module>jopt-simple-4.6</module>
         <module>javaewah-0.8.2</module>
         <module>gae-1.8.9</module>
+        <module>ehcache-2.6.8</module>
     </modules>
 
 </project>
