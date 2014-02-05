@@ -88,6 +88,7 @@
         <module>snmp4j-2.2.4</module>
         <module>saxon-9.5.1-4</module>
         <module>lucene-4.6.1</module>
+        <module>lucene-analyzers-common-4.6.1</module>
     </modules>
 
 </project>
