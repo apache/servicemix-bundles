@@ -92,6 +92,7 @@
         <module>lucene-queries-4.6.1</module>
         <module>lucene-queryparser-4.6.1</module>
         <module>lucene-sandbox-4.6.1</module>
+        <module>jopt-simple-4.6</module>
     </modules>
 
 </project>
