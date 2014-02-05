@@ -94,6 +94,7 @@
         <module>lucene-sandbox-4.6.1</module>
         <module>jopt-simple-4.6</module>
         <module>javaewah-0.8.2</module>
+        <module>gae-1.8.9</module>
     </modules>
 
 </project>
