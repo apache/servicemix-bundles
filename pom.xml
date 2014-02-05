@@ -87,6 +87,7 @@
         <module>spring-ldap-2.0.0.RELEASE</module>
         <module>snmp4j-2.2.4</module>
         <module>saxon-9.5.1-4</module>
+        <module>lucene-4.6.1</module>
     </modules>
 
 </project>
