@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>9-SNAPSHOT</version>
+        <version>11</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -39,9 +39,9 @@
         <pkgGroupId>xpp3</pkgGroupId>
         <pkgArtifactId>xpp3</pkgArtifactId>
         <pkgVersion>1.1.4c</pkgVersion>
-        <servicemix.osgi.export.pkg>
-            org.xmlpull
-        </servicemix.osgi.export.pkg>
+        <servicemix.osgi.export>
+            org.xmlpull*;version=1.1.4.c;-split-package:=merge-first
+        </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
             javax.xml.parsers,
             org.w3c.dom,
@@ -55,7 +55,6 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
-            <optional>true</optional>
         </dependency>
 
         <!-- sources -->
@@ -64,12 +63,20 @@
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
             <classifier>sources</classifier>
-            <optional>true</optional>
         </dependency>
     </dependencies>
 
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>maven-bundle-plugin</artifactId>
+                <configuration>
+                    <instructions>
+                        <Bundle-Version>1.1.4.c</Bundle-Version>
+                    </instructions>
+                </configuration>
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
