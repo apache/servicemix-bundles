@@ -24,7 +24,7 @@
     <parent>
        <groupId>org.apache.servicemix.bundles</groupId>
        <artifactId>bundles-pom</artifactId>
-       <version>10</version>
+       <version>11</version>
        <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -54,7 +54,12 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
-            <optional>true</optional>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.hamcrest</groupId>
+                    <artifactId>hamcrest-core</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <!-- sources -->
@@ -63,7 +68,6 @@
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
             <classifier>sources</classifier>
-            <optional>true</optional>
         </dependency>
     </dependencies>
 
