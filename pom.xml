@@ -81,6 +81,7 @@
         <module>spring-webmvc-portlet-3.2.7.RELEASE</module>
         <module>spring-webmvc-portlet-4.0.1.RELEASE</module>
         <module>spring-websocket-4.0.1.RELEASE</module>
+        <module>swagger-core-1.3.2</module>
     </modules>
 
 </project>
