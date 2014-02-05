@@ -101,6 +101,8 @@
         <module>avro-ipc-1.7.6</module>
         <module>ant-1.9.3</module>
         <module>junit-4.11</module>
+        <module>derby-10.9.1.0</module>
+        <module>derby-10.10.1.1</module>
     </modules>
 
 </project>
