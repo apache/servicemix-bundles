@@ -97,6 +97,7 @@
         <module>gae-1.8.9</module>
         <module>ehcache-2.6.8</module>
         <module>aws-java-sdk-1.6.12</module>
+        <module>avro-1.7.6</module>
     </modules>
 
 </project>
