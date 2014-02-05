@@ -99,6 +99,7 @@
         <module>aws-java-sdk-1.6.12</module>
         <module>avro-1.7.6</module>
         <module>avro-ipc-1.7.6</module>
+        <module>ant-1.9.3</module>
     </modules>
 
 </project>
