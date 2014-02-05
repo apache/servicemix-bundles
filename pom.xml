@@ -53,6 +53,12 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.wordnik</groupId>
+                    <artifactId>swagger-annotations</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <!-- sources -->
@@ -62,6 +68,12 @@
             <version>${pkgVersion}</version>
             <classifier>sources</classifier>
             <optional>true</optional>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.wordnik</groupId>
+                    <artifactId>swagger-annotations</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
     </dependencies>
 
