@@ -104,6 +104,7 @@
         <module>derby-10.9.1.0</module>
         <module>derby-10.10.1.1</module>
         <module>xpp3-1.1.4c</module>
+        <module>json-20090211</module>
     </modules>
 
 </project>
