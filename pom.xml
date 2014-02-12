@@ -109,6 +109,7 @@
         <module>xstream-1.4.7</module>
         <module>gwt-servlet-2.6.0</module>
         <module>gwt-user-2.6.0</module>
+        <module>gwt-dev-2.6.0</module>
     </modules>
 
 </project>
