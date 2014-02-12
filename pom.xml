@@ -107,6 +107,7 @@
         <module>json-20090211</module>
         <module>json-20140107</module>
         <module>xstream-1.4.7</module>
+        <module>gwt-servlet-2.6.0</module>
     </modules>
 
 </project>
