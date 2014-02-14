@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <parent>
+    <artifactId>bundles-pom</artifactId>
+    <groupId>org.apache.servicemix.bundles</groupId>
+    <version>11</version>
+    <relativePath>../bundles-pom/pom.xml</relativePath>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.apache.servicemix.bundles</groupId>
+  <artifactId>org.apache.servicemix.bundles.joda-time</artifactId>
+  <packaging>bundle</packaging>
+  <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
+  <version>2.3_1-SNAPSHOT</version>
+  <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-shade-plugin</artifactId>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>shade</goal>
+            </goals>
+            <configuration>
+              <artifactSet>
+                <includes>
+                  <include>${pkgGroupId}:${pkgArtifactId}</include>
+                </includes>
+              </artifactSet>
+              <filters>
+                <filter>
+                  <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
+                  <excludes>
+                    <exclude>**</exclude>
+                  </excludes>
+                </filter>
+              </filters>
+              <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
+              <createDependencyReducedPom>true</createDependencyReducedPom>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+  <properties>
+    <pkgVersion>2.3</pkgVersion>
+    <servicemix.osgi.import.pkg>org.joda.convert;resolution:=optional;version="[1.2,2)"</servicemix.osgi.import.pkg>
+    <servicemix.osgi.export.pkg>org.joda.time</servicemix.osgi.export.pkg>
+    <pkgArtifactId>joda-time</pkgArtifactId>
+    <pkgGroupId>joda-time</pkgGroupId>
+  </properties>
+</project>
+
