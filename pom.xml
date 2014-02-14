@@ -110,6 +110,7 @@
         <module>gwt-servlet-2.6.0</module>
         <module>gwt-user-2.6.0</module>
         <module>gwt-dev-2.6.0</module>
+        <module>joda-time-2.3</module>
     </modules>
 
 </project>
