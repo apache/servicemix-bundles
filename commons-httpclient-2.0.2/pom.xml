@@ -29,29 +29,24 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.commons-vfs</artifactId>
-    <version>1.0_7-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.commons-httpclient</artifactId>
+    <version>2.0.2_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
 
     <properties>
-        <pkgGroupId>commons-vfs</pkgGroupId>
-        <pkgArtifactId>commons-vfs</pkgArtifactId>
-        <pkgVersion>1.0</pkgVersion>
+        <pkgGroupId>commons-httpclient</pkgGroupId>
+        <pkgArtifactId>commons-httpclient</pkgArtifactId>
+        <pkgVersion>2.0.2</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.apache.commons.vfs
+            org.apache.commons.httpclient
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            javax.crypto,
-            javax.xml*,
-            org.w3c.dom,
-            com.jcraft.jsch*;resolution:=optional;version="[0.1.23,2)",
-            org.apache.commons.collections*;resolution:=optional;version="[3.1,4)",
-            org.apache.commons.httpclient*;resolution:=optional;version="[2.0.2,3)",
-            org.apache.commons.logging*;version="[1.0,2)";resolution:=optional,
-            org.apache.commons.net.ftp*;resolution:=optional;version="[1.4.1,2)",
-            org.apache.tools.ant*;resolution:=optional;version="[1.6.2,2)"
+            javax.crypto*,
+            javax.net*,
+            org.apache.commons.codec*;version="[1.2,2)",
+            org.apache.commons.logging*;resolution:=optional,
         </servicemix.osgi.import.pkg>
     </properties>
 
@@ -64,7 +59,6 @@
         </dependency>
 
         <!-- sources -->
-        <!-- Not available on Central
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
@@ -72,7 +66,6 @@
             <classifier>sources</classifier>
             <optional>true</optional>
         </dependency>
-        -->
     </dependencies>
 
     <build>
