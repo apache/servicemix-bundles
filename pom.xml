@@ -46,6 +46,7 @@
         <module>joda-time-2.3</module>
         <module>elasticsearch-1.0.0</module>
         <module>commons-httpclient-2.0.2</module>
+        <module>hbase-0.98.0-hadoop2</module>
     </modules>
 
 </project>
