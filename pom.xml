@@ -74,6 +74,7 @@
         <module>spring-tx-4.0.2.RELEASE</module>
         <module>spring-web-4.0.2.RELEASE</module>
         <module>spring-webmvc-4.0.2.RELEASE</module>
+        <module>spring-webmvc-portlet-4.0.2.RELEASE</module>
     </modules>
 
 </project>
