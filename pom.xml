@@ -65,6 +65,7 @@
         <module>spring-core-4.0.2.RELEASE</module>
         <module>spring-expression-4.0.2.RELEASE</module>
         <module>spring-instrument-4.0.2.RELEASE</module>
+        <module>spring-jdbc-4.0.2.RELEASE</module>
     </modules>
 
 </project>
