@@ -55,6 +55,7 @@
         <module>aws-java-sdk-1.6.12</module>
         <module>aws-java-sdk-1.7.1</module>
         <module>jedis-2.4.1</module>
+        <module>qpid-0.26</module>
     </modules>
 
 </project>
