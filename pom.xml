@@ -48,6 +48,7 @@
         <module>commons-httpclient-2.0.2</module>
         <module>hbase-0.98.0-hadoop2</module>
         <module>kafka_2.10-0.8.0</module>
+        <module>paranamer-2.3</module>
     </modules>
 
 </project>
