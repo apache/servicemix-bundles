@@ -64,6 +64,7 @@
         <module>spring-context-support-4.0.2.RELEASE</module>
         <module>spring-core-4.0.2.RELEASE</module>
         <module>spring-expression-4.0.2.RELEASE</module>
+        <module>spring-instrument-4.0.2.RELEASE</module>
     </modules>
 
 </project>
