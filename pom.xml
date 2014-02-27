@@ -38,7 +38,7 @@
     <properties>
         <pkgGroupId>com.amazonaws</pkgGroupId>
         <pkgArtifactId>aws-java-sdk</pkgArtifactId>
-        <pkgVersion>1.6.11</pkgVersion>
+        <pkgVersion>1.6.12</pkgVersion>
         <servicemix.osgi.export.pkg>
             com.amazonaws*
         </servicemix.osgi.export.pkg>
