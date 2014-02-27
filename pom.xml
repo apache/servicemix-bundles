@@ -71,6 +71,7 @@
         <module>spring-orm-4.0.2.RELEASE</module>
         <module>spring-oxm-4.0.2.RELEASE</module>
         <module>spring-test-4.0.2.RELEASE</module>
+        <module>spring-tx-4.0.2.RELEASE</module>
     </modules>
 
 </project>
