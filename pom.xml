@@ -56,6 +56,7 @@
         <module>aws-java-sdk-1.7.1</module>
         <module>jedis-2.4.1</module>
         <module>qpid-0.26</module>
+        <module>solr-solrj-4.6.1</module>
     </modules>
 
 </project>
