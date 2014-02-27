@@ -67,6 +67,7 @@
         <module>spring-instrument-4.0.2.RELEASE</module>
         <module>spring-jdbc-4.0.2.RELEASE</module>
         <module>spring-jms-4.0.2.RELEASE</module>
+        <module>spring-messaging-4.0.2.RELEASE</module>
     </modules>
 
 </project>
