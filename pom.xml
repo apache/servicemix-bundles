@@ -49,6 +49,7 @@
         <module>hbase-0.98.0-hadoop2</module>
         <module>kafka_2.10-0.8.0</module>
         <module>paranamer-2.3</module>
+        <module>snmp4j-2.2.5</module>
     </modules>
 
 </project>
