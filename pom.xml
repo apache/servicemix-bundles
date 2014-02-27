@@ -59,6 +59,7 @@
         <module>solr-solrj-4.6.1</module>
         <module>spring-aop-4.0.2.RELEASE</module>
         <module>spring-aspects-4.0.2.RELEASE</module>
+        <module>spring-beans-4.0.2.RELEASE</module>
     </modules>
 
 </project>
