@@ -81,6 +81,7 @@
         <module>spring-beans-3.2.8.RELEASE</module>
         <module>spring-context-3.2.8.RELEASE</module>
         <module>spring-context-support-3.2.8.RELEASE</module>
+        <module>spring-core-3.2.8.RELEASE</module>
     </modules>
 
 </project>
