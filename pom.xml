@@ -89,6 +89,7 @@
         <module>spring-orm-3.2.8.RELEASE</module>
         <module>spring-oxm-3.2.8.RELEASE</module>
         <module>spring-struts-3.2.8.RELEASE</module>
+        <module>spring-test-3.2.8.RELEASE</module>
     </modules>
 
 </project>
