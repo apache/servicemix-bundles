@@ -91,6 +91,7 @@
         <module>spring-struts-3.2.8.RELEASE</module>
         <module>spring-test-3.2.8.RELEASE</module>
         <module>spring-tx-3.2.8.RELEASE</module>
+        <module>spring-web-3.2.8.RELEASE</module>
     </modules>
 
 </project>
