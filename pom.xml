@@ -96,6 +96,8 @@
         <module>spring-webmvc-portlet-3.2.8.RELEASE</module>
         <module>spring-ldap-2.0.1.RELEASE</module>
         <module>elasticsearch-1.0.1</module>
+        <module>avro-1.7.5</module>
+        <module>avro-1.7.6</module>
     </modules>
 
 </project>
