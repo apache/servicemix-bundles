@@ -86,6 +86,7 @@
         <module>spring-instrument-3.2.8.RELEASE</module>
         <module>spring-jdbc-3.2.8.RELEASE</module>
         <module>spring-jms-3.2.8.RELEASE</module>
+        <module>spring-orm-3.2.8.RELEASE</module>
     </modules>
 
 </project>
