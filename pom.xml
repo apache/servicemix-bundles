@@ -45,9 +45,10 @@
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
             com.thoughtworks.paranamer;version="[2.3,3)",
+            org.apache.commons.compress*,
             org.codehaus.jackson*;version="[1.8,2)",
             org.xerial.snappy;version="[1.0,2)",
-            *
+            sun.misc;resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
 
