@@ -78,6 +78,7 @@
         <module>spring-websocket-4.0.2.RELEASE</module>
         <module>spring-aop-3.2.8.RELEASE</module>
         <module>spring-aspects-3.2.8.RELEASE</module>
+        <module>spring-beans-3.2.8.RELEASE</module>
     </modules>
 
 </project>
