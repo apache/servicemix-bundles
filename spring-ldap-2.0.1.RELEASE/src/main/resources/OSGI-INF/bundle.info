@@ -1,0 +1,34 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/spring-ldap-core/${pkgVersion}\u001B[0m
+        \u001B[33mmvn:${pkgGroupId}/spring-ldap-core-tiger/${pkgVersion}\u001B[0m
+        \u001B[33mmvn:${pkgGroupId}/spring-ldap-odm/${pkgVersion}\u001B[0m
+        \u001B[33mmvn:${pkgGroupId}/spring-ldap-ldif-core/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    Spring LDAP is a Java library for simplifying LDAP operations, based on the
+    pattern of Spring's JdbcTemplate. The framework relieves the user of common
+    chores, such as looking up and closing contexts, looping through results,
+    encoding/decoding values and filters, and more.
+
+    The LdapTemplate class encapsulates all the plumbing work involved in
+    traditional LDAP programming, such as creating a DirContext, looping through
+    NamingEnumerations, handling exceptions and cleaning up resources. This leaves
+    the programmer to handle the important stuff - where to find data (DNs and Filters)
+    and what do do with it (map to and from domain objects, bind, modify, unbind, etc.),
+    in the same way that JdbcTemplate relieves the programmer of all but the actual SQL
+    and how the data maps to the domain model.
+
+    In addition to this, Spring LDAP provides transaction support, a pooling library,
+    an Object-Directory Mapping (ODM) framework, an LDIF parsing library with Spring
+    Batch integration, exception translation from NamingExceptions to a mirrored unchecked
+    Exception hierarchy, as well as several utilities for working with filters, LDAP paths
+    and Attributes.
+
+    Spring LDAP requires J2SE 1.4 or higher to run, and works with Spring Framework 2.0.x,
+    2.5.x as well as 3.0.x.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://www.springsource.org/ldap\u001B[0m
