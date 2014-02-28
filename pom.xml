@@ -83,6 +83,7 @@
         <module>spring-context-support-3.2.8.RELEASE</module>
         <module>spring-core-3.2.8.RELEASE</module>
         <module>spring-expression-3.2.8.RELEASE</module>
+        <module>spring-instrument-3.2.8.RELEASE</module>
     </modules>
 
 </project>
