@@ -43,9 +43,9 @@
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             com.google.common*,
-            com.google.inject, 
-            com.google.inject.binder, 
-            com.google.inject.servlet;resolution:=optional,
+            com.google.inject;version="[3,4)", 
+            com.google.inject.binder;version="[3,4)", 
+            com.google.inject.servlet;version="[3,4)";resolution:=optional,
             com.google.protobuf;version="[2.5,3)",
             com.jcraft.jsch;resolution:=optional,
             javax.annotation,
