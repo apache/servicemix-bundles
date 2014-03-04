@@ -139,8 +139,6 @@
             org.jvnet.staxex;resolution:=optional,
             org.kosmix.kosmosfs.access;resolution:=optional,
             org.mortbay*;version="[6,8)";resolution:=optional,
-            org.osgi.framework,
-            org.osgi.service.prefs,
             org.slf4j;resolution:=optional,
             org.w3c.dom,
             org.w3c.dom.bootstrap,
