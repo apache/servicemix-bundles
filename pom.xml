@@ -43,6 +43,7 @@
 
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
+        <module>archaius-core-0.6.0</module>
         <module>bsf-2.4.0</module>
     </modules>
 
