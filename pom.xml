@@ -52,7 +52,6 @@
             javax.net*,
             org.apache.commons.lang*,
             org.apache.commons.pool*,
-            org.springframework;
             org.springframework.batch*,
             org.springframework.beans*,
             org.springframework.data*,
@@ -72,7 +71,7 @@
             org.w3c.dom;resolution:=optional
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
-            org.springframework.transaction.compensating, org.springframework.transaction.compensating.support
+            org.springframework.transaction.compensating, org.springframework.transaction.compensating.support,org.springframework
         </servicemix.osgi.private.pkg>
     </properties>
 
