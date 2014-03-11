@@ -55,6 +55,8 @@
         <module>lucene-4.5.1</module>
         <module>archaius-core-0.6.0</module>
         <module>bsf-2.4.0</module>
+        <module>spring-ldap-2.0.1.RELEASE</module>
+        <module>spring-ldap-2.0.0.RELEASE</module>
     </modules>
 
 </project>
