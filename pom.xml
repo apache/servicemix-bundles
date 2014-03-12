@@ -39,7 +39,6 @@
         <pkgGroupId>com.yammer.metrics</pkgGroupId>
         <pkgArtifactId>metrics-annotation</pkgArtifactId>
         <pkgVersion>2.2.0</pkgVersion>
-        <servicemix.osgi.failok>true</servicemix.osgi.failok>
     </properties>
 
     <dependencies>
@@ -50,8 +49,6 @@
             <optional>false</optional>
         </dependency>
 
-        <!-- sources -->
-        <!-- Not available
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
@@ -59,7 +56,6 @@
             <classifier>sources</classifier>
             <optional>true</optional>
         </dependency>
-        -->
     </dependencies>
 
     <build>
