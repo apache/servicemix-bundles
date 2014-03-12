@@ -57,6 +57,8 @@
         <module>bsf-2.4.0</module>
         <module>spring-ldap-2.0.1.RELEASE</module>
         <module>spring-ldap-2.0.0.RELEASE</module>
+        <module>metrics-annotation-2.2.0</module>
+        <module>metrics-core-2.2.0</module>
     </modules>
 
 </project>
