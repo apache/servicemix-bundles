@@ -1,0 +1,16 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    Metrics is a Java library which gives you unparalleled insight into what your code does in production.
+        * Metrics provides a powerful toolkit of ways to measure the behavior of 
+          critical components in your production environment.
+        * With modules for common libraries like Jetty, Logback, Log4j, Apache HttpClient, 
+          Ehcache, JDBI, Jersey and reporting backends like Ganglia and Graphite, Metrics 
+          provides you with full-stack visibility.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://metrics.codahale.com/\u001B[0m
