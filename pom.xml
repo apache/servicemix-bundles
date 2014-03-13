@@ -59,6 +59,7 @@
         <module>spring-ldap-2.0.0.RELEASE</module>
         <module>metrics-annotation-2.2.0</module>
         <module>metrics-core-2.2.0</module>
+        <module>kafka_2.10-0.8.1</module>
     </modules>
 
 </project>
