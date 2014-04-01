@@ -55,9 +55,9 @@
             osgi.serviceloader; osgi.serviceloader=org.apache.lucene.codecs.PostingsFormat,
             osgi.serviceloader; osgi.serviceloader=org.apache.lucene.codecs.DocValuesFormat
         </servicemix.osgi.provide.capability>
-        <servicmeix.osgi.require.capability>
+        <servicemix.osgi.require.capability>
             osgi.extender; filter:="(osgi.extender=osgi.serviceloader.registrar)"
-        </servicmeix.osgi.require.capability>
+        </servicemix.osgi.require.capability>
     </properties>
 
     <repositories>
