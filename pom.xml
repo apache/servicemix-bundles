@@ -63,6 +63,7 @@
         <module>jsch-0.1.51</module>
         <module>elasticsearch-1.0.1</module>
         <module>elasticsearch-1.0.0</module>
+        <module>hystrix-1.3.13</module>
     </modules>
 
 </project>
