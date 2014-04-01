@@ -61,6 +61,8 @@
         <module>metrics-core-2.2.0</module>
         <module>kafka_2.10-0.8.1</module>
         <module>jsch-0.1.51</module>
+        <module>elasticsearch-1.0.1</module>
+        <module>elasticsearch-1.0.0</module>
     </modules>
 
 </project>
