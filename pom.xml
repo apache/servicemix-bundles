@@ -71,6 +71,7 @@
         <module>commons-compiler-2.6.1</module>
         <module>janino-2.6.1</module>
         <module>spring-aop-4.0.3.RELEASE</module>
+        <module>spring-aspects-4.0.3.RELEASE</module>
     </modules>
 
 </project>
