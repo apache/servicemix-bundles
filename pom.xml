@@ -91,6 +91,7 @@
         <module>spring-websocket-4.0.3.RELEASE</module>
         <module>lucene-4.7.0</module>
         <module>lucene-analyzers-common-4.7.0</module>
+        <module>lucene-queries-4.7.0</module>
     </modules>
 
 </project>
