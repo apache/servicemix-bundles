@@ -82,6 +82,7 @@
         <module>spring-jms-4.0.3.RELEASE</module>
         <module>spring-messaging-4.0.3.RELEASE</module>
         <module>spring-orm-4.0.3.RELEASE</module>
+        <module>spring-oxm-4.0.3.RELEASE</module>
     </modules>
 
 </project>
