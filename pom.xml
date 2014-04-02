@@ -92,6 +92,7 @@
         <module>lucene-4.7.0</module>
         <module>lucene-analyzers-common-4.7.0</module>
         <module>lucene-queries-4.7.0</module>
+        <module>lucene-queryparser-4.7.0</module>
     </modules>
 
 </project>
