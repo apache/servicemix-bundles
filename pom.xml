@@ -94,6 +94,7 @@
         <module>lucene-queries-4.7.0</module>
         <module>lucene-queryparser-4.7.0</module>
         <module>lucene-sandbox-4.7.0</module>
+        <module>antlr-3.5.2</module>
     </modules>
 
 </project>
