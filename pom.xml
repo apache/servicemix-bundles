@@ -107,6 +107,7 @@
         <module>saxon-9.5.1-5</module>
         <module>javaewah-0.8.5</module>
         <module>solr-solrj-4.7.0</module>
+        <module>jedis-2.4.2</module>
     </modules>
 
 </project>
