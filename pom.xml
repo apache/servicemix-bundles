@@ -110,6 +110,7 @@
         <module>jedis-2.4.2</module>
         <module>facebook4j-2.1.0</module>
         <module>twitter4j-4.0.1</module>
+        <module>jasypt-spring31-1.9.2</module>
     </modules>
 
 </project>
