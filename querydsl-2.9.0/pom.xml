@@ -32,7 +32,7 @@
     <artifactId>org.apache.servicemix.bundles.querydsl</artifactId>
     <version>2.9.0_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
-    <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
+    <name>Apache ServiceMix :: Bundles :: querydsl</name>
     <description>This OSGi bundle wraps querydsl-core, querydsl-apt, querydsl-codegen, querydsl-jdo, querydsl-lucene, querydsl-sql ${pkgVersion} jar files.</description>
 
     <properties>
