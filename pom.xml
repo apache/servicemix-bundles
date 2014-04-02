@@ -73,6 +73,7 @@
         <module>spring-aop-4.0.3.RELEASE</module>
         <module>spring-aspects-4.0.3.RELEASE</module>
         <module>spring-beans-4.0.3.RELEASE</module>
+        <module>spring-context-4.0.3.RELEASE</module>
     </modules>
 
 </project>
