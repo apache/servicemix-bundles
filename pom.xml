@@ -89,6 +89,7 @@
         <module>spring-webmvc-4.0.3.RELEASE</module>
         <module>spring-webmvc-portlet-4.0.3.RELEASE</module>
         <module>spring-websocket-4.0.3.RELEASE</module>
+        <module>lucene-4.7.0</module>
     </modules>
 
 </project>
