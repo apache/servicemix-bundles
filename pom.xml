@@ -75,6 +75,7 @@
         <module>spring-beans-4.0.3.RELEASE</module>
         <module>spring-context-4.0.3.RELEASE</module>
         <module>spring-context-support-4.0.3.RELEASE</module>
+        <module>spring-core-4.0.3.RELEASE</module>
     </modules>
 
 </project>
