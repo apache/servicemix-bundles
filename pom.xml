@@ -97,6 +97,7 @@
         <module>antlr-3.5.2</module>
         <module>antlr-runtime-3.5.2</module>
         <module>gae-1.9.1</module>
+        <module>splunk-1.2.2.0</module>
     </modules>
 
 </project>
