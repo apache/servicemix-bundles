@@ -67,6 +67,7 @@
         <module>jsch-agentproxy-jsch-0.0.7</module>
         <module>jsch-agentproxy-sshj-0.0.7</module>
         <module>querydsl-2.9.0</module>
+        <module>spring-data-neo4j-2.2.2.RELEASE</module>
     </modules>
 
 </project>
