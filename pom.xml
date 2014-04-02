@@ -96,6 +96,7 @@
         <module>lucene-sandbox-4.7.0</module>
         <module>antlr-3.5.2</module>
         <module>antlr-runtime-3.5.2</module>
+        <module>gae-1.9.1</module>
     </modules>
 
 </project>
