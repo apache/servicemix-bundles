@@ -68,6 +68,7 @@
         <module>jsch-agentproxy-sshj-0.0.7</module>
         <module>querydsl-2.9.0</module>
         <module>spring-data-neo4j-2.2.2.RELEASE</module>
+        <module>commons-compiler-2.6.1</module>
     </modules>
 
 </project>
