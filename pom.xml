@@ -109,6 +109,7 @@
         <module>solr-solrj-4.7.0</module>
         <module>jedis-2.4.2</module>
         <module>facebook4j-2.1.0</module>
+        <module>twitter4j-4.0.1</module>
     </modules>
 
 </project>
