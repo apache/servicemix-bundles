@@ -111,6 +111,7 @@
         <module>facebook4j-2.1.0</module>
         <module>twitter4j-4.0.1</module>
         <module>jasypt-spring31-1.9.2</module>
+        <module>elasticsearch-1.1.0</module>
     </modules>
 
 </project>
