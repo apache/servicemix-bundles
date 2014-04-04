@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.querydsl</artifactId>
-    <version>2.9.0_1-SNAPSHOT</version>
+    <version>2.9.0_1</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: querydsl</name>
     <description>This OSGi bundle wraps querydsl-core, querydsl-apt, querydsl-codegen, querydsl-jdo, querydsl-lucene, querydsl-sql ${pkgVersion} jar files.</description>
@@ -161,4 +161,10 @@
         </plugins>
     </build>
 
+
+  <scm>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.querydsl-2.9.0_1</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.querydsl-2.9.0_1</developerConnection>
+    <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.querydsl-2.9.0_1</url>
+  </scm>
 </project>
