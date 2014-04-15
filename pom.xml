@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>9-SNAPSHOT</version>
+        <version>11</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -66,6 +66,14 @@
             <version>${pkgVersion}</version>
             <classifier>sources</classifier>
             <optional>true</optional>
+        </dependency>
+        
+        <!-- slf4j dependency to compile the patched file -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.6.1</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
