@@ -49,7 +49,6 @@
             signature;resolution:=optional,
             userauth;resolution:=optional,
             org.ietf.jgss;resolution:=optional,
-            com.jcraft.jsch,
             javax.crypto,
             javax.crypto.interfaces,
             javax.crypto.spec,
@@ -69,7 +68,7 @@
         <dependency>
             <groupId>net.schmizz</groupId>
             <artifactId>sshj</artifactId>
-            <version>0.9.0</version>
+            <version>0.8.1</version>
         </dependency>
 
 
