@@ -24,13 +24,13 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>10</version>
+        <version>11</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.jaxb-impl</artifactId>
-    <version>2.2.6_2-SNAPSHOT</version>
+    <version>2.2.10_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -38,7 +38,7 @@
     <properties>
         <pkgGroupId>com.sun.xml.bind</pkgGroupId>
         <pkgArtifactId>jaxb-impl</pkgArtifactId>
-        <pkgVersion>2.2.6</pkgVersion>
+        <pkgVersion>2.2.10-b140310.1920</pkgVersion>
         <servicemix.osgi.export.pkg>
             com.sun.xml.bind*;-split-package:=merge-first,
             com.sun.istack*;-split-package:=merge-first,
@@ -48,6 +48,7 @@
             javax.activation,
             javax.imageio,
             javax.imageio.stream,
+            javax.lang.model,
             javax.xml.bind,
             javax.xml.bind.annotation,
             javax.xml.bind.annotation.adapters,
@@ -81,6 +82,12 @@
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>jaxb-core</artifactId>
             <version>${pkgVersion}</version>
             <optional>true</optional>
         </dependency>
@@ -130,11 +137,18 @@
                             <artifactSet>
                                 <includes>
                                     <include>${pkgGroupId}:${pkgArtifactId}</include>
+                                    <include>${pkgGroupId}:jaxb-core</include>
                                 </includes>
                             </artifactSet>
                             <filters>
                                 <filter>
                                     <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
+                                    <includes>
+                                        <include>*.properties</include>
+                                    </includes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:jaxb-core</artifact>
                                     <includes>
                                         <include>*.properties</include>
                                     </includes>
