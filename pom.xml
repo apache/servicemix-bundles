@@ -46,6 +46,8 @@
         <module>jsmpp-2.1.0</module>
         <module>aspectj-1.8.0</module>
         <module>zxing-3.0.1</module>
+        <module>jaxb-impl-2.2.10</module>
+        <module>jaxb-xjc-2.2.10</module>
     </modules>
 
 </project>
