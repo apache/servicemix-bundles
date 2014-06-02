@@ -52,18 +52,18 @@
             org.apache.struts.tiles;version="[1.2,3)";resolution:=optional,
             org.apache.struts.tiles.xmlDefinition;version="[1.2,3)";resolution:=optional,
             org.apache.struts.util;version="[1.2,3)";resolution:=optional,
-            org.springframework.beans;version=${pkgVersion},
-            org.springframework.beans.factory;version=${pkgVersion},
-            org.springframework.beans.factory.config;version=${pkgVersion},
-            org.springframework.context;version=${pkgVersion},
-            org.springframework.context.support;version=${pkgVersion},
-            org.springframework.util;version=${pkgVersion},
-            org.springframework.validation;version=${pkgVersion};resolution:=optional,
-            org.springframework.web.context;version=${pkgVersion};resolution:=optional,
-            org.springframework.web.context.support;version=${pkgVersion};resolution:=optional,
-            org.springframework.web.servlet.support;version=${pkgVersion};resolution:=optional,
-            org.springframework.web.servlet.view;version=${pkgVersion};resolution:=optional,
-            org.springframework.web.util;version=${pkgVersion};resolution:=optional
+            org.springframework.beans;version="[${pkgVersion},3.3)",
+            org.springframework.beans.factory;version="[${pkgVersion},3.3)",
+            org.springframework.beans.factory.config;version="[${pkgVersion},3.3)",
+            org.springframework.context;version="[${pkgVersion},3.3)",
+            org.springframework.context.support;version="[${pkgVersion},3.3)",
+            org.springframework.util;version="[${pkgVersion},3.3)",
+            org.springframework.validation;version="[${pkgVersion},3.3)";resolution:=optional,
+            org.springframework.web.context;version="[${pkgVersion},3.3)";resolution:=optional,
+            org.springframework.web.context.support;version="[${pkgVersion},3.3)";resolution:=optional,
+            org.springframework.web.servlet.support;version="[${pkgVersion},3.3)";resolution:=optional,
+            org.springframework.web.servlet.view;version="[${pkgVersion},3.3)";resolution:=optional,
+            org.springframework.web.util;version="[${pkgVersion},3.3)";resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
 
