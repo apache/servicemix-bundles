@@ -161,6 +161,7 @@
         <module>spring-web-3.2.9.RELEASE</module>
         <module>spring-webmvc-3.2.9.RELEASE</module>
         <module>spring-webmvc-portlet-3.2.9.RELEASE</module>
+        <module>gae-1.9.5</module>
     </modules>
 
 </project>
