@@ -141,6 +141,7 @@
         <module>elasticsearch-1.1.0</module>
         <module>elasticsearch-1.0.1</module>
         <module>elasticsearch-1.0.0</module>
+        <module>jdom-2.0.5</module>
     </modules>
 
 </project>
