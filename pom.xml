@@ -203,6 +203,8 @@
         <module>aws-java-sdk-1.7.12</module>
         <module>hadoop-client-2.4.0</module>
         <module>qpid-0.28</module>
+        <module>derby-10.10.2.0</module>
+        <module>derbynet-10.10.2.0</module>
     </modules>
 
 </project>
