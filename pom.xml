@@ -197,6 +197,7 @@
         <module>elasticsearch-1.2.0</module>
         <module>spring-ldap-2.0.2.RELEASE</module>
         <module>javaewah-0.8.6</module>
+        <module>openws-1.5.1</module>
     </modules>
 
 </project>
