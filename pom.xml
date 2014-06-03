@@ -205,6 +205,7 @@
         <module>qpid-0.28</module>
         <module>derby-10.10.2.0</module>
         <module>derbynet-10.10.2.0</module>
+        <module>jedis-2.5.1</module>
     </modules>
 
 </project>
