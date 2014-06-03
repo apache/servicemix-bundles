@@ -194,6 +194,7 @@
         <module>swagger-jaxrs-1.3.0</module>
         <module>ant-1.9.4</module>
         <module>snmp4j-2.3.0</module>
+        <module>elasticsearch-1.2.0</module>
     </modules>
 
 </project>
