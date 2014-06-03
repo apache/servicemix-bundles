@@ -199,6 +199,7 @@
         <module>javaewah-0.8.6</module>
         <module>openws-1.5.1</module>
         <module>xmltooling-1.4.1</module>
+        <module>casbah-2.7.2</module>
     </modules>
 
 </project>
