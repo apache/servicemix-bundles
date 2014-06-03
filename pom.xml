@@ -207,6 +207,9 @@
         <module>derbynet-10.10.2.0</module>
         <module>jedis-2.5.1</module>
         <module>json4s-3.2.10</module>
+        <module>swagger-annotations-1.3.5</module>
+        <module>swagger-core-1.3.5</module>
+        <module>swagger-jaxrs-1.3.5</module>
     </modules>
 
 </project>
