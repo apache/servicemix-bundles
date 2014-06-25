@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>9-SNAPSHOT</version>
+        <version>11</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -43,8 +43,9 @@
             org.apache.commons.lang
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-
+       
         </servicemix.osgi.import.pkg>
+        <servicemix.osgi.require.capability>osgi.ee; filter:="(&amp;(osgi.ee=JavaSE)(version=1.7))"</servicemix.osgi.require.capability>
     </properties>
 
     <dependencies>

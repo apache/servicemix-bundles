@@ -43,6 +43,7 @@
 
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
+        <module>jsch-agentproxy-sshj-0.0.7</module>
     </modules>
 
 </project>
