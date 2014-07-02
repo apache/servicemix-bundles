@@ -44,6 +44,9 @@
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
         <module>jsch-agentproxy-sshj-0.0.7</module>
+        <module>jts-1.13</module>
+        <module>elasticsearch-1.2.1</module>
+        <module>elasticsearch-repository-hdfs-2.0.0</module>
     </modules>
 
 </project>
