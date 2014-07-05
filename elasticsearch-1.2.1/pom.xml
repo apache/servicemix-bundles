@@ -72,14 +72,6 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
-            <!--
-            <exclusions>
-                <exclusion>
-                    <groupId>org.apache.lucene</groupId>
-                    <artifactId>*</artifactId>
-                </exclusion>
-            </exclusions>
-            -->
         </dependency>
 
         <!-- sources -->
@@ -88,14 +80,6 @@
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
             <classifier>sources</classifier>
-            <!--
-            <exclusions>
-                <exclusion>
-                    <groupId>org.apache.lucene</groupId>
-                    <artifactId>*</artifactId>
-                </exclusion>
-            </exclusions>
-            -->
         </dependency>
     </dependencies>
 
