@@ -49,9 +49,10 @@
             javax.inject;resolution:=optional,
             scala.reflect.internal.pickling;version="[2.10,2.11)";resolution:=optional,
             scala.reflect.internal;version="[2.10,2.11)";resolution:=optional,
-            com.google.common.collect;resolution:=optional,
+            com.google.common.cache;version="[13,18)";resolution:=optional,
+            com.google.common.collect;version="[13,18)";resolution:=optional,
             com.thoughtworks.paranamer;resolution:=optional,
-            scala*;version="[2.10,2.11)",
+            scala*;version="[2.10,2.12)",
             *
         </servicemix.osgi.import.pkg>
     </properties>
