@@ -55,6 +55,7 @@
         <module>lucene-queries-4.9.0</module>
         <module>lucene-queryparser-4.9.0</module>
         <module>lucene-sandbox-4.9.0</module>
+        <module>lightcouch-0.1.3</module>
     </modules>
 
 </project>
