@@ -60,6 +60,7 @@
         <module>xmlsec-1.5.7</module>
         <module>wss4j-1.6.15</module>
         <module>gwt-servlet-2.6.1</module>
+        <module>solr-solrj-4.9.0</module>
     </modules>
 
 </project>
