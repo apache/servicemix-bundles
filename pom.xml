@@ -62,6 +62,7 @@
         <module>gwt-servlet-2.6.1</module>
         <module>solr-solrj-4.9.0</module>
         <module>jsr305-2.0.3</module>
+        <module>zxing-3.1.0</module>
     </modules>
 
 </project>
