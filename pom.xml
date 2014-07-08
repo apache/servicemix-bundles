@@ -64,6 +64,7 @@
         <module>jsr305-2.0.3</module>
         <module>zxing-3.1.0</module>
         <module>aws-java-sdk-1.8.3</module>
+        <module>twitter4j-4.0.2</module>
     </modules>
 
 </project>
