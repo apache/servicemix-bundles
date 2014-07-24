@@ -65,6 +65,7 @@
         <module>zxing-3.1.0</module>
         <module>aws-java-sdk-1.8.3</module>
         <module>twitter4j-4.0.2</module>
+        <module>hadoop-client-2.4.1</module>
     </modules>
 
 </project>
