@@ -69,7 +69,8 @@
             org.w3c.dom.traversal,
             org.xml.sax,
             org.xml.sax.ext,
-            org.xml.sax.helpers
+            org.xml.sax.helpers,
+            org.jvnet.staxex*
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
             META-INF;-split-package:=merge-first,
@@ -90,6 +91,12 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>org.jvnet.staxex</groupId>
+            <artifactId>stax-ex</artifactId>
+            <version>1.7.4</version>
+            <optional>false</optional>
+        </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
