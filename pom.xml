@@ -46,6 +46,7 @@
         <module>jsch-agentproxy-sshj-0.0.7</module>
         <module>jts-1.13</module>
         <module>elasticsearch-1.2.1</module>
+        <module>elasticsearch-1.2.0</module>
         <module>elasticsearch-repository-hdfs-2.0.0</module>
         <module>commons-configuration-1.9</module>
         <module>jackson-module-scala-2.3.0</module>
