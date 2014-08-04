@@ -43,6 +43,9 @@
 
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
+        <module>aws-java-sdk-1.8.3</module>
+        <module>aws-java-sdk-1.7.12</module>
+        <module>aws-java-sdk-1.7.5</module>
         <module>opensaml-2.6.1</module>
         <module>opensaml-2.6.0</module>
         <module>opensaml-2.5.3</module>
