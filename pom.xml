@@ -43,6 +43,7 @@
 
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
+        <module>mustache-compiler-0.8.16</module>
     </modules>
 
 </project>
