@@ -109,9 +109,13 @@
                             <filters>
                                 <filter>
                                     <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
-                                    <excludes>
-                                        <exclude>**/*</exclude>
-                                    </excludes>
+                                    <includes>
+                                        <include>mime.types</include>
+                                        <include>awssdk_config_default.json</include>
+                                        <include>**/*.handlers</include>
+                                        <include>**/*.xml</include>
+                                        <include>**/*.properties</include>
+                                    </includes>
                                 </filter>
                                 <filter>
                                     <artifact>org.joda:joda-convert</artifact>
