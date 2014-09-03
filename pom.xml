@@ -47,6 +47,7 @@
         <module>mustache-compiler-0.8.16</module>
         <module>xalan-2.7.1</module>
         <module>xalan-2.7.2</module>
+        <module>httpunit-2.15</module>
     </modules>
 
 </project>
