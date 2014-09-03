@@ -48,6 +48,7 @@
         <module>xalan-2.7.1</module>
         <module>xalan-2.7.2</module>
         <module>httpunit-2.15</module>
+        <module>olingo-odata2-core-2.0.0</module>
     </modules>
 
 </project>
