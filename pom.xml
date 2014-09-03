@@ -43,6 +43,7 @@
 
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
+        <module>aws-java-sdk-1.8.3</module>
         <module>mustache-compiler-0.8.16</module>
         <module>xalan-2.7.1</module>
         <module>xalan-2.7.2</module>
