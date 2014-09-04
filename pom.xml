@@ -49,6 +49,9 @@
         <module>xalan-2.7.2</module>
         <module>httpunit-2.15</module>
         <module>olingo-odata2-core-2.0.0</module>
+        <module>swagger-annotations-1.3.7</module>
+        <module>swagger-core-1.3.7</module>
+        <module>swagger-jaxrs-1.3.7</module>
     </modules>
 
 </project>
