@@ -105,6 +105,7 @@
         <module>dnsjava-2.1.6</module>
         <module>aws-java-sdk-1.8.9.1</module>
         <module>snmp4j-2.3.1</module>
+        <module>bcpg-jdk15on-1.51</module>
     </modules>
 
 </project>
