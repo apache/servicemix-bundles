@@ -92,6 +92,7 @@
         <module>jedis-2.5.2</module>
         <module>javaewah-0.8.12</module>
         <module>casbah-2.7.3</module>
+        <module>hbase-0.98.5-hadoop2</module>
     </modules>
 
 </project>
