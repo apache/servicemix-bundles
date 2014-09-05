@@ -94,6 +94,7 @@
         <module>casbah-2.7.3</module>
         <module>hbase-0.98.5-hadoop2</module>
         <module>bcprov-jdk15on-1.51</module>
+        <module>paranamer-2.7</module>
     </modules>
 
 </project>
