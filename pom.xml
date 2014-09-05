@@ -115,6 +115,7 @@
         <module>avro-1.7.7</module>
         <module>avro-ipc-1.7.7</module>
         <module>opensaml-2.6.2</module>
+        <module>spring-integration-core-4.0.3.RELEASE</module>
     </modules>
 
 </project>
