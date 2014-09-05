@@ -114,6 +114,7 @@
         <module>derby-10.11.1.1</module>
         <module>avro-1.7.7</module>
         <module>avro-ipc-1.7.7</module>
+        <module>opensaml-2.6.2</module>
     </modules>
 
 </project>
