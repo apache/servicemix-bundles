@@ -104,6 +104,7 @@
         <module>jets3t-0.9.2</module>
         <module>dnsjava-2.1.6</module>
         <module>aws-java-sdk-1.8.9.1</module>
+        <module>snmp4j-2.3.1</module>
     </modules>
 
 </project>
