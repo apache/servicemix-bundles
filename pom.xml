@@ -106,6 +106,7 @@
         <module>aws-java-sdk-1.8.9.1</module>
         <module>snmp4j-2.3.1</module>
         <module>bcpg-jdk15on-1.51</module>
+        <module>hadoop-client-2.5.0</module>
     </modules>
 
 </project>
