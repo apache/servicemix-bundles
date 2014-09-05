@@ -112,6 +112,8 @@
         <module>saxon-9.5.1-6</module>
         <module>derbynet-10.11.1.1</module>
         <module>derby-10.11.1.1</module>
+        <module>avro-1.7.7</module>
+        <module>avro-ipc-1.7.7</module>
     </modules>
 
 </project>
