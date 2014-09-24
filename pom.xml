@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>9-SNAPSHOT</version>
+        <version>11</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -39,9 +39,10 @@
         <pkgGroupId>thaiopensource</pkgGroupId>
         <pkgArtifactId>jing</pkgArtifactId>
         <pkgVersion>20030619</pkgVersion>
-        <servicemix.osgi.export.pkg>
-            com.thaiopensource
-        </servicemix.osgi.export.pkg>
+        <servicemix.osgi.export>
+          com.thaiopensource.*;version=${pkgVersion};-split-package:=merge-first,
+          org.relaxng.datatype.*;version=${pkgVersion};-split-package:=merge-first
+        </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
             com.icl.saxon;resolution:=optional,
             org.apache.tools.ant*;resolution:=optional,
@@ -97,9 +98,9 @@
                             <filters>
                                 <filter>
                                     <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
-                                    <excludes>
-                                        <exclude>**</exclude>
-                                    </excludes>
+                                    <includes>
+                                        <include>**/services/*</include>
+                                    </includes>
                                 </filter>
                             </filters>
                             <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
