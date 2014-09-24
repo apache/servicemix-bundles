@@ -83,6 +83,9 @@
             org.springframework.stereotype;version="[${pkgVersion},3.3)";resolution:=optional,
             org.springframework.util;version="[${pkgVersion},3.3)",
             org.springframework.util.xml;version="[${pkgVersion},3.3)",
+            org.springframework.cglib.core;version="[${pkgVersion},3.3)",
+            org.springframework.cglib.proxy;version="[${pkgVersion},3.3)",
+            org.springframework.cglib.reflect;version="[${pkgVersion},3.3)",
             org.w3c.dom;resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
