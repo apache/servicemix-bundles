@@ -1,0 +1,10 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    The EGit Mylyn GitHub connector supports creating task repositories for working with GitHub issues and Gists.
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttps://wiki.eclipse.org/EGit/GitHub\u001B[0m
