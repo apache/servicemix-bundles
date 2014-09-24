@@ -55,6 +55,7 @@
         <module>spring-tx-4.0.6.RELEASE</module>
         <module>spring-tx-4.0.7.RELEASE</module>
         <module>spring-tx-4.1.0.RELEASE</module>
+        <module>egit-github-core-2.1.5</module>
     </modules>
 
 </project>
