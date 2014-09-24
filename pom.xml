@@ -85,6 +85,9 @@
             org.springframework.util;version="[${pkgVersion},4.1)",
             org.springframework.util.concurrent;version="[${pkgVersion},4.1)",
             org.springframework.util.xml;version="[${pkgVersion},4.1)",
+            org.springframework.cglib.core;version="[${pkgVersion},4.1)",
+            org.springframework.cglib.proxy;version="[${pkgVersion},4.1)",
+            org.springframework.cglib.reflect;version="[${pkgVersion},4.1)",
             org.w3c.dom;resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
