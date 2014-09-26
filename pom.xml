@@ -57,6 +57,7 @@
         <module>spring-tx-4.1.0.RELEASE</module>
         <module>egit-github-core-2.1.5</module>
         <module>jing-20030619</module>
+        <module>jsch-agentproxy-sshj-0.0.8</module>
     </modules>
 
 </project>
