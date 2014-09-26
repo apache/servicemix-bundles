@@ -39,10 +39,12 @@
         <pkgGroupId>thaiopensource</pkgGroupId>
         <pkgArtifactId>jing</pkgArtifactId>
         <pkgVersion>20030619</pkgVersion>
-        <servicemix.osgi.export>
-          com.thaiopensource.*;version=${pkgVersion};-split-package:=merge-first,
-          org.relaxng.datatype.*;version=${pkgVersion};-split-package:=merge-first
-        </servicemix.osgi.export>
+        <servicemix.osgi.export.pkg>
+          com.thaiopensource.*
+        </servicemix.osgi.export.pkg>
+        <servicemix.osgi.private.pkg>
+          org.relaxng.datatype.*
+        </servicemix.osgi.private.pkg>
         <servicemix.osgi.import.pkg>
             com.icl.saxon;resolution:=optional,
             org.apache.tools.ant*;resolution:=optional,
