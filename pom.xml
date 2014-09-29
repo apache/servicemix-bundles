@@ -24,8 +24,8 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>10</version>
-        <relativePath>../bundles-pom/pom.xml</relativePath>        
+        <version>11</version>
+        <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
@@ -52,6 +52,7 @@
             javax.xml.transform,
             javax.xml.transform.dom,
             javax.xml.transform.sax,
+            javax.xml.transform.stax,
             javax.xml.transform.stream,
             javax.xml.xpath,
             org.apache.xml.resolver,
