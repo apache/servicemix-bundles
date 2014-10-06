@@ -43,6 +43,7 @@
 
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
+        <module>hbase-0.99.0</module>
         <module>javaewah-0.9.0</module>
         <module>qpid-0.30</module>
         <module>hadoop-client-2.5.1</module>
