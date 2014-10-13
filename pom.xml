@@ -43,6 +43,7 @@
 
     <modules>
         <module>jaxb-impl-2.2.11</module>
+        <module>jaxb-xjc-2.2.11</module>
         <!-- add modules for all bundles to released in the next batch here -->
     </modules>
 
