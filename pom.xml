@@ -44,6 +44,11 @@
     <modules>
         <module>jaxb-impl-2.2.11</module>
         <module>jaxb-xjc-2.2.11</module>
+        <module>opensaml-2.5.1</module>
+        <module>opensaml-2.5.3</module>
+        <module>opensaml-2.6.0</module>
+        <module>opensaml-2.6.1</module>
+        <module>opensaml-2.6.2</module>
         <!-- add modules for all bundles to released in the next batch here -->
     </modules>
 
