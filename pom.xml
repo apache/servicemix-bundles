@@ -61,7 +61,8 @@
         <module>spring-webmvc-4.0.3.RELEASE</module>
         <module>spring-webmvc-4.0.5.RELEASE</module>
         <module>spring-webmvc-4.0.6.RELEASE</module>
-        <module>spring-webmvc-4.0.1.RELEASE</module>
+        <module>spring-webmvc-4.1.0.RELEASE</module>
+        <module>spring-webmvc-4.1.1.RELEASE</module>
         <module>opensaml-2.6.0</module>
         <module>opensaml-2.6.1</module>
         <module>opensaml-2.6.2</module>

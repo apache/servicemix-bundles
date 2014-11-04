@@ -148,7 +148,7 @@
                                         <include>**/*.vm</include>
                                         <include>**/*.gif</include>
                                         <include>**/*.xsd</include>
-                                        <include>META-INF/spring.*</include>
+                                        <include>META-INF/spring*</include>
                                     </includes>
                                 </filter>
                             </filters>
