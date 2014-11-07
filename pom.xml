@@ -73,6 +73,20 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
+        <!-- sources -->
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>spring-core</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
     </dependencies>
 
     <build>
@@ -99,7 +113,7 @@
                                         <include>**/*.gif</include>
                                         <include>**/*.xsd</include>
                                         <include>**/*.dtd</include>
-                                        <include>META-INF/spring.*</include>
+                                        <include>META-INF/spring*</include>
                                     </includes>
                                 </filter>
                             </filters>
