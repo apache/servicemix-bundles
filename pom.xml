@@ -306,6 +306,7 @@
         <module>spring-ws-support-2.2.0.RELEASE</module>
         <module>spring-ws-test-2.2.0.RELEASE</module>
         <module>spring-xml-2.2.0.RELEASE</module>
+        <module>json4s-3.2.11</module>
         <!-- add modules for all bundles to released in the next batch here -->
     </modules>
 
