@@ -308,6 +308,11 @@
         <module>spring-xml-2.2.0.RELEASE</module>
         <module>json4s-3.2.11</module>
         <module>serp-1.15.1</module>
+        <module>lucene-4.10.2</module>
+        <module>lucene-analyzers-common-4.10.2</module>
+        <module>lucene-queries-4.10.2</module>
+        <module>lucene-queryparser-4.10.2</module>
+        <module>lucene-sandbox-4.10.2</module>
         <!-- add modules for all bundles to released in the next batch here -->
     </modules>
 
