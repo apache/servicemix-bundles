@@ -316,6 +316,7 @@
         <module>spring-data-neo4j-3.2.1.RELEASE</module>
         <module>jopt-simple-4.8</module>
         <module>solr-solrj-4.10.2</module>
+        <module>facebook4j-2.2.0</module>
         <!-- add modules for all bundles to released in the next batch here -->
     </modules>
 
