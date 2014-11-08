@@ -322,6 +322,7 @@
         <module>spring-batch-infrastructure-3.0.2.RELEASE</module>
         <module>gae-1.9.15</module>
         <module>jsch-agentproxy-jsch-0.0.8</module>
+        <module>aws-java-sdk-1.9.3</module>
         <!-- add modules for all bundles to released in the next batch here -->
     </modules>
 
