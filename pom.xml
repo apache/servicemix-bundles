@@ -325,6 +325,7 @@
         <module>aws-java-sdk-1.9.3</module>
         <module>geocoder-java-0.16</module>
         <module>freemarker-2.3.21</momdule>
+        <module>elasticsearch-1.4.0</module>
         <!-- add modules for all bundles to released in the next batch here -->
     </modules>
 
