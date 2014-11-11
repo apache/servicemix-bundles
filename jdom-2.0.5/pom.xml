@@ -55,13 +55,6 @@
             org.apache.xerces.dom;resolution:=optional,
             org.apache.xerces.parsers;resolution:=optional,
             org.jaxen*;resolution:=optional,
-            org.jdom;version="1.1",
-            org.jdom.adapters;version="1.1",
-            org.jdom.filter;version="1.1",
-            org.jdom.input;version="1.1",
-            org.jdom.output;version="1.1",
-            org.jdom.transform;version="1.1",
-            org.jdom.xpath;version="1.1",
             org.w3c.dom,org.xml.sax,org.xml.sax.ext,org.xml.sax.helpers
         </servicemix.osgi.import.pkg>
     </properties>
