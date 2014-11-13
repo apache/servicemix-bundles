@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.spring-data-neo4j</artifactId>
-    <version>3.2.1.RELEASE_1-SNAPSHOT</version>
+    <version>3.2.1.RELEASE_1</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: spring-data-neo4j</name>
     <description>This OSGi bundle wraps spring-data-neo4j, spring-data-neo4j-aspects, spring-data-neo4j-cross-store, spring-data-neo4j-tx, spring-data-neo4j-rest ${pkgVersion} jar files.</description>
@@ -363,4 +363,10 @@
             </plugin>
         </plugins>
     </build>
+
+  <scm>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.spring-data-neo4j-3.2.1.RELEASE_1</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.spring-data-neo4j-3.2.1.RELEASE_1</developerConnection>
+    <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.spring-data-neo4j-3.2.1.RELEASE_1</url>
+  </scm>
 </project>
