@@ -67,7 +67,7 @@
             oracle.toplink.essentials.internal.sessions;resolution:=optional,
             oracle.toplink.essentials.sessions;resolution:=optional,
             org.aopalliance.intercept;version="[1,2)",
-            org.apache.commons.logging;version="[1.1.3,2)";resolution:=optional,
+            org.apache.commons.logging;version="[1.1.1,2)";resolution:=optional,
             org.apache.openjpa.persistence;version="[2,3)";resolution:=optional,
             org.eclipse.persistence.config;version="[2,3)";resolution:=optional,
             org.eclipse.persistence.internal.databaseaccess;version="[2,3)";resolution:=optional,
