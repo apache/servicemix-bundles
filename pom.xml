@@ -51,7 +51,7 @@
             org.apache.commons.fileupload;resolution:=optional,
             org.apache.commons.fileupload.disk;resolution:=optional,
             org.apache.commons.fileupload.portlet;resolution:=optional,
-            org.apache.commons.logging;version="[1.1.3,2)";resolution:=optional,
+            org.apache.commons.logging;version="[1.1.1,2)";resolution:=optional,
             org.springframework.beans;version="[${pkgVersion},4.2)",
             org.springframework.beans.factory;version="[${pkgVersion},4.2)",
             org.springframework.beans.factory.config;version="[${pkgVersion},4.2)",
