@@ -130,6 +130,7 @@
       <module>gae-1.9.17</module>
       <module>javaewah-0.9.1</module>
       <module>aspectj-1.8.4</module>
+      <module>jedis-2.6.1</module>
     </modules>
 
 </project>
