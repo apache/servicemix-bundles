@@ -123,6 +123,7 @@
       <module>snmp4j-2.3.2</module>
       <module>jsch-agentproxy-jsch-0.0.9</module>
       <module>saxon-9.6.0-2</module>
+      <module>elasticsearch-1.4.1</module>
     </modules>
 
 </project>
