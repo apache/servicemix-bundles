@@ -120,6 +120,7 @@
       <module>spring-websocket-4.1.2.RELEASE</module>
       <module>libthrift-0.9.2</module>
       <module>hadoop-client-2.6.0</module>
+      <module>snmp4j-2.3.2</module>
     </modules>
 
 </project>
