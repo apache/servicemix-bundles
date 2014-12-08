@@ -121,6 +121,7 @@
       <module>libthrift-0.9.2</module>
       <module>hadoop-client-2.6.0</module>
       <module>snmp4j-2.3.2</module>
+      <module>jsch-agentproxy-jsch-0.0.9</module>
     </modules>
 
 </project>
