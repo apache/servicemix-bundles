@@ -1,0 +1,14 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    Thrift is a software framework for scalable cross-language services development. 
+    It combines a software stack with a code generation engine to build services that
+    work efficiently and seamlessly between C++, Java, Python, PHP, Ruby, Erlang,
+    Perl, Haskell, C#, Cocoa, JavaScript, Node.js, Smalltalk, and OCaml.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://thrift.apache.org/\u001B[0m
