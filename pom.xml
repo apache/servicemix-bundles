@@ -134,6 +134,7 @@
       <module>spring-integration-core-4.1.0.RELEASE</module>
       <module>gwt-servlet-2.7.0</module>
       <module>aws-java-sdk-1.9.8</module>
+      <module>archaius-core-0.6.3</module>
     </modules>
 
 </project>
