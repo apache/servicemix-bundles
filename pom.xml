@@ -132,6 +132,7 @@
       <module>aspectj-1.8.4</module>
       <module>jedis-2.6.1</module>
       <module>spring-integration-core-4.1.0.RELEASE</module>
+      <module>gwt-servlet-2.7.0</module>
     </modules>
 
 </project>
