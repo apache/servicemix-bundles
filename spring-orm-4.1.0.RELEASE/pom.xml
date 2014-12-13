@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.spring-orm</artifactId>
-    <version>4.1.0.RELEASE_3-SNAPSHOT</version>
+    <version>4.1.0.RELEASE_4-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
 
