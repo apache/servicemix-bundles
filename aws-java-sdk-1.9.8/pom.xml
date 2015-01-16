@@ -74,6 +74,11 @@
             <version>${pkgVersion}</version>
         </dependency>
         <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}-core</artifactId>
+            <version>${pkgVersion}</version>
+        </dependency>
+        <dependency>
             <groupId>org.joda</groupId>
             <artifactId>joda-convert</artifactId>
             <version>1.5</version>
@@ -105,12 +110,22 @@
                             <artifactSet>
                                 <includes>
                                     <include>${pkgGroupId}:${pkgArtifactId}</include>
+                                    <include>${pkgGroupId}:${pkgArtifactId}-core</include>
                                     <include>org.joda:joda-convert</include>
                                 </includes>
                             </artifactSet>
                             <filters>
                                 <filter>
                                     <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
+                                    <includes>
+                                        <include>mime.types</include>
+                                        <include>**/*.handlers</include>
+                                        <include>**/*.xml</include>
+                                        <include>**/*.properties</include>
+                                    </includes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:${pkgArtifactId}-core</artifact>
                                     <includes>
                                         <include>mime.types</include>
                                         <include>awssdk_config_default.json</include>
