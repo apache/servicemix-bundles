@@ -24,48 +24,46 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>10</version>
+        <version>11</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
     
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.poi</artifactId>
-    <version>3.11_1-SNAPSHOT</version>
+    <version>3.11</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
-    <description>This OSGi bundle wraps poi, poi-contrib, poi-ooxml, and poi-scratchpad ${pkgVersion} jar files.</description>
+    <description>
+        This OSGi bundle wraps poi, poi-contrib, poi-ooxml, poi-ooxml-schemas and poi-scratchpad ${pkgVersion} jar files.
+    </description>
     
     <properties>
         <pkgGroupId>org.apache.poi</pkgGroupId>
         <pkgArtifactId>poi</pkgArtifactId>
         <pkgVersion>3.11</pkgVersion>
         <servicemix.osgi.export.pkg>
+            org.etsi.uri.x01903*;version=${pkgVersion};-split-package:=merge-first,
+            org.w3.x2000.x09.xmldsig*;version=${pkgVersion};-split-package:=merge-first,
+            org.openxmlformats.schemas*;version=${pkgVersion};-split-package:=merge-first,
+            com.microsoft.schemas.office.x2006*;version=${pkgVersion};-split-package:=merge-first,
             org.apache.poi
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            javax.crypto*,
-            javax.imageio*,
-            javax.security.auth*,
-            javax.swing*;resolution:=optional,
-            javax.xml.*,
-            junit*;resolution:=optional,
-            dom4j*;resolution:=optional,
-            org.apache.commons.codec*;version="[1.5,3)",
-            org.apache.commons.logging;resolution:=optional,
-            org.apache.jcp*;resolution:=optional,
-            org.apache.xml.security*;resolution:=optional,
-            org.apache.xmlbeans*;resolution:=optional,
-            org.bouncycastle*;resolution:=optional,
-            org.etsi.uri*;resolution:=optional,
+            com.sun.javadoc;resolution:=optional,
+            com.sun.tools.javadoc;resolution:=optional,
+            junit.framework;resolution:=optional,
+            org.apache.crimson.*;resolution:=optional,
+            org.apache.tools.ant*;resolution:=optional,
+            org.bouncycastle.*;resolution:=optional,
+            org.junit.*;resolution:=optional,
             org.openxmlformats*;resolution:=optional,
-            org.hamcrest*;resolution:=optional,
-            org.junit*;resolution:=optional,
-            org.w3c.dom*,
-            org.w3.x2000*;resolution:=optional,
-            org.xml.sax*,
-            com.microsoft.schemas.office.x2006*;resolution:=optional,
-            schemasMicrosoftCom*;resolution:=optional
+            repackage;resolution:=optional,
+            schemasMicrosoftCom*;resolution:=optional,
+            *
         </servicemix.osgi.import.pkg>
+        <servicemix.osgi.private.pkg>
+            org.apache.xmlbeans.*;-split-package:=merge-first
+        </servicemix.osgi.private.pkg>
     </properties>
     
     <dependencies>
@@ -92,6 +90,17 @@
             <artifactId>poi-ooxml</artifactId>
             <version>${pkgVersion}</version>
             <optional>false</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>poi-ooxml-schemas</artifactId>
+            <version>${pkgVersion}</version>
+            <optional>false</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.xmlbeans</groupId>
+            <artifactId>xmlbeans</artifactId>
+            <version>2.6.0</version>
         </dependency>
 
         <!-- sources -->
@@ -123,6 +132,22 @@
             <classifier>sources</classifier>
             <optional>false</optional>
         </dependency>
+
+        <!-- Sources not available -->
+        <!--<dependency>-->
+            <!--<groupId>${pkgGroupId}</groupId>-->
+            <!--<artifactId>poi-ooxml-schemas</artifactId>-->
+            <!--<version>${pkgVersion}</version>-->
+            <!--<classifier>sources</classifier>-->
+            <!--<optional>false</optional>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>org.apache.xmlbeans</groupId>-->
+            <!--<artifactId>xmlbeans</artifactId>-->
+            <!--<version>2.6.0</version>-->
+            <!--<classifier>sources</classifier>-->
+        <!--</dependency>-->
+
     </dependencies>
     
     <build>
@@ -143,6 +168,9 @@
                                     <include>${pkgGroupId}:poi-contrib</include>
                                     <include>${pkgGroupId}:poi-scratchpad</include>
                                     <include>${pkgGroupId}:poi-ooxml</include>
+                                    <include>${pkgGroupId}:poi-ooxml-schemas</include>
+                                    <include>dom4j:dom4j</include>
+                                    <include>org.apache.xmlbeans:xmlbeans</include>
                                 </includes>
                             </artifactSet>
                             <filters>
