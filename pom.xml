@@ -46,6 +46,7 @@
         <module>aws-java-sdk-1.9.14</module>
         <module>aws-java-sdk-1.9.8</module>
         <module>aws-java-sdk-1.9.3</module>
+        <module>stringtemplate-4.0.8</module>
     </modules>
 
 </project>
