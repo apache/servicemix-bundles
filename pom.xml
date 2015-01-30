@@ -47,6 +47,7 @@
         <module>aws-java-sdk-1.9.8</module>
         <module>aws-java-sdk-1.9.3</module>
         <module>stringtemplate-4.0.8</module>
+        <module>noggit-0.7</module>
     </modules>
 
 </project>
