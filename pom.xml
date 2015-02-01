@@ -70,6 +70,7 @@
         <module>casbah-2.8.0</module>
         <module>hbase-0.99.2</module>
         <module>elasticsearch-1.4.2</module>
+        <module>rhino-1.7-R5</module>
     </modules>
 
 </project>
