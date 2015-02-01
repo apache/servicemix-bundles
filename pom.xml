@@ -72,6 +72,7 @@
         <module>elasticsearch-1.4.2</module>
         <module>rhino-1.7-R5</module>
         <module>aws-java-sdk-1.9.17</module>
+        <module>splunk-1.3.2.0</module>
     </modules>
 
 </project>
