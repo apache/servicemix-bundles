@@ -71,6 +71,7 @@
         <module>hbase-0.99.2</module>
         <module>elasticsearch-1.4.2</module>
         <module>rhino-1.7-R5</module>
+        <module>aws-java-sdk-1.9.17</module>
     </modules>
 
 </project>
