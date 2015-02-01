@@ -67,6 +67,7 @@
         <module>spring-webmvc-4.1.4.RELEASE</module>
         <module>spring-webmvc-portlet-4.1.4.RELEASE</module>
         <module>spring-websocket-4.1.4.RELEASE</module>
+        <module>casbah-2.8.0</module>
     </modules>
 
 </project>
