@@ -101,6 +101,7 @@
         <module>swagger-jaxrs-1.3.12</module>
         <module>castor-1.3.3</module>
         <module>javaewah-1.0.0</module>
+        <module>snmp4j-2.3.3</module>
     </modules>
 
 </project>
