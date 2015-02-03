@@ -108,6 +108,7 @@
         <module>postgresql-9.3-1102-jdbc41</module>
         <module>facebook4j-2.2.1</module>
         <module>aspectj-1.8.5</module>
+        <module>spring-data-neo4j-3.2.2.RELEASE</module>
     </modules>
 
 </project>
