@@ -115,6 +115,7 @@
         <module>jsr305-3.0.0</module>
         <module>jedis-2.6.2</module>
         <module>saxon-9.6.0-4</module>
+        <module>solr-solrj-4.10.3</module>
     </modules>
 
 </project>
