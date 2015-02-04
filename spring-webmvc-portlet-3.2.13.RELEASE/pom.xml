@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.spring-webmvc-portlet</artifactId>
-    <version>3.2.13.RELEASE_1</version>
+    <version>3.2.13.RELEASE_2-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
 
@@ -183,10 +183,4 @@
             </plugin>
         </plugins>
     </build>
-
-  <scm>
-    <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.spring-webmvc-portlet-3.2.13.RELEASE_1</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.spring-webmvc-portlet-3.2.13.RELEASE_1</developerConnection>
-    <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.spring-webmvc-portlet-3.2.13.RELEASE_1</url>
-  </scm>
 </project>
