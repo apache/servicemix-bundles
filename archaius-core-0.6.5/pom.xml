@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.archaius-core</artifactId>
-    <version>0.6.5_1-SNAPSHOT</version>
+    <version>0.6.5_1</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: archaius-core</name>
     <description>
@@ -107,4 +107,10 @@
             </plugin>
         </plugins>
     </build>
+
+  <scm>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.archaius-core-0.6.5_1</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.archaius-core-0.6.5_1</developerConnection>
+    <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.archaius-core-0.6.5_1</url>
+  </scm>
 </project>
