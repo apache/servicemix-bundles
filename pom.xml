@@ -43,6 +43,10 @@
 
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
+        <module>spring-test-4.1.0.RELEASE</module>
+        <module>spring-test-4.1.1.RELEASE</module>
+        <module>spring-test-4.1.2.RELEASE</module>
+        <module>spring-test-4.1.4.RELEASE</module>
     </modules>
 
 </project>
