@@ -57,10 +57,10 @@
     </prerequisites>
 
     <scm>
-        <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/trunk</connection>
-        <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/trunk
-        </developerConnection>
-        <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/trunk/</url>
+        <connection> <connection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</connection>
+        <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
+        <url>https://git-wip-us.apache.org/repos/asf?p=servicemix-bundles.git</url>
+        <tag>HEAD</tag>
     </scm>
 
     <build>
