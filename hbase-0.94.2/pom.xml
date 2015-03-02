@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>10</version>
+        <version>11</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -188,9 +188,10 @@
                             <filters>
                                 <filter>
                                     <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
-                                    <excludes>
-                                        <exclude>**</exclude>
-                                    </excludes>
+                                    <includes>
+                                        <include>hbase-default.xml</include>
+                                        <include>hbase-webapps/**/*</include>
+                                    </includes>
                                 </filter>
                             </filters>
                             <createDependencyReducedPom>true</createDependencyReducedPom>

@@ -271,9 +271,9 @@
                             <filters>
                                 <filter>
                                     <artifact>${pkgGroupId}:hbase-common</artifact>
-                                    <excludes>
-                                        <exclude>**</exclude>
-                                    </excludes>
+                                    <includes>
+                                        <include>hbase-default.xml</include>
+                                    </includes>
                                 </filter>
                                 <filter>
                                     <artifact>${pkgGroupId}:hbase-client</artifact>
@@ -295,9 +295,9 @@
                                 </filter>
                                 <filter>
                                     <artifact>${pkgGroupId}:hbase-server</artifact>
-                                    <excludes>
-                                        <exclude>**</exclude>
-                                    </excludes>
+                                    <includes>
+                                        <include>hbase-webapps/**/*</include>
+                                    </includes>
                                 </filter>
                                 <filter>
                                     <artifact>${pkgGroupId}:hbase-hadoop-compat</artifact>

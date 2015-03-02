@@ -47,6 +47,19 @@
         <module>spring-test-4.1.1.RELEASE</module>
         <module>spring-test-4.1.2.RELEASE</module>
         <module>spring-test-4.1.4.RELEASE</module>
+        <module>hbase-0.94</module>
+        <module>hbase-0.94.2</module>
+        <module>hbase-0.94.3</module>
+        <module>hbase-0.94.6</module>
+        <module>hbase-0.95.0</module>
+        <module>hbase-0.95.1-hadoop1</module>
+        <module>hbase-0.95.2-hadoop2</module>
+        <module>hbase-0.96.0-hadoop2</module>
+        <module>hbase-0.96.1.1-hadoop2</module>
+        <module>hbase-0.98.0-hadoop2</module>
+        <module>hbase-0.98.5-hadoop2</module>
+        <module>hbase-0.99.0</module>
+        <module>hbase-0.99.2</module>
     </modules>
 
 </project>
