@@ -60,6 +60,8 @@
         <module>hbase-0.98.5-hadoop2</module>
         <module>hbase-0.99.0</module>
         <module>hbase-0.99.2</module>
+        <module>kafka-clients-0.8.2.0</module>
+        <module>kafka_2.10-0.8.2.0</module>
     </modules>
 
 </project>
