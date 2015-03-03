@@ -72,7 +72,7 @@ public abstract class AbstractSessionContext implements SessionContext {
     }
 
     protected void fireStateChanged(SessionState newState,
-                                    SessionState oldState, Session source) {
+                                    SessionState oldState, Object source) {
 
         for (SessionStateListener l : sessionStateListeners) {
             try {
