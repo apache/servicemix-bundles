@@ -85,6 +85,7 @@
         <module>zxing-3.2.0</module>
         <module>solr-solrj-5.0.0</module>
         <module>jsch-agentproxy-sshj-0.0.9</module>
+        <module>hbase-1.0.0</module>
     </modules>
 
 </project>
