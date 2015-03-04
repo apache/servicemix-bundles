@@ -95,6 +95,7 @@
         <module>lucene-queryparser-5.0.0</module>
         <module>lucene-sandbox-5.0.0</module>
         <module>facebook4j-2.2.2</module>
+        <module>jets3t-0.9.3</module>
     </modules>
 
 </project>
