@@ -88,6 +88,7 @@
         <module>hbase-1.0.0</module>
         <module>ognl-3.0.9</module>
         <module>aws-java-sdk-1.9.22</module>
+        <module>openws-1.5.4</module>
     </modules>
 
 </project>
