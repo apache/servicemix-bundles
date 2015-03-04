@@ -97,6 +97,7 @@
         <module>facebook4j-2.2.2</module>
         <module>jets3t-0.9.3</module>
         <module>opensaml-2.6.5</module>
+        <module>gae-1.9.18</module>
     </modules>
 
 </project>
