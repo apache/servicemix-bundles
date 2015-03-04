@@ -86,6 +86,7 @@
         <module>solr-solrj-5.0.0</module>
         <module>jsch-agentproxy-sshj-0.0.9</module>
         <module>hbase-1.0.0</module>
+        <module>ognl-3.0.9</module>
     </modules>
 
 </project>
