@@ -96,6 +96,7 @@
         <module>lucene-sandbox-5.0.0</module>
         <module>facebook4j-2.2.2</module>
         <module>jets3t-0.9.3</module>
+        <module>opensaml-2.6.5</module>
     </modules>
 
 </project>
