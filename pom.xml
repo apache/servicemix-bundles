@@ -102,6 +102,7 @@
         <module>dnsjava-2.1.7</module>
         <module>postgresql-9.4-1201-jdbc41</module>
         <module>xmltooling-1.4.4</module>
+        <module>elasticsearch-1.4.4</module>
     </modules>
 
 </project>
