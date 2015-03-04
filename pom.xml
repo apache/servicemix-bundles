@@ -104,6 +104,7 @@
         <module>xmltooling-1.4.4</module>
         <module>elasticsearch-1.4.4</module>
         <module>xstream-1.4.8</module>
+        <module>lightcouch-0.1.6</module>
     </modules>
 
 </project>
