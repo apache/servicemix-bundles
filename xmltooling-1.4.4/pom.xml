@@ -31,14 +31,14 @@
     <artifactId>org.apache.servicemix.bundles.xmltooling</artifactId>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
-    <version>1.4.4_1-SNAPSHOT</version>
+    <version>1.4.4_1</version>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
 
     <scm>
         <connection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://git-wip-us.apache.org/repos/asf?p=servicemix-bundles.git</url>
-        <tag>HEAD</tag>
+        <tag>org.apache.servicemix.bundles.xmltooling-1.4.4_1</tag>
     </scm>
 
     <properties>
