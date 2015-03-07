@@ -24,13 +24,13 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>12</version>
+        <version>12-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.hbase</artifactId>
-    <version>0.95.1-hadoop1_3-SNAPSHOT</version>
+    <version>0.95.1-hadoop1_2-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps hbase-common, hbase-client, hbase-prefix-tree, hbase-protocol, hbase-server, hbase-hadoop-compat ${pkgVersion} jar files.</description>
