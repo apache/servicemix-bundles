@@ -31,7 +31,7 @@
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>bundles-pom</artifactId>
     <packaging>pom</packaging>
-    <version>13-SNAPSHOT</version>
+    <version>12-SNAPSHOT</version>
     <name>Apache ServiceMix :: Bundles</name>
 
     <properties>
@@ -87,8 +87,6 @@
                         <goals>deploy</goals>
                         <arguments>-Prelease</arguments>
                         <autoVersionSubmodules>true</autoVersionSubmodules>
-                        <remoteTagging>false</remoteTagging>
-                        <!-- avoid remote tagging as it requires an <scm /> section for every bundle -->
                     </configuration>
                 </plugin>
                 <plugin>
