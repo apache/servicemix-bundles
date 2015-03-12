@@ -105,6 +105,7 @@
         <module>elasticsearch-1.4.4</module>
         <module>xstream-1.4.8</module>
         <module>lightcouch-0.1.6</module>
+        <module>htmlunit-2.15</module>
     </modules>
 
 </project>
