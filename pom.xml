@@ -106,6 +106,7 @@
         <module>xstream-1.4.8</module>
         <module>lightcouch-0.1.6</module>
         <module>htmlunit-2.15</module>
+        <module>opensaml-3.1.0</module>
     </modules>
 
 </project>
