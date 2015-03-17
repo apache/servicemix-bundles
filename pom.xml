@@ -108,6 +108,13 @@
         <module>htmlunit-2.15</module>
         <module>opensaml-3.1.0</module>
         <module>swagger-jaxrs-1.3.2</module>
+        <module>swagger-jaxrs-1.3.4</module>
+        <module>swagger-jaxrs-1.3.5</module>
+        <module>swagger-jaxrs-1.3.7</module>
+        <module>swagger-jaxrs-1.3.8</module>
+        <module>swagger-jaxrs-1.3.10</module>
+        <module>swagger-jaxrs-1.3.11</module>
+        <module>swagger-jaxrs-1.3.12</module>
     </modules>
 
 </project>
