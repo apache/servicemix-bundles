@@ -20,6 +20,7 @@ import javax.ws.rs._
 import javax.ws.rs.ext.Provider
 
 import javax.servlet.ServletConfig
+import java.util.HashMap
 
 import scala.collection.mutable.LinkedHashMap
 
@@ -28,18 +29,31 @@ import scala.collection.mutable.ListBuffer
 
 object ApiListingCache {
   private val LOGGER = LoggerFactory.getLogger(ApiListingCache.getClass)
-
+  
   var _cache: Option[Map[String, ApiListing]] = None
+  
+  var caches: java.util.Map[Object, Option[Map[String, ApiListing]]] = new HashMap[Object, Option[Map[String, ApiListing]]]
 
   def listing(docRoot: String, app: Application, sc: ServletConfig): Option[Map[String, ApiListing]] = {
+    val scanner = sc.getServletContext().getAttribute("SCANNER")
+    if (scanner != null) {
+        _cache = caches.get(scanner)
+    }
+    if (_cache == null) {
+        _cache = None
+    }
+    _cache.orElse{
       LOGGER.debug("loading cache")
       ClassReaders.reader.map{reader => 
-        val scanner = sc.getServletContext().getAttribute("SCANNER");
-          val classes = scanner.asInstanceOf[JaxrsScanner].classesFromContext(app, null)
+        
+          val classes = scanner match {
+            case scanner: JaxrsScanner => scanner.asInstanceOf[JaxrsScanner].classesFromContext(app, null)
+            case _ => List()
+          }
           // For each top level resource, parse it and look for swagger annotations.
           val listings = (for(cls <- classes) yield reader.read(docRoot, cls, ConfigFactory.config)).flatten.toList
           _cache = Some((listings.map(m => {
-            //always start with "/"
+            // always start with "/"
             val resourcePath = m.resourcePath.startsWith ("/") match {
               case true => m.resourcePath
               case false => "/" + m.resourcePath
@@ -47,10 +61,12 @@ object ApiListingCache {
             LOGGER.debug("adding resource path " + resourcePath)
             (resourcePath, m)
           })).toMap)
-        //})
+        
+        ;
       }
       _cache
-    
+    }
+    caches.put(scanner, _cache)
     if(_cache != None)
       LOGGER.debug("cache has " + _cache.get.keys + " keys")
     else
