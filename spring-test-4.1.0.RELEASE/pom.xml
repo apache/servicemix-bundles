@@ -211,7 +211,4 @@
     </build>
 
 
-  <scm>
-    <tag>org.apache.servicemix.bundles.spring-test-4.1.0.RELEASE_5</tag>
-  </scm>
 </project>
