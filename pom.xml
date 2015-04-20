@@ -45,6 +45,7 @@
         <!-- add modules for all bundles to released in the next batch here -->
         <module>twitter4j-4.0.3</module>
         <module>aws-java-sdk-1.9.30</module>
+        <module>docker-java-1.2.0</module>
     </modules>
 
 </project>
