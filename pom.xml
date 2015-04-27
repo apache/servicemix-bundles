@@ -46,6 +46,7 @@
         <module>twitter4j-4.0.3</module>
         <module>aws-java-sdk-1.9.30</module>
         <module>docker-java-1.2.0</module>
+        <module>olingo-odata2-api-2.0.3</module>
     </modules>
 
 </project>
