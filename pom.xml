@@ -48,6 +48,7 @@
         <module>docker-java-1.2.0</module>
         <module>olingo-odata2-api-2.0.3</module>
         <module>olingo-odata2-core-2.0.3</module>
+        <module>sparkjava-core-2.1</module>
     </modules>
 
 </project>
