@@ -1,4 +1,5 @@
 *.i??
+.idea
 target
 .project
 .classpath
