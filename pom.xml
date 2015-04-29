@@ -68,6 +68,7 @@
         <module>spring-webmvc-4.1.6.RELEASE</module>
         <module>spring-webmvc-portlet-4.1.6.RELEASE</module>
         <module>spring-websocket-4.1.6.RELEASE</module>
+        <module>spring-xml-2.2.1.RELEASE</module>
     </modules>
 
 </project>

@@ -1,0 +1,13 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    Spring Web Services aims to facilitate contract-first SOAP service development, 
+    allowing for the creation of flexible web services using one of the many ways 
+    to manipulate XML payloads. 
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://projects.spring.io/spring-ws/\u001B[0m
