@@ -29,8 +29,8 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.spring-aop</artifactId>
-    <version>4.1.5.RELEASE_2-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.spring-webmvc-portlet</artifactId>
+    <version>4.1.6.RELEASE_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
 
@@ -42,52 +42,58 @@
 
     <properties>
         <pkgGroupId>org.springframework</pkgGroupId>
-        <pkgArtifactId>spring-aop</pkgArtifactId>
-        <pkgVersion>4.1.5.RELEASE</pkgVersion>
+        <pkgArtifactId>spring-webmvc-portlet</pkgArtifactId>
+        <pkgVersion>4.1.6.RELEASE</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.springframework
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            com.jamonapi;version="[2.7,3)";resolution:=optional,
-            com.jamonapi.utils;version="[2.7,3)";resolution:=optional,
-            org.aopalliance.aop;version="[1,2)";resolution:=optional,
-            org.aopalliance.intercept;version="[1,2)";resolution:=optional,
+            javax.portlet;resolution:=optional,
+            javax.portlet.filter;resolution:=optional,
+            javax.servlet;resolution:=optional,
+            javax.servlet.http;resolution:=optional,
+            javax.xml;resolution:=optional,
+            javax.xml.namespace;resolution:=optional,
+            org.apache.commons.fileupload;resolution:=optional,
+            org.apache.commons.fileupload.disk;resolution:=optional,
+            org.apache.commons.fileupload.portlet;resolution:=optional,
             org.apache.commons.logging;version="[1.1.1,2)";resolution:=optional,
-            org.apache.commons.pool;version="[1.6,2)";resolution:=optional,
-            org.apache.commons.pool.impl;version="[1.6,2)";resolution:=optional,
-            org.aspectj.bridge;version="[1.8.2,2)";resolution:=optional,
-            org.aspectj.lang;version="[1.8.2,2)";resolution:=optional,
-            org.aspectj.lang.annotation;version="[1.8.2,2)";resolution:=optional,
-            org.aspectj.lang.reflect;version="[1.8.2,2)";resolution:=optional,
-            org.aspectj.runtime.internal;version="[1.8.2,2)";resolution:=optional,
-            org.aspectj.util;version="[1.8.2,2)";resolution:=optional,
-            org.aspectj.weaver;version="[1.8.2,2)";resolution:=optional,
-            org.aspectj.weaver.ast;version="[1.8.2,2)";resolution:=optional,
-            org.aspectj.weaver.internal.tools;version="[1.8.2,2)";resolution:=optional,
-            org.aspectj.weaver.patterns;version="[1.8.2,2)";resolution:=optional,
-            org.aspectj.weaver.reflect;version="[1.8.2,2)";resolution:=optional,
-            org.aspectj.weaver.tools;version="[1.8.2,2)";resolution:=optional,
-            org.springframework.beans;version="[${pkgVersion},4.2)";resolution:=optional,
-            org.springframework.beans.factory;version="[${pkgVersion},4.2)";resolution:=optional,
-            org.springframework.beans.factory.annotation;version="[${pkgVersion},4.2)";resolution:=optional,
-            org.springframework.beans.factory.config;version="[${pkgVersion},4.2)";resolution:=optional,
-            org.springframework.beans.factory.parsing;version="[${pkgVersion},4.2)";resolution:=optional,
-            org.springframework.beans.factory.support;version="[${pkgVersion},4.2)";resolution:=optional,
-            org.springframework.beans.factory.xml;version="[${pkgVersion},4.2)";resolution:=optional,
-            org.springframework.cglib.core;version="[${pkgVersion},4.2)";resolution:=optional,
-            org.springframework.cglib.proxy;version="[${pkgVersion},4.2)";resolution:=optional,
-            org.springframework.cglib.transform.impl;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.beans;version="[${pkgVersion},4.2)",
+            org.springframework.beans.factory;version="[${pkgVersion},4.2)",
+            org.springframework.beans.factory.config;version="[${pkgVersion},4.2)",
+            org.springframework.beans.factory.support;version="[${pkgVersion},4.2)",
+            org.springframework.beans.factory.xml;version="[${pkgVersion},4.2)",
+            org.springframework.context;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.context.event;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.context.i18n;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.context.support;version="[${pkgVersion},4.2)";resolution:=optional,
             org.springframework.core;version="[${pkgVersion},4.2)",
             org.springframework.core.annotation;version="[${pkgVersion},4.2)",
-            org.springframework.core.convert.converter;version="[${pkgVersion},4.2)",
-            org.springframework.core.task;version="[${pkgVersion},4.2)",
-            org.springframework.core.task.support;version="[${pkgVersion},4.2)",
-            org.springframework.objenesis;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.core.env;version="[${pkgVersion},4.2)",
+            org.springframework.core.io;version="[${pkgVersion},4.2)",
+            org.springframework.core.io.support;version="[${pkgVersion},4.2)",
+            org.springframework.core.style;version="[${pkgVersion},4.2)",
+            org.springframework.http;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.http.converter;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.jndi;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.stereotype;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.ui;version="[${pkgVersion},4.2)";resolution:=optional,
             org.springframework.util;version="[${pkgVersion},4.2)",
-            org.springframework.util.comparator;version="[${pkgVersion},4.2)",
-            org.springframework.util.concurrent;version="[${pkgVersion},4.2)",
-            org.springframework.util.xml;version="[${pkgVersion},4.2)",
-            org.w3c.dom;resolution:=optional
+            org.springframework.validation;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.validation.support;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.web.bind;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.web.bind.annotation;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.web.bind.annotation.support;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.web.bind.support;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.web.context;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.web.context.request;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.web.context.support;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.web.multipart;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.web.multipart.commons;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.web.servlet;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.web.servlet.mvc.annotation;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.web.util;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.xml.sax;resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
 
@@ -98,38 +104,24 @@
             <version>${pkgVersion}</version>
             <exclusions>
                 <exclusion>
-                    <groupId>aopalliance</groupId>
-                    <artifactId>aopalliance</artifactId>
-                </exclusion>
-                <exclusion>
                     <groupId>org.springframework</groupId>
                     <artifactId>spring-beans</artifactId>
                 </exclusion>
                 <exclusion>
                     <groupId>org.springframework</groupId>
-                    <artifactId>spring-core</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-
-        <!-- sources -->
-        <dependency>
-            <groupId>${pkgGroupId}</groupId>
-            <artifactId>${pkgArtifactId}</artifactId>
-            <version>${pkgVersion}</version>
-            <classifier>sources</classifier>
-            <exclusions>
-                <exclusion>
-                    <groupId>aopalliance</groupId>
-                    <artifactId>aopalliance</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.springframework</groupId>
-                    <artifactId>spring-beans</artifactId>
+                    <artifactId>spring-context</artifactId>
                 </exclusion>
                 <exclusion>
                     <groupId>org.springframework</groupId>
                     <artifactId>spring-core</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>spring-web</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>spring-webmvc</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
@@ -155,11 +147,9 @@
                             <filters>
                                 <filter>
                                     <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
-                                    <includes>
-                                        <include>**/*.gif</include>
-                                        <include>**/*.xsd</include>
-                                        <include>META-INF/spring*</include>
-                                    </includes>
+                                    <excludes>
+                                        <exclude>**/*</exclude>
+                                    </excludes>
                                 </filter>
                             </filters>
                             <promoteTransitiveDependencies>true</promoteTransitiveDependencies>

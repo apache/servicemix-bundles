@@ -29,8 +29,8 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.spring-aop</artifactId>
-    <version>4.1.5.RELEASE_2-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.spring-websocket</artifactId>
+    <version>4.1.6.RELEASE_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
 
@@ -42,31 +42,50 @@
 
     <properties>
         <pkgGroupId>org.springframework</pkgGroupId>
-        <pkgArtifactId>spring-aop</pkgArtifactId>
-        <pkgVersion>4.1.5.RELEASE</pkgVersion>
+        <pkgArtifactId>spring-websocket</pkgArtifactId>
+        <pkgVersion>4.1.6.RELEASE</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.springframework
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            com.jamonapi;version="[2.7,3)";resolution:=optional,
-            com.jamonapi.utils;version="[2.7,3)";resolution:=optional,
-            org.aopalliance.aop;version="[1,2)";resolution:=optional,
-            org.aopalliance.intercept;version="[1,2)";resolution:=optional,
+            com.fasterxml.jackson.core.io;resolution:=optional,
+            com.fasterxml.jackson.databind;resolution:=optional,
+            io.undertow.client;resolution:=optional,
+            io.undertow.server;resolution:=optional,
+            io.undertow.servlet.api;resolution:=optional,
+            io.undertow.servlet.websockets;resolution:=optional,
+            io.undertow.util;resolution:=optional,
+            io.undertow.websockets.core;resolution:=optional,
+            io.undertow.websockets.core.protocol;resolution:=optional,
+            io.undertow.websockets.core.protocol.version07;resolution:=optional,
+            io.undertow.websockets.core.protocol.version08;resolution:=optional,
+            io.undertow.websockets.core.protocol.version13;resolution:=optional,
+            io.undertow.websockets.jsr;resolution:=optional,
+            io.undertow.websockets.jsr.annotated;resolution:=optional,
+            io.undertow.websockets.jsr.handshake;resolution:=optional,
+            io.undertow.websockets.spi;resolution:=optional,
+            javax.servlet;resolution:=optional,
+            javax.servlet.http;resolution:=optional,
+            javax.websocket;resolution:=optional,
+            javax.websocket.server;resolution:=optional,
             org.apache.commons.logging;version="[1.1.1,2)";resolution:=optional,
-            org.apache.commons.pool;version="[1.6,2)";resolution:=optional,
-            org.apache.commons.pool.impl;version="[1.6,2)";resolution:=optional,
-            org.aspectj.bridge;version="[1.8.2,2)";resolution:=optional,
-            org.aspectj.lang;version="[1.8.2,2)";resolution:=optional,
-            org.aspectj.lang.annotation;version="[1.8.2,2)";resolution:=optional,
-            org.aspectj.lang.reflect;version="[1.8.2,2)";resolution:=optional,
-            org.aspectj.runtime.internal;version="[1.8.2,2)";resolution:=optional,
-            org.aspectj.util;version="[1.8.2,2)";resolution:=optional,
-            org.aspectj.weaver;version="[1.8.2,2)";resolution:=optional,
-            org.aspectj.weaver.ast;version="[1.8.2,2)";resolution:=optional,
-            org.aspectj.weaver.internal.tools;version="[1.8.2,2)";resolution:=optional,
-            org.aspectj.weaver.patterns;version="[1.8.2,2)";resolution:=optional,
-            org.aspectj.weaver.reflect;version="[1.8.2,2)";resolution:=optional,
-            org.aspectj.weaver.tools;version="[1.8.2,2)";resolution:=optional,
+            org.apache.tomcat.websocket.server;resolution:=optional,
+            org.eclipse.jetty.client;resolution:=optional,
+            org.eclipse.jetty.client.api;resolution:=optional,
+            org.eclipse.jetty.client.util;resolution:=optional,
+            org.eclipse.jetty.http;resolution:=optional,
+            org.eclipse.jetty.websocket.api;resolution:=optional,
+            org.eclipse.jetty.websocket.api.annotations;resolution:=optional,
+            org.eclipse.jetty.websocket.api.extensions;resolution:=optional,
+            org.eclipse.jetty.websocket.client;resolution:=optional,
+            org.eclipse.jetty.websocket.common;resolution:=optional,
+            org.eclipse.jetty.websocket.server;resolution:=optional,
+            org.eclipse.jetty.websocket.servlet;resolution:=optional,
+            org.glassfish.tyrus.core;resolution:=optional,
+            org.glassfish.tyrus.servlet;resolution:=optional,
+            org.glassfish.tyrus.server;resolution:=optional,
+            org.glassfish.tyrus.spi;resolution:=optional,
+            org.glassfish.tyrus.websockets;resolution:=optional,
             org.springframework.beans;version="[${pkgVersion},4.2)";resolution:=optional,
             org.springframework.beans.factory;version="[${pkgVersion},4.2)";resolution:=optional,
             org.springframework.beans.factory.annotation;version="[${pkgVersion},4.2)";resolution:=optional,
@@ -74,20 +93,43 @@
             org.springframework.beans.factory.parsing;version="[${pkgVersion},4.2)";resolution:=optional,
             org.springframework.beans.factory.support;version="[${pkgVersion},4.2)";resolution:=optional,
             org.springframework.beans.factory.xml;version="[${pkgVersion},4.2)";resolution:=optional,
-            org.springframework.cglib.core;version="[${pkgVersion},4.2)";resolution:=optional,
-            org.springframework.cglib.proxy;version="[${pkgVersion},4.2)";resolution:=optional,
-            org.springframework.cglib.transform.impl;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.context;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.context.annotation;version="[${pkgVersion},4.2)";resolution:=optional,
             org.springframework.core;version="[${pkgVersion},4.2)",
             org.springframework.core.annotation;version="[${pkgVersion},4.2)",
-            org.springframework.core.convert.converter;version="[${pkgVersion},4.2)",
+            org.springframework.core.convert;version="[${pkgVersion},4.2)",
             org.springframework.core.task;version="[${pkgVersion},4.2)",
-            org.springframework.core.task.support;version="[${pkgVersion},4.2)",
-            org.springframework.objenesis;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.http;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.http.client;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.http.converter;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.http.converter.json;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.http.server;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.messaging;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.messaging.converter;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.messaging.handler.invocation;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.messaging.simp;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.messaging.simp.annotation.support;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.messaging.simp.broker;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.messaging.simp.config;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.messaging.simp.stomp;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.messaging.simp.user;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.messaging.support;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.scheduling;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.scheduling.concurrent;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.stereotype;version="[${pkgVersion},4.2)";resolution:=optional,
             org.springframework.util;version="[${pkgVersion},4.2)",
-            org.springframework.util.comparator;version="[${pkgVersion},4.2)",
             org.springframework.util.concurrent;version="[${pkgVersion},4.2)",
             org.springframework.util.xml;version="[${pkgVersion},4.2)",
-            org.w3c.dom;resolution:=optional
+            org.springframework.web;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.web.client;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.web.context;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.web.context.support;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.web.servlet;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.web.servlet.handler;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.springframework.web.util;version="[${pkgVersion},4.2)";resolution:=optional,
+            org.w3c.dom;resolution:=optional,
+            org.xnio;resolution:=optional,
+            org.xnio.channels;resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
 
@@ -98,16 +140,16 @@
             <version>${pkgVersion}</version>
             <exclusions>
                 <exclusion>
-                    <groupId>aopalliance</groupId>
-                    <artifactId>aopalliance</artifactId>
-                </exclusion>
-                <exclusion>
                     <groupId>org.springframework</groupId>
-                    <artifactId>spring-beans</artifactId>
+                    <artifactId>spring-context</artifactId>
                 </exclusion>
                 <exclusion>
                     <groupId>org.springframework</groupId>
                     <artifactId>spring-core</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>spring-web</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
@@ -120,16 +162,16 @@
             <classifier>sources</classifier>
             <exclusions>
                 <exclusion>
-                    <groupId>aopalliance</groupId>
-                    <artifactId>aopalliance</artifactId>
-                </exclusion>
-                <exclusion>
                     <groupId>org.springframework</groupId>
-                    <artifactId>spring-beans</artifactId>
+                    <artifactId>spring-context</artifactId>
                 </exclusion>
                 <exclusion>
                     <groupId>org.springframework</groupId>
                     <artifactId>spring-core</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>spring-web</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
@@ -156,7 +198,6 @@
                                 <filter>
                                     <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
                                     <includes>
-                                        <include>**/*.gif</include>
                                         <include>**/*.xsd</include>
                                         <include>META-INF/spring*</include>
                                     </includes>
