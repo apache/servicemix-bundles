@@ -74,6 +74,7 @@
         <module>lucene-queries-5.1.0</module>
         <module>lucene-queryparser-5.1.0</module>
         <module>lucene-sandbox-5.1.0</module>
+        <module>ognl-3.0.11</module>
     </modules>
 
 </project>
