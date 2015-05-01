@@ -69,6 +69,11 @@
         <module>spring-webmvc-portlet-4.1.6.RELEASE</module>
         <module>spring-websocket-4.1.6.RELEASE</module>
         <module>spring-xml-2.2.1.RELEASE</module>
+        <module>lucene-5.1.0</module>
+        <module>lucene-analyzers-common-5.1.0</module>
+        <module>lucene-queries-5.1.0</module>
+        <module>lucene-queryparser-5.1.0</module>
+        <module>lucene-sandbox-5.1.0</module>
     </modules>
 
 </project>
