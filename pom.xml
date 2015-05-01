@@ -82,6 +82,7 @@
         <module>solr-solrj-5.1.0</module>
         <module>spring-integration-core-4.1.3.RELEASE</module>
         <module>gae-1.9.19</module>
+        <module>rhino-1.7.6</module>
     </modules>
 
 </project>
