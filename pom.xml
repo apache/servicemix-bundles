@@ -75,6 +75,10 @@
         <module>lucene-queryparser-5.1.0</module>
         <module>lucene-sandbox-5.1.0</module>
         <module>ognl-3.0.11</module>
+        <module>spring-ws-core-2.2.1.RELEASE</module>
+        <module>spring-ws-security-2.2.1.RELEASE</module>
+        <module>spring-ws-support-2.2.1.RELEASE</module>
+        <module>spring-ws-test-2.2.1.RELEASE</module>
     </modules>
 
 </project>
