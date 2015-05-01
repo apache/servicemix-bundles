@@ -80,6 +80,7 @@
         <module>spring-ws-support-2.2.1.RELEASE</module>
         <module>spring-ws-test-2.2.1.RELEASE</module>
         <module>solr-solrj-5.1.0</module>
+        <module>spring-integration-core-4.1.3.RELEASE</module>
     </modules>
 
 </project>
