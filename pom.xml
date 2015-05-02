@@ -99,6 +99,7 @@
         <module>wss4j-1.6.18</module>
         <module>casbah-2.8.1</module>
         <module>elasticsearch-1.5.2</module>
+        <module>splunk-1.4.0.0</module>
     </modules>
 
 </project>
