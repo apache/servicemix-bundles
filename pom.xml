@@ -102,6 +102,7 @@
         <module>splunk-1.4.0.0</module>
         <module>jsch-0.1.52</module>
         <module>hadoop-client-2.7.0</module>
+        <module>quickfix-1.6.0</module>
     </modules>
 
 </project>

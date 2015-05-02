@@ -1,0 +1,16 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    The Financial Information eXchange (FIX) protocol is a messaging standard developed specifically for the real-time
+    electronic exchange of securities transactions. FIX is a public-domain specification owned and maintained by
+    FIX Protocol, Ltd (FPL).
+
+    QuickFIX/J is a full featured messaging engine for the FIX protocol. It is a 100% Java open source implementation
+    of the popular C++ QuickFIX engine.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://www.quickfixj.org/\u001B[0m
