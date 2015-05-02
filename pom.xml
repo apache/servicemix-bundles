@@ -87,6 +87,7 @@
         <module>kafka-clients-0.8.2.1</module>
         <module>bcprov-jdk15on-1.52</module>
         <module>aws-java-sdk-1.9.33</module>
+        <module>lightcouch-0.1.8</module>
     </modules>
 
 </project>
