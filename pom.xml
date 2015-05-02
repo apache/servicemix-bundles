@@ -89,6 +89,7 @@
         <module>aws-java-sdk-1.9.33</module>
         <module>lightcouch-0.1.8</module>
         <module>javaewah-1.0.2</module>
+        <module>qpid-0.32</module>
     </modules>
 
 </project>
