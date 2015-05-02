@@ -1,0 +1,20 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    Apache WSS4J is an implementation of the OASIS Web Services Security (WS-Security) from OASIS Web Services Security
+    TC. WSS4J is primarily a Java library that can be used to sign and verify SOAP Messages with WS-Security information.
+    WSS4J will use Apache Axis and Apache XML-Security projects and will be interoperable with JAX-RPC based
+    server/clients and .NET server/clients.
+
+    WSS4J implements
+
+        * Web Services Security: SOAP Message Security 1.1
+        * Username Token Profile 1.1
+        * X.509 Certificate Token Profile 1.1
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://ws.apache.org/wss4j/\u001B[0m
