@@ -85,6 +85,7 @@
         <module>rhino-1.7.6</module>
         <module>kafka_2.10-0.8.2.1</module>
         <module>kafka-clients-0.8.2.1</module>
+        <module>bcprov-jdk15on-1.52</module>
     </modules>
 
 </project>
