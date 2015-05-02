@@ -91,6 +91,7 @@
         <module>javaewah-1.0.2</module>
         <module>qpid-0.32</module>
         <module>saxon-9.6.0-5</module>
+        <module>jdom-2.0.6</module>
     </modules>
 
 </project>
