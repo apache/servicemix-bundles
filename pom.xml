@@ -88,6 +88,7 @@
         <module>bcprov-jdk15on-1.52</module>
         <module>aws-java-sdk-1.9.33</module>
         <module>lightcouch-0.1.8</module>
+        <module>javaewah-1.0.2</module>
     </modules>
 
 </project>
