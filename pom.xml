@@ -52,6 +52,7 @@
         <module>swagger-core-1.3.11</module>
         <module>swagger-core-1.3.12</module>
         <module>swagger-core_2.11-1.3.12</module>
+        <module>aws-java-sdk-1.9.34</module>
         <module>poi-3.11</module>
     </modules>
 
