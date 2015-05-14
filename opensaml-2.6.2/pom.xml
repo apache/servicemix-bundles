@@ -43,7 +43,7 @@
              org.opensaml.util*;version="1.5.1";-split-package:=merge-first,
              org.opensaml.ws*;version="1.5.1";-split-package:=merge-first,
              org.opensaml.xml*;version="1.4.1";-split-package:=merge-first,
-             org.opensaml*;version="2.6.1";-split-package:=merge-first
+             org.opensaml*;version="2.6.2";-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
             javax.crypto,
