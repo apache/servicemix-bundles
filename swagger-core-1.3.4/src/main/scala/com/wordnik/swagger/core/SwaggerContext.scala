@@ -12,7 +12,10 @@ object SwaggerContext {
   registerClassLoader(this.getClass.getClassLoader)
   registerClassLoader(Thread.currentThread().getContextClassLoader())
 
-  def registerClassLoader(cl: ClassLoader) = this.classLoaders += cl
+  def registerClassLoader(cl: ClassLoader) = { 
+    this.classLoaders += cl
+    LOGGER.debug("======>register classloader " + cl);
+  }
 
   def loadClass(name: String) = {
     var cls: Class[_] = null
@@ -26,6 +29,9 @@ object SwaggerContext {
         }
       }
     }
+    //use TCCL as fallback
+    registerClassLoader(Thread.currentThread().getContextClassLoader())
+    cls = Class.forName(name.trim, true, Thread.currentThread().getContextClassLoader())
     if (cls == null)
       throw new ClassNotFoundException("class " + name + " not found")
     cls
