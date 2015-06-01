@@ -59,6 +59,42 @@
         <module>opensaml-2.6.4</module>
         <module>opensaml-2.6.5</module>
         <module>poi-3.11</module>
+        <module>spring-aop-3.2.12.RELEASE</module>
+        <module>spring-aspects-3.2.12.RELEASE</module>
+        <module>spring-beans-3.2.12.RELEASE</module>
+        <module>spring-context-3.2.12.RELEASE</module>
+        <module>spring-context-support-3.2.12.RELEASE</module>
+        <module>spring-core-3.2.12.RELEASE</module>
+        <module>spring-expression-3.2.12.RELEASE</module>
+        <module>spring-instrument-3.2.12.RELEASE</module>
+        <module>spring-jdbc-3.2.12.RELEASE</module>
+        <module>spring-jms-3.2.12.RELEASE</module>
+        <module>spring-orm-3.2.12.RELEASE</module>
+        <module>spring-oxm-3.2.12.RELEASE</module>
+        <module>spring-struts-3.2.12.RELEASE</module>
+        <module>spring-test-3.2.12.RELEASE</module>
+        <module>spring-tx-3.2.12.RELEASE</module>
+        <module>spring-web-3.2.12.RELEASE</module>
+        <module>spring-webmvc-3.2.12.RELEASE</module>
+        <module>spring-webmvc-portlet-3.2.12.RELEASE</module>
+        <module>spring-aop-3.2.13.RELEASE</module>
+        <module>spring-aspects-3.2.13.RELEASE</module>
+        <module>spring-beans-3.2.13.RELEASE</module>
+        <module>spring-context-3.2.13.RELEASE</module>
+        <module>spring-context-support-3.2.13.RELEASE</module>
+        <module>spring-core-3.2.13.RELEASE</module>
+        <module>spring-expression-3.2.13.RELEASE</module>
+        <module>spring-instrument-3.2.13.RELEASE</module>
+        <module>spring-jdbc-3.2.13.RELEASE</module>
+        <module>spring-jms-3.2.13.RELEASE</module>
+        <module>spring-orm-3.2.13.RELEASE</module>
+        <module>spring-oxm-3.2.13.RELEASE</module>
+        <module>spring-struts-3.2.13.RELEASE</module>
+        <module>spring-test-3.2.13.RELEASE</module>
+        <module>spring-tx-3.2.13.RELEASE</module>
+        <module>spring-web-3.2.13.RELEASE</module>
+        <module>spring-webmvc-3.2.13.RELEASE</module>
+        <module>spring-webmvc-portlet-3.2.13.RELEASE</module>
     </modules>
 
 </project>
