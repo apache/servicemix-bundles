@@ -96,6 +96,7 @@
         <module>spring-webmvc-3.2.13.RELEASE</module>
         <module>spring-webmvc-portlet-3.2.13.RELEASE</module>
         <module>poi-3.11</module>
+        <module>swagger-core_2.11-1.3.12</module>
     </modules>
 
 </project>

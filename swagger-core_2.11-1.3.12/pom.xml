@@ -51,6 +51,7 @@
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             sun.reflect.generics.reflectiveObjects;resolution:=optional,
+            scala.xml*;version="[1.0,2)",
             scala*;version="[2.10,3)",
             org.slf4j;version="[1.6,2)";resolution:=optional,
             *
