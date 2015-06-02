@@ -1,0 +1,17 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+        Reflections scans your classpath, indexes the metadata, allows you to query it on runtime and may save and collect that information for many modules within your project.
+
+        Using Reflections you can query your metadata such as:
+
+    		get all subtypes of some type
+    		get all types/constructos/methods/fields annotated with some annotation, optionally with annotation parameters matching
+    		get all resources matching matching a regular expression
+    		get all methods with specific signature including parameters, parameter annotations and return type 
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://wiki.fasterxml.com/JacksonModuleScala\u001B[0m
