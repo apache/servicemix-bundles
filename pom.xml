@@ -95,6 +95,7 @@
         <module>spring-web-3.2.13.RELEASE</module>
         <module>spring-webmvc-3.2.13.RELEASE</module>
         <module>spring-webmvc-portlet-3.2.13.RELEASE</module>
+        <module>poi-3.11</module>
     </modules>
 
 </project>
