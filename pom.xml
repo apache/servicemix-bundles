@@ -101,6 +101,8 @@
         <module>xmlgraphics-commons-2.0</module>
         <module>jedis-2.7.2</module>
         <module>hbase-1.1.0.1</module>
+        <module>olingo-odata2-api-2.0.4</module>
+        <module>olingo-odata2-core-2.0.4</module>
     </modules>
 
 </project>
