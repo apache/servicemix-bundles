@@ -103,6 +103,8 @@
         <module>hbase-1.1.0.1</module>
         <module>olingo-odata2-api-2.0.4</module>
         <module>olingo-odata2-core-2.0.4</module>
+        <module>spring-batch-core-3.0.4.RELEASE</module>
+        <module>spring-batch-infrastructure-3.0.4.RELEASE</module>
     </modules>
 
 </project>
