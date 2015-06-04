@@ -105,6 +105,7 @@
         <module>olingo-odata2-core-2.0.4</module>
         <module>spring-batch-core-3.0.4.RELEASE</module>
         <module>spring-batch-infrastructure-3.0.4.RELEASE</module>
+        <module>spring-ldap-2.0.3.RELEASE</module>
     </modules>
 
 </project>
