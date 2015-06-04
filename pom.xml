@@ -114,6 +114,7 @@
         <module>sparkjava-core-2.2</module>
         <module>spring-integration-core-4.1.4.RELEASE</module>
         <module>aws-java-sdk-1.9.39</module>
+        <module>poi-3.12</module>
     </modules>
 
 </project>
