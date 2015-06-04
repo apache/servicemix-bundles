@@ -107,6 +107,7 @@
         <module>spring-batch-infrastructure-3.0.4.RELEASE</module>
         <module>spring-ldap-2.0.3.RELEASE</module>
         <module>gae-1.9.21</module>
+        <module>jt400-8.5</module>
     </modules>
 
 </project>
