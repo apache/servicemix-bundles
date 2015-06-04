@@ -113,6 +113,7 @@
         <module>dbunit-2.5.1</module>
         <module>sparkjava-core-2.2</module>
         <module>spring-integration-core-4.1.4.RELEASE</module>
+        <module>aws-java-sdk-1.9.39</module>
     </modules>
 
 </project>
