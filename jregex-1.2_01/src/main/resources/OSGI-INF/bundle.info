@@ -1,0 +1,12 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    JRegex is compact and efficient regular expression library for Java. It provides
+    support for full perl5.6 regex syntax and is compliant with unicode.org's regex guidelines.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://jregex.sourceforge.net/\u001B[0m
