@@ -119,6 +119,7 @@
         <module>olingo-odata2-core-2.0.0</module>
         <module>olingo-odata2-core-2.0.3</module>
         <module>olingo-odata2-core-2.0.4</module>
+        <module>jsch-0.1.53</module>
     </modules>
 
 </project>
