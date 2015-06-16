@@ -52,6 +52,7 @@
             org.apache.hadoop.hbase
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
+            !org.apache.hadoop.hbase.testclassification,
             com.lmax.disruptor*;resolution:=optional,
             com.sun.javadoc;resolution:=optional,
             com.sun.tools.doclets.standard;resolution:=optional,
