@@ -172,7 +172,8 @@
             org.xml.sax,
             org.xml.sax.ext,
             org.xml.sax.helpers,
-            sun.misc;resolution:=optional
+            sun.misc;resolution:=optional,
+            org.apache.hadoop.hbase.testclassification;resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
 

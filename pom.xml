@@ -45,6 +45,8 @@
         <!-- add modules for all bundles to released in the next batch here -->
         <module>gae-1.9.22</module>
         <module>aws-java-sdk-1.10.0</module>
+        <module>hbase-1.0.0</module>
+        <module>hbase-1.1.0.1</module>
     </modules>
 
 </project>
