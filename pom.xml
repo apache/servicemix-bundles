@@ -90,6 +90,11 @@
         <module>spring-webmvc-3.2.14.RELEASE</module>
         <module>spring-webmvc-portlet-3.2.14.RELEASE</module>
         <module>rhino-1.7.7</module>
+        <module>lucene-5.2.1</module>
+        <module>lucene-analyzers-common-5.2.1</module>
+        <module>lucene-queries-5.2.1</module>
+        <module>lucene-queryparser-5.2.1</module>
+        <module>lucene-sandbox-5.2.1</module>
     </modules>
 
 </project>
