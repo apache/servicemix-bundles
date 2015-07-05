@@ -96,6 +96,7 @@
         <module>lucene-queryparser-5.2.1</module>
         <module>lucene-sandbox-5.2.1</module>
         <module>hbase-1.1.1</module>
+        <module>spring-data-neo4j-3.3.1.RELEASE</module>
     </modules>
 
 </project>
