@@ -70,6 +70,7 @@
         <module>spring-webmvc-4.1.7.RELEASE</module>
         <module>spring-webmvc-portlet-4.1.7.RELEASE</module>
         <module>spring-websocket-4.1.7.RELEASE</module>
+        <module>saxon-9.6.0-6</module>
     </modules>
 
 </project>
