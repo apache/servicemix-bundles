@@ -107,6 +107,7 @@
         <module>aws-java-sdk-1.10.2</module>
         <module>ant-1.9.6</module>
         <module>bcpg-jdk15on-1.52</module>
+        <module>jopt-simple-4.9</module>
     </modules>
 
 </project>
