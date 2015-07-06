@@ -106,6 +106,7 @@
         <module>solr-solrj-5.2.1</module>
         <module>aws-java-sdk-1.10.2</module>
         <module>ant-1.9.6</module>
+        <module>bcpg-jdk15on-1.52</module>
     </modules>
 
 </project>
