@@ -101,6 +101,7 @@
         <module>gae-1.9.23</module>
         <module>xmlgraphics-commons-2.0.1</module>
         <module>jasper-6.0.44</module>
+        <module>elasticsearch-repository-hdfs-2.1.0</module>
     </modules>
 
 </project>
