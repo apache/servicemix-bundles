@@ -29,11 +29,11 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.spring-ldap</artifactId>
+    <artifactId>org.apache.servicemix.bundles.spring-dao</artifactId>
     <version>2.0.8_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
-    <name>Apache ServiceMix :: Bundles :: spring-ldap</name>
-    <description>This OSGi bundle wraps spring-ldap-core, spring-ldap-core-tiger, spring-ldap-odm, spring-ldap-ldif-core, spring-ldap-ldif-batch ${pkgVersion} jar files.</description>
+    <name>Apache ServiceMix :: Bundles :: spring-dao</name>
+    <description>This OSGi bundle wraps spring-dao ${pkgVersion} jar files.</description>
 
     <scm>
         <connection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</connection>
