@@ -118,7 +118,4 @@
         </plugins>
     </build>
 
-  <scm>
-    <tag>org.apache.servicemix.bundles.ant-1.9.6_1</tag>
-  </scm>
 </project>
