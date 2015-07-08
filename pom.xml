@@ -109,6 +109,7 @@
         <module>bcpg-jdk15on-1.52</module>
         <module>jopt-simple-4.9</module>
         <module>fop-2.0</module>
+        <module>twitter4j-4.0.4</module>
     </modules>
 
 </project>
