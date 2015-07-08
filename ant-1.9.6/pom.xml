@@ -31,7 +31,7 @@
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.ant</artifactId>
     <packaging>bundle</packaging>
-    <version>1.9.6_1-SNAPSHOT</version>
+    <version>1.9.6_1</version>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ant and ant-launcher ${pkgVersion} jar files.</description>
 
@@ -111,4 +111,8 @@
             </plugin>
         </plugins>
     </build>
+
+  <scm>
+    <tag>org.apache.servicemix.bundles.ant-1.9.6_1</tag>
+  </scm>
 </project>
