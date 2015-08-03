@@ -48,6 +48,13 @@
         <module>elasticsearch-1.7.1</module>
         <module>flatpack-3.4.2</module>
         <module>docker-java-1.4.0</module>
+        <module>hbase-0.98.5-hadoop2</module>
+        <module>hbase-0.98.0-hadoop2</module>
+        <module>hbase-0.99.0</module>
+        <module>hbase-0.99.2</module>
+        <module>hbase-1.0.0</module>
+        <module>hbase-1.1.0.1</module>
+        <module>hbase-1.1.1</module>
     </modules>
 
 </project>
