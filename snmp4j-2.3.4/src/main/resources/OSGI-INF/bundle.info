@@ -1,0 +1,28 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    SNMP4J is an enterprise class free open source and state-of-the-art SNMP implementation for Java 2SE 1.4 or later.
+    SNMP4J supports command generation (managers) as well as command responding (agents). Its clean object oriented
+    design is inspired by SNMP++, which is a well-known SNMPv1/v2c/v3 API for C++ (see http://www.agentpp.com).
+
+    The SNMP4J Java SNMP API provides the following features:
+
+        * SNMPv3 with MD5 and SHA authentication and DES and AES 128, AES 192, and AES 256 privacy.
+        * Pluggable Message Processing Models with implementations for MPv1, MPv2c, and MPv3
+        * All PDU types.
+        * Pluggable transport mappings. UDP and TCP are supported out-of-the-box.
+        * Pluggable timeout model.
+        * Synchronous and asynchronous requests.
+        * Command generator as well as command responder support.
+        * Free open source with the Apache license model
+        * Java™ 1.4.1 or later
+        * Logging based on Log4J
+        * Row-based efficient asynchronous table retrieval with GETBULK.
+        * Multi-threading support.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://www.snmp4j.org/\u001B[0m
