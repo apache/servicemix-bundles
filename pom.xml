@@ -47,6 +47,7 @@
         <module>freemarker-2.3.23</module>
         <module>elasticsearch-1.7.1</module>
         <module>flatpack-3.4.2</module>
+        <module>docker-java-1.4.0</module>
     </modules>
 
 </project>

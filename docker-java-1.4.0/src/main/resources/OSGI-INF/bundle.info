@@ -1,0 +1,11 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    docker-java is Java API client for Docker. Supports a subset of the Docker Client API v1.16, Docker Server version 1.4.1
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttps://github.com/docker-java/docker-java\u001B[0m
