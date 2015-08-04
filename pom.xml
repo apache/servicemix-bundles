@@ -58,6 +58,7 @@
         <module>snmp4j-2.3.4</module>
         <module>facebook4j-2.3.0</module>
         <module>htmlunit-2.18</module>
+        <module>aws-java-sdk-1.10.8</module>
     </modules>
 
 </project>
