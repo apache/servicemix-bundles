@@ -62,6 +62,7 @@
         <module>jedis-2.7.3</module>
         <module>hadoop-client-2.7.1</module>
         <module>gae-1.9.24</module>
+        <module>casbah-2.8.2</module>
     </modules>
 
 </project>
