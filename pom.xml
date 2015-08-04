@@ -60,6 +60,7 @@
         <module>htmlunit-2.18</module>
         <module>aws-java-sdk-1.10.8</module>
         <module>jedis-2.7.3</module>
+        <module>hadoop-client-2.7.1</module>
     </modules>
 
 </project>
