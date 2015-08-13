@@ -45,6 +45,7 @@
         <!-- add modules for all bundles to released in the next batch here -->
         <module>spring-security-core-3.2.8.RELEASE</module>
         <module>spring-security-config-3.2.8.RELEASE</module>
+        <module>lucene-4.10.4</module>
     </modules>
 
 </project>
