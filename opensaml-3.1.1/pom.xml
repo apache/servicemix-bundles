@@ -47,7 +47,7 @@
         <pkgArtifactId>opensaml</pkgArtifactId>
         <pkgVersion>3.1.1</pkgVersion>
         <servicemix.osgi.export>
-             org.opensaml*;version="${pkgVersion}";-split-package:=merge-first
+             org.opensaml*;version="${pkgVersion}";-split-package:=merge-first,
              net.shibboleth.utilities*;version="${pkgVersion}";-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
