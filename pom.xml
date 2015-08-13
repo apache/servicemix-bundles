@@ -46,6 +46,8 @@
         <module>spring-security-core-3.2.8.RELEASE</module>
         <module>spring-security-config-3.2.8.RELEASE</module>
         <module>lucene-4.10.4</module>
+        <module>reflections-0.9.9</module>
+        <module>reflections-0.9.10</module>
     </modules>
 
 </project>
