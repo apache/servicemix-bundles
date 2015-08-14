@@ -48,6 +48,7 @@
         <module>lucene-4.10.4</module>
         <module>reflections-0.9.9</module>
         <module>reflections-0.9.10</module>
+        <module>solr-solrj-4.10.4</module>
     </modules>
 
 </project>
