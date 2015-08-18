@@ -49,6 +49,7 @@
             org.springframework
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
+            javax.validation;resolution:=optional,
             com.sun.syndication.*;version="[1.0.0, 2.0.0)";resolution:=optional,
             com.lowagie.text.*;version="[2.0.8, 3.0.0)";resolution:=optional,
             freemarker.*;version="[2.3.14, 3.0.0)";resolution:=optional,
