@@ -99,6 +99,7 @@
         <module>spring-tx-4.1.6.RELEASE</module>
         <module>spring-tx-4.1.7.RELEASE</module>
         <module>spring-tx-4.2.0.RELEASE</module>
+        <module>javax-cache-api-1.0.0</module>
     </modules>
 
 </project>
