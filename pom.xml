@@ -112,6 +112,7 @@
         <module>zxing-3.2.1</module>
         <module>splunk-1.5.0.0</module>
         <module>docker-java-2.0.1</module>
+        <module>gae-1.9.25</module>
     </modules>
 
 </project>
