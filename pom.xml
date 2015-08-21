@@ -110,6 +110,7 @@
         <module>spring-batch-core-3.0.5.RELEASE</module>
         <module>spring-batch-infrastructure-3.0.5.RELEASE</module>
         <module>zxing-3.2.1</module>
+        <module>splunk-1.5.0.0</module>
     </modules>
 
 </project>
