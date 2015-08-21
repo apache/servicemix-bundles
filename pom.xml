@@ -100,6 +100,10 @@
         <module>spring-tx-4.1.7.RELEASE</module>
         <module>spring-tx-4.2.0.RELEASE</module>
         <module>javax-cache-api-1.0.0</module>
+        <module>spring-ws-core-2.2.2.RELEASE</module>
+        <module>spring-ws-security-2.2.2.RELEASE</module>
+        <module>spring-ws-support-2.2.2.RELEASE</module>
+        <module>spring-ws-test-2.2.2.RELEASE</module>
     </modules>
 
 </project>
