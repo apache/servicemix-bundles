@@ -105,6 +105,7 @@
         <module>spring-ws-support-2.2.2.RELEASE</module>
         <module>spring-ws-test-2.2.2.RELEASE</module>
         <module>aws-java-sdk-1.10.12</module>
+        <module>jt400-8.6</module>
     </modules>
 
 </project>
