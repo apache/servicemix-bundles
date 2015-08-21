@@ -104,6 +104,7 @@
         <module>spring-ws-security-2.2.2.RELEASE</module>
         <module>spring-ws-support-2.2.2.RELEASE</module>
         <module>spring-ws-test-2.2.2.RELEASE</module>
+        <module>aws-java-sdk-1.10.12</module>
     </modules>
 
 </project>
