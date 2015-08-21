@@ -107,6 +107,8 @@
         <module>aws-java-sdk-1.10.12</module>
         <module>jt400-8.6</module>
         <module>saxon-9.6.0-7</module>
+        <module>spring-batch-core-3.0.5.RELEASE</module>
+        <module>spring-batch-infrastructure-3.0.5.RELEASE</module>
     </modules>
 
 </project>
