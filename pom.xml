@@ -339,6 +339,20 @@
         <module>gae-1.9.25</module>
         <module>spring-security-config-4.0.2.RELEASE</module>
         <module>spring-security-core-4.0.2.RELEASE</module>
+        <module>hbase-1.1.1</module>
+        <module>hbase-1.1.0.1</module>
+        <module>hbase-1.0.0</module>
+        <module>hbase-0.99.2</module>
+        <module>hbase-0.99.0</module>
+        <module>hbase-0.98.5-hadoop2</module>
+        <module>hbase-0.98.0-hadoop2</module>
+        <module>hbase-0.96.1.1-hadoop2</module>
+        <module>hbase-0.96.0-hadoop2</module>
+        <module>hbase-0.95.2-hadoop2</module>
+        <module>hbase-0.95.1-hadoop1</module>
+        <module>hbase-0.95.0</module>
+        <module>hbase-0.94.6</module>
+        <module>hbase-0.94.3</module>
     </modules>
 
 </project>

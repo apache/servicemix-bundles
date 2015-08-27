@@ -118,7 +118,7 @@
             org.apache.commons.lang*;version="[2.5,3)",
             org.apache.commons.logging*;resolution:=optional,
             org.apache.commons.math*,
-            org.apache.hadoop*,
+            org.apache.hadoop*;version="[1,2)",
             org.apache.jasper*;version="[5,7)",
             org.apache.jute;resolution:=optional,
             org.apache.log;resolution:=optional,
