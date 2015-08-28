@@ -29,10 +29,10 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.solr-solrj</artifactId>
-    <packaging>bundle</packaging>
+    <artifactId>org.apache.servicemix.bundles.lucene-queries</artifactId>
     <version>4.10.4_1-SNAPSHOT</version>
-    <name>Apache ServiceMix :: Bundles :: SolrJ</name>
+    <packaging>bundle</packaging>
+    <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
 
     <scm>
@@ -42,22 +42,18 @@
     </scm>
 
     <properties>
-        <pkgGroupId>org.apache.solr</pkgGroupId>
-        <pkgArtifactId>solr-solrj</pkgArtifactId>
+        <pkgGroupId>org.apache.lucene</pkgGroupId>
+        <pkgArtifactId>lucene-queries</pkgArtifactId>
         <pkgVersion>4.10.4</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.apache.solr
+            org.apache.lucene.queries
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            javax.xml*,
-            org.w3c.dom,
-            org.xml.sax*,
-            org.apache.commons.io,
-            org.apache.http*,
-            org.apache.noggit;resolution:=optional,
-            org.apache.zookeeper*;resolution:=optional,
-            org.noggit;resolution:=optional,
-            org.slf4j;resolution:=optional
+            org.apache.lucene.analysis*,
+            org.apache.lucene.document,
+            org.apache.lucene.index,
+            org.apache.lucene.search*,
+            org.apache.lucene.util*
         </servicemix.osgi.import.pkg>
     </properties>
 
@@ -66,32 +62,6 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.apache.zookeeper</groupId>
-                    <artifactId>zookeeper</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>commons-io</groupId>
-                    <artifactId>commons-io</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.noggit</groupId>
-                    <artifactId>noggit</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.apache.httpcomponents</groupId>
-                    <artifactId>httpclient</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.apache.httpcomponents</groupId>
-                    <artifactId>httpmime</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.codehaus.woodstox</groupId>
-                    <artifactId>wstx-asl</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
 
         <!-- sources -->
@@ -100,32 +70,6 @@
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
             <classifier>sources</classifier>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.apache.zookeeper</groupId>
-                    <artifactId>zookeeper</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>commons-io</groupId>
-                    <artifactId>commons-io</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.noggit</groupId>
-                    <artifactId>noggit</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.apache.httpcomponents</groupId>
-                    <artifactId>httpclient</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.apache.httpcomponents</groupId>
-                    <artifactId>httpmime</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.codehaus.woodstox</groupId>
-                    <artifactId>wstx-asl</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
     </dependencies>
 
@@ -150,7 +94,7 @@
                                 <filter>
                                     <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
                                     <excludes>
-                                        <exclude>**</exclude>
+                                        <exclude>**/*</exclude>
                                     </excludes>
                                 </filter>
                             </filters>

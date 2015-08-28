@@ -29,7 +29,7 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.lucene</artifactId>
+    <artifactId>org.apache.servicemix.bundles.lucene-queryparser</artifactId>
     <version>4.10.4_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
@@ -43,13 +43,29 @@
 
     <properties>
         <pkgGroupId>org.apache.lucene</pkgGroupId>
-        <pkgArtifactId>lucene-core</pkgArtifactId>
+        <pkgArtifactId>lucene-queryparser</pkgArtifactId>
         <pkgVersion>4.10.4</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.apache.lucene
+            org.apache.lucene.queryparser
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            javax.management
+            javax.xml.parsers,
+            javax.xml.transform,
+            javax.xml.transform.dom,
+            javax.xml.transform.stream,
+            org.apache.lucene.analysis,
+            org.apache.lucene.analysis.tokenattributes,
+            org.apache.lucene.document,
+            org.apache.lucene.index,
+            org.apache.lucene.queries,
+            org.apache.lucene.queries.mlt,
+            org.apache.lucene.sandbox.queries,
+            org.apache.lucene.search,
+            org.apache.lucene.search.payloads,
+            org.apache.lucene.search.spans,
+            org.apache.lucene.util,
+            org.w3c.dom,
+            org.xml.sax
         </servicemix.osgi.import.pkg>
     </properties>
 
@@ -74,31 +90,23 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>shade</goal>
-                        </goals>
-                        <configuration>
-                            <artifactSet>
-                                <includes>
-                                    <include>${pkgGroupId}:${pkgArtifactId}</include>
-                                </includes>
-                            </artifactSet>
-                            <filters>
-                                <filter>
-                                    <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
-                                    <includes>
-                                        <include>META-INF/services/**</include>
-                                    </includes>
-                                </filter>
-                            </filters>
-                            <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
-                            <createDependencyReducedPom>true</createDependencyReducedPom>
-                        </configuration>
-                    </execution>
-                </executions>
+                <configuration>
+                    <artifactSet>
+                        <includes>
+                            <include>${pkgGroupId}:${pkgArtifactId}</include>
+                        </includes>
+                    </artifactSet>
+                    <filters>
+                        <filter>
+                            <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
+                            <excludes>
+                                <exclude>**/*</exclude>
+                            </excludes>
+                        </filter>
+                    </filters>
+                    <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
+                    <createDependencyReducedPom>true</createDependencyReducedPom>
+                </configuration>
             </plugin>
         </plugins>
     </build>
