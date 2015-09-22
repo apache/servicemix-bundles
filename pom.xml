@@ -46,6 +46,8 @@
         <module>jets3t-0.9.4</module>
         <module>kafka_2.10-0.8.2.2</module>
         <module>kafka-clients-0.8.2.2</module>
+        <module>lightcouch-0.1.6</module>
+        <module>lightcouch-0.1.8</module>
     </modules>
 
 </project>
