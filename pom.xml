@@ -49,6 +49,7 @@
         <module>kafka-clients-0.8.2.2</module>
         <module>lightcouch-0.1.6</module>
         <module>lightcouch-0.1.8</module>
+        <module>spring-ldap-2.0.4.RELEASE</module>
     </modules>
 
 </project>
