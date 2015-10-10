@@ -50,6 +50,28 @@
         <module>lightcouch-0.1.6</module>
         <module>lightcouch-0.1.8</module>
         <module>spring-ldap-2.0.4.RELEASE</module>
+        <module>spring-jdbc-3.2.10.RELEASE</module>
+        <module>spring-jdbc-3.2.11.RELEASE</module>
+        <module>spring-jdbc-3.2.12.RELEASE</module>
+        <module>spring-jdbc-3.2.13.RELEASE</module>
+        <module>spring-jdbc-3.2.14.RELEASE</module>
+        <module>spring-jdbc-3.2.7.RELEASE</module>
+        <module>spring-jdbc-3.2.8.RELEASE</module>
+        <module>spring-jdbc-3.2.9.RELEASE</module>
+        <module>spring-jdbc-4.0.1.RELEASE</module>
+        <module>spring-jdbc-4.0.2.RELEASE</module>
+        <module>spring-jdbc-4.0.3.RELEASE</module>
+        <module>spring-jdbc-4.0.5.RELEASE</module>
+        <module>spring-jdbc-4.0.6.RELEASE</module>
+        <module>spring-jdbc-4.0.7.RELEASE</module>
+        <module>spring-jdbc-4.1.0.RELEASE</module>
+        <module>spring-jdbc-4.1.1.RELEASE</module>
+        <module>spring-jdbc-4.1.2.RELEASE</module>
+        <module>spring-jdbc-4.1.4.RELEASE</module>
+        <module>spring-jdbc-4.1.5.RELEASE</module>
+        <module>spring-jdbc-4.1.6.RELEASE</module>
+        <module>spring-jdbc-4.1.7.RELEASE</module>
+        <module>spring-jdbc-4.2.0.RELEASE</module>
     </modules>
 
 </project>
