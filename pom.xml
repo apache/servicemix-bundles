@@ -79,6 +79,7 @@
         <module>sparkjava-core-2.3</module>
         <module>poi-3.13</module>
         <module>derby-10.12.1.1</module>
+        <module>derbynet-10.12.1.1</module>
     </modules>
 
 </project>
