@@ -74,6 +74,10 @@
         <module>spring-jdbc-4.2.0.RELEASE</module>
         <module>ognl-3.1</module>
         <module>reflections-0.9.9</module>
+        <module>docker-java-2.1.1</module>
+        <module>postgresql-9.4-1204-jdbc42</module>
+        <module>sparkjava-core-2.3</module>
+        <module>poi-3.13</module>
     </modules>
 
 </project>
