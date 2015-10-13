@@ -51,10 +51,10 @@
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             org.osgi.framework,
-            com.google.common.base;resolution:=optional;version="[15.0,19)",
-            com.google.common.cache;resolution:=optional;version="[15.0,19)",
-	    com.google.common.collect;resolution:=optional;version="[15.0,19)",
-	    com.google.common.io;resolution:=optional;version="[15.0,19)",
+            com.google.common.base;resolution:=optional;version="[18.0,19)",
+            com.google.common.cache;resolution:=optional;version="[18.0,19)",
+	    com.google.common.collect;resolution:=optional;version="[18.0,19)",
+	    com.google.common.io;resolution:=optional;version="[18.0,19)",
 	    com.google.gson;resolution:=optional,
             javassist;resolution:=optional,
             javassist.expr;resolution:=optional,
