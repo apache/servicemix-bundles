@@ -80,6 +80,7 @@
         <module>poi-3.13</module>
         <module>derby-10.12.1.1</module>
         <module>derbynet-10.12.1.1</module>
+        <module>hbase-1.1.2</module>
     </modules>
 
 </project>
