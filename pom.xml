@@ -94,6 +94,7 @@
         <module>solr-solrj-5.3.1</module>
         <module>aspectj-1.8.7</module>
         <module>gae-1.9.27</module>
+        <module>elasticsearch-1.7.2</module>
     </modules>
 
 </project>
