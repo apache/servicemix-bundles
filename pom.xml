@@ -92,6 +92,7 @@
         <module>lucene-queryparser-5.3.1</module>
         <module>lucene-sandbox-5.3.1</module>
         <module>solr-solrj-5.3.1</module>
+        <module>aspectj-1.8.7</module>
     </modules>
 
 </project>
