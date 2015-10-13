@@ -84,6 +84,7 @@
         <module>jsr305-3.0.1</module>
         <module>json4s-3.3.0</module>
         <module>json4s_2.11-3.3.0</module>
+        <module>aws-java-sdk-1.10.26</module>
     </modules>
 
 </project>
