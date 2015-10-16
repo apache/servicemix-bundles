@@ -85,6 +85,7 @@
         <module>json4s-3.3.0</module>
         <module>json4s_2.11-3.3.0</module>
         <module>aws-java-sdk-1.10.26</module>
+        <module>aws-java-sdk-1.10.27</module>
         <module>paranamer-2.8</module>
         <module>lucene-5.3.1</module>
         <module>lucene-analyzers-common-5.3.1</module>
