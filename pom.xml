@@ -96,6 +96,7 @@
         <module>aspectj-1.8.7</module>
         <module>gae-1.9.27</module>
         <module>elasticsearch-1.7.2</module>
+        <module>c3p0-0.9.5.1</module>
     </modules>
 
 </project>
