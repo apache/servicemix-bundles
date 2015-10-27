@@ -87,6 +87,7 @@
         <module>aws-java-sdk-1.10.26</module>
         <module>aws-java-sdk-1.10.27</module>
         <module>aws-java-sdk-1.10.28</module>
+        <module>aws-java-sdk-1.10.29</module>
         <module>paranamer-2.8</module>
         <module>lucene-5.3.1</module>
         <module>lucene-analyzers-common-5.3.1</module>
