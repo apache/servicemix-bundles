@@ -101,6 +101,7 @@
         <module>elasticsearch-1.7.3</module>
         <module>c3p0-0.9.5.1</module>
         <module>mustache-compiler-0.8.18</module>
+        <module>mustache-compiler-0.9.1</module>
     </modules>
 
 </project>
