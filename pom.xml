@@ -102,6 +102,7 @@
         <module>c3p0-0.9.5.1</module>
         <module>mustache-compiler-0.8.18</module>
         <module>mustache-compiler-0.9.1</module>
+        <module>libthrift-0.9.3</module>
     </modules>
 
 </project>
