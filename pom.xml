@@ -122,6 +122,9 @@
         <module>spring-webmvc-4.2.2.RELEASE</module>
         <module>spring-webmvc-portlet-4.2.2.RELEASE</module>
         <module>spring-websocket-4.2.2.RELEASE</module>
+        <module>reflections-0.9.8</module>
+        <module>reflections-0.9.9</module>
+        <module>reflections-0.9.10</module>
     </modules>
 
 </project>
