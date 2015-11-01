@@ -317,7 +317,11 @@ public abstract class Vfs {
 
             public Dir createDir(final URL url) throws Exception {
                 try {
-                    return new ZipDir(new JarFile(getFile(new URL(FrameworkUtil.getBundle(Vfs.class).getBundleContext().getBundle(getBundleIdforResourceScan(url.toExternalForm())).getLocation()))));
+                    String location = FrameworkUtil.getBundle(Vfs.class).getBundleContext().getBundle(getBundleIdforResourceScan(url.toExternalForm())).getLocation();
+                    if (location.startsWith("reference:")) {
+                        location = location.substring("reference:".length());
+                    }
+                    return new ZipDir(new JarFile(getFile(new URL(location))));
                 } catch (Exception e) {
                     e.printStackTrace();
                     throw e;
