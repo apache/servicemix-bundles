@@ -44,6 +44,7 @@
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
         <module>cglib-3.2.0</module>
+        <module>aws-java-sdk-1.10.32</module>
     </modules>
 
 </project>
