@@ -46,6 +46,7 @@
         <module>cglib-3.2.0</module>
         <module>aws-java-sdk-1.10.31</module>
         <module>aws-java-sdk-1.10.32</module>
+        <module>aws-java-sdk-1.10.33</module>
     </modules>
 
 </project>
