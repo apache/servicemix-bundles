@@ -48,6 +48,8 @@
         <module>aws-java-sdk-1.10.32</module>
         <module>aws-java-sdk-1.10.33</module>
         <module>ognl-3.1.1</module>
+        <module>olingo-odata2-core-2.0.5</module>
+        <module>olingo-odata2-api-2.0.5</module>
     </modules>
 
 </project>
