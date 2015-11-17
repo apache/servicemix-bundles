@@ -52,6 +52,7 @@
         <module>olingo-odata2-core-2.0.5</module>
         <module>olingo-odata2-api-2.0.5</module>
         <module>facebook4j-2.3.1</module>
+        <module>facebook4j-2.3.2</module>
     </modules>
 
 </project>
