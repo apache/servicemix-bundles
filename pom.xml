@@ -47,6 +47,7 @@
         <module>aws-java-sdk-1.10.31</module>
         <module>aws-java-sdk-1.10.32</module>
         <module>aws-java-sdk-1.10.33</module>
+        <module>aws-java-sdk-1.10.34</module>
         <module>ognl-3.1.1</module>
         <module>elasticsearch-2.0.0</module>
         <module>olingo-odata2-core-2.0.5</module>
