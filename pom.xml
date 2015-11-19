@@ -60,6 +60,7 @@
         <module>spring-ldap-2.0.2.RELEASE</module>
         <module>spring-ldap-2.0.3.RELEASE</module>
         <module>spring-ldap-2.0.4.RELEASE</module>
+        <module>gae-1.9.28</module>
     </modules>
 
 </project>
