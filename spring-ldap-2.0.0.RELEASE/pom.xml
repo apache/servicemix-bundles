@@ -102,7 +102,7 @@
             <version>${pkgVersion}</version>
         </dependency>
 
-        <!-- sources
+        <!-- sources -->
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>spring-ldap-core</artifactId>
@@ -127,7 +127,6 @@
             <version>${pkgVersion}</version>
             <classifier>sources</classifier>
         </dependency>
-        -->
     </dependencies>
 
     <build>
