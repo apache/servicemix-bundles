@@ -18,16 +18,16 @@
         See the License for the specific language governing permissions and
         limitations under the License.
     -->
-    
+
     <modelVersion>4.0.0</modelVersion>
-    
+
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
         <version>12</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
-    
+
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.poi</artifactId>
     <version>3.13_2-SNAPSHOT</version>
@@ -43,7 +43,7 @@
         <url>https://git-wip-us.apache.org/repos/asf?p=servicemix-bundles.git</url>
     <tag>HEAD</tag>
   </scm>
-    
+
     <properties>
         <pkgGroupId>org.apache.poi</pkgGroupId>
         <pkgArtifactId>poi</pkgArtifactId>
@@ -53,7 +53,8 @@
             org.w3.x2000.x09.xmldsig*;version=${pkgVersion};-split-package:=merge-first,
             org.openxmlformats.schemas*;version=${pkgVersion};-split-package:=merge-first,
             com.microsoft.schemas.office.x2006*;version=${pkgVersion};-split-package:=merge-first,
-            org.apache.poi
+            org.purl.dc.elements.x11,
+            org.apache.poi*
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             com.sun.javadoc;resolution:=optional,
@@ -72,7 +73,7 @@
             org.apache.xmlbeans.*;-split-package:=merge-first
         </servicemix.osgi.private.pkg>
     </properties>
-    
+
     <dependencies>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
@@ -102,6 +103,12 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>poi-ooxml-schemas</artifactId>
             <version>${pkgVersion}</version>
+            <optional>false</optional>
+        </dependency>
+        <dependency>
+	          <groupId>${pkgGroupId}</groupId>
+	          <artifactId>ooxml-security</artifactId>
+	          <version>1.0</version>
             <optional>false</optional>
         </dependency>
         <dependency>
@@ -139,6 +146,13 @@
             <classifier>sources</classifier>
             <optional>false</optional>
         </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>ooxml-security</artifactId>
+            <version>1.0</version>
+            <classifier>sources</classifier>
+            <optional>false</optional>
+        </dependency>
 
         <!-- Sources not available -->
         <!--<dependency>-->
@@ -156,7 +170,7 @@
         <!--</dependency>-->
 
     </dependencies>
-    
+
     <build>
         <plugins>
             <plugin>
@@ -176,6 +190,7 @@
                                     <include>${pkgGroupId}:poi-scratchpad</include>
                                     <include>${pkgGroupId}:poi-ooxml</include>
                                     <include>${pkgGroupId}:poi-ooxml-schemas</include>
+                                    <include>${pkgGroupId}:ooxml-security</include>
                                     <include>dom4j:dom4j</include>
                                     <include>org.apache.xmlbeans:xmlbeans</include>
                                 </includes>
