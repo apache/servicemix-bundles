@@ -96,6 +96,7 @@
         <module>aspectj-1.8.6</module>
         <module>aspectj-1.8.5</module>
         <module>jt400-8.7</module>
+        <module>opensaml-2.6.5</module>
     </modules>
 
 </project>
