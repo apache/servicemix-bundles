@@ -64,6 +64,11 @@
         <module>spring-ldap-2.0.3.RELEASE</module>
         <module>spring-ldap-2.0.4.RELEASE</module>
         <module>gae-1.9.28</module>
+        <module>qpid-0.24</module>
+        <module>qpid-0.26</module>
+        <module>qpid-0.32</module>
+        <module>qpid-0.30</module>
+        <module>qpid-0.28</module>
     </modules>
 
 </project>

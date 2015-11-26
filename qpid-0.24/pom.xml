@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>10</version>
+        <version>12</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -35,13 +35,21 @@
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps qpid-common and qpid-client ${pkgVersion} jar files.</description>
 
+    <scm>
+        <connection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</connection>
+        <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
+        <url>https://git-wip-us.apache.org/repos/asf?p=servicemix-bundles.git</url>
+      <tag>HEAD</tag>
+  </scm>
+
     <properties>
         <pkgGroupId>org.apache.qpid</pkgGroupId>
         <pkgArtifactId>qpid</pkgArtifactId>
         <pkgVersion>0.24</pkgVersion>
-        <servicemix.osgi.export.pkg>
-            org.apache.qpid
-        </servicemix.osgi.export.pkg>
+        <servicemix.osgi.export>
+            org.apache.qpid.proton*;version=0.6,
+            org.apache.qpid*;version=0.24
+        </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
             javax.jms*,
             javax.naming*,
@@ -65,6 +73,11 @@
             <artifactId>${pkgArtifactId}-client</artifactId>
             <version>${pkgVersion}</version>
         </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>proton-api</artifactId>
+            <version>0.6</version>
+        </dependency>
 
         <!-- sources -->
         <dependency>
@@ -77,6 +90,12 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}-client</artifactId>
             <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>proton-api</artifactId>
+            <version>0.6</version>
             <classifier>sources</classifier>
         </dependency>
     </dependencies>
@@ -97,6 +116,7 @@
                                 <includes>
                                     <include>${pkgGroupId}:${pkgArtifactId}-common</include>
                                     <include>${pkgGroupId}:${pkgArtifactId}-client</include>
+                                    <include>${pkgGroupId}:proton-api</include>
                                 </includes>
                             </artifactSet>
                             <filters>
@@ -108,6 +128,12 @@
                                 </filter>
                                 <filter>
                                     <artifact>${pkgGroupId}:${pkgArtifactId}-client</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:proton-api</artifact>
                                     <excludes>
                                         <exclude>**</exclude>
                                     </excludes>
