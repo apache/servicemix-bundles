@@ -69,6 +69,8 @@
         <module>qpid-0.32</module>
         <module>qpid-0.30</module>
         <module>qpid-0.28</module>
+        <module>kafka_2.10-0.9.0.0</module>
+        <module>kafka-clients-0.9.0.0</module>
     </modules>
 
 </project>
