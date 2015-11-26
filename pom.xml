@@ -93,6 +93,7 @@
         <module>aspectj-1.8.7</module>
         <module>aspectj-1.8.6</module>
         <module>aspectj-1.8.5</module>
+        <module>jt400-8.7</module>
     </modules>
 
 </project>
