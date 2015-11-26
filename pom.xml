@@ -50,6 +50,7 @@
         <module>aws-java-sdk-1.10.33</module>
         <module>aws-java-sdk-1.10.34</module>
         <module>aws-java-sdk-1.10.35</module>
+        <module>aws-java-sdk-1.10.36</module>
         <module>ognl-3.1.1</module>
         <module>elasticsearch-2.0.0</module>
         <module>elasticsearch-2.1.0</module>
