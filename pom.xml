@@ -90,6 +90,9 @@
         <module>spring-webmvc-4.2.3.RELEASE</module>
         <module>spring-webmvc-portlet-4.2.3.RELEASE</module>
         <module>spring-websocket-4.2.3.RELEASE</module>
+        <module>aspectj-1.8.7</module>
+        <module>aspectj-1.8.6</module>
+        <module>aspectj-1.8.5</module>
     </modules>
 
 </project>

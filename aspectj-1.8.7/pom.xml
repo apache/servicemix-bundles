@@ -46,9 +46,10 @@
         <pkgGroupId>org.aspectj</pkgGroupId>
         <pkgArtifactId>aspectj</pkgArtifactId>
         <pkgVersion>1.8.7</pkgVersion>
-        <servicemix.osgi.export.pkg>
-            org.aspectj
-        </servicemix.osgi.export.pkg>
+        <servicemix.osgi.export>
+            org.aspectj*;version=1.8.7,
+            aj*;version=1.8.7
+        </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
             javax.xml*,
             org.xml.sax*,
