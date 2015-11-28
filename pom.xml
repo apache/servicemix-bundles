@@ -43,22 +43,6 @@
 
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
-        <module>cglib-3.2.0</module>
-        <module>aws-java-sdk-1.10.30</module>
-        <module>aws-java-sdk-1.10.31</module>
-        <module>aws-java-sdk-1.10.32</module>
-        <module>aws-java-sdk-1.10.33</module>
-        <module>aws-java-sdk-1.10.34</module>
-        <module>aws-java-sdk-1.10.35</module>
-        <module>aws-java-sdk-1.10.36</module>
-        <module>aws-java-sdk-1.10.37</module>
-        <module>ognl-3.1.1</module>
-        <module>elasticsearch-2.0.0</module>
-        <module>elasticsearch-2.1.0</module>
-        <module>olingo-odata2-core-2.0.5</module>
-        <module>olingo-odata2-api-2.0.5</module>
-        <module>facebook4j-2.3.1</module>
-        <module>facebook4j-2.3.2</module>
         <module>spring-ldap-1.3.2.RELEASE</module>
         <module>spring-ldap-2.0.0.RELEASE</module>
         <module>spring-ldap-2.0.1.RELEASE</module>
