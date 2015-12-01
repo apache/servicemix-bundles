@@ -51,12 +51,16 @@
             org.apache.qpid*;version=0.28
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
+            javax.crypto, 
+            javax.crypto.spec,
             javax.jms*,
             javax.naming*,
             javax.net*,
             javax.security*,
             javax.transaction*,
+            javax.xml.bind;resolution:=optional,
             edu.emory.mathcs.backport.java.util.concurrent;resolution:=optional,
+            org.bouncycastle*;resolution:=optional,
             org.ietf.jgss;resolution:=optional,
             org.slf4j;resolution:=optional
         </servicemix.osgi.import.pkg>
@@ -82,6 +86,16 @@
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>proton-api</artifactId>
+            <version>0.6</version>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>proton-j-impl</artifactId>
+            <version>0.6</version>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>proton-jms</artifactId>
             <version>0.6</version>
         </dependency>
 
@@ -110,6 +124,18 @@
             <version>0.6</version>
             <classifier>sources</classifier>
         </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>proton-j-impl</artifactId>
+            <version>0.6</version>
+            <classifier>sources</classifier>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>proton-jms</artifactId>
+            <version>0.6</version>
+            <classifier>sources</classifier>
+        </dependency>
     </dependencies>
 
     <build>
@@ -129,6 +155,8 @@
                                     <include>${pkgGroupId}:${pkgArtifactId}-common</include>
                                     <include>${pkgGroupId}:${pkgArtifactId}-client</include>
                                     <include>${pkgGroupId}:proton-api</include>
+                                    <include>${pkgGroupId}:proton-j-impl</include>
+                                    <include>${pkgGroupId}:proton-jms</include>
                                 </includes>
                             </artifactSet>
                             <filters>
@@ -149,6 +177,18 @@
                                 </filter>
                                 <filter>
                                     <artifact>${pkgGroupId}:proton-api</artifact>
+                                    <excludes>
+                                        <exclude>**/*</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:proton-j-impl</artifact>
+                                    <excludes>
+                                        <exclude>**/*</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:proton-jms</artifact>
                                     <excludes>
                                         <exclude>**/*</exclude>
                                     </excludes>
