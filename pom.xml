@@ -45,6 +45,7 @@
         <!-- add modules for all bundles to released in the next batch here -->
         <module>facebook4j-2.4.0</module>
         <module>facebook4j-2.4.1</module>
+        <module>docker-java-2.1.2</module>
     </modules>
 
 </project>
