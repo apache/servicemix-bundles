@@ -47,6 +47,7 @@
         <module>facebook4j-2.4.1</module>
         <module>docker-java-2.1.2</module>
         <module>aws-java-sdk-1.10.38</module>
+        <module>aws-java-sdk-1.10.39</module>
     </modules>
 
 </project>
