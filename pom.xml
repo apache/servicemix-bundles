@@ -54,6 +54,11 @@
         <module>elasticsearch-2.0.1</module>
         <module>gae-1.9.30</module>
         <module>quickfix-1-6-1</module>
+        <module>lucene-5.4.0</module>
+        <module>lucene-analyzers-common-5.4.0</module>
+        <module>lucene-queries-5.4.0</module>
+        <module>lucene-queryparser-5.4.0</module>
+        <module>lucene-sandbox-5.4.0</module>
     </modules>
 
 </project>
