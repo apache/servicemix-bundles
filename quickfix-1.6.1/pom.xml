@@ -43,7 +43,7 @@
   </scm>
 
     <properties>
-        <pkgGroupId>org.quickfixj</pkgGroupId>
+        <pkgGroupId>quickfixj</pkgGroupId>
         <pkgArtifactId>quickfixj-all</pkgArtifactId>
         <pkgVersion>1.6.1</pkgVersion>
         <servicemix.osgi.export>
@@ -92,9 +92,9 @@
 
     <repositories>
         <repository>
-            <id>smx-m2-repo</id>
-            <name>ServiceMix M2 Repo</name>
-            <url>http://svn.apache.org/repos/asf/servicemix/m2-repo</url>
+            <id>marketcetera-m2-repo</id>
+            <name>Marketcetera M2 Repo</name>
+            <url>http://repo.marketcetera.org/maven/</url>
         </repository>
     </repositories>
 
