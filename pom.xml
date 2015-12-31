@@ -53,6 +53,7 @@
         <module>aws-java-sdk-1.10.41</module>
         <module>aws-java-sdk-1.10.42</module>
         <module>elasticsearch-2.0.1</module>
+        <module>elasticsearch-2.0.2</module>
         <module>gae-1.9.30</module>
         <module>quickfix-1.6.1</module>
         <module>lucene-5.4.0</module>
