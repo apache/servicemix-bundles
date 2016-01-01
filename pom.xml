@@ -86,6 +86,7 @@
         <module>spring-websocket-4.2.4.RELEASE</module>
         <module>qpid-6.0.0</module>
         <module>quartz-2.2.2</module>
+        <module>saxon-9.7.0-1</module>
     </modules>
 
 </project>
