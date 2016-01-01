@@ -89,6 +89,7 @@
         <module>quartz-2.2.2</module>
         <module>saxon-9.7.0-1</module>
         <module>casbah-3.1.0</module>
+        <module>bcpg-jdk15on-1.54</module>
     </modules>
 
 </project>
