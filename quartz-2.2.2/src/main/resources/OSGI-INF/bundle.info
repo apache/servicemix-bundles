@@ -1,0 +1,18 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    Quartz is a full-featured, open source job scheduling service that can be integrated with, or used along side
+    virtually any Java EE or Java SE application - from the smallest stand-alone application to the largest e-commerce
+    system. Quartz can be used to create simple or complex schedules for executing tens, hundreds, or even
+    tens-of-thousands of jobs; jobs whose tasks are defined as standard Java components that may execute virtually
+    anything you may program them to do. The Quartz Scheduler includes many enterprise-class features, such as JTA
+    transactions and clustering.
+
+    Quartz is freely usable, licensed under the Apache 2.0 license.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://www.quartz-scheduler.org/\u001B[0m
