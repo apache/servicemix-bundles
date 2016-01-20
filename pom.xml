@@ -45,6 +45,7 @@
         <!-- add modules for all bundles to released in the next batch here -->
         <module>facebook4j-2.4.2</module>
         <module>bazaarvoice-jolt-0.0.20</module>
+        <module>java_nats-0.5.2</module>
     </modules>
 
 </project>
