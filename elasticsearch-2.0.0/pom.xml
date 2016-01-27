@@ -53,7 +53,8 @@
             *;resolution:=optional,
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
-            org.apache.lucene*;-split-package:=merge-last,
+            org.joda.time*;-split-package:=merge-first,
+            org.apache.lucene*;-split-package:=merge-first,
             org.tartarus.snowball*,
             org.apache.regexp,
             META-INF.*
