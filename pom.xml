@@ -95,6 +95,10 @@
         <module>saxon-9.7.0-2</module>
         <module>gae-1.9.31</module>
         <module>hadoop-client-2.7.2</module>
+        <module>spring-ws-core-2.2.4.RELEASE</module>
+        <module>spring-ws-security-2.2.4.RELEASE</module>
+        <module>spring-ws-support-2.2.4.RELEASE</module>
+        <module>spring-ws-test-2.2.4.RELEASE</module>
     </modules>
 
 </project>
