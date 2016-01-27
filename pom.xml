@@ -93,6 +93,7 @@
         <module>spring-batch-core-3.0.6.RELEASE</module>
         <module>spring-batch-infrastructure-3.0.6.RELEASE</module>
         <module>saxon-9.7.0-2</module>
+        <module>gae-1.9.31</module>
     </modules>
 
 </project>
