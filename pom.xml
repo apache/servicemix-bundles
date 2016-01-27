@@ -102,6 +102,7 @@
         <module>spring-security-config-4.0.3.RELEASE</module>
         <module>spring-security-core-4.0.3.RELEASE</module>
         <module>xmlgraphics-commons-2.1</module>
+        <module>spring-xml-2.2.4.RELEASE</module>
     </modules>
 
 </project>
