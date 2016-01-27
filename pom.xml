@@ -92,6 +92,7 @@
         <module>docker-java-2.1.4</module>
         <module>spring-batch-core-3.0.6.RELEASE</module>
         <module>spring-batch-infrastructure-3.0.6.RELEASE</module>
+        <module>saxon-9.7.0-2</module>
     </modules>
 
 </project>
