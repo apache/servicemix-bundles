@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.spring-webmvc</artifactId>
-    <version>3.2.16.RELEASE_3-SNAPSHOT</version>
+    <version>3.2.16.RELEASE_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
 
