@@ -82,6 +82,11 @@
         <module>solr-solrj-5.4.1</module>
         <module>aws-java-sdk-1.10.49</module>
         <module>fop-2.1</module>
+        <module>lucene-5.4.1</module>
+        <module>lucene-analyzers-common-5.4.1</module>
+        <module>lucene-queries-5.4.1</module>
+        <module>lucene-queryparser-5.4.1</module>
+        <module>lucene-sandbox-5.4.1</module>
     </modules>
 
 </project>
