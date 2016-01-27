@@ -101,6 +101,7 @@
         <module>spring-ws-test-2.2.4.RELEASE</module>
         <module>spring-security-config-4.0.3.RELEASE</module>
         <module>spring-security-core-4.0.3.RELEASE</module>
+        <module>xmlgraphics-commons-2.1</module>
     </modules>
 
 </project>
