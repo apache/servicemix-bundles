@@ -87,6 +87,7 @@
         <module>lucene-queries-5.4.1</module>
         <module>lucene-queryparser-5.4.1</module>
         <module>lucene-sandbox-5.4.1</module>
+        <module>aspectj-1.8.8</module>
     </modules>
 
 </project>
