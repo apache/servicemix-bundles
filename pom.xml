@@ -43,66 +43,6 @@
 
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
-        <module>facebook4j-2.4.2</module>
-        <module>bazaarvoice-jolt-0.0.20</module>
-        <module>java_nats-0.5.2</module>
-        <module>spring-aop-3.2.16.RELEASE</module>
-        <module>spring-aspects-3.2.16.RELEASE</module>
-        <module>spring-beans-3.2.16.RELEASE</module>
-        <module>spring-context-3.2.16.RELEASE</module>
-        <module>spring-context-support-3.2.16.RELEASE</module>
-        <module>spring-core-3.2.16.RELEASE</module>
-        <module>spring-expression-3.2.16.RELEASE</module>
-        <module>spring-instrument-3.2.16.RELEASE</module>
-        <module>spring-jdbc-3.2.16.RELEASE</module>
-        <module>spring-jms-3.2.16.RELEASE</module>
-        <module>spring-orm-3.2.16.RELEASE</module>
-        <module>spring-oxm-3.2.16.RELEASE</module>
-        <module>spring-struts-3.2.16.RELEASE</module>
-        <module>spring-test-3.2.16.RELEASE</module>
-        <module>spring-tx-3.2.16.RELEASE</module>
-        <module>spring-web-3.2.16.RELEASE</module>
-        <module>spring-webmvc-3.2.16.RELEASE</module>
-        <module>spring-webmvc-portlet-3.2.16.RELEASE</module>
-        <module>avro-1.5.3</module>
-        <module>avro-1.6.1</module>
-        <module>avro-1.6.3</module>
-        <module>avro-1.7.1</module>
-        <module>avro-1.7.2</module>
-        <module>avro-1.7.3</module>
-        <module>avro-1.7.4</module>
-        <module>avro-1.7.5</module>
-        <module>avro-1.7.6</module>
-        <module>avro-1.7.7</module>
-        <module>elasticsearch-2.0.0</module>
-        <module>elasticsearch-2.0.1</module>
-        <module>elasticsearch-2.0.2</module>
-        <module>elasticsearch-2.1.0</module>
-        <module>elasticsearch-2.1.1</module>
-        <module>solr-solrj-5.4.1</module>
-        <module>aws-java-sdk-1.10.49</module>
-        <module>fop-2.1</module>
-        <module>lucene-5.4.1</module>
-        <module>lucene-analyzers-common-5.4.1</module>
-        <module>lucene-queries-5.4.1</module>
-        <module>lucene-queryparser-5.4.1</module>
-        <module>lucene-sandbox-5.4.1</module>
-        <module>aspectj-1.8.8</module>
-        <module>hbase-1.1.3</module>
-        <module>docker-java-2.1.4</module>
-        <module>spring-batch-core-3.0.6.RELEASE</module>
-        <module>spring-batch-infrastructure-3.0.6.RELEASE</module>
-        <module>saxon-9.7.0-2</module>
-        <module>gae-1.9.31</module>
-        <module>hadoop-client-2.7.2</module>
-        <module>spring-ws-core-2.2.4.RELEASE</module>
-        <module>spring-ws-security-2.2.4.RELEASE</module>
-        <module>spring-ws-support-2.2.4.RELEASE</module>
-        <module>spring-ws-test-2.2.4.RELEASE</module>
-        <module>spring-security-config-4.0.3.RELEASE</module>
-        <module>spring-security-core-4.0.3.RELEASE</module>
-        <module>xmlgraphics-commons-2.1</module>
-        <module>spring-xml-2.2.4.RELEASE</module>
     </modules>
 
 </project>
