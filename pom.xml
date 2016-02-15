@@ -51,6 +51,8 @@
         <module>elasticsearch-2.0.1</module>
         <module>elasticsearch-2.0.0</module>
         <module>chunk-templates-3.2.0</module>
+        <module>olingo-odata2-api-2.0.6</module>
+        <module>olingo-odata2-core-2.0.6</module>
     </modules>
 
 </project>
