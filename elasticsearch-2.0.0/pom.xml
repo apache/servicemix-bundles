@@ -50,13 +50,22 @@
             org.elasticsearch
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            *;resolution:=optional,
+            com.google.common.collect,
+            com.fasterxml.jackson.core;version="[2.6,3)",
+            com.fasterxml.jackson.dataformat.yaml,
+            com.fasterxml.jackson.dataformat.smile,
+            com.ning.compress.lzf.util,
+            com.sun.jna;resolution:=optional,
+            *;resolution:=optional
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
             org.joda.time*;-split-package:=merge-first,
             org.apache.lucene*;-split-package:=merge-first,
             org.tartarus.snowball*,
             org.apache.regexp,
+            com.twitter.jsr166e,
+            com.tdunning.math.stats,
+            com.carrotsearch.hppc*,
             META-INF.*
         </servicemix.osgi.private.pkg>
     </properties>
