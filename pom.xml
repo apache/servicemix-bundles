@@ -60,6 +60,7 @@
         <module>avro-ipc-1.8.0</module>
         <module>gae-1.9.32</module>
         <module>rhino-1.7.7.1</module>
+        <module>elasticsearch-repository-hdfs-2.2.0</module>
     </modules>
 
 </project>
