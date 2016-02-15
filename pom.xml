@@ -61,6 +61,14 @@
         <module>gae-1.9.32</module>
         <module>rhino-1.7.7.1</module>
         <module>elasticsearch-repository-hdfs-2.2.0</module>
+        <module>lucene-analyzers-common-5.4.1</module>
+        <module>lucene-analyzers-common-5.4.0</module>
+        <module>lucene-analyzers-common-5.3.1</module>
+        <module>lucene-analyzers-common-5.2.1</module>
+        <module>lucene-analyzers-common-5.1.0</module>
+        <module>lucene-analyzers-common-5.0.0</module>
+        <module>lucene-analyzers-common-4.9.0</module>
+        <module>lucene-analyzers-common-4.8.1</module>
     </modules>
 
 </project>

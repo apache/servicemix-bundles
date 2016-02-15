@@ -49,8 +49,7 @@
         <servicemix.osgi.export>
             !org.apache.lucene.analysis,
             !org.apache.lucene.analysis.tokenattributes,
-            org.apache.lucene.analysis.*;version=${pkgVersion};-split-package:=merge-first,
-            org.tartarus.snowball*;-split-package:=merge-first
+            org.apache.lucene.analysis.*;version=${pkgVersion};-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
             javax.xml.parsers,
@@ -64,6 +63,9 @@
             org.xml.sax,
             org.xml.sax.helpers
         </servicemix.osgi.import.pkg>
+        <servicemix.osgi.private.pkg>
+            org.tartarus.snowball*
+        </servicemix.osgi.private.pkg>
         <servicemix.osgi.embed.dependency>
             *;inline=META-INF/services/*
         </servicemix.osgi.embed.dependency>

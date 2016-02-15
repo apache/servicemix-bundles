@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>11</version>
+        <version>12</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -35,6 +35,13 @@
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
 
+    <scm>
+        <connection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</connection>
+        <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
+        <url>https://git-wip-us.apache.org/repos/asf?p=servicemix-bundles.git</url>
+      <tag>HEAD</tag>
+  </scm>
+
     <properties>
         <pkgGroupId>org.apache.lucene</pkgGroupId>
         <pkgArtifactId>lucene-analyzers-common</pkgArtifactId>
@@ -42,8 +49,7 @@
         <servicemix.osgi.export>
             !org.apache.lucene.analysis,
             !org.apache.lucene.analysis.tokenattributes,
-            org.apache.lucene.analysis.*;version=${pkgVersion};-split-package:=merge-first,
-            org.tartarus.snowball*;-split-package:=merge-first
+            org.apache.lucene.analysis.*;version=${pkgVersion};-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
             javax.xml.parsers,
@@ -57,6 +63,9 @@
             org.xml.sax,
             org.xml.sax.helpers
         </servicemix.osgi.import.pkg>
+        <servicemix.osgi.private.pkg>
+           org.tartarus.snowball*
+        </servicemix.osgi.private.pkg>
         <servicemix.osgi.embed.dependency>
             *;inline=META-INF/services/*
         </servicemix.osgi.embed.dependency>
