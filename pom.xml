@@ -56,6 +56,8 @@
         <module>aws-java-sdk-1.10.52</module>
         <module>braintree-java-2.55.0</module>
         <module>esapi-2.1.0.1</module>
+        <module>avro-1.8.0</module>
+        <module>avro-ipc-1.8.0</module>
     </modules>
 
 </project>
