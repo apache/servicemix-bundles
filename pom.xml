@@ -50,6 +50,7 @@
         <module>elasticsearch-2.0.2</module>
         <module>elasticsearch-2.0.1</module>
         <module>elasticsearch-2.0.0</module>
+        <module>chunk-templates-3.2.0</module>
     </modules>
 
 </project>
