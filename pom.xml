@@ -43,32 +43,6 @@
 
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
-        <module>jest-0.1.6</module>
-        <module>elasticsearch-2.2.0</module>
-        <module>elasticsearch-2.1.1</module>
-        <module>elasticsearch-2.1.0</module>
-        <module>elasticsearch-2.0.2</module>
-        <module>elasticsearch-2.0.1</module>
-        <module>elasticsearch-2.0.0</module>
-        <module>chunk-templates-3.2.0</module>
-        <module>olingo-odata2-api-2.0.6</module>
-        <module>olingo-odata2-core-2.0.6</module>
-        <module>aws-java-sdk-1.10.52</module>
-        <module>braintree-java-2.55.0</module>
-        <module>esapi-2.1.0.1</module>
-        <module>avro-1.8.0</module>
-        <module>avro-ipc-1.8.0</module>
-        <module>gae-1.9.32</module>
-        <module>rhino-1.7.7.1</module>
-        <module>elasticsearch-repository-hdfs-2.2.0</module>
-        <module>lucene-analyzers-common-5.4.1</module>
-        <module>lucene-analyzers-common-5.4.0</module>
-        <module>lucene-analyzers-common-5.3.1</module>
-        <module>lucene-analyzers-common-5.2.1</module>
-        <module>lucene-analyzers-common-5.1.0</module>
-        <module>lucene-analyzers-common-5.0.0</module>
-        <module>lucene-analyzers-common-4.9.0</module>
-        <module>lucene-analyzers-common-4.8.1</module>
     </modules>
 
 </project>
