@@ -61,6 +61,7 @@
           javax.xml.transform.sax,
           javax.xml.transform.stream,
           javax.xml.xpath,
+          javax.xml,
           org.w3c.dom*,
           org.xml.sax*
         </servicemix.osgi.import.pkg>
