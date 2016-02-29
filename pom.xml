@@ -53,6 +53,7 @@
         <module>lucene-queryparser-5.5.0</module>
         <module>lucene-sandbox-5.5.0</module>
         <module>solr-solrj-5.5.0</module>
+        <module>okhttp-3.2.0</module>
     </modules>
 
 </project>
