@@ -1,0 +1,12 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}                                       
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    A Java serialization library that can convert Java Objects into JSON and back.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttps://github.com/google/gson\u001B[0m
+
