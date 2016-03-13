@@ -54,6 +54,7 @@
         <module>lucene-sandbox-5.5.0</module>
         <module>solr-solrj-5.5.0</module>
         <module>jedis-2.8.0</module>
+        <module>aws-java-sdk-1.10.60</module>
     </modules>
 
 </project>
