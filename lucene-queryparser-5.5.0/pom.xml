@@ -63,7 +63,6 @@
             org.apache.lucene.queries.payloads,
             org.apache.lucene.sandbox.queries,
             org.apache.lucene.search,
-            org.apache.lucene.search.payloads,
             org.apache.lucene.search.spans,
             org.apache.lucene.util,
             org.w3c.dom,
