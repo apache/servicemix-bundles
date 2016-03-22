@@ -59,6 +59,7 @@
         <module>aws-java-sdk-1.10.60</module>
         <module>xstream-1.4.9</module>
         <module>elasticsearch-2.2.1</module>
+        <module>facebook4j-2.4.3</module>
     </modules>
 
 </project>
