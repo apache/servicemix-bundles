@@ -66,6 +66,7 @@
         <module>okhttp-2.7.5</module>
         <module>okhttp-3.2.0</module>
         <module>retrofit-1.9.0</module>
+        <module>retrofit-2.0.0</module>
     </modules>
 
 </project>
