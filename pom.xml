@@ -80,6 +80,7 @@
         <module>jedis-2.8.1</module>
         <module>poi-3.14</module>
         <module>hbase-1.2.0</module>
+        <module>braintree-java-2.58.0</module>
     </modules>
 
 </project>
