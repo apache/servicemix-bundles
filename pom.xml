@@ -81,6 +81,7 @@
         <module>poi-3.14</module>
         <module>hbase-1.2.0</module>
         <module>braintree-java-2.58.0</module>
+        <module>qpid-6.0.1</module>
     </modules>
 
 </project>
