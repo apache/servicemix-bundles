@@ -78,6 +78,7 @@
         <module>htmlunit-2.20</module>
         <module>docker-java-2.2.3</module>
         <module>jedis-2.8.1</module>
+        <module>poi-3.14</module>
     </modules>
 
 </project>
