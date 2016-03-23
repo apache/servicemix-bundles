@@ -73,6 +73,7 @@
         <module>spring-webmvc-4.2.3.RELEASE</module>
         <module>spring-webmvc-4.2.2.RELEASE</module>
         <module>spring-webmvc-4.2.0.RELEASE</module>
+        <module>kafka-clients-0.9.0.1</module>
     </modules>
 
 </project>
