@@ -114,7 +114,7 @@
                 <inherited>false</inherited>
                 <configuration>
                    <instructions>
-                       <Export-Package>${servicemix.osgi.export.pkg}</Export-Package>
+                       <Export-Package>${servicemix.osgi.export}</Export-Package>
                        <Import-Package>${servicemix.osgi.import.pkg}</Import-Package>
                        <Bundle-NativeCode>*</Bundle-NativeCode>
                    </instructions>
