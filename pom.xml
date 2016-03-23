@@ -62,6 +62,7 @@
         <module>facebook4j-2.4.3</module>
         <module>gson-2.1</module>
         <module>ironmq-3.0.3</module>
+        <module>okio-1.6.0</module>
     </modules>
 
 </project>
