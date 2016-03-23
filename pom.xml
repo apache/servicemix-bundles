@@ -63,6 +63,7 @@
         <module>gson-2.1</module>
         <module>ironmq-3.0.3</module>
         <module>okio-1.6.0</module>
+        <module>okhttp-2.7.5</module>
     </modules>
 
 </project>
