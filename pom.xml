@@ -82,6 +82,7 @@
         <module>hbase-1.2.0</module>
         <module>braintree-java-2.58.0</module>
         <module>qpid-6.0.1</module>
+        <module>gae-1.9.34</module>
     </modules>
 
 </project>
