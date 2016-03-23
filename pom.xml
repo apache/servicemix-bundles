@@ -86,6 +86,7 @@
         <module>aws-java-sdk-1.10.62</module>
         <module>casbah-3.1.1</module>
         <module>saxon-9.7.0-4</module>
+        <module>aspectj-1.8.9</module>
     </modules>
 
 </project>
