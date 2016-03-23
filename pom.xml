@@ -76,6 +76,7 @@
         <module>kafka-clients-0.9.0.1</module>
         <module>elasticsearch-1.7.4</module>
         <module>htmlunit-2.20</module>
+        <module>docker-java-2.2.3</module>
     </modules>
 
 </project>
