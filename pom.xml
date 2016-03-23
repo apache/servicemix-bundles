@@ -85,6 +85,7 @@
         <module>gae-1.9.34</module>
         <module>aws-java-sdk-1.10.62</module>
         <module>casbah-3.1.1</module>
+        <module>saxon-9.7.0-4</module>
     </modules>
 
 </project>
