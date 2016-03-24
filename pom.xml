@@ -78,6 +78,7 @@
         <module>htmlunit-2.20</module>
         <module>docker-java-2.2.3</module>
         <module>jedis-2.8.1</module>
+        <module>poi-3.13</module>
         <module>poi-3.14</module>
         <module>hbase-1.2.0</module>
         <module>braintree-java-2.58.0</module>

@@ -67,6 +67,12 @@
             org.openxmlformats*;resolution:=optional,
             repackage;resolution:=optional,
             schemasMicrosoftCom*;resolution:=optional,
+            org.apache.jcp.xml.dsig.internal.dom;resolution:=optional,
+            org.apache.xml.resolver;resolution:=optional,
+            org.apache.xml.resolver.tools;resolution:=optional,
+            org.apache.xml.security;resolution:=optional,
+            org.apache.xml.security.c14n;resolution:=optional,
+            org.apache.xml.security.utils;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
