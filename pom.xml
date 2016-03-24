@@ -110,6 +110,7 @@
         <module>spring-security-config-4.0.4.RELEASE</module>
         <module>spring-security-core-4.0.4.RELEASE</module>
         <module>spring-integration-core-4.2.5.RELEASE</module>
+        <module>guice-4.0</module>
     </modules>
 
 </project>
