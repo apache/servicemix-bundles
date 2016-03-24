@@ -107,6 +107,8 @@
         <module>spring-webmvc-4.2.5.RELEASE</module>
         <module>spring-webmvc-portlet-4.2.5.RELEASE</module>
         <module>spring-websocket-4.2.5.RELEASE</module>
+        <module>spring-security-config-4.0.4.RELEASE</module>
+        <module>spring-security-core-4.0.4.RELEASE</module>
     </modules>
 
 </project>
