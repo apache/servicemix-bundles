@@ -49,7 +49,10 @@
         <pkgArtifactId>poi</pkgArtifactId>
         <pkgVersion>3.13</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.etsi.uri.x01903*;version=${pkgVersion};-split-package:=merge-first,
+            org.etsi.uri.x01903.v13;version=${pkgVersion};-split-package:=merge-first,
+            org.etsi.uri.x01903.v13.impl;version=${pkgVersion};-split-package:=merge-first,
+            org.etsi.uri.x01903.v14;version=${pkgVersion};-split-package:=merge-first,
+            org.etsi.uri.x01903.v14.impl;version=${pkgVersion};-split-package:=merge-first,
             org.w3.x2000.x09.xmldsig*;version=${pkgVersion};-split-package:=merge-first,
             org.openxmlformats.schemas*;version=${pkgVersion};-split-package:=merge-first,
             com.microsoft.schemas.office.x2006*;version=${pkgVersion};-split-package:=merge-first,

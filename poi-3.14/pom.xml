@@ -53,6 +53,10 @@
             org.w3.x2000.x09.xmldsig*;version=${pkgVersion};-split-package:=merge-first,
             org.openxmlformats.schemas*;version=${pkgVersion};-split-package:=merge-first,
             com.microsoft.schemas.office.x2006*;version=${pkgVersion};-split-package:=merge-first,
+            com.microsoft.schemas.office.excel;version=${pkgVersion};-split-package:=merge-first,
+            com.microsoft.schemas.office.office;version=${pkgVersion};-split-package:=merge-first,
+            com.microsoft.schemas.office.visio.x2012.main;version=${pkgVersion};-split-package:=merge-first,
+            com.microsoft.schemas.office.visio.x2012.main.impl;version=${pkgVersion};-split-package:=merge-first,
             org.purl.dc.elements.x11,
             org.apache.poi*
         </servicemix.osgi.export.pkg>
@@ -66,13 +70,15 @@
             org.junit.*;resolution:=optional,
             org.openxmlformats*;resolution:=optional,
             repackage;resolution:=optional,
-            schemasMicrosoftCom*;resolution:=optional,
             org.apache.jcp.xml.dsig.internal.dom;resolution:=optional,
             org.apache.xml.resolver;resolution:=optional,
             org.apache.xml.resolver.tools;resolution:=optional,
             org.apache.xml.security;resolution:=optional,
             org.apache.xml.security.c14n;resolution:=optional,
             org.apache.xml.security.utils;resolution:=optional,
+            com.graphbuilder.curve;resolution:=optional,
+            com.graphbuilder.geom;resolution:=optional,
+            com.microsoft.schemas.vml;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
