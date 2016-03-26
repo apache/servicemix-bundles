@@ -31,7 +31,7 @@
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.qpid</artifactId>
     <packaging>bundle</packaging>
-    <version>6.0.1_1</version>
+    <version>6.0.1_2-SNAPSHOT</version>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps qpid-common and qpid-client ${pkgVersion} jar files.</description>
 
@@ -39,7 +39,7 @@
         <connection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://git-wip-us.apache.org/repos/asf?p=servicemix-bundles.git</url>
-      <tag>org.apache.servicemix.bundles.qpid-6.0.1_1</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <properties>
