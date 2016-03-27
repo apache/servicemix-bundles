@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.guice</artifactId>
-    <version>4.0_2-SNAPSHOT</version>
+    <version>4.0_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps guice ${pkgVersion} jar files.</description>
