@@ -45,6 +45,7 @@
         <!-- add modules for all bundles to released in the next batch here -->
         <module>elasticsearch-2.3.0</module>
         <module>jnats-0.4.1</module>
+        <module>retrofit-2.0.1</module>
     </modules>
 
 </project>
