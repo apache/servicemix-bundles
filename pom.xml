@@ -45,6 +45,7 @@
         <!-- add modules for all bundles to released in the next batch here -->
         <module>elasticsearch-2.3.0</module>
         <module>jnats-0.4.1</module>
+        <module>solr-solrj-6.0.0</module>
     </modules>
 
 </project>
