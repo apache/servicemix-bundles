@@ -46,6 +46,11 @@
         <module>elasticsearch-2.3.0</module>
         <module>jnats-0.4.1</module>
         <module>solr-solrj-6.0.0</module>
+        <module>lucene-6.0.0</module>
+        <module>lucene-analyzers-common-6.0.0</module>
+        <module>lucene-queries-6.0.0</module>
+        <module>lucene-queryparser-6.0.0</module>
+        <module>lucene-sandbox-6.0.0</module>
     </modules>
 
 </project>
