@@ -52,6 +52,7 @@
         <module>lucene-queryparser-6.0.0</module>
         <module>lucene-sandbox-6.0.0</module>
         <module>okio-1.7.0</module>
+        <module>retrofit-2.0.1</module>
     </modules>
 
 </project>
