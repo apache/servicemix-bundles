@@ -44,6 +44,8 @@
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
         <module>elasticsearch-2.3.0</module>
+        <module>hystrix-1.4.23</module>
+        <module>hystrix-1.3.13</module>
     </modules>
 
 </project>

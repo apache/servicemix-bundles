@@ -55,11 +55,11 @@
             org.apache.commons.configuration*;resolution:=optional,
             org.junit;resolution:=optional,
             org.slf4j;resolution:=optional,
-            sun.misc;resolution:=optional
+            sun.misc;resolution:=optional,
+            rx*
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
-            com.netflix.config*,
-            rx*
+            com.netflix.config*
         </servicemix.osgi.private.pkg>
     </properties>
 
