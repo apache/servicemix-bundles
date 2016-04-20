@@ -59,6 +59,7 @@
         <module>spring-security-web-4.0.4.RELEASE</module>
         <module>spring-security-acl-4.0.4.RELEASE</module>
         <module>spring-security-taglib-4.0.4.RELEASE</module>
+        <module>jt400-9.0</module>
     </modules>
 
 </project>
