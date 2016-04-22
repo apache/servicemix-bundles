@@ -50,7 +50,6 @@
             com.netflix.hystrix
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            org,
             javax.management,
             javax.sql;resolution:=optional,
             org.apache.commons.configuration*;resolution:=optional,
