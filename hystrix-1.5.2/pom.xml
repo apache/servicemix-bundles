@@ -85,11 +85,6 @@
             <version>${pkgVersion}</version>
             <classifier>sources</classifier>
         </dependency>
-        <dependency>
-            <groupId>org.hdrhistogram</groupId>
-            <artifactId>HdrHistogram</artifactId>
-            <version>2.1.7</version>
-        </dependency>
     </dependencies>
 
     <build>
