@@ -63,6 +63,7 @@
         <module>spring-security-taglibs-4.0.4.RELEASE</module>
         <module>jt400-9.0</module>
         <module>ironmq-3.0.4</module>
+        <module>brave-zipkin-3.5.0</module>
     </modules>
 
 </project>
