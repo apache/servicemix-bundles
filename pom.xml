@@ -68,6 +68,7 @@
         <module>jedis-2.4.0</module>
         <module>opensaml-3.2.0</module>
         <module>dbunit-2.5.2</module>
+        <module>qpid-6.0.2</module>
     </modules>
 
 </project>
