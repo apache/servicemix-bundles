@@ -65,6 +65,7 @@
         <module>ironmq-3.0.3</module>
         <module>ironmq-3.0.4</module>
         <module>brave-zipkin-3.5.0</module>
+        <module>jedis-2.4.0</module>
     </modules>
 
 </project>
