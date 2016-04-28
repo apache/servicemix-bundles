@@ -70,6 +70,8 @@
         <module>dbunit-2.5.2</module>
         <module>qpid-6.0.2</module>
         <module>elasticsearch-repository-hdfs-2.3.0</module>
+        <module>spring-batch-core-3.0.7.RELEASE</module>
+        <module>spring-batch-infrastructure-3.0.7.RELEASE</module>
     </modules>
 
 </project>
