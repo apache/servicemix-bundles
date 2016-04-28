@@ -1,0 +1,11 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    A type-safe HTTP client for Android and Java.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://square.github.io/retrofit/\u001B[0m
