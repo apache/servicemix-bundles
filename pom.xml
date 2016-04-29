@@ -79,6 +79,7 @@
         <module>spring-xml-2.3.0.RELEASE</module>
         <module>ognl-3.1.4</module>
         <module>gae-1.9.36</module>
+        <module>braintree-java-2.61.0</module>
     </modules>
 
 </project>
