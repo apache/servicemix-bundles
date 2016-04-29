@@ -83,6 +83,7 @@
         <module>aws-java-sdk-1.10.73</module>
         <module>htmlunit-2.21</module>
         <module>hbase-1.2.1</module>
+        <module>quartz-2.2.3</module>
     </modules>
 
 </project>
