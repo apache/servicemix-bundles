@@ -78,6 +78,7 @@
         <module>retrofit-2.0.2</module>
         <module>spring-xml-2.3.0.RELEASE</module>
         <module>ognl-3.1.4</module>
+        <module>gae-1.9.36</module>
     </modules>
 
 </project>
