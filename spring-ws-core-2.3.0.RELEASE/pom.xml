@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <!--
+
+        Licensed to the Apache Software Foundation (ASF) under one or more
+        contributor license agreements.  See the NOTICE file distributed with
+        this work for additional information regarding copyright ownership.
+        The ASF licenses this file to You under the Apache License, Version 2.0
+        (the "License"); you may not use this file except in compliance with
+        the License.  You may obtain a copy of the License at
+
+           http://www.apache.org/licenses/LICENSE-2.0
+
+        Unless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an "AS IS" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License.
+    -->
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.apache.servicemix.bundles</groupId>
+        <artifactId>bundles-pom</artifactId>
+        <version>12</version>
+        <relativePath>../bundles-pom/pom.xml</relativePath>
+    </parent>
+
+    <groupId>org.apache.servicemix.bundles</groupId>
+    <artifactId>org.apache.servicemix.bundles.spring-ws-core</artifactId>
+    <version>2.3.0.RELEASE_1-SNAPSHOT</version>
+    <packaging>bundle</packaging>
+    <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
+
+    <scm>
+        <connection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</connection>
+        <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
+        <url>https://git-wip-us.apache.org/repos/asf?p=servicemix-bundles.git</url>
+      <tag>HEAD</tag>
+  </scm>
+
+    <properties>
+        <pkgGroupId>org.springframework.ws</pkgGroupId>
+        <pkgArtifactId>spring-ws-core</pkgArtifactId>
+        <pkgVersion>2.3.0.RELEASE</pkgVersion>
+        <servicemix.osgi.export.pkg>
+            org.springframework.ws
+        </servicemix.osgi.export.pkg>
+        <servicemix.osgi.import.pkg>
+            javax.activation, 
+            javax.servlet, 
+            javax.servlet.http, 
+            javax.wsdl, 
+            javax.wsdl.extensions, 
+            javax.wsdl.extensions.schema, 
+            javax.wsdl.extensions.soap, 
+            javax.wsdl.extensions.soap12, 
+            javax.wsdl.factory, 
+            javax.wsdl.xml, 
+            javax.xml, 
+            javax.xml.bind, 
+            javax.xml.bind.annotation, 
+            javax.xml.namespace, 
+            javax.xml.parsers, 
+            javax.xml.soap, 
+            javax.xml.stream, 
+            javax.xml.stream.events, 
+            javax.xml.stream.util, 
+            javax.xml.transform, 
+            javax.xml.transform.dom, 
+            javax.xml.transform.sax, 
+            javax.xml.transform.stax, 
+            javax.xml.transform.stream, 
+            javax.xml.xpath, 
+            nu.xom;resolution:=optional, 
+            nu.xom.converters;resolution:=optional, 
+            org.apache.axiom.attachments;resolution:=optional, 
+            org.apache.axiom.om;resolution:=optional, 
+            org.apache.axiom.om.ds;resolution:=optional, 
+            org.apache.axiom.om.impl;resolution:=optional, 
+            org.apache.axiom.om.util;resolution:=optional, 
+            org.apache.axiom.soap;resolution:=optional, 
+            org.apache.axiom.soap.impl.builder;resolution:=optional, 
+            org.apache.commons.httpclient;resolution:=optional, 
+            org.apache.commons.httpclient.auth;resolution:=optional, 
+            org.apache.commons.httpclient.methods;resolution:=optional, 
+            org.apache.commons.httpclient.params;resolution:=optional, 
+            org.apache.commons.logging;resolution:=optional, 
+            org.apache.http;resolution:=optional, 
+            org.apache.http.auth;resolution:=optional, 
+            org.apache.http.client;resolution:=optional, 
+            org.apache.http.client.methods;resolution:=optional, 
+            org.apache.http.conn;resolution:=optional, 
+            org.apache.http.conn.routing;resolution:=optional, 
+            org.apache.http.entity;resolution:=optional, 
+            org.apache.http.impl.client;resolution:=optional, 
+            org.apache.http.impl.conn;resolution:=optional, 
+            org.apache.http.params;resolution:=optional, 
+            org.apache.http.protocol;resolution:=optional, 
+            org.apache.http.util;resolution:=optional, 
+            org.dom4j;resolution:=optional, 
+            org.dom4j.io;resolution:=optional, 
+            org.jdom2;resolution:=optional, 
+            org.jdom2.input;resolution:=optional, 
+            org.jdom2.transform;resolution:=optional, 
+            org.springframework.aop.support;version="[4,5)";resolution:=optional, 
+            org.springframework.beans;version="[4,5)";resolution:=optional, 
+            org.springframework.beans.factory;version="[4,5)";resolution:=optional, 
+            org.springframework.beans.factory.annotation;version="[4,5)";resolution:=optional, 
+            org.springframework.beans.factory.config;version="[4,5)";resolution:=optional, 
+            org.springframework.beans.factory.parsing;version="[4,5)";resolution:=optional, 
+            org.springframework.beans.factory.support;version="[4,5)";resolution:=optional, 
+            org.springframework.beans.factory.xml;version="[4,5)";resolution:=optional, 
+            org.springframework.beans.propertyeditors;version="[4,5)";resolution:=optional, 
+            org.springframework.context;version="[4,5)";resolution:=optional, 
+            org.springframework.context.annotation;version="[4,5)";resolution:=optional, 
+            org.springframework.context.support;version="[4,5)";resolution:=optional, 
+            org.springframework.core;version="[4,5)";resolution:=optional, 
+            org.springframework.core.annotation;version="[4,5)";resolution:=optional, 
+            org.springframework.core.convert;version="[4,5)";resolution:=optional, 
+            org.springframework.core.convert.support;version="[4,5)";resolution:=optional, 
+            org.springframework.core.io;version="[4,5)";resolution:=optional, 
+            org.springframework.core.io.support;version="[4,5)";resolution:=optional, 
+            org.springframework.http;version="[4,5)";resolution:=optional, 
+            org.springframework.http.client;version="[4,5)";resolution:=optional, 
+            org.springframework.oxm;version="[4,5)";resolution:=optional, 
+            org.springframework.oxm.mime;version="[4,5)";resolution:=optional, 
+            org.springframework.stereotype;version="[4,5)";resolution:=optional, 
+            org.springframework.util;version="[4,5)";resolution:=optional, 
+            org.springframework.util.xml;version="[4,5)";resolution:=optional, 
+            org.springframework.validation;version="[4,5)";resolution:=optional, 
+            org.springframework.web.context;version="[4,5)";resolution:=optional, 
+            org.springframework.web.context.support;version="[4,5)";resolution:=optional, 
+            org.springframework.web.servlet;version="[4,5)";resolution:=optional, 
+            org.springframework.web.util;version="[4,5)";resolution:=optional, 
+            org.springframework.xml;resolution:=optional, 
+            org.springframework.xml.namespace;resolution:=optional, 
+            org.springframework.xml.sax;resolution:=optional, 
+            org.springframework.xml.transform;resolution:=optional, 
+            org.springframework.xml.validation;resolution:=optional, 
+            org.springframework.xml.xpath;resolution:=optional, 
+            org.springframework.xml.xsd;resolution:=optional, 
+            org.springframework.xml.xsd.commons;resolution:=optional, 
+            org.w3c.dom;resolution:=optional, 
+            org.w3c.dom.ls;resolution:=optional, 
+            org.xml.sax;resolution:=optional, 
+            org.xml.sax.ext;resolution:=optional, 
+            org.xml.sax.helpers;resolution:=optional
+        </servicemix.osgi.import.pkg>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+        </dependency>
+
+        <!-- sources -->
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <artifactSet>
+                                <includes>
+                                    <include>${pkgGroupId}:${pkgArtifactId}</include>
+                                </includes>
+                            </artifactSet>
+                            <filters>
+                                <filter>
+                                    <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
+                                    <includes>
+                                        <include>**/*.schemas</include>
+                                        <include>**/*.handlers</include>
+                                    </includes>
+                                </filter>
+                            </filters>
+                            <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
+                            <createDependencyReducedPom>true</createDependencyReducedPom>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>

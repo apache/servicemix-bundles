@@ -84,6 +84,10 @@
         <module>htmlunit-2.21</module>
         <module>hbase-1.2.1</module>
         <module>quartz-2.2.3</module>
+        <module>spring-ws-core-2.3.0.RELEASE</module>
+        <module>spring-ws-security-2.3.0.RELEASE</module>
+        <module>spring-ws-support-2.3.0.RELEASE</module>
+        <module>spring-ws-test-2.3.0.RELEASE</module>
     </modules>
 
 </project>
