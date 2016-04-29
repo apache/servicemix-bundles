@@ -88,6 +88,7 @@
         <module>spring-ws-security-2.3.0.RELEASE</module>
         <module>spring-ws-support-2.3.0.RELEASE</module>
         <module>spring-ws-test-2.3.0.RELEASE</module>
+        <module>ant-1.9.7</module>
     </modules>
 
 </project>
