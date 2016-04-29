@@ -82,6 +82,7 @@
         <module>braintree-java-2.61.0</module>
         <module>aws-java-sdk-1.10.73</module>
         <module>htmlunit-2.21</module>
+        <module>hbase-1.2.1</module>
     </modules>
 
 </project>
