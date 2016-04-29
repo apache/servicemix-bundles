@@ -89,6 +89,7 @@
         <module>spring-ws-support-2.3.0.RELEASE</module>
         <module>spring-ws-test-2.3.0.RELEASE</module>
         <module>ant-1.9.7</module>
+        <module>elasticsearch-2.3.1</module>
     </modules>
 
 </project>
