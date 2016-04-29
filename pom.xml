@@ -80,6 +80,7 @@
         <module>ognl-3.1.4</module>
         <module>gae-1.9.36</module>
         <module>braintree-java-2.61.0</module>
+        <module>aws-java-sdk-1.10.73</module>
     </modules>
 
 </project>
