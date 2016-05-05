@@ -43,54 +43,6 @@
 
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
-        <module>elasticsearch-2.3.0</module>
-        <module>hystrix-event-stream-1.5.2</module>
-        <module>hystrix-1.5.2</module>
-        <module>hystrix-1.4.26</module>
-        <module>hystrix-1.4.23</module>
-        <module>hystrix-1.3.13</module>
-        <module>jnats-0.4.1</module>
-        <module>solr-solrj-6.0.0</module>
-        <module>lucene-6.0.0</module>
-        <module>lucene-analyzers-common-6.0.0</module>
-        <module>lucene-queries-6.0.0</module>
-        <module>lucene-queryparser-6.0.0</module>
-        <module>lucene-sandbox-6.0.0</module>
-        <module>okio-1.7.0</module>
-        <module>retrofit-2.0.1</module>
-        <module>spring-security-web-4.0.4.RELEASE</module>
-        <module>spring-security-acl-4.0.4.RELEASE</module>
-        <module>spring-security-taglibs-4.0.4.RELEASE</module>
-        <module>jt400-9.0</module>
-        <module>ironmq-3.0.3</module>
-        <module>ironmq-3.0.4</module>
-        <module>brave-zipkin-3.5.0</module>
-        <module>jedis-2.4.0</module>
-        <module>opensaml-3.2.0</module>
-        <module>dbunit-2.5.2</module>
-        <module>qpid-6.0.2</module>
-        <module>elasticsearch-repository-hdfs-2.3.0</module>
-        <module>spring-batch-core-3.0.7.RELEASE</module>
-        <module>spring-batch-infrastructure-3.0.7.RELEASE</module>
-        <module>swagger-annotations-1.3.13</module>
-        <module>swagger-core-1.3.13</module>
-        <module>swagger-jaxrs-1.3.13</module>
-        <module>retrofit-2.0.2</module>
-        <module>spring-xml-2.3.0.RELEASE</module>
-        <module>ognl-3.1.4</module>
-        <module>gae-1.9.36</module>
-        <module>braintree-java-2.61.0</module>
-        <module>aws-java-sdk-1.10.73</module>
-        <module>htmlunit-2.21</module>
-        <module>hbase-1.2.1</module>
-        <module>quartz-2.2.3</module>
-        <module>spring-ws-core-2.3.0.RELEASE</module>
-        <module>spring-ws-security-2.3.0.RELEASE</module>
-        <module>spring-ws-support-2.3.0.RELEASE</module>
-        <module>spring-ws-test-2.3.0.RELEASE</module>
-        <module>ant-1.9.7</module>
-        <module>elasticsearch-2.3.1</module>
-        <module>avro-1.8.0</module>
     </modules>
 
 </project>
