@@ -46,6 +46,7 @@
         <module>brave-zipkin-3.6.0</module>
         <module>orbitz-consul-client-0.11.0</module>
         <module>okio-1.8.0</module>
+        <module>orbitz-consul-client-0.11.1</module>
     </modules>
 
 </project>
