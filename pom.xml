@@ -60,6 +60,7 @@
         <module>lucene-queryparser-5.5.1</module>
         <module>lucene-sandbox-5.5.1</module>
         <module>solr-solrj-5.5.1</module>
+        <module>orbitz-consul-client-0.11.3</module> 
     </modules>
 
 </project>
