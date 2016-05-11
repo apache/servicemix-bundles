@@ -59,6 +59,7 @@
         <module>lucene-queries-5.5.1</module>
         <module>lucene-queryparser-5.5.1</module>
         <module>lucene-sandbox-5.5.1</module>
+        <module>solr-solrj-5.5.1</module>
     </modules>
 
 </project>
