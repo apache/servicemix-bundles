@@ -54,6 +54,11 @@
         <module>spring-security-web-4.1.0.RELEASE</module>
         <module>cglib-3.2.2</module>
         <module>bazaarvoice-jolt-0.0.21</module>
+        <module>lucene-5.5.1</module>
+        <module>lucene-analyzers-common-5.5.1</module>
+        <module>lucene-queries-5.5.1</module>
+        <module>lucene-queryparser-5.5.1</module>
+        <module>lucene-sandbox-5.5.1</module>
     </modules>
 
 </project>
