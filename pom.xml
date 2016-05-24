@@ -65,7 +65,7 @@
         <module>brave-zipkin-3.7.0</module>
         <module>avro-1.8.1</module>
         <module>avro-ipc-1.8.1</module>
-        <modeul>orbitz-consul-client-0.12.0</module>
+        <module>orbitz-consul-client-0.12.0</module>
     </modules>
 
 </project>
