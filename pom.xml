@@ -66,6 +66,8 @@
         <module>avro-1.8.1</module>
         <module>avro-ipc-1.8.1</module>
         <module>orbitz-consul-client-0.12.0</module>
+        <module>kafka_2.10-0.10.0.0</module>
+        <module>kafka-clients-0.10.0.0</module>
     </modules>
 
 </project>
