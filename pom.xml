@@ -69,6 +69,7 @@
         <module>kafka_2.10-0.10.0.0</module>
         <module>kafka-clients-0.10.0.0</module>
         <module>facebook4j-2.4.4</module>
+        <module>okhttp-3.3.0</module>
     </modules>
 
 </project>
