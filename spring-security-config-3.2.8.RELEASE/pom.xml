@@ -51,18 +51,18 @@
         <servicemix.osgi.import.pkg>
             javax.servlet;resolution:=optional;version=0,
             javax.servlet.http;resolution:=optional;version=0,
-	    org.apache.commons.logging;version="[1.0.4, 2.0.0)",
-	    org.aspectj.weaver.tools;resolution:=optional;version="[1.7, 2)",
-	    org.springframework.aop*;resolution:=optional;version="[${pkgVersion}, 3.3.0)",
-	    org.springframework.beans*;version="[${pkgVersion}, 3.3.0)",
-	    org.springframework.context*;version="[${pkgVersion}, 3.3.0)",
-	    org.springframework.core*;version="[${pkgVersion}, 3.3.0)",
-	    org.springframework.security*;resolution:=optional;version="[${pkgVersion}, 3.3.0)",
-	    org.springframework.security.web*;resolution:=optional;version="[${pkgVersion}, 3.3.0)",
+            org.apache.commons.logging;version="[1.0.4, 2.0.0)",
+            org.aspectj.weaver.tools;resolution:=optional;version="[1.7, 2)",
+            org.springframework.aop*;resolution:=optional;version="[${pkgVersion}, 3.3.0)",
+            org.springframework.beans*;version="[${pkgVersion}, 3.3.0)",
+            org.springframework.context*;version="[${pkgVersion}, 3.3.0)",
+            org.springframework.core*;version="[${pkgVersion}, 3.3.0)",
+            org.springframework.security*;resolution:=optional;version="[${pkgVersion}, 3.3.0)",
+            org.springframework.security.web*;resolution:=optional;version="[${pkgVersion}, 3.3.0)",
             org.springframework.web*;resolution:=optional;version="[${pkgVersion}, 3.3.0)",
-	    org.springframework.util;version="[${pkgVersion}, 3.3.0)",
-	    org.springframework.util.xml;version="[${pkgVersion}, 3.3.0)",
-	    org.w3c.dom;resolution:=optional;version=0,
+            org.springframework.util;version="[${pkgVersion}, 3.3.0)",
+            org.springframework.util.xml;version="[${pkgVersion}, 3.3.0)",
+            org.w3c.dom;resolution:=optional;version=0,
             javax.sql;resolution:=optional, 
             org.aopalliance.intercept;resolution:=optional, 
             org.openid4java.consumer;resolution:=optional, 
@@ -108,9 +108,12 @@
                             <filters>
                                 <filter>
                                     <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
-                                    <excludes>
-                                        <exclude>**</exclude>
-                                    </excludes>
+                                    <includes>
+                                        <include>**/*.gif</include>
+                                        <include>**/*.xsd</include>
+                                        <include>**/*.xml</include>
+                                        <include>META-INF/spring*</include>
+                                    </includes>
                                 </filter>
                             </filters>
                             <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
