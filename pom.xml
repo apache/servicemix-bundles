@@ -73,6 +73,7 @@
         <module>hystrix-1.5.3</module>
         <module>okhttp-3.3.0</module>
         <module>spring-security-config-3.2.8.RELEASE</module>
+        <module>orbitz-consul-client-0.12.2</module>
     </modules>
 
 </project>
