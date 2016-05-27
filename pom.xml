@@ -72,6 +72,7 @@
         <module>hystrix-event-stream-1.5.3</module>
         <module>hystrix-1.5.3</module>
         <module>okhttp-3.3.0</module>
+        <module>spring-security-config-3.2.8.RELEASE</module>
     </modules>
 
 </project>
