@@ -71,6 +71,7 @@
         <module>facebook4j-2.4.4</module>
         <module>hystrix-event-stream-1.5.3</module>
         <module>hystrix-1.5.3</module>
+        <module>okhttp-3.3.0</module>
     </modules>
 
 </project>
