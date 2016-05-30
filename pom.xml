@@ -75,6 +75,11 @@
         <module>spring-security-config-3.2.8.RELEASE</module>
         <module>orbitz-consul-client-0.12.2</module>
         <module>gae-1.9.38</module>
+        <module>lucene-6.0.1</module>
+        <module>lucene-analyzers-common-6.0.1</module>
+        <module>lucene-queries-6.0.1</module>
+        <module>lucene-queryparser-6.0.1</module>
+        <module>lucene-sandbox-6.0.1</module>
     </modules>
 
 </project>
