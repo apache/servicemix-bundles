@@ -74,6 +74,7 @@
         <module>okhttp-3.3.0</module>
         <module>spring-security-config-3.2.8.RELEASE</module>
         <module>orbitz-consul-client-0.12.2</module>
+        <module>gae-1.9.38</module>
     </modules>
 
 </project>
