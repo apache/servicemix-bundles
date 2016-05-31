@@ -107,6 +107,7 @@
         <module>wss4j-1.6.19</module>
         <module>braintree-java-2.63.0</module>
         <module>aws-java-sdk-1.11.5</module>
+        <module>qpid-6.0.3</module>
     </modules>
 
 </project>
