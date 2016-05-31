@@ -101,6 +101,7 @@
         <module>spring-webmvc-portlet-4.2.6.RELEASE</module>
         <module>spring-websocket-4.2.6.RELEASE</module>
         <module>spring-ldap-2.1.0.RELEASE</module>
+        <module>htmlunit-2.22</module>
     </modules>
 
 </project>
