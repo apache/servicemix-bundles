@@ -102,6 +102,7 @@
         <module>spring-websocket-4.2.6.RELEASE</module>
         <module>spring-ldap-2.1.0.RELEASE</module>
         <module>htmlunit-2.22</module>
+        <module>ognl-3.1.7</module>
     </modules>
 
 </project>
