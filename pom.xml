@@ -104,6 +104,7 @@
         <module>htmlunit-2.22</module>
         <module>ognl-3.1.7</module>
         <module>saxon-9.7.0-5</module>
+        <module>wss4j-1.6.19</module>
     </modules>
 
 </project>
