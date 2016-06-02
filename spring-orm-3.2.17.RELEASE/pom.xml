@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.spring-orm</artifactId>
-    <version>3.2.17.RELEASE_1-SNAPSHOT</version>
+    <version>3.2.17.RELEASE_1</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
 
@@ -38,7 +38,7 @@
         <connection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://git-wip-us.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
+    <tag>org.apache.servicemix.bundles.spring-orm-3.2.17.RELEASE_1</tag>
   </scm>
 
     <properties>
