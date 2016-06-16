@@ -45,6 +45,7 @@
         <!-- add modules for all bundles to released in the next batch here -->
         <module>jest-0.1.6</module>
         <module>chunk-templates-3.2.2</module>
+        <module>okhttp-3.3.1</module>
     </modules>
 
 </project>
