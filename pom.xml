@@ -51,6 +51,7 @@
         <module>facebook4j-2.4.5</module>
         <module>solr-solrj-6.1.0</module>
         <module>quickfix-1.6.2</module>
+        <module>mustache-compiler-0.9.2</module>
     </modules>
 
 </project>
