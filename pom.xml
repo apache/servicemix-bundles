@@ -55,6 +55,7 @@
         <module>ognl-3.1.8</module>
         <module>libphonenumber-7.4.3</module>
         <module>aws-java-sdk-1.11.12</module>
+        <module>ognl-3.1.9</module>
     </modules>
 
 </project>
