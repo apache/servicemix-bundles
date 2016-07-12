@@ -59,6 +59,7 @@
         <module>ognl-3.1.10</module>
         <module>chunk-templates-3.2.3</module>
         <module>facebook4j-2.4.6</module>
+        <module>libphonenumber-7.4.4</module>
     </modules>
 
 </project>
