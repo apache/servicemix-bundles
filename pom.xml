@@ -66,6 +66,7 @@
         <module>json4s-3.4.0</module>
         <module>okio-1.9.0</module>
         <module>docker-java-3.0.0</module>
+        <module>okhttp-3.4.1</module>
     </modules>
 
 </project>
