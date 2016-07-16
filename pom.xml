@@ -67,6 +67,7 @@
         <module>okio-1.9.0</module>
         <module>docker-java-3.0.0</module>
         <module>okhttp-3.4.1</module>
+        <module>bazaarvoice-jolt-0.0.22</module>
     </modules>
 
 </project>
