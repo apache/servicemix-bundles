@@ -68,6 +68,7 @@
         <module>docker-java-3.0.0</module>
         <module>okhttp-3.4.1</module>
         <module>bazaarvoice-jolt-0.0.22</module>
+        <module>braintree-java-2.64.0</module>
     </modules>
 
 </project>
