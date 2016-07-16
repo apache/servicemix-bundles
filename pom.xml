@@ -62,6 +62,7 @@
         <module>libphonenumber-7.4.4</module>
         <module>saxon-9.7.0-6</module>
         <module>orbitz-consul-client-0.12.4</module>
+        <module>qpid-6.0.4</module>
     </modules>
 
 </project>
