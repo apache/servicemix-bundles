@@ -63,6 +63,7 @@
         <module>saxon-9.7.0-6</module>
         <module>orbitz-consul-client-0.12.4</module>
         <module>qpid-6.0.4</module>
+        <module>json4s-3.4.0</module>
     </modules>
 
 </project>
