@@ -97,6 +97,11 @@
         <module>spring-webmvc-4.3.1.RELEASE</module>
         <module>spring-webmvc-portlet-4.3.1.RELEASE</module>
         <module>spring-websocket-4.3.1.RELEASE</module>
+        <module>spring-security-acl-4.1.1.RELEASE</module>
+        <module>spring-security-config-4.1.1.RELEASE</module>
+        <module>spring-security-core-4.1.1.RELEASE</module>
+        <module>spring-security-taglibs-4.1.1.RELEASE</module>
+        <module>spring-security-web-4.1.1.RELEASE</module>
     </modules>
 
 </project>
