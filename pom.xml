@@ -76,6 +76,7 @@
         <module>lucene-sandbox-6.1.0</module>
         <module>sparkjava-core-2.5</module>
         <module>gae-1.9.40</module>
+        <module>aws-java-sdk-1.11.18</module>
     </modules>
 
 </project>
