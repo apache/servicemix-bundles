@@ -74,6 +74,7 @@
         <module>lucene-queries-6.1.0</module>
         <module>lucene-queryparser-6.1.0</module>
         <module>lucene-sandbox-6.1.0</module>
+        <module>sparkjava-core-2.5</module>
     </modules>
 
 </project>
