@@ -103,6 +103,7 @@
         <module>spring-security-taglibs-4.1.1.RELEASE</module>
         <module>spring-security-web-4.1.1.RELEASE</module>
         <module>spring-integration-core-4.3.0.RELEASE</module>
+        <module>generex-1.1.0</module>
     </modules>
 
 </project>
