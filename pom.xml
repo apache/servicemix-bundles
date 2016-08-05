@@ -43,9 +43,6 @@
 
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
-        <module>generex-1.1.0</module>
-        <module>spring-jms-3.2.16.RELEASE</module>
-        <module>spring-jms-3.2.17.RELEASE</module>
     </modules>
 
 </project>
