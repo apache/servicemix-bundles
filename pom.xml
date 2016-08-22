@@ -43,6 +43,8 @@
 
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
+        <module>kafka-clients-0.10.0.1</module>
+        <module>kafka_2.10-0.10.0.1</module>
     </modules>
 
 </project>
