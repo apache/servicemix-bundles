@@ -45,6 +45,8 @@
         <!-- add modules for all bundles to released in the next batch here -->
         <module>kafka-clients-0.10.0.1</module>
         <module>kafka_2.10-0.10.0.1</module>
+        <module>hystrix-event-stream-1.5.5</module>
+        <module>hystrix-1.5.5</module>
     </modules>
 
 </project>
