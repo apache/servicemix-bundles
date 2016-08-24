@@ -47,6 +47,7 @@
         <module>kafka_2.10-0.10.0.1</module>
         <module>hystrix-event-stream-1.5.5</module>
         <module>hystrix-1.5.5</module>
+        <module>jt400-9.1</module>
     </modules>
 
 </project>
