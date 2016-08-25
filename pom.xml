@@ -49,6 +49,11 @@
         <module>hystrix-1.5.5</module>
         <module>jt400-9.1</module>
         <module>mustache-compiler-0.9.3</module>
+        <module>lucene-6.2.0</module>
+        <module>lucene-analyzers-common-6.2.0</module>
+        <module>lucene-queries-6.2.0</module>
+        <module>lucene-queryparser-6.2.0</module>
+        <module>lucene-sandbox-6.2.0</module>
     </modules>
 
 </project>
