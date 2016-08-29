@@ -62,6 +62,9 @@
         <servicemix.osgi.private.pkg>
             com.netflix.config*
         </servicemix.osgi.private.pkg>
+        <servicemix.spi.consumer>
+            *
+        </servicemix.spi.consumer>
     </properties>
 
     <dependencies>
