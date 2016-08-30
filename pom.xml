@@ -55,6 +55,7 @@
         <module>lucene-queryparser-6.2.0</module>
         <module>lucene-sandbox-6.2.0</module>
         <module>solr-solrj-6.2.0</module>
+        <module>jnats-0.5.2</module>
     </modules>
 
 </project>
