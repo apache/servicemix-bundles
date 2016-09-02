@@ -58,6 +58,7 @@
         <module>jnats-0.5.2</module>
         <module>okio-1.10.0</module>
         <module>orbitz-consul-client-0.12.7</module>
+        <module>jedis-2.9.0</module>
     </modules>
 
 </project>
