@@ -57,6 +57,7 @@
         <module>solr-solrj-6.2.0</module>
         <module>jnats-0.5.2</module>
         <module>okio-1.10.0</module>
+        <module>orbitz-consul-client-0.12.7</module>
     </modules>
 
 </project>
