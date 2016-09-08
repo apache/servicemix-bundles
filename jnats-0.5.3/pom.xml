@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.jnats</artifactId>
-    <version>0.5.2_1-SNAPSHOT</version>
+    <version>0.5.3_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -45,7 +45,7 @@
     <properties>
         <pkgGroupId>io.nats</pkgGroupId>
         <pkgArtifactId>jnats</pkgArtifactId>
-        <pkgVersion>0.5.2</pkgVersion>
+        <pkgVersion>0.5.3</pkgVersion>
         <servicemix.osgi.export.pkg>
             io.nats
         </servicemix.osgi.export.pkg>
