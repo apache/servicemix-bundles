@@ -61,6 +61,7 @@
         <module>jedis-2.9.0</module>
         <module>cglib-3.2.4</module>
         <module>libphonenumber-7.6.0</module>
+        <module>htmlunit-2.23</module>
     </modules>
 
 </project>
