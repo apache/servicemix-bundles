@@ -69,6 +69,7 @@
         <module>influxdb-java-2.3</module>
         <module>asterisk-java-1.0.0-final</module>
         <module>okhttp-2.2.0</module>
+        <module>okio-1.2.0</module>
     </modules>
 
 </project>
