@@ -66,6 +66,7 @@
         <module>saxon-9.7.0-8</module>
         <module>jsch-0.1.54</module>
         <module>twitter4j-4.0.5</module>
+        <module>influxdb-java-2.3</module>
     </modules>
 
 </project>
