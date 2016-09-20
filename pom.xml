@@ -68,6 +68,7 @@
         <module>twitter4j-4.0.5</module>
         <module>influxdb-java-2.3</module>
         <module>asterisk-java-1.0.0-final</module>
+        <module>okhttp-2.2.0</module>
     </modules>
 
 </project>
