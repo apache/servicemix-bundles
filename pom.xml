@@ -67,6 +67,7 @@
         <module>jsch-0.1.54</module>
         <module>twitter4j-4.0.5</module>
         <module>influxdb-java-2.3</module>
+        <module>asterisk-java-1.0.0-final</module>
     </modules>
 
 </project>
