@@ -72,6 +72,25 @@
         <module>okio-1.2.0</module>
         <module>elasticsearch-2.3.5</module>
         <module>elasticsearch-2.4.0</module>
+        <module>spring-aop-4.3.3.RELEASE</module>
+        <module>spring-aspects-4.3.3.RELEASE</module>
+        <module>spring-beans-4.3.3.RELEASE</module>
+        <module>spring-context-4.3.3.RELEASE</module>
+        <module>spring-context-support-4.3.3.RELEASE</module>
+        <module>spring-core-4.3.3.RELEASE</module>
+        <module>spring-expression-4.3.3.RELEASE</module>
+        <module>spring-instrument-4.3.3.RELEASE</module>
+        <module>spring-jdbc-4.3.3.RELEASE</module>
+        <module>spring-jms-4.3.3.RELEASE</module>
+        <module>spring-messaging-4.3.3.RELEASE</module>
+        <module>spring-orm-4.3.3.RELEASE</module>
+        <module>spring-oxm-4.3.3.RELEASE</module>
+        <module>spring-test-4.3.3.RELEASE</module>
+        <module>spring-tx-4.3.3.RELEASE</module>
+        <module>spring-web-4.3.3.RELEASE</module>
+        <module>spring-webmvc-4.3.3.RELEASE</module>
+        <module>spring-webmvc-portlet-4.3.3.RELEASE</module>
+        <module>spring-websocket-4.3.3.RELEASE</module>
     </modules>
 
 </project>
