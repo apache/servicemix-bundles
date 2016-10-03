@@ -49,6 +49,7 @@
         <module>lucene-queryparser-5.5.2</module>
         <module>lucene-sandbox-5.5.2</module>
         <module>olingo-odata2-api-2.0.7</module>
+        <module>ognl-3.1.11</module>
     </modules>
 
 </project>
