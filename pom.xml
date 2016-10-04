@@ -51,6 +51,7 @@
         <module>olingo-odata2-api-2.0.7</module>
         <module>ognl-3.1.11</module>
         <module>facebook4j-2.4.7</module>
+        <module>zxing-3.3.0</module>
     </modules>
 
 </project>
