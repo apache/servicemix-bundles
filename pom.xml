@@ -54,6 +54,7 @@
         <module>zxing-3.3.0</module>
         <module>orbitz-consul-client-0.13.0</module>
         <module>bazaarvoice-jolt-0.0.23</module>
+        <module>mustache-compiler-0.9.4</module>
     </modules>
 
 </project>
