@@ -43,6 +43,7 @@
 
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
+        <module>aws-java-sdk-1.11.37</module>
         <module>lucene-5.5.2</module>
         <module>lucene-analyzers-common-5.5.2</module>
         <module>lucene-queries-5.5.2</module>
