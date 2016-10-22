@@ -57,6 +57,8 @@
         <module>bazaarvoice-jolt-0.0.23</module>
         <module>mustache-compiler-0.9.4</module>
         <module>okio-1.11.0</module>
+        <module>kafka_2.10-0.10.1.0</module>
+        <module>kafka-clients-0.10.1.0</module>
     </modules>
 
 </project>
