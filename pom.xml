@@ -61,6 +61,7 @@
         <module>kafka-clients-0.10.1.0</module>
         <module>kafka_2.10-0.10.0.1</module>
         <module>saxon-9.7.0-10</module>
+        <module>influxdb-java-2.4</module>
     </modules>
 
 </project>
