@@ -29,7 +29,7 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.-java-sdk</artifactId>
+    <artifactId>org.apache.servicemix.bundles.aws-java-sdk</artifactId>
     <packaging>bundle</packaging>
     <version>1.11.49_1-SNAPSHOT</version>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
