@@ -73,6 +73,7 @@
         <module>lucene-sandbox-6.2.1</module>
         <module>solr-solrj-6.2.1</module>
         <module>docker-java-3.0.6</module>
+        <module>ognl-3.1.12</module>
     </modules>
 
 </project>
