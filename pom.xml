@@ -80,6 +80,7 @@
         <module>poi-3.15</module>
         <module>gae-1.9.44</module>
         <module>json4s-3.4.2</module>
+        <module>facebook4j-2.4.8</module>
     </modules>
 
 </project>
