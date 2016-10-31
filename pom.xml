@@ -66,6 +66,12 @@
         <module>opensaml-3.1.1</module>
         <module>opensaml-3.2.0</module>
         <module>hbase-1.2.3</module>
+        <module>lucene-6.2.1</module>
+        <module>lucene-analyzers-common-6.2.1</module>
+        <module>lucene-queries-6.2.1</module>
+        <module>lucene-queryparser-6.2.1</module>
+        <module>lucene-sandbox-6.2.1</module>
+        <module>solr-solrj-6.2.1</module>
     </modules>
 
 </project>
