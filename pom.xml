@@ -83,6 +83,7 @@
         <module>facebook4j-2.4.8</module>
         <module>bcprov-jdk15on-1.55</module>
         <module>braintree-java-2.68.0</module>
+        <module>orbitz-consul-client-0.13.2</module>
     </modules>
 
 </project>
