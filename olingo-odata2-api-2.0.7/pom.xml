@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.olingo-odata2-api</artifactId>
-    <version>2.0.7_1-SNAPSHOT</version>
+    <version>2.0.7_1</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -39,7 +39,7 @@
         <connection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://git-wip-us.apache.org/repos/asf?p=servicemix-bundles.git</url>
-      <tag>HEAD</tag>
+      <tag>org.apache.servicemix.bundles.olingo-odata2-api-2.0.7_1</tag>
   </scm>
 
     <properties>
