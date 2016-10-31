@@ -79,6 +79,7 @@
         <module>hystrix-event-stream-1.5.6</module>
         <module>poi-3.15</module>
         <module>gae-1.9.44</module>
+        <module>json4s-3.4.2</module>
     </modules>
 
 </project>
