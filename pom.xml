@@ -62,6 +62,9 @@
         <module>kafka_2.10-0.10.0.1</module>
         <module>saxon-9.7.0-10</module>
         <module>influxdb-java-2.4</module>
+        <module>opensaml-3.1.0</module>
+        <module>opensaml-3.1.1</module>
+        <module>opensaml-3.2.0</module>
     </modules>
 
 </project>

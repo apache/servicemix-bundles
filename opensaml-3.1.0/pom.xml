@@ -58,28 +58,9 @@
             org.cryptacular*;resolution:=optional,
             org.apache.http*;resolution:=optional,
             com.beust.jcommander*;resolution:=optional,
+            javax.annotation;version="[1,4)",
             *
         </servicemix.osgi.import.pkg>
-        <!--servicemix.osgi.import.pkg>
-            javax.crypto,
-            javax.net,
-            javax.net.ssl,
-            javax.security.auth.x500,
-
-            javax.xml.datatype,
-            javax.xml.namespace,
-            javax.xml.parsers,
-            javax.xml.transform,
-            javax.xml.transform.dom,
-            javax.xml.transform.stream,
-            javax.xml.validation,
-            net.jcip.annotations;resolution:=optional,
-            org.apache.xml.security*;version="[1.5,3)",
-            org.owasp.esapi*;resolution:=optional,
-            org.slf4j;resolution:=optional,
-            org.w3c.dom*,
-            org.xml.sax
-        </servicemix.osgi.import.pkg-->
         <servicemix.osgi.private.pkg>
             schema;-split-package:=merge-first,
             templates;-split-package:=merge-first,
