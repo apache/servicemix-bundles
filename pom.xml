@@ -43,47 +43,6 @@
 
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
-        <module>aws-java-sdk-1.11.37</module>
-        <module>aws-java-sdk-1.11.49</module>
-        <module>lucene-5.5.2</module>
-        <module>lucene-analyzers-common-5.5.2</module>
-        <module>lucene-queries-5.5.2</module>
-        <module>lucene-queryparser-5.5.2</module>
-        <module>lucene-sandbox-5.5.2</module>
-        <module>olingo-odata2-api-2.0.7</module>
-        <module>ognl-3.1.11</module>
-        <module>facebook4j-2.4.7</module>
-        <module>zxing-3.3.0</module>
-        <module>orbitz-consul-client-0.13.0</module>
-        <module>bazaarvoice-jolt-0.0.23</module>
-        <module>mustache-compiler-0.9.4</module>
-        <module>okio-1.11.0</module>
-        <module>kafka_2.10-0.10.1.0</module>
-        <module>kafka-clients-0.10.1.0</module>
-        <module>kafka_2.10-0.10.0.1</module>
-        <module>saxon-9.7.0-10</module>
-        <module>influxdb-java-2.4</module>
-        <module>opensaml-3.1.0</module>
-        <module>opensaml-3.1.1</module>
-        <module>opensaml-3.2.0</module>
-        <module>hbase-1.2.3</module>
-        <module>lucene-6.2.1</module>
-        <module>lucene-analyzers-common-6.2.1</module>
-        <module>lucene-queries-6.2.1</module>
-        <module>lucene-queryparser-6.2.1</module>
-        <module>lucene-sandbox-6.2.1</module>
-        <module>solr-solrj-6.2.1</module>
-        <module>docker-java-3.0.6</module>
-        <module>ognl-3.1.12</module>
-        <module>hystrix-1.5.6</module>
-        <module>hystrix-event-stream-1.5.6</module>
-        <module>poi-3.15</module>
-        <module>gae-1.9.44</module>
-        <module>json4s-3.4.2</module>
-        <module>facebook4j-2.4.8</module>
-        <module>bcprov-jdk15on-1.55</module>
-        <module>braintree-java-2.68.0</module>
-        <module>orbitz-consul-client-0.13.2</module>
         <module>okhttp-3.4.2</module>
     </modules>
 
