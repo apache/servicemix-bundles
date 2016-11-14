@@ -49,6 +49,7 @@
         <module>influxdb-java-2.4</module>
         <module>sparkjava-core-2.5.2</module>
         <module>okhttp-2.2.0</module>
+        <module>chunk-templates-3.2.4</module>
     </modules>
 
 </project>
