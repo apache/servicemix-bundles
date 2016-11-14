@@ -48,6 +48,7 @@
         <module>solr-solrj-5.5.2</module>
         <module>influxdb-java-2.4</module>
         <module>sparkjava-core-2.5.2</module>
+        <module>okhttp-2.2.0</module>
     </modules>
 
 </project>
