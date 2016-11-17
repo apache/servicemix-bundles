@@ -51,6 +51,7 @@
         <module>okhttp-2.2.0</module>
         <module>chunk-templates-3.2.4</module>
         <module>libphonenumber-7.7.4</module>
+        <module>bazaarvoice-jolt-0.0.24</module>
     </modules>
 
 </project>
