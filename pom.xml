@@ -53,6 +53,7 @@
         <module>libphonenumber-7.7.4</module>
         <module>bazaarvoice-jolt-0.0.24</module>
         <module>orbitz-consul-client-0.13.3</module>
+        <module>hystrix-1.5.8</module>
     </modules>
 
 </project>
