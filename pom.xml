@@ -55,6 +55,7 @@
         <module>bazaarvoice-jolt-0.0.24</module>
         <module>orbitz-consul-client-0.13.3</module>
         <module>hystrix-1.5.8</module>
+        <module>spring-ldap-2.2.0.RELEASE</module>
     </modules>
 
 </project>
