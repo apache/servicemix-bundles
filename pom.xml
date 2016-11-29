@@ -61,6 +61,14 @@
         <module>spring-security-core-4.1.3.RELEASE</module>
         <module>spring-security-taglibs-4.1.3.RELEASE</module>
         <module>spring-security-web-4.1.3.RELEASE</module>
+	<module>bcprov-jdk15on-1.47</module>
+	<module>bcprov-jdk15on-1.48</module>
+	<module>bcprov-jdk15on-1.49</module>
+	<module>bcprov-jdk15on-1.50</module>
+	<module>bcprov-jdk15on-1.51</module>
+	<module>bcprov-jdk15on-1.52</module>
+	<module>bcprov-jdk15on-1.54</module>
+	<module>bcprov-jdk15on-1.55</module>
     </modules>
 
 </project>
