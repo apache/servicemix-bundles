@@ -70,6 +70,12 @@
 	<module>bcprov-jdk15on-1.54</module>
 	<module>bcprov-jdk15on-1.55</module>
         <module>okhttp-3.5.0</module>
+        <module>spring-webmvc-4.1.9.RELEASE</module>
+        <module>spring-webmvc-4.2.5.RELEASE</module>
+        <module>spring-webmvc-4.2.6.RELEASE</module>
+        <module>spring-webmvc-4.2.8.RELEASE</module>
+        <module>spring-webmvc-4.3.1.RELEASE</module>
+        <module>spring-webmvc-4.3.3.RELEASE</module>
     </modules>
 
 </project>
