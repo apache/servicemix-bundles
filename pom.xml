@@ -43,6 +43,7 @@
 
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
+        <module>hystrix-event-stream-1.5.8</module>
     </modules>
 
 </project>
