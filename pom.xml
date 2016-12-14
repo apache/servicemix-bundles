@@ -45,6 +45,39 @@
         <!-- add modules for all bundles to released in the next batch here -->
         <module>hystrix-event-stream-1.5.8</module>
         <module>influxdb-java-2.5</module>
+        <module>spring-webmvc-4.0.1.RELEASE</module>
+        <module>spring-webmvc-4.0.2.RELEASE</module>
+        <module>spring-webmvc-4.0.3.RELEASE</module>
+        <module>spring-webmvc-4.0.5.RELEASE</module>
+        <module>spring-webmvc-4.0.6.RELEASE</module>
+        <module>spring-webmvc-4.0.7.RELEASE</module>
+        <module>spring-webmvc-4.1.0.RELEASE</module>
+        <module>spring-webmvc-4.1.1.RELEASE</module>
+        <module>spring-webmvc-4.1.2.RELEASE</module>
+        <module>spring-webmvc-4.1.4.RELEASE</module>
+        <module>spring-webmvc-4.1.5.RELEASE</module>
+        <module>spring-webmvc-4.1.6.RELEASE</module>
+        <module>spring-webmvc-4.1.7.RELEASE</module>
+        <module>spring-webmvc-4.1.9.RELEASE</module>
+        <module>spring-webmvc-4.2.0.RELEASE</module>
+        <module>spring-webmvc-4.2.2.RELEASE</module>
+        <module>spring-webmvc-4.2.3.RELEASE</module>
+        <module>spring-webmvc-4.2.4.RELEASE</module>
+        <module>spring-webmvc-4.2.5.RELEASE</module>
+        <module>spring-webmvc-4.2.6.RELEASE</module>
+        <module>spring-webmvc-4.2.8.RELEASE</module>
+        <module>spring-webmvc-4.3.1.RELEASE</module>
+        <module>spring-webmvc-4.3.3.RELEASE</module>
+        <module>spring-webmvc-3.2.10.RELEASE</module>
+        <module>spring-webmvc-3.2.11.RELEASE</module>
+        <module>spring-webmvc-3.2.12.RELEASE</module>
+        <module>spring-webmvc-3.2.13.RELEASE</module>
+        <module>spring-webmvc-3.2.14.RELEASE</module>
+        <module>spring-webmvc-3.2.16.RELEASE</module>
+        <module>spring-webmvc-3.2.17.RELEASE</module>
+        <module>spring-webmvc-3.2.7.RELEASE</module>
+        <module>spring-webmvc-3.2.8.RELEASE</module>
+        <module>spring-webmvc-3.2.9.RELEASE</module>
     </modules>
 
 </project>

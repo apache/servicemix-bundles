@@ -92,6 +92,7 @@
             org.springframework.ui.*;version="[${pkgVersion},4.2)",
             org.springframework.util.*;version="[${pkgVersion},4.2)",
             org.springframework.validation.*;version="[${pkgVersion},4.2)", 
+            org.springframework.validation.beanvalidation;version="[${pkgVersion},4.2)";resolution:=optional,
             org.springframework.web.*;version="[${pkgVersion},4.2)",
             org.xml.sax.*;resolution:=optional,
             org.w3c.dom.*;resolution:=optional
