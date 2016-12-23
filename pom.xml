@@ -83,6 +83,7 @@
         <module>orbitz-consul-client-0.13.7</module>
         <module>elasticsearch-2.4.3</module>
         <module>libphonenumber-8.0.0</module>
+        <module>aws-java-sdk-1.11.69</module>
     </modules>
 
 </project>
