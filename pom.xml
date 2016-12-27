@@ -92,6 +92,8 @@
         <module>kafka_2.10-0.10.1.1</module>
         <module>kafka-clients-0.10.1.1</module>
         <module>twitter4j-4.0.6</module>
+        <module>hystrix-1.5.9</module>
+        <module>hystrix-event-stream-1.5.9</module>
     </modules>
 
 </project>
