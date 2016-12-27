@@ -91,6 +91,7 @@
         <module>spring-security-taglibs-4.1.4.RELEASE</module>
         <module>kafka_2.10-0.10.1.1</module>
         <module>kafka-clients-0.10.1.1</module>
+        <module>twitter4j-4.0.6</module>
     </modules>
 
 </project>
