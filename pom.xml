@@ -94,6 +94,7 @@
         <module>twitter4j-4.0.6</module>
         <module>hystrix-1.5.9</module>
         <module>hystrix-event-stream-1.5.9</module>
+        <module>spring-context-support-4.3.3.RELEASE</module>
     </modules>
 
 </project>
