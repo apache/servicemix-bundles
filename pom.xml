@@ -116,6 +116,12 @@
         <module>spring-websocket-4.3.5.RELEASE</module>
         <module>generex-1.0.2</module>
         <module>sparkjava-core-2.5.4</module>
+        <module>lucene-6.3.0</module>
+        <module>lucene-analyzers-common-6.3.0</module>
+        <module>lucene-queries-6.3.0</module>
+        <module>lucene-queryparser-6.3.0</module>
+        <module>lucene-sandbox-6.3.0</module>
+        <module>solr-solrj-6.3.0</module>
     </modules>
 
 </project>
