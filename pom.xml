@@ -114,6 +114,7 @@
         <module>spring-webmvc-4.3.5.RELEASE</module>
         <module>spring-webmvc-portlet-4.3.5.RELEASE</module>
         <module>spring-websocket-4.3.5.RELEASE</module>
+        <module>generex-1.0.2</module>
     </modules>
 
 </project>
