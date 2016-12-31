@@ -122,6 +122,7 @@
         <module>lucene-queryparser-6.3.0</module>
         <module>lucene-sandbox-6.3.0</module>
         <module>solr-solrj-6.3.0</module>
+        <module>aws-java-sdk-1.11.74</module>
     </modules>
 
 </project>
