@@ -128,6 +128,7 @@
         <module>quickfix-1.6.3</module>
         <module>antisamy-1.5.5</module>
         <module>json4s-3.5.0</module>
+        <module>dbunit-2.5.3</module>
     </modules>
 
 </project>
