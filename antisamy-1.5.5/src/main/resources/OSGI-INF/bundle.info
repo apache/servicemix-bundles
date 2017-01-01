@@ -1,0 +1,30 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    The OWASP AntiSamy project is a few things. Technically, it is an API for ensuring user-supplied HTML/CSS is in
+    compliance within an application's rules. Another way of saying that could be: It's an API that helps you make
+    sure that clients don't supply malicious cargo code in the HTML they supply for their profile, comments, etc.,
+    that get persisted on the server. The term "malicious code" in regards to web applications usually mean
+    "JavaScript." Cascading Stylesheets are only considered malicious when they invoke the JavaScript engine. However,
+    there are many situations where "normal" HTML and CSS can be used in a malicious manner. So we take care of that
+    too.
+
+    Philosophically, AntiSamy is a departure from contemporary security mechanisms. Generally, the security mechanism
+    and user have a communication that is virtually one way, for good reason. Letting the potential attacker know
+    details about the validation is considered unwise as it allows the attacker to "learn" and "recon" the mechanism
+    for weaknesses. These types of information leaks can also hurt in ways you don't expect. A login mechanism that
+    tells the user, "Username invalid" leaks the fact that a user by that name does not exist. A user could use a
+    dictionary or phone book or both to remotely come up with a list of valid usernames. Using this information, an
+    attacker could launch a brute force attack or massive account lock denial-of-service. We get that.
+
+    Unfortunately, that's just not very usable in this situation. Typical Internet users are largely pretty bad when it
+    comes to writing HTML/CSS, so where do they get their HTML from? Usually they copy it from somewhere out on the web.
+    Simply rejecting their input without any clue as to why is jolting and annoying. Annoyed users go somewhere else to
+    do their social networking.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttps://www.owasp.org/index.php/Antisamy\u001B[0m

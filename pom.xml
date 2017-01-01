@@ -126,6 +126,7 @@
         <module>hbase-1.2.4</module>
         <module>orbitz-consul-client-0.13.8</module>
         <module>quickfix-1.6.3</module>
+        <module>antisamy-1.5.5</module>
     </modules>
 
 </project>
