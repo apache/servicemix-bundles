@@ -130,6 +130,7 @@
         <module>json4s-3.5.0</module>
         <module>dbunit-2.5.3</module>
         <module>gae-1.9.48</module>
+        <module>qpid-6.1.1</module>
     </modules>
 
 </project>
