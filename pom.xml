@@ -43,6 +43,11 @@
 
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
+        <module>spring-security-acl-3.2.10.RELEASE</module>
+        <module>spring-security-config-3.2.10.RELEASE</module>
+        <module>spring-security-core-3.2.10.RELEASE</module>
+        <module>spring-security-taglibs-3.2.10.RELEASE</module>
+        <module>spring-security-web-3.2.10.RELEASE</module>
     </modules>
 
 </project>
