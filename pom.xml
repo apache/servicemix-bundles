@@ -48,6 +48,7 @@
         <module>spring-security-core-3.2.10.RELEASE</module>
         <module>spring-security-taglibs-3.2.10.RELEASE</module>
         <module>spring-security-web-3.2.10.RELEASE</module>
+        <module>saxon-9.7.0-14</module>
     </modules>
 
 </project>
