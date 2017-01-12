@@ -101,6 +101,7 @@
         <module>bcpg-jdk15on-1.56</module>
         <module>libphonenumber-8.3.0</module>
         <module>aws-java-sdk-1.11.92</mmodule>
+        <module>spring-security-ldap-4.0.4.RELEASE</module>
     </modules>
 
 </project>
