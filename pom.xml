@@ -67,6 +67,7 @@
         <module>spring-web-3.2.18.RELEASE</module>
         <module>spring-webmvc-3.2.18.RELEASE</module>
         <module>spring-webmvc-portlet-3.2.18.RELEASE</module>
+        <module>aws-java-sdk-1.11.78</module>
     </modules>
 
 </project>
