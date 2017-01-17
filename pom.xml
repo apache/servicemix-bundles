@@ -71,6 +71,7 @@
         <module>saaj-impl-1.3.28</module>
         <module>libphonenumber-8.0.1</module>
         <module>bcprov-jdk15on-1.56</module>
+        <module>batik-1.8</module>
     </modules>
 
 </project>
