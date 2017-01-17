@@ -1,0 +1,11 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    Java_nats is a Java client to interact with a nats messaging platform.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttps://github.com/nats-io/jnats\u001B[0m

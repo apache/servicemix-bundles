@@ -73,6 +73,7 @@
         <module>bcprov-jdk15on-1.56</module>
         <module>batik-1.8</module>
         <module>hadoop-client-2.7.3</module>
+        <module>jnats-0.7.3</module>
     </modules>
 
 </project>
