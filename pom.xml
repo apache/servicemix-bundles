@@ -45,6 +45,7 @@
         <!-- add modules for all bundles to released in the next batch here -->
         <module>olingo-odata2-api-2.0.8</module>
         <module>olingo-odata2-core-2.0.8</module>
+        <module>orbitz-consul-client-0.13.9</module>
     </modules>
 
 </project>
