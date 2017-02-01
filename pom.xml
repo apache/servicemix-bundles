@@ -43,6 +43,8 @@
 
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
+        <module>olingo-odata2-api-2.0.8</module>
+        <module>olingo-odata2-core-2.0.8</module>
     </modules>
 
 </project>
