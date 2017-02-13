@@ -48,6 +48,7 @@
         <module>orbitz-consul-client-0.13.9</module>
         <module>okhttp-3.6.0</module>
         <module>libphonenumber-8.1.0</module>
+        <module>sparkjava-core-2.5.5</module>
     </modules>
 
 </project>
