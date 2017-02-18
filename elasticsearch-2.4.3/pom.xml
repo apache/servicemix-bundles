@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>12</version>
+        <version>13-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -52,8 +52,8 @@
         <servicemix.osgi.import.pkg>
             com.google.common.collect,
             com.fasterxml.jackson.core;version="[2.6,3)",
-            com.fasterxml.jackson.dataformat.yaml,
-            com.fasterxml.jackson.dataformat.smile,
+            com.fasterxml.jackson.dataformat.yaml;version="[2.6,3)",
+            com.fasterxml.jackson.dataformat.smile;version="[2.6,3)",
             com.sun.jna;resolution:=optional,
             com.ning.compress.lzf.util,
             *;resolution:=optional
@@ -62,11 +62,9 @@
             org.joda.time*;-split-package:=merge-first,
             org.apache.lucene*;-split-package:=merge-first,
             org.tartarus.snowball*,
-            org.apache.regexp,
             com.twitter.jsr166e,
             com.tdunning.math.stats,
-            com.carrotsearch.hppc*,
-            META-INF.*
+            com.carrotsearch.hppc*
         </servicemix.osgi.private.pkg>
     </properties>
 
