@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>12</version>
+        <version>13-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -71,12 +71,12 @@
             javax.xml.transform,
             javax.xml.transform.dom,
             javax.xml.xpath;resolution:=optional,
-            javax.websocket, 
-            javax.websocket.server, 
+            javax.websocket;resolution:=optional, 
+            javax.websocket.server;resolution:=optional, 
             junit.framework;version="[4,5)";resolution:=optional,
             org.apache.commons.logging;version="[1.1.1,2)";resolution:=optional,
-            org.apache.http.cookie,
-            org.apache.http.impl.cookie,
+            org.apache.http.cookie;resolution:=optional,
+            org.apache.http.impl.cookie;resolution:=optional,
             org.apache.taglibs.standard.lang.support;version="[1.2,2)";resolution:=optional,
             org.aspectj.weaver.loadtime;version="[1.8,2)";resolution:=optional,
             org.custommonkey.xmlunit;version="[1.5,2)";resolution:=optional,

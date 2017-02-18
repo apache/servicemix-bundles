@@ -58,6 +58,9 @@
         <module>elasticsearch-2.4.3</module>
         <module>elasticsearch-5.1.2</module>
         <module>elasticsearch-5.2.1</module>
+        <module>spring-test-4.3.1.RELEASE</module>
+        <module>spring-test-4.3.3.RELEASE</module>
+        <module>spring-test-4.3.5.RELEASE</module>
     </modules>
 
 </project>
