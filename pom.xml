@@ -57,6 +57,7 @@
         <module>elasticsearch-2.4.0</module>
         <module>elasticsearch-2.4.3</module>
         <module>elasticsearch-5.1.2</module>
+        <module>elasticsearch-5.2.1</module>
     </modules>
 
 </project>
