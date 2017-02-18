@@ -64,7 +64,8 @@
             org.tartarus.snowball*,
             com.twitter.jsr166e,
             com.tdunning.math.stats,
-            com.carrotsearch.hppc*
+            com.carrotsearch.hppc*,
+            META-INF.*;-split-package:=merge-first
         </servicemix.osgi.private.pkg>
     </properties>
 
