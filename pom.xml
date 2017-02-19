@@ -89,6 +89,7 @@
         <module>lucene-queries-6.4.1</module>
         <module>lucene-queryparser-6.4.1</module>
         <module>lucene-sandbox-6.4.1</module>
+        <module>ant-1.10.1</module>
     </modules>
 
 </project>
