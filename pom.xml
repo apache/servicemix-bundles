@@ -91,6 +91,7 @@
         <module>lucene-sandbox-6.4.1</module>
         <module>ant-1.10.1</module>
         <module>docker-java-3.0.7</module>
+        <module>aspectj-1.8.10</module>
     </modules>
 
 </project>
