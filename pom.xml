@@ -80,6 +80,8 @@
         <module>spring-webmvc-4.3.6.RELEASE</module>
         <module>spring-webmvc-portlet-4.3.6.RELEASE</module>
         <module>spring-websocket-4.3.6.RELEASE</module>
+        <module>derby-10.13.1.1</module>
+        <module>derbynet-10.13.1.1</module>
     </modules>
 
 </project>
