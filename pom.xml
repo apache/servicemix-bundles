@@ -99,6 +99,7 @@
         <module>spatial4j-0.5</module>
         <module>braintree-java-2.71.0</module>
         <module>bcpg-jdk15on-1.56</module>
+        <module>libphonenumber-8.3.0</module>
     </modules>
 
 </project>
