@@ -96,6 +96,7 @@
         <module>orbitz-consul-client-0.13.11</module>
         <module>htmlunit-2.24</module>
         <module>hbase-1.3.0</module>
+        <module>spatial4j-0.5</module>
     </modules>
 
 </project>
