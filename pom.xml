@@ -83,6 +83,7 @@
         <module>derby-10.13.1.1</module>
         <module>derbynet-10.13.1.1</module>
         <module>gwt-servlet-2.8.0</module>
+        <module>gae-1.9.49</module>
     </modules>
 
 </project>
