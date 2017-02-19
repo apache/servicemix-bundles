@@ -82,6 +82,7 @@
         <module>spring-websocket-4.3.6.RELEASE</module>
         <module>derby-10.13.1.1</module>
         <module>derbynet-10.13.1.1</module>
+        <module>gwt-servlet-2.8.0</module>
     </modules>
 
 </project>
