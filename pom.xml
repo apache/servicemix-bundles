@@ -93,6 +93,7 @@
         <module>docker-java-3.0.7</module>
         <module>aspectj-1.8.10</module>
         <module>saxon-9.7.0-15</module>
+        <module>orbitz-consul-client-0.13.11</module>
     </modules>
 
 </project>
