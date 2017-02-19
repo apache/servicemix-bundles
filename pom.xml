@@ -92,6 +92,7 @@
         <module>ant-1.10.1</module>
         <module>docker-java-3.0.7</module>
         <module>aspectj-1.8.10</module>
+        <module>saxon-9.7.0-15</module>
     </modules>
 
 </project>
