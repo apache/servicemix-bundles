@@ -92,6 +92,7 @@
         <module>spring-data-commons-1.12.1.RELEASE</module>
         <module>azure-keyvault-core-1.0.0-beta3</module>
         <module>azure-storage-5.0.0</module>
+        <module>ognl-3.2</module>
     </modules>
 
 </project>
