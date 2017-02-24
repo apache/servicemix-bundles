@@ -107,8 +107,4 @@
         </plugins>
     </build>
 
-
-  <scm>
-    <tag>org.apache.servicemix.bundles.javax-websocket-api-1.1_1</tag>
-  </scm>
 </project>
