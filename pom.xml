@@ -44,6 +44,8 @@
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
         <module>jt400-9.2</module>
+        <module>kafka_2.10-0.10.2.0</module>
+        <module>kafka-clients-0.10.2.0</module>
     </modules>
 
 </project>
