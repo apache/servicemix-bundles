@@ -47,6 +47,7 @@
         <module>kafka_2.10-0.10.2.0</module>
         <module>kafka-clients-0.10.2.0</module>
         <module>orbitz-consul-client-0.13.13</module>
+        <module>ironmq-3.0.5</module>
     </modules>
 
 </project>
