@@ -53,6 +53,7 @@
         <module>spring-security-core-4.2.2.RELEASE</module>
         <module>spring-security-taglibs-4.2.2.RELEASE</module>
         <module>spring-security-web-4.2.2.RELEASE</module>
+        <module>retrofit-2.2.0</module>
     </modules>
 
 </project>
