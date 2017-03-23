@@ -58,6 +58,7 @@
         <module>hystrix-event-stream-1.5.10</module>
         <modeul>opensaml-3.3.0</module>
         <module>libphonenumber-8.3.3</module>
+        <module>kafka_2.10-0.10.1.1</module>
     </modules>
 
 </project>
