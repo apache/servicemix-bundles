@@ -51,7 +51,7 @@
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             com.yammer.metrics*;version="[2.2,3)",
-            org.apache.kafka*;version="[0.9.0.1,0.10.1.0]",
+            org.apache.kafka*;version="[0.10.1.0,0.11.2.0)",
             javax.xml.bind*,
             javax.management*,
             joptsimple;version="[3.2,4)";resolution:=optional,
