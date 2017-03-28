@@ -65,6 +65,7 @@
         <module>spring-context-4.2.8.RELEASE</module>
         <module>spring-context-4.1.9.RELEASE</module>
         <module>spring-context-4.1.7.RELEASE</module>
+        <module>orbitz-consul-client-0.14.0</module>
     </modules>
 
 </project>
