@@ -72,6 +72,7 @@
         <module>docker-java-3.0.8</module>
         <module>qpid-6.1.2</module>
         <module>elasticsearch-5.2.2</module>
+        <module>htmlunit-2.25</module>
     </modules>
 
 </project>
