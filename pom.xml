@@ -68,6 +68,7 @@
         <module>orbitz-consul-client-0.14.0</module>
         <module>aws-java-sdk-1.11.108</module>
         <module>elasticsearch-2.4.4</module>
+        <module>gae-1.9.50</module>
     </modules>
 
 </project>
