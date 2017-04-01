@@ -67,6 +67,7 @@
         <module>spring-context-4.1.7.RELEASE</module>
         <module>orbitz-consul-client-0.14.0</module>
         <module>aws-java-sdk-1.11.108</module>
+        <module>elasticsearch-2.4.4</module>
     </modules>
 
 </project>
