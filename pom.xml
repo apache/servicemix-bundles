@@ -69,6 +69,7 @@
         <module>aws-java-sdk-1.11.108</module>
         <module>elasticsearch-2.4.4</module>
         <module>gae-1.9.50</module>
+        <module>docker-java-3.0.8</module>
     </modules>
 
 </project>
