@@ -123,6 +123,7 @@
             org.springframework.cglib.core;version="[${pkgVersion},4.4)",
             org.springframework.cglib.proxy;version="[${pkgVersion},4.4)",
             org.springframework.cglib.transform;version="[${pkgVersion},4.4)",
+            org.springframework.cglib.reflect;version="[${pkgVersion},4.4)",
             org.springframework.core;version="[${pkgVersion},4.4)",
             org.springframework.core.annotation;version="[${pkgVersion},4.4)",
             org.springframework.core.convert;version="[${pkgVersion},4.4)",

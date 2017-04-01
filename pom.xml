@@ -59,6 +59,12 @@
         <modeul>opensaml-3.3.0</module>
         <module>libphonenumber-8.3.3</module>
         <module>kafka_2.10-0.10.1.1</module>
+        <module>spring-context-4.3.6.RELEASE</module>
+        <module>spring-context-4.3.5.RELEASE</module>
+        <module>spring-context-4.2.9.RELEASE</module>
+        <module>spring-context-4.2.8.RELEASE</module>
+        <module>spring-context-4.1.9.RELEASE</module>
+        <module>spring-context-4.1.7.RELEASE</module>
     </modules>
 
 </project>
