@@ -71,6 +71,7 @@
         <module>gae-1.9.50</module>
         <module>docker-java-3.0.8</module>
         <module>qpid-6.1.2</module>
+        <module>elasticsearch-5.2.2</module>
     </modules>
 
 </project>
