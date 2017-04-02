@@ -79,6 +79,11 @@
         <module>spring-ws-security-2.4.0.RELEASE</module>
         <module>spring-ws-support-2.4.0.RELEASE</module>
         <module>spring-ws-test-2.4.0.RELEASE</module>
+        <module>lucene-6.4.2</module>
+        <module>lucene-analyzers-common-6.4.2</module>
+        <module>lucene-queries-6.4.2</module>
+        <module>lucene-queryparser-6.4.2</module>
+        <module>lucene-sandbox-6.4.2</module>
     </modules>
 
 </project>
