@@ -75,6 +75,10 @@
         <module>htmlunit-2.25</module>
         <module>spring-ldap-2.3.1.RELEASE</module>
         <module>spring-integration-core-4.3.8.RELEASE</module>
+        <module>spring-ws-core-2.4.0.RELEASE</module>
+        <module>spring-ws-security-2.4.0.RELEASE</module>
+        <module>spring-ws-support-2.4.0.RELEASE</module>
+        <module>spring-ws-test-2.4.0.RELEASE</module>
     </modules>
 
 </project>
