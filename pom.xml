@@ -43,13 +43,6 @@
 
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
-        <module>jt400-9.2</module>
-        <module>kafka_2.10-0.10.2.0</module>
-        <module>kafka-clients-0.10.2.0</module>
-        <module>orbitz-consul-client-0.13.13</module>
-        <module>ironmq-3.0.5</module>
-        <module>spring-security-acl-4.2.2.RELEASE</module>
-        <module>spring-security-config-4.2.2.RELEASE</module>
         <module>spring-security-core-4.2.2.RELEASE</module>
         <module>spring-security-taglibs-4.2.2.RELEASE</module>
         <module>spring-security-web-4.2.2.RELEASE</module>
