@@ -43,59 +43,6 @@
 
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
-        <module>spring-security-core-4.2.2.RELEASE</module>
-        <module>spring-security-taglibs-4.2.2.RELEASE</module>
-        <module>spring-security-web-4.2.2.RELEASE</module>
-        <module>retrofit-2.2.0</module>
-        <module>hystrix-1.5.10</module>
-        <module>hystrix-event-stream-1.5.10</module>
-        <modeul>opensaml-3.3.0</module>
-        <module>libphonenumber-8.3.3</module>
-        <module>kafka_2.10-0.10.1.1</module>
-        <module>spring-context-4.3.6.RELEASE</module>
-        <module>spring-context-4.3.5.RELEASE</module>
-        <module>spring-context-4.2.9.RELEASE</module>
-        <module>spring-context-4.2.8.RELEASE</module>
-        <module>spring-context-4.1.9.RELEASE</module>
-        <module>spring-context-4.1.7.RELEASE</module>
-        <module>orbitz-consul-client-0.14.0</module>
-        <module>aws-java-sdk-1.11.108</module>
-        <module>elasticsearch-2.4.4</module>
-        <module>gae-1.9.50</module>
-        <module>docker-java-3.0.8</module>
-        <module>qpid-6.1.2</module>
-        <module>elasticsearch-5.2.2</module>
-        <module>htmlunit-2.25</module>
-        <module>spring-ldap-2.3.1.RELEASE</module>
-        <module>spring-integration-core-4.3.8.RELEASE</module>
-        <module>spring-ws-core-2.4.0.RELEASE</module>
-        <module>spring-ws-security-2.4.0.RELEASE</module>
-        <module>spring-ws-support-2.4.0.RELEASE</module>
-        <module>spring-ws-test-2.4.0.RELEASE</module>
-        <module>lucene-6.4.2</module>
-        <module>lucene-analyzers-common-6.4.2</module>
-        <module>lucene-queries-6.4.2</module>
-        <module>lucene-queryparser-6.4.2</module>
-        <module>lucene-sandbox-6.4.2</module>
-        <module>spring-aop-4.3.7.RELEASE</module>
-        <module>spring-aspects-4.3.7.RELEASE</module>
-        <module>spring-beans-4.3.7.RELEASE</module>
-        <module>spring-context-4.3.7.RELEASE</module>
-        <module>spring-context-support-4.3.7.RELEASE</module>
-        <module>spring-core-4.3.7.RELEASE</module>
-        <module>spring-expression-4.3.7.RELEASE</module>
-        <module>spring-instrument-4.3.7.RELEASE</module>
-        <module>spring-jdbc-4.3.7.RELEASE</module>
-        <module>spring-jms-4.3.7.RELEASE</module>
-        <module>spring-messaging-4.3.7.RELEASE</module>
-        <module>spring-orm-4.3.7.RELEASE</module>
-        <module>spring-oxm-4.3.7.RELEASE</module>
-        <module>spring-test-4.3.7.RELEASE</module>
-        <module>spring-tx-4.3.7.RELEASE</module>
-        <module>spring-web-4.3.7.RELEASE</module>
-        <module>spring-webmvc-4.3.7.RELEASE</module>
-        <module>spring-webmvc-portlet-4.3.7.RELEASE</module>
-        <module>spring-websocket-4.3.7.RELEASE</module>
     </modules>
 
 </project>
