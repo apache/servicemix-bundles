@@ -44,6 +44,7 @@
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
         <module>digitalocean-api-client-2.9</module>
+        <module>docker-java-3.0.9</module>
     </modules>
 
 </project>
