@@ -48,6 +48,7 @@
         <module>okhttp-3.7.0</module>
         <module>hystrix-1.5.11</module>
         <module>hystrix-event-stream-1.5.11</module>
+        <module>elasticsearch-client-5.3.2</module>
     </modules>
 
 </project>
