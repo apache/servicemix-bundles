@@ -62,7 +62,7 @@
             org.springframework.security.ldap*;resolution:=optional;version="[4.2,5)",
             org.springframework.security.messaging*;resolution:=optional;version="[4.2,5)",
             org.springframework.security.openid*;resolution:=optional;version="[4.2,5)",
-            org.springframework.security.crypto*;resolution:=optional;version="[4.2,5)",
+            org.springframework.security.crypto;resolution:=optional;version="[4.2,5)",
             org.springframework.security.crypto.password;version="[4.2,5)",
             org.springframework.security.crypto.bcrypt;version="[4.2,5)",
             org.springframework.security*;version="[4.2,5)",

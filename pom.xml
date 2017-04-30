@@ -53,6 +53,7 @@
         <module>spring-instrument-4.2.9.RELEASE</module>
         <module>spring-instrument-4.3.7.RELEASE</module>
         <module>grpc-1.2.0</module>
+        <module>spring-security-config-4.2.2.RELEASE</module>
     </modules>
 
 </project>
