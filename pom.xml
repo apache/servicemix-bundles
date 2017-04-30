@@ -52,6 +52,7 @@
         <module>spring-instrument-4.1.9.RELEASE</module>
         <module>spring-instrument-4.2.9.RELEASE</module>
         <module>spring-instrument-4.3.7.RELEASE</module>
+        <module>grpc-1.2.0</module>
     </modules>
 
 </project>
