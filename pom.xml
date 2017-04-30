@@ -49,6 +49,9 @@
         <module>hystrix-1.5.11</module>
         <module>hystrix-event-stream-1.5.11</module>
         <module>elasticsearch-client-5.3.2</module>
+        <module>spring-instrument-4.1.9.RELEASE</module>
+        <module>spring-instrument-4.2.9.RELEASE</module>
+        <module>spring-instrument-4.3.7.RELEASE</module>
     </modules>
 
 </project>
