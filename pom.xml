@@ -55,6 +55,7 @@
         <module>grpc-1.2.0</module>
         <module>spring-security-config-4.2.2.RELEASE</module>
         <module>azure-keyvault-core-1.0.0</module>
+        <module>spring-data-commons-1.13.3.RELEASE</module>
     </modules>
 
 </project>
