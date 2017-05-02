@@ -98,6 +98,7 @@
         <module>hbase-1.3.1</module>
         <module>json4s-3.5.1</module>
         <module>libphonenumber-8.4.2</module>
+        <module>gae-1.9.51</module>
     </modules>
 
 </project>

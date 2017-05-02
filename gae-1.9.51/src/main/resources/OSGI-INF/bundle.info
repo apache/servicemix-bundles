@@ -1,0 +1,13 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    Google App Engine enables you to build and host web apps on the same systems that power Google applications.
+    App Engine offers fast development and deployment; simple administration, with no need to worry about hardware,
+    patches or backups; and effortless scalability.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://code.google.com/appengine/\u001B[0m
