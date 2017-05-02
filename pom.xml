@@ -91,6 +91,7 @@
         <module>libthrift-0.10.0</module>
         <module>snmp4j-2.5.6</module>
         <module>jt400-9.3</module>
+        <module>mybatis-3.4.4</module>
     </modules>
 
 </project>
