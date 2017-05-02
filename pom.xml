@@ -75,6 +75,7 @@
         <module>spring-webmvc-4.3.8.RELEASE</module>
         <module>spring-webmvc-portlet-4.3.8.RELEASE</module>
         <module>spring-websocket-4.3.8.RELEASE</module>
+        <module>batik-1.9</module>
     </modules>
 
 </project>
