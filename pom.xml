@@ -87,6 +87,7 @@
         <module>lucene-queryparser-6.5.1</module>
         <module>lucene-sandbox-6.5.1</module>
         <module>solr-solrj-6.5.1</module>
+        <module>jasper-6.0.53</module>
     </modules>
 
 </project>
