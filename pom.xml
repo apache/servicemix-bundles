@@ -81,6 +81,12 @@
         <module>kafka_2.10-0.10.2.1</module>
         <module>gwt-servlet-2.8.1</module>
         <module>spring-integration-core-4.3.9.RELEASE</module>
+        <module>lucene-6.5.1</module>
+        <module>lucene-analyzers-common-6.5.1</module>
+        <module>lucene-queries-6.5.1</module>
+        <module>lucene-queryparser-6.5.1</module>
+        <module>lucene-sandbox-6.5.1</module>
+        <module>solr-solrj-6.5.1</module>
     </modules>
 
 </project>
