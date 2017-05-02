@@ -107,6 +107,7 @@
         <module>cglib-3.2.5</module>
         <module>spring-xml-2.4.0.RELEASE</module>
         <module>fop-2.2</module>
+        <module>jsr305-3.0.2</module>
     </modules>
 
 </project>
