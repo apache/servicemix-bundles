@@ -104,6 +104,7 @@
         <module>aws-java-sdk-1.11.125</module>
         <module>ognl-3.2.1</module>
         <module>okio-1.12.0</module>
+        <module>cglib-3.2.5</module>
     </modules>
 
 </project>
