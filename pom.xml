@@ -111,6 +111,7 @@
         <module>spring-security-ldap-4.2.2.RELEASE</module>
         <module>htmlunit-2.26</module>
         <module>saxon-9.7.0-18</module>
+        <module>json4s_2.11-3.5.1</module>
     </modules>
 
 </project>
