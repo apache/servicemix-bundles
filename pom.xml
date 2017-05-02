@@ -94,6 +94,7 @@
         <module>mybatis-3.4.4</module>
         <module>elasticsearch-5.3.2</module>
         <module>poi-3.16</module>
+        <module>xmlgraphics-commons-2.2</module>
     </modules>
 
 </project>
