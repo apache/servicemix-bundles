@@ -79,6 +79,7 @@
         <module>quartz-2.3.0</module>
         <module>kafka-clients-0.10.2.1</module>
         <module>kafka_2.10-0.10.2.1</module>
+        <module>gwt-servlet-2.8.1</module>
     </modules>
 
 </project>
