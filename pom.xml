@@ -102,6 +102,7 @@
         <module>facebook4j-2.4.9</module>
         <module>reflections-0.9.11</module>
         <module>aws-java-sdk-1.11.125</module>
+        <module>ognl-3.2.1</module>
     </modules>
 
 </project>
