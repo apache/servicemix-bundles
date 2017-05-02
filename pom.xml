@@ -92,6 +92,7 @@
         <module>snmp4j-2.5.6</module>
         <module>jt400-9.3</module>
         <module>mybatis-3.4.4</module>
+        <module>elasticsearch-5.3.2</module>
     </modules>
 
 </project>
