@@ -101,6 +101,7 @@
         <module>gae-1.9.51</module>
         <module>facebook4j-2.4.9</module>
         <module>reflections-0.9.11</module>
+        <module>aws-java-sdk-1.11.125</module>
     </modules>
 
 </project>
