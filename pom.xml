@@ -109,6 +109,7 @@
         <module>fop-2.2</module>
         <module>jsr305-3.0.2</module>
         <module>spring-security-ldap-4.2.2.RELEASE</module>
+        <module>htmlunit-2.26</module>
     </modules>
 
 </project>
