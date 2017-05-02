@@ -100,6 +100,7 @@
         <module>libphonenumber-8.4.2</module>
         <module>gae-1.9.51</module>
         <module>facebook4j-2.4.9</module>
+        <module>reflections-0.9.11</module>
     </modules>
 
 </project>
