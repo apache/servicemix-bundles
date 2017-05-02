@@ -76,6 +76,7 @@
         <module>spring-webmvc-portlet-4.3.8.RELEASE</module>
         <module>spring-websocket-4.3.8.RELEASE</module>
         <module>batik-1.9</module>
+        <module>quartz-2.3.0</module>
     </modules>
 
 </project>
