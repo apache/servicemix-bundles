@@ -88,6 +88,7 @@
         <module>lucene-sandbox-6.5.1</module>
         <module>solr-solrj-6.5.1</module>
         <module>jasper-6.0.53</module>
+        <module>libthrift-0.10.0</module>
     </modules>
 
 </project>
