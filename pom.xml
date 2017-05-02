@@ -89,6 +89,7 @@
         <module>solr-solrj-6.5.1</module>
         <module>jasper-6.0.53</module>
         <module>libthrift-0.10.0</module>
+        <module>snmp4j-2.5.6</module>
     </modules>
 
 </project>
