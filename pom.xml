@@ -99,6 +99,7 @@
         <module>json4s-3.5.1</module>
         <module>libphonenumber-8.4.2</module>
         <module>gae-1.9.51</module>
+        <module>facebook4j-2.4.9</module>
     </modules>
 
 </project>
