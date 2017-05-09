@@ -112,6 +112,16 @@
         <module>htmlunit-2.26</module>
         <module>saxon-9.7.0-18</module>
         <module>json4s_2.11-3.5.1</module>
+        <module>swagger-jaxrs-1.3.2</module>
+        <module>swagger-jaxrs-1.3.4</module>
+        <module>swagger-jaxrs-1.3.5</module>
+        <module>swagger-jaxrs-1.3.7</module>
+        <module>swagger-jaxrs-1.3.8</module>
+        <module>swagger-jaxrs-1.3.10</module>
+        <module>swagger-jaxrs-1.3.11</module>
+        <module>swagger-jaxrs-1.3.12</module>
+        <module>swagger-jaxrs-1.3.13</module>
+        <module>swagger-jaxrs_2.11-1.3.12</module>
     </modules>
 
 </project>

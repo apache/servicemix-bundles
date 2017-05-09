@@ -35,7 +35,7 @@ object ApiListingCache {
   var caches: java.util.Map[Object, Option[Map[String, ApiListing]]] = new HashMap[Object, Option[Map[String, ApiListing]]]
 
   def listing(docRoot: String, app: Application, sc: ServletConfig): Option[Map[String, ApiListing]] = {
-    val scanner = sc.getServletContext().getAttribute("SCANNER")
+    val scanner = Option(sc).map(_.getServletContext().getAttribute("SCANNER")).orNull
     if (scanner != null) {
         _cache = caches.get(scanner)
     }
