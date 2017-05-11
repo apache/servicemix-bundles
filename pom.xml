@@ -54,6 +54,7 @@
         <module>swagger-jaxrs-1.3.13</module>
         <module>swagger-jaxrs_2.11-1.3.12</module>
         <module>sparkjava-core-2.6.0</module>
+        <module>couchbase-client-1.4.13</module>
     </modules>
 
 </project>
