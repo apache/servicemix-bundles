@@ -56,6 +56,7 @@
         <module>sparkjava-core-2.6.0</module>
         <module>couchbase-client-1.4.13</module>
         <module>digitalocean-api-client-2.10</module>
+        <module>okhttp-3.8.0</module>
     </modules>
 
 </project>
