@@ -58,6 +58,7 @@
         <module>digitalocean-api-client-2.10</module>
         <module>okhttp-3.8.0</module>
         <module>okio-1.13.0</module>
+        <module>retrofit-2.3.0</module>
     </modules>
 
 </project>
