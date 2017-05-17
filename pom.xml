@@ -59,6 +59,8 @@
         <module>okhttp-3.8.0</module>
         <module>okio-1.13.0</module>
         <module>retrofit-2.3.0</module>
+        <module>elasticsearch-5.4.0</module>
+        <module>elasticsearch-client-5.4.0</module>
     </modules>
 
 </project>
