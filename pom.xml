@@ -61,6 +61,8 @@
         <module>retrofit-2.3.0</module>
         <module>elasticsearch-5.4.0</module>
         <module>elasticsearch-client-5.4.0</module>
+        <module>hystrix-1.5.12</module>
+        <module>hystrix-event-stream-1.5.12</module>
     </modules>
 
 </project>
