@@ -65,6 +65,7 @@
         <module>hystrix-event-stream-1.5.12</module>
         <module>avro-1.8.2</module>
         <module>avro-ipc-1.8.2</module>
+        <module>docker-java-3.0.9</module>
     </modules>
 
 </project>

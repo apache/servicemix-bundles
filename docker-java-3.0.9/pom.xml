@@ -50,6 +50,7 @@
             com.github.dockerjava
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
+            org.glassfish.jersey*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
     </properties>
