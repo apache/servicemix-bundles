@@ -66,6 +66,7 @@
         <module>avro-1.8.2</module>
         <module>avro-ipc-1.8.2</module>
         <module>docker-java-3.0.9</module>
+        <module>docker-java-3.0.10</module>
     </modules>
 
 </project>
