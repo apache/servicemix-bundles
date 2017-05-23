@@ -67,6 +67,7 @@
         <module>avro-ipc-1.8.2</module>
         <module>docker-java-3.0.9</module>
         <module>docker-java-3.0.10</module>
+        <module>azure-storage-5.1.1</module>
     </modules>
 
 </project>
