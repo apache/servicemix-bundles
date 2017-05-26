@@ -68,6 +68,7 @@
         <module>docker-java-3.0.9</module>
         <module>docker-java-3.0.10</module>
         <module>azure-storage-5.1.1</module>
+        <module>mchange-commons-java-0.2.11</module>
     </modules>
 
 </project>
