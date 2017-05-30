@@ -91,6 +91,7 @@
         <module>bcpg-jdk15on-1.57</module>
         <module>gae-1.9.53</module>
         <module>noggit-0.8</module>
+        <module>json4s-3.5.2</module>
     </modules>
 
 </project>
