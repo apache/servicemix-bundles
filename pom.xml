@@ -85,6 +85,7 @@
 	<module>spring-security-taglibs-4.1.4.RELEASE</module>
 	<module>spring-security-taglibs-4.2.2.RELEASE</module>
         <module>orbitz-consul-client-0.15.0</module>
+        <module>braintree-java-2.72.0</module>
     </modules>
 
 </project>
