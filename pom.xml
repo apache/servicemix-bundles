@@ -93,6 +93,7 @@
         <module>noggit-0.8</module>
         <module>json4s-3.5.2</module>
         <module>ognl-3.2.2</module>
+        <module>azure-storage-5.2.0</module>
     </modules>
 
 </project>

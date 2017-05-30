@@ -1,0 +1,11 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    This project provides a client library in Java that makes it easy to consume Microsoft Azure Storage services
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttps://github.com/Azure/azure-storage-java\u001B[0m
