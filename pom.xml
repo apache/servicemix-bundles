@@ -90,6 +90,7 @@
         <module>aws-java-sdk-1.11.136</module>
         <module>bcpg-jdk15on-1.57</module>
         <module>gae-1.9.53</module>
+        <module>noggit-0.8</module>
     </modules>
 
 </project>
