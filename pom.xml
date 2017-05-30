@@ -69,6 +69,18 @@
         <module>docker-java-3.0.10</module>
         <module>azure-storage-5.1.1</module>
         <module>mchange-commons-java-0.2.11</module>
+	<module>spring-context-4.3.1.RELEASE</module>
+	<module>spring-context-4.3.3.RELEASE</module>
+	<module>spring-context-4.3.5.RELEASE</module>
+	<module>spring-context-4.3.6.RELEASE</module>
+	<module>spring-context-4.3.7.RELEASE</module>
+	<module>spring-context-4.3.8.RELEASE</module>
+	<module>spring-orm-4.3.1.RELEASE</module>
+	<module>spring-orm-4.3.3.RELEASE</module>
+	<module>spring-orm-4.3.5.RELEASE</module>
+	<module>spring-orm-4.3.6.RELEASE</module>
+	<module>spring-orm-4.3.7.RELEASE</module>
+	<module>spring-orm-4.3.8.RELEASE</module>
     </modules>
 
 </project>
