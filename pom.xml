@@ -81,6 +81,7 @@
 	<module>spring-orm-4.3.6.RELEASE</module>
 	<module>spring-orm-4.3.7.RELEASE</module>
 	<module>spring-orm-4.3.8.RELEASE</module>
+        <module>kafka-streams-0.10.2.1</module>
     </modules>
 
 </project>
