@@ -82,6 +82,8 @@
 	<module>spring-orm-4.3.7.RELEASE</module>
 	<module>spring-orm-4.3.8.RELEASE</module>
         <module>kafka-streams-0.10.2.1</module>
+	<module>spring-security-taglibs-4.1.4.RELEASE</module>
+	<module>spring-security-taglibs-4.2.2.RELEASE</module>
     </modules>
 
 </project>
