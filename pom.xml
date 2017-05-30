@@ -87,6 +87,7 @@
         <module>orbitz-consul-client-0.15.0</module>
         <module>braintree-java-2.72.0</module>
         <module>aws-java-sdk-1.11.136</module>
+        <module>bcpg-jdk15on-1.57</module>
     </modules>
 
 </project>
