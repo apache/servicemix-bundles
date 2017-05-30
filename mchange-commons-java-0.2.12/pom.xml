@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.mchange-commons-java</artifactId>
-    <version>0.2.11_1-SNAPSHOT</version>
+    <version>0.2.12_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -44,7 +44,7 @@
     <properties>
         <pkgGroupId>com.mchange</pkgGroupId>
         <pkgArtifactId>mchange-commons-java</pkgArtifactId>
-        <pkgVersion>0.2.11</pkgVersion>
+        <pkgVersion>0.2.12</pkgVersion>
         <servicemix.osgi.export.pkg>
             com.mchange
         </servicemix.osgi.export.pkg>
