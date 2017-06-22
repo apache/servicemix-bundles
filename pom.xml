@@ -45,6 +45,7 @@
         <!-- add modules for all bundles to released in the next batch here -->
         <module>influxdb-java-2.6</module>
         <module>orbitz-consul-client-0.15.1</module>
+        <module>quartz-2.3.0</module>
     </modules>
 
 </project>
