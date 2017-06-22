@@ -46,7 +46,8 @@
         <module>influxdb-java-2.6</module>
         <module>orbitz-consul-client-0.15.1</module>
         <module>quartz-2.3.0</module>
-        <module>okhttp-3.8.1</module>
+        <module>okhttp-3.8.1</module> 
+        <module>splunk-1.6.3.0</module>
     </modules>
 
 </project>
