@@ -49,6 +49,7 @@
         <module>okhttp-3.8.1</module> 
         <module>splunk-1.6.3.0</module>
         <module>digitalocean-api-client-2.11</module>
+        <module>libphonenumber-8.5.2</module>
     </modules>
 
 </project>
