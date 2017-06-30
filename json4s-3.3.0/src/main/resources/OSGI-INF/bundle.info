@@ -1,7 +1,0 @@
-\u001B[1mSYNOPSIS\u001B[0m
-    ${project.description}
-
-\u001B[1mDESCRIPTION\u001B[0m
-    A single AST to be used by other scala json libraries
-\u001B[1mSEE ALSO\u001B[0m
-    \u001B[36mhttp://http://json4s.org/\u001B[0m
