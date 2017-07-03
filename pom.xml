@@ -82,6 +82,7 @@
         <module>spring-security-web-4.2.3.RELEASE</module>
         <module>xstream-1.4.10</module>
         <module>postgresql-42.1.1.jre7</module>
+        <module>janino-3.0.7</module>
     </modules>
 
 </project>
