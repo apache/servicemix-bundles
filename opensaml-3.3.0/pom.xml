@@ -60,6 +60,7 @@
             org.apache.http*;resolution:=optional,
             com.beust.jcommander*;resolution:=optional,
             javax.annotation;version="[1,4)",
+            com.google.common*;version="[19.0,21.0)",
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
