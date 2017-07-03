@@ -74,6 +74,12 @@
         <module>spring-webmvc-portlet-4.3.9.RELEASE</module>
         <module>spring-websocket-4.3.9.RELEASE</module>
         <module>qpid-6.1.4</module>
+        <module>spring-security-acl-4.2.3.RELEASE</module>
+        <module>spring-security-config-4.2.3.RELEASE</module>
+        <module>spring-security-core-4.2.3.RELEASE</module>
+        <module>spring-security-ldap-4.2.3.RELEASE</module>
+        <module>spring-security-taglibs-4.2.3.RELEASE</module>
+        <module>spring-security-web-4.2.3.RELEASE</module>
     </modules>
 
 </project>

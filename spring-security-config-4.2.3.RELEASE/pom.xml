@@ -29,8 +29,8 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.spring-security-ldap</artifactId>
-    <version>4.2.2.RELEASE_2-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.spring-security-config</artifactId>
+    <version>4.2.3.RELEASE_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
 
@@ -38,48 +38,44 @@
         <connection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://git-wip-us.apache.org/repos/asf?p=servicemix-bundles.git</url>
-      <tag>HEAD</tag>
-  </scm>
+    </scm>
 
     <properties>
         <pkgGroupId>org.springframework.security</pkgGroupId>
-        <pkgArtifactId>spring-security-ldap</pkgArtifactId>
-        <pkgVersion>4.2.2.RELEASE</pkgVersion>
+        <pkgArtifactId>spring-security-config</pkgArtifactId>
+        <pkgVersion>4.2.3.RELEASE</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.springframework.security.ldap
+            org.springframework.security.config
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            javax.naming;resolution:=optional;version=0,
-            javax.naming.directory;resolution:=optional;version=0,
-            javax.naming.ldap;resolution:=optional;version=0,
-            javax.rmi;resolution:=optional;version=0,
-            javax.security.auth;resolution:=optional;version=0,
-            javax.security.auth.login;resolution:=optional;version=0,
-            javax.xml.parsers;resolution:=optional;version=0,
-            netscape.ldap.ber.stream;resolution:=optional;version="[4.1,5)",
+            javax.servlet;resolution:=optional;version=0,
+            javax.servlet.http;resolution:=optional;version=0,
             org.apache.commons.logging;version="[1.0.4,2.0.0)",
-            org.apache.directory.server*;resolution:=optional;version="[1.5.5,2)",
-            org.apache.directory.shared*;resolution:=optional;version="[1.5.5,2)",
             org.aspectj.weaver.tools;resolution:=optional;version="[1.7,2)",
+            org.springframework.aop*;resolution:=optional;version="[4,5)",
             org.springframework.beans*;version="[4,5)",
             org.springframework.context*;version="[4,5)",
             org.springframework.core*;version="[4,5)",
-            org.springframework.dao;resolution:=optional;version="[4,5)",
-            org.springframework.expression;resolution:=optional;version="[4,5)",
-            org.springframework.expression.spel.standard;resolution:=optional;version="[4,5)",
-            org.springframework.expression.spel.support;resolution:=optional;version="[4,5)",
-            org.springframework.http;version="[4,5)",
-            org.springframework.jdbc.core;resolution:=optional;version="[4,5)",
-            org.springframework.jdbc.core.support;resolution:=optional;version="[4,5)", 
-            org.springframework.util;resolution:=optional;version="[4,5)",
-            org.springframework.ldap*;resolution:=optional;version="[4,5)",
-            org.springframework.security.authentication*;version="[4,5)",
-            org.springframework.security.core*;version="[4,5)",
-            org.springframework.security.crypto.codec;version="[4,5)",
-            org.springframework.security.crypto.password;version="[4,5)",
-            org.springframework.security.provisioning;version="[4,5)",
+            org.springframework.expression*;resolution:=optional;version="[4,5)",
+            org.springframework.security.web*;resolution:=optional;version="[4.2,5)",
+            org.springframework.security.ldap*;resolution:=optional;version="[4.2,5)",
+            org.springframework.security.messaging*;resolution:=optional;version="[4.2,5)",
+            org.springframework.security.openid*;resolution:=optional;version="[4.2,5)",
+            org.springframework.security.crypto;resolution:=optional;version="[4.2,5)",
+            org.springframework.security.crypto.password;version="[4.2,5)",
+            org.springframework.security.crypto.bcrypt;version="[4.2,5)",
+            org.springframework.security*;version="[4.2,5)",
+            org.springframework.web*;resolution:=optional;version="[4,5)",
+            org.springframework.util;version="[4,5)",
+            org.springframework.util.xml;version="[4,5)",
             org.w3c.dom;resolution:=optional;version=0,
-            org.xml.sax;resolution:=optional;version=0
+            javax.sql;resolution:=optional, 
+            org.aopalliance.intercept;resolution:=optional, 
+            org.openid4java.consumer;resolution:=optional, 
+            org.springframework.http;resolution:=optional;version="[4,5)", 
+            org.springframework.jdbc.datasource.init;resolution:=optional;version="[4,5)", 
+            org.springframework.ldap.core*;resolution:=optional;version="[4,5)",
+            org.springframework.messaging*;resolution:=optional;version="[4,5)"
         </servicemix.osgi.import.pkg>
     </properties>
 
@@ -119,9 +115,9 @@
                             <filters>
                                 <filter>
                                     <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
-                                    <excludes>
-                                        <exclude>**</exclude>
-                                    </excludes>
+                                    <includes>
+                                        <include>META-INF/spring*</include>
+                                    </includes>
                                 </filter>
                             </filters>
                             <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
