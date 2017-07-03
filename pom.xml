@@ -51,6 +51,7 @@
         <module>digitalocean-api-client-2.11</module>
         <module>libphonenumber-8.5.2</module>
         <module>opensaml-3.3.0</module>
+        <module>grpc-1.4.0</module>
     </modules>
 
 </project>
