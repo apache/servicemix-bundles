@@ -90,6 +90,7 @@
         <module>spring-integration-core-4.3.10.RELEASE</module>
         <module>java_nats-0.7.1</module>
         <module>solr-solrj-6.6.0</module>
+        <module>archaius-core-0.7.5</module>
     </modules>
 
 </project>

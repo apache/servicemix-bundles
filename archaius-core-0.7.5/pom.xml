@@ -24,23 +24,29 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>11</version>
+        <version>13</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.archaius-core</artifactId>
-    <version>0.6.5_2-SNAPSHOT</version>
+    <version>0.7.5_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: archaius-core</name>
     <description>
         Library for configuration management API by Netflix
     </description>
 
+    <scm>
+        <connection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</connection>
+        <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
+        <url>https://git-wip-us.apache.org/repos/asf?p=servicemix-bundles.git</url>
+    </scm>
+
     <properties>
         <pkgGroupId>com.netflix.archaius</pkgGroupId>
         <pkgArtifactId>archaius-core</pkgArtifactId>
-        <pkgVersion>0.6.5</pkgVersion>
+        <pkgVersion>0.7.5</pkgVersion>
         <servicemix.osgi.export.pkg>
             com.netflix.config
         </servicemix.osgi.export.pkg>
