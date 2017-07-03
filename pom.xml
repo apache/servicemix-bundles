@@ -99,6 +99,7 @@
         <module>lucene-queryparser-6.6.0</module>
         <module>lucene-sandbox-6.6.0</module>
         <module>saxon-9.8.0-2</module>
+        <module>oscore-2.2.6</module>
     </modules>
 
 </project>

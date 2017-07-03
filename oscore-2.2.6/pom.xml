@@ -24,21 +24,27 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>9-SNAPSHOT</version>
+        <version>13</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.oscore</artifactId>
-    <version>2.2.4_6-SNAPSHOT</version>
+    <version>2.2.6_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
 
+    <scm>
+        <connection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</connection>
+        <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
+        <url>https://git-wip-us.apache.org/repos/asf?p=servicemix-bundles.git</url>
+    </scm>
+
     <properties>
         <pkgGroupId>opensymphony</pkgGroupId>
         <pkgArtifactId>oscore</pkgArtifactId>
-        <pkgVersion>2.2.4</pkgVersion>
+        <pkgVersion>2.2.6</pkgVersion>
         <servicemix.osgi.import.pkg>
             javax.ejb*;resolution:=optional;version="[2,3)",
             javax.mail*;resolution:=optional;version="[1.2,2)",
