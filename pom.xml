@@ -52,6 +52,8 @@
         <module>libphonenumber-8.5.2</module>
         <module>opensaml-3.3.0</module>
         <module>grpc-1.4.0</module>
+        <module>elasticsearch-5.4.3</module>
+        <module>elasticsearch-client-5.4.3</module>
     </modules>
 
 </project>
