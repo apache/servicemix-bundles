@@ -101,6 +101,7 @@
         <module>saxon-9.8.0-2</module>
         <module>oscore-2.2.6</module>
         <module>docker-java-3.0.11</module>
+        <module>elasticsearch-repository-hdfs-2.4.4</momdule>
     </modules>
 
 </project>
