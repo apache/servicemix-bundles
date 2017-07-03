@@ -29,8 +29,8 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.lucene</artifactId>
-    <version>6.5.1_2-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.lucene-queries</artifactId>
+    <version>6.6.0_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -39,18 +39,21 @@
         <connection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://git-wip-us.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
-  </scm>
+    </scm>
 
     <properties>
         <pkgGroupId>org.apache.lucene</pkgGroupId>
-        <pkgArtifactId>lucene-core</pkgArtifactId>
-        <pkgVersion>6.5.1</pkgVersion>
+        <pkgArtifactId>lucene-queries</pkgArtifactId>
+        <pkgVersion>6.6.0</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.apache.lucene
+            org.apache.lucene.queries
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            javax.management
+            org.apache.lucene.analysis*,
+            org.apache.lucene.document,
+            org.apache.lucene.index,
+            org.apache.lucene.search*,
+            org.apache.lucene.util*
         </servicemix.osgi.import.pkg>
     </properties>
 
@@ -90,9 +93,9 @@
                             <filters>
                                 <filter>
                                     <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
-                                    <includes>
-                                        <include>META-INF/services/**</include>
-                                    </includes>
+                                    <excludes>
+                                        <exclude>**/*</exclude>
+                                    </excludes>
                                 </filter>
                             </filters>
                             <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
@@ -100,20 +103,6 @@
                         </configuration>
                     </execution>
                 </executions>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.felix</groupId>
-                <artifactId>maven-bundle-plugin</artifactId>
-                <version>2.5.3</version>
-                <extensions>true</extensions>
-                <inherited>false</inherited>
-                <configuration>
-                   <instructions>
-                       <Export-Package>${servicemix.osgi.export}</Export-Package>
-                       <Import-Package>${servicemix.osgi.import.pkg}</Import-Package>
-                       <Bundle-NativeCode>*</Bundle-NativeCode>
-                   </instructions>
-                </configuration>
             </plugin>
         </plugins>
     </build>
