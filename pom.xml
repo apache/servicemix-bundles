@@ -73,6 +73,7 @@
         <module>spring-webmvc-4.3.9.RELEASE</module>
         <module>spring-webmvc-portlet-4.3.9.RELEASE</module>
         <module>spring-websocket-4.3.9.RELEASE</module>
+        <module>qpid-6.1.4</module>
     </modules>
 
 </project>
