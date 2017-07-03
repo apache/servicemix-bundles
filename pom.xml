@@ -86,6 +86,7 @@
         <module>kafka-clients-0.11.0.0</module>
         <module>kafka-streams-0.11.0.0</module>
         <module>kafka_2.11-0.11.0.0</module>
+        <module>spring-data-commons-1.13.4.RELEASE</module>
     </modules>
 
 </project>
