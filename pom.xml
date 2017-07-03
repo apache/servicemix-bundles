@@ -89,6 +89,7 @@
         <module>spring-data-commons-1.13.4.RELEASE</module>
         <module>spring-integration-core-4.3.10.RELEASE</module>
         <module>java_nats-0.7.1</module>
+        <module>solr-solrj-6.6.0</module>
     </modules>
 
 </project>
