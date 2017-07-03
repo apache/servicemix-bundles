@@ -80,6 +80,7 @@
         <module>spring-security-ldap-4.2.3.RELEASE</module>
         <module>spring-security-taglibs-4.2.3.RELEASE</module>
         <module>spring-security-web-4.2.3.RELEASE</module>
+        <module>xstream-1.4.10</module>
     </modules>
 
 </project>
