@@ -24,21 +24,27 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>9-SNAPSHOT</version>
+        <version>13</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.gdata</artifactId>
-    <version>1.41.1_2-SNAPSHOT</version>
+    <version>1.47.1_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: gdata</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
 
+    <scm>
+        <connection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</connection>
+        <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
+        <url>https://git-wip-us.apache.org/repos/asf?p=servicemix-bundles.git</url>
+    </scm>
+
     <properties>
         <pkgGroupId>com.google.gdata</pkgGroupId>
-        <pkgArtifactId>gdata-core</pkgArtifactId>
-        <pkgVersion>1.41.1</pkgVersion>
+        <pkgArtifactId>core</pkgArtifactId>
+        <pkgVersion>1.47.1</pkgVersion>
         <servicemix.osgi.export.pkg>
             com.google.gdata
         </servicemix.osgi.export.pkg>
@@ -75,20 +81,6 @@
         </dependency>
         -->
     </dependencies>
-
-    <repositories>
-        <repository>
-            <id>smx-m2-repo</id>
-            <name>ServiceMix M2 Repository</name>
-            <url>http://svn.apache.org/repos/asf/servicemix/m2-repo/</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
 
     <build>
         <plugins>
