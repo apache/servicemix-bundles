@@ -115,6 +115,7 @@
         <module>braintree-java-2.72.1</module>
         <module>mustache-compiler-0.9.5</module>
         <module>orbitz-consul-client-0.15.2</module>
+        <module>htmlunit-2.27</module>
     </modules>
 
 </project>
