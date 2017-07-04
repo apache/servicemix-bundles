@@ -110,6 +110,7 @@
         <module>jung-graph-impl-2.1.1</module>
         <module>influxdb-java-2.7</module>
         <module>neo4j-3.2.1</module>
+        <module>qdox-1.6</module>
     </modules>
 
 </project>

@@ -24,21 +24,27 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>9-SNAPSHOT</version>
+        <version>13</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
     
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.qdox</artifactId>
     <packaging>bundle</packaging>
-    <version>1.5_4-SNAPSHOT</version>
+    <version>1.6_1-SNAPSHOT</version>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
+
+    <scm>
+        <connection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</connection>
+        <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
+        <url>https://git-wip-us.apache.org/repos/asf?p=servicemix-bundles.git</url>
+    </scm>
     
     <properties>
         <pkgGroupId>qdox</pkgGroupId>
         <pkgArtifactId>qdox</pkgArtifactId>
-        <pkgVersion>1.5</pkgVersion>
+        <pkgVersion>1.6</pkgVersion>
         <servicemix.osgi.export.pkg>
             com.thoughtworks.qdox
         </servicemix.osgi.export.pkg>
