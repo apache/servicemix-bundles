@@ -117,6 +117,7 @@
         <module>orbitz-consul-client-0.15.2</module>
         <module>htmlunit-2.27</module>
         <module>commons-compiler-3.0.7</module>
+        <module>azure-storage-5.3.1</module>
     </modules>
 
 </project>
