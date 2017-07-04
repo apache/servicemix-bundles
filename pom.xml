@@ -112,6 +112,7 @@
         <module>neo4j-3.2.1</module>
         <module>qdox-1.6</module>
         <module>gae-1.9.54</module>
+        <module>braintree-java-2.72.1</module>
     </modules>
 
 </project>
