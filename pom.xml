@@ -116,6 +116,7 @@
         <module>mustache-compiler-0.9.5</module>
         <module>orbitz-consul-client-0.15.2</module>
         <module>htmlunit-2.27</module>
+        <module>commons-compiler-3.0.7</module>
     </modules>
 
 </project>
