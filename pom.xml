@@ -114,6 +114,7 @@
         <module>gae-1.9.54</module>
         <module>braintree-java-2.72.1</module>
         <module>mustache-compiler-0.9.5</module>
+        <module>orbitz-consul-client-0.15.2</module>
     </modules>
 
 </project>
