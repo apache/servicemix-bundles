@@ -105,6 +105,7 @@
         <module>gdata-1.47.1</module>
         <module>castor-1.4.1</module>
         <module>jest-5.3.2</module>
+        <module>jruby-9.1.12.0</module>
     </modules>
 
 </project>
