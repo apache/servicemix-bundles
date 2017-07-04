@@ -113,6 +113,7 @@
         <module>qdox-1.6</module>
         <module>gae-1.9.54</module>
         <module>braintree-java-2.72.1</module>
+        <module>mustache-compiler-0.9.5</module>
     </modules>
 
 </project>
