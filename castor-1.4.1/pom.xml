@@ -24,21 +24,27 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>11</version>
+        <version>13</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.castor</artifactId>
-    <version>1.3.3_2-SNAPSHOT</version>
+    <version>1.4.1_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
 
+    <scm>
+        <connection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</connection>
+        <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
+        <url>https://git-wip-us.apache.org/repos/asf?p=servicemix-bundles.git</url>
+    </scm>
+
     <properties>
         <pkgGroupId>org.codehaus.castor</pkgGroupId>
         <pkgArtifactId>castor</pkgArtifactId>
-        <pkgVersion>1.3.3</pkgVersion>
+        <pkgVersion>1.4.1</pkgVersion>
         <servicemix.osgi.export>
             org.castor*;version=${pkgVersion};-split-package:=merge-first,
             org.exolab*;version=${pkgVersion};-split-package:=merge-first

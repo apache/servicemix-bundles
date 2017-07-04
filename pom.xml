@@ -103,6 +103,7 @@
         <module>docker-java-3.0.11</module>
         <module>elasticsearch-repository-hdfs-2.4.4</momdule>
         <module>gdata-1.47.1</module>
+        <module>castor-1.4.1</module>
     </modules>
 
 </project>
