@@ -47,6 +47,7 @@
         <module>fastjson-1.2.35</module>
         <module>grpc-1.5.0</module>
         <module>docker-java-3.0.12</module>
+        <module>orbitz-consul-client-0.16.2</module>
     </modules>
 
 </project>
