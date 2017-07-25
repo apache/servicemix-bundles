@@ -80,6 +80,7 @@
         <module>saxon-9.8.0-3</module>
         <module>libphonenumber-8.7.0</module>
         <module>azure-storage-5.4.0</module>
+        <module>spring-batch-core-3.0.8.RELEASE</module>
     </modules>
 
 </project>
