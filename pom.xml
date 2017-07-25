@@ -49,6 +49,7 @@
         <module>docker-java-3.0.12</module>
         <module>orbitz-consul-client-0.16.2</module>
         <module>gremlin-driver-3.2.4-shaded</module>
+        <module>lucene-6.6.0</module>
     </modules>
 
 </project>
