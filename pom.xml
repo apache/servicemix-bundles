@@ -78,6 +78,7 @@
         <module>spring-integration-core-4.3.11.RELEASE</module>
         <module>digitalocean-api-client-2.12</module>
         <module>saxon-9.8.0-3</module>
+        <module>libphonenumber-8.7.0</module>
     </modules>
 
 </project>
