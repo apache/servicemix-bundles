@@ -79,6 +79,7 @@
         <module>digitalocean-api-client-2.12</module>
         <module>saxon-9.8.0-3</module>
         <module>libphonenumber-8.7.0</module>
+        <module>azure-storage-5.4.0</module>
     </modules>
 
 </project>

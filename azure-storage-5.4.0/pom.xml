@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.azure-storage</artifactId>
-    <version>5.3.1_2-SNAPSHOT</version>
+    <version>5.4.0_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -45,7 +45,7 @@
     <properties>
         <pkgGroupId>com.microsoft.azure</pkgGroupId>
         <pkgArtifactId>azure-storage</pkgArtifactId>
-        <pkgVersion>5.3.1</pkgVersion>
+        <pkgVersion>5.4.0</pkgVersion>
         <servicemix.osgi.export.pkg>
             com.microsoft.azure
          </servicemix.osgi.export.pkg>
