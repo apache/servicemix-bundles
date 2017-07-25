@@ -31,7 +31,7 @@
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.saxon</artifactId>
     <packaging>bundle</packaging>
-    <version>9.8.0-2_2-SNAPSHOT</version>
+    <version>9.8.0-3_1-SNAPSHOT</version>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps saxon he ${pkgVersion} jar files.</description>
 
@@ -39,13 +39,12 @@
         <connection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://git-wip-us.apache.org/repos/asf?p=servicemix-bundles.git</url>
-      <tag>HEAD</tag>
-  </scm>
+    </scm>
 
     <properties>
         <pkgGroupId>net.sf.saxon</pkgGroupId>
         <pkgArtifactId>Saxon-HE</pkgArtifactId>
-        <pkgVersion>9.8.0-2</pkgVersion>
+        <pkgVersion>9.8.0-3</pkgVersion>
         <servicemix.osgi.export.pkg>
             net.sf.saxon
         </servicemix.osgi.export.pkg>

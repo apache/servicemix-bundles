@@ -77,6 +77,7 @@
         <module>olingo-odata2-core-2.0.9</module>
         <module>spring-integration-core-4.3.11.RELEASE</module>
         <module>digitalocean-api-client-2.12</module>
+        <module>saxon-9.8.0-3</module>
     </modules>
 
 </project>
