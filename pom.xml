@@ -69,6 +69,7 @@
         <module>spring-webmvc-4.3.10.RELEASE</module>
         <module>spring-webmvc-portlet-4.3.10.RELEASE</module>
         <module>spring-websocket-4.3.10.RELEASE</module>
+        <module>elasticsearch-5.5.0</module>
     </modules>
 
 </project>
