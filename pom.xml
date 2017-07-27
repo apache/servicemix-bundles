@@ -43,7 +43,6 @@
 
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
-        <module>facebook4j-2.4.10</module>
         <module>fastjson-1.2.35</module>
         <module>grpc-1.5.0</module>
         <module>docker-java-3.0.12</module>
