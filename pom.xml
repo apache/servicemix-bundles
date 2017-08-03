@@ -44,6 +44,7 @@
     <modules>
         <!-- add modules for all bundles to released in the next batch here -->
         <module>orbitz-consul-client-0.16.3</module>
+        <module>spring-security-ldap-4.2.3.RELEASE</module>
     </modules>
 
 </project>

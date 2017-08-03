@@ -72,7 +72,7 @@
             org.springframework.jdbc.core;resolution:=optional;version="[4,5)",
             org.springframework.jdbc.core.support;resolution:=optional;version="[4,5)", 
             org.springframework.util;resolution:=optional;version="[4,5)",
-            org.springframework.ldap*;resolution:=optional;version="[4,5)",
+            org.springframework.ldap*;resolution:=optional;version="[2,5)",
             org.springframework.security.authentication*;version="[4,5)",
             org.springframework.security.core*;version="[4,5)",
             org.springframework.security.crypto.codec;version="[4,5)",
