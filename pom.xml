@@ -49,6 +49,7 @@
         <module>jsendnsca-2.1.1</module>
         <module>brave-zipkin-4.2.0</module>
         <module>fastjson-1.2.37</module>
+        <module>xstream-1.4.10-java8</module>
     </modules>
 
 </project>
