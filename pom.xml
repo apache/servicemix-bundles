@@ -53,6 +53,10 @@
         <module>hystrix-serialization-1.5.12</module>
         <module>brave-zipkin-4.5.2</module>
         <module>docker-java-3.0.13</module>
+        <module>spring-web-4.0.7.RELEASE</module>
+        <module>spring-web-4.1.9.RELEASE</module>
+        <module>spring-web-4.2.9.RELEASE</module>
+        <module>spring-web-4.3.10.RELEASE</module>
     </modules>
 
 </project>
