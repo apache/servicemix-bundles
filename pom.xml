@@ -52,6 +52,7 @@
         <module>xstream-1.4.10-java8</module>
         <module>hystrix-serialization-1.5.12</module>
         <module>brave-zipkin-4.5.2</module>
+        <module>docker-java-3.0.13</module>
     </modules>
 
 </project>
