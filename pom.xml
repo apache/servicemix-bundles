@@ -57,6 +57,7 @@
         <module>spring-web-4.1.9.RELEASE</module>
         <module>spring-web-4.2.9.RELEASE</module>
         <module>spring-web-4.3.10.RELEASE</module>
+        <module>spring-ldap-2.3.1.RELEASE</module>
     </modules>
 
 </project>

@@ -63,7 +63,7 @@
             javax.naming*,
             javax.net*,
             org.apache.commons.pool*,
-            org.springframework.batch*,
+            org.springframework.batch*;resolution:=optional,
             org.springframework.beans*,
             org.springframework.data*,
             org.springframework.context*,
@@ -78,6 +78,10 @@
             freemarker.template;resolution:=optional,
             org.apache.commons.cli;resolution:=optional,
             org.apache.commons.logging;resolution:=optional,
+            org.apache.commons.pool;resolution:=optional,
+            org.apache.commons.pool.impl;resolution:=optional,
+            org.apache.commons.pool2;resolution:=optional,
+            org.apache.commons.pool2.impl;resolution:=optional,
             sun.misc;resolution:=optional,
             org.w3c.dom;resolution:=optional
         </servicemix.osgi.import.pkg>
