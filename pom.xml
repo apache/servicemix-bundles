@@ -63,6 +63,7 @@
         <module>quickfix-1.6.4</module>
         <module>snmp4j-2.5.7</module>
         <module>java_nats-0.7.1</module>
+        <module>rhino-1.7.7.2</module>
     </modules>
 
 </project>
