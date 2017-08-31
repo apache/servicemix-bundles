@@ -61,6 +61,7 @@
         <module>azure-storage-5.5.0</module>
         <module>brave-zipkin-3.7.0</module>
         <module>quickfix-1.6.4</module>
+        <module>snmp4j-2.5.7</module>
     </modules>
 
 </project>
