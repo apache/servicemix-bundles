@@ -60,6 +60,7 @@
         <module>spring-ldap-2.3.1.RELEASE</module>
         <module>azure-storage-5.5.0</module>
         <module>brave-zipkin-3.7.0</module>
+        <module>quickfix-1.6.4</module>
     </modules>
 
 </project>
