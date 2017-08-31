@@ -59,6 +59,7 @@
         <module>spring-web-4.3.10.RELEASE</module>
         <module>spring-ldap-2.3.1.RELEASE</module>
         <module>azure-storage-5.5.0</module>
+        <module>brave-zipkin-3.7.0</module>
     </modules>
 
 </project>
