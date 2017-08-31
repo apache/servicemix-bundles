@@ -52,7 +52,11 @@
             com.github.kristofa.brave.scribe,
             com.twitter.zipkin.gen
         </servicemix.osgi.export.pkg>
+        <servicemix.osgi.private.pkg>
+            com.github.kristofa.brave.internal.zipkin.*
+        </servicemix.osgi.private.pkg>
         <servicemix.osgi.import.pkg>
+        *
         </servicemix.osgi.import.pkg>
     </properties>
 
@@ -119,6 +123,7 @@
                        <Export-Package>${servicemix.osgi.export}</Export-Package>
                        <Import-Package>${servicemix.osgi.import.pkg}</Import-Package>
                        <Bundle-NativeCode>*</Bundle-NativeCode>
+                       <_exportcontents>com.github.kristofa.brave.scribe</_exportcontents>
                    </instructions>
                 </configuration>
             </plugin>
