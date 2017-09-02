@@ -65,6 +65,7 @@
         <module>java_nats-0.7.1</module>
         <module>rhino-1.7.7.2</module>
         <module>json4s-3.5.3</module>
+        <module>antisamy-1.5.6</module>
     </modules>
 
 </project>
