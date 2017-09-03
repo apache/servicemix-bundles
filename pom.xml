@@ -67,6 +67,7 @@
         <module>json4s-3.5.3</module>
         <module>antisamy-1.5.6</module>
         <module>ognl-3.2.3</module>
+        <module>grpc-1.6.1</module>
     </modules>
 
 </project>
