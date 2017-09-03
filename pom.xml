@@ -73,6 +73,7 @@
         <module>mybatis-3.4.5</module>
         <module>aws-java-sdk-1.11.186</module>
         <module>postgresql-42.1.4.jre7</module>
+        <module>saxon-9.8.0-4</module>
     </modules>
 
 </project>
