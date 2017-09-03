@@ -70,6 +70,7 @@
         <module>grpc-1.6.1</module>
         <module>gremlin-driver-3.3.0-shaded</module>
         <module>dbunit-2.5.4</module>
+        <module>mybatis-3.4.5</module>
     </modules>
 
 </project>
