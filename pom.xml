@@ -71,6 +71,7 @@
         <module>gremlin-driver-3.3.0-shaded</module>
         <module>dbunit-2.5.4</module>
         <module>mybatis-3.4.5</module>
+        <module>aws-java-sdk-1.11.186</module>
     </modules>
 
 </project>
