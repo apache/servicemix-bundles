@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.gremlin-driver-shaded</artifactId>
-    <version>3.2.4_2-SNAPSHOT</version>
+    <version>3.3.0_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactIdShaded}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} shaded jar file.</description>
@@ -39,14 +39,13 @@
         <connection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://git-wip-us.apache.org/repos/asf?p=servicemix-bundles.git</url>
-      <tag>HEAD</tag>
-  </scm>
+    </scm>
 
     <properties>
         <pkgGroupId>org.apache.tinkerpop</pkgGroupId>
         <pkgArtifactId>gremlin-driver</pkgArtifactId>
         <pkgArtifactIdShaded>gremlin-driver-shaded</pkgArtifactIdShaded>
-        <pkgVersion>3.2.4</pkgVersion>
+        <pkgVersion>3.3.0</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.apache.tinkerpop.gremlin.*
         </servicemix.osgi.export.pkg>

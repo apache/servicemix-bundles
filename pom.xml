@@ -68,6 +68,7 @@
         <module>antisamy-1.5.6</module>
         <module>ognl-3.2.3</module>
         <module>grpc-1.6.1</module>
+        <module>gremlin-driver-3.3.0-shaded</module>
     </modules>
 
 </project>
