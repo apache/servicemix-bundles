@@ -78,6 +78,7 @@
         <module>spring-data-commons-1.13.6.RELEASE</module>
         <module>guice-4.1.0</module>
         <module>libphonenumber-8.8.0</module>
+        <module>batik-1.9.1</module>
     </modules>
 
 </project>
