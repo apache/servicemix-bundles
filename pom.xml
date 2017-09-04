@@ -74,6 +74,7 @@
         <module>aws-java-sdk-1.11.186</module>
         <module>postgresql-42.1.4.jre7</module>
         <module>saxon-9.8.0-4</module>
+        <module>bcprov-jdk15on-1.58</module>
     </modules>
 
 </project>
