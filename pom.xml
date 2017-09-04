@@ -76,6 +76,7 @@
         <module>saxon-9.8.0-4</module>
         <module>bcprov-jdk15on-1.58</module>
         <module>spring-data-commons-1.13.6.RELEASE</module>
+        <module>guice-4.1.0</module>
     </modules>
 
 </project>
