@@ -79,6 +79,7 @@
         <module>guice-4.1.0</module>
         <module>libphonenumber-8.8.0</module>
         <module>batik-1.9.1</module>
+        <module>braintree-java-2.73.0</module>
     </modules>
 
 </project>
