@@ -62,7 +62,6 @@
             org.slf4j;resolution:=optional,
             javax.naming*,
             javax.net*,
-            org.apache.commons.pool*,
             org.springframework.batch*;resolution:=optional,
             org.springframework.beans*,
             org.springframework.data*,
