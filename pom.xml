@@ -47,6 +47,7 @@
         <module>spring-ldap-2.3.1.RELEASE</module>
         <module>okhttp-3.9.0</module>
         <module>chunk-templates-3.3.1</module>
+        <module>fastjson-1.2.38</module>
     </modules>
 
 </project>
