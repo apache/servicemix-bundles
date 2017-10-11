@@ -49,6 +49,7 @@
         <module>chunk-templates-3.3.1</module>
         <module>fastjson-1.2.38</module>
         <module>jt400-9.4</module>
+        <module>java-util-1.31.1</module>
     </modules>
 
 </project>

@@ -1,0 +1,11 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URLs:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    Rarely available and hard-to-write Java utilities, written correctly, and thoroughly tested 
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttps://github.com/jdereg/java-util/\u001B[0m
