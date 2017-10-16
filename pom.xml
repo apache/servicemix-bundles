@@ -64,6 +64,7 @@
         <module>jest-5.3.3</module>
         <module>aspectj-1.8.11</module>
         <module>antisamy-1.5.7</module>
+        <module>poi-3.17</module>
     </modules>
 
 </project>
