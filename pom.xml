@@ -61,6 +61,7 @@
         <module>spring-ldap-2.3.2.RELEASE</module>
         <module>brave-zipkin-4.8.1</module>
         <module>fastjson-1.2.39</module>
+        <module>jest-5.3.3</module>
     </modules>
 
 </project>
