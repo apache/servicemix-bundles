@@ -57,6 +57,7 @@
         <module>grpc-1.7.0</module>
         <module>saaj-impl-1.4.0</module>
         <module>jruby-9.1.13.0</module>
+        <module>saxon-9.8.0-5</module>
     </modules>
 
 </project>
