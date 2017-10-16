@@ -59,6 +59,7 @@
         <module>jruby-9.1.13.0</module>
         <module>saxon-9.8.0-5</module>
         <module>spring-ldap-2.3.2.RELEASE</module>
+        <module>brave-zipkin-4.8.1</module>
     </modules>
 
 </project>
