@@ -58,6 +58,7 @@
         <module>saaj-impl-1.4.0</module>
         <module>jruby-9.1.13.0</module>
         <module>saxon-9.8.0-5</module>
+        <module>spring-ldap-2.3.2.RELEASE</module>
     </modules>
 
 </project>
