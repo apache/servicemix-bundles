@@ -52,6 +52,7 @@
         <module>java-util-1.31.1</module>
         <module>azure-storage-6.0.0</module>
         <module>docker-java-3.0.14</module>
+        <module>orbitz-consul-client-0.16.4</module>
     </modules>
 
 </project>
