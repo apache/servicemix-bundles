@@ -67,6 +67,7 @@
         <module>poi-3.17</module>
         <module>aws-java-sdk-1.11.213</module>
         <module>java-xmlbuilder-1.2</module>
+        <module>bcpg-jdk15on-1.58</module>
     </modules>
 
 </project>
