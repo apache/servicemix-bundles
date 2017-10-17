@@ -65,6 +65,7 @@
         <module>aspectj-1.8.11</module>
         <module>antisamy-1.5.7</module>
         <module>poi-3.17</module>
+        <module>aws-java-sdk-1.11.213</module>
     </modules>
 
 </project>
