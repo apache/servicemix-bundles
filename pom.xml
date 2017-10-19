@@ -119,6 +119,24 @@
         <module>spring-webmvc-4.3.12.RELEASE</module>
         <module>spring-webmvc-portlet-4.3.12.RELEASE</module>
         <module>spring-websocket-4.3.12.RELEASE</module>
+        <module>spring-aop-5.0.0.RELEASE</module>
+        <module>spring-aspects-5.0.0.RELEASE</module>
+        <module>spring-beans-5.0.0.RELEASE</module>
+        <module>spring-context-5.0.0.RELEASE</module>
+        <module>spring-context-support-5.0.0.RELEASE</module>
+        <module>spring-core-5.0.0.RELEASE</module>
+        <module>spring-expression-5.0.0.RELEASE</module>
+        <module>spring-instrument-5.0.0.RELEASE</module>
+        <module>spring-jdbc-5.0.0.RELEASE</module>
+        <module>spring-jms-5.0.0.RELEASE</module>
+        <module>spring-messaging-5.0.0.RELEASE</module>
+        <module>spring-orm-5.0.0.RELEASE</module>
+        <module>spring-oxm-5.0.0.RELEASE</module>
+        <module>spring-test-5.0.0.RELEASE</module>
+        <module>spring-tx-5.0.0.RELEASE</module>
+        <module>spring-web-5.0.0.RELEASE</module>
+        <module>spring-webmvc-5.0.0.RELEASE</module>
+        <module>spring-websocket-5.0.0.RELEASE</module>
     </modules>
 
 </project>
