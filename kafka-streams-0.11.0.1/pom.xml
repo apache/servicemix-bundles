@@ -29,8 +29,8 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.kafka-clients</artifactId>
-    <version>0.11.0.0_2-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.kafka-streams</artifactId>
+    <version>0.11.0.1_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -39,30 +39,17 @@
         <connection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://git-wip-us.apache.org/repos/asf?p=servicemix-bundles.git</url>
-      <tag>HEAD</tag>
-  </scm>
+    </scm>
 
     <properties>
         <pkgGroupId>org.apache.kafka</pkgGroupId>
-        <pkgArtifactId>kafka-clients</pkgArtifactId>
-        <pkgVersion>0.11.0.0</pkgVersion>
+        <pkgArtifactId>kafka-streams</pkgArtifactId>
+        <pkgVersion>0.11.0.1</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.apache.kafka
+            org.apache.kafka.streams
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            net.jpountz*;version="[1.2.0,1.3.0)";resolution:=optional,
-            javax.management*,
-            javax.security.auth*,
-            javax.security.sasl*,
-            javax.net.ssl*,
-            org.ietf.jgss*,
-            javax.crypto,
-            javax.crypto.spec,
-            javax.xml.bind, 
-            org.slf4j*;resolution:=optional,
-            org.xerial.snappy;resolution:=optional,
-            sun.misc;resolution:=optional,
-            sun.nio.ch;resolution:=optional
+            org.apache.kafka.client 
         </servicemix.osgi.import.pkg>
     </properties>
 
@@ -71,26 +58,7 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.slf4j</groupId>
-                    <artifactId>slf4j-log4j12</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.slf4j</groupId>
-                    <artifactId>slf4j-api</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>net.jpountz.lz4</groupId>
-                    <artifactId>lz4</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.xerial.snappy</groupId>
-                    <artifactId>snappy-java</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
-
     </dependencies>
 
     <build>
@@ -113,9 +81,9 @@
                             <filters>
                                 <filter>
                                     <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
-                                    <includes>
-                                        <include>kafka/kafka-version.properties</include>
-                                    </includes>
+                                    <excludes>
+                                        <exclude>**/*</exclude>
+                                    </excludes>
                                 </filter>
                             </filters>
                             <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
