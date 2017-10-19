@@ -95,6 +95,11 @@
         <module>kafka_2.11-0.11.0.1</module>
         <module>kafka-clients-0.11.0.1</module>
         <module>kafka-streams-0.11.0.1</module>
+        <module>lucene-7.0.1</module>
+        <module>lucene-analyzers-common-7.0.1</module>
+        <module>lucene-queries-7.0.1</module>
+        <module>lucene-queryparser-7.0.1</module>
+        <module>lucene-sandbox-7.0.1</module>
     </modules>
 
 </project>
