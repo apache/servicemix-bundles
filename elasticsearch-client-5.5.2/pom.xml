@@ -49,7 +49,9 @@
             org.elasticsearch.client;version="${pkgVersion}";-split-package:=merge-first,
             org.elasticsearch.client.sniff;version="${pkgVersion}";-split-package:=merge-first,
             org.elasticsearch.transport.client;version="${pkgVersion}";-split-package:=merge-first,
-            org.elasticsearch.client.transport;version="${pkgVersion}";-split-package:=merge-first
+            org.elasticsearch.client.transport;version="${pkgVersion}";-split-package:=merge-first,
+            org.elasticsearch.client.support;version="${pkgVersion}";-split-package:=merge-first,
+            org.elasticsearch.client.node;version="${pkgVersion}";-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
 
