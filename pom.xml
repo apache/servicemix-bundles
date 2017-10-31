@@ -60,6 +60,7 @@
         <module>spring-web-5.0.1.RELEASE</module>
         <module>spring-webmvc-5.0.1.RELEASE</module>
         <module>spring-websocket-5.0.1.RELEASE</module>
+        <module>aspectj-1.8.12</module>
     </modules>
 
 </project>
