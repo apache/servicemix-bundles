@@ -62,6 +62,7 @@
         <module>spring-websocket-5.0.1.RELEASE</module>
         <module>aspectj-1.8.12</module>
         <module>fastjson-1.2.40</module>
+        <module>java-util-1.32.0</module>
     </modules>
 
 </project>
