@@ -50,7 +50,9 @@
             org.apache.kafka.streams
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            org.apache.kafka.client 
+            org.apache.kafka.clients*,
+            org.apache.kafka.common*,
+            org.slf4j
         </servicemix.osgi.import.pkg>
     </properties>
 
