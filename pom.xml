@@ -64,6 +64,7 @@
         <module>fastjson-1.2.40</module>
         <module>java-util-1.32.0</module>
         <module>kafka-streams-0.11.0.1</module>
+        <module>sparkjava-core-2.7.0</module>
     </modules>
 
 </project>
