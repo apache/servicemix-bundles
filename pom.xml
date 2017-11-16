@@ -66,6 +66,7 @@
         <module>kafka-streams-0.11.0.1</module>
         <module>sparkjava-core-2.7.0</module>
         <module>azure-storage-6.1.0</module>
+        <module>lightcouch-0.2.0</module>
     </modules>
 
 </project>
