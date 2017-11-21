@@ -67,6 +67,7 @@
         <module>sparkjava-core-2.7.0</module>
         <module>azure-storage-6.1.0</module>
         <module>lightcouch-0.2.0</module>
+        <module>digitalocean-api-client-2.13</module>
     </modules>
 
 </project>
