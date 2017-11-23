@@ -77,6 +77,7 @@
         <module>zxing-3.3.1</module>
         <module>gwt-servlet-2.8.2</module>
         <module>gremlin-driver-3.2.6</module>
+        <module>janusgraph-core-0.2.0</module>
     </modules>
 
 </project>
