@@ -107,6 +107,7 @@
         <module>lucene-queries-7.1.0</module>
         <module>lucene-queryparser-7.1.0</module>
         <module>lucene-sandbox-7.1.0</module>
+        <module>gremlin-driver-3.2.6</module>
     </modules>
 
 </project>
