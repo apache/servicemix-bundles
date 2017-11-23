@@ -61,7 +61,7 @@
         <module>spring-webmvc-5.0.1.RELEASE</module>
         <module>spring-websocket-5.0.1.RELEASE</module>
         <module>aspectj-1.8.12</module>
-        <module>fastjson-1.2.40</module>
+        <module>fastjson-1.2.41</module>
         <module>java-util-1.32.0</module>
         <module>kafka-streams-0.11.0.1</module>
         <module>sparkjava-core-2.7.0</module>
