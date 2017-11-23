@@ -70,6 +70,7 @@
         <module>digitalocean-api-client-2.13</module>
         <module>okhttp-3.9.1</module>
         <module>saxon-9.8.0-6</module>
+        <module>libphonenumber-8.8.6</module>
     </modules>
 
 </project>
