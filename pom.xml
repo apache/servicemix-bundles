@@ -75,6 +75,7 @@
         <module>gae-1.9.59</module>
         <module>htmlunit-2.28</module>
         <module>zxing-3.3.1</module>
+        <module>gwt-servlet-2.8.2</module>
     </modules>
 
 </project>
