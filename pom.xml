@@ -42,24 +42,6 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
-        <module>spring-aop-5.0.1.RELEASE</module>
-        <module>spring-aspects-5.0.1.RELEASE</module>
-        <module>spring-beans-5.0.1.RELEASE</module>
-        <module>spring-context-5.0.1.RELEASE</module>
-        <module>spring-context-support-5.0.1.RELEASE</module>
-        <module>spring-core-5.0.1.RELEASE</module>
-        <module>spring-expression-5.0.1.RELEASE</module>
-        <module>spring-instrument-5.0.1.RELEASE</module>
-        <module>spring-jdbc-5.0.1.RELEASE</module>
-        <module>spring-jms-5.0.1.RELEASE</module>
-        <module>spring-messaging-5.0.1.RELEASE</module>
-        <module>spring-orm-5.0.1.RELEASE</module>
-        <module>spring-oxm-5.0.1.RELEASE</module>
-        <module>spring-test-5.0.1.RELEASE</module>
-        <module>spring-tx-5.0.1.RELEASE</module>
-        <module>spring-web-5.0.1.RELEASE</module>
-        <module>spring-webmvc-5.0.1.RELEASE</module>
-        <module>spring-websocket-5.0.1.RELEASE</module>
         <module>aspectj-1.8.13</module>
         <module>fastjson-1.2.41</module>
         <module>java-util-1.32.0</module>
@@ -76,6 +58,24 @@
         <module>htmlunit-2.28</module>
         <module>zxing-3.3.1</module>
         <module>gwt-servlet-2.8.2</module>
+        <module>spring-aop-5.0.2.RELEASE</module>
+        <module>spring-aspects-5.0.2.RELEASE</module>
+        <module>spring-beans-5.0.2.RELEASE</module>
+        <module>spring-context-5.0.2.RELEASE</module>
+        <module>spring-context-support-5.0.2.RELEASE</module>
+        <module>spring-core-5.0.2.RELEASE</module>
+        <module>spring-expression-5.0.2.RELEASE</module>
+        <module>spring-instrument-5.0.2.RELEASE</module>
+        <module>spring-jdbc-5.0.2.RELEASE</module>
+        <module>spring-jms-5.0.2.RELEASE</module>
+        <module>spring-messaging-5.0.2.RELEASE</module>
+        <module>spring-orm-5.0.2.RELEASE</module>
+        <module>spring-oxm-5.0.2.RELEASE</module>
+        <module>spring-test-5.0.2.RELEASE</module>
+        <module>spring-tx-5.0.2.RELEASE</module>
+        <module>spring-web-5.0.2.RELEASE</module>
+        <module>spring-webmvc-5.0.2.RELEASE</module>
+        <module>spring-websocket-5.0.2.RELEASE</module>
     </modules>
 
 </project>
