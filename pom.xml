@@ -72,6 +72,7 @@
         <module>saxon-9.8.0-6</module>
         <module>libphonenumber-8.8.6</module>
         <module>jruby-9.1.14.0</module>
+        <module>gae-1.9.59</module>
     </modules>
 
 </project>
