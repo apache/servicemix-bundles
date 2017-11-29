@@ -99,6 +99,9 @@
         <module>spring-webmvc-4.3.13.RELEASE</module>
         <module>spring-webmvc-portlet-4.3.13.RELEASE</module>
         <module>spring-websocket-4.3.13.RELEASE</module>
+        <module>kafka_2.11-1.0.0</module>
+        <module>kafka-clients-1.0.0</module>
+        <module>kafka-streams-1.0.0</module>
     </modules>
 
 </project>
