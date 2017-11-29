@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <!--
+
+        Licensed to the Apache Software Foundation (ASF) under one or more
+        contributor license agreements.  See the NOTICE file distributed with
+        this work for additional information regarding copyright ownership.
+        The ASF licenses this file to You under the Apache License, Version 2.0
+        (the "License"); you may not use this file except in compliance with
+        the License.  You may obtain a copy of the License at
+
+           http://www.apache.org/licenses/LICENSE-2.0
+
+        Unless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an "AS IS" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License.
+    -->
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.apache.servicemix.bundles</groupId>
+        <artifactId>bundles-pom</artifactId>
+        <version>13</version>
+        <relativePath>../bundles-pom/pom.xml</relativePath>
+    </parent>
+
+    <groupId>org.apache.servicemix.bundles</groupId>
+    <artifactId>org.apache.servicemix.bundles.elasticsearch</artifactId>
+    <version>6.0.0_1-SNAPSHOT</version>
+    <packaging>bundle</packaging>
+    <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
+    <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
+
+    <scm>
+        <connection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</connection>
+        <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
+        <url>https://git-wip-us.apache.org/repos/asf?p=servicemix-bundles.git</url>
+  </scm>
+
+    <properties>
+        <pkgGroupId>org.elasticsearch</pkgGroupId>
+        <pkgArtifactId>elasticsearch</pkgArtifactId>
+        <pkgVersion>6.0.0</pkgVersion>
+        <servicemix.osgi.export.pkg>
+            org.elasticsearch
+        </servicemix.osgi.export.pkg>
+        <servicemix.osgi.import.pkg>
+            com.google.common.collect,
+            com.fasterxml.jackson.core;version="[2.6,3)",
+            com.fasterxml.jackson.dataformat.yaml;version="[2.6,3)",
+            com.fasterxml.jackson.dataformat.smile;version="[2.6,3)",
+            com.sun.jna;resolution:=optional,
+            com.ning.compress.lzf.util,
+            *;resolution:=optional
+        </servicemix.osgi.import.pkg>
+        <servicemix.osgi.private.pkg>
+            org.joda.time*;-split-package:=merge-first,
+            org.apache.lucene*;-split-package:=merge-first,
+            org.tartarus.snowball*,
+            com.tdunning.math.stats,
+            com.carrotsearch.hppc*,
+            META-INF.services.*;-split-package:=merge-first
+        </servicemix.osgi.private.pkg>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+        </dependency>
+
+        <!-- sources -->
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <artifactSet>
+                                <includes>
+                                    <include>${pkgGroupId}:${pkgArtifactId}</include>
+                                    <include>org.apache.lucene:*</include>
+                                </includes>
+                            </artifactSet>
+                            <filters>
+                                <filter>
+                                    <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
+                                    <includes>
+                                        <include>config/**</include>
+                                        <include>META-INF/services/**</include>
+                                        <include>plugins.txt</include>
+                                    </includes>
+                                </filter>
+                                <filter>
+                                    <artifact>org.apache.lucene:*</artifact>
+                                    <includes>
+                                        <include>META-INF/services/**</include>
+                                    </includes>
+                                </filter>
+                            </filters>
+                            <transformers>
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
+                            </transformers>
+                            <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
+                            <createDependencyReducedPom>true</createDependencyReducedPom>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
