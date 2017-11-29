@@ -78,6 +78,8 @@
         <module>spring-websocket-5.0.2.RELEASE</module>
         <module>elasticsearch-6.0.0</module>
         <module>elasticsearch-client-6.0.0</module>
+        <module>derby-10.14.1.0</module>
+        <module>derbynet-10.14.1.0</module>
     </modules>
 
 </project>
