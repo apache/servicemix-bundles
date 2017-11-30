@@ -110,6 +110,7 @@
         <module>gremlin-driver-3.2.6</module>
         <module>janusgraph-core-0.2.0</module>
         <module>gremlin-driver-3.3.0</module>
+        <module>aws-java-sdk-1.11.237</module>
     </modules>
 
 </project>
