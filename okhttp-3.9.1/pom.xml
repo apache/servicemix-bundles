@@ -53,6 +53,7 @@
             okio;version="[1.11.0,2)",
             org.apache.http.*;resolution:=optional,
             android.util.*;resolution:=optional,
+            android.os.*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
     </properties>

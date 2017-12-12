@@ -42,6 +42,7 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+        <module>okhttp-3.9.1</module>
     </modules>
 
 </project>
