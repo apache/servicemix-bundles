@@ -44,6 +44,7 @@
     <modules>
         <module>okhttp-3.9.1</module>
         <module>influxdb-java-2.8</module>
+        <module>fastjson-1.2.43</module>
     </modules>
 
 </project>
