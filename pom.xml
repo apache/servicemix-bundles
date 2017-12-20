@@ -43,6 +43,7 @@
 
     <modules>
         <module>okhttp-3.9.1</module>
+        <module>influxdb-java-2.8</module>
     </modules>
 
 </project>
