@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.lucene-queries</artifactId>
-    <version>7.1.0_2-SNAPSHOT</version>
+    <version>7.2.0_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -45,7 +45,7 @@
     <properties>
         <pkgGroupId>org.apache.lucene</pkgGroupId>
         <pkgArtifactId>lucene-queries</pkgArtifactId>
-        <pkgVersion>7.1.0</pkgVersion>
+        <pkgVersion>7.2.0</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.apache.lucene.queries
         </servicemix.osgi.export.pkg>

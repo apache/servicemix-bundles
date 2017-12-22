@@ -53,6 +53,7 @@
         <module>elasticsearch-client-6.1.1</module>
         <module>lucene-7.2.0</module>
         <module>lucene-analyzers-common-7.2.0</module>
+        <module>lucene-queries-7.2.0</module>
     </modules>
 
 </project>
