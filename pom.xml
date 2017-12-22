@@ -47,7 +47,8 @@
         <module>fastjson-1.2.43</module>
         <module>sparkjava-core-2.7.1</module>
         <module>java-util-1.34.0</module>
-        <module>libphonenumber-8.8.8</module>
+        <module>libphonenumber-8.8.8</module> 
+        <module>asterisk-java-2.0.2</module>
     </modules>
 
 </project>
