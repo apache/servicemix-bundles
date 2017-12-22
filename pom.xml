@@ -55,6 +55,7 @@
         <module>lucene-analyzers-common-7.2.0</module>
         <module>lucene-queries-7.2.0</module>
         <module>lucene-queryparser-7.2.0</module>
+        <module>lucene-sandbox-7.2.0</module>
     </modules>
 
 </project>
