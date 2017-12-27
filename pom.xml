@@ -57,6 +57,7 @@
         <module>lucene-queryparser-7.2.0</module>
         <module>lucene-sandbox-7.2.0</module>
         <module>grpc-1.8.0</module>
+        <module>solr-solrj-7.2.0</module>
     </modules>
 
 </project>
