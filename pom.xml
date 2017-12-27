@@ -59,6 +59,7 @@
         <module>grpc-1.8.0</module>
         <module>solr-solrj-7.2.0</module>
         <module>kafka-clients-1.0.0</module>
+        <module>javax-cache-api-1.1.0</module>
     </modules>
 
 </project>
