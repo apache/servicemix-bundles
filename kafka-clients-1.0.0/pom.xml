@@ -91,6 +91,12 @@
             </exclusions>
         </dependency>
 
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+        </dependency>
     </dependencies>
 
     <build>
