@@ -66,6 +66,7 @@
         <module>olingo-odata2-api-2.0.10</module>
         <module>olingo-odata2-core-2.0.10</module>
 	<module>aws-java-sdk-1.11.255</module>
+	<module>ognl-3.2.4</module>
     </modules>
 
 </project>
