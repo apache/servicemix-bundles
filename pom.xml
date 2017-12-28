@@ -67,6 +67,7 @@
         <module>olingo-odata2-core-2.0.10</module>
 	<module>aws-java-sdk-1.11.255</module>
 	<module>ognl-3.2.4</module>
+	<module>commons-compiler-3.0.8</module>
     </modules>
 
 </project>
