@@ -65,6 +65,7 @@
         <module>braintree-java-2.74.0</module>
         <module>olingo-odata2-api-2.0.10</module>
         <module>olingo-odata2-core-2.0.10</module>
+	<module>aws-java-sdk-1.11.255</module>
     </modules>
 
 </project>
