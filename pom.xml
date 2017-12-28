@@ -61,6 +61,7 @@
         <module>kafka-clients-1.0.0</module>
         <module>javax-cache-api-1.1.0</module>
         <module>hadoop-client-3.0.0</module>
+        <module>orbitz-consul-client-1.0.0</module>
     </modules>
 
 </project>
