@@ -68,6 +68,7 @@
 	<module>aws-java-sdk-1.11.255</module>
 	<module>ognl-3.2.4</module>
 	<module>commons-compiler-3.0.8</module>
+ 	<module>saxon-9.8.0-7</module>
     </modules>
 
 </project>
