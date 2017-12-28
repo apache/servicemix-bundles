@@ -44,7 +44,7 @@
     <modules>
         <module>okhttp-3.9.1</module>
         <module>influxdb-java-2.8</module>
-        <module>fastjson-1.2.43</module>
+        <module>fastjson-1.2.44</module>
         <module>sparkjava-core-2.7.1</module>
         <module>java-util-1.34.0</module>
         <module>libphonenumber-8.8.8</module> 
