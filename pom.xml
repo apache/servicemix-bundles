@@ -69,6 +69,7 @@
 	<module>ognl-3.2.4</module>
 	<module>commons-compiler-3.0.8</module>
  	<module>saxon-9.8.0-7</module>
+	<module>mchange-commons-java-0.2.14</module>
     </modules>
 
 </project>
