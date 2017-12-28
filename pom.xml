@@ -63,6 +63,8 @@
         <module>hadoop-client-3.0.0</module>
         <module>orbitz-consul-client-1.0.0</module>
         <module>braintree-java-2.74.0</module>
+        <module>olingo-odata2-api-2.0.10</module>
+        <module>olingo-odata2-core-2.0.10</module>
     </modules>
 
 </project>
