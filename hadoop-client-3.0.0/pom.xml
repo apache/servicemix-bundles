@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.hadoop-client</artifactId>
-    <version>3.0.0_1</version>
+    <version>3.0.0_2-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: hadoop-client</name>
     <description>This OSGi bundle wraps  ${pkgVersion} jar files.</description>
@@ -39,7 +39,7 @@
         <connection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://git-wip-us.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>org.apache.servicemix.bundles.hadoop-client-3.0.0_1</tag>
+    <tag>HEAD</tag>
   </scm>
 
     <properties>
