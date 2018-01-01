@@ -42,38 +42,6 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
-        <module>okhttp-3.9.1</module>
-        <module>influxdb-java-2.8</module>
-        <module>fastjson-1.2.44</module>
-        <module>sparkjava-core-2.7.1</module>
-        <module>java-util-1.34.0</module>
-        <module>libphonenumber-8.8.8</module> 
-        <module>asterisk-java-2.0.2</module>
-        <module>elasticsearch-6.1.1</module>
-        <module>elasticsearch-client-6.1.1</module>
-        <module>lucene-7.2.0</module>
-        <module>lucene-analyzers-common-7.2.0</module>
-        <module>lucene-queries-7.2.0</module>
-        <module>lucene-queryparser-7.2.0</module>
-        <module>lucene-sandbox-7.2.0</module>
-        <module>grpc-1.8.0</module>
-        <module>solr-solrj-7.2.0</module>
-        <module>kafka-clients-1.0.0</module>
-        <module>javax-cache-api-1.1.0</module>
-        <module>hadoop-client-3.0.0</module>
-        <module>orbitz-consul-client-1.0.0</module>
-        <module>braintree-java-2.74.0</module>
-        <module>olingo-odata2-api-2.0.10</module>
-        <module>olingo-odata2-core-2.0.10</module>
-	<module>aws-java-sdk-1.11.255</module>
-	<module>ognl-3.2.4</module>
-	<module>commons-compiler-3.0.8</module>
- 	<module>saxon-9.8.0-7</module>
-	<module>mchange-commons-java-0.2.14</module>
-	<module>gremlin-driver-3.3.1</module>
-	<module>qpid-6.1.5</module>
-	<module>jruby-9.1.15.0</module>
-	<module>janino-3.0.8</module>
     </modules>
 
 </project>
