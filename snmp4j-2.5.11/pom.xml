@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.snmp4j</artifactId>
-    <version>2.5.8_2-SNAPSHOT</version>
+    <version>2.5.11_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -45,7 +45,7 @@
     <properties>
         <pkgGroupId>org.snmp4j</pkgGroupId>
         <pkgArtifactId>snmp4j</pkgArtifactId>
-        <pkgVersion>2.5.8</pkgVersion>
+        <pkgVersion>2.5.11</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.snmp4j
         </servicemix.osgi.export.pkg>

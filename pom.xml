@@ -42,6 +42,7 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+        <module>snmp4j-2.5.11</module>
     </modules>
 
 </project>
