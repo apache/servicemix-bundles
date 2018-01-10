@@ -43,6 +43,7 @@
 
     <modules>
         <module>snmp4j-2.5.11</module>
+        <module>braintree-java-2.74.0</module>
     </modules>
 
 </project>

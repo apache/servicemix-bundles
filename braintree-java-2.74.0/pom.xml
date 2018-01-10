@@ -56,7 +56,7 @@
             com.braintreegateway.org.*;-split-package:=merge-first
         </servicemix.osgi.private.pkg>
         <servicemix.osgi.import.pkg>
-            *
+            org.json;resolution:=optional,
         </servicemix.osgi.import.pkg>
     </properties>
 
