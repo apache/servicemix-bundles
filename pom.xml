@@ -46,6 +46,7 @@
         <module>braintree-java-2.74.0</module>
         <module>fastjson-1.2.45</module>
         <module>libphonenumber-8.8.9</module>
+        <module>elasticsearch-6.1.1</module>
     </modules>
 
 </project>
