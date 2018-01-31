@@ -96,6 +96,7 @@
         <module>libthrift-0.11.0</module>
         <module>htmlunit-2.29</module>
         <module>bcpg-jdk15on-1.59</module>
+        <module>rhino-1.7.8</module>
     </modules>
 
 </project>

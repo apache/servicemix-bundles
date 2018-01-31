@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.rhino</artifactId>
-    <version>1.7.7.2_2-SNAPSHOT</version>
+    <version>1.7.8_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -45,7 +45,7 @@
     <properties>
         <pkgGroupId>org.mozilla</pkgGroupId>
         <pkgArtifactId>rhino</pkgArtifactId>
-        <pkgVersion>1.7.7.2</pkgVersion>
+        <pkgVersion>1.7.8</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.mozilla
         </servicemix.osgi.export.pkg>
