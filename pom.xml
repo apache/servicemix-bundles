@@ -110,6 +110,7 @@
         <module>spring-security-ldap-4.2.4.RELEASE</module>
         <module>spring-security-taglibs-4.2.4.RELEASE</module>
         <module>spring-security-web-4.2.4.RELEASE</module>
+        <module>hibernate-validator-5.4.2.Final</module>
     </modules>
 
 </project>
