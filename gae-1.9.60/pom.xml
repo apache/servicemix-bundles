@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.gae</artifactId>
-    <version>1.9.59_2-SNAPSHOT</version>
+    <version>1.9.60_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: Google App Engine (GAE)</name>
     <description>This bundle wraps Google App Engine (GAE) ${pkgVersion} API jar files.</description>
@@ -44,7 +44,7 @@
 
     <properties>
         <pkgGroupId>com.google.appengine</pkgGroupId>
-        <pkgVersion>1.9.59</pkgVersion>
+        <pkgVersion>1.9.60</pkgVersion>
         <servicemix.osgi.export>
             com.google.appengine.api*;version=${pkgVersion};-split-package:=merge-first,
             com.google.apphosting.api*;version=${pkgVersion};-split-package:=merge-first,

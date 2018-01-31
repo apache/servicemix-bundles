@@ -97,6 +97,7 @@
         <module>htmlunit-2.29</module>
         <module>bcpg-jdk15on-1.59</module>
         <module>rhino-1.7.8</module>
+        <module>gae-1.9.60</module>
     </modules>
 
 </project>
