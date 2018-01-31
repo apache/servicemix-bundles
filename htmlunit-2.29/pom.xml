@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.htmlunit</artifactId>
-    <version>2.28_2-SNAPSHOT</version>
+    <version>2.29_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -45,7 +45,7 @@
     <properties>
         <pkgGroupId>net.sourceforge.htmlunit</pkgGroupId>
         <pkgArtifactId>htmlunit</pkgArtifactId>
-        <pkgVersion>2.28</pkgVersion>
+        <pkgVersion>2.29</pkgVersion>
         <servicemix.osgi.export.pkg>
           com.gargoylesoftware.htmlunit
         </servicemix.osgi.export.pkg>

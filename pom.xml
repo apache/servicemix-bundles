@@ -94,6 +94,7 @@
         <module>cglib-3.2.6</module>
         <module>libphonenumber-8.8.10</module>
         <module>libthrift-0.11.0</module>
+        <module>htmlunit-2.29</module>
     </modules>
 
 </project>
