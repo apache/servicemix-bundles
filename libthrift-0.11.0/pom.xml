@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.libthrift</artifactId>
-    <version>0.10.0_2-SNAPSHOT</version>
+    <version>0.11.0_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -45,7 +45,7 @@
     <properties>
         <pkgGroupId>org.apache.thrift</pkgGroupId>
         <pkgArtifactId>libthrift</pkgArtifactId>
-        <pkgVersion>0.10.0</pkgVersion>
+        <pkgVersion>0.11.0</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.apache.thrift
         </servicemix.osgi.export.pkg>
