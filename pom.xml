@@ -102,6 +102,8 @@
         <module>solr-solrj-7.2.1</module>
         <module>postgresql-42.2.0.jre7</module>
         <module>braintree-java-2.74.1</module>
+        <module>elasticsearch-2.2.1</module>
+        <module>elasticsearch-2.2.0</module>
     </modules>
 
 </project>
