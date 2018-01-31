@@ -101,6 +101,7 @@
         <module>aws-java-sdk-1.11.269</module>
         <module>solr-solrj-7.2.1</module>
         <module>postgresql-42.2.0.jre7</module>
+        <module>braintree-java-2.74.1</module>
     </modules>
 
 </project>
