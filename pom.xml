@@ -68,6 +68,11 @@
         <module>elasticsearch-6.1.2</module>
         <module>elasticsearch-client-6.1.2</module>
         <module>grpc-1.9.0</module>
+        <module>lucene-7.2.1</module>
+        <module>lucene-analyzers-common-7.2.1</module>
+        <module>lucene-queries-7.2.1</module>
+        <module>lucene-queryparser-7.2.1</module>
+        <module>lucene-sandbox-7.2.1</module>
     </modules>
 
 </project>
