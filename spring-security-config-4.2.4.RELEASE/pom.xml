@@ -29,8 +29,8 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.spring-security-acl</artifactId>
-    <version>4.2.3.RELEASE_2-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.spring-security-config</artifactId>
+    <version>4.2.4.RELEASE_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
 
@@ -43,31 +43,43 @@
 
     <properties>
         <pkgGroupId>org.springframework.security</pkgGroupId>
-        <pkgArtifactId>spring-security-acl</pkgArtifactId>
-        <pkgVersion>4.2.3.RELEASE</pkgVersion>
+        <pkgArtifactId>spring-security-config</pkgArtifactId>
+        <pkgVersion>4.2.4.RELEASE</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.springframework.security.acl
+            org.springframework.security.config
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            javax.sql;resolution:=optional;version=0,
-            net.sf.ehcache;resolution:=optional;version="[1.4.1,2.5.0)",
-            org.aopalliance.intercept;version="[1.0.0, 2.0.0)",
-            org.apache.commons.logging;version="[1.0.4, 2.0.0)",
-            org.springframework.cache;resolution:=optional;version="[4,5)",
-            org.springframework.context;resolution:=optional;version="[4,5)",
-            org.springframework.context.support;resolution:=optional;version="[4,5)",
-            org.springframework.dao;resolution:=optional;version="[4,5)",
-            org.springframework.jdbc.core;resolution:=optional;version="[4,5)",
-            org.springframework.security.access;version="[4.2,5)",
-            org.springframework.security.access.hierarchicalroles;version="[4.2,5)",
-            org.springframework.security.access.vote;version="[4.2,5)",
-            org.springframework.security.core;version="[4.2,5)",
-            org.springframework.security.core.context;version="[4.2,5)",
-            org.springframework.security.core.userdetails;version="[4.2,5)",
-            org.springframework.security.core.authority;version="[4.2,5)",
-            org.springframework.security.util;version="[4.2,5)",
-            org.springframework.transaction.support;resolution:=optional;version="[4.1,5)",
-            org.springframework.util;resolution:=optional;version="[4.1,5)"
+            javax.servlet;resolution:=optional;version=0,
+            javax.servlet.http;resolution:=optional;version=0,
+            org.apache.commons.logging;version="[1.0.4,2.0.0)",
+            org.aspectj.weaver.tools;resolution:=optional;version="[1.7,2)",
+            org.springframework.aop*;resolution:=optional;version="[4,5)",
+            org.springframework.beans*;version="[4,5)",
+            org.springframework.context*;version="[4,5)",
+            org.springframework.core*;version="[4,5)",
+            org.springframework.cglib.core;resolution:=optional,
+            org.springframework.cglib.proxy;resolution:=optional,
+            org.springframework.cglib.reflect;resolution:=optional,
+            org.springframework.expression*;resolution:=optional;version="[4,5)",
+            org.springframework.security.web*;resolution:=optional;version="[4.2,5)",
+            org.springframework.security.ldap*;resolution:=optional;version="[4.2,5)",
+            org.springframework.security.messaging*;resolution:=optional;version="[4.2,5)",
+            org.springframework.security.openid*;resolution:=optional;version="[4.2,5)",
+            org.springframework.security.crypto;resolution:=optional;version="[4.2,5)",
+            org.springframework.security.crypto.password;version="[4.2,5)",
+            org.springframework.security.crypto.bcrypt;version="[4.2,5)",
+            org.springframework.security*;version="[4.2,5)",
+            org.springframework.web*;resolution:=optional;version="[4,5)",
+            org.springframework.util;version="[4,5)",
+            org.springframework.util.xml;version="[4,5)",
+            org.w3c.dom;resolution:=optional;version=0,
+            javax.sql;resolution:=optional, 
+            org.aopalliance.intercept;resolution:=optional, 
+            org.openid4java.consumer;resolution:=optional, 
+            org.springframework.http;resolution:=optional;version="[4,5)", 
+            org.springframework.jdbc.datasource.init;resolution:=optional;version="[4,5)", 
+            org.springframework.ldap.core*;resolution:=optional;version="[4,5)",
+            org.springframework.messaging*;resolution:=optional;version="[4,5)"
         </servicemix.osgi.import.pkg>
     </properties>
 
@@ -107,9 +119,9 @@
                             <filters>
                                 <filter>
                                     <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
-                                    <excludes>
-                                        <exclude>**</exclude>
-                                    </excludes>
+                                    <includes>
+                                        <include>META-INF/spring*</include>
+                                    </includes>
                                 </filter>
                             </filters>
                             <promoteTransitiveDependencies>true</promoteTransitiveDependencies>

@@ -29,8 +29,8 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.spring-security-web</artifactId>
-    <version>4.2.3.RELEASE_2-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.spring-security-taglibs</artifactId>
+    <version>4.2.4.RELEASE_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
 
@@ -43,49 +43,34 @@
 
     <properties>
         <pkgGroupId>org.springframework.security</pkgGroupId>
-        <pkgArtifactId>spring-security-web</pkgArtifactId>
-        <pkgVersion>4.2.3.RELEASE</pkgVersion>
+        <pkgArtifactId>spring-security-taglibs</pkgArtifactId>
+        <pkgVersion>4.2.4.RELEASE</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.springframework.security.web
+            org.springframework.security.taglibs
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            com.fasterxml.jackson.annotation;resolution:=optional;version="[2.8,3)",
-            com.fasterxml.jackson.core;resolution:=optional;version="[2.8,3)",
-            com.fasterxml.jackson.core.type;resolution:=optional;version="[2.8,3)",
-            com.fasterxml.jackson.databind;resolution:=optional;version="[2.8,3)",
-            com.fasterxml.jackson.databind.annotation;resolution:=optional;version="[2.8,3)",
-            com.fasterxml.jackson.databind.jsontype;resolution:=optional;version="[2.8,3)",
-            com.fasterxml.jackson.databind.module;resolution:=optional;version="[2.8,3)",
-            com.fasterxml.jackson.databind.node;resolution:=optional;version="[2.8,3)",
-            javax.naming;resolution:=optional;version=0,
-            javax.rmi;resolution:=optional;version=0,
-            javax.security.auth;resolution:=optional;version=0,
-            javax.security.auth.login;resolution:=optional;version=0,
-            javax.servlet;resolution:=optional;version=0,
-            javax.servlet.http;resolution:=optional;version=0,
-            javax.xml.parsers;resolution:=optional;version=0,
-            org.apache.commons.logging;version="[1.0.4,2.0.0)",
-            org.aspectj.weaver.tools;resolution:=optional;version="[1.7,2)",
-            org.springframework.beans*;version="[4,5)",
-            org.springframework.context*;version="[4,5)",
-            org.springframework.core*;version="[4,5)",
-            org.springframework.dao;resolution:=optional;version="[4,5)",
+            javax.servlet;version=0,
+            javax.servlet.http;version=0,
+            javax.servlet.jsp;version=0,
+            javax.servlet.jsp.tagext;version=0,
+            org.apache.commons.logging;version="[1.0.4, 2.0.0)",
+            org.springframework.beans;version="[4,5)",
+            org.springframework.context;version="[4,5)",
+            org.springframework.core;version="[4,5)",
             org.springframework.expression;resolution:=optional;version="[4,5)",
-            org.springframework.expression.spel.standard;resolution:=optional;version="[4,5)",
-            org.springframework.expression.spel.support;resolution:=optional;version="[4,5)",
-            org.springframework.http;version="[4,5)",
-            org.springframework.jdbc.core;resolution:=optional;version="[4,5)",
-            org.springframework.jdbc.core.support;resolution:=optional;version="[4,5)", 
-            org.springframework.util;resolution:=optional;version="[4,5)",
-            org.springframework.security.access*;version="[4.2,5)",
-            org.springframework.security.authentication*;version="[4.2,5)",
-            org.springframework.security.core*;version="[4.2,5)",
-            org.springframework.security.concurrent*;version="[4.2,5)",
-            org.springframework.security.crypto.codec;version="[4.2,5)",
-            org.springframework.security.jackson2;version="[4.2,5)",
-            org.springframework.web*;version="[4,5)",
-            org.w3c.dom;resolution:=optional;version=0,
-            org.xml.sax;resolution:=optional;version=0
+            org.springframework.security.access;version="[4.2,5)",
+            org.springframework.security.access.expression;version="[4.2,5)",
+            org.springframework.security.core;version="[4.2,5)",
+            org.springframework.security.core.context;version="[4.2,5)",
+            org.springframework.security.web;version="[4.2,5)",
+            org.springframework.security.web.access;version="[4.2,5)",
+            org.springframework.security.web.util;version="[4.2,5)",
+            org.springframework.security.web.context.support;version="[4.2,5)",
+            org.springframework.security.web.csrf;version="[4.2,5)",
+            org.springframework.util;version="[4,5)",
+            org.springframework.web.context;resolution:=optional;version="[4,5)",
+            org.springframework.web.context.support;resolution:=optional;version="[4,5)",
+            org.springframework.web.util;version="[4,5)"
         </servicemix.osgi.import.pkg>
     </properties>
 
@@ -125,9 +110,9 @@
                             <filters>
                                 <filter>
                                     <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
-                                    <excludes>
-                                        <exclude>**</exclude>
-                                    </excludes>
+                                    <includes>
+                                        <include>META-INF/security.tld</include>
+                                    </includes>
                                 </filter>
                             </filters>
                             <promoteTransitiveDependencies>true</promoteTransitiveDependencies>

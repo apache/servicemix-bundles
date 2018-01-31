@@ -104,6 +104,12 @@
         <module>braintree-java-2.74.1</module>
         <module>elasticsearch-2.2.1</module>
         <module>elasticsearch-2.2.0</module>
+        <module>spring-security-acl-4.2.4.RELEASE</module>
+        <module>spring-security-config-4.2.4.RELEASE</module>
+        <module>spring-security-core-4.2.4.RELEASE</module>
+        <module>spring-security-ldap-4.2.4.RELEASE</module>
+        <module>spring-security-taglibs-4.2.4.RELEASE</module>
+        <module>spring-security-web-4.2.4.RELEASE</module>
     </modules>
 
 </project>
