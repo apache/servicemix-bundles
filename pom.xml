@@ -92,6 +92,7 @@
         <module>spring-webmvc-4.3.14.RELEASE</module>
         <module>spring-webmvc-portlet-4.3.14.RELEASE</module>
         <module>spring-websocket-4.3.14.RELEASE</module>
+        <module>cglib-3.2.6</module>
     </modules>
 
 </project>
