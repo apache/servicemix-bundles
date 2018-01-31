@@ -45,7 +45,6 @@
         <module>snmp4j-2.5.11</module>
         <module>braintree-java-2.74.0</module>
         <module>fastjson-1.2.45</module>
-        <module>libphonenumber-8.8.9</module>
         <module>elasticsearch-6.1.1</module>
         <module>spring-aop-5.0.3.RELEASE</module>
         <module>spring-aspects-5.0.3.RELEASE</module>
@@ -93,6 +92,7 @@
         <module>spring-webmvc-portlet-4.3.14.RELEASE</module>
         <module>spring-websocket-4.3.14.RELEASE</module>
         <module>cglib-3.2.6</module>
+        <module>libphonenumber-8.8.10</module>
     </modules>
 
 </project>
