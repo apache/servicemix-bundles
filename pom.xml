@@ -99,6 +99,7 @@
         <module>rhino-1.7.8</module>
         <module>gae-1.9.60</module>
         <module>aws-java-sdk-1.11.269</module>
+        <module>solr-solrj-7.2.1</module>
     </modules>
 
 </project>

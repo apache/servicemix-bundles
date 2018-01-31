@@ -31,7 +31,7 @@
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.solr-solrj</artifactId>
     <packaging>bundle</packaging>
-    <version>7.2.0_2-SNAPSHOT</version>
+    <version>7.2.1_1-SNAPSHOT</version>
     <name>Apache ServiceMix :: Bundles :: SolrJ</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
 
@@ -45,7 +45,7 @@
     <properties>
         <pkgGroupId>org.apache.solr</pkgGroupId>
         <pkgArtifactId>solr-solrj</pkgArtifactId>
-        <pkgVersion>7.2.0</pkgVersion>
+        <pkgVersion>7.2.1</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.apache.solr
         </servicemix.osgi.export.pkg>
