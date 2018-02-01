@@ -43,7 +43,6 @@
 
     <modules>
         <module>snmp4j-2.5.11</module>
-        <module>braintree-java-2.74.0</module>
         <module>fastjson-1.2.45</module>
         <module>elasticsearch-6.1.1</module>
         <module>spring-aop-5.0.3.RELEASE</module>
@@ -101,7 +100,6 @@
         <module>aws-java-sdk-1.11.269</module>
         <module>solr-solrj-7.2.1</module>
         <module>postgresql-42.2.0.jre7</module>
-        <module>braintree-java-2.74.1</module>
         <module>elasticsearch-2.2.1</module>
         <module>elasticsearch-2.2.0</module>
         <module>spring-security-acl-4.2.4.RELEASE</module>
@@ -111,6 +109,8 @@
         <module>spring-security-taglibs-4.2.4.RELEASE</module>
         <module>spring-security-web-4.2.4.RELEASE</module>
         <module>hibernate-validator-5.4.2.Final</module>
+        <module>braintree-java-2.74.1</module>
+        <module>braintree-java-2.75.0</module>
     </modules>
 
 </project>
