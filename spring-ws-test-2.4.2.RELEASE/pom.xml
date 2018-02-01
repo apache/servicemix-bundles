@@ -29,8 +29,8 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.spring-ws-security</artifactId>
-    <version>2.4.0.RELEASE_2-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.spring-ws-test</artifactId>
+    <version>2.4.2.RELEASE_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
 
@@ -43,65 +43,35 @@
 
     <properties>
         <pkgGroupId>org.springframework.ws</pkgGroupId>
-        <pkgArtifactId>spring-ws-security</pkgArtifactId>
-        <pkgVersion>2.4.0.RELEASE</pkgVersion>
+        <pkgArtifactId>spring-ws-test</pkgArtifactId>
+        <pkgVersion>2.4.2.RELEASE</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.springframework.ws.soap.security
+            org.springframework.ws.test
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            com.sun.xml.wss;resolution:=optional, 
-            com.sun.xml.wss.impl;resolution:=optional, 
-            com.sun.xml.wss.impl.callback;resolution:=optional, 
-            javax.crypto, 
-            javax.net.ssl, 
-            javax.security.auth, 
-            javax.security.auth.callback, 
-            javax.security.auth.login, 
-            javax.security.auth.x500, 
             javax.xml.namespace, 
-            javax.xml.soap, 
-            net.sf.ehcache;resolution:=optional, 
+            javax.xml.transform, 
+            javax.xml.transform.dom, 
             org.apache.commons.logging;resolution:=optional, 
-            org.apache.ws.security;resolution:=optional, 
-            org.apache.ws.security.components.crypto;resolution:=optional, 
-            org.apache.ws.security.handler;resolution:=optional, 
-            org.apache.ws.security.message.token;resolution:=optional, 
-            org.apache.ws.security.saml;resolution:=optional, 
-            org.apache.ws.security.util;resolution:=optional, 
-            org.apache.ws.security.validate;resolution:=optional, 
-            org.apache.wss4j.common;resolution:=optional,
-            org.apache.wss4j.common.bsp;resolution:=optional,
-            org.apache.wss4j.common.crypto;resolution:=optional,
-            org.apache.wss4j.common.ext;resolution:=optional,
-            org.apache.wss4j.common.principal;resolution:=optional,
-            org.apache.wss4j.dom;resolution:=optional,
-            org.apache.wss4j.dom.engine;resolution:=optional,
-            org.apache.wss4j.dom.handler;resolution:=optional,
-            org.apache.wss4j.dom.message.token;resolution:=optional,
-            org.apache.wss4j.dom.util;resolution:=optional,
-            org.apache.wss4j.dom.validate;resolution:=optional,
-            org.apache.xml.security.utils;resolution:=optional, 
+            org.custommonkey.xmlunit;resolution:=optional, 
+            org.springframework.beans;version="[4,5)";resolution:=optional, 
             org.springframework.beans.factory;version="[4,5)";resolution:=optional, 
-            org.springframework.context;version="[4,5)";resolution:=optional, 
-            org.springframework.context.support;version="[4,5)";resolution:=optional, 
+            org.springframework.context;version="[4,5)";resolution:=optional,
             org.springframework.core.io;version="[4,5)";resolution:=optional, 
-            org.springframework.dao;version="[4,5)";resolution:=optional, 
-            org.springframework.security.authentication;version="[4,5)";resolution:=optional, 
-            org.springframework.security.core;version="[4,5)";resolution:=optional, 
-            org.springframework.security.core.context;version="[4,5)";resolution:=optional, 
-            org.springframework.security.core.userdetails;version="[4,5)";resolution:=optional, 
-            org.springframework.security.core.userdetails.cache;version="[4,5)";resolution:=optional, 
             org.springframework.util;version="[4,5)";resolution:=optional, 
-            org.springframework.ws;resolution:=optional, 
-            org.springframework.ws.client;resolution:=optional, 
-            org.springframework.ws.client.support.interceptor;resolution:=optional, 
-            org.springframework.ws.context;resolution:=optional, 
-            org.springframework.ws.server;resolution:=optional, 
-            org.springframework.ws.soap;resolution:=optional, 
-            org.springframework.ws.soap.saaj;resolution:=optional, 
-            org.springframework.ws.soap.server;resolution:=optional, 
-            org.springframework.ws.soap.soap11;resolution:=optional, 
-            org.w3c.dom;resolution:=optional
+            org.springframework.ws;version="[${pkgVersion},3)";resolution:=optional, 
+            org.springframework.ws.client.core;version="[${pkgVersion},3)";resolution:=optional, 
+            org.springframework.ws.client.core.support;version="[${pkgVersion},3)";resolution:=optional, 
+            org.springframework.ws.context;version="[${pkgVersion},3)";resolution:=optional, 
+            org.springframework.ws.soap;version="[${pkgVersion},3)";resolution:=optional, 
+            org.springframework.ws.soap.saaj;version="[${pkgVersion},3)";resolution:=optional, 
+            org.springframework.ws.soap.server;version="[${pkgVersion},3)";resolution:=optional, 
+            org.springframework.ws.transport;version="[${pkgVersion},3)";resolution:=optional, 
+            org.springframework.xml.transform;resolution:=optional, 
+            org.springframework.xml.validation;resolution:=optional, 
+            org.springframework.xml.xpath;resolution:=optional, 
+            org.w3c.dom;resolution:=optional, 
+            org.xml.sax;resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
 
