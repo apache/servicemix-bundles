@@ -42,6 +42,7 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+        <module>facebook4j-2.4.11</module>
     </modules>
 
 </project>

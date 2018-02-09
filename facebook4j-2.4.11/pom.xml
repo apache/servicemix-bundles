@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.facebook4j</artifactId>
-    <version>2.4.10_2-SNAPSHOT</version>
+    <version>2.4.11_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -45,7 +45,7 @@
     <properties>
         <pkgGroupId>org.facebook4j</pkgGroupId>
         <pkgArtifactId>facebook4j-core</pkgArtifactId>
-        <pkgVersion>2.4.10</pkgVersion>
+        <pkgVersion>2.4.11</pkgVersion>
         <servicemix.osgi.import.pkg>
             javax.crypto,
             javax.crypto.spec,
