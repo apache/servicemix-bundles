@@ -43,6 +43,7 @@
 
     <modules>
         <module>facebook4j-2.4.11</module>
+        <module>fastjson-1.2.46</module>
     </modules>
 
 </project>
