@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.spring-xml</artifactId>
-    <version>2.4.0.RELEASE_2-SNAPSHOT</version>
+    <version>2.4.2.RELEASE_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
 
@@ -44,7 +44,7 @@
     <properties>
         <pkgGroupId>org.springframework.ws</pkgGroupId>
         <pkgArtifactId>spring-xml</pkgArtifactId>
-        <pkgVersion>2.4.0.RELEASE</pkgVersion>
+        <pkgVersion>2.4.2.RELEASE</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.springframework.xml
         </servicemix.osgi.export.pkg>
