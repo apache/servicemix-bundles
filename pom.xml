@@ -48,6 +48,7 @@
         <module>saxon-9.8.0-8</module>
         <module>spring-xml-2.4.2.RELEASE</module>
         <module>grpc-1.9.0</module>
+        <module>libphonenumber-8.8.11</module>
     </modules>
 
 </project>
