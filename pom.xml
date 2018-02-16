@@ -47,6 +47,7 @@
         <module>kafka_2.11-1.0.0</module>
         <module>saxon-9.8.0-8</module>
         <module>spring-xml-2.4.2.RELEASE</module>
+        <module>grpc-1.9.0</module>
     </modules>
 
 </project>
