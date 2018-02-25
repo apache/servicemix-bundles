@@ -50,6 +50,7 @@
         <module>grpc-1.9.0</module>
         <module>libphonenumber-8.8.11</module>
         <module>grpc-1.10.0</module>
+        <module>azure-storage-7.0.0</module>
     </modules>
 
 </project>
