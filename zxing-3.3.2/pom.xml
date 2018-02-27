@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.zxing</artifactId>
-    <version>3.3.1_2-SNAPSHOT</version>
+    <version>3.3.2_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -45,7 +45,7 @@
     <properties>
         <pkgGroupId>com.google.zxing</pkgGroupId>
         <pkgArtifactId>zxing</pkgArtifactId>
-        <pkgVersion>3.3.1</pkgVersion>
+        <pkgVersion>3.3.2</pkgVersion>
         <servicemix.osgi.export.pkg>
             com.google.zxing
         </servicemix.osgi.export.pkg>

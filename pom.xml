@@ -51,6 +51,7 @@
         <module>libphonenumber-8.8.11</module>
         <module>grpc-1.10.0</module>
         <module>azure-storage-7.0.0</module>
+        <module>zxing-3.3.2</module>
     </modules>
 
 </project>
