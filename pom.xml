@@ -54,6 +54,7 @@
         <module>zxing-3.3.2</module>
         <module>okhttp-3.10.0</module>
         <module>okio-1.14.0</module>
+        <module>influxdb-java-2.9</module>
     </modules>
 
 </project>
