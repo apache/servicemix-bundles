@@ -74,6 +74,8 @@
         <module>spring-webmvc-5.0.4.RELEASE</module>
         <module>spring-websocket-5.0.4.RELEASE</module>
         <module>ant-1.10.2</module>
+        <module>elasticsearch-6.2.2</module>
+        <module>elasticsearch-client-6.2.2</module>
     </modules>
 
 </project>
