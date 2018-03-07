@@ -76,6 +76,7 @@
         <module>ant-1.10.2</module>
         <module>elasticsearch-6.2.2</module>
         <module>elasticsearch-client-6.2.2</module>
+        <module>orbitz-consul-client-1.1.1</module>
     </modules>
 
 </project>
