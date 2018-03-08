@@ -43,6 +43,7 @@
 
     <modules>
         <module>orbitz-consul-client-1.1.1</module>
+        <module>reflections-0.9.11</module>
     </modules>
 
 </project>
