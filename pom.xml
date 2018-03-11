@@ -44,6 +44,7 @@
     <modules>
         <module>orbitz-consul-client-1.1.1</module>
         <module>reflections-0.9.11</module>
+        <module>kafka_2.11-1.0.1</module>
     </modules>
 
 </project>
