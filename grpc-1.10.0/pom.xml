@@ -52,6 +52,7 @@
         <servicemix.osgi.import.pkg>
            !com.google.rpc,
            !org.mockito*,
+           !org.junit*,
            !com.google.common.truth*,
            *
         </servicemix.osgi.import.pkg>

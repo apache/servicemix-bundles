@@ -49,6 +49,7 @@
         <module>kafka-streams-1.0.1</module>
         <module>conscrypt-openjdk-uber-1.0.1</module>
         <module>grpc-1.9.0</module>
+        <module>grpc-1.10.0</module>
     </modules>
 
 </project>
