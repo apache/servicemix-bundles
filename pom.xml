@@ -50,6 +50,7 @@
         <module>conscrypt-openjdk-uber-1.0.1</module>
         <module>grpc-1.9.0</module>
         <module>grpc-1.10.0</module>
+        <module>digitalocean-api-client-2.14</module>
     </modules>
 
 </project>

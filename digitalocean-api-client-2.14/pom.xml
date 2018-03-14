@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.digitalocean-api-client</artifactId>
-    <version>2.13_2-SNAPSHOT</version>
+    <version>2.14_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -45,7 +45,7 @@
     <properties>
         <pkgGroupId>com.myjeeva.digitalocean</pkgGroupId>
         <pkgArtifactId>digitalocean-api-client</pkgArtifactId>
-        <pkgVersion>2.13</pkgVersion>
+        <pkgVersion>2.14</pkgVersion>
         <servicemix.osgi.export.pkg>
             com.myjeeva.digitalocean
         </servicemix.osgi.export.pkg>
