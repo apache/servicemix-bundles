@@ -52,6 +52,7 @@
         <module>grpc-1.10.0</module>
         <module>digitalocean-api-client-2.14</module>
         <module>fastjson-1.2.47</module>
+        <module>saxon-9.8.0-10</module>
     </modules>
 
 </project>
