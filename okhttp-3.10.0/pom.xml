@@ -54,6 +54,7 @@
             org.apache.http.*;resolution:=optional,
             android.util.*;resolution:=optional,
             android.os.*;resolution:=optional,
+            org.conscrypt.*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
     </properties>
