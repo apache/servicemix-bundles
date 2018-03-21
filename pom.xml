@@ -54,6 +54,7 @@
         <module>fastjson-1.2.47</module>
         <module>saxon-9.8.0-10</module>
         <module>okhttp-3.10.0</module>
+        <module>sparkjava-core-2.7.2</module>
     </modules>
 
 </project>

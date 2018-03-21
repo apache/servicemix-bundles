@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.sparkjava-core</artifactId>
-    <version>2.7.1_2-SNAPSHOT</version>
+    <version>2.7.2_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
 
@@ -44,7 +44,7 @@
     <properties>
         <pkgGroupId>com.sparkjava</pkgGroupId>
         <pkgArtifactId>spark-core</pkgArtifactId>
-        <pkgVersion>2.7.1</pkgVersion>
+        <pkgVersion>2.7.2</pkgVersion>
     </properties>
 
     <dependencies>
