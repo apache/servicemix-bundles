@@ -60,6 +60,7 @@
         <module>jruby-9.1.16.0</module>
         <module>ognl-3.2.6</module>
         <module>bcprov-jdk15on-1.59</module>
+        <module>braintree-java-2.77.0</module>
     </modules>
 
 </project>
