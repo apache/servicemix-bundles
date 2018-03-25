@@ -57,6 +57,7 @@
         <module>sparkjava-core-2.7.2</module>
         <module>javax-el-impl-2.2.5</module>
         <module>javax-el-impl-3.0.0</module>
+        <module>jruby-9.1.16.0</module>
     </modules>
 
 </project>
