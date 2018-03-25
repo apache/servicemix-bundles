@@ -61,6 +61,7 @@
         <module>ognl-3.2.6</module>
         <module>bcprov-jdk15on-1.59</module>
         <module>braintree-java-2.77.0</module>
+        <module>mchange-commons-java-0.2.15</module>
     </modules>
 
 </project>
