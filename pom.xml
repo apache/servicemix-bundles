@@ -59,6 +59,7 @@
         <module>javax-el-impl-3.0.0</module>
         <module>jruby-9.1.16.0</module>
         <module>ognl-3.2.6</module>
+        <module>bcprov-jdk15on-1.59</module>
     </modules>
 
 </project>
