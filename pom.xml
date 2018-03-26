@@ -66,6 +66,7 @@
         <module>snmp4j-2.6.0</module>
         <module>rhino-1.7.9</module>
         <module>splunk-1.6.4.0</module>
+        <module>hadoop-client-3.0.1</module>
     </modules>
 
 </project>
