@@ -70,6 +70,7 @@
         <module>retrofit-2.4.0</module>
         <module>gae-1.9.63</module>
         <module>mybatis-3.4.6</module>
+        <module>guice-4.2.0</module>
     </modules>
 
 </project>
