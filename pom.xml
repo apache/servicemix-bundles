@@ -65,6 +65,7 @@
         <module>aws-java-sdk-1.11.301</module>
         <module>snmp4j-2.6.0</module>
         <module>rhino-1.7.9</module>
+        <module>splunk-1.6.4.0</module>
     </modules>
 
 </project>
