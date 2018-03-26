@@ -69,6 +69,7 @@
         <module>hadoop-client-3.0.1</module>
         <module>retrofit-2.4.0</module>
         <module>gae-1.9.63</module>
+        <module>mybatis-3.4.6</module>
     </modules>
 
 </project>
