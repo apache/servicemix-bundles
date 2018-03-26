@@ -73,6 +73,7 @@
         <module>guice-4.2.0</module>
         <module>elasticsearch-6.2.3</module>
         <module>libphonenumber-8.9.2</module>
+        <module>grpc-1.10.1</module>
     </modules>
 
 </project>
