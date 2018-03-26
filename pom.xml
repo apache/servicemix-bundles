@@ -74,6 +74,10 @@
         <module>elasticsearch-6.2.3</module>
         <module>libphonenumber-8.9.2</module>
         <module>grpc-1.10.1</module>
+        <module>spring-ws-core-3.0.1.RELEASE</module>
+        <module>spring-ws-security-3.0.1.RELEASE</module>
+        <module>spring-ws-support-3.0.1.RELEASE</module>
+        <module>spring-ws-test-3.0.1.RELEASE</module>
     </modules>
 
 </project>
