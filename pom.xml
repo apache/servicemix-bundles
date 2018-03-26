@@ -62,6 +62,7 @@
         <module>bcprov-jdk15on-1.59</module>
         <module>braintree-java-2.77.0</module>
         <module>mchange-commons-java-0.2.15</module>
+        <module>aws-java-sdk-1.11.301</module>
     </modules>
 
 </project>
