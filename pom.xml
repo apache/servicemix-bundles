@@ -71,6 +71,7 @@
         <module>gae-1.9.63</module>
         <module>mybatis-3.4.6</module>
         <module>guice-4.2.0</module>
+        <module>elasticsearch-6.2.3</module>
     </modules>
 
 </project>
