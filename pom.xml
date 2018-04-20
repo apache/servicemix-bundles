@@ -80,6 +80,7 @@
         <module>spring-ws-test-3.0.1.RELEASE</module>
         <module>spring-batch-core-4.0.1.RELEASE</module>
         <module>spring-batch-infrastructure-4.0.1.RELEASE</module>
+        <module>orbitz-consul-client-1.1.2</module>
     </modules>
 
 </project>
