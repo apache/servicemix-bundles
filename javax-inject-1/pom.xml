@@ -48,6 +48,9 @@
         <servicemix.osgi.private.pkg>
             META-INF;-split-package:=merge-first,
         </servicemix.osgi.private.pkg>
+        <servicemix.osgi.provide.capability>
+            osgi.contract;osgi.contract=JavaInject;uses:="${packages;NAMED;javax.*}";version:Version="${pkgVersion}"
+        </servicemix.osgi.provide.capability>
     </properties>
 
     <dependencies>
