@@ -42,6 +42,9 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+        <module>kafka_2.11-1.1.0</module>
+        <module>kafka-clients-1.1.0</module>
+        <module>kafka-streams-1.1.0</module>
     </modules>
 
 </project>
