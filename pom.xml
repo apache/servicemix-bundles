@@ -42,44 +42,6 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
-        <module>orbitz-consul-client-1.1.1</module>
-        <module>reflections-0.9.11</module>
-        <module>kafka_2.11-1.0.1</module>
-        <module>kafka-clients-1.0.1</module>
-        <module>kafka-streams-1.0.1</module>
-        <module>conscrypt-openjdk-uber-1.0.1</module>
-        <module>grpc-1.9.0</module>
-        <module>grpc-1.10.0</module>
-        <module>digitalocean-api-client-2.14</module>
-        <module>fastjson-1.2.47</module>
-        <module>saxon-9.8.0-10</module>
-        <module>okhttp-3.10.0</module>
-        <module>sparkjava-core-2.7.2</module>
-        <module>javax-el-impl-2.2.5</module>
-        <module>javax-el-impl-3.0.0</module>
-        <module>jruby-9.1.16.0</module>
-        <module>ognl-3.2.6</module>
-        <module>bcprov-jdk15on-1.59</module>
-        <module>braintree-java-2.77.0</module>
-        <module>mchange-commons-java-0.2.15</module>
-        <module>aws-java-sdk-1.11.301</module>
-        <module>snmp4j-2.6.0</module>
-        <module>rhino-1.7.9</module>
-        <module>splunk-1.6.4.0</module>
-        <module>hadoop-client-3.0.1</module>
-        <module>retrofit-2.4.0</module>
-        <module>gae-1.9.63</module>
-        <module>mybatis-3.4.6</module>
-        <module>guice-4.2.0</module>
-        <module>elasticsearch-6.2.3</module>
-        <module>libphonenumber-8.9.2</module>
-        <module>grpc-1.10.1</module>
-        <module>spring-ws-core-3.0.1.RELEASE</module>
-        <module>spring-ws-security-3.0.1.RELEASE</module>
-        <module>spring-ws-support-3.0.1.RELEASE</module>
-        <module>spring-ws-test-3.0.1.RELEASE</module>
-        <module>spring-batch-core-4.0.1.RELEASE</module>
-        <module>spring-batch-infrastructure-4.0.1.RELEASE</module>
     </modules>
 
 </project>
