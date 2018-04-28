@@ -46,6 +46,7 @@
         <module>kafka-clients-1.1.0</module>
         <module>kafka-streams-1.1.0</module>
         <module>orbitz-consul-client-1.1.2</module>
+        <module>javax-inject-1</module>
     </modules>
 
 </project>
