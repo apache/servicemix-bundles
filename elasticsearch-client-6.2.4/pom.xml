@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.elasticsearch-client</artifactId>
-    <version>6.2.3_2-SNAPSHOT</version>
+    <version>6.2.4_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: elasticsearch-client</name>
     <description>This OSGi bundle wraps elasticsearch-client ${pkgVersion} jar files.</description>
@@ -44,7 +44,7 @@
 
     <properties>
         <pkgGroupId>org.elasticsearch.client</pkgGroupId>
-        <pkgVersion>6.2.3</pkgVersion>
+        <pkgVersion>6.2.4</pkgVersion>
         <servicemix.osgi.export>
             org.elasticsearch.client;version="${pkgVersion}";-split-package:=merge-first,
             org.elasticsearch.client.sniff;version="${pkgVersion}";-split-package:=merge-first,
