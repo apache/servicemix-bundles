@@ -50,6 +50,7 @@
         <module>jt400-9.4</module>
         <module>ant-1.10.3</module>
         <module>grpc-1.11.0</module>
+        <module>influxdb-java-2.10</module>
     </modules>
 
 </project>
