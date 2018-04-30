@@ -29,8 +29,8 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.lucene-queries</artifactId>
-    <version>7.2.1_2-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.lucene-sandbox</artifactId>
+    <version>7.3.0_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -44,17 +44,18 @@
 
     <properties>
         <pkgGroupId>org.apache.lucene</pkgGroupId>
-        <pkgArtifactId>lucene-queries</pkgArtifactId>
-        <pkgVersion>7.2.1</pkgVersion>
+        <pkgArtifactId>lucene-sandbox</pkgArtifactId>
+        <pkgVersion>7.3.0</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.apache.lucene.queries
+            org.apache.lucene.sandbox
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             org.apache.lucene.analysis*,
-            org.apache.lucene.document,
             org.apache.lucene.index,
             org.apache.lucene.search*,
-            org.apache.lucene.util*
+            org.apache.lucene.util,
+            org.apache.lucene.util.automaton,
+            org.apache.regexp
         </servicemix.osgi.import.pkg>
     </properties>
 

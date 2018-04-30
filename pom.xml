@@ -53,6 +53,11 @@
         <module>influxdb-java-2.10</module>
         <module>elasticsearch-6.2.4</module>
         <module>elasticsearch-client-6.2.4</module>
+        <module>lucene-7.3.0</module>
+        <module>lucene-analyzers-common-7.3.0</module>
+        <module>lucene-queries-7.3.0</module>
+        <module>lucene-queryparser-7.3.0</module>
+        <module>lucene-sandbox-7.3.0</module>
     </modules>
 
 </project>

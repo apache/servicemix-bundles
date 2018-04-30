@@ -29,8 +29,8 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.lucene</artifactId>
-    <version>7.2.1_2-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.lucene-queries</artifactId>
+    <version>7.3.0_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -44,13 +44,17 @@
 
     <properties>
         <pkgGroupId>org.apache.lucene</pkgGroupId>
-        <pkgArtifactId>lucene-core</pkgArtifactId>
-        <pkgVersion>7.2.1</pkgVersion>
+        <pkgArtifactId>lucene-queries</pkgArtifactId>
+        <pkgVersion>7.3.0</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.apache.lucene
+            org.apache.lucene.queries
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            javax.management
+            org.apache.lucene.analysis*,
+            org.apache.lucene.document,
+            org.apache.lucene.index,
+            org.apache.lucene.search*,
+            org.apache.lucene.util*
         </servicemix.osgi.import.pkg>
     </properties>
 
@@ -90,9 +94,9 @@
                             <filters>
                                 <filter>
                                     <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
-                                    <includes>
-                                        <include>META-INF/services/**</include>
-                                    </includes>
+                                    <excludes>
+                                        <exclude>**/*</exclude>
+                                    </excludes>
                                 </filter>
                             </filters>
                             <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
