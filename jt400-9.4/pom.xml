@@ -51,6 +51,9 @@
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             javax.accessibility,
+            javax.crypto,
+            javax.crypto.interfaces,
+            javax.crypto.spec,
             javax.naming*,
             javax.net*,
             javax.servlet*;resolution:=optional,
