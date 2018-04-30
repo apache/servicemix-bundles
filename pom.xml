@@ -48,6 +48,7 @@
         <module>orbitz-consul-client-1.1.2</module>
         <module>javax-inject-1</module>
         <module>jt400-9.4</module>
+        <module>ant-1.10.3</module>
     </modules>
 
 </project>
