@@ -29,8 +29,8 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.spring-security-taglibs</artifactId>
-    <version>4.2.4.RELEASE_2-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.spring-security-cas</artifactId>
+    <version>5.0.4.RELEASE_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
 
@@ -38,39 +38,17 @@
         <connection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://git-wip-us.apache.org/repos/asf?p=servicemix-bundles.git</url>
-      <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>org.springframework.security</pkgGroupId>
-        <pkgArtifactId>spring-security-taglibs</pkgArtifactId>
-        <pkgVersion>4.2.4.RELEASE</pkgVersion>
+        <pkgArtifactId>spring-security-cas</pkgArtifactId>
+        <pkgVersion>5.0.4.RELEASE</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.springframework.security.taglibs
+            org.springframework.security.cas
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            javax.servlet;version=0,
-            javax.servlet.http;version=0,
-            javax.servlet.jsp;version=0,
-            javax.servlet.jsp.tagext;version=0,
-            org.apache.commons.logging;version="[1.0.4, 2.0.0)",
-            org.springframework.beans;version="[4,5)",
-            org.springframework.context;version="[4,5)",
-            org.springframework.core;version="[4,5)",
-            org.springframework.expression;resolution:=optional;version="[4,5)",
-            org.springframework.security.access;version="[4.2,5)",
-            org.springframework.security.access.expression;version="[4.2,5)",
-            org.springframework.security.core;version="[4.2,5)",
-            org.springframework.security.core.context;version="[4.2,5)",
-            org.springframework.security.web;version="[4.2,5)",
-            org.springframework.security.web.access;version="[4.2,5)",
-            org.springframework.security.web.util;version="[4.2,5)",
-            org.springframework.security.web.context.support;version="[4.2,5)",
-            org.springframework.security.web.csrf;version="[4.2,5)",
-            org.springframework.util;version="[4,5)",
-            org.springframework.web.context;resolution:=optional;version="[4,5)",
-            org.springframework.web.context.support;resolution:=optional;version="[4,5)",
-            org.springframework.web.util;version="[4,5)"
+            *
         </servicemix.osgi.import.pkg>
     </properties>
 
@@ -110,9 +88,9 @@
                             <filters>
                                 <filter>
                                     <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
-                                    <includes>
-                                        <include>META-INF/security.tld</include>
-                                    </includes>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
                                 </filter>
                             </filters>
                             <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
