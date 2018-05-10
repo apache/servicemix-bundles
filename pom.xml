@@ -42,9 +42,6 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
-        <module>spring-security-taglibs-5.0.4.RELEASE</module>
-        <module>spring-security-test-5.0.4.RELEASE</module>
-        <module>spring-security-web-5.0.4.RELEASE</module>
     </modules>
 
 </project>
