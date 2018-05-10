@@ -42,6 +42,7 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+         <module>bazaarvoice-jolt-0.1.1</module>
     </modules>
 
 </project>
