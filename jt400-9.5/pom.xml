@@ -31,7 +31,7 @@
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.jt400</artifactId>
     <packaging>bundle</packaging>
-    <version>9.4_3-SNAPSHOT</version>
+    <version>9.5_1-SNAPSHOT</version>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
 
@@ -45,7 +45,7 @@
     <properties>
         <pkgGroupId>net.sf.jt400</pkgGroupId>
         <pkgArtifactId>jt400</pkgArtifactId>
-        <pkgVersion>9.4</pkgVersion>
+        <pkgVersion>9.5</pkgVersion>
         <servicemix.osgi.export.pkg>
             com.ibm.as400
         </servicemix.osgi.export.pkg>

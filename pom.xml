@@ -43,6 +43,7 @@
 
     <modules>
          <module>bazaarvoice-jolt-0.1.1</module>
+         <module>jt400-9.5</module>
     </modules>
 
 </project>
