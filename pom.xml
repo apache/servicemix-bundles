@@ -46,6 +46,7 @@
          <module>jt400-9.5</module>
          <module>digitalocean-api-client-2.15</module>
          <module>snmp4j-2.6.2</module>
+         <module>mustache-compiler-0.9.5</module>
     </modules>
 
 </project>
