@@ -48,6 +48,7 @@
          <module>snmp4j-2.6.2</module>
          <module>mustache-compiler-0.9.5</module>
          <module>grpc-1.12.0</module>
+         <module>saxon-9.8.0-12</module>
     </modules>
 
 </project>
