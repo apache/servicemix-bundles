@@ -60,6 +60,7 @@
          <module>hbase-2.0.0</module>
 	 <module>gremlin-driver-3.3.3</module>
 	 <module>fop-2.3</module>
+	 <module>braintree-java-2.81.0</module>
     </modules>
 
 </project>
