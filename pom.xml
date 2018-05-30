@@ -51,6 +51,7 @@
          <module>saxon-9.8.0-12</module>
          <module>orbitz-consul-client-1.2.0</module>
          <module>zxing-3.3.3</module>
+         <module>aspectj-1.9.1</module>
     </modules>
 
 </project>
