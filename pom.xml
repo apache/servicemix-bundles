@@ -55,6 +55,7 @@
          <module>batik-1.10</module>
          <module>libphonenumber-8.9.7</module>
          <module>xmlgraphics-commons-2.3</module>
+         <module>jruby-9.2.0.0</module>
     </modules>
 
 </project>
