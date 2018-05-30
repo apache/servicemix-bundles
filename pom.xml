@@ -54,6 +54,7 @@
          <module>aspectj-1.9.1</module>
          <module>batik-1.10</module>
          <module>libphonenumber-8.9.7</module>
+         <module>xmlgraphics-commons-2.3</module>
     </modules>
 
 </project>
