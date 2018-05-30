@@ -50,6 +50,7 @@
          <module>grpc-1.12.0</module>
          <module>saxon-9.8.0-12</module>
          <module>orbitz-consul-client-1.2.0</module>
+         <module>zxing-3.3.3</module>
     </modules>
 
 </project>
