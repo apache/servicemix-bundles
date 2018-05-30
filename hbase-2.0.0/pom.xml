@@ -30,10 +30,10 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.hbase</artifactId>
-    <version>1.3.1_2-SNAPSHOT</version>
+    <version>2.0.0_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
-    <description>This OSGi bundle wraps hbase-common, hbase-client, hbase-prefix-tree, hbase-protocol, hbase-server,
+    <description>This OSGi bundle wraps hbase-common, hbase-client, hbase-protocol, hbase-server,
         hbase-hadoop-compat ${pkgVersion} jar files.
     </description>
 
@@ -41,13 +41,12 @@
         <connection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://git-wip-us.apache.org/repos/asf?p=servicemix-bundles.git</url>
-      <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>org.apache.hbase</pkgGroupId>
         <pkgArtifactId>hbase</pkgArtifactId>
-        <pkgVersion>1.3.1</pkgVersion>
+        <pkgVersion>2.0.0</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.apache.hadoop.hbase
         </servicemix.osgi.export.pkg>
@@ -138,22 +137,22 @@
             org.apache.avalon.framework.logger;resolution:=optional,
             org.apache.bsf,
             org.apache.bsf.util,
-            org.apache.commons.cli;version="[1.2,2)";resolution:=optional,
-            org.apache.commons.codec*;version="[1.4,2)",
+            org.apache.commons.cli;version="[1.2,3)";resolution:=optional,
+            org.apache.commons.codec*;version="[1.4,3)",
             org.apache.commons.collections*,
             org.apache.commons.io*;version="[1,3)",
             org.apache.commons.lang*;version="[2.5,3)",
             org.apache.commons.logging*;resolution:=optional,
-            org.apache.hadoop*;version="[2,3)",
-            org.apache.jasper*;version="[5,7)",
+            org.apache.hadoop*;version="[2,4)",
+            org.apache.jasper*;version="[5,8)",
             org.apache.jute;resolution:=optional,
             org.apache.log;resolution:=optional,
             org.apache.log4j;resolution:=optional,
             org.apache.oro.text.regex,
-            org.apache.zookeeper*;version="[3.4,4)";resolution:=optional,
+            org.apache.zookeeper*;version="[3.4,5)";resolution:=optional,
             org.cliffc.high_scale_lib;resolution:=optional,
-            org.codehaus.jackson*;version="[1.4,2)",
-            org.codehaus.jettison.json;version="[1.1,2)",
+            org.codehaus.jackson*;version="[1.4,3)",
+            org.codehaus.jettison.json;version="[1.1,3)",
             org.eclipse.core.resources;resolution:=optional,
             org.eclipse.jface.text;resolution:=optional,
             org.eclipse.osgi.util;resolution:=optional,
@@ -197,12 +196,6 @@
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
-            <artifactId>hbase-prefix-tree</artifactId>
-            <version>${pkgVersion}</version>
-            <optional>false</optional>
-        </dependency>
-        <dependency>
-            <groupId>${pkgGroupId}</groupId>
             <artifactId>hbase-protocol</artifactId>
             <version>${pkgVersion}</version>
             <optional>false</optional>
@@ -232,13 +225,6 @@
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>hbase-client</artifactId>
-            <version>${pkgVersion}</version>
-            <optional>false</optional>
-            <classifier>sources</classifier>
-        </dependency>
-        <dependency>
-            <groupId>${pkgGroupId}</groupId>
-            <artifactId>hbase-prefix-tree</artifactId>
             <version>${pkgVersion}</version>
             <optional>false</optional>
             <classifier>sources</classifier>
@@ -283,7 +269,6 @@
                                 <includes>
                                     <include>${pkgGroupId}:hbase-common</include>
                                     <include>${pkgGroupId}:hbase-client</include>
-                                    <include>${pkgGroupId}:hbase-prefix-tree</include>
                                     <include>${pkgGroupId}:hbase-protocol</include>
                                     <include>${pkgGroupId}:hbase-server</include>
                                     <include>${pkgGroupId}:hbase-hadoop-compat</include>
@@ -298,12 +283,6 @@
                                 </filter>
                                 <filter>
                                     <artifact>${pkgGroupId}:hbase-client</artifact>
-                                    <excludes>
-                                        <exclude>**</exclude>
-                                    </excludes>
-                                </filter>
-                                <filter>
-                                    <artifact>${pkgGroupId}:hbase-prefix-tree</artifact>
                                     <excludes>
                                         <exclude>**</exclude>
                                     </excludes>
