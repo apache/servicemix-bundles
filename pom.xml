@@ -61,6 +61,11 @@
 	 <module>gremlin-driver-3.3.3</module>
 	 <module>fop-2.3</module>
 	 <module>braintree-java-2.81.0</module>
+         <module>lucene-7.3.1</module>
+         <module>lucene-analyzers-common-7.3.1</module>
+         <module>lucene-queries-7.3.1</module>
+         <module>lucene-queryparser-7.3.1</module>
+         <module>lucene-sandbox-7.3.1</module>
     </modules>
 
 </project>
