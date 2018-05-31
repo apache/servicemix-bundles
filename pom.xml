@@ -69,6 +69,8 @@
          <module>javax-el-impl-2.2.6</module>
          <module>qpid-6.1.6</module>
 	 <module>rhino-1.7.10</module>
+	 <module>derby-10.14.2.0</module>
+	 <module>derbynet-10.14.2.0</module>
     </modules>
 
 </project>
