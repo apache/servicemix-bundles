@@ -66,6 +66,7 @@
          <module>lucene-queries-7.3.1</module>
          <module>lucene-queryparser-7.3.1</module>
          <module>lucene-sandbox-7.3.1</module>
+         <module>javax-el-impl-2.2.6</module>
     </modules>
 
 </project>
