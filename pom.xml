@@ -92,6 +92,7 @@
 	 <module>spring-websocket-4.3.17.RELEASE</module>
 	 <module>spring-data-commons-2.0.5.RELEASE</module>
 	 <module>spring-data-redis-2.0.5.RELEASE</module>
+	 <module>spring-data-keyvalue-2.0.5.RELEASE</module>
     </modules>
 
 </project>
