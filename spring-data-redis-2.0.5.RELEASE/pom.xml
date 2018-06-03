@@ -33,7 +33,7 @@
     <version>2.0.5.RELEASE_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: spring-data-neo4j</name>
-    <description>This OSGi bundle wraps spring-data-neo4j, spring-data-neo4j-aspects, spring-data-neo4j-cross-store, spring-data-neo4j-tx, spring-data-neo4j-rest ${pkgVersion} jar files.</description>
+    <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar files.</description>
 
     <scm>
         <connection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</connection>
