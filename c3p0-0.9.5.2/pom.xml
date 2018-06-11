@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>12</version>
+        <version>13</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -63,6 +63,9 @@
             org.w3c.dom,
             org.xml.sax
         </servicemix.osgi.import.pkg>
+        <servicemix.osgi.dynamicimport.pkg>
+            *
+        </servicemix.osgi.dynamicimport.pkg>
     </properties>
 
     <dependencies>
