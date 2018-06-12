@@ -44,6 +44,7 @@
     <modules>
         <module>c3p0-0.9.5.2</module>
         <module>aws-java-sdk-1.11.344</module>
+        <module>thymeleaf-3.0.9.RELEASE</module>
         <module>aws-java-sdk-1.10.52</module>
     </modules>
 
