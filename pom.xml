@@ -64,6 +64,7 @@
         <module>spring-webmvc-4.3.18.RELEASE</module>
         <module>spring-webmvc-portlet-4.3.18.RELEASE</module>
         <module>spring-websocket-4.3.18.RELEASE</module>
+        <module>libphonenumber-8.9.8</module>
         <module>aws-java-sdk-1.10.52</module>
     </modules>
 
