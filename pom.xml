@@ -83,6 +83,22 @@
         <module>spring-web-5.0.7.RELEASE</module>
         <module>spring-webmvc-5.0.7.RELEASE</module>
         <module>spring-websocket-5.0.7.RELEASE</module>
+        <module>spring-security-acl-5.0.6.RELEASE</module>
+        <module>spring-security-aspects-5.0.6.RELEASE</module>
+        <module>spring-security-cas-5.0.6.RELEASE</module>
+        <module>spring-security-config-5.0.6.RELEASE</module>
+        <module>spring-security-core-5.0.6.RELEASE</module>
+        <module>spring-security-crypto-5.0.6.RELEASE</module>
+        <module>spring-security-data-5.0.6.RELEASE</module>
+        <module>spring-security-ldap-5.0.6.RELEASE</module>
+        <module>spring-security-messaging-5.0.6.RELEASE</module>
+        <module>spring-security-oauth2-client-5.0.6.RELEASE</module>
+        <module>spring-security-oauth2-core-5.0.6.RELEASE</module>
+        <module>spring-security-oauth2-jose-5.0.6.RELEASE</module>
+        <module>spring-security-remoting-5.0.6.RELEASE</module>
+        <module>spring-security-taglibs-5.0.6.RELEASE</module>
+        <module>spring-security-test-5.0.6.RELEASE</module>
+        <module>spring-security-web-5.0.6.RELEASE</module>
         <module>aws-java-sdk-1.10.52</module>
     </modules>
 
