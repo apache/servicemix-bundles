@@ -99,6 +99,7 @@
         <module>spring-security-taglibs-5.0.6.RELEASE</module>
         <module>spring-security-test-5.0.6.RELEASE</module>
         <module>spring-security-web-5.0.6.RELEASE</module>
+        <module>grpc-1.13.1</module>
         <module>aws-java-sdk-1.10.52</module>
     </modules>
 
