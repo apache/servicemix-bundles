@@ -103,6 +103,7 @@
         <module>aws-java-sdk-1.10.52</module>
         <module>orbitz-consul-client-1.2.1</module>
         <module>hbase-2.0.1</module>
+        <module>gae-1.9.64</module>
     </modules>
 
 </project>
