@@ -101,6 +101,7 @@
         <module>spring-security-web-5.0.6.RELEASE</module>
         <module>grpc-1.13.1</module>
         <module>aws-java-sdk-1.10.52</module>
+        <module>orbitz-consul-client-1.2.1</module>
     </modules>
 
 </project>

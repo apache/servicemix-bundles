@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.orbitz-consul-client</artifactId>
-    <version>1.2.0_2-SNAPSHOT</version>
+    <version>1.2.1_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -39,13 +39,12 @@
         <connection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://git-wip-us.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>com.orbitz.consul</pkgGroupId>
         <pkgArtifactId>consul-client</pkgArtifactId>
-        <pkgVersion>1.2.0</pkgVersion>
+        <pkgVersion>1.2.1</pkgVersion>
         <servicemix.osgi.export.pkg>
             com.orbitz.consul.*;-noimport:=true
         </servicemix.osgi.export.pkg>
