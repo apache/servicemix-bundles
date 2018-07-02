@@ -105,6 +105,8 @@
         <module>hbase-2.0.1</module>
         <module>gae-1.9.64</module>
         <module>xerces-2.12.0</module>
+        <module>elasticsearch-6.3.0</module>
+        <module>elasticsearch-client-6.3.0</module>
     </modules>
 
 </project>
