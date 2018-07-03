@@ -110,6 +110,7 @@
         <module>spring-data-commons-2.0.8.RELEASE</module>
         <module>spring-data-keyvalue-2.0.8.RELEASE</module>
         <module>spring-data-redis-2.0.8.RELEASE</module>
+        <module>azure-storage-8.0.0</module>
     </modules>
 
 </project>
