@@ -47,7 +47,7 @@
         <pkgArtifactId>fastjson</pkgArtifactId>
         <pkgVersion>1.2.47</pkgVersion>
         <servicemix.osgi.export>
-        com.alibaba.fastjson*;version=1.2.47;-split-package:=merge-first
+          com.alibaba.fastjson*;version=1.2.47;-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
         </servicemix.osgi.import.pkg>
@@ -84,6 +84,7 @@
                             <artifactSet>
                                 <includes>
                                     <include>${pkgGroupId}:${pkgArtifactId}</include>
+                                    <include>META-INF/services/**</include>
                                 </includes>
                             </artifactSet>
                             <filters>
@@ -99,20 +100,6 @@
                         </configuration>
                     </execution>
                 </executions>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.felix</groupId>
-                <artifactId>maven-bundle-plugin</artifactId>
-                <version>2.5.3</version>
-                <extensions>true</extensions>
-                <inherited>false</inherited>
-                <configuration>
-                   <instructions>
-                       <Export-Package>${servicemix.osgi.export}</Export-Package>
-                       <Import-Package>${servicemix.osgi.import.pkg}</Import-Package>
-                       <Bundle-NativeCode>*</Bundle-NativeCode>
-                   </instructions>
-                </configuration>
             </plugin>
         </plugins>
     </build>

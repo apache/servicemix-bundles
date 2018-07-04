@@ -47,7 +47,7 @@
         <pkgArtifactId>jsendnsca</pkgArtifactId>
         <pkgVersion>2.1.1</pkgVersion>
         <servicemix.osgi.export>
-        com.googlecode.jsendnsca*;version=2.1.1;-split-package:=merge-first
+          com.googlecode.jsendnsca*;version=2.1.1;-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
         </servicemix.osgi.import.pkg>
@@ -99,20 +99,6 @@
                         </configuration>
                     </execution>
                 </executions>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.felix</groupId>
-                <artifactId>maven-bundle-plugin</artifactId>
-                <version>2.5.3</version>
-                <extensions>true</extensions>
-                <inherited>false</inherited>
-                <configuration>
-                   <instructions>
-                       <Export-Package>${servicemix.osgi.export}</Export-Package>
-                       <Import-Package>${servicemix.osgi.import.pkg}</Import-Package>
-                       <Bundle-NativeCode>*</Bundle-NativeCode>
-                   </instructions>
-                </configuration>
             </plugin>
         </plugins>
     </build>

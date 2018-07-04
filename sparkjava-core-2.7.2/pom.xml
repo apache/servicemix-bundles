@@ -112,7 +112,6 @@
                            org.eclipse.jetty*;version="[8,10)",
                            *
 			</Import-Package>
-                        <Bundle-NativeCode>*</Bundle-NativeCode>
                     </instructions>
                 </configuration>
             </plugin>
