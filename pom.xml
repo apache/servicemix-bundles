@@ -42,6 +42,7 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+       <module>grpc-1.13.2</module>
     </modules>
 
 </project>
