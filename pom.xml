@@ -43,6 +43,9 @@
 
     <modules>
        <module>grpc-1.13.2</module>
+       <module>kafka_2.11-1.1.1</module>
+       <module>kafka-clients-1.1.1</module>
+       <module>kafka-streams-1.1.1</module>
     </modules>
 
 </project>
