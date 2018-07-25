@@ -46,6 +46,7 @@
        <module>kafka_2.11-1.1.1</module>
        <module>kafka-clients-1.1.1</module>
        <module>kafka-streams-1.1.1</module>
+       <module>influxdb-java-2.11</module>
     </modules>
 
 </project>
