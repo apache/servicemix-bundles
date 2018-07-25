@@ -48,6 +48,7 @@
        <module>kafka-streams-1.1.1</module>
        <module>influxdb-java-2.11</module>
        <module>okhttp-3.11.0</module>
+       <module>okio-1.15.0</module>
     </modules>
 
 </project>
