@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.okhttp</artifactId>
-    <version>3.10.0_3-SNAPSHOT</version>
+    <version>3.11.0_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -45,7 +45,7 @@
     <properties>
         <pkgGroupId>com.squareup.okhttp3</pkgGroupId>
         <pkgArtifactId>okhttp</pkgArtifactId>
-        <pkgVersion>3.10.0</pkgVersion>
+        <pkgVersion>3.11.0</pkgVersion>
         <servicemix.osgi.export.pkg>
             okhttp3
         </servicemix.osgi.export.pkg>
