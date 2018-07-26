@@ -49,6 +49,7 @@
        <module>influxdb-java-2.11</module>
        <module>okhttp-3.11.0</module>
        <module>okio-1.15.0</module>
+       <module>saxon-9.8.0-14</module>
     </modules>
 
 </project>
