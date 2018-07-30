@@ -52,6 +52,7 @@
        <module>saxon-9.8.0-14</module>
        <module>aws-java-sdk-1.11.373</module>
        <module>kafka_2.11-2.0.0</module>
+       <module>kafka-clients-2.0.0</module>
     </modules>
 
 </project>
