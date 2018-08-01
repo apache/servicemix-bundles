@@ -54,6 +54,7 @@
        <module>kafka_2.11-2.0.0</module>
        <module>kafka-clients-2.0.0</module>
        <module>kafka-streams-2.0.0</module>
+       <module>spring-data-commons-2.0.9.RELEASE</module>
     </modules>
 
 </project>
