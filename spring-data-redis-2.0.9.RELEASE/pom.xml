@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.spring-data-redis</artifactId>
-    <version>2.0.8.RELEASE_2-SNAPSHOT</version>
+    <version>2.0.9.RELEASE_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: spring-data-neo4j</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar files.</description>
@@ -45,7 +45,7 @@
     <properties>
         <pkgGroupId>org.springframework.data</pkgGroupId>
 	<pkgArtifactId>spring-data-redis</pkgArtifactId>
-        <pkgVersion>2.0.8.RELEASE</pkgVersion>
+        <pkgVersion>2.0.9.RELEASE</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.springframework.data.redis
         </servicemix.osgi.export.pkg>
