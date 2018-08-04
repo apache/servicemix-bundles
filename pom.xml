@@ -57,6 +57,8 @@
        <module>spring-data-commons-2.0.9.RELEASE</module>
        <module>spring-data-redis-2.0.9.RELEASE</module>
        <module>spring-data-keyvalue-2.0.9.RELEASE</module>
+       <module>elasticsearch-6.3.2</module>
+       <module>elasticsearch-client-6.3.2</module>
     </modules>
 
 </project>
