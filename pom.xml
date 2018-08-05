@@ -94,6 +94,7 @@
        <module>spring-security-test-5.0.7.RELEASE</module>
        <module>spring-security-web-5.0.7.RELEASE</module>
        <module>grpc-1.14.0</module>
+       <module>snmp4j-2.6.3</module>
     </modules>
 
 </project>
