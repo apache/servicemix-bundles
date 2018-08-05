@@ -97,6 +97,7 @@
        <module>snmp4j-2.6.3</module>
        <module>libphonenumber-8.9.10</module>
        <module>hbase-2.1.0</module>
+       <module>braintree-java-2.83.1</module>
     </modules>
 
 </project>
