@@ -29,8 +29,8 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.lucene-sandbox</artifactId>
-    <version>7.3.1_2-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.lucene-analyzers-common</artifactId>
+    <version>7.4.0_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -39,24 +39,36 @@
         <connection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://git-wip-us.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>org.apache.lucene</pkgGroupId>
-        <pkgArtifactId>lucene-sandbox</pkgArtifactId>
-        <pkgVersion>7.3.1</pkgVersion>
-        <servicemix.osgi.export.pkg>
-            org.apache.lucene.sandbox
-        </servicemix.osgi.export.pkg>
+        <pkgArtifactId>lucene-analyzers-common</pkgArtifactId>
+        <pkgVersion>7.4.0</pkgVersion>
+        <servicemix.osgi.export>
+            !org.apache.lucene.analysis,
+            !org.apache.lucene.analysis.tokenattributes,
+            org.apache.lucene.analysis.*;version=${pkgVersion};-split-package:=merge-first
+        </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
-            org.apache.lucene.analysis*,
+            javax.xml.parsers,
+            org.apache.lucene.analysis,
+            org.apache.lucene.analysis.tokenattributes,
+            org.apache.lucene.codecs,
             org.apache.lucene.index,
-            org.apache.lucene.search*,
+            org.apache.lucene.store,
             org.apache.lucene.util,
             org.apache.lucene.util.automaton,
-            org.apache.regexp
+            org.apache.lucene.util.fst,
+            org.xml.sax,
+            org.xml.sax.helpers
         </servicemix.osgi.import.pkg>
+        <servicemix.osgi.private.pkg>
+            org.tartarus.snowball*;-split-package:=merge-first
+        </servicemix.osgi.private.pkg>
+        <servicemix.osgi.embed.dependency>
+            *;inline=META-INF/services/*
+        </servicemix.osgi.embed.dependency>
     </properties>
 
     <dependencies>
@@ -80,31 +92,23 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>shade</goal>
-                        </goals>
-                        <configuration>
-                            <artifactSet>
-                                <includes>
-                                    <include>${pkgGroupId}:${pkgArtifactId}</include>
-                                </includes>
-                            </artifactSet>
-                            <filters>
-                                <filter>
-                                    <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
-                                    <excludes>
-                                        <exclude>**/*</exclude>
-                                    </excludes>
-                                </filter>
-                            </filters>
-                            <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
-                            <createDependencyReducedPom>true</createDependencyReducedPom>
-                        </configuration>
-                    </execution>
-                </executions>
+                <configuration>
+                    <artifactSet>
+                        <includes>
+                            <include>${pkgGroupId}:${pkgArtifactId}</include>
+                        </includes>
+                    </artifactSet>
+                    <filters>
+                        <filter>
+                            <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
+                            <excludes>
+                                <exclude>**/*</exclude>
+                            </excludes>
+                        </filter>
+                    </filters>
+                    <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
+                    <createDependencyReducedPom>true</createDependencyReducedPom>
+                </configuration>
             </plugin>
         </plugins>
     </build>

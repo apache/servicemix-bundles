@@ -98,6 +98,11 @@
        <module>libphonenumber-8.9.10</module>
        <module>hbase-2.1.0</module>
        <module>braintree-java-2.83.1</module>
+       <module>lucene-7.4.0</module>
+       <module>lucene-analyzers-common-7.4.0</module>
+       <module>lucene-queries-7.4.0</module>
+       <module>lucene-queryparser-7.4.0</module>
+       <module>lucene-sandbox-7.4.0</module>
     </modules>
 
 </project>
