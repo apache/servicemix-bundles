@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.influxdb-java</artifactId>
-    <version>2.11_2-SNAPSHOT</version>
+    <version>2.12_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -45,7 +45,7 @@
     <properties>
         <pkgGroupId>org.influxdb</pkgGroupId>
         <pkgArtifactId>influxdb-java</pkgArtifactId>
-        <pkgVersion>2.11</pkgVersion>
+        <pkgVersion>2.12</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.influxdb
         </servicemix.osgi.export.pkg>
