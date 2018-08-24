@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.twitter4j</artifactId>
-    <version>4.0.6_2-SNAPSHOT</version>
+    <version>4.0.7_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -45,7 +45,7 @@
     <properties>
         <pkgGroupId>org.twitter4j</pkgGroupId>
         <pkgArtifactId>twitter4j</pkgArtifactId>
-        <pkgVersion>4.0.6</pkgVersion>
+        <pkgVersion>4.0.7</pkgVersion>
         <servicemix.osgi.export.pkg>
             twitter4j
         </servicemix.osgi.export.pkg>
