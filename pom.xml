@@ -47,6 +47,7 @@
         <module>twitter4j-4.0.7</module>
         <module>facebook4j-2.4.12</module>
         <module>orbitz-consul-client-1.2.4</module>
+        <module>hadoop-client-3.1.1</module>
     </modules>
 
 </project>
