@@ -43,6 +43,7 @@
 
     <modules>
        <module>influxdb-java-2.13</module>
+       <module>facebook4j-2.4.12</module>
     </modules>
 
 </project>
