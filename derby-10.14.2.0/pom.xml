@@ -52,7 +52,6 @@
             javax.crypto*,
             javax.management,
             javax.naming*,
-            javax.naming,
             javax.net*,
             javax.security.auth,
             javax.sql,

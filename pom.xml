@@ -45,6 +45,7 @@
        <module>influxdb-java-2.13</module>
        <module>facebook4j-2.4.12</module>
        <module>grpc-1.15.0</module>
+       <module>derby-10.14.2.0</module>
     </modules>
 
 </project>
