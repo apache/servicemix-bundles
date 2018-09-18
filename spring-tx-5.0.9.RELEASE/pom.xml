@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <!--
+
+        Licensed to the Apache Software Foundation (ASF) under one or more
+        contributor license agreements.  See the NOTICE file distributed with
+        this work for additional information regarding copyright ownership.
+        The ASF licenses this file to You under the Apache License, Version 2.0
+        (the "License"); you may not use this file except in compliance with
+        the License.  You may obtain a copy of the License at
+
+           http://www.apache.org/licenses/LICENSE-2.0
+
+        Unless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an "AS IS" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License.
+    -->
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.apache.servicemix.bundles</groupId>
+        <artifactId>bundles-pom</artifactId>
+        <version>13</version>
+        <relativePath>../bundles-pom/pom.xml</relativePath>
+    </parent>
+
+    <groupId>org.apache.servicemix.bundles</groupId>
+    <artifactId>org.apache.servicemix.bundles.spring-tx</artifactId>
+    <version>5.0.9.RELEASE_1-SNAPSHOT</version>
+    <packaging>bundle</packaging>
+    <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
+
+    <scm>
+        <connection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</connection>
+        <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
+        <url>https://git-wip-us.apache.org/repos/asf?p=servicemix-bundles.git</url>
+  </scm>
+
+    <properties>
+        <pkgGroupId>org.springframework</pkgGroupId>
+        <pkgArtifactId>spring-tx</pkgArtifactId>
+        <pkgVersion>5.0.9.RELEASE</pkgVersion>
+        <servicemix.osgi.export.pkg>
+            org.springframework
+        </servicemix.osgi.export.pkg>
+        <servicemix.osgi.import.pkg>
+            com.ibm.websphere.uow;resolution:=optional,
+            com.ibm.wsspi.uow;resolution:=optional,
+            javax.ejb;resolution:=optional,
+            javax.management;resolution:=optional,
+            javax.naming;resolution:=optional,
+            javax.resource;resolution:=optional,
+            javax.resource.cci;resolution:=optional,
+            javax.resource.spi;resolution:=optional,
+            javax.resource.spi.endpoint;resolution:=optional,
+            javax.resource.spi.work;resolution:=optional,
+            javax.transaction;version="[1.2,2)";resolution:=optional,
+            javax.transaction.xa;version="[1.2,2)";resolution:=optional,
+            org.aopalliance.aop;version="[1,2)";resolution:=optional,
+            org.aopalliance.intercept;version="[1,2)";resolution:=optional,
+            org.apache.commons.logging;version="[1.1.1,2)";resolution:=optional,
+            org.springframework.aop;version="[${pkgVersion},5.1)";resolution:=optional,
+            org.springframework.aop.config;version="[${pkgVersion},5.1)";resolution:=optional,
+            org.springframework.aop.framework;version="[${pkgVersion},5.1)";resolution:=optional,
+            org.springframework.aop.framework.autoproxy;version="[${pkgVersion},5.1)";resolution:=optional,
+            org.springframework.aop.scope;version="[${pkgVersion},5.1)";resolution:=optional,
+            org.springframework.aop.support;version="[${pkgVersion},5.1)";resolution:=optional,
+            org.springframework.aop.support.annotation;version="[${pkgVersion},5.1)";resolution:=optional,
+            org.springframework.beans;version="[${pkgVersion},5.1)",
+            org.springframework.beans.factory;version="[${pkgVersion},5.1)",
+            org.springframework.beans.factory.annotation;version="[${pkgVersion},5.1)",
+            org.springframework.beans.factory.config;version="[${pkgVersion},5.1)",
+            org.springframework.beans.factory.parsing;version="[${pkgVersion},5.1)",            
+            org.springframework.beans.factory.support;version="[${pkgVersion},5.1)",
+            org.springframework.beans.factory.xml;version="[${pkgVersion},5.1)",
+            org.springframework.beans.propertyeditors;version="[${pkgVersion},5.1)",
+            org.springframework.context;version="[${pkgVersion},5.1)";resolution:=optional,
+            org.springframework.context.annotation;version="[${pkgVersion},5.1)";resolution:=optional,
+            org.springframework.context.event;version="[${pkgVersion},5.1)";resolution:=optional,
+            org.springframework.context.support;version="[${pkgVersion},5.1)";resolution:=optional,
+            org.springframework.core;version="[${pkgVersion},5.1)",
+            org.springframework.core.annotation;version="[${pkgVersion},5.1)",
+            org.springframework.core.env;version="[${pkgVersion},5.1)",
+            org.springframework.core.task;version="[${pkgVersion},5.1)",
+            org.springframework.core.type;version="[${pkgVersion},5.1)",
+            org.springframework.jndi;version="[${pkgVersion},5.1)",
+            org.springframework.scheduling;version="[${pkgVersion},5.1)";resolution:=optional,
+            org.springframework.stereotype;version="[${pkgVersion},5.1)";resolution:=optional,
+            org.springframework.util;version="[${pkgVersion},5.1)",
+            org.springframework.util.concurrent;version="[${pkgVersion},5.1)",
+            org.springframework.util.xml;version="[${pkgVersion},5.1)",
+            org.springframework.cglib.core;version="[${pkgVersion},5.1)",
+            org.springframework.cglib.proxy;version="[${pkgVersion},5.1)",
+            org.springframework.cglib.reflect;version="[${pkgVersion},5.1)",
+            org.w3c.dom;resolution:=optional
+        </servicemix.osgi.import.pkg>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>spring-beans</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>spring-core</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <!-- sources -->
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>spring-beans</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>spring-core</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <artifactSet>
+                                <includes>
+                                    <include>${pkgGroupId}:${pkgArtifactId}</include>
+                                </includes>
+                            </artifactSet>
+                            <filters>
+                                <filter>
+                                    <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
+                                    <includes>
+                                        <include>**/*.gif</include>
+                                        <include>**/*.xsd</include>
+                                        <include>META-INF/spring*</include>
+                                    </includes>
+                                </filter>
+                            </filters>
+                            <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
+                            <createDependencyReducedPom>true</createDependencyReducedPom>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
