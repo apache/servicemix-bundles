@@ -100,6 +100,10 @@
         <module>spring-security-test-5.0.8.RELEASE</module>
         <module>spring-security-web-5.0.8.RELEASE</module>
         <module>qpid-6.1.7</module>
+        <module>spring-ws-core-3.0.3.RELEASE</module>
+        <module>spring-ws-security-3.0.3.RELEASE</module>
+        <module>spring-ws-support-3.0.3.RELEASE</module>
+        <module>spring-ws-test-3.0.3.RELEASE</module>
     </modules>
 
 </project>
