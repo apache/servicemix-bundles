@@ -105,6 +105,7 @@
         <module>spring-ws-support-3.0.3.RELEASE</module>
         <module>spring-ws-test-3.0.3.RELEASE</module>
         <module>digitalocean-api-client-2.16</module>
+        <module>libphonenumber-8.9.13</module>
     </modules>
 
 </project>
