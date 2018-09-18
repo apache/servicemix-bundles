@@ -111,6 +111,7 @@
         <module>spring-data-redis-2.0.10.RELEASE</module>
         <module>elasticsearch-6.4.0</module>
         <module>elasticsearch-client-6.4.0</module>
+        <module>bcpg-jdk15on-1.60</module>
     </modules>
 
 </project>
