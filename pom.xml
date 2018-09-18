@@ -106,6 +106,9 @@
         <module>spring-ws-test-3.0.3.RELEASE</module>
         <module>digitalocean-api-client-2.16</module>
         <module>libphonenumber-8.9.13</module>
+        <module>spring-data-commons-2.0.10.RELEASE</module>
+        <module>spring-data-keyvalue-2.0.10.RELEASE</module>
+        <module>spring-data-redis-2.0.10.RELEASE</module>
     </modules>
 
 </project>
