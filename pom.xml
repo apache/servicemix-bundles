@@ -104,6 +104,7 @@
         <module>spring-ws-security-3.0.3.RELEASE</module>
         <module>spring-ws-support-3.0.3.RELEASE</module>
         <module>spring-ws-test-3.0.3.RELEASE</module>
+        <module>digitalocean-api-client-2.16</module>
     </modules>
 
 </project>
