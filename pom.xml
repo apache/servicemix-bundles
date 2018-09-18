@@ -99,6 +99,7 @@
         <module>spring-security-taglibs-5.0.8.RELEASE</module>
         <module>spring-security-test-5.0.8.RELEASE</module>
         <module>spring-security-web-5.0.8.RELEASE</module>
+        <module>qpid-6.1.7</module>
     </modules>
 
 </project>
