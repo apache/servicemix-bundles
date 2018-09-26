@@ -42,6 +42,7 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+       <module>sparkjava-core-2.8.0</module>
     </modules>
 
 </project>
