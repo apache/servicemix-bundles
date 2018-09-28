@@ -43,6 +43,7 @@
 
     <modules>
        <module>sparkjava-core-2.8.0</module>
+       <module>saxon-9.9.0-1</module>
     </modules>
 
 </project>
