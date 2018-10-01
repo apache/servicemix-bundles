@@ -45,6 +45,7 @@
        <module>sparkjava-core-2.8.0</module>
        <module>saxon-9.9.0-1</module>
        <module>orbitz-consul-client-1.2.5</module>
+       <module>fastjson-1.2.51</module>
     </modules>
 
 </project>

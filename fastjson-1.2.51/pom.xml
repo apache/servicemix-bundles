@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.fastjson</artifactId>
-    <version>1.2.49_2-SNAPSHOT</version>
+    <version>1.2.51_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -45,9 +45,9 @@
     <properties>
         <pkgGroupId>com.alibaba</pkgGroupId>
         <pkgArtifactId>fastjson</pkgArtifactId>
-        <pkgVersion>1.2.49</pkgVersion>
+        <pkgVersion>1.2.51</pkgVersion>
         <servicemix.osgi.export>
-          com.alibaba.fastjson*;version=1.2.49;-split-package:=merge-first
+          com.alibaba.fastjson*;version=1.2.51;-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
         </servicemix.osgi.import.pkg>
