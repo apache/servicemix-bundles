@@ -32,7 +32,7 @@
     <artifactId>org.apache.servicemix.bundles.spring-data-keyvalue</artifactId>
     <version>2.1.0.RELEASE_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
-    <name>Apache ServiceMix :: Bundles :: spring-data-neo4j</name>
+    <name>Apache ServiceMix :: Bundles :: spring-data-keyvalue</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar files.</description>
 
     <scm>
