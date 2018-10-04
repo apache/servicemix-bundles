@@ -48,6 +48,7 @@
        <module>fastjson-1.2.51</module>
        <module>spring-data-commons-2.1.0.RELEASE</module>
        <module>spring-data-redis-2.1.0.RELEASE</module>
+       <module>spring-data-keyvalue-2.1.0.RELEASE</module>
     </modules>
 
 </project>
