@@ -31,7 +31,7 @@
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.cglib</artifactId>
     <packaging>bundle</packaging>
-    <version>3.2.6_2-SNAPSHOT</version>
+    <version>3.2.8_1-SNAPSHOT</version>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps cglib-nodep ${pkgVersion} jar file.</description>
 
@@ -45,7 +45,7 @@
     <properties>
         <pkgGroupId>cglib</pkgGroupId>
         <pkgArtifactId>cglib</pkgArtifactId>
-        <pkgVersion>3.2.6</pkgVersion>
+        <pkgVersion>3.2.8</pkgVersion>
         <servicemix.osgi.export.pkg>
             net.sf.cglib
         </servicemix.osgi.export.pkg>
