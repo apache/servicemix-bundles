@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.chunk-templates</artifactId>
-    <version>3.3.1_2-SNAPSHOT</version>
+    <version>3.4.0_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -45,7 +45,7 @@
     <properties>
         <pkgGroupId>com.x5dev</pkgGroupId>
         <pkgArtifactId>chunk-templates</pkgArtifactId>
-        <pkgVersion>3.3.1</pkgVersion>
+        <pkgVersion>3.4.0</pkgVersion>
         <servicemix.osgi.export.pkg>
             com.x5.template;version=${pkgVersion};-split-package:=merge-first,
             com.x5.template.filters;version=${pkgVersion};-split-package:=merge-first,
