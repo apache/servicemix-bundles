@@ -69,6 +69,7 @@
        <module>freemarker-2.3.28</module>
        <module>gae-1.9.67</module>
        <module>gremlin-driver-3.3.4</module>
+       <module>grpc-1.16.1</module>
     </modules>
 
 </project>
