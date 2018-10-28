@@ -66,6 +66,7 @@
        <module>spring-data-keyvalue-2.1.1.RELEASE</module>
        <module>spring-data-redis-2.1.1.RELEASE</module>
        <module>fastinfoset-1.2.15</module>
+       <module>freemarker-2.3.28</module>
     </modules>
 
 </project>
