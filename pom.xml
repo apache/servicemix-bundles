@@ -59,6 +59,7 @@
        <module>braintree-java-2.85.0</module>
        <module>commons-compiler-3.0.10</module>
        <module>conscrypt-openjdk-uber-1.4.0</module>
+       <module>libphonenumber-8.9.16</module>
     </modules>
 
 </project>
