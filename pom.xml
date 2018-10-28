@@ -51,6 +51,7 @@
        <module>spring-data-keyvalue-2.1.0.RELEASE</module>
        <module>cglib-3.2.8</module>
        <module>chunk-templates-3.4.0</module>
+       <module>ant-1.10.5</module>
     </modules>
 
 </project>
