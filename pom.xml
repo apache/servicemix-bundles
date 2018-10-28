@@ -52,6 +52,7 @@
        <module>cglib-3.2.8</module>
        <module>chunk-templates-3.4.0</module>
        <module>ant-1.10.5</module>
+       <module>aspectj-1.9.2</module>
     </modules>
 
 </project>

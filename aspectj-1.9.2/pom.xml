@@ -31,7 +31,7 @@
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.aspectj</artifactId>
     <packaging>bundle</packaging>
-    <version>1.9.1_2-SNAPSHOT</version>
+    <version>1.9.2_1-SNAPSHOT</version>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps aspectjrt and aspectjweaver ${pkgVersion} jar files.</description>
 
@@ -39,16 +39,15 @@
         <connection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://git-wip-us.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
     
     <properties>
         <pkgGroupId>org.aspectj</pkgGroupId>
         <pkgArtifactId>aspectj</pkgArtifactId>
-        <pkgVersion>1.9.1</pkgVersion>
+        <pkgVersion>1.9.2</pkgVersion>
         <servicemix.osgi.export>
-            org.aspectj*;version=1.9.1;-split-package:=merge-first,
-            aj*;version=1.9.1
+            org.aspectj*;version=1.9.2;-split-package:=merge-first,
+            aj*;version=1.9.2
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
             javax.xml*,
