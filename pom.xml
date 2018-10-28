@@ -67,6 +67,7 @@
        <module>spring-data-redis-2.1.1.RELEASE</module>
        <module>fastinfoset-1.2.15</module>
        <module>freemarker-2.3.28</module>
+       <module>gae-1.9.67</module>
     </modules>
 
 </project>
