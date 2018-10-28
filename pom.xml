@@ -68,6 +68,7 @@
        <module>fastinfoset-1.2.15</module>
        <module>freemarker-2.3.28</module>
        <module>gae-1.9.67</module>
+       <module>gremlin-driver-3.3.4</module>
     </modules>
 
 </project>
