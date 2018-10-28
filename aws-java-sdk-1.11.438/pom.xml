@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <!--
+
         Licensed to the Apache Software Foundation (ASF) under one or more
         contributor license agreements.  See the NOTICE file distributed with
         this work for additional information regarding copyright ownership.
         The ASF licenses this file to You under the Apache License, Version 2.0
         (the "License"); you may not use this file except in compliance with
         the License.  You may obtain a copy of the License at
+
            http://www.apache.org/licenses/LICENSE-2.0
+
         Unless required by applicable law or agreed to in writing, software
         distributed under the License is distributed on an "AS IS" BASIS,
         WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -21,14 +24,14 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>12</version>
+        <version>13</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.aws-java-sdk</artifactId>
     <packaging>bundle</packaging>
-    <version>1.10.52_3-SNAPSHOT</version>
+    <version>1.11.438_1-SNAPSHOT</version>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
 
@@ -36,13 +39,12 @@
         <connection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://git-wip-us.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>com.amazonaws</pkgGroupId>
         <pkgArtifactId>aws-java-sdk</pkgArtifactId>
-        <pkgVersion>1.10.52</pkgVersion>
+        <pkgVersion>1.11.438</pkgVersion>
         <servicemix.osgi.export.pkg>
             com.amazonaws*
         </servicemix.osgi.export.pkg>
@@ -60,17 +62,17 @@
             org.aspectj.lang*;version="[1,2)";resolution:=optional,
             org.junit*;version="[4,5)";resolution:=optional,
             org.springframework*;version="[2.5,4)";resolution:=optional,
-            javax.security.auth.x500;resolution:=optional, 
+            javax.security.auth.x500;resolution:=optional,
             org.ietf.jgss;resolution:=optional,
-            javax.naming, 
-            javax.naming.directory, 
-            javax.naming.ldap,
-            org.apache.http.*,
-            org.apache.http.conn.*,
+            javax.naming,
+            javax.naming.directory,
+            javax.naming.ldap
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
+            org.apache.http.*,
             org.joda.convert*,
-            org.joda.time*
+            org.joda.time*,
+            software.amazon.ion*
         </servicemix.osgi.private.pkg>
     </properties>
 
@@ -89,6 +91,11 @@
             <groupId>org.joda</groupId>
             <artifactId>joda-convert</artifactId>
             <version>1.5</version>
+        </dependency>
+        <dependency>
+		    <groupId>software.amazon.ion</groupId>
+		    <artifactId>ion-java</artifactId>
+		    <version>1.0.0</version>
         </dependency>
 
         <!-- sources
@@ -118,6 +125,7 @@
                                 <includes>
                                     <include>${pkgGroupId}:${pkgArtifactId}</include>
                                     <include>${pkgGroupId}:${pkgArtifactId}-core</include>
+                                    <include>software.amazon.ion:ion-java</include>
                                     <include>org.joda:joda-convert</include>
                                 </includes>
                             </artifactSet>
@@ -139,6 +147,12 @@
                                         <include>**/*.xml</include>
                                         <include>**/*.properties</include>
                                     </includes>
+                                </filter>
+                                <filter>
+                                    <artifact>software.amazon.ion:ion-java</artifact>
+                                    <excludes>
+                                        <exclude>**/*</exclude>
+                                    </excludes>
                                 </filter>
                                 <filter>
                                     <artifact>org.joda:joda-convert</artifact>
