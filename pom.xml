@@ -62,6 +62,9 @@
        <module>libphonenumber-8.9.16</module>
        <module>elasticsearch-6.4.2</module>
        <module>elasticsearch-client-6.4.2</module>
+       <module>spring-data-commons-2.1.1.RELEASE</module>
+       <module>spring-data-keyvalue-2.1.1.RELEASE</module>
+       <module>spring-data-redis-2.1.1.RELEASE</module>
     </modules>
 
 </project>
