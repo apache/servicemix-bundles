@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.fastinfoset</artifactId>
-    <version>1.2.13_2-SNAPSHOT</version>
+    <version>1.2.15_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -38,7 +38,7 @@
     <properties>
         <pkgGroupId>com.sun.xml.fastinfoset</pkgGroupId>
         <pkgArtifactId>FastInfoset</pkgArtifactId>
-        <pkgVersion>1.2.13</pkgVersion>
+        <pkgVersion>1.2.15</pkgVersion>
         <servicemix.osgi.export>
             org.jvnet.fastinfoset*;version=${pkgVersion};-split-package:=merge-first,
             com.sun.xml.fastinfoset*;version=${pkgVersion};-split-package:=merge-first
