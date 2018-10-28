@@ -29,87 +29,78 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.elasticsearch</artifactId>
-    <version>6.4.0_2-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.elasticsearch-client</artifactId>
+    <version>6.4.2_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
-    <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
-    <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
+    <name>Apache ServiceMix :: Bundles :: elasticsearch-client</name>
+    <description>This OSGi bundle wraps elasticsearch-client ${pkgVersion} jar files.</description>
 
     <scm>
         <connection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://git-wip-us.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
-        <pkgGroupId>org.elasticsearch</pkgGroupId>
-        <pkgArtifactId>elasticsearch</pkgArtifactId>
-        <pkgVersion>6.4.0</pkgVersion>
-        <servicemix.osgi.export.pkg>
-            org.elasticsearch
-        </servicemix.osgi.export.pkg>
+        <pkgGroupId>org.elasticsearch.client</pkgGroupId>
+        <pkgVersion>6.4.2</pkgVersion>
+        <servicemix.osgi.export>
+            org.elasticsearch.client;version="${pkgVersion}";-split-package:=merge-first,
+            org.elasticsearch.client.sniff;version="${pkgVersion}";-split-package:=merge-first,
+            org.elasticsearch.transport.client;version="${pkgVersion}";-split-package:=merge-first,
+            org.elasticsearch.client.transport;version="${pkgVersion}";-split-package:=merge-first,
+            org.elasticsearch.client.support;version="${pkgVersion}";-split-package:=merge-first,
+            org.elasticsearch.client.node;version="${pkgVersion}";-split-package:=merge-first
+        </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
-            !org.elasticsearch*,
-            !org.joda.convert,
-            !org.locationtech.spatial4j*,
-            !com.vividsolutions.jts.geom,
-            com.google.common.collect,
-            com.fasterxml.jackson.core;version="[2.8,4)",
-            com.fasterxml.jackson.dataformat.yaml;version="[2.8,4)",
-            com.fasterxml.jackson.dataformat.smile;version="[2.8,4)",
-            com.sun.jna;resolution:=optional,
-            com.ning.compress.lzf.util,
-            org.apache.logging.log4j*;version="[2.8,4)",
-            *
+
         </servicemix.osgi.import.pkg>
-        <servicemix.osgi.private.pkg>
-            org.joda.time*,
-            org.joda.convert*,
-            org.apache.lucene*,
-            org.tartarus.snowball*,
-            com.tdunning.math.stats,
-            com.vividsolutions.jts.geom,
-            com.carrotsearch.hppc*,
-            joptsimple*,
-            org.HdrHistogram,
-            org.locationtech.spatial4j*,
-            META-INF.services.*
-        </servicemix.osgi.private.pkg>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
-            <artifactId>${pkgArtifactId}</artifactId>
+            <artifactId>elasticsearch-rest-client</artifactId>
             <version>${pkgVersion}</version>
         </dependency>
         <dependency>
-            <groupId>org.elasticsearch.plugin</groupId>
-            <artifactId>transport-netty4-client</artifactId>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>elasticsearch-rest-client-sniffer</artifactId>
             <version>${pkgVersion}</version>
         </dependency>
         <dependency>
-             <groupId>org.apache.logging.log4j</groupId>
-             <artifactId>log4j-core</artifactId>
-             <version>2.9.1</version>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>elasticsearch-rest-high-level-client</artifactId>
+            <version>${pkgVersion}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.lucene</groupId>
-            <artifactId>lucene-backward-codecs</artifactId>
-            <version>7.1.0</version>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>transport</artifactId>
+            <version>${pkgVersion}</version>
         </dependency>
 
         <!-- sources -->
         <dependency>
             <groupId>${pkgGroupId}</groupId>
-            <artifactId>${pkgArtifactId}</artifactId>
+            <artifactId>elasticsearch-rest-client</artifactId>
             <version>${pkgVersion}</version>
             <classifier>sources</classifier>
         </dependency>
         <dependency>
-            <groupId>org.elasticsearch.plugin</groupId>
-            <artifactId>transport-netty4-client</artifactId>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>elasticsearch-rest-client-sniffer</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>elasticsearch-rest-high-level-client</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>transport</artifactId>
             <version>${pkgVersion}</version>
             <classifier>sources</classifier>
         </dependency>
@@ -129,30 +120,38 @@
                         <configuration>
                             <artifactSet>
                                 <includes>
-                                    <include>${pkgGroupId}:${pkgArtifactId}</include>
-				    <include>org.elasticsearch.plugin:transport-netty4client</include>
-                                    <include>org.apache.lucene:*</include>
+                                    <include>${pkgGroupId}:elasticsearch-rest-client</include>
+                                    <include>${pkgGroupId}:elasticsearch-rest-client-sniffer</include>
+                                    <include>${pkgGroupId}:elasticsearch-rest-high-level-client</include>
+                                    <include>${pkgGroupId}:transport</include>
                                 </includes>
                             </artifactSet>
                             <filters>
                                 <filter>
-                                    <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
-                                    <includes>
-                                        <include>config/**</include>
-                                        <include>META-INF/services/**</include>
-                                        <include>plugins.txt</include>
-                                    </includes>
+                                    <artifact>${pkgGroupId}:elasticsearch-rest-client</artifact>
+                                    <excludes>
+                                        <exclude>**/*</exclude>
+                                    </excludes>
                                 </filter>
                                 <filter>
-                                    <artifact>org.apache.lucene:*</artifact>
-                                    <includes>
-                                        <include>META-INF/services/**</include>
-                                    </includes>
+                                    <artifact>${pkgGroupId}:elasticsearch-rest-client-sniffer</artifact>
+                                    <excludes>
+                                        <exclude>**/*</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:elasticsearch-rest-high-level-client</artifact>
+                                    <excludes>
+                                        <exclude>**/*</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:transport</artifact>
+                                    <excludes>
+                                        <exclude>**/*</exclude>
+                                    </excludes>
                                 </filter>
                             </filters>
-                            <transformers>
-                                <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
-                            </transformers>
                             <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
                             <createDependencyReducedPom>true</createDependencyReducedPom>
                         </configuration>
