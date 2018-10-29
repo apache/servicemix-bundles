@@ -73,6 +73,7 @@
        <module>guice-4.2.1</module>
        <module>htmlunit-2.33</module>
        <module>janino-3.0.10</module>
+       <module>janusgraph-core-0.3.1</module>
     </modules>
 
 </project>
