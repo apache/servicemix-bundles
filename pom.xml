@@ -82,6 +82,7 @@
        <module>lucene-queries-7.5.0</module>
        <module>lucene-queryparser-7.5.0</module>
        <module>lucene-sandbox-7.5.0</module>
+       <module>ognl-3.2.8</module>
     </modules>
 
 </project>
