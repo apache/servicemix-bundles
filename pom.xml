@@ -72,6 +72,7 @@
        <module>grpc-1.16.1</module>
        <module>guice-4.2.1</module>
        <module>htmlunit-2.33</module>
+       <module>janino-3.0.10</module>
     </modules>
 
 </project>
