@@ -84,6 +84,7 @@
        <module>lucene-sandbox-7.5.0</module>
        <module>ognl-3.2.8</module>
        <module>okio-2.1.0</module>
+       <module>influxdb-java-2.14</module>
     </modules>
 
 </project>
