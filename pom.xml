@@ -75,6 +75,7 @@
        <module>janino-3.0.10</module>
        <module>janusgraph-core-0.3.1</module>
        <module>jest-6.3.1</module>
+       <module>json4s-3.6.1</module>
     </modules>
 
 </project>
