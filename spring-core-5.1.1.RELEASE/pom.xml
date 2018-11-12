@@ -63,6 +63,7 @@
             net.sf.cglib.beans;version="[3,4)";resolution:=optional,
             sun.misc;resolution:=optional,
             org.apache.commons.logging;version="[1.1.1,2)";resolution:=optional,
+            org.apache.commons.logging.impl;version="[1.1.1,2)";resolution:=optional,
             org.apache.commons.codec.binary;resolution:=optional,
             org.apache.log4j;version="[1.2.15,2)";resolution:=optional,
             org.apache.log4j.xml;version="[1.2.15,2)";resolution:=optional,

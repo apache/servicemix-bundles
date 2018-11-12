@@ -43,6 +43,7 @@
 
     <modules>
         <module>saxon-9.9.0-1</module>
+        <module>spring-core-5.1.1.RELEASE</module>
     </modules>
 
 </project>
