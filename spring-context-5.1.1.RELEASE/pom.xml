@@ -152,6 +152,7 @@
             org.springframework.util;version="[${pkgVersion},5.2)",
             org.springframework.util.concurrent;version="[${pkgVersion},5.2)",
             org.springframework.util.xml;version="[${pkgVersion},5.2)",
+            org.springframework.util.function;version="[${pkgVersion},5.2)",
             org.w3c.dom;resolution:=optional,
             org.xml.sax;resolution:=optional
         </servicemix.osgi.import.pkg>
