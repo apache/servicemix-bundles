@@ -46,6 +46,7 @@
         <module>spring-core-5.1.1.RELEASE</module>
         <module>spring-context-5.1.1.RELEASE</module>
         <module>spring-aop-5.1.1.RELEASE</module>
+        <module>kafka_2.11-2.0.1</module>
     </modules>
 
 </project>
