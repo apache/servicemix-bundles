@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.kafka-clients</artifactId>
-    <version>2.0.0_2-SNAPSHOT</version>
+    <version>2.0.1_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -45,7 +45,7 @@
     <properties>
         <pkgGroupId>org.apache.kafka</pkgGroupId>
         <pkgArtifactId>kafka-clients</pkgArtifactId>
-        <pkgVersion>2.0.0</pkgVersion>
+        <pkgVersion>2.0.1</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.apache.kafka
         </servicemix.osgi.export.pkg>
