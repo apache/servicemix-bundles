@@ -42,7 +42,7 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
-        <module>saxon-9.9.0-1</module>
+        <module>saxon-9.9.0-2</module>
         <module>spring-core-5.1.1.RELEASE</module>
         <module>spring-context-5.1.1.RELEASE</module>
         <module>spring-aop-5.1.1.RELEASE</module>
