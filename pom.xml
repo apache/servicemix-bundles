@@ -49,6 +49,7 @@
         <module>kafka_2.11-2.0.1</module>
         <module>kafka-clients-2.0.1</module>
         <module>kafka-streams-2.0.1</module>
+        <module>fastjson-1.2.52</module>
     </modules>
 
 </project>
