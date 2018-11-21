@@ -53,6 +53,7 @@
         <module>jaxb-xjc-2.3.1</module>
         <module>jaxb-runtime-2.3.1</module>
         <module>kafka_2.11-2.1.0</module>
+        <module>kafka-clients-2.1.0</module>
     </modules>
 
 </project>
