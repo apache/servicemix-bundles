@@ -50,6 +50,8 @@
         <module>kafka-clients-2.0.1</module>
         <module>kafka-streams-2.0.1</module>
         <module>fastjson-1.2.52</module>
+        <module>jaxb-xjc-2.3.1</module>
+        <module>jaxb-runtime-2.3.1</module>
     </modules>
 
 </project>
