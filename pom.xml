@@ -70,6 +70,7 @@
         <module>spring-web-5.1.3.RELEASE</module>
         <module>spring-webmvc-5.1.3.RELEASE</module>
         <module>spring-websocket-5.1.3.RELEASE</module>
+        <module>guice-4.2.2</module>
     </modules>
 
 </project>
