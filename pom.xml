@@ -72,6 +72,7 @@
         <module>spring-websocket-5.1.3.RELEASE</module>
         <module>guice-4.2.2</module>
         <module>aws-java-sdk-1.11.461</module>
+        <module>azure-keyvault-core-1.1.2</module>
     </modules>
 
 </project>
