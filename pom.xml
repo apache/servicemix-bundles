@@ -74,6 +74,7 @@
         <module>aws-java-sdk-1.11.461</module>
         <module>azure-keyvault-core-1.1.2</module>
         <module>gae-1.9.69</module>
+        <module>cglib-3.2.9</module>
     </modules>
 
 </project>
