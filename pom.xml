@@ -78,6 +78,7 @@
         <module>fastjson-1.2.54</module>
         <module>braintree-java-2.89.0</module>
         <module>janino-3.0.11</module>
+        <module>hbase-2.1.1</module>
     </modules>
 
 </project>
