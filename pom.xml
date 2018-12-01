@@ -92,6 +92,7 @@
         <module>poi-4.0.0</module>
         <module>postgresql-42.2.5.jre7</module>
         <module>retrofit-2.5.0</module>
+        <module>splunk-1.6.5.0</module>
     </modules>
 
 </project>
