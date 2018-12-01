@@ -120,6 +120,22 @@
         <module>spring-data-commons-2.1.3.RELEASE</module>
         <module>spring-data-keyvalue-2.1.3.RELEASE</module>
         <module>spring-data-redis-2.1.3.RELEASE</module>
+        <module>spring-security-acl-5.1.2.RELEASE</module>
+        <module>spring-security-aspects-5.1.2.RELEASE</module>
+        <module>spring-security-cas-5.1.2.RELEASE</module>
+        <module>spring-security-config-5.1.2.RELEASE</module>
+        <module>spring-security-core-5.1.2.RELEASE</module>
+        <module>spring-security-crypto-5.1.2.RELEASE</module>
+        <module>spring-security-data-5.1.2.RELEASE</module>
+        <module>spring-security-ldap-5.1.2.RELEASE</module>
+        <module>spring-security-messaging-5.1.2.RELEASE</module>
+        <module>spring-security-oauth2-client-5.1.2.RELEASE</module>
+        <module>spring-security-oauth2-core-5.1.2.RELEASE</module>
+        <module>spring-security-oauth2-jose-5.1.2.RELEASE</module>
+        <module>spring-security-remoting-5.1.2.RELEASE</module>
+        <module>spring-security-taglibs-5.1.2.RELEASE</module>
+        <module>spring-security-test-5.1.2.RELEASE</module>
+        <module>spring-security-web-5.1.2.RELEASE</module>
     </modules>
 
 </project>
