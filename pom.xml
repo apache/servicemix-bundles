@@ -84,6 +84,7 @@
         <module>hystrix-1.5.18</module>
         <module>hystrix-event-stream-1.5.18</module>
         <module>hystrix-serialization-1.5.18</module>
+        <module>commons-compiler-3.0.11</module>
     </modules>
 
 </project>
