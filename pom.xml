@@ -90,6 +90,7 @@
         <module>neo4j-3.5.0</module>
         <module>okhttp-3.12.0</module>
         <module>poi-4.0.0</module>
+        <module>postgresql-42.2.5.jre7</module>
     </modules>
 
 </project>
