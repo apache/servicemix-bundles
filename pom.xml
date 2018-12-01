@@ -93,6 +93,7 @@
         <module>postgresql-42.2.5.jre7</module>
         <module>retrofit-2.5.0</module>
         <module>splunk-1.6.5.0</module>
+        <module>libphonenumber-8.10.1</module>
     </modules>
 
 </project>
