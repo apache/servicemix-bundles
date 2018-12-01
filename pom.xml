@@ -80,6 +80,7 @@
         <module>janino-3.0.11</module>
         <module>hbase-2.1.1</module>
         <module>conscrypt-openjdk-uber-1.4.1</module>
+        <module>json4s-3.6.2</module>
     </modules>
 
 </project>
