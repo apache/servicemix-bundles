@@ -29,8 +29,8 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.hystrix-serialization</artifactId>
-    <version>1.5.12_2-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.hystrix</artifactId>
+    <version>1.5.18_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -39,19 +39,31 @@
         <connection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://git-wip-us.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>com.netflix.hystrix</pkgGroupId>
-        <pkgArtifactId>hystrix-serialization</pkgArtifactId>
-        <pkgVersion>1.5.12</pkgVersion>
+        <pkgArtifactId>hystrix-core</pkgArtifactId>
+        <pkgVersion>1.5.18</pkgVersion>
         <servicemix.osgi.export.pkg>
-            com.netflix.hystrix.serial
+            com.netflix.hystrix
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            com.fasterxml.jackson.core;version="[2.5,3)";resolution:=optional
+            javax.management,
+            javax.sql;resolution:=optional,
+            org.apache.commons.configuration*;resolution:=optional,
+            org.junit;resolution:=optional,
+            org.slf4j;resolution:=optional,
+            sun.misc;resolution:=optional,
+            org.HdrHistogram;resolution:=optional,
+            rx*
         </servicemix.osgi.import.pkg>
+        <servicemix.osgi.private.pkg>
+            com.netflix.config*
+        </servicemix.osgi.private.pkg>
+        <servicemix.spi.consumer>
+            *
+        </servicemix.spi.consumer>
     </properties>
 
     <dependencies>
@@ -59,6 +71,12 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-api</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <!-- sources -->
