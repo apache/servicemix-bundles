@@ -94,6 +94,10 @@
         <module>retrofit-2.5.0</module>
         <module>splunk-1.6.5.0</module>
         <module>libphonenumber-8.10.1</module>
+        <module>spring-ws-core-3.0.4.RELEASE</module>
+        <module>spring-ws-security-3.0.4.RELEASE</module>
+        <module>spring-ws-support-3.0.4.RELEASE</module>
+        <module>spring-ws-test-3.0.4.RELEASE</module>
     </modules>
 
 </project>
