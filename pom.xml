@@ -87,6 +87,7 @@
         <module>commons-compiler-3.0.11</module>
         <module>jruby-9.2.4.1</module>
         <module>jsch-0.1.55</module>
+        <module>neo4j-3.5.0</module>
     </modules>
 
 </project>

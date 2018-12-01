@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.neo4j</artifactId>
-    <version>3.2.1_2-SNAPSHOT</version>
+    <version>3.5.0_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: neo4j</name>
     <description>
@@ -42,12 +42,11 @@
         <connection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://git-wip-us.apache.org/repos/asf?p=servicemix-bundles.git</url>
-      <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>org.neo4j</pkgGroupId>
-        <pkgVersion>3.2.1</pkgVersion>
+        <pkgVersion>3.5.0</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.neo4j
         </servicemix.osgi.export.pkg>
