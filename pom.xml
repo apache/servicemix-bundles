@@ -89,6 +89,7 @@
         <module>jsch-0.1.55</module>
         <module>neo4j-3.5.0</module>
         <module>okhttp-3.12.0</module>
+        <module>poi-4.0.0</module>
     </modules>
 
 </project>
