@@ -140,6 +140,8 @@
         <module>thymeleaf-3.0.11.RELEASE</module>
         <module>xstream-1.4.11</module>
         <module>xstream-1.4.11-java8</module>
+        <module>elasticsearch-6.5.1</module>
+        <module>elasticsearch-client-6.5.1</module>
     </modules>
 
 </project>
