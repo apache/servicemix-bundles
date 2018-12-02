@@ -136,6 +136,7 @@
         <module>spring-security-taglibs-5.1.2.RELEASE</module>
         <module>spring-security-test-5.1.2.RELEASE</module>
         <module>spring-security-web-5.1.2.RELEASE</module>
+        <module>spring-xml-3.0.4.RELEASE</module>
     </modules>
 
 </project>
