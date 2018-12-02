@@ -138,6 +138,8 @@
         <module>spring-security-web-5.1.2.RELEASE</module>
         <module>spring-xml-3.0.4.RELEASE</module>
         <module>thymeleaf-3.0.11.RELEASE</module>
+        <module>xstream-1.4.11</module>
+        <module>xstream-1.4.11-java8</module>
     </modules>
 
 </project>
