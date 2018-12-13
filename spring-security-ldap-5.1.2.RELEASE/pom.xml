@@ -49,8 +49,9 @@
             org.springframework.security.ldap
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            com.unboundid.ldap.listener*;resolution:=optional,
+            com.unboundid.ldap*;resolution:=optional,
             org.apache.directory*;resolution:=optional,
+            netscape.ldap*;resolution:=optional, 
             *
         </servicemix.osgi.import.pkg>
     </properties>
