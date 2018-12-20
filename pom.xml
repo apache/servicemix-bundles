@@ -60,6 +60,7 @@
       <module>spring-security-web-5.1.2.RELEASE</module>
       <module>elasticsearch-6.2.4</module>
       <module>elasticsearch-client-6.2.4</module>
+      <module>poi-4.0.0</module>
     </modules>
 
 </project>
