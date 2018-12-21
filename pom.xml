@@ -67,6 +67,11 @@
       <module>spring-data-neo4j-3.4.6.RELEASE</module>
       <module>solr-solrj-7.6.0</module>
       <module>ognl-3.2.10</module>
+      <module>lucene-7.6.0</module>
+      <module>lucene-analyzers-common-7.6.0</module>
+      <module>lucene-queries-7.6.0</module>
+      <module>lucene-queryparser-7.6.0</module>
+      <module>lucene-sandbox-7.6.0</module>
     </modules>
 
 </project>
