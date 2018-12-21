@@ -62,6 +62,7 @@
       <module>elasticsearch-client-6.2.4</module>
       <module>poi-4.0.0</module>
       <module>aws-java-sdk-1.11.469</module>
+      <module>azure-keyvault-core-1.2.0</module>
     </modules>
 
 </project>
