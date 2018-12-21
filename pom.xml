@@ -75,6 +75,7 @@
       <module>libphonenumber-8.10.2</module>
       <module>jedis-3.0.0</module>
       <module>grpc-1.17.1</module>
+      <module>gae-1.9.70</module>
     </modules>
 
 </project>

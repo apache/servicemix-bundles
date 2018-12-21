@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.gae</artifactId>
-    <version>1.9.69_2-SNAPSHOT</version>
+    <version>1.9.70_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: Google App Engine (GAE)</name>
     <description>This bundle wraps Google App Engine (GAE) ${pkgVersion} API jar files.</description>
@@ -39,12 +39,11 @@
         <connection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://git-wip-us.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>com.google.appengine</pkgGroupId>
-        <pkgVersion>1.9.69</pkgVersion>
+        <pkgVersion>1.9.70</pkgVersion>
         <servicemix.osgi.export>
             com.google.appengine.api*;version=${pkgVersion};-split-package:=merge-first,
             com.google.apphosting.api*;version=${pkgVersion};-split-package:=merge-first,
@@ -73,12 +72,6 @@
             <artifactId>appengine-api-1.0-sdk</artifactId>
             <version>${pkgVersion}</version>
         </dependency>
-        <dependency>
-            <groupId>${pkgGroupId}</groupId>
-            <artifactId>appengine-api-labs</artifactId>
-            <version>${pkgVersion}</version>
-        </dependency>
-
         <!-- sources -->
         <!-- Not available on Central
         <dependency>
@@ -113,7 +106,6 @@
                             <artifactSet>
                                 <includes>
                                     <include>${pkgGroupId}:appengine-api-1.0-sdk</include>
-                                    <include>${pkgGroupId}:appengine-api-labs</include>
                                 </includes>
                             </artifactSet>
                             <filters>
@@ -121,17 +113,6 @@
                                     <artifact>${pkgGroupId}:appengine-api-1.0-sdk</artifact>
                                     <includes>
                                         <include>META-INF/**/*</include>
-                                    </includes>
-                                </filter>
-                                <filter>
-                                    <artifact>${pkgGroupId}:appengine-api-labs</artifact>
-                                    <includes>
-                                        <include>**/*.gif</include>
-                                        <include>**/*.css</include>
-                                        <include>**/*.js</include>
-                                        <include>**/*.html</include>
-                                        <include>**/*.so</include>
-                                        <include>**/*.xml</include>
                                     </includes>
                                 </filter>
                             </filters>
