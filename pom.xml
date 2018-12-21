@@ -74,6 +74,7 @@
       <module>lucene-sandbox-7.6.0</module>
       <module>libphonenumber-8.10.2</module>
       <module>jedis-3.0.0</module>
+      <module>grpc-1.17.1</module>
     </modules>
 
 </project>
