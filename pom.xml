@@ -63,6 +63,7 @@
       <module>poi-4.0.0</module>
       <module>aws-java-sdk-1.11.469</module>
       <module>azure-keyvault-core-1.2.0</module>
+      <module>conscrypt-openjdk-uber-1.4.2</module>
     </modules>
 
 </project>
