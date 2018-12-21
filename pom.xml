@@ -73,6 +73,7 @@
       <module>lucene-queryparser-7.6.0</module>
       <module>lucene-sandbox-7.6.0</module>
       <module>libphonenumber-8.10.2</module>
+      <module>jedis-3.0.0</module>
     </modules>
 
 </project>
