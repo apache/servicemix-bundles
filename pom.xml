@@ -65,6 +65,7 @@
       <module>azure-keyvault-core-1.2.0</module>
       <module>conscrypt-openjdk-uber-1.4.2</module>
       <module>spring-data-neo4j-3.4.6.RELEASE</module>
+      <module>solr-solrj-7.6.0</module>
     </modules>
 
 </project>
