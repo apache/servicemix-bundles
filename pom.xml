@@ -81,6 +81,7 @@
       <module>elasticsearch-client-6.5.3</module>
       <module>braintree-java-2.90.0</module>
       <module>poi-4.0.1</module>
+      <module>jruby-9.2.5.0</module>
     </modules>
 
 </project>
