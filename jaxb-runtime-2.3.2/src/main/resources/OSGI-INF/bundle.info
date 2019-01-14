@@ -1,0 +1,28 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    The goal of the JAXB project is to develop and evolve the code base for the Reference of JAXB, the Java Architecture
+    for XML Binding. The JAXB specification is developed through the Java Community Process following the process
+    described at jcp.org. This process involves an Expert Group with a lead that is responsible for delivering the
+    specification, a reference implementation (RI) and a Technology Compatibility Kit (TCK). The primary goal of an RI
+    is to support the development of the specification and to validate it. Specific RIs can have additional goals;
+    the JAXB RI is a production-quality implementation that is used directly in a number of products by Oracle and
+    other vendors.
+
+    The JAXB expert group has wide industry participation with Oracle as the EG lead. The initial specification
+    (JAXB 1.0) was JSR-31 and was released in March 2003.
+
+    The next versions of the spec (JAXB 2.0/2.1/2.2/2.3) are being developed as JSR-222; this release addresses a number
+    of additional requirements in the area, and increases the synergy between the JAXB and JAX-WS specifications.
+
+    The supported standards are:
+        * JAXB 2.0/2.1/2.2/2.3
+        * W3C XML Schema
+        * XML DTD
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://jaxb.java.net/\u001B[0m
