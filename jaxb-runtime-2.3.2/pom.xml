@@ -53,6 +53,8 @@
               <artifactSet>
                 <includes>
                   <include>${pkgGroupId}:${pkgArtifactId}</include>
+                  <include>${pkgGroupId}:txw2</include>
+                  <include>com.sun.istack:istack-commons-runtime</include>
                 </includes>
               </artifactSet>
               <filters>
@@ -77,12 +79,34 @@
       <artifactId>${pkgArtifactId}</artifactId>
       <version>${pkgVersion}</version>
     </dependency>
+    <dependency>
+      <groupId>${pkgGroupId}</groupId>
+      <artifactId>txw2</artifactId>
+      <version>${pkgVersion}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.sun.istack</groupId>
+      <artifactId>istack-commons-runtime</artifactId>
+      <version>3.0.7</version>
+    </dependency>
 
     <!-- sources -->
     <dependency>
       <groupId>${pkgGroupId}</groupId>
       <artifactId>${pkgArtifactId}</artifactId>
       <version>${pkgVersion}</version>
+      <classifier>sources</classifier>
+    </dependency>
+    <dependency>
+      <groupId>${pkgGroupId}</groupId>
+      <artifactId>txw2</artifactId>
+      <version>${pkgVersion}</version>
+      <classifier>sources</classifier>
+    </dependency>
+    <dependency>
+      <groupId>com.sun.istack</groupId>
+      <artifactId>istack-commons-runtime</artifactId>
+      <version>3.0.7</version>
       <classifier>sources</classifier>
     </dependency>
   </dependencies>
@@ -115,11 +139,11 @@
             javax.xml.stream*;resolution:=optional,
             org.jvnet.fastinfoset*;resolution:=optional,
             org.jvnet.staxex*;resolution:=optional,
-            com.sun.istack*;resolution:=optional,
-            com.sun.xml.txw2*;resolution:=optional
     </servicemix.osgi.import.pkg>
     <servicemix.osgi.export.pkg>
-            com.sun.xml.bind
+            com.sun.xml.bind*,
+            com.sun.xml.txw2*,
+            com.sun.istack*
     </servicemix.osgi.export.pkg>
     <pkgArtifactId>
             jaxb-runtime
