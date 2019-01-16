@@ -68,7 +68,7 @@
             org.springframework.context*,
             org.springframework.core*,
             org.springframework.dao*,
-            org.springframework.jdbc*,
+            org.springframework.jdbc*;resolution:=optional,
             org.springframework.transaction,
             org.springframework.transaction.support,
             org.springframework.orm*;resolution:=optional,
