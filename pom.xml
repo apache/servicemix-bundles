@@ -84,6 +84,7 @@
         <module>xstream-1.4.11.1</module>
         <module>gae-1.9.71</module>
         <module>chunk-templates-3.5.0</module>
+        <module>okhttp-3.12.1</module>
     </modules>
 
 </project>
