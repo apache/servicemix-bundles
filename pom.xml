@@ -83,6 +83,7 @@
         <module>fastinfoset-1.2.16</module>
         <module>xstream-1.4.11.1</module>
         <module>gae-1.9.71</module>
+        <module>chunk-templates-3.5.0</module>
     </modules>
 
 </project>
