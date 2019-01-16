@@ -44,6 +44,7 @@
     <modules>
         <module>jaxb-xjc-2.3.2</module>
         <module>jaxb-runtime-2.3.2</module>
+        <module>facebook4j-2.4.13</module>
     </modules>
 
 </project>
