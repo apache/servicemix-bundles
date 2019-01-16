@@ -140,6 +140,7 @@
             org.springframework.beans.factory.support;version="[${pkgVersion},5.2)",
             org.springframework.context;version="[${pkgVersion},5.2)",
             org.springframework.context.weaving;version="[${pkgVersion},5.2)",
+			org.springframework.context.index;version="[${pkgVersion},5.2)",
             org.springframework.core;version="[${pkgVersion},5.2)",
             org.springframework.core.io;version="[${pkgVersion},5.2)",
             org.springframework.core.io.support;version="[${pkgVersion},5.2)",
