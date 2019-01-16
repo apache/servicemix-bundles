@@ -49,7 +49,7 @@
             org.springframework.security.ldap
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            com.unboundid.ldap*;resolution:=optional,
+            com.unboundid*;resolution:=optional,
             org.apache.directory*;resolution:=optional,
             netscape.ldap*;resolution:=optional, 
             *

@@ -50,6 +50,10 @@
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             !org.springframework.security.web*,
+			org.reactivestreams;resolution:=optional,
+			org.springframework.jdbc*;resolution:=optional,
+			org.springframework.web.reactive*;resolution:=optional,
+			reactor.*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
     </properties>

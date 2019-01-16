@@ -49,6 +49,12 @@
             org.springframework.security
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
+			net.sf.ehcache;resolution:="optional",
+			org.aspectj.*;resolution:="optional",
+			org.bouncycastle.*;resolution:="optional",
+			org.reactivestreams;resolution:="optional",
+			reactor.*;resolution:="optional",
+			org.springframework.jdbc.*;resolution:="optional",
             *
         </servicemix.osgi.import.pkg>
     </properties>
