@@ -88,6 +88,7 @@
         <module>gremlin-driver-3.4.0</module>
         <module>hbase-2.1.2</module>
         <module>json4s-3.6.3</module>
+        <module>neo4j-3.5.1</module>
     </modules>
 
 </project>
