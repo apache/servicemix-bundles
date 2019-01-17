@@ -90,6 +90,7 @@
         <module>json4s-3.6.3</module>
         <module>neo4j-3.5.1</module>
         <module>stringtemplate-4.1</module>
+        <module>aws-java-sdk-1.11.483</module>
     </modules>
 
 </project>
