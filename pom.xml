@@ -87,6 +87,7 @@
         <module>okhttp-3.12.1</module>
         <module>gremlin-driver-3.4.0</module>
         <module>hbase-2.1.2</module>
+        <module>json4s-3.6.3</module>
     </modules>
 
 </project>
