@@ -91,6 +91,7 @@
         <module>neo4j-3.5.1</module>
         <module>stringtemplate-4.1</module>
         <module>aws-java-sdk-1.11.483</module>
+        <module>braintree-java-2.91.0</module>
     </modules>
 
 </project>
