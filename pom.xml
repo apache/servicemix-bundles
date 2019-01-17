@@ -89,6 +89,7 @@
         <module>hbase-2.1.2</module>
         <module>json4s-3.6.3</module>
         <module>neo4j-3.5.1</module>
+        <module>stringtemplate-4.1</module>
     </modules>
 
 </project>

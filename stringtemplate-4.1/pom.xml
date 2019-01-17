@@ -24,21 +24,27 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>11</version>
+        <version>13</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.stringtemplate</artifactId>
-    <version>4.0.8_2-SNAPSHOT</version>
+    <version>4.1_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
 
+    <scm>
+        <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
+        <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
+        <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
+  </scm>
+
     <properties>
         <pkgGroupId>org.antlr</pkgGroupId>
         <pkgArtifactId>ST4</pkgArtifactId>
-        <pkgVersion>4.0.8</pkgVersion>
+        <pkgVersion>4.1</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.stringtemplate
         </servicemix.osgi.export.pkg>
