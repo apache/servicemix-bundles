@@ -98,6 +98,8 @@
         <module>libphonenumber-8.10.3</module>
         <module>elasticsearch-6.4.3</module>
         <module>elasticsearch-client-6.4.3</module>
+        <module>elasticsearch-6.5.4</module>
+        <module>elasticsearch-client-6.5.4</module>
     </modules>
 
 </project>
