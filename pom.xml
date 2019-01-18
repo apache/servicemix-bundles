@@ -96,6 +96,8 @@
         <module>jedis-3.0.1</module>
         <module>qpid-6.3.3</module>
         <module>libphonenumber-8.10.3</module>
+        <module>elasticsearch-6.4.3</module>
+        <module>elasticsearch-client-6.4.3</module>
     </modules>
 
 </project>
