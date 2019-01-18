@@ -94,6 +94,7 @@
         <module>braintree-java-2.91.0</module>
         <module>grpc-1.18.0</module>
         <module>jedis-3.0.1</module>
+        <module>qpid-6.3.3</module>
     </modules>
 
 </project>
