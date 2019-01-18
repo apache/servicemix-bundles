@@ -53,11 +53,14 @@
 			org.aspectj.*;resolution:=optional,
 			org.openid4java.*;resolution:=optional,
 			org.springframework.jdbc.*;resolution:=optional,
+			org.springframework.ldap*;resolution:=optional,
 			org.springframework.messaging*;resolution:=optional,
 			org.springframework.web*;resolution:=optional,
+			org.springframework.security.ldap*;resolution:=optional,
 			org.springframework.security.messaging*;resolution:=optional,
 			org.springframework.security.oauth2*;resolution:=optional,
 			org.springframework.security.openid*;resolution:=optional,
+			org.springframework.security.web*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
     </properties>
