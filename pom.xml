@@ -95,6 +95,7 @@
         <module>grpc-1.18.0</module>
         <module>jedis-3.0.1</module>
         <module>qpid-6.3.3</module>
+        <module>libphonenumber-8.10.3</module>
     </modules>
 
 </project>
