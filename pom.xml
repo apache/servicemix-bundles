@@ -138,6 +138,10 @@
         <module>spring-webmvc-5.0.12.RELEASE</module>
         <module>spring-websocket-5.0.12.RELEASE</module>
         <module>spring-xml-3.0.6.RELEASE</module>
+        <module>spring-ws-core-3.0.6.RELEASE</module>
+        <module>spring-ws-security-3.0.6.RELEASE</module>
+        <module>spring-ws-support-3.0.6.RELEASE</module>
+        <module>spring-ws-test-3.0.6.RELEASE</module>
     </modules>
 
 </project>
