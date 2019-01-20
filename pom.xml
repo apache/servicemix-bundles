@@ -142,6 +142,9 @@
         <module>spring-ws-security-3.0.6.RELEASE</module>
         <module>spring-ws-support-3.0.6.RELEASE</module>
         <module>spring-ws-test-3.0.6.RELEASE</module>
+        <module>spring-data-commons-2.1.4.RELEASE</module>
+        <module>spring-data-keyvalue-2.1.4.RELEASE</module>
+        <module>spring-data-redis-2.1.4.RELEASE</module>
     </modules>
 
 </project>
