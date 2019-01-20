@@ -137,6 +137,7 @@
         <module>spring-web-5.0.12.RELEASE</module>
         <module>spring-webmvc-5.0.12.RELEASE</module>
         <module>spring-websocket-5.0.12.RELEASE</module>
+        <module>spring-xml-3.0.6.RELEASE</module>
     </modules>
 
 </project>
