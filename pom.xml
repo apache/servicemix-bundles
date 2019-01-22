@@ -145,6 +145,8 @@
         <module>spring-data-commons-2.1.4.RELEASE</module>
         <module>spring-data-keyvalue-2.1.4.RELEASE</module>
         <module>spring-data-redis-2.1.4.RELEASE</module>
+        <module>spring-batch-core-4.1.1.RELEASE</module>    
+        <module>spring-batch-infrastructure-4.1.1.RELEASE</module>
     </modules>
 
 </project>
