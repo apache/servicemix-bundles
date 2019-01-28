@@ -147,6 +147,7 @@
         <module>spring-data-redis-2.1.4.RELEASE</module>
         <module>spring-batch-core-4.1.1.RELEASE</module>    
         <module>spring-batch-infrastructure-4.1.1.RELEASE</module>
+        <module>c3p0-0.9.5.3</module>
     </modules>
 
 </project>
