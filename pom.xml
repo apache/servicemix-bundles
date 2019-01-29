@@ -148,6 +148,7 @@
         <module>spring-batch-core-4.1.1.RELEASE</module>    
         <module>spring-batch-infrastructure-4.1.1.RELEASE</module>
         <module>c3p0-0.9.5.3</module>
+        <module>dom4j-2.1.1</module>
     </modules>
 
 </project>
