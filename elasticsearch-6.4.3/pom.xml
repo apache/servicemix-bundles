@@ -45,14 +45,17 @@
         <pkgGroupId>org.elasticsearch</pkgGroupId>
         <pkgArtifactId>elasticsearch</pkgArtifactId>
         <pkgVersion>6.4.3</pkgVersion>
-        <servicemix.osgi.export.pkg>
-            org.elasticsearch
-        </servicemix.osgi.export.pkg>
+        <servicemix.osgi.export>
+            !org.elasticsearch.client*;
+            org.elasticsearch*;version="${pkgVersion}";-split-package:=merge-first    
+        </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
             !org.elasticsearch*,
+            !org.joda.time,
             !org.joda.convert,
             !org.locationtech.spatial4j*,
             !com.vividsolutions.jts.geom,
+            !org.apache.lucene*,
             com.google.common.collect,
             com.fasterxml.jackson.core;version="[2.8,4)",
             com.fasterxml.jackson.dataformat.yaml;version="[2.8,4)",
@@ -63,9 +66,9 @@
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
-            org.joda.time*,
+            org.joda.time*;-split-package:=merge-first,
             org.joda.convert*,
-            org.apache.lucene*,
+            org.apache.lucene*;-split-package:=merge-first,
             org.tartarus.snowball*,
             com.tdunning.math.stats,
             com.vividsolutions.jts.geom,
@@ -73,7 +76,7 @@
             joptsimple*,
             org.HdrHistogram,
             org.locationtech.spatial4j*,
-            META-INF.services.*
+            META-INF.services.*;-split-package:=merge-first
         </servicemix.osgi.private.pkg>
     </properties>
 
