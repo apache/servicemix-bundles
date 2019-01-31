@@ -153,6 +153,7 @@
         <module>dom4j-2.1.1</module>
         <module>saaj-impl-1.5.1</module>
         <module>saaj-impl-1.4.0</module>
+        <module>javax-el-impl-3.0.2</module>
     </modules>
 
 </project>
