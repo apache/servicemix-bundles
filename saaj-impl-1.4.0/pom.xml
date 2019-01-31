@@ -30,21 +30,21 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.saaj-impl</artifactId>
-    <version>1.5.1_1-SNAPSHOT</version>
+    <version>1.4.0_2-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
 
     <scm>
-        <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
-        <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
-        <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
+        <connection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</connection>
+        <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
+        <url>https://git-wip-us.apache.org/repos/asf?p=servicemix-bundles.git</url>
   </scm>
 
     <properties>
         <pkgGroupId>com.sun.xml.messaging.saaj</pkgGroupId>
         <pkgArtifactId>saaj-impl</pkgArtifactId>
-        <pkgVersion>1.5.1</pkgVersion>
+        <pkgVersion>1.4.0</pkgVersion>
         <servicemix.osgi.failok>true</servicemix.osgi.failok>
         <servicemix.osgi.export.pkg>
             com.sun.xml.messaging.saaj
