@@ -47,6 +47,7 @@
         <module>kafka-streams-2.1.1</module>
         <module>aws-java-sdk-core-1.11.496</module>
         <module>aws-java-sdk-s3-1.11.496</module>
+        <module>aws-java-sdk-1.11.496</module>
     </modules>
 
 </project>
