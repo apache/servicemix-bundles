@@ -47,6 +47,9 @@
         <module>kafka-streams-2.1.1</module>
         <module>aws-java-sdk-1.11.496</module>
         <module>digitalocean-api-client-2.17</module>
+        <module>spring-data-commons-2.1.5.RELEASE</module>
+        <module>spring-data-keyvalue-2.1.5.RELEASE</module>
+        <module>spring-data-redis-2.1.5.RELEASE</module>
     </modules>
 
 </project>
