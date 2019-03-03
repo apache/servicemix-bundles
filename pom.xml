@@ -76,6 +76,7 @@
         <module>influxdb-java-2.15</module>
         <module>okio-2.2.2</module>
         <module>libphonenumber-8.10.6</module>
+        <module>jruby-9.2.6.0</module>
     </modules>
 
 </project>
