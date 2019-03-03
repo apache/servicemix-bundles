@@ -71,6 +71,7 @@
         <module>spring-security-taglibs-5.1.4.RELEASE</module>
         <module>spring-security-test-5.1.4.RELEASE</module>
         <module>spring-security-web-5.1.4.RELEASE</module>
+        <module>conscrypt-openjdk-uber-2.0.0</module>
     </modules>
 
 </project>
