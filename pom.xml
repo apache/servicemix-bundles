@@ -72,6 +72,7 @@
         <module>spring-security-test-5.1.4.RELEASE</module>
         <module>spring-security-web-5.1.4.RELEASE</module>
         <module>conscrypt-openjdk-uber-2.0.0</module>
+        <module>solr-solrj-7.7.1</module>
     </modules>
 
 </project>
