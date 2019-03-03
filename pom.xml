@@ -54,6 +54,7 @@
         <module>spring-ws-security-3.0.7.RELEASE</module>
         <module>spring-ws-support-3.0.7.RELEASE</module>
         <module>spring-ws-test-3.0.7.RELEASE</module>
+        <module>spring-xml-3.0.7.RELEASE</module>
     </modules>
 
 </project>
