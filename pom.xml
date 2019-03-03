@@ -77,6 +77,8 @@
         <module>okio-2.2.2</module>
         <module>libphonenumber-8.10.6</module>
         <module>jruby-9.2.6.0</module>
+        <module>olingo-odata2-api-2.0.11</module>
+        <module>olingo-odata2-core-2.0.11</module>
     </modules>
 
 </project>
