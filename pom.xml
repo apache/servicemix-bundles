@@ -75,6 +75,7 @@
         <module>solr-solrj-7.7.1</module>
         <module>influxdb-java-2.15</module>
         <module>okio-2.2.2</module>
+        <module>libphonenumber-8.10.6</module>
     </modules>
 
 </project>
