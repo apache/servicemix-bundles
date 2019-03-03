@@ -80,6 +80,7 @@
         <module>olingo-odata2-api-2.0.11</module>
         <module>olingo-odata2-core-2.0.11</module>
         <module>mybatis-3.5.0</module>
+        <module>jt400-9.7</module>
     </modules>
 
 </project>
