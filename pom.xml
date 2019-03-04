@@ -89,6 +89,7 @@
         <module>htmlunit-2.34.0</module>
         <module>bcprov-jdk15on-1.61</module>
         <module>hbase-2.1.3</module>
+        <module>>bcpg-jdk15on-1.61</module>
     </modules>
 
 </project>
