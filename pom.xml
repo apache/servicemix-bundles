@@ -83,6 +83,7 @@
         <module>jt400-9.7</module>
         <module>hadoop-client-3.2.0</module>
         <module>commons-compiler-3.0.12</module>
+        <module>grpc-1.19.0</module>
     </modules>
 
 </project>
