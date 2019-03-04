@@ -97,6 +97,7 @@
         <module>lucene-queryparser-7.7.1</module>
         <module>lucene-sandbox-7.7.1</module>
         <module>fastjson-1.2.56</module>
+        <module>okhttp-3.13.1</module>
     </modules>
 
 </project>
