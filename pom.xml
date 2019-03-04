@@ -99,6 +99,7 @@
         <module>fastjson-1.2.56</module>
         <module>okhttp-3.13.1</module>
         <module>batik-1.11</module>
+        <module>json4s-3.6.5</module>
     </modules>
 
 </project>
