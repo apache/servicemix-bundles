@@ -85,6 +85,7 @@
         <module>commons-compiler-3.0.12</module>
         <module>grpc-1.19.0</module>
         <module>saxon-9.9.1-1</module>
+        <module>janino-3.0.12</module>
     </modules>
 
 </project>
