@@ -140,7 +140,7 @@
             org.springframework.beans.factory.support;version="[${pkgVersion},4.4)",
             org.springframework.context;version="[${pkgVersion},4.4)",
             org.springframework.context.weaving;version="[${pkgVersion},4.4)",
-            org.springframework.context.index;version="[${pkgVersion},4.4)",
+            org.springframework.context.index;version="[${pkgVersion},4.4)";resolution:=optional,
             org.springframework.core;version="[${pkgVersion},4.4)",
             org.springframework.core.io;version="[${pkgVersion},4.4)",
             org.springframework.core.io.support;version="[${pkgVersion},4.4)",
