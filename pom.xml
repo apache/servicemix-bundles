@@ -45,6 +45,7 @@
       <module>solr-solrj-8.0.0</module>
       <module>gremlin-driver-3.4.1</module>
       <module>libphonenumber-8.10.8</module>
+      <module>aws-java-sdk-1.11.524</module>
     </modules>
 
 </project>
