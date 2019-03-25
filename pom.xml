@@ -53,6 +53,7 @@
       <module>kafka_2.11-2.2.0</module>
       <module>neo4j-3.5.3</module>
       <module>saxon-9.9.1-2</module>
+      <module>c3p0-0.9.5.4</module>
     </modules>
 
 </project>
