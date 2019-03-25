@@ -52,6 +52,7 @@
       <module>kafka-streams-2.2.0</module>
       <module>kafka_2.11-2.2.0</module>
       <module>neo4j-3.5.3</module>
+      <module>saxon-9.9.1-2</module>
     </modules>
 
 </project>
