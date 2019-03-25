@@ -42,6 +42,7 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+      <module>solr-solrj-8.0.0</module>
     </modules>
 
 </project>
