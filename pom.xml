@@ -48,6 +48,9 @@
       <module>aws-java-sdk-1.11.524</module>
       <module>mustache-compiler-0.9.6</module>
       <module>libthrift-0.12.0</module>
+      <module>kafka-clients-2.2.0</module>
+      <module>kafka-streams-2.2.0</module>
+      <module>kafka_2.11-2.2.0</module>
     </modules>
 
 </project>
