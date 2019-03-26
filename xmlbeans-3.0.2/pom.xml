@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <!--
+
+        Licensed to the Apache Software Foundation (ASF) under one or more
+        contributor license agreements.  See the NOTICE file distributed with
+        this work for additional information regarding copyright ownership.
+        The ASF licenses this file to You under the Apache License, Version 2.0
+        (the "License"); you may not use this file except in compliance with
+        the License.  You may obtain a copy of the License at
+
+           http://www.apache.org/licenses/LICENSE-2.0
+
+        Unless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an "AS IS" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License.
+    -->
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.apache.servicemix.bundles</groupId>
+        <artifactId>bundles-pom</artifactId>
+        <version>13</version>
+        <relativePath>../bundles-pom/pom.xml</relativePath>
+    </parent>
+
+    <groupId>org.apache.servicemix.bundles</groupId>
+    <artifactId>org.apache.servicemix.bundles.xmlbeans</artifactId>
+    <version>3.0.2_1-SNAPSHOT</version>
+    <packaging>bundle</packaging>
+    <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
+    <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
+
+    <properties>
+        <pkgGroupId>org.apache.xmlbeans</pkgGroupId>
+        <pkgArtifactId>xmlbeans</pkgArtifactId>
+        <pkgVersion>3.0.2</pkgVersion>
+        <servicemix.osgi.export>
+            org.apache.xmlbeans.impl.common;version=${pkgVersion};-split-package:=merge-first,
+            org.apache.xmlbeans.impl.values;version=${pkgVersion};-split-package:=merge-first,
+            org.apache.xmlbeans.impl.schema;version=${pkgVersion};-split-package:=merge-first,
+            org.apache.xmlbeans.impl.xb.xmlschema;version=${pkgVersion};-split-package:=merge-first,
+            org.apache.xmlbeans.impl.xb.xsdschema;version=${pkgVersion};-split-package:=merge-first,
+            org.apache.xmlbeans.impl.regex;version=${pkgVersion};-split-package:=merge-first,
+            !org.apache.xmlbeans.impl*,
+            org.apache.xmlbeans*;version=${pkgVersion};-split-package:=merge-first
+        </servicemix.osgi.export>
+        <servicemix.osgi.import.pkg>
+            com.sun.javadoc;resolution:=optional,
+            com.sun.tools.javadoc;resolution:=optional,
+            org.apache.tools.ant*;resolution:=optional;version="[1.7,2)",
+            *
+        </servicemix.osgi.import.pkg>
+        <servicemix.osgi.private.pkg>
+            repackage.*;-split-package:=merge-first,
+            <!--org.apache.xml.resolver.*;-split-package:=merge-first-->
+            org.apache.xmlbeans.impl*;-split-package:=merge-first,
+            schemaorg_apache_xmlbeans*;version=${pkgVersion};-split-package:=merge-first
+        </servicemix.osgi.private.pkg>
+        <servicemix.osgi.failok>true</servicemix.osgi.failok>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <optional>false</optional>
+        </dependency>
+
+        <dependency>
+            <groupId>net.sf.saxon</groupId>
+            <artifactId>Saxon-B</artifactId>
+            <version>9.0</version>
+            <optional>true</optional>
+        </dependency>
+
+        <!-- sources -->
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <resources>
+            <resource>
+                <directory>${project.build.directory}/xml-commons-resolver-1.1/resolver</directory>
+                <excludes><exclude>META-INF/*</exclude></excludes>
+            </resource>
+            <resource>
+                <directory>${project.build.directory}/xml-commons-resolver-1.1/src</directory>
+                <excludes><exclude>manifest.resolver</exclude></excludes>
+            </resource>
+        </resources>
+
+        <plugins>
+            <plugin>
+                <groupId>com.googlecode.maven-download-plugin</groupId>
+                <artifactId>download-maven-plugin</artifactId>
+                <version>1.4.1</version>
+                <executions>
+                    <execution>
+                        <!-- the wget goal actually binds itself to this phase by default -->
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>wget</goal>
+                        </goals>
+                        <configuration>
+                            <url>http://archive.apache.org/dist/xml/commons/binaries/xml-commons-resolver-1.1.zip</url>
+                            <unpack>true</unpack>
+                            <!-- default target location, just to demonstrate the parameter -->
+                            <outputDirectory>${project.build.directory}</outputDirectory>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <version>1.8</version>
+                <executions>
+                    <execution>
+                        <phase>process-resources</phase>
+                        <configuration>
+                            <target>
+                                <unzip src="${project.build.directory}/xml-commons-resolver-1.1/resolver.jar"
+                                       dest="${project.build.directory}/xml-commons-resolver-1.1/resolver" />
+                            </target>
+                        </configuration>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <artifactSet>
+                                <includes>
+                                    <include>${pkgGroupId}:${pkgArtifactId}</include>
+                                </includes>
+                            </artifactSet>
+                            <filters>
+                                <filter>
+                                    <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                            </filters>
+                            <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
+                            <createDependencyReducedPom>true</createDependencyReducedPom>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
