@@ -55,6 +55,11 @@
       <module>saxon-9.9.1-2</module>
       <module>c3p0-0.9.5.4</module>
       <module>htmlunit-2.34.1</module>
+      <module>lucene-8.0.0</module>
+      <module>lucene-analyzers-common-8.0.0</module>
+      <module>lucene-queries-8.0.0</module>
+      <module>lucene-queryparser-8.0.0</module>
+      <module>lucene-sandbox-8.0.0</module>
     </modules>
 
 </project>
