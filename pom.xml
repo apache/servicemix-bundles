@@ -42,6 +42,7 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+      <module>bundles-pom</module>
       <module>solr-solrj-8.0.0</module>
       <module>gremlin-driver-3.4.1</module>
       <module>libphonenumber-8.10.8</module>
