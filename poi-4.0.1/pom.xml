@@ -105,6 +105,9 @@
             org.w3.x2000.x09*;-split-package:=merge-first,
             schemaorg_apache_xmlbeans*;-split-package:=merge-first
         </servicemix.osgi.private.pkg>
+        <servicemix.osgi.dynamicimport.pkg>
+            schemaorg_apache_xmlbeans.*
+        </servicemix.osgi.dynamicimport.pkg>
     </properties>
 
     <dependencies>
