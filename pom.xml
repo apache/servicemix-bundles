@@ -44,6 +44,7 @@
     <modules>
         <module>fastjson-1.2.57</module>
         <module>spring-batch-core-4.1.2.RELEASE</module>
+        <module>spring-batch-infrastructure-4.1.2.RELEASE</module>
     </modules>
 
 </project>

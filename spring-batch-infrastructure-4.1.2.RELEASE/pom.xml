@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.spring-batch-infrastructure</artifactId>
-    <version>4.1.1.RELEASE_2-SNAPSHOT</version>
+    <version>4.1.2.RELEASE_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
 
@@ -44,7 +44,7 @@
     <properties>
         <pkgGroupId>org.springframework.batch</pkgGroupId>
         <pkgArtifactId>spring-batch-infrastructure</pkgArtifactId>
-        <pkgVersion>4.1.1.RELEASE</pkgVersion>
+        <pkgVersion>4.1.2.RELEASE</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.springframework.batch
         </servicemix.osgi.export.pkg>
