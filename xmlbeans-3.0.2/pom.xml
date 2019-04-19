@@ -54,7 +54,8 @@
             org.apache.xmlbeans.impl.xb.xsdschema;version=${pkgVersion};-split-package:=merge-first,
             org.apache.xmlbeans.impl.regex;version=${pkgVersion};-split-package:=merge-first,
             !org.apache.xmlbeans.impl*,
-            org.apache.xmlbeans*;version=${pkgVersion};-split-package:=merge-first
+            org.apache.xmlbeans*;version=${pkgVersion};-split-package:=merge-first,
+            schemaorg_apache_xmlbeans*;version=${pkgVersion};-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
             com.sun.javadoc;resolution:=optional,
@@ -65,8 +66,7 @@
         <servicemix.osgi.private.pkg>
             repackage.*;-split-package:=merge-first,
             <!--org.apache.xml.resolver.*;-split-package:=merge-first-->
-            org.apache.xmlbeans.impl*;-split-package:=merge-first,
-            schemaorg_apache_xmlbeans*;version=${pkgVersion};-split-package:=merge-first
+            org.apache.xmlbeans.impl*;-split-package:=merge-first
         </servicemix.osgi.private.pkg>
         <servicemix.osgi.failok>true</servicemix.osgi.failok>
     </properties>
