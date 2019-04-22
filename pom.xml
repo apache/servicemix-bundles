@@ -74,6 +74,7 @@
         <module>spring-data-commons-2.1.6.RELEASE</module>
         <module>spring-data-keyvalue-2.1.6.RELEASE</module>
         <module>spring-data-redis-2.1.6.RELEASE</module>
+        <module>jruby-9.2.7.0</module>
     </modules>
 
 </project>
