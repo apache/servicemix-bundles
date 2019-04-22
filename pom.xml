@@ -53,6 +53,7 @@
         <module>kafka_2.12-2.2.0</module>
         <module>htmlunit-2.35.0</module>
         <module>conscrypt-openjdk-uber-2.1.0</module>
+        <module>libphonenumber-8.10.10</module>
     </modules>
 
 </project>
