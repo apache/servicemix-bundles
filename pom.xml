@@ -70,6 +70,7 @@
         <module>spring-security-taglibs-5.1.5.RELEASE</module>
         <module>spring-security-test-5.1.5.RELEASE</module>
         <module>spring-security-web-5.1.5.RELEASE</module>
+        <module>braintree-java-2.93.0</module>
     </modules>
 
 </project>
