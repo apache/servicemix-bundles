@@ -47,6 +47,10 @@
         <module>spring-batch-infrastructure-4.1.2.RELEASE</module>
         <module>poi-4.0.1</module>
         <module>xmlbeans-3.0.2</module>
+        <module>kafka_2.12-1.1.1</module>
+        <module>kafka_2.12-2.0.1</module>
+        <module>kafka_2.12-2.1.1</module>
+        <module>kafka_2.12-2.2.0</module>
     </modules>
 
 </project>
