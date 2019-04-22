@@ -71,6 +71,9 @@
         <module>spring-security-test-5.1.5.RELEASE</module>
         <module>spring-security-web-5.1.5.RELEASE</module>
         <module>braintree-java-2.93.0</module>
+        <module>spring-data-commons-2.1.6.RELEASE</module>
+        <module>spring-data-keyvalue-2.1.6.RELEASE</module>
+        <module>spring-data-redis-2.1.6.RELEASE</module>
     </modules>
 
 </project>
