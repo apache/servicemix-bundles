@@ -24,13 +24,13 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>13</version>
+        <version>14</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.quartz</artifactId>
-    <version>2.3.0_3-SNAPSHOT</version>
+    <version>2.3.1_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: quartz</name>
     <description>This OSGi bundle wraps quartz, quartz-jobs ${pkgVersion} jar file.</description>
@@ -39,12 +39,11 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>org.quartz-scheduler</pkgGroupId>
-        <pkgVersion>2.3.0</pkgVersion>
+        <pkgVersion>2.3.1</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.quartz
         </servicemix.osgi.export.pkg>

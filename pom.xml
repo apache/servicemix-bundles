@@ -77,6 +77,7 @@
         <module>jruby-9.2.7.0</module>
         <module>aws-java-sdk-1.11.537</module>
         <module>jt400-9.8</module>
+        <module>quartz-2.3.1</module>
     </modules>
 
 </project>
