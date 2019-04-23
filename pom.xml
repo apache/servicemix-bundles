@@ -75,6 +75,7 @@
         <module>spring-data-keyvalue-2.1.6.RELEASE</module>
         <module>spring-data-redis-2.1.6.RELEASE</module>
         <module>jruby-9.2.7.0</module>
+        <module>aws-java-sdk-1.11.537</module>
     </modules>
 
 </project>
