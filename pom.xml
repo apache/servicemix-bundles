@@ -120,6 +120,7 @@
         <module>gae-1.9.73</module>
         <module>sparkjava-core-2.9.0</module>
         <module>hbase-2.1.4</module>
+        <module>docker-java-3.1.2</module>
     </modules>
 
 </project>
