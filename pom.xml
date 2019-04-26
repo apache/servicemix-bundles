@@ -116,6 +116,7 @@
         <module>spring-web-5.0.13.RELEASE</module>
         <module>spring-webmvc-5.0.13.RELEASE</module>
         <module>spring-websocket-5.0.13.RELEASE</module>
+        <module>grpc-1.20.0</module>
     </modules>
 
 </project>
