@@ -121,6 +121,7 @@
         <module>sparkjava-core-2.9.0</module>
         <module>hbase-2.1.4</module>
         <module>docker-java-3.1.2</module>
+        <module>okhttp-3.14.1</module>
     </modules>
 
 </project>
