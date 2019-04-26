@@ -118,6 +118,7 @@
         <module>spring-websocket-5.0.13.RELEASE</module>
         <module>grpc-1.20.0</module>
         <module>gae-1.9.73</module>
+        <module>sparkjava-core-2.9.0</module>
     </modules>
 
 </project>
