@@ -143,6 +143,7 @@
         <module>azure-storage-8.2.0</module>
         <module>aspectj-1.9.3</module>
         <module>antisamy-1.5.8</module>
+        <module>neo4j-3.5.4</module>
     </modules>
 
 </project>
