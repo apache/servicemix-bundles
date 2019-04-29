@@ -141,6 +141,7 @@
         <module>spring-webmvc-5.1.6.RELEASE</module>
         <module>spring-websocket-5.1.6.RELEASE</module>
         <module>azure-storage-8.2.0</module>
+        <module>aspectj-1.9.3</module>
     </modules>
 
 </project>
