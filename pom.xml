@@ -140,6 +140,7 @@
         <module>spring-web-5.1.6.RELEASE</module>
         <module>spring-webmvc-5.1.6.RELEASE</module>
         <module>spring-websocket-5.1.6.RELEASE</module>
+        <module>azure-storage-8.2.0</module>
     </modules>
 
 </project>
