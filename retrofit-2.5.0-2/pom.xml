@@ -59,6 +59,7 @@
             com.google.common.util.concurrent.*;resolution:=optional,
             com.squareup.wire.*;resolution:=optional,
             com.squareup.moshi.*;resolution:=optional,
+            kotlin.*;resolution:=optional,
             org.simpleframework.*;resolution:=optional,
             rx.*;resolution:=optional,
             io.reactivex.*;resolution:=optional,
