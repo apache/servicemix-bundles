@@ -48,6 +48,7 @@
        <module>elasticsearch-6.6.2</module>
        <module>elasticsearch-7.0.1</module>
        <module>fastjson-1.2.58</module>
+       <module>zxing-3.4.0</module>
     </modules>
 
 </project>
