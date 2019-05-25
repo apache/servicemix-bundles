@@ -50,6 +50,7 @@
        <module>fastjson-1.2.58</module>
        <module>zxing-3.4.0</module>
        <module>libphonenumber-8.10.12</module>
+       <module>braintree-java-2.96.0</module>
     </modules>
 
 </project>
