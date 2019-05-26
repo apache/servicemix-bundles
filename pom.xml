@@ -56,6 +56,7 @@
        <module>spring-data-redis-2.1.8.RELEASE</module>
        <module>azure-storage-8.3.0</module>
        <module>qpid-6.3.4</module>
+       <module>aws-java-sdk-1.11.559</module>
     </modules>
 
 </project>
