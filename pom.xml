@@ -54,6 +54,7 @@
        <module>spring-data-commons-2.1.8.RELEASE</module>
        <module>spring-data-keyvalue-2.1.8.RELEASE</module>
        <module>spring-data-redis-2.1.8.RELEASE</module>
+       <module>azure-storage-8.3.0</module>
     </modules>
 
 </project>
