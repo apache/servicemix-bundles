@@ -51,6 +51,9 @@
        <module>zxing-3.4.0</module>
        <module>libphonenumber-8.10.12</module>
        <module>braintree-java-2.96.0</module>
+       <module>spring-data-commons-2.1.8.RELEASE</module>
+       <module>spring-data-keyvalue-2.1.8.RELEASE</module>
+       <module>spring-data-redis-2.1.8.RELEASE</module>
     </modules>
 
 </project>
