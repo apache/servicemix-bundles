@@ -58,6 +58,7 @@
        <module>qpid-6.3.4</module>
        <module>aws-java-sdk-1.11.559</module>
        <module>sparkjava-core-2.9.1</module>
+       <module>cglib-3.2.12</module>
     </modules>
 
 </project>
