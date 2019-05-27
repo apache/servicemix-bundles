@@ -63,6 +63,7 @@
        <module>gae-1.9.74</module>
        <module>javax-cache-api-1.1.1</module>
        <module>json4s-3.6.6</module>
+       <module>poi-4.1.0</module>
     </modules>
 
 </project>
