@@ -74,6 +74,7 @@
        <module>aspectj-1.9.4</module>
        <module>ant-1.10.6</module>
        <module>neo4j-3.5.6</module>
+       <module>avro-1.9.0</module>
     </modules>
 
 </project>
