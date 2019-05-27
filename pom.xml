@@ -60,6 +60,7 @@
        <module>sparkjava-core-2.9.1</module>
        <module>cglib-3.2.12</module>
        <module>grpc-1.21.0</module>
+       <module>gae-1.9.74</module>
     </modules>
 
 </project>
