@@ -65,6 +65,11 @@
        <module>json4s-3.6.6</module>
        <module>poi-4.1.0</module>
        <module>solr-solrj-8.1.0</module>
+       <module>lucene-8.1.0</module>
+       <module>lucene-analyzers-common-8.1.0</module>
+       <module>lucene-queries-8.1.0</module>
+       <module>lucene-queryparser-8.1.0</module>
+       <module>lucene-sandbox-8.1.0</module>
     </modules>
 
 </project>
