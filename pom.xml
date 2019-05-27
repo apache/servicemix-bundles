@@ -64,6 +64,7 @@
        <module>javax-cache-api-1.1.1</module>
        <module>json4s-3.6.6</module>
        <module>poi-4.1.0</module>
+       <module>solr-solrj-8.1.0</module>
     </modules>
 
 </project>
