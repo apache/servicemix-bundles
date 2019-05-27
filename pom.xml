@@ -62,6 +62,7 @@
        <module>grpc-1.21.0</module>
        <module>gae-1.9.74</module>
        <module>javax-cache-api-1.1.1</module>
+       <module>json4s-3.6.6</module>
     </modules>
 
 </project>
