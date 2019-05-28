@@ -42,7 +42,6 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
-       <module>orbitz-consul-client-1.3.3</module>
        <module>retrofit-2.5.0-2</module>
        <module>saxon-9.9.1-3</module>
        <module>elasticsearch-6.6.2</module>
