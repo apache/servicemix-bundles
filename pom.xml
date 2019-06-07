@@ -43,6 +43,7 @@
 
     <modules>
        <module>jasypt-1.9.3</module>
+       <module>jasypt-spring31-1.9.3</module>
        <module>hadoop-client-2.7.7</module>
     </modules>
 
