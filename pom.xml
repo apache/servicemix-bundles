@@ -47,6 +47,7 @@
        <module>hadoop-client-2.7.7</module>
        <module>kafka_2.11-2.2.1</module>
        <module>kafka_2.12-2.2.1</module>
+       <module>kafka-clients-2.2.1</module>
     </modules>
 
 </project>
