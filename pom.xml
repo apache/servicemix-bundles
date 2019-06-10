@@ -48,6 +48,7 @@
        <module>kafka_2.11-2.2.1</module>
        <module>kafka_2.12-2.2.1</module>
        <module>kafka-clients-2.2.1</module>
+       <module>kafka-streams-2.2.1</module>
     </modules>
 
 </project>
