@@ -29,8 +29,8 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.kafka_2.11</artifactId>
-    <version>2.2.0_2-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.kafka_2.12</artifactId>
+    <version>2.2.1_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -44,8 +44,8 @@
 
     <properties>
         <pkgGroupId>org.apache.kafka</pkgGroupId>
-        <pkgArtifactId>kafka_2.11</pkgArtifactId>
-        <pkgVersion>2.2.0</pkgVersion>
+        <pkgArtifactId>kafka_2.12</pkgArtifactId>
+        <pkgVersion>2.2.1</pkgVersion>
         <servicemix.osgi.export.pkg>
             kafka
         </servicemix.osgi.export.pkg>
@@ -101,7 +101,7 @@
                 </exclusion>
                 <exclusion>
                     <groupId>com.typesafe.scala-logging</groupId>
-                    <artifactId>scala-logging_2.11</artifactId>
+                    <artifactId>scala-logging_2.12</artifactId>
                 </exclusion>
                 <exclusion>
                     <groupId>log4j</groupId>
@@ -167,7 +167,7 @@
                 </exclusion>
                 <exclusion>
                     <groupId>com.typesafe.scala-logging</groupId>
-                    <artifactId>scala-logging_2.11</artifactId>
+                    <artifactId>scala-logging_2.12</artifactId>
                 </exclusion>
                 <exclusion>
                     <groupId>log4j</groupId>
