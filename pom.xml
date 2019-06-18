@@ -71,6 +71,7 @@
        <module>spring-web-5.1.8.RELEASE</module>
        <module>spring-webmvc-5.1.8.RELEASE</module>
        <module>spring-websocket-5.1.8.RELEASE</module>
+       <module>dnsjava-2.1.9</module>
     </modules>
 
 </project>
