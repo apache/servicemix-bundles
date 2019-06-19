@@ -84,6 +84,8 @@
        <module>gae-1.9.75</module>
        <module>libphonenumber-8.10.13</module>
        <module>azure-keyvault-core-1.2.1</module>
+       <module>pulsar-client-2.3.2</module>
+       <module>pulsar-client-admin-2.3.2</module>
     </modules>
 
 </project>
