@@ -81,6 +81,7 @@
        <module>bcpg-jdk15on-1.62</module>
        <module>hbase-2.2.0</module>
        <module>snmp4j-3.2.0</module>
+       <module>gae-1.9.75</module>
     </modules>
 
 </project>
