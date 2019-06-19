@@ -87,6 +87,7 @@
        <module>pulsar-client-2.3.2</module>
        <module>pulsar-client-admin-2.3.2</module>
        <module>retrofit-2.6.0</module>
+       <module>aws-java-sdk-1.11.573</module>
     </modules>
 
 </project>
