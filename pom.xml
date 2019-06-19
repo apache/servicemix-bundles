@@ -89,6 +89,7 @@
        <module>retrofit-2.6.0</module>
        <module>aws-java-sdk-1.11.573</module>
        <module>braintree-java-2.97.0</module>
+       <module>gremlin-driver-3.4.2</module>
     </modules>
 
 </project>
