@@ -90,6 +90,9 @@
        <module>aws-java-sdk-1.11.573</module>
        <module>braintree-java-2.97.0</module>
        <module>gremlin-driver-3.4.2</module>
+       <module>spring-data-commons-2.1.9.RELEASE</module>
+       <module>spring-data-keyvalue-2.1.9.RELEASE</module>
+       <module>spring-data-redis-2.1.9.RELEASE</module>
     </modules>
 
 </project>
