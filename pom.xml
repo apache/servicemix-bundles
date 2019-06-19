@@ -82,6 +82,7 @@
        <module>hbase-2.2.0</module>
        <module>snmp4j-3.2.0</module>
        <module>gae-1.9.75</module>
+       <module>libphonenumber-8.10.13</module>
     </modules>
 
 </project>
