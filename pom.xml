@@ -78,6 +78,7 @@
        <module>lucene-queryparser-8.1.1</module>
        <module>lucene-sandbox-8.1.1</module>
        <module>solr-solrj-8.1.1</module>
+       <module>bcpg-jdk15on-1.62</module>
     </modules>
 
 </project>
