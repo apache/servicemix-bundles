@@ -80,7 +80,7 @@
        <module>solr-solrj-8.1.1</module>
        <module>bcpg-jdk15on-1.62</module>
        <module>hbase-2.2.0</module>
-       <module>snmp4j-3.2.0</module>
+       <module>snmp4j-3.2.1</module>
        <module>gae-1.9.75</module>
        <module>libphonenumber-8.10.13</module>
        <module>azure-keyvault-core-1.2.1</module>
