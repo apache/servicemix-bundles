@@ -42,57 +42,6 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
-       <module>rhino-1.7.11</module>
-       <module>jasypt-1.9.3</module>
-       <module>jasypt-spring31-1.9.3</module>
-       <module>hadoop-client-2.7.7</module>
-       <module>kafka_2.11-2.2.1</module>
-       <module>kafka_2.12-2.2.1</module>
-       <module>kafka-clients-2.2.1</module>
-       <module>kafka-streams-2.2.1</module>
-       <module>elasticsearch-7.1.1</module>
-       <module>elasticsearch-client-7.1.1</module>
-       <module>elasticsearch-client-7.0.1</module>
-       <module>spring-aop-5.1.8.RELEASE</module>
-       <module>spring-aspects-5.1.8.RELEASE</module>
-       <module>spring-beans-5.1.8.RELEASE</module>
-       <module>spring-context-5.1.8.RELEASE</module>
-       <module>spring-context-support-5.1.8.RELEASE</module>
-       <module>spring-core-5.1.8.RELEASE</module>
-       <module>spring-expression-5.1.8.RELEASE</module>
-       <module>spring-instrument-5.1.8.RELEASE</module>
-       <module>spring-jdbc-5.1.8.RELEASE</module>
-       <module>spring-jms-5.1.8.RELEASE</module>
-       <module>spring-messaging-5.1.8.RELEASE</module>
-       <module>spring-orm-5.1.8.RELEASE</module>
-       <module>spring-oxm-5.1.8.RELEASE</module>
-       <module>spring-test-5.1.8.RELEASE</module>
-       <module>spring-tx-5.1.8.RELEASE</module>
-       <module>spring-web-5.1.8.RELEASE</module>
-       <module>spring-webmvc-5.1.8.RELEASE</module>
-       <module>spring-websocket-5.1.8.RELEASE</module>
-       <module>dnsjava-2.1.9</module>
-       <module>lucene-8.1.1</module>
-       <module>lucene-analyzers-common-8.1.1</module>
-       <module>lucene-queries-8.1.1</module>
-       <module>lucene-queryparser-8.1.1</module>
-       <module>lucene-sandbox-8.1.1</module>
-       <module>solr-solrj-8.1.1</module>
-       <module>bcpg-jdk15on-1.62</module>
-       <module>hbase-2.2.0</module>
-       <module>snmp4j-3.2.1</module>
-       <module>gae-1.9.75</module>
-       <module>libphonenumber-8.10.13</module>
-       <module>azure-keyvault-core-1.2.1</module>
-       <module>pulsar-client-2.3.2</module>
-       <module>pulsar-client-admin-2.3.2</module>
-       <module>retrofit-2.6.0</module>
-       <module>aws-java-sdk-1.11.573</module>
-       <module>braintree-java-2.97.0</module>
-       <module>gremlin-driver-3.4.2</module>
-       <module>spring-data-commons-2.1.9.RELEASE</module>
-       <module>spring-data-keyvalue-2.1.9.RELEASE</module>
-       <module>spring-data-redis-2.1.9.RELEASE</module>
     </modules>
 
 </project>
