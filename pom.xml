@@ -42,6 +42,7 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+       <module>pulsar-client-2.4.0</module>
     </modules>
 
 </project>
