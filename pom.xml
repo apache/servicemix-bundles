@@ -50,6 +50,7 @@
        <module>kafka_2.11-2.3.0</module>
        <module>kafka_2.12-2.3.0</module>
        <module>kafka-clients-2.3.0</module>
+       <module>kafka-streams-2.3.0</module>
     </modules>
 
 </project>
