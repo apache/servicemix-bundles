@@ -51,6 +51,7 @@
        <module>kafka_2.12-2.3.0</module>
        <module>kafka-clients-2.3.0</module>
        <module>kafka-streams-2.3.0</module>
+       <module>snmp4j-3.2.2</module>
     </modules>
 
 </project>
