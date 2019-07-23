@@ -1,0 +1,3 @@
+org.apache.lucene.codecs.lucene54.Lucene54DocValuesFormat
+org.apache.lucene.codecs.lucene70.Lucene70DocValuesFormat
+org.apache.lucene.codecs.lucene80.Lucene80DocValuesFormat

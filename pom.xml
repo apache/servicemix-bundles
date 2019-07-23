@@ -54,6 +54,8 @@
        <module>snmp4j-3.2.2</module>
        <module>saxon-9.9.1-4</module>
        <module>neo4j-3.5.8</module>
+       <module>elasticsearch-7.2.0</module>
+       <module>elasticsearch-client-7.2.0</module>
     </modules>
 
 </project>
