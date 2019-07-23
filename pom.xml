@@ -46,7 +46,7 @@
        <module>pulsar-client-admin-2.4.0</module>
        <module>grpc-1.22.1</module>
        <module>libphonenumber-8.10.15</module>
-       <module>docker-java-3.1.3</module>
+       <module>docker-java-3.1.4</module>
        <module>kafka_2.11-2.3.0</module>
        <module>kafka_2.12-2.3.0</module>
        <module>kafka-clients-2.3.0</module>
