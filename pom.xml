@@ -57,6 +57,7 @@
        <module>elasticsearch-7.2.0</module>
        <module>elasticsearch-client-7.2.0</module>
        <module>okhttp-4.0.1</module>
+       <module>esapi-2.2.0.0</module>
     </modules>
 
 </project>
