@@ -67,6 +67,7 @@
        <module>janusgraph-core-0.4.0</module>
        <module>braintree-java-2.101.0</module>
        <module>aws-java-sdk-1.11.595</module>
+       <module>commons-compiler-3.0.14</module>
     </modules>
 
 </project>
