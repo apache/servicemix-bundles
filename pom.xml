@@ -62,6 +62,7 @@
        <module>janino-3.0.14</module>
        <module>mybatis-3.5.2</module>
        <module>json4s-3.6.7</module>
+       <module>mchange-commons-java-0.2.16</module>
     </modules>
 
 </project>
