@@ -60,6 +60,7 @@
        <module>esapi-2.2.0.0</module>
        <module>gae-1.9.76</module>
        <module>janino-3.0.14</module>
+       <module>mybatis-3.5.2</module>
     </modules>
 
 </project>
