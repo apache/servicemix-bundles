@@ -58,46 +58,7 @@
             *
         </servicemix.osgi.import.pkg>
     </properties>
-      <!-- 
-        org.apache.commons.io,
-        <servicemix.osgi.export.pkg>
-            ,
-            rdf4j-rio-api,
-            rdf4j-model    
-            org.apache.any23,
-            org.apache.commons.io,
-            org.apache.any23.configuration,
-            org.apache.any23.source,
-            org.apache.any23.writer,
-            org.eclipse.rdf4j.model*;version="2.4.0",
-            org.eclipse.rdf4j.common*,
-            org.eclipse.rdf4j.util*,
-            org.eclipse.rdf4j.rio;version="2.4.0"
-        </servicemix.osgi.export.pkg>
-        <servicemix.osgi.import.pkg>
-            org.apache.commons.io;version="1.4.0",
-            org.apache.any23.configuration,
-            org.apache.any23.source,
-            org.apache.any23.writer,
-            org.eclipse.rdf4j.common*;version="2.4.0";resolution:=optional,
-            org.eclipse.rdf4j.util*;version="2.4.0";resolution:=optional,
-            org.eclipse.rdf4j.model*;version="2.4.0";resolution:=optional,
-            org.eclipse.rdf4j.rio;version="2.4.0";resolution:=optional,
-            *
-        </servicemix.osgi.import.pkg>
 
-             <dependency>
-        <groupId>org.eclipse.rdf4j</groupId>
-        <artifactId>rdf4j-runtime</artifactId>
-        <version>2.2.3</version>
-        </dependency>
-
-         <dependency>
-        <groupId>org.eclipse.rdf4j</groupId>
-        <artifactId>rdf4j-config</artifactId>
-        <version>2.2.3</version>
-        </dependency>
-      -->
     <dependencies>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
