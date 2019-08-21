@@ -69,6 +69,8 @@
        <module>aws-java-sdk-1.11.595</module>
        <module>commons-compiler-3.0.14</module>
        <module>bcprov-jdk15on-1.62</module>
+       <module>opensaml-3.4.3</module>
+       <module>opensaml-3.3.1</module>
     </modules>
 
 </project>
