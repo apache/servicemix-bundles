@@ -45,6 +45,7 @@
        <module>any23-2.3</module>
        <module>opensaml-3.4.3</module>
        <module>opensaml-3.3.1</module>
+       <module>fastjson-1.2.59</module>
     </modules>
 
 </project>
