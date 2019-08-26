@@ -46,6 +46,7 @@
        <module>opensaml-3.4.3</module>
        <module>opensaml-3.3.1</module>
        <module>fastjson-1.2.59</module>
+       <module>okhttp-4.1.0</module>
     </modules>
 
 </project>
