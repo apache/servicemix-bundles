@@ -73,6 +73,7 @@
        <module>lucene-queries-8.2.0</module>
        <module>lucene-queryparser-8.2.0</module>
        <module>lucene-sandbox-8.2.0</module>
+       <module>solr-solrj-8.2.0</module>
     </modules>
 
 </project>
