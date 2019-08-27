@@ -65,6 +65,8 @@
        <module>spring-web-5.1.9.RELEASE</module>
        <module>spring-webmvc-5.1.9.RELEASE</module>
        <module>spring-websocket-5.1.9.RELEASE</module>
+       <module>elasticsearch-7.3.1</module>
+       <module>elasticsearch-client-7.3.1</module>
     </modules>
 
 </project>
