@@ -68,6 +68,11 @@
        <module>elasticsearch-7.3.1</module>
        <module>elasticsearch-client-7.3.1</module>
        <module>freemarker-2.3.29</module>
+       <module>lucene-8.2.0</module>
+       <module>lucene-analyzers-common-8.2.0</module>
+       <module>lucene-queries-8.2.0</module>
+       <module>lucene-queryparser-8.2.0</module>
+       <module>lucene-sandbox-8.2.0</module>
     </modules>
 
 </project>
