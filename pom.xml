@@ -67,6 +67,7 @@
        <module>spring-websocket-5.1.9.RELEASE</module>
        <module>elasticsearch-7.3.1</module>
        <module>elasticsearch-client-7.3.1</module>
+       <module>freemarker-2.3.29</module>
     </modules>
 
 </project>
