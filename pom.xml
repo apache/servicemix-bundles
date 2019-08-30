@@ -106,6 +106,7 @@
        <module>spring-data-commons-2.1.10.RELEASE</module>
        <module>spring-data-keyvalue-2.1.10.RELEASE</module>
        <module>spring-data-redis-2.1.10.RELEASE</module>
+       <module>gremlin-driver-3.4.3</module>
     </modules>
 
 </project>
