@@ -103,6 +103,9 @@
        <module>azure-storage-8.4.0</module>
        <module>htmlunit-2.36.0</module>
        <module>commons-compiler-3.1.0</module>
+       <module>spring-data-commons-2.1.10.RELEASE</module>
+       <module>spring-data-keyvalue-2.1.10.RELEASE</module>
+       <module>spring-data-redis-2.1.10.RELEASE</module>
     </modules>
 
 </project>
