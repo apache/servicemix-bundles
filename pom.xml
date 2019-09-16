@@ -44,6 +44,11 @@
     <modules>
         <module>pulsar-client-2.4.1</module>
         <module>pulsar-client-admin-2.4.1</module>
+        <module>kafka-clients-2.3.0</module>
+        <module>kafka-clients-2.2.1</module>
+        <module>kafka-clients-2.1.1</module>
+        <module>kafka-clients-2.0.1</module>
+        <module>kafka-clients-1.1.1</module>
     </modules>
 
 </project>
