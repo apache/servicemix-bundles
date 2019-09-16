@@ -62,7 +62,8 @@
             sun.misc;resolution:=optional,
             sun.nio.ch;resolution:=optional,
             sun.security.krb5;resolution:=optional,
-            com.ibm.security.krb5.internal;resolution:=optional
+            com.ibm.security.krb5.internal;resolution:=optional,
+            com.github.luben.zstd;resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
 
