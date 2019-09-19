@@ -49,6 +49,7 @@
         <module>kafka-clients-2.1.1</module>
         <module>kafka-clients-2.0.1</module>
         <module>kafka-clients-1.1.1</module>
+        <module>spring-security-core-4.2.13.RELEASE</module>
     </modules>
 
 </project>
