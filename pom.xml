@@ -58,6 +58,7 @@
         <module>avro-ipc-1.9.1</module>
         <module>ognl-3.2.11</module>
         <module>elasticsearch-7.3.2</module>
+        <module>okio-2.4.0</module>
     </modules>
 
 </project>
