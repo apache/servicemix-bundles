@@ -54,6 +54,8 @@
         <module>elasticsearch-6.1.1</module>
         <module>fastjson-1.2.61</module>
         <module>java-util-1.36.0</module>
+        <module>avro-1.9.1</module>
+        <module>avro-ipc-1.9.1</module>
     </modules>
 
 </project>
