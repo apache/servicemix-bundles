@@ -66,6 +66,7 @@
         <module>hadoop-client-3.2.1</module>
         <module>javax-el-impl-3.0.3</module>
         <module>postgresql-42.2.8.jre7</module>
+        <module>aws-java-sdk-1.11.636</module>
     </modules>
 
 </project>
