@@ -61,6 +61,7 @@
         <module>okio-2.4.0</module>
         <module>okhttp-4.2.0</module>
         <module>bcpg-jdk15on-1.63</module>
+        <module>hbase-2.2.1</module>
     </modules>
 
 </project>
