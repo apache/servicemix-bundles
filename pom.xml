@@ -63,6 +63,7 @@
         <module>bcpg-jdk15on-1.63</module>
         <module>hbase-2.2.1</module>
         <module>saxon-9.9.1-5</module>
+        <module>hadoop-client-3.2.1</module>
     </modules>
 
 </project>
