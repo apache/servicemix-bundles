@@ -70,6 +70,7 @@
         <module>azure-keyvault-core-1.2.2</module>
         <module>fastinfoset-1.2.17</module>
         <module>libphonenumber-8.10.19</module>
+        <module>braintree-java-2.104.0</module>
     </modules>
 
 </project>
