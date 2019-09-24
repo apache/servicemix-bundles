@@ -64,6 +64,7 @@
         <module>hbase-2.2.1</module>
         <module>saxon-9.9.1-5</module>
         <module>hadoop-client-3.2.1</module>
+        <module>javax-el-impl-3.0.3</module>
     </modules>
 
 </project>
