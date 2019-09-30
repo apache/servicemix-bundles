@@ -42,6 +42,14 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+        <module>pulsar-client-2.4.1</module>
+        <module>pulsar-client-admin-2.4.1</module>
+        <module>kafka-clients-2.3.0</module>
+        <module>kafka-clients-2.2.1</module>
+        <module>kafka-clients-2.1.1</module>
+        <module>kafka-clients-2.0.1</module>
+        <module>kafka-clients-1.1.1</module>
+        <module>spring-security-core-4.2.13.RELEASE</module>
         <module>elasticsearch-client-6.1.1</module>
         <module>elasticsearch-6.1.1</module>
         <module>fastjson-1.2.61</module>
