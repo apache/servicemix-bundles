@@ -42,35 +42,6 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
-        <module>pulsar-client-2.4.1</module>
-        <module>pulsar-client-admin-2.4.1</module>
-        <module>kafka-clients-2.3.0</module>
-        <module>kafka-clients-2.2.1</module>
-        <module>kafka-clients-2.1.1</module>
-        <module>kafka-clients-2.0.1</module>
-        <module>kafka-clients-1.1.1</module>
-        <module>spring-security-core-4.2.13.RELEASE</module>
-        <module>elasticsearch-client-6.1.1</module>
-        <module>elasticsearch-6.1.1</module>
-        <module>fastjson-1.2.61</module>
-        <module>java-util-1.36.0</module>
-        <module>avro-1.9.1</module>
-        <module>avro-ipc-1.9.1</module>
-        <module>ognl-3.2.11</module>
-        <module>elasticsearch-7.3.2</module>
-        <module>okio-2.4.0</module>
-        <module>okhttp-4.2.0</module>
-        <module>bcpg-jdk15on-1.63</module>
-        <module>hbase-2.2.1</module>
-        <module>saxon-9.9.1-5</module>
-        <module>hadoop-client-3.2.1</module>
-        <module>javax-el-impl-3.0.3</module>
-        <module>postgresql-42.2.8.jre7</module>
-        <module>aws-java-sdk-1.11.636</module>
-        <module>azure-keyvault-core-1.2.2</module>
-        <module>fastinfoset-1.2.17</module>
-        <module>libphonenumber-8.10.19</module>
-        <module>braintree-java-2.104.0</module>
     </modules>
 
 </project>
