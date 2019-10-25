@@ -129,6 +129,7 @@
                     <groupId>org.apache.commons</groupId>
                 </exclusion>
             </exclusions>
+            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
@@ -140,6 +141,7 @@
                     <groupId>org.apache.poi</groupId>
                 </exclusion>
             </exclusions>
+            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
@@ -151,6 +153,7 @@
                     <groupId>org.apache.xmlbeans</groupId>
                 </exclusion>
             </exclusions>
+            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
@@ -178,6 +181,7 @@
                     <groupId>org.apache.poi</groupId>
                 </exclusion>
             </exclusions>
+            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
@@ -189,6 +193,7 @@
                     <groupId>org.apache.xmlbeans</groupId>
                 </exclusion>
             </exclusions>
+            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>com.github.virtuald</groupId>
@@ -217,7 +222,7 @@
                     <groupId>org.apache.commons</groupId>
                 </exclusion>
             </exclusions>
-            <optional>false</optional>
+            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
@@ -230,7 +235,7 @@
                     <groupId>org.apache.poi</groupId>
                 </exclusion>
             </exclusions>
-            <optional>false</optional>
+            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
@@ -255,7 +260,7 @@
                     <groupId>org.apache.poi</groupId>
                 </exclusion>
             </exclusions>
-            <optional>false</optional>
+            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
@@ -268,7 +273,7 @@
                     <groupId>org.apache.xmlbeans</groupId>
                 </exclusion>
             </exclusions>
-            <optional>false</optional>
+            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>com.github.virtuald</groupId>
