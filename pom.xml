@@ -46,6 +46,7 @@
        <module>grpc-1.24.1</module>
        <module>aws-java-sdk-1.11.658</module>
        <module>mchange-commons-java-0.2.18</module>
+       <module>braintree-java-2.105.0</module>
     </modules>
 
 </project>
