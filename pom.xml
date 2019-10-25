@@ -53,6 +53,7 @@
        <module>spring-data-redis-2.2.0.RELEASE</module>
        <module>bcpg-jdk15on-1.64</module>
        <module>libphonenumber-8.10.21</module>
+       <module>java-util-1.37.0</module>
     </modules>
 
 </project>
