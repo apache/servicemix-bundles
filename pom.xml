@@ -48,6 +48,9 @@
        <module>mchange-commons-java-0.2.18</module>
        <module>braintree-java-2.105.0</module>
        <module>gremlin-driver-3.4.4</module>
+       <module>spring-data-commons-2.1.10.RELEASE</module>
+       <module>spring-data-keyvalue-2.1.10.RELEASE</module>
+       <module>spring-data-redis-2.2.0.RELEASE</module>
     </modules>
 
 </project>
