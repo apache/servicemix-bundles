@@ -51,6 +51,7 @@
        <module>spring-data-commons-2.1.10.RELEASE</module>
        <module>spring-data-keyvalue-2.1.10.RELEASE</module>
        <module>spring-data-redis-2.2.0.RELEASE</module>
+       <module>bcpg-jdk15on-1.64</module>
     </modules>
 
 </project>
