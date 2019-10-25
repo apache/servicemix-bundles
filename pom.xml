@@ -47,6 +47,7 @@
        <module>aws-java-sdk-1.11.658</module>
        <module>mchange-commons-java-0.2.18</module>
        <module>braintree-java-2.105.0</module>
+       <module>gremlin-driver-3.4.4</module>
     </modules>
 
 </project>
