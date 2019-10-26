@@ -59,6 +59,7 @@
        <module>stringtemplate-4.2</module>
        <module>quartz-2.3.2</module>
        <module>okio-2.4.1</module>
+       <module>mybatis-3.5.3</module>
     </modules>
 
 </project>
