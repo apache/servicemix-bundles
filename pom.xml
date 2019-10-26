@@ -62,6 +62,7 @@
        <module>mybatis-3.5.3</module>
        <module>neo4j-3.5.12</module>
        <module>elasticsearch-7.4.1</module>
+       <module>okhttp-4.2.2</module>
     </modules>
 
 </project>
