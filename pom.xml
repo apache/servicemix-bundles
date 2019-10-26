@@ -60,6 +60,7 @@
        <module>quartz-2.3.2</module>
        <module>okio-2.4.1</module>
        <module>mybatis-3.5.3</module>
+       <module>neo4j-3.5.12</module>
     </modules>
 
 </project>
