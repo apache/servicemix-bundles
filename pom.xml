@@ -55,6 +55,7 @@
         <module>java-util-1.38.0</module>
         <module>libphonenumber-8.10.23</module>
         <module>libthrift-0.13.0</module>
+        <module>mchange-commons-java-0.2.19</module>
     </modules>
 
 </project>
