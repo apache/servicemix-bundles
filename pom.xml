@@ -56,6 +56,7 @@
         <module>libphonenumber-8.10.23</module>
         <module>libthrift-0.13.0</module>
         <module>mchange-commons-java-0.2.19</module>
+        <module>snmp4j-3.3.2</module>
     </modules>
 
 </project>
