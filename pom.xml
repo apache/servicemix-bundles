@@ -47,6 +47,7 @@
         <module>batik-1.12</module>
         <module>jruby-9.2.9.0</module>
         <module>hbase-2.2.2</module>
+        <module>aws-java-sdk-1.11.681</module>
     </modules>
 
 </project>
