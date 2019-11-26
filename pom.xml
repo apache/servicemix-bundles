@@ -57,6 +57,7 @@
         <module>libthrift-0.13.0</module>
         <module>mchange-commons-java-0.2.19</module>
         <module>snmp4j-3.3.2</module>
+        <module>solr-solrj-8.3.0</module>
     </modules>
 
 </project>
