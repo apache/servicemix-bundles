@@ -52,6 +52,7 @@
         <module>braintree-java-2.106.0</module>
         <module>gae-1.9.77</module>
         <module>influxdb-java-2.16</module>
+        <module>java-util-1.38.0</module>
     </modules>
 
 </project>
