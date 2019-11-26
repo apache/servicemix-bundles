@@ -50,6 +50,7 @@
         <module>aws-java-sdk-1.11.681</module>
         <module>bcprov-jdk15on-1.64</module>
         <module>braintree-java-2.106.0</module>
+        <module>gae-1.9.77</module>
     </modules>
 
 </project>
