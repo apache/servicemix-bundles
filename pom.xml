@@ -84,6 +84,10 @@
         <module>lucene-queries-8.3.0</module>
         <module>lucene-queryparser-8.3.0</module>
         <module>lucene-sandbox-8.3.0</module>
+        <module>spring-ws-core-3.0.8.RELEASE</module>
+        <module>spring-ws-security-3.0.8.RELEASE</module>
+        <module>spring-ws-support-3.0.8.RELEASE</module>
+        <module>spring-ws-test-3.0.8.RELEASE</module>
     </modules>
 
 </project>
