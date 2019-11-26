@@ -58,6 +58,7 @@
         <module>mchange-commons-java-0.2.19</module>
         <module>snmp4j-3.3.2</module>
         <module>solr-solrj-8.3.0</module>
+        <module>xmlgraphics-commons-2.4</module>
     </modules>
 
 </project>
