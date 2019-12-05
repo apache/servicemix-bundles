@@ -42,52 +42,6 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
-        <module>jt400-10.1</module>
-        <module>grpc-1.25.0</module>
-        <module>batik-1.12</module>
-        <module>jruby-9.2.9.0</module>
-        <module>hbase-2.2.2</module>
-        <module>aws-java-sdk-1.11.681</module>
-        <module>bcprov-jdk15on-1.64</module>
-        <module>braintree-java-2.106.0</module>
-        <module>gae-1.9.77</module>
-        <module>influxdb-java-2.16</module>
-        <module>java-util-1.38.0</module>
-        <module>libphonenumber-8.10.23</module>
-        <module>libthrift-0.13.0</module>
-        <module>mchange-commons-java-0.2.19</module>
-        <module>snmp4j-3.3.2</module>
-        <module>solr-solrj-8.3.0</module>
-        <module>xmlgraphics-commons-2.4</module>
-        <module>spring-aop-5.2.1.RELEASE</module>
-        <module>spring-aspects-5.2.1.RELEASE</module>
-        <module>spring-beans-5.2.1.RELEASE</module>
-        <module>spring-context-5.2.1.RELEASE</module>
-        <module>spring-context-support-5.2.1.RELEASE</module>
-        <module>spring-core-5.2.1.RELEASE</module>
-        <module>spring-expression-5.2.1.RELEASE</module>
-        <module>spring-instrument-5.2.1.RELEASE</module>
-        <module>spring-jdbc-5.2.1.RELEASE</module>
-        <module>spring-jms-5.2.1.RELEASE</module>
-        <module>spring-messaging-5.2.1.RELEASE</module>
-        <module>spring-orm-5.2.1.RELEASE</module>
-        <module>spring-oxm-5.2.1.RELEASE</module>
-        <module>spring-test-5.2.1.RELEASE</module>
-        <module>spring-tx-5.2.1.RELEASE</module>
-        <module>spring-web-5.2.1.RELEASE</module>
-        <module>spring-webmvc-5.2.1.RELEASE</module>
-        <module>spring-websocket-5.2.1.RELEASE</module>
-        <module>elasticsearch-7.4.2</module>
-        <module>elasticsearch-client-7.4.2</module>
-        <module>lucene-8.3.0</module>
-        <module>lucene-analyzers-common-8.3.0</module>
-        <module>lucene-queries-8.3.0</module>
-        <module>lucene-queryparser-8.3.0</module>
-        <module>lucene-sandbox-8.3.0</module>
-        <module>spring-ws-core-3.0.8.RELEASE</module>
-        <module>spring-ws-security-3.0.8.RELEASE</module>
-        <module>spring-ws-support-3.0.8.RELEASE</module>
-        <module>spring-ws-test-3.0.8.RELEASE</module>
     </modules>
 
 </project>
