@@ -43,6 +43,7 @@
 
     <modules>
        <module>pulsar-client-2.4.2</module>
+       <module>pulsar-client-admin-2.4.2</module>
     </modules>
 
 </project>
