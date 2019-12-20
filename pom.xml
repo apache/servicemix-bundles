@@ -49,6 +49,7 @@
        <module>kafka_2.12-2.4.0</module>
        <module>kafka-streams-2.4.0</module>
        <module>grpc-1.26.0</module>
+       <module>saxon-9.9.1-6</module>
     </modules>
 
 </project>
