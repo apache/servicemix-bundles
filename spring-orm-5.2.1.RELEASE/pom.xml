@@ -142,6 +142,7 @@
             org.springframework.context.weaving;version="[${pkgVersion},5.3)",
             org.springframework.context.index;version="[${pkgVersion},5.3)";resolution:=optional,
             org.springframework.core;version="[${pkgVersion},5.3)",
+            org.springframework.core.annotation;version="[${pkgVersion},5.3)",
             org.springframework.core.io;version="[${pkgVersion},5.3)",
             org.springframework.core.io.support;version="[${pkgVersion},5.3)",
             org.springframework.core.task;version="[${pkgVersion},5.3)",
