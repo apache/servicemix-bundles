@@ -68,6 +68,7 @@
        <module>spring-web-5.2.1.RELEASE</module>
        <module>spring-webmvc-5.2.1.RELEASE</module>
        <module>spring-websocket-5.2.1.RELEASE</module>
+       <module>snmp4j-3.3.3</module>
     </modules>
 
 </project>
