@@ -70,6 +70,8 @@
        <module>spring-websocket-5.2.2.RELEASE</module>
        <module>snmp4j-3.3.3</module>
        <module>retrofit-2.7.0</module>
+       <module>elasticsearch-7.5.1</module>
+       <module>elasticsearch-client-7.5.1</module>
     </modules>
 
 </project>
