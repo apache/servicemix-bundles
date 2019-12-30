@@ -80,6 +80,7 @@
        <module>aspectj-1.9.5</module>
        <module>ognl-3.2.12</module>
        <module>aws-java-sdk-1.11.699</module>
+       <module>azure-storage-8.6.0</module>
     </modules>
 
 </project>
