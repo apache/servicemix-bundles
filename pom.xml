@@ -81,6 +81,7 @@
        <module>ognl-3.2.12</module>
        <module>aws-java-sdk-1.11.699</module>
        <module>azure-storage-8.6.0</module>
+       <module>c3p0-0.9.5.5</module>
     </modules>
 
 </project>
