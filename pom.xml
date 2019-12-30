@@ -83,6 +83,7 @@
        <module>azure-storage-8.6.0</module>
        <module>c3p0-0.9.5.5</module>
        <module>influxdb-java-2.17</module>
+       <module>jedis-3.2.0</module>
     </modules>
 
 </project>
