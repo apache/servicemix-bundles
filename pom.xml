@@ -87,6 +87,7 @@
        <module>libphonenumber-8.11.1</module>
        <module>okio-2.4.3</module>
        <module>postgresql-42.2.9.jre7</module>
+       <module>solr-solrj-8.3.1</module>
     </modules>
 
 </project>
