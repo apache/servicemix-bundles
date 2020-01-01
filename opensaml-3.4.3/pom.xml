@@ -159,7 +159,7 @@
                             </artifactSet>
                             <filters>
                                 <filter>
-                                    <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
+                                    <artifact>${pkgGroupId}:*</artifact>
                                     <excludes>
                                         <exclude>**/*.java</exclude>
                                     </excludes>
