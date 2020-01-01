@@ -88,6 +88,9 @@
        <module>okio-2.4.3</module>
        <module>postgresql-42.2.9.jre7</module>
        <module>solr-solrj-8.3.1</module>
+       <module>spring-data-commons-2.2.3.RELEASE</module>
+       <module>spring-data-keyvalue-2.2.3.RELEASE</module>
+       <module>spring-data-redis-2.2.3.RELEASE</module>
     </modules>
 
 </project>
