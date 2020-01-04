@@ -42,59 +42,6 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
-       <module>pulsar-client-2.4.2</module>
-       <module>pulsar-client-admin-2.4.2</module>
-       <module>kafka-clients-2.4.0</module>
-       <module>kafka_2.11-2.4.0</module>
-       <module>kafka_2.12-2.4.0</module>
-       <module>kafka-streams-2.4.0</module>
-       <module>grpc-1.26.0</module>
-       <module>saxon-9.9.1-6</module>
-       <module>spring-aop-5.2.2.RELEASE</module>
-       <module>spring-aspects-5.2.2.RELEASE</module>
-       <module>spring-beans-5.2.2.RELEASE</module>
-       <module>spring-context-5.2.2.RELEASE</module>
-       <module>spring-context-support-5.2.2.RELEASE</module>
-       <module>spring-core-5.2.2.RELEASE</module>
-       <module>spring-expression-5.2.2.RELEASE</module>
-       <module>spring-instrument-5.2.2.RELEASE</module>
-       <module>spring-jdbc-5.2.2.RELEASE</module>
-       <module>spring-jms-5.2.2.RELEASE</module>
-       <module>spring-messaging-5.2.2.RELEASE</module>
-       <module>spring-orm-5.2.2.RELEASE</module>
-       <module>spring-oxm-5.2.2.RELEASE</module>
-       <module>spring-test-5.2.2.RELEASE</module>
-       <module>spring-tx-5.2.2.RELEASE</module>
-       <module>spring-web-5.2.2.RELEASE</module>
-       <module>spring-webmvc-5.2.2.RELEASE</module>
-       <module>spring-websocket-5.2.2.RELEASE</module>
-       <module>snmp4j-3.3.3</module>
-       <module>retrofit-2.7.0</module>
-       <module>elasticsearch-7.5.1</module>
-       <module>elasticsearch-client-7.5.1</module>
-       <module>lucene-8.3.1</module>
-       <module>lucene-analyzers-common-8.3.1</module>
-       <module>lucene-queries-8.3.1</module>
-       <module>lucene-queryparser-8.3.1</module>
-       <module>lucene-sandbox-8.3.1</module>
-       <module>aspectj-1.9.5</module>
-       <module>ognl-3.2.12</module>
-       <module>aws-java-sdk-1.11.699</module>
-       <module>azure-storage-8.6.0</module>
-       <module>c3p0-0.9.5.5</module>
-       <module>influxdb-java-2.17</module>
-       <module>jedis-3.2.0</module>
-       <module>libphonenumber-8.11.1</module>
-       <module>okio-2.4.3</module>
-       <module>postgresql-42.2.9.jre7</module>
-       <module>solr-solrj-8.3.1</module>
-       <module>spring-data-commons-2.2.3.RELEASE</module>
-       <module>spring-data-keyvalue-2.2.3.RELEASE</module>
-       <module>spring-data-redis-2.2.3.RELEASE</module>
-       <module>spring-security-acl-5.2.1.RELEASE</module>
-       <module>spring-security-aspects-5.2.1.RELEASE</module>
-       <module>spring-security-cas-5.2.1.RELEASE</module>
-       <module>spring-security-config-5.2.1.RELEASE</module>
        <module>spring-security-core-5.2.1.RELEASE</module>
        <module>spring-security-crypto-5.2.1.RELEASE</module>
        <module>spring-security-data-5.2.1.RELEASE</module>
