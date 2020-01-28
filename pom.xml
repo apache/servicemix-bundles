@@ -59,7 +59,7 @@
        <module>pulsar-client-2.5.0</module>
        <module>pulsar-client-admin-2.5.0</module>
        <module>jt400-10.2</module>
-       <module>libphonenumber-8.11.2</module>
+       <module>libphonenumber-8.11.3</module>
        <module>junit-4.13</module>
        <module>rhino-1.7.12</module>
        <module>elasticsearch-7.5.2</module>
