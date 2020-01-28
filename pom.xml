@@ -58,6 +58,7 @@
        <module>elasticsearch-5.6.16</module>
        <module>pulsar-client-2.5.0</module>
        <module>pulsar-client-admin-2.5.0</module>
+       <module>jt400-10.2</module>
     </modules>
 
 </project>
