@@ -49,6 +49,8 @@
             org.springframework.security.config
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
+      io.rsocket.plugins;resolution:=optional,
+      org.reactivestreams;resolution:=optional,
 			reactor.*;resolution:=optional,
 			org.aspectj.*;resolution:=optional,
 			org.openid4java.*;resolution:=optional,
@@ -62,8 +64,10 @@
 			org.springframework.web*;resolution:=optional,
 			org.springframework.security.ldap*;resolution:=optional,
 			org.springframework.security.messaging*;resolution:=optional,
+			org.springframework.security.saml2*;resolution:=optional,
 			org.springframework.security.oauth2*;resolution:=optional,
 			org.springframework.security.openid*;resolution:=optional,
+			org.springframework.security.rsocket*;resolution:=optional,
 			org.springframework.security.web*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
