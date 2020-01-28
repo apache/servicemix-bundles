@@ -61,6 +61,7 @@
        <module>jt400-10.2</module>
        <module>libphonenumber-8.11.2</module>
        <module>junit-4.13</module>
+       <module>rhino-1.7.12</module>
     </modules>
 
 </project>
