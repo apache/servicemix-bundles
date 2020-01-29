@@ -82,6 +82,11 @@
        <module>spring-web-5.2.3.RELEASE</module>
        <module>spring-webmvc-5.2.3.RELEASE</module>
        <module>spring-websocket-5.2.3.RELEASE</module>
+       <module>lucene-8.4.1</module>
+       <module>lucene-analyzers-common-8.4.1</module>
+       <module>lucene-queries-8.4.1</module>
+       <module>lucene-queryparser-8.4.1</module>
+       <module>lucene-sandbox-8.4.1</module>
     </modules>
 
 </project>
