@@ -88,6 +88,7 @@
        <module>lucene-queryparser-8.4.1</module>
        <module>lucene-sandbox-8.4.1</module>
        <module>gae-1.9.78</module>
+       <module>aws-java-sdk-1.11.714</module>
     </modules>
 
 </project>
