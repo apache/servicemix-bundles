@@ -90,6 +90,7 @@
        <module>gae-1.9.78</module>
        <module>aws-java-sdk-1.11.714</module>
        <module>hbase-2.2.3</module>
+       <module>okhttp-4.3.1</module>
     </modules>
 
 </project>
