@@ -91,6 +91,7 @@
        <module>aws-java-sdk-1.11.714</module>
        <module>hbase-2.2.3</module>
        <module>okhttp-4.3.1</module>
+       <module>java-util-1.40.0</module>
     </modules>
 
 </project>
