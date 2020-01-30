@@ -96,6 +96,9 @@
        <module>retrofit-2.7.1</module>
        <module>solr-solrj-8.4.1</module>
        <module>stringtemplate-4.3</module>
+       <module>spring-data-commons-2.2.4.RELEASE</module>
+       <module>spring-data-keyvalue-2.2.4.RELEASE</module>
+       <module>spring-data-redis-2.2.4.RELEASE</module>
     </modules>
 
 </project>
