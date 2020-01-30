@@ -101,6 +101,7 @@
        <module>spring-data-redis-2.2.4.RELEASE</module>
        <module>spring-batch-core-4.2.1.RELEASE</module>
        <module>spring-batch-infrastructure-4.2.1.RELEASE</module>
+       <module>grpc-1.27.0</module>
     </modules>
 
 </project>
