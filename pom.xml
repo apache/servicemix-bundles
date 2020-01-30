@@ -95,6 +95,7 @@
        <module>mchange-commons-java-0.2.20</module>
        <module>retrofit-2.7.1</module>
        <module>solr-solrj-8.4.1</module>
+       <module>stringtemplate-4.3</module>
     </modules>
 
 </project>
