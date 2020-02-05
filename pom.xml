@@ -42,66 +42,6 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
-       <module>spring-security-core-5.2.1.RELEASE</module>
-       <module>spring-security-crypto-5.2.1.RELEASE</module>
-       <module>spring-security-data-5.2.1.RELEASE</module>
-       <module>spring-security-ldap-5.2.1.RELEASE</module>
-       <module>spring-security-messaging-5.2.1.RELEASE</module>
-       <module>spring-security-oauth2-client-5.2.1.RELEASE</module>
-       <module>spring-security-oauth2-core-5.2.1.RELEASE</module>
-       <module>spring-security-oauth2-jose-5.2.1.RELEASE</module>
-       <module>spring-security-remoting-5.2.1.RELEASE</module>
-       <module>spring-security-taglibs-5.2.1.RELEASE</module>
-       <module>spring-security-test-5.2.1.RELEASE</module>
-       <module>spring-security-web-5.2.1.RELEASE</module>
-       <module>opensaml-3.4.3</module>
-       <module>elasticsearch-5.6.16</module>
-       <module>pulsar-client-2.5.0</module>
-       <module>pulsar-client-admin-2.5.0</module>
-       <module>jt400-10.2</module>
-       <module>libphonenumber-8.11.3</module>
-       <module>junit-4.13</module>
-       <module>rhino-1.7.12</module>
-       <module>elasticsearch-7.5.2</module>
-       <module>elasticsearch-client-7.5.2</module>
-       <module>spring-aop-5.2.3.RELEASE</module>
-       <module>spring-aspects-5.2.3.RELEASE</module>
-       <module>spring-beans-5.2.3.RELEASE</module>
-       <module>spring-context-5.2.3.RELEASE</module>
-       <module>spring-context-support-5.2.3.RELEASE</module>
-       <module>spring-core-5.2.3.RELEASE</module>
-       <module>spring-expression-5.2.3.RELEASE</module>
-       <module>spring-instrument-5.2.3.RELEASE</module>
-       <module>spring-jdbc-5.2.3.RELEASE</module>
-       <module>spring-jms-5.2.3.RELEASE</module>
-       <module>spring-messaging-5.2.3.RELEASE</module>
-       <module>spring-orm-5.2.3.RELEASE</module>
-       <module>spring-oxm-5.2.3.RELEASE</module>
-       <module>spring-test-5.2.3.RELEASE</module>
-       <module>spring-tx-5.2.3.RELEASE</module>
-       <module>spring-web-5.2.3.RELEASE</module>
-       <module>spring-webmvc-5.2.3.RELEASE</module>
-       <module>spring-websocket-5.2.3.RELEASE</module>
-       <module>lucene-8.4.1</module>
-       <module>lucene-analyzers-common-8.4.1</module>
-       <module>lucene-queries-8.4.1</module>
-       <module>lucene-queryparser-8.4.1</module>
-       <module>lucene-sandbox-8.4.1</module>
-       <module>gae-1.9.78</module>
-       <module>aws-java-sdk-1.11.714</module>
-       <module>hbase-2.2.3</module>
-       <module>okhttp-4.3.1</module>
-       <module>java-util-1.40.0</module>
-       <module>mchange-commons-java-0.2.20</module>
-       <module>retrofit-2.7.1</module>
-       <module>solr-solrj-8.4.1</module>
-       <module>stringtemplate-4.3</module>
-       <module>spring-data-commons-2.2.4.RELEASE</module>
-       <module>spring-data-keyvalue-2.2.4.RELEASE</module>
-       <module>spring-data-redis-2.2.4.RELEASE</module>
-       <module>spring-batch-core-4.2.1.RELEASE</module>
-       <module>spring-batch-infrastructure-4.2.1.RELEASE</module>
-       <module>grpc-1.27.0</module>
     </modules>
 
 </project>
