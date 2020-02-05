@@ -42,6 +42,7 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+        <module>spring-batch-core-4.0.2.RELEASE</module>
     </modules>
 
 </project>
