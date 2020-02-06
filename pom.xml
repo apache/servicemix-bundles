@@ -43,6 +43,7 @@
 
     <modules>
         <module>spring-batch-core-4.0.2.RELEASE</module>
+        <module>spring-batch-core-3.0.10.RELEASE</module>
     </modules>
 
 </project>
