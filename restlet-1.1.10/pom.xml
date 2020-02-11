@@ -64,7 +64,7 @@
         <repository>
             <id>reslet.m2</id>
             <name>Restlet Maven2 Repository</name>
-            <url>http://maven.restlet.org</url>
+            <url>https://maven.restlet.org</url>
         </repository>
     </repositories>
 

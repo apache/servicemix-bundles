@@ -39,7 +39,7 @@
         <repository>
             <id>fusesource.m2all</id>
             <name>Fusesource Release Repository</name>
-            <url>http://repo.fusesource.com/maven2-all</url>
+            <url>https://repo.fusesource.com/maven2-all</url>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>

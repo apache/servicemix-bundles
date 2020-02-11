@@ -50,7 +50,7 @@
     <repositories>
         <repository>
             <id>fusesource</id>
-            <url>http://repo.fusesource.com/nexus/content/groups/public/</url>
+            <url>https://repo.fusesource.com/nexus/content/groups/public/</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
