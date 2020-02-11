@@ -85,7 +85,7 @@
         <repository>
             <id>neo4j.repo</id>
             <name>neo4j Repository</name>
-            <url>http://m2.neo4j.org/content/repositories/releases</url>
+            <url>https://m2.neo4j.org/content/repositories/releases</url>
             <releases>
                 <enabled>true</enabled>
             </releases>

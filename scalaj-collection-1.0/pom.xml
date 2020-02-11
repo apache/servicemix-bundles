@@ -50,7 +50,7 @@
 	<repositories>
         <repository>
             <id>releases.scala-tools.org</id>
-            <url>http://scala-tools.org/repo-releases</url>
+            <url>https://scala-tools.org/repo-releases</url>
             <releases>
                 <enabled>true</enabled>
             </releases>

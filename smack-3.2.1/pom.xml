@@ -98,7 +98,7 @@
         <repository>
             <id>smx-m2-repo</id>
             <name>ServiceMix Maven Repository</name>
-            <url>http://svn.apache.org/repos/asf/servicemix/m2-repo</url>
+            <url>https://svn.apache.org/repos/asf/servicemix/m2-repo</url>
         </repository>
     </repositories>
 
