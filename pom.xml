@@ -44,6 +44,7 @@
     <modules>
         <module>spring-batch-core-4.0.2.RELEASE</module>
         <module>spring-batch-core-3.0.10.RELEASE</module>
+        <module>pulsar-client-2.4.2</module>
     </modules>
 
 </project>

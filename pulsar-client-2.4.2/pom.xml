@@ -47,10 +47,16 @@
         <pkgArtifactId>pulsar-client</pkgArtifactId>
         <pkgVersion>2.4.2</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.apache.pulsar
+            com.scurrilous.circe.*,
+            org.apache.pulsar,
+            org.apache.pulsar.*
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-
+            javax.security.cert,
+            org.slf4j,
+            javax.naming,javax.net.ssl,
+            net.jpountz.lz4,
+            org.w3c.dom
         </servicemix.osgi.import.pkg>
     </properties>
 
