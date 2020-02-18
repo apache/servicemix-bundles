@@ -46,6 +46,7 @@
         <module>spring-batch-core-3.0.10.RELEASE</module>
         <module>pulsar-client-2.4.2</module>
         <module>pulsar-client-2.5.0</module>
+        <module>avro-1.9.2</module>
     </modules>
 
 </project>
