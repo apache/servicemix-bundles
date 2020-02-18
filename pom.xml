@@ -48,6 +48,7 @@
         <module>pulsar-client-2.5.0</module>
         <module>avro-1.9.2</module>
         <module>avro-ipc-1.9.2</module>
+        <module>libphonenumber-8.11.4</module>
     </modules>
 
 </project>
