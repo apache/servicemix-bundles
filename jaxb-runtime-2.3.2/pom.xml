@@ -140,6 +140,10 @@
             org.jvnet.fastinfoset*;resolution:=optional,
             org.jvnet.staxex*;resolution:=optional,
     </servicemix.osgi.import.pkg>
+    <servicemix.osgi.private.pkg>
+            META-INF;-split-package:=merge-first,
+            META-INF.services;-split-package:=merge-first,
+    </servicemix.osgi.private.pkg>
     <servicemix.osgi.export.pkg>
             com.sun.xml.bind*,
             com.sun.xml.txw2*,
