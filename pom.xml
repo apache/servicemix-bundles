@@ -51,6 +51,7 @@
         <module>libphonenumber-8.11.4</module>
         <module>elasticsearch-client-6.1.1</module>
         <module>xmlbeans-3.1.0</module>
+        <module>jaxb-runtime-2.3.2</module>
     </modules>
 
 </project>
