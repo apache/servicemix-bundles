@@ -74,6 +74,7 @@
         <module>asterisk-java-3.1.0</module>
         <module>dbunit-2.7.0</module>
         <module>commons-compiler-3.1.1</module>
+        <module>antisamy-1.5.9</module>
     </modules>
 
 </project>
