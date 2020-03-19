@@ -71,6 +71,7 @@
         <module>spring-webmvc-5.1.14.RELEASE</module>
         <module>spring-websocket-5.1.14.RELEASE</module>
         <module>saxon-10.0</module>
+        <module>asterisk-java-3.1.0</module>
     </modules>
 
 </project>
