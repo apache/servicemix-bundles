@@ -109,6 +109,8 @@
         <module>spring-security-taglibs-5.3.0.RELEASE</module>
         <module>spring-security-test-5.3.0.RELEASE</module>
         <module>spring-security-web-5.3.0.RELEASE</module>
+        <module>derby-10.15.2.0</module>
+        <module>derbynet-10.15.2.0</module>
     </modules>
 
 </project>
