@@ -112,6 +112,10 @@
         <module>derby-10.15.2.0</module>
         <module>derbynet-10.15.2.0</module>
         <module>reflections-0.9.12</module>
+        <module>kafka_2.11-2.4.1</module>
+        <module>kafka_2.12-2.4.1</module>
+        <module>kafka-clients-2.4.1</module>
+        <module>kafka-streams-2.4.1</module>
     </modules>
 
 </project>
