@@ -111,6 +111,7 @@
         <module>spring-security-web-5.3.0.RELEASE</module>
         <module>derby-10.15.2.0</module>
         <module>derbynet-10.15.2.0</module>
+        <module>reflections-0.9.12</module>
     </modules>
 
 </project>
