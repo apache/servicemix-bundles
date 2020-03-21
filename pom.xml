@@ -127,6 +127,8 @@
         <module>janino-3.1.1</module>
         <module>ognl-3.2.14</module>
         <module>jruby-9.2.11.0</module>
+        <module>elasticsearch-7.6.1</module>
+        <module>elasticsearch-client-7.6.1</module>
     </modules>
 
 </project>
