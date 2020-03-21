@@ -121,6 +121,7 @@
         <module>hppc-0.7.1</module>
         <module>mybatis-3.5.4</module>
         <module>libphonenumber-8.11.5</module>
+        <module>poi-4.1.2</module>
     </modules>
 
 </project>
