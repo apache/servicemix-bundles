@@ -117,6 +117,7 @@
         <module>kafka-clients-2.4.1</module>
         <module>kafka-streams-2.4.1</module>
         <module>dnsjava-3.0.1</module>
+        <module>snmp4j-3.4.0</module>
     </modules>
 
 </project>
