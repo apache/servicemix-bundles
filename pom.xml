@@ -48,7 +48,6 @@
         <module>pulsar-client-2.5.0</module>
         <module>avro-1.9.2</module>
         <module>avro-ipc-1.9.2</module>
-        <module>libphonenumber-8.11.4</module>
         <module>elasticsearch-client-6.1.1</module>
         <module>xmlbeans-3.1.0</module>
         <module>jaxb-runtime-2.3.2</module>
@@ -121,6 +120,7 @@
         <module>janusgraph-core-0.4.1</module>
         <module>hppc-0.7.1</module>
         <module>mybatis-3.5.4</module>
+        <module>libphonenumber-8.11.5</module>
     </modules>
 
 </project>
