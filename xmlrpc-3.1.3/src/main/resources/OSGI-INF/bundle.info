@@ -2,7 +2,8 @@
     ${project.description}
 
     Original Maven URL:
-        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+        \u001B[33mmvn:${pkgGroupId}/xmlrpc-server/${pkgVersion}\u001B[0m
+        \u001B[33mmvn:${pkgGroupId}/xmlrpc-client/${pkgVersion}\u001B[0m
 
 \u001B[1mDESCRIPTION\u001B[0m
     Apache XML-RPC is a Java implementation of XML-RPC, a popular protocol that uses XML over HTTP
