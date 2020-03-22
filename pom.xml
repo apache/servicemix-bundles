@@ -147,6 +147,7 @@
         <module>spring-web-5.2.4.RELEASE</module>
         <module>spring-webmvc-5.2.4.RELEASE</module>
         <module>spring-websocket-5.2.4.RELEASE</module>
+        <module>atlassian-jira-client-5.1.6</module>
     </modules>
 
 </project>

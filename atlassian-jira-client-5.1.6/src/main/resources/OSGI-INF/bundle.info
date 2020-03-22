@@ -1,0 +1,22 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URLs:
+        \u001B[33mmvn:${pkgGroupId}/jira-rest-java-client-api/${pkgVersion}\u001B[0m
+        \u001B[33mmvn:${pkgGroupId}/jira-rest-java-client-core/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    Jira REST Java Client is a Java library (usable from any JVM language) which 
+    allows to easily talk to any Jira Server 4.2+ instance using new (and still evolving) 
+    REST API.
+    JRJC currently provides a thin layer of abstraction on top of REST API and related 
+    HTTP(S) communication. It provides a domain object model of JIRA entities on the 
+    client side - objects representing issues, priorities, resolutions, statuses, users, etc.
+    In the future though JRJC may be extended to handle things like caching (conditional GET,
+    metadata) or provide a higher level of abstraction on top of existing REST API - completely 
+    shielding the user from the specifics of REST.
+    JRJC should be useful for integrating systems using JVM-based languages (like Java) with 
+    JIRA and specifically for integrating Atlassian products with themselves.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://ecosystem.atlassian.net/wiki/display/JRJC/\u001B[0m
