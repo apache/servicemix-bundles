@@ -44,6 +44,7 @@
     <modules>
          <module>kafka_2.12-2.5.0</module>
          <module>kafka-clients-2.5.0</module>
+         <module>kafka-streams-2.5.0</module>
     </modules>
 
 </project>
