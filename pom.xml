@@ -42,6 +42,7 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+         <module>kafka_2.12-2.5.0</module>
     </modules>
 
 </project>
