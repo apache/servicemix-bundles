@@ -45,6 +45,8 @@
          <module>kafka_2.12-2.5.0</module>
          <module>kafka-clients-2.5.0</module>
          <module>kafka-streams-2.5.0</module>
+         <module>elasticsearch-6.4.2</module>
+         <module>elasticsearch-client-6.4.2</module>
     </modules>
 
 </project>
