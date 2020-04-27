@@ -57,6 +57,7 @@
          <module>dnsjava-3.0.2</module>
          <module>okio-2.6.0</module>
          <module>grpc-1.29.0</module>
+         <module>okhttp-4.5.0</module>
     </modules>
 
 </project>
