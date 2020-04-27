@@ -47,6 +47,8 @@
          <module>kafka-streams-2.5.0</module>
          <module>elasticsearch-6.4.2</module>
          <module>elasticsearch-client-6.4.2</module>
+         <module>elasticsearch-6.4.3</module>
+         <module>elasticsearch-client-6.4.3</module>
          <module>janusgraph-core-0.5.1</module>
          <module>janino-3.1.2</module>
          <module>guice-4.2.3</module>
