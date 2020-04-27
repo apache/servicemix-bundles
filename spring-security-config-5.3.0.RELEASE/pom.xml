@@ -54,6 +54,7 @@
 			reactor.*;resolution:=optional,
 			org.aspectj.*;resolution:=optional,
 			org.openid4java.*;resolution:=optional,
+      kotlin*;resolution:=optional,
       org.springframework.cglib;resolution:=optional,
       org.springframework.cglib.core;resolution:=optional,
       org.springframework.cglib.proxy;resolution:=optional,
