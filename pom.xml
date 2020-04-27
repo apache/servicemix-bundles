@@ -52,6 +52,7 @@
          <module>guice-4.2.3</module>
          <module>hppc-0.8.1</module>
          <module>bcprov-jdk15on-1.65</module>
+         <module>influxdb-java-2.18</module>
     </modules>
 
 </project>
