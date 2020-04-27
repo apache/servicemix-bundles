@@ -53,6 +53,7 @@
          <module>hppc-0.8.1</module>
          <module>bcprov-jdk15on-1.65</module>
          <module>influxdb-java-2.18</module>
+         <module>jt400-10.3</module>
     </modules>
 
 </project>
