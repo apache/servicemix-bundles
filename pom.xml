@@ -64,6 +64,7 @@
          <module>gae-1.9.80</module>
          <module>commons-compiler-3.1.2</module>
          <module>solr-solrj-8.4.1</module>
+         <module>opensaml-3.4.5</module>
     </modules>
 
 </project>
