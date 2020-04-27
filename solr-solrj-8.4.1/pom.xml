@@ -39,16 +39,16 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>org.apache.solr</pkgGroupId>
         <pkgArtifactId>solr-solrj</pkgArtifactId>
         <pkgVersion>8.4.1</pkgVersion>
-        <servicemix.osgi.export.pkg>
-            org.apache.solr
-        </servicemix.osgi.export.pkg>
+        <servicemix.osgi.export>
+            org.apache.solr*,
+            org.noggit*
+        </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
             javax.net.ssl*,
             javax.security.auth.login,
