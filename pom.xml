@@ -55,6 +55,7 @@
          <module>influxdb-java-2.18</module>
          <module>jt400-10.3</module>
          <module>dnsjava-3.0.2</module>
+         <module>okio-2.6.0</module>
     </modules>
 
 </project>
