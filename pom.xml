@@ -65,6 +65,8 @@
          <module>commons-compiler-3.1.2</module>
          <module>solr-solrj-8.4.1</module>
          <module>opensaml-3.4.5</module>
+         <modue>pulsar-client-2.5.1</module>
+         <module>pulsar-client-admin-2.5.1</module>
     </modules>
 
 </project>
