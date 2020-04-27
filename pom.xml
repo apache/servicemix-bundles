@@ -73,6 +73,11 @@
          <module>spring-ws-security-3.0.9.RELEASE</module>
          <module>spring-ws-support-3.0.9.RELEASE</module>
          <module>spring-ws-test-3.0.9.RELEASE</module>
+         <module>lucene-8.5.1</module>
+         <module>lucene-analyzers-common-8.5.1</module>
+         <module>lucene-queries-8.5.1</module>
+         <module>lucene-queryparser-8.5.1</module>
+         <module>lucene-sandbox-8.5.1</module>
     </modules>
 
 </project>
