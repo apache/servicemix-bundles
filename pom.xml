@@ -114,6 +114,7 @@
          <module>spring-web-5.2.5.RELEASE</module>
          <module>spring-webmvc-5.2.5.RELEASE</module>
          <module>spring-websocket-5.2.5.RELEASE</module>
+         <module>azure-core-1.4.0</module>
     </modules>
 
 </project>
