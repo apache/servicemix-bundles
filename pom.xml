@@ -116,6 +116,8 @@
          <module>spring-websocket-5.2.5.RELEASE</module>
          <module>azure-core-1.4.0</module>
          <module>azure-storage-blob-12.6.0</module>
+         <module>azure-storage-common-12.6.0</module>
+         <module>azure-storage-queue-12.5.0</module>
     </modules>
 
 </project>

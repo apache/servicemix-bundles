@@ -29,7 +29,7 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.azure-storage-blob</artifactId>
+    <artifactId>org.apache.servicemix.bundles.azure-storage-common</artifactId>
     <version>12.6.0_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
@@ -43,13 +43,13 @@
 
     <properties>
         <pkgGroupId>com.azure</pkgGroupId>
-        <pkgArtifactId>azure-storage-blob</pkgArtifactId>
+        <pkgArtifactId>azure-storage-common</pkgArtifactId>
         <pkgVersion>12.6.0</pkgVersion>
         <servicemix.osgi.export.pkg>
-            com.azure.storage.blob
+            com.azure.storage.common
          </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !com.azure.storage.blob*,
+            !com.azure.storage.common*,
             com.fasterxml.jackson*;version="[2.9,3)",
             reactor*;version="[3,4)",
             *

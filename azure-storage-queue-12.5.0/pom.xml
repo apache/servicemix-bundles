@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.azure-storage-blob</artifactId>
-    <version>12.6.0_1-SNAPSHOT</version>
+    <version>12.5.0_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -43,13 +43,13 @@
 
     <properties>
         <pkgGroupId>com.azure</pkgGroupId>
-        <pkgArtifactId>azure-storage-blob</pkgArtifactId>
-        <pkgVersion>12.6.0</pkgVersion>
+        <pkgArtifactId>azure-storage-queue</pkgArtifactId>
+        <pkgVersion>12.5.0</pkgVersion>
         <servicemix.osgi.export.pkg>
-            com.azure.storage.blob
+            com.azure.storage.queue
          </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !com.azure.storage.blob*,
+            !com.azure.storage.queue*,
             com.fasterxml.jackson*;version="[2.9,3)",
             reactor*;version="[3,4)",
             *
@@ -94,7 +94,7 @@
                                 <filter>
                                     <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
                                     <includes>
-                                      <include>azure-storage-blob.properties</include>
+                                      <include>azure-storage-queue.properties</include>
                                     </includes>
                                 </filter>
                             </filters>
