@@ -42,35 +42,6 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
-         <module>elasticsearch-client-6.4.2</module>
-         <module>elasticsearch-6.4.3</module>
-         <module>elasticsearch-client-6.4.3</module>
-         <module>janusgraph-core-0.5.1</module>
-         <module>janino-3.1.2</module>
-         <module>guice-4.2.3</module>
-         <module>hppc-0.8.1</module>
-         <module>bcprov-jdk15on-1.65</module>
-         <module>influxdb-java-2.18</module>
-         <module>jt400-10.3</module>
-         <module>dnsjava-3.0.2</module>
-         <module>okio-2.6.0</module>
-         <module>grpc-1.29.0</module>
-         <module>okhttp-4.5.0</module>
-         <module>hbase-2.2.4</module>
-         <module>dom4j-2.1.3</module>
-         <module>jruby-9.2.11.1</module>
-         <module>gae-1.9.80</module>
-         <module>commons-compiler-3.1.2</module>
-         <module>solr-solrj-8.4.1</module>
-         <module>opensaml-3.4.5</module>
-         <module>pulsar-client-2.5.1</module>
-         <module>pulsar-client-admin-2.5.1</module>
-         <module>elasticsearch-7.6.2</module>
-         <module>elasticsearch-client-7.6.2</module>
-         <module>spring-ws-core-3.0.9.RELEASE</module>
-         <module>spring-ws-security-3.0.9.RELEASE</module>
-         <module>spring-ws-support-3.0.9.RELEASE</module>
-         <module>spring-ws-test-3.0.9.RELEASE</module>
          <module>lucene-8.5.1</module>
          <module>lucene-analyzers-common-8.5.1</module>
          <module>lucene-queries-8.5.1</module>
