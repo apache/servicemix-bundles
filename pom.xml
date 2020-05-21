@@ -76,6 +76,7 @@
         <module>spring-security-taglibs-5.3.2.RELEASE</module>
         <module>spring-security-test-5.3.2.RELEASE</module>
         <module>spring-security-web-5.3.2.RELEASE</module>
+        <module>ant-1.10.8</module>
     </modules>
 
 </project>
