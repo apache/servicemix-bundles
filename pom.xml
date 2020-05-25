@@ -118,6 +118,7 @@
         <module>pulsar-client-admin-2.5.2</module>
         <module>elasticsearch-7.7.0</module>
         <module>elasticsearch-client-7.7.0</module>
+        <module>saxon-10.1</module>
     </modules>
 
 </project>
