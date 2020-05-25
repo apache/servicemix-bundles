@@ -119,6 +119,7 @@
         <module>elasticsearch-7.7.0</module>
         <module>elasticsearch-client-7.7.0</module>
         <module>saxon-10.1</module>
+        <module>xstream-1.4.12</module>
     </modules>
 
 </project>
