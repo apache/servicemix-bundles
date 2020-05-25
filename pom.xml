@@ -116,6 +116,8 @@
         <module>spring-websocket-5.2.6.RELEASE</module>
         <module>pulsar-client-2.5.2</module>
         <module>pulsar-client-admin-2.5.2</module>
+        <module>elasticsearch-7.7.0</module>
+        <module>elasticsearch-client-7.7.0</module>
     </modules>
 
 </project>
