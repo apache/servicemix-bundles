@@ -114,6 +114,8 @@
         <module>spring-web-5.2.6.RELEASE</module>
         <module>spring-webmvc-5.2.6.RELEASE</module>
         <module>spring-websocket-5.2.6.RELEASE</module>
+        <module>pulsar-client-2.5.2</module>
+        <module>pulsar-client-admin-2.5.2</module>
     </modules>
 
 </project>
