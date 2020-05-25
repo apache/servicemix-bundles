@@ -121,6 +121,7 @@
         <module>saxon-10.1</module>
         <module>xstream-1.4.12</module>
         <module>batik-1.13</module>
+        <module>janusgraph-core-0.5.2</module>
     </modules>
 
 </project>
