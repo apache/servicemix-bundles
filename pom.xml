@@ -146,6 +146,7 @@
         <module>azure-storage-8.6.4</module>
         <module>java-util-1.51.0</module>
         <module>retrofit-2.9.0</module>
+        <module>postgresql-42.2.12.jre7</module>
     </modules>
 
 </project>
