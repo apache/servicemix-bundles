@@ -139,6 +139,7 @@
         <module>spring-ldap-2.3.3.RELEASE</module>
         <module>libphonenumber-8.12.4</module>
         <module>docker-java-3.2.1</module>
+        <module>gremlin-driver-3.4.6</module>
     </modules>
 
 </project>
