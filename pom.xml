@@ -124,6 +124,7 @@
         <module>janusgraph-core-0.5.2</module>
         <module>okhttp-4.7.2</module>
         <module>azure-core-1.5.0</module>
+        <module>gwt-servlet-2.9.0</module>
     </modules>
 
 </project>
