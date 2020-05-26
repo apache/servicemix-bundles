@@ -141,6 +141,7 @@
         <module>docker-java-3.2.1</module>
         <module>gremlin-driver-3.4.6</module>
         <module>bcpg-jdk15on-1.65</module>
+        <module>aws-java-sdk-1.11.787</module>
     </modules>
 
 </project>
