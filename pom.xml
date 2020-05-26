@@ -125,6 +125,7 @@
         <module>okhttp-4.7.2</module>
         <module>azure-core-1.5.0</module>
         <module>gwt-servlet-2.9.0</module>
+        <module>json4s-3.6.8</module>
     </modules>
 
 </project>
