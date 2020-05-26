@@ -1,0 +1,11 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/httpunit\u001B[0m
+        \u001B[33mmvn:${pkgGroupId}/htmlunit-core-js\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://httpunit.sourceforge.net/\u001B[0m
