@@ -151,6 +151,9 @@
         <module>azure-storage-blob-12.6.1</module>
         <module>azure-storage-queue-12.5.1</module>
         <module>azure-storage-common-12.6.1</module>
+        <module>spring-data-commons-2.3.0.RELEASE</module>
+        <module>spring-data-keyvalue-2.3.0.RELEASE</module>
+        <module>spring-data-redis-2.3.0.RELEASE</module>
     </modules>
 
 </project>
