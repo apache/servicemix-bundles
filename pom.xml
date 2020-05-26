@@ -147,6 +147,7 @@
         <module>java-util-1.51.0</module>
         <module>retrofit-2.9.0</module>
         <module>postgresql-42.2.12.jre7</module>
+        <module>braintree-java-2.108.0</module>
     </modules>
 
 </project>
