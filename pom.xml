@@ -137,6 +137,7 @@
         <module>conscrypt-openjdk-uber-2.4.0</module>
         <module>orbitz-consul-client-1.3.5</module>
         <module>spring-ldap-2.3.3.RELEASE</module>
+        <module>libphonenumber-8.12.4</module>
     </modules>
 
 </project>
