@@ -149,6 +149,7 @@
         <module>postgresql-42.2.12.jre7</module>
         <module>braintree-java-2.108.0</module>
         <module>azure-storage-blob-12.6.1</module>
+        <module>azure-storage-queue-12.5.1</module>
     </modules>
 
 </project>
