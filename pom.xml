@@ -132,6 +132,8 @@
         <module>htmlunit-2.40.0</module>
         <module>azure-keyvault-core-1.2.4</module>
         <module>snmp4j-3.4.1</module>
+        <module>spring-batch-core-4.2.2.RELEASE</module>
+        <module>spring-batch-infrastructure-4.2.2.RELEASE</module>
     </modules>
 
 </project>
