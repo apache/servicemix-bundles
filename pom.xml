@@ -131,6 +131,7 @@
         <module>jedis-3.3.0</module>
         <module>htmlunit-2.40.0</module>
         <module>azure-keyvault-core-1.2.4</module>
+        <module>snmp4j-3.4.1</module>
     </modules>
 
 </project>
