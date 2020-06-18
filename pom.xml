@@ -41,6 +41,7 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+        <module>spring-batch-infrastructure-3.0.10.RELEASE</module>
     </modules>
 
 </project>
