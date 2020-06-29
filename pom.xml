@@ -45,6 +45,8 @@
         <module>spring-batch-infrastructure-4.0.2.RELEASE</module>
         <module>pulsar-client-2.5.2</module>
         <module>opensaml-4.0.1</module>
+        <module>elasticsearch-7.8.0</module>
+        <module>elasticsearch-client-7.8.0</module>
     </modules>
 
 </project>
