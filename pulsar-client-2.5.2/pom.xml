@@ -48,6 +48,8 @@
         <pkgVersion>2.5.2</pkgVersion>
         <servicemix.osgi.export.pkg>
             com.scurrilous.circe.*,
+            avro.*,
+            org.apache.avro.*,
             org.apache.pulsar,
             org.apache.pulsar.*
         </servicemix.osgi.export.pkg>

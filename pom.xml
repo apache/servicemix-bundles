@@ -43,6 +43,7 @@
     <modules>
         <module>spring-batch-infrastructure-3.0.10.RELEASE</module>
         <module>spring-batch-infrastructure-4.0.2.RELEASE</module>
+        <module>pulsar-client-2.5.2</module>
     </modules>
 
 </project>
