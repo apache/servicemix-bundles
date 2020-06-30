@@ -67,6 +67,7 @@
         <module>azure-core-1.5.1</module>
         <module>snmp4j-3.4.2</module>
         <module>bcprov-jdk15on-1.65.01</module>
+        <module>stringtemplate-4.3.1</module>
     </modules>
 
 </project>
