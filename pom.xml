@@ -63,6 +63,7 @@
         <module>spring-security-taglibs-5.3.3.RELEASE</module>
         <module>spring-security-test-5.3.3.RELEASE</module>
         <module>spring-security-web-5.3.3.RELEASE</module>
+        <module>fastjson-1.2.72</module>
     </modules>
 
 </project>
