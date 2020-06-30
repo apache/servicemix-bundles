@@ -65,6 +65,7 @@
         <module>spring-security-web-5.3.3.RELEASE</module>
         <module>fastjson-1.2.72</module>
         <module>azure-core-1.5.1</module>
+        <module>snmp4j-3.4.2</module>
     </modules>
 
 </project>
