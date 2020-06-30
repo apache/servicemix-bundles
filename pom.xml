@@ -72,6 +72,7 @@
         <module>htmlunit-2.41.0</module>
         <module>pulsar-client-2.6.0</module>
         <module>pulsar-client-admin-2.6.0</module>
+        <module>mybatis-3.5.5</module>
     </modules>
 
 </project>
