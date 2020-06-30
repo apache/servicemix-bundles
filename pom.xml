@@ -70,6 +70,8 @@
         <module>stringtemplate-4.3.1</module>
         <module>aws-java-sdk-1.11.812</module>
         <module>htmlunit-2.41.0</module>
+        <module>pulsar-client-2.6.0</module>
+        <module>pulsar-client-admin-2.6.0</module>
     </modules>
 
 </project>
