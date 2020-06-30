@@ -64,6 +64,7 @@
         <module>spring-security-test-5.3.3.RELEASE</module>
         <module>spring-security-web-5.3.3.RELEASE</module>
         <module>fastjson-1.2.72</module>
+        <module>azure-core-1.5.1</module>
     </modules>
 
 </project>
