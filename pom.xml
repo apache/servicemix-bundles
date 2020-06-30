@@ -47,6 +47,22 @@
         <module>opensaml-4.0.1</module>
         <module>elasticsearch-7.8.0</module>
         <module>elasticsearch-client-7.8.0</module>
+        <module>spring-security-acl-5.3.3.RELEASE</module>
+        <module>spring-security-aspects-5.3.3.RELEASE</module>
+        <module>spring-security-cas-5.3.3.RELEASE</module>
+        <module>spring-security-config-5.3.3.RELEASE</module>
+        <module>spring-security-core-5.3.3.RELEASE</module>
+        <module>spring-security-crypto-5.3.3.RELEASE</module>
+        <module>spring-security-data-5.3.3.RELEASE</module>
+        <module>spring-security-ldap-5.3.3.RELEASE</module>
+        <module>spring-security-messaging-5.3.3.RELEASE</module>
+        <module>spring-security-oauth2-client-5.3.3.RELEASE</module>
+        <module>spring-security-oauth2-core-5.3.3.RELEASE</module>
+        <module>spring-security-oauth2-jose-5.3.3.RELEASE</module>
+        <module>spring-security-remoting-5.3.3.RELEASE</module>
+        <module>spring-security-taglibs-5.3.3.RELEASE</module>
+        <module>spring-security-test-5.3.3.RELEASE</module>
+        <module>spring-security-web-5.3.3.RELEASE</module>
     </modules>
 
 </project>
