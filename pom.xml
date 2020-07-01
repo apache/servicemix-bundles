@@ -94,6 +94,7 @@
         <module>json4s-3.6.9</module>
         <module>grpc-1.30.2</module>
         <module>qpid-6.4.0</module>
+        <module>libphonenumber-8.12.6</module>
     </modules>
 
 </project>
