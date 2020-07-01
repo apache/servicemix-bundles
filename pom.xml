@@ -92,6 +92,7 @@
         <module>antisamy-1.5.10</module>
         <module>azure-storage-common-12.7.0</module>
         <module>json4s-3.6.9</module>
+        <module>grpc-1.30.2</module>
     </modules>
 
 </project>
