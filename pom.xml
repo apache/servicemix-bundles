@@ -85,6 +85,7 @@
         <module>spring-data-keyvalue-2.3.1.RELEASE</module>
         <module>spring-data-redis-2.3.1.RELEASE</module>
         <module>docker-java-3.2.5</module>
+        <module>hppc-0.8.2</module>
     </modules>
 
 </project>
