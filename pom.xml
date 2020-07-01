@@ -73,6 +73,8 @@
         <module>pulsar-client-2.6.0</module>
         <module>pulsar-client-admin-2.6.0</module>
         <module>mybatis-3.5.5</module>
+        <module>spring-batch-core-4.2.4.RELEASE</module>
+        <module>spring-batch-infrastructure-4.2.4.RELEASE</module>
     </modules>
 
 </project>
