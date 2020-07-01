@@ -76,6 +76,7 @@
         <module>spring-batch-core-4.2.4.RELEASE</module>
         <module>spring-batch-infrastructure-4.2.4.RELEASE</module>
         <module>asterisk-java-3.5.0</module>
+        <module>azure-storage-queue-12.5.2</module>
     </modules>
 
 </project>
