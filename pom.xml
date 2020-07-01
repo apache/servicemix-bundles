@@ -88,6 +88,7 @@
         <module>hppc-0.8.2</module>
         <module>gremlin-driver-3.4.7</module>
         <module>dnsjava-3.2.1</module>
+        <module>azure-storage-blob-12.7.0</module>
     </modules>
 
 </project>
