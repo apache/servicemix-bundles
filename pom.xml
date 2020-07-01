@@ -86,6 +86,7 @@
         <module>spring-data-redis-2.3.1.RELEASE</module>
         <module>docker-java-3.2.5</module>
         <module>hppc-0.8.2</module>
+        <module>gremlin-driver-3.4.7</module>
     </modules>
 
 </project>
