@@ -90,6 +90,7 @@
         <module>dnsjava-3.2.1</module>
         <module>azure-storage-blob-12.7.0</module>
         <module>antisamy-1.5.10</module>
+        <module>azure-storage-common-12.7.0</module>
     </modules>
 
 </project>
