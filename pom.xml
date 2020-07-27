@@ -41,6 +41,7 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+      <module>fastinfoset-1.2.18</module>
     </modules>
 
 </project>
