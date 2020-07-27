@@ -47,6 +47,7 @@
       <module>lucene-queries-8.6.0</module>
       <module>lucene-queryparser-8.6.0</module>
       <module>lucene-sandbox-8.6.0</module>
+      <module>asterisk-java-3.6.0</module>
     </modules>
 
 </project>
