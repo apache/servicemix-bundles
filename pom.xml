@@ -42,6 +42,11 @@
 
     <modules>
       <module>fastinfoset-1.2.18</module>
+      <module>lucene-8.6.0</module>
+      <module>lucene-analyzers-common-8.6.0</module>
+      <module>lucene-queries-8.6.0</module>
+      <module>lucene-queryparser-8.6.0</module>
+      <module>lucene-sandbox-8.6.0</module>
     </modules>
 
 </project>
