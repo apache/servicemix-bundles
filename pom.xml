@@ -67,6 +67,7 @@
       <module>spring-webmvc-5.2.8.RELEASE</module>
       <module>spring-websocket-5.2.8.RELEASE</module>
       <module>esapi-2.2.1.0</module>
+      <module>fastjson-1.2.73</module>
     </modules>
 
 </project>
