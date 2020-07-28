@@ -75,6 +75,7 @@
       <module>avro-1.10.0</module>
       <module>avro-ipc-1.10.0</module>
       <module>hadoop-client-3.3.0</module>
+      <module>jt400-10.4</module>
     </modules>
 
 </project>
