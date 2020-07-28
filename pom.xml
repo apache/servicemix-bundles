@@ -68,6 +68,7 @@
       <module>spring-websocket-5.2.8.RELEASE</module>
       <module>esapi-2.2.1.0</module>
       <module>fastjson-1.2.73</module>
+      <module>gae-1.9.81</module>
     </modules>
 
 </project>
