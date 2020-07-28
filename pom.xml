@@ -72,6 +72,8 @@
       <module>hbase-2.3.0</module>
       <module>okhttp-4.8.0</module>
       <module>aspectj-1.9.6</module>
+      <module>avro-1.10.0</module>
+      <module>avro-ipc-1.10.0</module>
     </modules>
 
 </project>
