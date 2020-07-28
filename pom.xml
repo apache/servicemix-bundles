@@ -70,6 +70,7 @@
       <module>fastjson-1.2.73</module>
       <module>gae-1.9.81</module>
       <module>hbase-2.3.0</module>
+      <module>okhttp-4.8.0</module>
     </modules>
 
 </project>
