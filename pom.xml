@@ -100,6 +100,7 @@
       <module>spring-webmvc-4.3.28.RELEASE</module>
       <module>spring-webmvc-portlet-4.3.28.RELEASE</module>
       <module>spring-websocket-4.3.28.RELEASE</module>
+      <module>htmlunit-2.42.0</module>
     </modules>
 
 </project>
