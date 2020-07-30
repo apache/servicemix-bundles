@@ -103,6 +103,7 @@
       <module>htmlunit-2.42.0</module>
       <module>spring-integration-core-5.3.2.RELEASE</module>
       <module>spring-xml-3.0.9.RELEASE</module>
+      <module>java-util-1.53.0</module>
     </modules>
 
 </project>
