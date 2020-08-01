@@ -106,6 +106,7 @@
       <module>java-util-1.53.0</module>
       <module>solr-solrj-8.6.0</module>
       <module>aws-java-sdk-1.11.827</module>
+      <module>libphonenumber-8.12.7</module>
     </modules>
 
 </project>
