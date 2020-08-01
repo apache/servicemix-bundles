@@ -105,6 +105,7 @@
       <module>spring-xml-3.0.9.RELEASE</module>
       <module>java-util-1.53.0</module>
       <module>solr-solrj-8.6.0</module>
+      <module>aws-java-sdk-1.11.827</module>
     </modules>
 
 </project>
