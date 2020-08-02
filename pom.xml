@@ -110,6 +110,9 @@
       <module>bcpg-jdk15on-1.66</module>
       <module>jruby-9.2.12.0</module>
       <module>postgresql-42.2.14.jre7</module>
+      <module>spring-data-commons-2.3.2.RELEASE</module>
+      <module>spring-data-keyvalue-2.3.2.RELEASE</module>
+      <module>spring-data-redis-2.3.2.RELEASE</module>
     </modules>
 
 </project>
