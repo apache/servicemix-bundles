@@ -108,6 +108,7 @@
       <module>aws-java-sdk-1.11.827</module>
       <module>libphonenumber-8.12.7</module>
       <module>bcpg-jdk15on-1.66</module>
+      <module>jruby-9.2.12.0</module>
     </modules>
 
 </project>
