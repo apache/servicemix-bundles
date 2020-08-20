@@ -43,6 +43,9 @@
     <modules>
       <module>elasticsearch-7.7.0</module>
       <module>elasticsearch-7.8.0</module>
+      <module>spring-data-commons-2.3.2.RELEASE</module>
+      <module>spring-data-keyvalue-2.3.2.RELEASE</module>
+      <module>spring-data-redis-2.3.2.RELEASE</module>
     </modules>
 
 </project>
