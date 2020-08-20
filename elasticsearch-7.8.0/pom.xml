@@ -47,7 +47,6 @@
         <pkgArtifactId>elasticsearch</pkgArtifactId>
         <pkgVersion>7.8.0</pkgVersion>
         <servicemix.osgi.export>
-            !org.elasticsearch.client*,
             org.elasticsearch*;version="${pkgVersion}";-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
@@ -96,6 +95,26 @@
             <version>${pkgVersion}</version>
         </dependency>
         <dependency>
+            <groupId>org.elasticsearch.client</groupId>
+            <artifactId>elasticsearch-rest-client</artifactId>
+            <version>${pkgVersion}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.elasticsearch.client</groupId>
+            <artifactId>elasticsearch-rest-client-sniffer</artifactId>
+            <version>${pkgVersion}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.elasticsearch.client</groupId>
+            <artifactId>elasticsearch-rest-high-level-client</artifactId>
+            <version>${pkgVersion}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.elasticsearch.client</groupId>
+            <artifactId>transport</artifactId>
+            <version>${pkgVersion}</version>
+        </dependency>
+        <dependency>
             <groupId>org.elasticsearch.plugin</groupId>
             <artifactId>transport-netty4-client</artifactId>
             <version>${pkgVersion}</version>
@@ -115,6 +134,30 @@
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.elasticsearch.client</groupId>
+            <artifactId>elasticsearch-rest-client</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.elasticsearch.client</groupId>
+            <artifactId>elasticsearch-rest-client-sniffer</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.elasticsearch.client</groupId>
+            <artifactId>elasticsearch-rest-high-level-client</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.elasticsearch.client</groupId>
+            <artifactId>transport</artifactId>
             <version>${pkgVersion}</version>
             <classifier>sources</classifier>
         </dependency>
@@ -141,7 +184,11 @@
                             <artifactSet>
                                 <includes>
                                     <include>${pkgGroupId}:${pkgArtifactId}</include>
-				    <include>org.elasticsearch.plugin:transport-netty4client</include>
+                                    <include>org.elasticsearch.client:elasticsearch-rest-client</include>
+                                    <include>org.elasticsearch.client:elasticsearch-rest-client-sniffer</include>
+                                    <include>org.elasticsearch.client:elasticsearch-rest-high-level-client</include>
+                                    <include>org.elasticsearch.client:transport</include>
+				                            <include>org.elasticsearch.plugin:transport-netty4client</include>
                                     <include>org.apache.lucene:*</include>
                                 </includes>
                             </artifactSet>
