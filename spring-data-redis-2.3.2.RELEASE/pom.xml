@@ -50,8 +50,21 @@
             org.springframework.data.redis
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
+            !org.apache.commons.beanutils*,
+            javax.enterprise.context*;resolution:=optional,
+            javax.enterprise.event;resolution:=optional,
+            javax.enterprise.inject*;resolution:=optional,
+            io.lettuce*;resolution:=optional,
+            kotlin*;resolution:=optional,
+            org.reactivestreams*;resolution:=optional,
+            com.querydsl.collections;resolution:=optional,
+            org.springframework.oxm;resolution:=optional,
+            reactor*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
+        <servicemix.osgi.private.pkg>
+            org.apache.commons.beanutils*
+        </servicemix.osgi.private.pkg>
     </properties>
 
     <dependencies>

@@ -50,6 +50,7 @@
             org.springframework.data.keyvalue
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
+            com.querydsl*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
     </properties>
