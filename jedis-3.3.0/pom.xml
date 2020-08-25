@@ -51,7 +51,8 @@
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             javax.net*,
-            org.apache.commons.pool*
+            org.apache.commons.pool*,
+            org.slf4j*;version="[1.7,2)"
         </servicemix.osgi.import.pkg>
     </properties>
 

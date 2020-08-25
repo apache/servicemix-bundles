@@ -46,6 +46,7 @@
       <module>spring-data-commons-2.3.2.RELEASE</module>
       <module>spring-data-keyvalue-2.3.2.RELEASE</module>
       <module>spring-data-redis-2.3.2.RELEASE</module>
+      <module>jedis-3.3.0</module>
     </modules>
 
 </project>
