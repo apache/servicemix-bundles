@@ -57,6 +57,7 @@
       <module>hbase-2.3.1</module>
       <module>ognl-3.2.15</module>
       <module>okhttp-4.8.1</module>
+      <module>grpc-1.31.1</module>
     </modules>
 
 </project>
