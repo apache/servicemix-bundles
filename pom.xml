@@ -59,6 +59,7 @@
       <module>okhttp-4.8.1</module>
       <module>grpc-1.31.1</module>
       <module>influxdb-java-2.20</module>
+      <module>okio-2.8.0</module>
     </modules>
 
 </project>
