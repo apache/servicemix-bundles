@@ -54,6 +54,7 @@
       <module>lucene-sandbox-8.6.1</module>
       <module>solr-solrj-8.6.1</module>
       <module>elasticsearch-7.9.0</module>
+      <module>hbase-2.3.1</module>
     </modules>
 
 </project>
