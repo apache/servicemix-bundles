@@ -65,6 +65,7 @@
       <module>kafka-streams-2.6.0</module>
       <module>kafka_2.12-2.6.0</module>
       <module>azure-storage-queue-12.6.0</module>
+      <module>gremlin-driver-3.4.8</module>
     </modules>
 
 </project>
