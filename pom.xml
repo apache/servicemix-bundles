@@ -69,6 +69,7 @@
       <module>htmlunit-2.43.0</module>
       <module>braintree-java-3.1.0</module>
       <module>azure-storage-common-12.8.0</module>
+      <module>aws-java-sdk-1.11.846</module>
     </modules>
 
 </project>
