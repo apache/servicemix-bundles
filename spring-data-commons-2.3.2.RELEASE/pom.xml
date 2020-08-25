@@ -63,6 +63,7 @@
             org.aopalliance.aop;resolution:=optional,
             org.aopalliance.intercept;resolution:=optional,
             org.joda.time;resolution:=optional,
+            org.apache.commons.logging*;resolution:=optional,
             org.slf4j;resolution:=optional,
             org.springframework.aop*;version="[5,6)",
             org.springframework.asm;version="[5,6)",
