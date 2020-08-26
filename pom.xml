@@ -74,6 +74,7 @@
       <module>libphonenumber-8.12.8</module>
       <module>jruby-9.2.13.0</module>
       <module>postgresql-42.2.15.jre7</module>
+      <module>azure-core-1.7.0</module>
     </modules>
 
 </project>
