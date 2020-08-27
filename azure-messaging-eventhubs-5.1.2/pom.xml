@@ -50,8 +50,8 @@
          </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             !com.azure.messaging.eventhubs*,
-            org.reactivestreams*;resolution:=optional,
-            reactor*;resolution:=optional,
+            org.reactivestreams*,
+            reactor*;version="[3,4)",
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
