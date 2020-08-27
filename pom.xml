@@ -78,6 +78,7 @@
       <module>conscrypt-openjdk-uber-2.5.0</module>
       <module>azure-messaging-eventhubs-5.1.2</module>
       <module>azure-messaging-eventhubs-checkpointstore-blob-1.1.2</module>
+      <module>azure-core-amqp-1.4.0</module>
     </modules>
 
 </project>
