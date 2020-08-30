@@ -48,6 +48,9 @@
         <servicemix.osgi.export.pkg>
             org.springframework.ws.transport
         </servicemix.osgi.export.pkg>
+        <servicemix.osgi.fragment.host>
+            ${project.groupId}.spring-ws-core
+        </servicemix.osgi.fragment.host>
         <servicemix.osgi.import.pkg>
             com.sun.mail.imap;resolution:=optional, 
             com.sun.net.httpserver;resolution:=optional, 
