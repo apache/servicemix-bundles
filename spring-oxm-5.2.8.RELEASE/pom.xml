@@ -91,6 +91,7 @@
             org.springframework.core.type.classreading;version="[${pkgVersion},5.3)",
             org.springframework.core.type.filter;version="[${pkgVersion},5.3)",
             org.springframework.util;version="[${pkgVersion},5.3)",
+            org.springframework.util.function;version="[${pkgVersion},5.3)",
             org.springframework.util.xml;version="[${pkgVersion},5.3)",
             org.w3c.dom,
             org.w3c.dom.ls,
