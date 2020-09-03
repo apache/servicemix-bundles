@@ -88,6 +88,7 @@
             org.xml.sax*,
             org.w3c.dom*,
             javax.xml.*,
+            javax.imageio.*,
             org.apache.xmlbeans.*,
             org.apache.commons.collections4.*,
             org.apache.commons.math3.*,
@@ -95,7 +96,8 @@
             org.apache.xmlbeans.impl.schema,
             org.bouncycastle.*;resolution:=optional,
             org.apache.jcp.xml.dsig.internal.dom;resolution:=optional,
-            org.apache.xml.security.*;resolution:=optional
+            org.apache.xml.security.*;resolution:=optional,
+            org.apache.batik.*;resolution:=optional
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
             com.graphbuilder*;-split-package:=merge-first,
@@ -200,6 +202,18 @@
             <artifactId>curvesapi</artifactId>
             <version>1.05</version>
             <optional>false</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.xmlgraphics</groupId>
+            <artifactId>batik-all</artifactId>
+            <version>1.13</version>
+            <optional>true</optional>
+            <exclusions>
+                <exclusion>
+                    <groupId>*</groupId>
+                    <artifactId>*</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <!-- sources -->
@@ -336,6 +350,12 @@
                                 </filter>
                                 <filter>
                                     <artifact>com.github.virtuald:curvesapi</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>org.apache.xmlgraphics:batik-all</artifact>
                                     <excludes>
                                         <exclude>**</exclude>
                                     </excludes>
