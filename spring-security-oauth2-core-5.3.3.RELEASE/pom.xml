@@ -46,10 +46,12 @@
         <pkgArtifactId>spring-security-oauth2-core</pkgArtifactId>
         <pkgVersion>5.3.3.RELEASE</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.springframework.security.oauth2.core
+            org.springframework.security.oauth2.core*
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             com.nimbusds*;resolution:=optional,
+            com.fasterxml.jackson.databind;resolution:=optional,
+            com.fasterxml.jackson.core;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
     </properties>

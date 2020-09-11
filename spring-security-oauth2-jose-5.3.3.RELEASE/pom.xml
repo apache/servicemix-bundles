@@ -46,7 +46,7 @@
         <pkgArtifactId>spring-security-oauth2-jose</pkgArtifactId>
         <pkgVersion>5.3.3.RELEASE</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.springframework.security.oauth2.jose
+            org.springframework.security.oauth2.j*
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             com.nimbusds*;resolution:=optional,
