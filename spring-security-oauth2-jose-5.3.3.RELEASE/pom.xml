@@ -49,6 +49,7 @@
             org.springframework.security.oauth2.j*
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
+            com.nimbusds.oauth2.sdk;resolution:=optional,
             com.nimbusds*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
