@@ -46,10 +46,11 @@
         <pkgArtifactId>spring-security-oauth2-client</pkgArtifactId>
         <pkgVersion>5.3.3.RELEASE</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.springframework.security.oauth2.client
+            org.springframework.security.oauth2.client*
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             com.nimbusds*;resolution:=optional,
+            org.springframework.security.oauth2.core,
             *
         </servicemix.osgi.import.pkg>
     </properties>
