@@ -67,6 +67,7 @@
       <module>spring-ws-security-3.0.9.RELEASE</module>
       <module>spring-ws-support-3.0.9.RELEASE</module>
       <module>spring-ws-test-3.0.9.RELEASE</module>
+      <module>poi-4.1.2</module>
     </modules>
 
 </project>
