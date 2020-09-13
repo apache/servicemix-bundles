@@ -95,7 +95,9 @@
             org.apache.xmlbeans.impl.schema,
             org.bouncycastle.*;resolution:=optional,
             org.apache.jcp.xml.dsig.internal.dom;resolution:=optional,
-            org.apache.xml.security.*;resolution:=optional
+            org.apache.xml.security.*;resolution:=optional,
+            org.apache.batik.*;resolution:=optional,
+            javax.imageio.*;resolution:=optional
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
             com.graphbuilder*;-split-package:=merge-first,
