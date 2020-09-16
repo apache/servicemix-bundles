@@ -51,10 +51,14 @@
          </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             !com.azure.storage.blob*,
+            !com.azure.storage.internal*,
             com.fasterxml.jackson*;version="[2.9,3)",
             reactor*;version="[3,4)",
             *
         </servicemix.osgi.import.pkg>
+        <servicemix.osgi.private.pkg>
+            com.azure.storage.internal*
+        </servicemix.osgi.private.pkg>
     </properties>
 
     <dependencies>

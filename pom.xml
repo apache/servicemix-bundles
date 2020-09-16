@@ -84,6 +84,8 @@
       <module>spring-security-taglibs-5.3.3.RELEASE</module>
       <module>spring-security-test-5.3.3.RELEASE</module>
       <module>spring-security-web-5.3.3.RELEASE</module>
+      <module>azure-storage-blob-12.8.0</module>
+      <module>azure-storage-common-12.8.0</module>
     </modules>
 
 </project>
