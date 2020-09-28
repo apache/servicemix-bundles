@@ -128,6 +128,7 @@
       <module>spring-ws-security-3.0.10.RELEASE</module>
       <module>spring-ws-support-3.0.10.RELEASE</module>
       <module>spring-ws-test-3.0.10.RELEASE</module>
+      <module>azure-messaging-eventhubs-checkpointstore-blob-1.2.0</module>
     </modules>
 
 </project>
