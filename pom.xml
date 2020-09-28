@@ -132,6 +132,11 @@
       <module>okhttp-4.9.0</module>
       <module>libphonenumber-8.12.10</module>
       <module>conscrypt-openjdk-uber-2.5.1</module>
+      <module>lucene-8.6.2</module>
+      <module>lucene-analyzers-common-8.6.2</module>
+      <module>lucene-queries-8.6.2</module>
+      <module>lucene-queryparser-8.6.2</module>
+      <module>lucene-sandbox-8.6.2</module>
     </modules>
 
 </project>
