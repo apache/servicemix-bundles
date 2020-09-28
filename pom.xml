@@ -124,6 +124,10 @@
       <module>spring-web-5.1.18.RELEASE</module>
       <module>spring-webmvc-5.1.18.RELEASE</module>
       <module>spring-websocket-5.1.18.RELEASE</module>
+      <module>spring-ws-core-3.0.10.RELEASE</module>
+      <module>spring-ws-security-3.0.10.RELEASE</module>
+      <module>spring-ws-support-3.0.10.RELEASE</module>
+      <module>spring-ws-test-3.0.10.RELEASE</module>
     </modules>
 
 </project>
