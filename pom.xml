@@ -131,6 +131,7 @@
       <module>azure-messaging-eventhubs-checkpointstore-blob-1.2.0</module>
       <module>okhttp-4.9.0</module>
       <module>libphonenumber-8.12.10</module>
+      <module>conscrypt-openjdk-uber-2.5.1</module>
     </modules>
 
 </project>
