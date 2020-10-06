@@ -84,6 +84,7 @@
             org.springframework.transaction;version="[${pkgVersion},5.3)",
             org.springframework.transaction.support;version="[${pkgVersion},5.3)",
             org.springframework.util;version="[${pkgVersion},5.3)",
+            org.springframework.util.function;version="[${pkgVersion},5.3)",
             org.springframework.util.xml;version="[${pkgVersion},5.3)",
             org.w3c.dom;resolution:=optional,
             weblogic.jdbc.extensions;resolution:=optional
