@@ -87,6 +87,8 @@
       <module>spring-security-web-5.4.1</module>
       <module>xmlbeans-4.0.0</module>
       <module>java-util-1.61.0</module>
+      <module>spring-batch-core-4.3.0</module>
+      <module>spring-batch-infrastructure-4.3.0</module>
     </modules>
 
 </project>
