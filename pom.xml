@@ -94,6 +94,7 @@
       <module>libphonenumber-8.12.12</module>
       <module>htmlunit-2.44.0</module>
       <module>junit-4.13.1</module>
+      <module>json4s-3.6.10</module>
     </modules>
 
 </project>
