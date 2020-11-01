@@ -91,6 +91,7 @@
       <module>spring-batch-infrastructure-4.3.0</module>
       <module>azure-messaging-eventhubs-5.3.1</module>
       <module>spring-xml-3.0.10.RELEASE</module>
+      <module>libphonenumber-8.12.12</module>
     </modules>
 
 </project>
