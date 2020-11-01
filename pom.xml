@@ -65,6 +65,7 @@
       <module>postgresql-42.2.18.jre7</module>
       <module>sparkjava-core-2.9.3</module>
       <module>fastjson-1.2.74</module>
+      <module>spring-integration-core-5.4.0</module>
     </modules>
 
 </project>
