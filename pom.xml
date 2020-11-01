@@ -63,6 +63,7 @@
       <module>atlassian-jira-client-5.2.2</module>
       <module>bcprov-jdk15on-1.66</module>
       <module>postgresql-42.2.18.jre7</module>
+      <module>sparkjava-core-2.9.3</module>
     </modules>
 
 </project>
