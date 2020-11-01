@@ -67,6 +67,7 @@
       <module>fastjson-1.2.74</module>
       <module>spring-integration-core-5.4.0</module>
       <module>azure-core-amqp-1.6.0</module>
+      <module>javax-el-impl-4.0.0</module>
     </modules>
 
 </project>
