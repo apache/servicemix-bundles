@@ -92,6 +92,7 @@
       <module>azure-messaging-eventhubs-5.3.1</module>
       <module>spring-xml-3.0.10.RELEASE</module>
       <module>libphonenumber-8.12.12</module>
+      <module>htmlunit-2.44.0</module>
     </modules>
 
 </project>
