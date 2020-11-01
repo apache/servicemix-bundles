@@ -89,6 +89,7 @@
       <module>java-util-1.61.0</module>
       <module>spring-batch-core-4.3.0</module>
       <module>spring-batch-infrastructure-4.3.0</module>
+      <module>azure-messaging-eventhubs-5.3.1</module>
     </modules>
 
 </project>
