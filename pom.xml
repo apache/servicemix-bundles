@@ -109,6 +109,7 @@
       <module>lucene-sandbox-8.6.3</module>
       <module>dnsjava-3.3.1</module>
       <module>aws-java-sdk-1.11.892</module>
+      <module>xstream-1.4.13</module>
     </modules>
 
 </project>
