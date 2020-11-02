@@ -110,6 +110,7 @@
       <module>dnsjava-3.3.1</module>
       <module>aws-java-sdk-1.11.892</module>
       <module>xstream-1.4.13</module>
+      <module>snmp4j-3.4.3</module>
     </modules>
 
 </project>
