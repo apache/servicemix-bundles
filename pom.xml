@@ -114,6 +114,7 @@
       <module>gae-1.9.82</module>
       <module>elasticsearch-7.9.3</module>
       <module>zxing-3.4.1</module>
+      <module>asterisk-java-3.8.0</module>
     </modules>
 
 </project>
