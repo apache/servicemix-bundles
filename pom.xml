@@ -101,6 +101,7 @@
       <module>hbase-2.3.2</module>
       <module>grpc-1.33.1</module>
       <module>ant-1.10.9</module>
+      <module>azure-core-1.10.0</module>
     </modules>
 
 </project>
