@@ -116,6 +116,7 @@
       <module>zxing-3.4.1</module>
       <module>asterisk-java-3.8.0</module>
       <module>saxon-10.3</module>
+      <module>braintree-java-3.2.0</module>
     </modules>
 
 </project>
