@@ -108,6 +108,7 @@
       <module>lucene-queryparser-8.6.3</module>
       <module>lucene-sandbox-8.6.3</module>
       <module>dnsjava-3.3.1</module>
+      <module>aws-java-sdk-1.11.892</module>
     </modules>
 
 </project>
