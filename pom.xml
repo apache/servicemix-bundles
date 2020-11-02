@@ -113,6 +113,7 @@
       <module>snmp4j-3.4.3</module>
       <module>gae-1.9.82</module>
       <module>elasticsearch-7.9.3</module>
+      <module>zxing-3.4.1</module>
     </modules>
 
 </project>
