@@ -99,6 +99,7 @@
       <module>mybatis-3.5.6</module>
       <module>okio-2.9.0</module>
       <module>hbase-2.3.2</module>
+      <module>grpc-1.33.1</module>
     </modules>
 
 </project>
