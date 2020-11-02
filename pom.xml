@@ -100,6 +100,7 @@
       <module>okio-2.9.0</module>
       <module>hbase-2.3.2</module>
       <module>grpc-1.33.1</module>
+      <module>ant-1.10.9</module>
     </modules>
 
 </project>
