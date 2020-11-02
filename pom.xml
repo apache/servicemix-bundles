@@ -96,6 +96,7 @@
       <module>junit-4.13.1</module>
       <module>json4s-3.6.10</module>
       <module>any23-2.4</module>
+      <module>mybatis-3.5.6</module>
     </modules>
 
 </project>
