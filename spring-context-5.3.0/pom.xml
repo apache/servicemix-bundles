@@ -135,6 +135,7 @@
             org.springframework.core.env;version="[${pkgVersion},5.4)",
             org.springframework.core.io;version="[${pkgVersion},5.4)",
             org.springframework.core.io.support;version="[${pkgVersion},5.4)",
+            org.springframework.core.metrics;version="[${pkgVersion},5.4)",
             org.springframework.core.serializer.support;version="[${pkgVersion},5.4)";resolution:=optional,
             org.springframework.core.task;version="[${pkgVersion},5.4)",
             org.springframework.core.task.support;version="[${pkgVersion},5.4)",
