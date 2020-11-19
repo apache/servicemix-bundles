@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.xstream</artifactId>
-    <version>1.4.13_2-SNAPSHOT</version>
+    <version>1.4.14_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -45,7 +45,7 @@
     <properties>
         <pkgGroupId>com.thoughtworks.xstream</pkgGroupId>
         <pkgArtifactId>xstream</pkgArtifactId>
-        <pkgVersion>1.4.13-java7</pkgVersion>
+        <pkgVersion>1.4.14-jdk7</pkgVersion>
         <servicemix.osgi.export.pkg>
             com.thoughtworks.xstream
         </servicemix.osgi.export.pkg>
