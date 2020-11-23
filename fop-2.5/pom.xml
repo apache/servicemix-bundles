@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.fop</artifactId>
-    <version>2.3_2-SNAPSHOT</version>
+    <version>2.5_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -45,7 +45,7 @@
     <properties>
         <pkgGroupId>org.apache.xmlgraphics</pkgGroupId>
         <pkgArtifactId>fop</pkgArtifactId>
-        <pkgVersion>2.3</pkgVersion>
+        <pkgVersion>2.5</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.apache.fop
         </servicemix.osgi.export.pkg>
@@ -106,14 +106,6 @@
             <groupId>org.apache.avalon.framework</groupId>
             <artifactId>avalon-framework-impl</artifactId>
             <version>4.3.1</version>
-        </dependency>
-
-        <!-- sources -->
-        <dependency>
-            <groupId>${pkgGroupId}</groupId>
-            <artifactId>${pkgArtifactId}</artifactId>
-            <version>${pkgVersion}</version>
-            <classifier>sources</classifier>
         </dependency>
     </dependencies>
 
