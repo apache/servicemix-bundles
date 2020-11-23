@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.docker-java</artifactId>
-    <version>3.2.5_2-SNAPSHOT</version>
+    <version>3.2.6_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -45,7 +45,7 @@
     <properties>
         <pkgGroupId>com.github.docker-java</pkgGroupId>
         <pkgArtifactId>docker-java</pkgArtifactId>
-        <pkgVersion>3.2.5</pkgVersion>
+        <pkgVersion>3.2.6</pkgVersion>
         <servicemix.osgi.export.pkg>
             com.github.dockerjava
         </servicemix.osgi.export.pkg>
