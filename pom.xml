@@ -42,6 +42,7 @@
 
     <modules>
       <module>xstream-1.4.14</module>
+      <module>fop-2.5</module>
     </modules>
 
 </project>
