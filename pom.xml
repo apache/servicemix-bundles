@@ -44,6 +44,7 @@
       <module>xstream-1.4.14</module>
       <module>fop-2.5</module>
       <module>docker-java-3.2.6</module>
+      <module>mustache-compiler-0.9.7</module>
     </modules>
 
 </project>
