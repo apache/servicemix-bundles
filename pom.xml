@@ -67,6 +67,7 @@
       <module>lucene-sandbox-8.7.0</module>
       <module>gae-1.9.83</module>
       <module>ognl-3.2.16</module>
+      <module>braintree-java-3.3.0</module>
     </modules>
 
 </project>
