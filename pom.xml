@@ -59,6 +59,7 @@
       <module>azure-storage-common-12.9.0</module>
       <module>hbase-2.3.3</module>
       <module>antisamy-1.5.11</module>
+      <module>snmp4j-3.4.4</module>
     </modules>
 
 </project>
