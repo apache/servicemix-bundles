@@ -56,6 +56,7 @@
       <module>libphonenumber-8.12.13</module>
       <module>htmlunit-2.45.0</module>
       <module>azure-storage-queue-12.7.0</module>
+      <module>azure-storage-common-12.9.0</module>
     </modules>
 
 </project>
