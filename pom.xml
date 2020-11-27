@@ -47,6 +47,8 @@
       <module>mustache-compiler-0.9.7</module>
       <module>solr-solrj-8.7.0</module>
       <module>fastjson-1.2.75</module>
+      <module>pulsar-client-2.6.2</module>
+      <module>pulsar-client-admin-2.6.2</module>
     </modules>
 
 </project>
