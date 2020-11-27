@@ -58,6 +58,7 @@
       <module>azure-storage-queue-12.7.0</module>
       <module>azure-storage-common-12.9.0</module>
       <module>hbase-2.3.3</module>
+      <module>antisamy-1.5.11</module>
     </modules>
 
 </project>
