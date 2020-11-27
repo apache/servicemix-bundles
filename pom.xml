@@ -68,6 +68,7 @@
       <module>gae-1.9.83</module>
       <module>ognl-3.2.16</module>
       <module>braintree-java-3.3.0</module>
+      <module>azure-storage-blob-12.9.0</module>
     </modules>
 
 </project>
