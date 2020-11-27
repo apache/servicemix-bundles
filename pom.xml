@@ -53,6 +53,7 @@
       <module>aws-java-sdk-1.11.908</module>
       <module>bcprov-jdk15on-1.67</module>
       <module>azure-core-1.11.0</module>
+      <module>libphonenumber-8.12.13</module>
     </modules>
 
 </project>
