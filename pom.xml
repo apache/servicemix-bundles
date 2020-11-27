@@ -45,6 +45,7 @@
       <module>fop-2.5</module>
       <module>docker-java-3.2.6</module>
       <module>mustache-compiler-0.9.7</module>
+      <module>solr-solrj-8.7.0</module>
     </modules>
 
 </project>
