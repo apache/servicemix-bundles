@@ -60,6 +60,11 @@
       <module>hbase-2.3.3</module>
       <module>antisamy-1.5.11</module>
       <module>snmp4j-3.4.4</module>
+      <module>lucene-8.7.0</module>
+      <module>lucene-analyzers-common-8.7.0</module>
+      <module>lucene-queries-8.7.0</module>
+      <module>lucene-queryparser-8.7.0</module>
+      <module>lucene-sandbox-8.7.0</module>
     </modules>
 
 </project>
