@@ -46,6 +46,7 @@
       <module>docker-java-3.2.6</module>
       <module>mustache-compiler-0.9.7</module>
       <module>solr-solrj-8.7.0</module>
+      <module>fastjson-1.2.75</module>
     </modules>
 
 </project>
