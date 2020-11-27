@@ -54,6 +54,7 @@
       <module>bcprov-jdk15on-1.67</module>
       <module>azure-core-1.11.0</module>
       <module>libphonenumber-8.12.13</module>
+      <module>htmlunit-2.45.0</module>
     </modules>
 
 </project>
