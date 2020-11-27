@@ -50,6 +50,7 @@
       <module>pulsar-client-2.6.2</module>
       <module>pulsar-client-admin-2.6.2</module>
       <module>spring-integration-core-5.4.1</module>
+      <module>aws-java-sdk-1.11.908</module>
     </modules>
 
 </project>
