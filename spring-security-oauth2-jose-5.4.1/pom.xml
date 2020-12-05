@@ -50,6 +50,7 @@
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             com.nimbusds.oauth2.sdk;resolution:=optional,
+            com.nimbusds.jose;resolution:=optional,
             com.nimbusds*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
