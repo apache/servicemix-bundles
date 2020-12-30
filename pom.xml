@@ -59,6 +59,7 @@
       <module>spring-security-web-5.4.1</module>
       <module>aws-java-sdk-1.11.928</module>
       <module>esapi-2.2.2.0</module>
+      <module>gae-1.9.84</module>
     </modules>
 
 </project>
