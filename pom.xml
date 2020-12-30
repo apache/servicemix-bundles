@@ -61,6 +61,7 @@
       <module>esapi-2.2.2.0</module>
       <module>gae-1.9.84</module>
       <module>asterisk-java-3.10.0</module>
+      <module>jedis-3.4.1</module>
     </modules>
 
 </project>
