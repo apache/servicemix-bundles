@@ -78,6 +78,9 @@
       <module>grpc-1.34.1</module>
       <module>gremlin-driver-3.4.9</module>
       <module>bcprov-jdk15on-1.68</module>
+      <module>spring-data-commons-2.4.2</module>
+      <module>spring-data-keyvalue-2.4.2</module>
+      <module>spring-data-redis-2.4.2</module>
     </modules>
 
 </project>
