@@ -85,6 +85,7 @@
       <module>spring-batch-infrastructure-4.3.1</module>
       <module>hbase-2.4.0</module>
       <module>azure-core-amqp-2.0.0</module>
+      <module>elasticsearch-7.10.1</module>
     </modules>
 
 </project>
