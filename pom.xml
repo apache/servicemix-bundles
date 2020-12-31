@@ -65,6 +65,8 @@
       <module>bcpg-jdk15on-1.68</module>
       <module>thymeleaf-3.0.12.RELEASE</module>
       <module>jruby-9.2.14.0</module>
+      <module>pulsar-client-2.7.0</module>
+      <module>pulsar-client-admin-2.7.0</module>
     </modules>
 
 </project>
