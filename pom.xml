@@ -63,6 +63,7 @@
       <module>asterisk-java-3.10.0</module>
       <module>jedis-3.4.1</module>
       <module>bcpg-jdk15on-1.68</module>
+      <module>thymeleaf-3.0.12.RELEASE</module>
     </modules>
 
 </project>
