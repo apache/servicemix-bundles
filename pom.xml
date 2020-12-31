@@ -67,6 +67,7 @@
       <module>jruby-9.2.14.0</module>
       <module>pulsar-client-2.7.0</module>
       <module>pulsar-client-admin-2.7.0</module>
+      <module>influxdb-java-2.21</module>
     </modules>
 
 </project>
