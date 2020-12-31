@@ -72,6 +72,7 @@
       <module>kafka-clients-2.7.0</module>
       <module>kafka-streams-2.7.0</module>
       <module>libphonenumber-8.12.15</module>
+      <module>ognl-3.2.18</module>
     </modules>
 
 </project>
