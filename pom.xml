@@ -74,6 +74,7 @@
       <module>libphonenumber-8.12.15</module>
       <module>ognl-3.2.18</module>
       <module>docker-java-3.2.7</module>
+      <module>braintree-java-3.5.0</module>
     </modules>
 
 </project>
