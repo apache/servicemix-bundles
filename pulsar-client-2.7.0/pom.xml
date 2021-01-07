@@ -58,7 +58,8 @@
             org.slf4j,
             javax.naming,javax.net.ssl,
             net.jpountz.lz4,
-            org.w3c.dom
+	    org.w3c.dom,
+	    io.airlift.compress.*
         </servicemix.osgi.import.pkg>
     </properties>
 
