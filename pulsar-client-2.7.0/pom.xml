@@ -57,9 +57,9 @@
             javax.security.cert,
             org.slf4j,
             javax.naming,javax.net.ssl,
-            net.jpountz.lz4,
+            net.jpountz.lz4;resolution:=optional,
             org.w3c.dom,
-            io.airlift.compress.*
+            io.airlift.compress.*;resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
 
