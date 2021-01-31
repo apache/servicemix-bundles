@@ -53,6 +53,7 @@
       <module>janusgraph-core-0.5.3</module>
       <module>java-util-1.62.0</module>
       <module>htmlunit-2.46.0</module>
+      <module>antisamy-1.5.13</module>
     </modules>
 
 </project>
