@@ -56,6 +56,7 @@
       <module>antisamy-1.5.13</module>
       <module>jt400-10.5</module>
       <module>janino-3.1.3</module>
+      <module>azure-core-amqp-2.0.1</module>
     </modules>
 
 </project>
