@@ -66,6 +66,7 @@
       <module>aws-java-sdk-1.11.942</module>
       <module>batik-1.14</module>
       <module>jedis-3.5.1</module>
+      <module>azure-core-1.12.0</module>
     </modules>
 
 </project>
