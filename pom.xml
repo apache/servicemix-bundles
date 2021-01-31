@@ -64,6 +64,7 @@
       <module>grpc-1.35.0</module>
       <module>libphonenumber-8.12.16</module>
       <module>aws-java-sdk-1.11.942</module>
+      <module>batik-1.14</module>
     </modules>
 
 </project>
