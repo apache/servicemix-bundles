@@ -65,6 +65,7 @@
       <module>libphonenumber-8.12.16</module>
       <module>aws-java-sdk-1.11.942</module>
       <module>batik-1.14</module>
+      <module>jedis-3.5.1</module>
     </modules>
 
 </project>
