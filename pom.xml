@@ -68,6 +68,7 @@
       <module>jedis-3.5.1</module>
       <module>azure-core-1.12.0</module>
       <module>elasticsearch-7.10.2</module>
+      <module>fop-2.6</module>
     </modules>
 
 </project>
