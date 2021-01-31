@@ -51,6 +51,7 @@
       <module>azure-messaging-eventhubs-checkpointstore-blob-1.4.0</module>
       <module>azure-messaging-eventhubs-5.4.0</module>
       <module>janusgraph-core-0.5.3</module>
+      <module>java-util-1.62.0</module>
     </modules>
 
 </project>
