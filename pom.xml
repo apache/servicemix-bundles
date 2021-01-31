@@ -48,6 +48,7 @@
       <module>azure-storage-queue-12.8.0</module>
       <module>azure-storage-common-12.10.0</module>
       <module>azure-storage-blob-12.10.0</module>
+      <module>azure-messaging-eventhubs-checkpointstore-blob-1.4.0</module>
     </modules>
 
 </project>
