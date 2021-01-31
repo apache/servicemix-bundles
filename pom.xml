@@ -41,6 +41,7 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+      <module>xerces-2.12.1</module>
     </modules>
 
 </project>
