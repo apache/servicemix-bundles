@@ -63,6 +63,7 @@
       <module>gremlin-driver-3.4.10</module>
       <module>grpc-1.35.0</module>
       <module>libphonenumber-8.12.16</module>
+      <module>aws-java-sdk-1.11.942</module>
     </modules>
 
 </project>
