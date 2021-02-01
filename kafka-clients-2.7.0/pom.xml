@@ -39,7 +39,6 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
@@ -63,7 +62,8 @@
             sun.nio.ch;resolution:=optional,
             sun.security.krb5;resolution:=optional,
             com.ibm.security.krb5.internal;resolution:=optional,
-            com.github.luben.zstd;resolution:=optional
+            com.github.luben.zstd;resolution:=optional,
+            com.fasterxml.jackson*;resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
 

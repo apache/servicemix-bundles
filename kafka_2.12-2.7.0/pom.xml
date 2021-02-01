@@ -39,7 +39,6 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
@@ -65,7 +64,8 @@
             org.apache.log4j.*;resolution:=optional,
             org.xerial.snappy;resolution:=optional;version="[1.1,2)",
             sun.misc;resolution:=optional,
-            sun.nio.ch;resolution:=optional
+            sun.nio.ch;resolution:=optional,
+            com.fasterxml.jackson*;resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
 
