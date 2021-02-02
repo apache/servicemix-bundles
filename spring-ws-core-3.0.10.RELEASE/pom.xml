@@ -77,6 +77,7 @@
             nu.xom;resolution:=optional, 
             nu.xom.converters;resolution:=optional, 
             org.apache.axiom.attachments;resolution:=optional, 
+            org.apache.axiom.mime;resolution:=optional, 
             org.apache.axiom.om;resolution:=optional, 
             org.apache.axiom.om.ds;resolution:=optional, 
             org.apache.axiom.om.impl;resolution:=optional, 
