@@ -46,6 +46,7 @@
         <pkgGroupId>org.springframework.ldap</pkgGroupId>
         <pkgVersion>2.3.3.RELEASE</pkgVersion>
         <servicemix.osgi.export.pkg>
+            org.springframework;-split-package:=merge-first,
             org.springframework.ldap
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
