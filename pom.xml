@@ -41,58 +41,6 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
-      <module>xerces-2.12.1</module>
-      <module>commons-compiler-3.1.3</module>
-      <module>spring-integration-core-5.4.3</module>
-      <module>javax-el-impl-4.0.1</module>
-      <module>azure-storage-queue-12.8.0</module>
-      <module>azure-storage-common-12.10.0</module>
-      <module>azure-storage-blob-12.10.0</module>
-      <module>azure-messaging-eventhubs-checkpointstore-blob-1.4.0</module>
-      <module>azure-messaging-eventhubs-5.4.0</module>
-      <module>janusgraph-core-0.5.3</module>
-      <module>java-util-1.62.0</module>
-      <module>htmlunit-2.46.0</module>
-      <module>antisamy-1.5.13</module>
-      <module>jt400-10.5</module>
-      <module>janino-3.1.3</module>
-      <module>azure-core-amqp-2.0.1</module>
-      <module>spring-data-commons-2.4.3</module>
-      <module>spring-data-keyvalue-2.4.3</module>
-      <module>spring-data-redis-2.4.3</module>
-      <module>gremlin-driver-3.4.10</module>
-      <module>grpc-1.35.0</module>
-      <module>libphonenumber-8.12.16</module>
-      <module>aws-java-sdk-1.11.942</module>
-      <module>batik-1.14</module>
-      <module>jedis-3.5.1</module>
-      <module>azure-core-1.12.0</module>
-      <module>elasticsearch-7.10.2</module>
-      <module>fop-2.6</module>
-      <module>kafka-clients-2.7.0</module>
-      <module>kafka_2.12-2.7.0</module>
-      <module>spring-aop-5.3.3</module>
-      <module>spring-aspects-5.3.3</module>
-      <module>spring-beans-5.3.3</module>
-      <module>spring-context-5.3.3</module>
-      <module>spring-context-support-5.3.3</module>
-      <module>spring-core-5.3.3</module>
-      <module>spring-expression-5.3.3</module>
-      <module>spring-instrument-5.3.3</module>
-      <module>spring-jdbc-5.3.3</module>
-      <module>spring-jms-5.3.3</module>
-      <module>spring-messaging-5.3.3</module>
-      <module>spring-orm-5.3.3</module>
-      <module>spring-oxm-5.3.3</module>
-      <module>spring-test-5.3.3</module>
-      <module>spring-tx-5.3.3</module>
-      <module>spring-web-5.3.3</module>
-      <module>spring-webmvc-5.3.3</module>
-      <module>spring-websocket-5.3.3</module>
-      <module>spring-ws-core-3.0.10.RELEASE</module>
-      <module>spring-ws-security-3.0.10.RELEASE</module>
-      <module>spring-ws-support-3.0.10.RELEASE</module>
-      <module>spring-ws-test-3.0.10.RELEASE</module>
     </modules>
 
 </project>
