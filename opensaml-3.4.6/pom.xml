@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.opensaml</artifactId>
-    <version>4.0.1_2-SNAPSHOT</version>
+    <version>3.4.6_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -45,7 +45,7 @@
     <properties>
         <pkgGroupId>org.opensaml</pkgGroupId>
         <pkgArtifactId>opensaml</pkgArtifactId>
-        <pkgVersion>4.0.1</pkgVersion>
+        <pkgVersion>3.4.6</pkgVersion>
         <servicemix.osgi.export>
              org.opensaml*;version="${pkgVersion}";-split-package:=merge-first,
              net.shibboleth.utilities*;version="${pkgVersion}";-split-package:=merge-first
@@ -131,6 +131,8 @@
             <version>${pkgVersion}</version>
         </dependency>
 
+
+
         <!-- sources -->
         <dependency>
             <groupId>${pkgGroupId}</groupId>
@@ -176,14 +178,4 @@
             </plugin>
         </plugins>
     </build>
-
-    <repositories>
-      <!-- repository>
-        Do not do this... work with Dan Kulp to make sure the artifacts get into the central repo 
-        <id>shibboleth</id>
-        <name>shibboleth</name>
-        <url>https://build.shibboleth.net/nexus/content/repositories/releases</url>
-      </repository -->
-    </repositories>
-
 </project>
