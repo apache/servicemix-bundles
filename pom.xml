@@ -47,6 +47,7 @@
         <module>postgresql-42.2.19.jre7</module>
         <module>freemarker-2.3.31</module>
         <module>azure-storage-8.6.6</module>
+        <module>azure-messaging-eventhubs-5.5.0</module>
     </modules>
 
 </project>
