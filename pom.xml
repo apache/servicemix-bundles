@@ -62,6 +62,7 @@
         <module>lucene-queries-8.8.1</module>
         <module>lucene-queryparser-8.8.1</module>
         <module>lucene-sandbox-8.8.1</module>
+        <module>junit-4.13.2</module>
     </modules>
 
 </project>
