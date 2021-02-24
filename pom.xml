@@ -45,6 +45,7 @@
         <module>spring-ldap-2.3.3.RELEASE</module>
         <module>azure-messaging-eventhubs-checkpointstore-blob-1.5.0</module>
         <module>postgresql-42.2.19.jre7</module>
+        <module>freemarker-2.3.31</module>
     </modules>
 
 </project>
