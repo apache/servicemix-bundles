@@ -54,6 +54,7 @@
         <module>spring-data-keyvalue-2.4.5</module>
         <module>spring-data-redis-2.4.5</module>
         <module>azure-core-amqp-2.0.2</module>
+        <module>libphonenumber-8.12.18</module>
     </modules>
 
 </project>
