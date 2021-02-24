@@ -49,6 +49,7 @@
         <module>azure-storage-8.6.6</module>
         <module>azure-messaging-eventhubs-5.5.0</module>
         <module>java-util-1.63.0</module>
+        <module>htmlunit-2.47.1</module>
     </modules>
 
 </project>
