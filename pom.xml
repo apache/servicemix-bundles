@@ -50,6 +50,9 @@
         <module>azure-messaging-eventhubs-5.5.0</module>
         <module>java-util-1.63.0</module>
         <module>htmlunit-2.47.1</module>
+        <module>spring-data-commons-2.4.5</module>
+        <module>spring-data-keyvalue-2.4.5</module>
+        <module>spring-data-redis-2.4.5</module>
     </modules>
 
 </project>
