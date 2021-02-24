@@ -57,6 +57,11 @@
         <module>libphonenumber-8.12.18</module>
         <module>braintree-java-3.6.0</module>
         <module>aws-java-sdk-1.11.960</module>
+        <module>lucene-8.8.1</module>
+        <module>lucene-analyzers-common-8.8.1</module>
+        <module>lucene-queries-8.8.1</module>
+        <module>lucene-queryparser-8.8.1</module>
+        <module>lucene-sandbox-8.8.1</module>
     </modules>
 
 </project>
