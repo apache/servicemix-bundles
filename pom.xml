@@ -63,6 +63,22 @@
         <module>lucene-queryparser-8.8.1</module>
         <module>lucene-sandbox-8.8.1</module>
         <module>junit-4.13.2</module>
+        <module>spring-security-acl-5.4.5</module>
+        <module>spring-security-aspects-5.4.5</module>
+        <module>spring-security-cas-5.4.5</module>
+        <module>spring-security-config-5.4.5</module>
+        <module>spring-security-core-5.4.5</module>
+        <module>spring-security-crypto-5.4.5</module>
+        <module>spring-security-data-5.4.5</module>
+        <module>spring-security-ldap-5.4.5</module>
+        <module>spring-security-messaging-5.4.5</module>
+        <module>spring-security-oauth2-client-5.4.5</module>
+        <module>spring-security-oauth2-core-5.4.5</module>
+        <module>spring-security-oauth2-jose-5.4.5</module>
+        <module>spring-security-remoting-5.4.5</module>
+        <module>spring-security-taglibs-5.4.5</module>
+        <module>spring-security-test-5.4.5</module>
+        <module>spring-security-web-5.4.5</module>
     </modules>
 
 </project>
