@@ -79,6 +79,7 @@
         <module>spring-security-taglibs-5.4.5</module>
         <module>spring-security-test-5.4.5</module>
         <module>spring-security-web-5.4.5</module>
+        <module>hbase-2.4.1</module>
     </modules>
 
 </project>
