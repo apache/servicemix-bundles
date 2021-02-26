@@ -81,6 +81,7 @@
         <module>spring-security-web-5.4.5</module>
         <module>hbase-2.4.1</module>
         <module>grpc-1.36.0</module>
+        <module>azure-core-1.13.0</module>
     </modules>
 
 </project>
