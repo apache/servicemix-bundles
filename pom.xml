@@ -43,6 +43,7 @@
     <modules>
       <module>solr-solrj-8.8.1</module>
       <module>libphonenumber-8.12.20</module>
+      <module>libthrift-0.14.1</module>
     </modules>
 
 </project>
