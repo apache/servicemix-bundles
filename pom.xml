@@ -45,6 +45,7 @@
       <module>libphonenumber-8.12.20</module>
       <module>libthrift-0.14.1</module>
       <module>asterisk-java-3.11.0</module>
+      <module>jruby-9.2.16.0</module>
     </modules>
 
 </project>
