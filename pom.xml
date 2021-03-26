@@ -49,6 +49,7 @@
       <module>htmlunit-2.48.0</module>
       <module>pulsar-client-2.7.1</module>
       <module>pulsar-client-admin-2.7.1</module>
+      <module>antisamy-1.6.2</module>
     </modules>
 
 </project>
