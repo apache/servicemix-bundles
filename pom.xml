@@ -47,6 +47,8 @@
       <module>asterisk-java-3.11.0</module>
       <module>jruby-9.2.16.0</module>
       <module>htmlunit-2.48.0</module>
+      <module>pulsar-client-2.7.1</module>
+      <module>pulsar-client-admin-2.7.1</module>
     </modules>
 
 </project>
