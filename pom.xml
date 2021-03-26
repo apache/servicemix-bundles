@@ -42,6 +42,7 @@
 
     <modules>
       <module>solr-solrj-8.8.1</module>
+      <module>libphonenumber-8.12.20</module>
     </modules>
 
 </project>
