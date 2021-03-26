@@ -53,6 +53,7 @@
       <module>spring-data-commons-2.4.6</module>
       <module>spring-data-keyvalue-2.4.6</module>
       <module>spring-data-redis-2.4.6</module>
+      <module>braintree-java-3.7.0</module>
     </modules>
 
 </project>
