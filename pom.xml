@@ -61,6 +61,7 @@
       <module>esapi-2.2.3.0</module>
       <module>hbase-2.4.2</module>
       <module>gae-1.9.87</module>
+      <module>json4s-3.6.11</module>
     </modules>
 
 </project>
