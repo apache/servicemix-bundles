@@ -62,6 +62,7 @@
       <module>hbase-2.4.2</module>
       <module>gae-1.9.87</module>
       <module>json4s-3.6.11</module>
+      <module>grpc-1.36.1</module>
     </modules>
 
 </project>
