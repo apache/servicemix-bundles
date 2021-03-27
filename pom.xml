@@ -63,6 +63,7 @@
       <module>gae-1.9.87</module>
       <module>json4s-3.6.11</module>
       <module>grpc-1.36.1</module>
+      <module>jedis-3.5.2</module>
     </modules>
 
 </project>
