@@ -59,6 +59,7 @@
       <module>xstream-1.4.16</module>
       <module>chunk-templates-3.6.1</module>
       <module>esapi-2.2.3.0</module>
+      <module>hbase-2.4.2</module>
     </modules>
 
 </project>
