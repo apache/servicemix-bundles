@@ -60,6 +60,7 @@
       <module>chunk-templates-3.6.1</module>
       <module>esapi-2.2.3.0</module>
       <module>hbase-2.4.2</module>
+      <module>gae-1.9.87</module>
     </modules>
 
 </project>
