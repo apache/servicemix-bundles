@@ -67,6 +67,7 @@
       <module>ognl-3.2.19</module>
       <module>avro-1.10.2</module>
       <module>avro-ipc-1.10.2</module>
+      <module>aws-java-sdk-1.11.982</module>
     </modules>
 
 </project>
