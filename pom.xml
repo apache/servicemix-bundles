@@ -70,6 +70,7 @@
       <module>aws-java-sdk-1.11.982</module>
       <module>azure-core-amqp-2.0.3</module>
       <module>azure-messaging-eventhubs-5.6.0</module>
+      <module>azure-messaging-eventhubs-checkpointstore-blob-1.5.1</module>
     </modules>
 
 </project>
