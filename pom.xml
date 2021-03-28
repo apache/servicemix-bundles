@@ -68,6 +68,7 @@
       <module>avro-1.10.2</module>
       <module>avro-ipc-1.10.2</module>
       <module>aws-java-sdk-1.11.982</module>
+      <module>azure-core-amqp-2.0.3</module>
     </modules>
 
 </project>
