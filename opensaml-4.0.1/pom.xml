@@ -59,7 +59,7 @@
             org.cryptacular*;resolution:=optional,
             org.apache.http*;resolution:=optional,
             com.beust.jcommander*;resolution:=optional,
-            javax.annotation;version="[1,4)",
+            javax.annotation;version="[1,4);resolution:=optional",
             com.google.common*;version="0.0.0",
             *
         </servicemix.osgi.import.pkg>
