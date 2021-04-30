@@ -64,6 +64,11 @@
       <module>braintree-java-3.8.0</module>
       <module>docker-java-3.2.8</module>
       <module>mybatis-3.5.7</module>
+      <module>lucene-8.8.2</module>
+      <module>lucene-analyzers-common-8.8.2</module>
+      <module>lucene-queries-8.8.2</module>
+      <module>lucene-queryparser-8.8.2</module>
+      <module>lucene-sandbox-8.8.2</module>
     </modules>
 
 </project>
