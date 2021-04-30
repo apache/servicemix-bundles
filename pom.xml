@@ -75,6 +75,7 @@
       <module>jedis-3.6.0</module>
       <module>ognl-3.2.20</module>
       <module>aws-java-sdk-1.11.1008</module>
+      <module>grpc-1.37.0</module>
     </modules>
 
 </project>
