@@ -76,6 +76,7 @@
       <module>ognl-3.2.20</module>
       <module>aws-java-sdk-1.11.1008</module>
       <module>grpc-1.37.0</module>
+      <module>asterisk-java-3.12.0</module>
     </modules>
 
 </project>
