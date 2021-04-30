@@ -52,6 +52,7 @@
       <module>spring-data-redis-2.5.0</module>
       <module>libphonenumber-8.12.22</module>
       <module>solr-solrj-8.8.2</module>
+      <module>htmlunit-2.49.1</module>
     </modules>
 
 </project>
