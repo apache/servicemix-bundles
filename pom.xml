@@ -50,6 +50,7 @@
       <module>spring-data-commons-2.5.0</module>
       <module>spring-data-keyvalue-2.5.0</module>
       <module>spring-data-redis-2.5.0</module>
+      <module>libphonenumber-8.12.22</module>
     </modules>
 
 </project>
