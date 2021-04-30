@@ -61,6 +61,7 @@
       <module>java-util-1.64.0</module>
       <module>antisamy-1.6.3</module>
       <module>azure-core-1.15.0</module>
+      <module>braintree-java-3.8.0</module>
     </modules>
 
 </project>
