@@ -72,6 +72,7 @@
       <module>gae-1.9.88</module>
       <module>jt400-10.6</module>
       <module>ant-1.10.10</module>
+      <module>jedis-3.6.0</module>
     </modules>
 
 </project>
