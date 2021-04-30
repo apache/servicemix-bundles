@@ -58,6 +58,7 @@
       <module>fastjson-1.2.76</module>
       <module>azure-storage-common-12.11.0</module>
       <module>azure-storage-blob-12.11.0</module>
+      <module>java-util-1.64.0</module>
     </modules>
 
 </project>
