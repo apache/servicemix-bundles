@@ -74,6 +74,7 @@
       <module>ant-1.10.10</module>
       <module>jedis-3.6.0</module>
       <module>ognl-3.2.20</module>
+      <module>aws-java-sdk-1.11.1008</module>
     </modules>
 
 </project>
