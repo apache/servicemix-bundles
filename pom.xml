@@ -47,6 +47,9 @@
       <module>azure-storage-queue-12.9.0</module>
       <module>azure-messaging-eventhubs-checkpointstore-blob-1.6.0</module>
       <module>postgresql-42.2.20.jre7</module>
+      <module>spring-data-commons-2.5.0</module>
+      <module>spring-data-keyvalue-2.5.0</module>
+      <module>spring-data-redis-2.5.0</module>
     </modules>
 
 </project>
