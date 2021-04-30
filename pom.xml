@@ -73,6 +73,7 @@
       <module>jt400-10.6</module>
       <module>ant-1.10.10</module>
       <module>jedis-3.6.0</module>
+      <module>ognl-3.2.20</module>
     </modules>
 
 </project>
