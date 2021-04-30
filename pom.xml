@@ -57,6 +57,7 @@
       <module>conscrypt-openjdk-uber-2.5.2</module>
       <module>fastjson-1.2.76</module>
       <module>azure-storage-common-12.11.0</module>
+      <module>azure-storage-blob-12.11.0</module>
     </modules>
 
 </project>
