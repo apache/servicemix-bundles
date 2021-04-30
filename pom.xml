@@ -56,6 +56,7 @@
       <module>jruby-9.2.17.0</module>
       <module>conscrypt-openjdk-uber-2.5.2</module>
       <module>fastjson-1.2.76</module>
+      <module>azure-storage-common-12.11.0</module>
     </modules>
 
 </project>
