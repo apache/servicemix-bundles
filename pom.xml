@@ -69,6 +69,7 @@
       <module>lucene-queries-8.8.2</module>
       <module>lucene-queryparser-8.8.2</module>
       <module>lucene-sandbox-8.8.2</module>
+      <module>gae-1.9.88</module>
     </modules>
 
 </project>
