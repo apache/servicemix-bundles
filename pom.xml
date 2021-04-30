@@ -63,6 +63,7 @@
       <module>azure-core-1.15.0</module>
       <module>braintree-java-3.8.0</module>
       <module>docker-java-3.2.8</module>
+      <module>mybatis-3.5.7</module>
     </modules>
 
 </project>
