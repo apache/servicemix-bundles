@@ -54,6 +54,7 @@
       <module>solr-solrj-8.8.2</module>
       <module>htmlunit-2.49.1</module>
       <module>jruby-9.2.17.0</module>
+      <module>conscrypt-openjdk-uber-2.5.2</module>
     </modules>
 
 </project>
