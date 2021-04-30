@@ -45,6 +45,7 @@
       <module>opensaml-4.0.1</module>
       <module>opensaml-3.4.6</module>
       <module>azure-storage-queue-12.9.0</module>
+      <module>azure-messaging-eventhubs-checkpointstore-blob-1.6.0</module>
     </modules>
 
 </project>
