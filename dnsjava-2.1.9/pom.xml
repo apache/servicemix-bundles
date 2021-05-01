@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>13</version>
+        <version>14</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -39,7 +39,6 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
@@ -53,7 +52,8 @@
             javax.crypto*,
             android.os;resolution:=optional,
             junit.framework;resolution:=optional,
-            sun.net.spi.nameservice;resolution:=optional
+            sun.net.spi.nameservice;resolution:=optional,
+            org.slf4j;resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
 
