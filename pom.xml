@@ -114,6 +114,10 @@
       <module>spring-web-5.3.6</module>
       <module>spring-webmvc-5.3.6</module>
       <module>spring-websocket-5.3.6</module>
+      <module>kafka_2.12-2.8.0</module>
+      <module>kafka_2.13-2.8.0</module>
+      <module>kafka-clients-2.8.0</module>
+      <module>kafka-streams-2.8.0</module>
     </modules>
 
 </project>
