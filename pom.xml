@@ -91,6 +91,7 @@
       <module>pulsar-client-2.7.2</module>
       <module>pulsar-client-admin-2.7.2</module>
       <module>htmlunit-2.50.0</module>
+      <module>spring-ldap-2.3.4.RELEASE</module>
     </modules>
 
 </project>
