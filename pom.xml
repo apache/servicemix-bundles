@@ -99,6 +99,7 @@
       <module>spring-data-commons-2.5.1</module>
       <module>spring-data-keyvalue-2.5.1</module>
       <module>spring-data-redis-2.5.1</module>
+      <module>libphonenumber-8.12.23</module>
     </modules>
 
 </project>
