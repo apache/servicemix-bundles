@@ -85,6 +85,7 @@
       <module>spring-batch-core-4.3.3</module>
       <module>spring-batch-infrastructure-4.3.3</module>
       <module>gremlin-driver-3.5.0</module>
+      <module>snmp4j-3.4.5</module>
     </modules>
 
 </project>
