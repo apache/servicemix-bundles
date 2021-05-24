@@ -81,6 +81,7 @@
       <module>gae-1.9.89</module>
       <module>janino-3.1.4</module>
       <module>commons-compiler-3.1.4</module>
+      <module>esapi-2.2.3.1</module>
     </modules>
 
 </project>
