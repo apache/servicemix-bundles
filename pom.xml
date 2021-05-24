@@ -82,6 +82,8 @@
       <module>janino-3.1.4</module>
       <module>commons-compiler-3.1.4</module>
       <module>esapi-2.2.3.1</module>
+      <module>spring-batch-core-4.3.3</module>
+      <module>spring-batch-infrastructure-4.3.3</module>
     </modules>
 
 </project>
