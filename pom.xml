@@ -78,6 +78,7 @@
       <module>spring-security-taglibs-5.5.0</module>
       <module>spring-security-test-5.5.0</module>
       <module>spring-security-web-5.5.0</module>
+      <module>gae-1.9.89</module>
     </modules>
 
 </project>
