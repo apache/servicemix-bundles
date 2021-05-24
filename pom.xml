@@ -88,6 +88,8 @@
       <module>snmp4j-3.4.5</module>
       <module>braintree-java-3.10.0</module>
       <module>azure-core-1.16.0</module>
+      <module>pulsar-client-2.7.2</module>
+      <module>pulsar-client-admin-2.7.2</module>
     </modules>
 
 </project>
