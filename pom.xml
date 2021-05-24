@@ -87,6 +87,7 @@
       <module>gremlin-driver-3.5.0</module>
       <module>snmp4j-3.4.5</module>
       <module>braintree-java-3.10.0</module>
+      <module>azure-core-1.16.0</module>
     </modules>
 
 </project>
