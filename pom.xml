@@ -79,6 +79,8 @@
       <module>spring-security-test-5.5.0</module>
       <module>spring-security-web-5.5.0</module>
       <module>gae-1.9.89</module>
+      <module>janino-3.1.4</module>
+      <module>commons-compiler-3.1.4</module>
     </modules>
 
 </project>
