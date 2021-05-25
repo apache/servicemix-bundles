@@ -100,6 +100,7 @@
       <module>spring-data-keyvalue-2.5.1</module>
       <module>spring-data-redis-2.5.1</module>
       <module>libphonenumber-8.12.23</module>
+      <module>azure-messaging-eventhubs-5.7.1</module>
     </modules>
 
 </project>
