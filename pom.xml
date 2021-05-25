@@ -102,6 +102,7 @@
       <module>libphonenumber-8.12.23</module>
       <module>azure-messaging-eventhubs-5.7.1</module>
       <module>azure-messaging-eventhubs-checkpointstore-blob-1.7.0</module>
+      <module>aws-java-sdk-1.11.1024</module>
     </modules>
 
 </project>
