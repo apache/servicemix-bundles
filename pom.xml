@@ -41,68 +41,6 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
-      <module>xstream-1.4.17</module>
-      <module>spring-aop-5.3.7</module>
-      <module>spring-aspects-5.3.7</module>
-      <module>spring-beans-5.3.7</module>
-      <module>spring-context-5.3.7</module>
-      <module>spring-context-support-5.3.7</module>
-      <module>spring-core-5.3.7</module>
-      <module>spring-expression-5.3.7</module>
-      <module>spring-instrument-5.3.7</module>
-      <module>spring-jdbc-5.3.7</module>
-      <module>spring-jms-5.3.7</module>
-      <module>spring-messaging-5.3.7</module>
-      <module>spring-orm-5.3.7</module>
-      <module>spring-oxm-5.3.7</module>
-      <module>spring-test-5.3.7</module>
-      <module>spring-tx-5.3.7</module>
-      <module>spring-web-5.3.7</module>
-      <module>spring-webmvc-5.3.7</module>
-      <module>spring-websocket-5.3.7</module>
-      <module>grpc-1.38.0</module>
-      <module>ognl-3.2.21</module>
-      <module>spring-security-acl-5.5.0</module>
-      <module>spring-security-aspects-5.5.0</module>
-      <module>spring-security-cas-5.5.0</module>
-      <module>spring-security-config-5.5.0</module>
-      <module>spring-security-core-5.5.0</module>
-      <module>spring-security-crypto-5.5.0</module>
-      <module>spring-security-data-5.5.0</module>
-      <module>spring-security-ldap-5.5.0</module>
-      <module>spring-security-messaging-5.5.0</module>
-      <module>spring-security-oauth2-client-5.5.0</module>
-      <module>spring-security-oauth2-core-5.5.0</module>
-      <module>spring-security-oauth2-jose-5.5.0</module>
-      <module>spring-security-remoting-5.5.0</module>
-      <module>spring-security-taglibs-5.5.0</module>
-      <module>spring-security-test-5.5.0</module>
-      <module>spring-security-web-5.5.0</module>
-      <module>gae-1.9.89</module>
-      <module>janino-3.1.4</module>
-      <module>commons-compiler-3.1.4</module>
-      <module>esapi-2.2.3.1</module>
-      <module>spring-batch-core-4.3.3</module>
-      <module>spring-batch-infrastructure-4.3.3</module>
-      <module>gremlin-driver-3.5.0</module>
-      <module>snmp4j-3.4.5</module>
-      <module>braintree-java-3.10.0</module>
-      <module>azure-core-1.16.0</module>
-      <module>pulsar-client-2.7.2</module>
-      <module>pulsar-client-admin-2.7.2</module>
-      <module>htmlunit-2.50.0</module>
-      <module>spring-ldap-2.3.4.RELEASE</module>
-      <module>spring-ws-core-3.1.1</module>
-      <module>spring-ws-security-3.1.1</module>
-      <module>spring-ws-support-3.1.1</module>
-      <module>spring-ws-test-3.1.1</module>
-      <module>spring-data-commons-2.5.1</module>
-      <module>spring-data-keyvalue-2.5.1</module>
-      <module>spring-data-redis-2.5.1</module>
-      <module>libphonenumber-8.12.23</module>
-      <module>azure-messaging-eventhubs-5.7.1</module>
-      <module>azure-messaging-eventhubs-checkpointstore-blob-1.7.0</module>
-      <module>aws-java-sdk-1.11.1024</module>
     </modules>
 
 </project>
