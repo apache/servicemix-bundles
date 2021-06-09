@@ -55,7 +55,8 @@
 			org.reactivestreams;resolution:="optional",
 			reactor.*;resolution:="optional",
 			org.springframework.jdbc.*;resolution:="optional",
-            *
+			kotlinx.coroutines.*;resolution:="optional",
+			*
         </servicemix.osgi.import.pkg>
     </properties>
 
