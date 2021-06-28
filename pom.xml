@@ -110,6 +110,7 @@
       <module>azure-messaging-eventhubs-5.8.0</module>
       <module>azure-core-1.17.0</module>
       <module>azure-storage-queue-12.10.0</module>
+      <module>aws-java-sdk-1.12.13</module>
     </modules>
 
 </project>
