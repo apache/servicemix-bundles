@@ -111,6 +111,7 @@
       <module>azure-core-1.17.0</module>
       <module>azure-storage-queue-12.10.0</module>
       <module>aws-java-sdk-1.12.13</module>
+      <module>braintree-java-3.11.0</module>
     </modules>
 
 </project>
