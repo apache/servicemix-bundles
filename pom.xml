@@ -57,6 +57,7 @@
       <module>spring-security-taglibs-5.5.0</module>
       <module>spring-security-test-5.5.0</module>
       <module>spring-security-web-5.5.0</module>
+      <module>azure-messaging-eventhubs-checkpointstore-blob-1.8.0</module>
     </modules>
 
 </project>
