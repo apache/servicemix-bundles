@@ -89,6 +89,7 @@
       <module>spring-data-redis-2.5.2</module>
       <module>hbase-2.4.4</module>
       <module>bcpg-jdk15on-1.69</module>
+      <module>docker-java-3.2.10</module>
       <module>azure-messaging-eventhubs-checkpointstore-blob-1.8.0</module>
       <module>azure-storage-common-12.12.0</module>
       <module>azure-messaging-eventhubs-5.8.0</module>
