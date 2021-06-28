@@ -93,6 +93,7 @@
       <module>spring-integration-core-5.5.1</module>
       <module>pulsar-client-2.8.0</module>
       <module>pulsar-client-admin-2.8.0</module>
+      <module>postgresql-42.2.22.jre7</module>
       <module>azure-messaging-eventhubs-checkpointstore-blob-1.8.0</module>
       <module>azure-storage-common-12.12.0</module>
       <module>azure-messaging-eventhubs-5.8.0</module>
