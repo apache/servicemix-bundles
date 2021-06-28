@@ -76,6 +76,11 @@
       <module>spring-webmvc-5.3.8</module>
       <module>spring-websocket-5.3.8</module>
       <module>jruby-9.2.19.0</module>
+      <module>lucene-8.9.0</module>
+      <module>lucene-analyzers-common-8.9.0</module>
+      <module>lucene-queries-8.9.0</module>
+      <module>lucene-queryparser-8.9.0</module>
+      <module>lucene-sandbox-8.9.0</module>
       <module>azure-messaging-eventhubs-checkpointstore-blob-1.8.0</module>
     </modules>
 
