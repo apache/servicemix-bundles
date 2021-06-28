@@ -81,6 +81,7 @@
       <module>lucene-queries-8.9.0</module>
       <module>lucene-queryparser-8.9.0</module>
       <module>lucene-sandbox-8.9.0</module>
+      <module>xmlgraphics-commons-2.6</module>
       <module>azure-messaging-eventhubs-checkpointstore-blob-1.8.0</module>
     </modules>
 
