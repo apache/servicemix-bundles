@@ -75,6 +75,7 @@
       <module>spring-web-5.3.8</module>
       <module>spring-webmvc-5.3.8</module>
       <module>spring-websocket-5.3.8</module>
+      <module>jruby-9.2.19.0</module>
       <module>azure-messaging-eventhubs-checkpointstore-blob-1.8.0</module>
     </modules>
 
