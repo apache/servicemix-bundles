@@ -100,6 +100,7 @@
       <module>libthrift-0.14.2</module>
       <module>libphonenumber-8.12.26</module>
       <module>snmp4j-3.5.1</module>
+      <module>orbitz-consul-client-1.5.2</module>
       <module>azure-storage-blob-12.12.0</module>
       <module>azure-messaging-eventhubs-checkpointstore-blob-1.8.0</module>
       <module>azure-storage-common-12.12.0</module>
