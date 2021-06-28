@@ -85,6 +85,7 @@
       <module>hadoop-client-3.3.1</module>
       <module>grpc-1.38.1</module>
       <module>azure-messaging-eventhubs-checkpointstore-blob-1.8.0</module>
+      <module>azure-storage-common-12.12.0</module>
     </modules>
 
 </project>
