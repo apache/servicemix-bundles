@@ -1,0 +1,24 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    Since early 2006, Amazon Web Services (AWS) has provided companies of all sizes with an infrastructure web
+    services platform in the cloud. With AWS you can requisition compute power, storage, and other
+    services–gaining access to a suite of elastic IT infrastructure services as your business demands them.
+    With AWS you have the flexibility to choose whichever development platform or programming model makes the
+    most sense for the problems you’re trying to solve. You pay only for what you use, with no up-front expenses
+    or long-term commitments, making AWS the most cost-effective way to deliver your application to your
+    customers and clients. And, with AWS, you can take advantage of Amazon.com’s global computing infrastructure
+    that is the backbone of Amazon.com’s multi-billion retail business and transactional enterprise whose
+    scalable, reliable, and secure distributed computing infrastructure has been honed for over a decade.
+
+    Using Amazon Web Services, an e-commerce web site can weather unforeseen demand with ease; a pharmaceutical
+    company can “rent” computing power to execute large-scale simulations; a media company can serve unlimited
+    videos, music, and more; and an enterprise can deploy bandwidth-consuming services and training to its
+    mobile workforce.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttp://aws.amazon.com/\u001B[0m
