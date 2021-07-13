@@ -41,6 +41,7 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+      <module>aws-java-sdk-2.16.88</module>
     </modules>
 
 </project>
