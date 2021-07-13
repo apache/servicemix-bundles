@@ -46,6 +46,7 @@
       <module>azure-core-amqp-2.3.0</module>
       <module>libphonenumber-8.12.27</module>
       <module>antisamy-1.6.4</module>
+      <module>grpc-1.39.0</module>
     </modules>
 
 </project>
