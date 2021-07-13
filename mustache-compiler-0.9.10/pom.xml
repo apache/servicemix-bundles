@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.mustache-compiler</artifactId>
-    <version>0.9.7_2-SNAPSHOT</version>
+    <version>0.9.10_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -39,15 +39,14 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>com.github.spullara.mustache.java</pkgGroupId>
         <pkgArtifactId>compiler</pkgArtifactId>
-        <pkgVersion>0.9.7</pkgVersion>
+        <pkgVersion>0.9.10</pkgVersion>
         <servicemix.osgi.export>
-            com.github.mustachejava*;version=0.9.7;-split-package:=merge-first
+            com.github.mustachejava*;version=0.9.10;-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
         </servicemix.osgi.import.pkg>
