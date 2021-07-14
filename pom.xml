@@ -51,6 +51,7 @@
       <module>docker-java-3.2.11</module>
       <module>aws-java-sdk-1.12.21</module>
       <module>xmlbeans-5.0.1</module>
+      <module>bcprov-jdk15on-1.69</module>
     </modules>
 
 </project>
