@@ -55,6 +55,7 @@
       <module>htmlunit-2.51.0</module>
       <module>postgresql-42.2.23.jre7</module>
       <module>fastinfoset-2.0.0</module>
+      <module>spring-xml-3.1.1</module>
     </modules>
 
 </project>
