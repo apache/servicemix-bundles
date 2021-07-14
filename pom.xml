@@ -49,6 +49,7 @@
       <module>grpc-1.39.0</module>
       <module>orbitz-consul-client-1.5.3</module>
       <module>docker-java-3.2.11</module>
+      <module>aws-java-sdk-1.12.21</module>
     </modules>
 
 </project>
