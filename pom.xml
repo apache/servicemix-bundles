@@ -56,6 +56,22 @@
       <module>postgresql-42.2.23.jre7</module>
       <module>fastinfoset-2.0.0</module>
       <module>spring-xml-3.1.1</module>
+      <module>spring-security-acl-5.5.1</module>
+      <module>spring-security-aspects-5.5.1</module>
+      <module>spring-security-cas-5.5.1</module>
+      <module>spring-security-config-5.5.1</module>
+      <module>spring-security-core-5.5.1</module>
+      <module>spring-security-crypto-5.5.1</module>
+      <module>spring-security-data-5.5.1</module>
+      <module>spring-security-ldap-5.5.1</module>
+      <module>spring-security-messaging-5.5.1</module>
+      <module>spring-security-oauth2-client-5.5.1</module>
+      <module>spring-security-oauth2-core-5.5.1</module>
+      <module>spring-security-oauth2-jose-5.5.1</module>
+      <module>spring-security-remoting-5.5.1</module>
+      <module>spring-security-taglibs-5.5.1</module>
+      <module>spring-security-test-5.5.1</module>
+      <module>spring-security-web-5.5.1</module>
     </modules>
 
 </project>
