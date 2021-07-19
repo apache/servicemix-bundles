@@ -75,6 +75,7 @@
       <module>azure-core-1.16.0</module>
       <module>azure-core-amqp-2.0.5</module>
       <module>azure-storage-common-12.11.1</module>
+      <module>azure-storage-blob-12.11.1</module>
     </modules>
 
 </project>
