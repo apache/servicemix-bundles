@@ -73,6 +73,7 @@
       <module>spring-security-test-5.5.1</module>
       <module>spring-security-web-5.5.1</module>
       <module>azure-core-1.16.0</module>
+      <module>azure-core-amqp-2.0.5</module>
     </modules>
 
 </project>
