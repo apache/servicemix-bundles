@@ -78,6 +78,7 @@
       <module>azure-storage-blob-12.11.1</module>
       <module>azure-storage-queue-12.9.1</module>
       <module>azure-messaging-eventhubs-checkpointstore-blob-1.7.1</module>
+      <module>azure-messaging-servicebus-7.2.1</module>
     </modules>
 
 </project>
