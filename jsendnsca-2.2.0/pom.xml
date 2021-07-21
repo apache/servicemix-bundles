@@ -24,13 +24,13 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>13</version>
+        <version>14</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.jsendnsca</artifactId>
-    <version>2.1.1_3-SNAPSHOT</version>
+    <version>2.2.0_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -39,15 +39,14 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-      <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>com.github.jsendnsca</pkgGroupId>
         <pkgArtifactId>jsendnsca</pkgArtifactId>
-        <pkgVersion>2.1.1</pkgVersion>
+        <pkgVersion>2.2.0</pkgVersion>
         <servicemix.osgi.export>
-          com.googlecode.jsendnsca*;version=2.1.1;-split-package:=merge-first
+          com.googlecode.jsendnsca*;version=2.2.0;-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
         </servicemix.osgi.import.pkg>
