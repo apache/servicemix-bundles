@@ -80,6 +80,7 @@
       <module>azure-messaging-eventhubs-checkpointstore-blob-1.7.1</module>
       <module>azure-messaging-servicebus-7.2.1</module>
       <module>azure-storage-file-datalake-12.5.1</module>
+      <module>azure-cosmos-4.15.0</module>
     </modules>
 
 </project>
