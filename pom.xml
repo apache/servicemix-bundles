@@ -83,6 +83,7 @@
       <module>azure-cosmos-4.15.0</module>
       <module>jedis-3.6.3</module>
       <module>jsendnsca-2.2.0</module>
+      <module>gae-1.9.90</module>
     </modules>
 
 </project>
