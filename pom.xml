@@ -41,7 +41,6 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
-      <module>aws-java-sdk-2.16.88</module>
       <module>mustache-compiler-0.9.10</module>
       <module>azure-core-amqp-2.3.0</module>
       <module>libphonenumber-8.12.27</module>
@@ -84,6 +83,7 @@
       <module>jsendnsca-2.2.0</module>
       <module>gae-1.9.90</module>
       <module>aws-java-sdk-1.12.28</module>
+      <module>aws-java-sdk-2.17.1</module>
     </modules>
 
 </project>
