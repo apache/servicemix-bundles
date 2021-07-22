@@ -43,7 +43,6 @@
     <modules>
       <module>mustache-compiler-0.9.10</module>
       <module>azure-core-amqp-2.3.0</module>
-      <module>libphonenumber-8.12.27</module>
       <module>antisamy-1.6.4</module>
       <module>grpc-1.39.0</module>
       <module>orbitz-consul-client-1.5.3</module>
@@ -87,6 +86,7 @@
       <module>spring-integration-core-5.5.2</module>
       <module>spring-data-commons-2.5.3</module>
       <module>spring-data-redis-2.5.3</module>
+      <module>libphonenumber-8.12.28</module>
     </modules>
 
 </project>
