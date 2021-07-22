@@ -85,6 +85,8 @@
       <module>aws-java-sdk-1.12.28</module>
       <module>aws-java-sdk-2.17.1</module>
       <module>spring-integration-core-5.5.2</module>
+      <module>spring-data-commons-2.5.3</module>
+      <module>spring-data-redis-2.5.3</module>
     </modules>
 
 </project>
