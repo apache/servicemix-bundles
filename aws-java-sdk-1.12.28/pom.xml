@@ -31,7 +31,7 @@
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.aws-java-sdk</artifactId>
     <packaging>bundle</packaging>
-    <version>1.12.21_1-SNAPSHOT</version>
+    <version>1.12.28_1-SNAPSHOT</version>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
 
@@ -44,7 +44,7 @@
     <properties>
         <pkgGroupId>com.amazonaws</pkgGroupId>
         <pkgArtifactId>aws-java-sdk</pkgArtifactId>
-        <pkgVersion>1.12.21</pkgVersion>
+        <pkgVersion>1.12.28</pkgVersion>
         <servicemix.osgi.export.pkg>
             com.amazonaws*
         </servicemix.osgi.export.pkg>
