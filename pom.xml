@@ -49,6 +49,7 @@
 	<module>aws-java-sdk-2.17.14</module>
 	<module>ant-1.10.11</module>
 	<module>dbunit-2.7.2</module>
+	<module>gremlin-driver-3.5.1</module>
     </modules>
 
 </project>
