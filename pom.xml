@@ -51,6 +51,7 @@
 	<module>dbunit-2.7.2</module>
 	<module>gremlin-driver-3.5.1</module>
 	<module>braintree-java-3.12.0</module>
+	<module>dnsjava-3.4.1</module>
     </modules>
 
 </project>
