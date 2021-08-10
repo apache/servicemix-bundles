@@ -47,6 +47,7 @@
 	<module>htmlunit-2.52.0</module>
 	<module>aws-java-sdk-1.12.42</module>
 	<module>aws-java-sdk-2.17.14</module>
+	<module>ant-1.10.11</module>
     </modules>
 
 </project>
