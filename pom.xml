@@ -45,6 +45,7 @@
 	<module>libphonenumber-8.12.29</module>
 	<module>commons-compiler-3.1.6</module>
 	<module>htmlunit-2.52.0</module>
+	<module>aws-java-sdk-1.12.42</module>
     </modules>
 
 </project>
