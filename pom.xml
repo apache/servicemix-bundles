@@ -54,6 +54,8 @@
 	<module>dnsjava-3.4.1</module>
 	<module>janino-3.1.6</module>
 	<module>fastjson-1.2.78</module>
+        <module>hapi-fhir-structures-dstu2-3.5.0</module>
+        <module>hapi-fhir-structures-dstu3-3.5.0</module>
     </modules>
 
 </project>
