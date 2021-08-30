@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <!--
+
+        Licensed to the Apache Software Foundation (ASF) under one or more
+        contributor license agreements.  See the NOTICE file distributed with
+        this work for additional information regarding copyright ownership.
+        The ASF licenses this file to You under the Apache License, Version 2.0
+        (the "License"); you may not use this file except in compliance with
+        the License.  You may obtain a copy of the License at
+
+           http://www.apache.org/licenses/LICENSE-2.0
+
+        Unless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an "AS IS" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License.
+    -->
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.apache.servicemix.bundles</groupId>
+        <artifactId>bundles-pom</artifactId>
+        <version>14</version>
+        <relativePath>../bundles-pom/pom.xml</relativePath>
+    </parent>
+
+    <groupId>org.apache.servicemix.bundles</groupId>
+    <artifactId>org.apache.servicemix.bundles.hapi-fhir-structures-r4</artifactId>
+    <version>3.5.0_1-SNAPSHOT</version>
+    <packaging>bundle</packaging>
+    <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
+    <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
+
+    <properties>
+        <pkgGroupId>ca.uhn.hapi.fhir</pkgGroupId>
+        <pkgArtifactId>hapi-fhir-structures-r4</pkgArtifactId>
+        <pkgVersion>3.5.0</pkgVersion>
+        <servicemix.osgi.import.pkg>
+        ca.uhn.fhir.context;version="[3.5,4)",
+	ca.uhn.fhir.context.api;version="[3.5,4)",
+	ca.uhn.fhir.context.support;version="[3.5,4)",
+	ca.uhn.fhir.fluentpath;version="[3.5,4)",
+	ca.uhn.fhir.model.api;version="[3.5,4)",
+	ca.uhn.fhir.model.api.annotation;version="[3.5,4)",
+	ca.uhn.fhir.model.primitive;version="[3.5,4)",
+	ca.uhn.fhir.model.valueset;version="[3.5,4)",
+	ca.uhn.fhir.parser;version="[3.5,4)",
+	ca.uhn.fhir.rest.annotation;version="[3.5,4)",
+	ca.uhn.fhir.rest.api;version="[3.5,4)",
+	ca.uhn.fhir.rest.api.server;version="[3.5,4)",
+	ca.uhn.fhir.rest.gclient;version="[3.5,4)",
+	ca.uhn.fhir.rest.server;resolution:=optional,
+	ca.uhn.fhir.rest.server.exceptions;version="[3.5,4)",
+	ca.uhn.fhir.rest.server.method;resolution:=optional,
+	ca.uhn.fhir.rest.server.servlet;resolution:=optional,
+	ca.uhn.fhir.util;version="[3.5,4)",
+	com.github.benmanes.caffeine.cache;resolution:=optional,
+	com.google.gson;version="[2.8,3)",
+	com.google.gson.stream;version="[2.8,3)",
+	javax.servlet;resolution:=optional;version="[3.1,4)",
+	javax.servlet.http;resolution:=optional;version="[3.1,4)",
+	javax.xml.crypto.dsig,
+	javax.xml.crypto.dsig.dom,
+	javax.xml.crypto.dsig.keyinfo,
+	javax.xml.crypto.dsig.spec,
+	javax.xml.parsers,
+	javax.xml.transform,
+	javax.xml.transform.dom,
+	javax.xml.transform.sax,
+	org.apache.commons.codec;version="[1.11,2)",
+	org.apache.commons.codec.binary;version="[1.11,2)",
+	org.apache.commons.io;version="[1.4,2)",
+	org.apache.commons.io.output;version="[1.4,2)",
+	org.apache.commons.lang3;version="[3.8,4)",
+	org.apache.commons.lang3.builder;version="[3.8,4)",
+	org.apache.commons.lang3.time;version="[3.8,4)",
+	org.apache.commons.lang3.tuple;version="[3.8,4)",
+	org.apache.http;resolution:=optional,
+	org.apache.http.client;resolution:=optional,
+	org.apache.http.client.methods;resolution:=optional,
+	org.apache.http.client.utils;resolution:=optional,
+	org.apache.http.entity;resolution:=optional,
+	org.apache.http.impl.client;resolution:=optional,
+	org.apache.http.params;resolution:=optional,
+	org.fhir.ucum;version="[3.5,4)",
+	org.hl7.fhir.exceptions;version="[3.5,4)",
+	org.hl7.fhir.instance.model.api;version="[3.5,4)",
+	org.hl7.fhir.utilities;version="[3.5,4)",
+	org.hl7.fhir.utilities.graphql;version="[3.5,4)",
+	org.hl7.fhir.utilities.validation;version="[3.5,4)",
+	org.hl7.fhir.utilities.xhtml;version="[3.5,4)",
+	org.hl7.fhir.utilities.xml;version="[3.5,4)",
+	org.slf4j;version="[1.7,2)",
+	org.stringtemplate.v4;resolution:=optional,
+	org.w3c.dom,
+	org.w3c.dom.events,
+	org.xml.sax,
+	org.xml.sax.helpers,
+	org.xmlpull.v1;resolution:=optional
+        </servicemix.osgi.import.pkg>
+        <servicemix.osgi.export.pkg>
+        org.hl7.fhir.r4.terminologies;
+		uses:="javax.xml.parsers,
+			org.hl7.fhir.exceptions,
+			org.hl7.fhir.r4.context,
+			org.hl7.fhir.r4.model,
+			org.hl7.fhir.r4.utils,
+			org.hl7.fhir.utilities,
+			org.xml.sax,
+			org.xmlpull.v1";
+		version=3.5.0,
+	org.hl7.fhir.r4.context;
+		uses:="com.google.gson,
+			org.fhir.ucum,
+			org.hl7.fhir.exceptions,
+			org.hl7.fhir.r4.conformance,
+			org.hl7.fhir.r4.formats,
+			org.hl7.fhir.r4.model,
+			org.hl7.fhir.r4.terminologies,
+			org.hl7.fhir.r4.utils,
+			org.hl7.fhir.r4.utils.client,
+			org.hl7.fhir.utilities,
+			org.hl7.fhir.utilities.validation";
+		version=3.5.0,
+	org.hl7.fhir.r4.formats;
+		uses:="com.google.gson,
+			org.hl7.fhir.exceptions,
+			org.hl7.fhir.instance.model.api,
+			org.hl7.fhir.r4.elementmodel,
+			org.hl7.fhir.r4.model,
+			org.hl7.fhir.r4.utils.formats,
+			org.hl7.fhir.utilities.xhtml,
+			org.hl7.fhir.utilities.xml,
+			org.xmlpull.v1";
+		version=3.5.0,
+	org.hl7.fhir.r4.hapi.fluentpath;uses:="ca.uhn.fhir.context,ca.uhn.fhir.fluentpath,org.hl7.fhir.instance.model.api";version=3.5.0,
+	org.hl7.fhir.r4.hapi.ctx;
+		uses:="ca.uhn.fhir.context,
+			ca.uhn.fhir.context.support,
+			ca.uhn.fhir.fluentpath,
+			ca.uhn.fhir.model.api,
+			ca.uhn.fhir.rest.api,
+			ca.uhn.fhir.rest.api.server,
+			ca.uhn.fhir.rest.server,
+			org.fhir.ucum,
+			org.hl7.fhir.exceptions,
+			org.hl7.fhir.instance.model.api,
+			org.hl7.fhir.r4.context,
+			org.hl7.fhir.r4.formats,
+			org.hl7.fhir.r4.hapi.rest.server,
+			org.hl7.fhir.r4.model,
+			org.hl7.fhir.r4.terminologies,
+			org.hl7.fhir.r4.utils,
+			org.hl7.fhir.utilities,
+			org.hl7.fhir.utilities.validation";
+		version=3.5.0,
+	org.hl7.fhir.r4.hapi.rest.server;
+		uses:="ca.uhn.fhir.context,
+			ca.uhn.fhir.context.api,
+			ca.uhn.fhir.model.api,
+			ca.uhn.fhir.model.valueset,
+			ca.uhn.fhir.rest.annotation,
+			ca.uhn.fhir.rest.api,
+			ca.uhn.fhir.rest.server,
+			ca.uhn.fhir.rest.server.servlet,
+			javax.servlet.http,
+			org.hl7.fhir.instance.model.api,
+			org.hl7.fhir.r4.hapi.ctx,
+			org.hl7.fhir.r4.model,
+			org.hl7.fhir.r4.utils";
+		version=3.5.0,
+	org.hl7.fhir.r4.utils;
+		uses:="com.google.gson,
+			javax.xml.parsers,
+			org.hl7.fhir.exceptions,
+			org.hl7.fhir.r4.conformance,
+			org.hl7.fhir.r4.context,
+			org.hl7.fhir.r4.elementmodel,
+			org.hl7.fhir.r4.model,
+			org.hl7.fhir.r4.terminologies,
+			org.hl7.fhir.utilities,
+			org.hl7.fhir.utilities.graphql,
+			org.hl7.fhir.utilities.validation,
+			org.hl7.fhir.utilities.xhtml,
+			org.w3c.dom,
+			org.xml.sax";
+		version=3.5.0,
+	org.hl7.fhir.r4.utils.formats;
+		uses:="com.google.gson,
+			org.hl7.fhir.exceptions,
+			org.hl7.fhir.r4.model,
+			org.hl7.fhir.utilities,
+			org.w3c.dom,
+			org.xml.sax,
+			org.xml.sax.helpers";
+		version=3.5.0,
+	org.hl7.fhir.r4.utils.client;uses:="org.apache.http,org.apache.http.client.methods,org.hl7.fhir.r4.formats,org.hl7.fhir.r4.model";version=3.5.0,
+	org.hl7.fhir.r4.model;
+		uses:="ca.uhn.fhir.context,
+			ca.uhn.fhir.model.api,
+			ca.uhn.fhir.model.api.annotation,
+			ca.uhn.fhir.parser,
+			ca.uhn.fhir.rest.gclient,
+			org.hl7.fhir.exceptions,
+			org.hl7.fhir.instance.model.api,
+			org.hl7.fhir.r4.context,
+			org.hl7.fhir.utilities.xhtml";
+		version=3.5.0,
+	org.hl7.fhir.r4.model.codesystems;uses:="org.hl7.fhir.exceptions,org.hl7.fhir.r4.model";version=3.5.0,
+	org.hl7.fhir.r4.elementmodel;
+		uses:="com.google.gson,
+			org.hl7.fhir.exceptions,
+			org.hl7.fhir.r4.context,
+			org.hl7.fhir.r4.formats,
+			org.hl7.fhir.r4.model,
+			org.hl7.fhir.r4.utils.formats,
+			org.hl7.fhir.utilities.validation,
+			org.hl7.fhir.utilities.xhtml,
+			org.hl7.fhir.utilities.xml,
+			org.w3c.dom";
+		version=3.5.0,
+	org.hl7.fhir.r4.conformance;
+		uses:="org.hl7.fhir.exceptions,
+			org.hl7.fhir.r4.context,
+			org.hl7.fhir.r4.elementmodel,
+			org.hl7.fhir.r4.model,
+			org.hl7.fhir.r4.utils,
+			org.hl7.fhir.utilities.validation,
+			org.hl7.fhir.utilities.xhtml";
+		version=3.5.0
+        </servicemix.osgi.export.pkg>
+        <servicemix.osgi.fragment.host>
+            ca.uhn.hapi.fhir.hapi-fhir-base
+        </servicemix.osgi.fragment.host>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <optional>true</optional>
+        </dependency>
+
+        <!-- sources -->
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <artifactSet>
+                                <includes>
+                                    <include>${pkgGroupId}:${pkgArtifactId}</include>
+                                </includes>
+                            </artifactSet>
+                            <filters>
+                                <filter>
+                                    <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                            </filters>
+                            <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
+                            <createDependencyReducedPom>true</createDependencyReducedPom>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
