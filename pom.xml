@@ -56,6 +56,7 @@
 	<module>fastjson-1.2.78</module>
         <module>hapi-fhir-structures-dstu2-3.5.0</module>
         <module>hapi-fhir-structures-dstu3-3.5.0</module>
+        <module>hapi-fhir-structures-hl7org-dstu2-3.5.0</module>
         <module>spring-security-acl-5.5.1</module>
         <module>spring-security-aspects-5.5.1</module>
         <module>spring-security-cas-5.5.1</module>
