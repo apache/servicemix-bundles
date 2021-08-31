@@ -79,6 +79,7 @@
         <module>gae-1.9.91</module>
         <module>xstream-1.4.18</module>
 	<module>grpc-1.40.1</module>
+	<module>spring-integration-core-5.5.3</module>
     </modules>
 
 </project>
