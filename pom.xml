@@ -80,6 +80,9 @@
         <module>xstream-1.4.18</module>
 	<module>grpc-1.40.1</module>
 	<module>spring-integration-core-5.5.3</module>
+	<module>spring-data-commons-2.5.4</module>
+	<module>spring-data-keyvalue-2.5.4</module>
+	<module>spring-data-redis-2.5.4</module>
     </modules>
 
 </project>

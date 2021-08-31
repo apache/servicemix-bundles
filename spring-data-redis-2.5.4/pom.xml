@@ -29,10 +29,10 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.spring-data-keyvalue</artifactId>
-    <version>2.5.3_1-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.spring-data-redis</artifactId>
+    <version>2.5.4_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
-    <name>Apache ServiceMix :: Bundles :: spring-data-keyvalue</name>
+    <name>Apache ServiceMix :: Bundles :: spring-data-redis</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar files.</description>
 
     <scm>
@@ -43,15 +43,28 @@
 
     <properties>
         <pkgGroupId>org.springframework.data</pkgGroupId>
-        <pkgArtifactId>spring-data-keyvalue</pkgArtifactId>
-        <pkgVersion>2.5.3</pkgVersion>
+        <pkgArtifactId>spring-data-redis</pkgArtifactId>
+        <pkgVersion>2.5.4</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.springframework.data.keyvalue
+            org.springframework.data.redis
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            com.querydsl*;resolution:=optional,
+            !org.apache.commons.beanutils*,
+            !kotlin*,
+            javax.enterprise.context*;resolution:=optional,
+            javax.enterprise.event;resolution:=optional,
+            javax.enterprise.inject*;resolution:=optional,
+            io.lettuce*;resolution:=optional,
+            org.reactivestreams*;resolution:=optional,
+            com.querydsl.collections;resolution:=optional,
+            org.springframework.oxm;resolution:=optional,
+            reactor*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
+        <servicemix.osgi.private.pkg>
+            org.apache.commons.beanutils*,
+            kotlin*
+        </servicemix.osgi.private.pkg>
     </properties>
 
     <dependencies>
