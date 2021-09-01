@@ -35,6 +35,12 @@
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
 
+    <scm>
+        <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
+        <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
+        <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
+    </scm>
+
     <properties>
         <pkgGroupId>ca.uhn.hapi.fhir</pkgGroupId>
         <pkgArtifactId>hapi-fhir-structures-dstu3</pkgArtifactId>
