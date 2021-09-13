@@ -41,7 +41,8 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
-	<module>spring-webflux-5.3.9</module>
+    	<module>spring-webflux-5.3.9</module>
+      <module>txw2-2.3.3</module>
     </modules>
 
 </project>
