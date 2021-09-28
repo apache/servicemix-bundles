@@ -62,6 +62,7 @@
 	<module>spring-websocket-5.3.9</module>
 	<module>txw2-2.3.3</module>
 	<module>xmlbeans-5.0.1</module>
+	<module>dnsjava-3.4.2</module>
     </modules>
 
 </project>
