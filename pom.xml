@@ -72,6 +72,7 @@
   <module>libphonenumber-8.12.33</module>
   <module>libthrift-0.15.0</module>
   <module>postgresql-42.2.24.jre7</module>
+  <module>influxdb-java-2.22</module>
     </modules>
 
 </project>
