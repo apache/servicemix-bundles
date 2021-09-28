@@ -67,6 +67,7 @@
 	<module>bazaarvoice-jolt-0.1.5</module>
 	<module>janusgraph-core-0.6.0</module>
 	<module>docker-java-3.2.12</module>
+	<module>grpc-1.41.0</module>
     </modules>
 
 </project>
