@@ -61,6 +61,7 @@
 	<module>spring-webmvc-5.3.9</module>
 	<module>spring-websocket-5.3.9</module>
 	<module>txw2-2.3.3</module>
+	<module>xmlbeans-5.0.1</module>
     </modules>
 
 </project>
