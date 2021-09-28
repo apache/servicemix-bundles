@@ -73,6 +73,8 @@
   <module>libthrift-0.15.0</module>
   <module>postgresql-42.2.24.jre7</module>
   <module>influxdb-java-2.22</module>
+  <module>pulsar-client-2.8.1</module>
+  <module>pulsar-client-admin-2.8.1</module>
     </modules>
 
 </project>
