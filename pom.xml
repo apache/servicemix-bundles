@@ -64,6 +64,7 @@
 	<module>xmlbeans-5.0.1</module>
 	<module>dnsjava-3.4.2</module>
 	<module>jt400-10.7</module>
+	<module>bazaarvoice-jolt-0.1.5</module>
     </modules>
 
 </project>
