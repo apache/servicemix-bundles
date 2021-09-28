@@ -68,6 +68,7 @@
 	<module>janusgraph-core-0.6.0</module>
 	<module>docker-java-3.2.12</module>
 	<module>grpc-1.41.0</module>
+	<module>jedis-3.7.0</module>
     </modules>
 
 </project>
