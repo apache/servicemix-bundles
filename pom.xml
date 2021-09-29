@@ -82,6 +82,7 @@
 	<module>htmlunit-2.53.0</module>
 	<module>aws-java-sdk-2.17.46</module>
 	<module>spring-integration-core-5.5.4</module>
+	<module>aws-java-sdk-1.12.74</module>
     </modules>
 
 </project>
