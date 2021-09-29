@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.javax-el-impl</artifactId>
-    <version>4.0.1_2-SNAPSHOT</version>
+    <version>4.0.2_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -39,19 +39,18 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>org.glassfish</pkgGroupId>
         <pkgArtifactId>jakarta.el</pkgArtifactId>
-        <pkgVersion>4.0.1</pkgVersion>
+        <pkgVersion>4.0.2</pkgVersion>
         <servicemix.osgi.export.pkg>
-            com.sun.el.parser;uses:="javax.el,com.sun.el.lang,com.sun.el.util,com.sun.el";version="4.0.1";-split-package:=merge-first,
-            com.sun.el.lang;uses:="javax.el,com.sun.el.parser,com.sun.el.util,com.sun.el";version="4.0.1";-split-package:=merge-first,
-            com.sun.el.stream;uses:="javax.el,com.sun.el.lang";version="4.0.1";-split-package:=merge-first,
-            com.sun.el.util;uses:="javax.el,com.sun.el.lang";version="4.0.1";-split-package:=merge-first,
-            com.sun.el;uses:="javax.el,com.sun.el.parser,com.sun.el.lang,com.sun.el.stream,com.sun.el.util";version="4.0.1";-split-package:=merge-first
+            com.sun.el.parser;uses:="javax.el,com.sun.el.lang,com.sun.el.util,com.sun.el";version="4.0.2";-split-package:=merge-first,
+            com.sun.el.lang;uses:="javax.el,com.sun.el.parser,com.sun.el.util,com.sun.el";version="4.0.2";-split-package:=merge-first,
+            com.sun.el.stream;uses:="javax.el,com.sun.el.lang";version="4.0.2";-split-package:=merge-first,
+            com.sun.el.util;uses:="javax.el,com.sun.el.lang";version="4.0.2";-split-package:=merge-first,
+            com.sun.el;uses:="javax.el,com.sun.el.parser,com.sun.el.lang,com.sun.el.stream,com.sun.el.util";version="4.0.2";-split-package:=merge-first
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             com.sun.el,
