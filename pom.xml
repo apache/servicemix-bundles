@@ -83,6 +83,10 @@
 	<module>aws-java-sdk-2.17.46</module>
 	<module>spring-integration-core-5.5.4</module>
 	<module>aws-java-sdk-1.12.74</module>
+	<module>kafka_2.12-3.0.0</module>
+	<module>kafka_2.13-3.0.0</module>
+	<module>kafka-clients-3.0.0</module>
+	<module>kafka-streams-3.0.0</module>
     </modules>
 
 </project>
