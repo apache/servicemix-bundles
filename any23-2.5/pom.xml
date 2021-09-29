@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.any23</artifactId>
-    <version>2.4_2-SNAPSHOT</version>
+    <version>2.5_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -45,7 +45,7 @@
     <properties>
         <pkgGroupId>org.apache.any23</pkgGroupId>
         <pkgArtifactId>apache-any23-core</pkgArtifactId>
-        <pkgVersion>2.4</pkgVersion>
+        <pkgVersion>2.5</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.apache.any23
         </servicemix.osgi.export.pkg>
