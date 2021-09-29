@@ -79,6 +79,7 @@
   <module>jruby-9.3.0.0</module>
         <module>javax-el-impl-4.0.2</module>
 	<module>any23-2.5</module>
+	<module>htmlunit-2.53.0</module>
     </modules>
 
 </project>
