@@ -76,6 +76,7 @@
   <module>pulsar-client-2.8.1</module>
   <module>pulsar-client-admin-2.8.1</module>
   <module>saxon-10.6</module>
+  <module>jruby-9.3.0.0</module>
     </modules>
 
 </project>
