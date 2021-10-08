@@ -41,59 +41,7 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
-	<module>spring-aop-5.3.10</module>
-	<module>spring-aspects-5.3.10</module>
-	<module>spring-beans-5.3.10</module>
-	<module>spring-context-5.3.10</module>
-	<module>spring-context-support-5.3.10</module>
-	<module>spring-core-5.3.10</module>
-	<module>spring-expression-5.3.10</module>
-	<module>spring-instrument-5.3.10</module>
-	<module>spring-jdbc-5.3.10</module>
-	<module>spring-jms-5.3.10</module>
-	<module>spring-messaging-5.3.10</module>
-	<module>spring-orm-5.3.10</module>
-	<module>spring-oxm-5.3.10</module>
-	<module>spring-test-5.3.10</module>
-	<module>spring-tx-5.3.10</module>
-	<module>spring-web-5.3.10</module>
 	<module>spring-webflux-5.3.10</module>
-	<module>spring-webmvc-5.3.10</module>
-	<module>spring-websocket-5.3.10</module>
-	<module>txw2-2.3.3</module>
-	<module>xmlbeans-5.0.1</module>
-	<module>dnsjava-3.4.2</module>
-	<module>jt400-10.7</module>
-	<module>bazaarvoice-jolt-0.1.5</module>
-	<module>janusgraph-core-0.6.0</module>
-	<module>docker-java-3.2.12</module>
-	<module>grpc-1.41.0</module>
-	<module>jedis-3.7.0</module>
-  <module>libphonenumber-8.12.33</module>
-  <module>libthrift-0.15.0</module>
-  <module>postgresql-42.2.24.jre7</module>
-  <module>influxdb-java-2.22</module>
-  <module>pulsar-client-2.8.1</module>
-  <module>pulsar-client-admin-2.8.1</module>
-  <module>saxon-10.6</module>
-  <module>jruby-9.3.0.0</module>
-        <module>javax-el-impl-4.0.2</module>
-	<module>any23-2.5</module>
-	<module>htmlunit-2.53.0</module>
-	<module>aws-java-sdk-2.17.46</module>
-	<module>spring-integration-core-5.5.4</module>
-	<module>aws-java-sdk-1.12.74</module>
-	<module>kafka_2.12-3.0.0</module>
-	<module>kafka_2.13-3.0.0</module>
-	<module>kafka-clients-3.0.0</module>
-	<module>kafka-streams-3.0.0</module>
-	<module>spring-data-commons-2.5.5</module>
-	<module>spring-data-keyvalue-2.5.5</module>
-	<module>spring-data-redis-2.5.5</module>
-	<module>kafka_2.12-2.8.1</module>
-	<module>kafka_2.13-2.8.1</module>
-	<module>kafka-clients-2.8.1</module>
-	<module>kafka-streams-2.8.1</module>
     </modules>
 
 </project>
