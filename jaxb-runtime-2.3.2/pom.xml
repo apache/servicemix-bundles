@@ -145,9 +145,9 @@
             META-INF.services;-split-package:=merge-first,
     </servicemix.osgi.private.pkg>
     <servicemix.osgi.export.pkg>
-            com.sun.xml.bind*,
-            com.sun.xml.txw2*,
-            com.sun.istack*
+            com.sun.xml.bind*;-split-package:=merge-first,
+            com.sun.istack*;-split-package:=merge-first,
+            com.sun.xml.txw2*;-split-package:=merge-first
     </servicemix.osgi.export.pkg>
     <pkgArtifactId>
             jaxb-runtime

@@ -43,6 +43,7 @@
     <modules>
 	<module>spring-webflux-5.3.10</module>
         <module>jaxb-xjc-2.3.2</module>
+        <module>jaxb-runtime-2.3.2</module>
     </modules>
 
 </project>
