@@ -103,8 +103,8 @@
 	org.apache.tools.ant*;resolution:=optional,
         com.sun.xml.txw2*;resolution:=optional,
         com.sun.tools.rngom*;resolution:=optional,
+        com.sun.tools.rngdatatype*;resolution:=optional,
         com.sun.xml.dtdparser*;resolution:=optional,
-        com.sun.xml.xsom*;resolution:=optional,
         javax.activation;version="[1,2)",
         javax.xml.bind*;version="[2,3)",
         *
@@ -114,6 +114,16 @@
         com.sun.codemodel*;-split-package:=merge-first;-noimport:=true,
         com.sun.istack.tools*;-split-package:=merge-first;-noimport:=true
     </servicemix.osgi.export.pkg>
+    <servicemix.osgi.private.pkg>
+        com.sun.org.*;-split-package:=merge-first,
+        com.sun.tools.rngom*;-split-package:=merge-first,
+        com.sun.xml.xsom*;-split-package:=merge-first,
+        com.sun.istack*;-split-package:=merge-first,
+        com.sun.tools.rngdatatype*;-split-package:=merge-first,
+        META-INF;-split-package:=merge-first,
+        META-INF.maven.org.apache.servicemix.bundles*;-split-package:=merge-first,
+        META-INF.services;-split-package:=merge-first,
+    </servicemix.osgi.private.pkg>
     <servicemix.osgi.failok>true</servicemix.osgi.failok>
     <pkgVersion>2.3.2</pkgVersion>
     <pkgArtifactId>
