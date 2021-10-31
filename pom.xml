@@ -94,6 +94,7 @@
         <module>solr-solrj-8.10.1</module>
         <module>pring-integration-core-5.5.5</module>
         <module>jruby-9.3.1.0</module>
+        <module>htmlunit-2.54.0</module>
     </modules>
 
 </project>
