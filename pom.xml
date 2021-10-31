@@ -78,6 +78,9 @@
         <module>spring-security-taglibs-5.5.3</module>
         <module>spring-security-test-5.5.3</module>
         <module>spring-security-web-5.5.3</module>
+        <module>spring-data-commons-2.5.6</module>
+        <module>spring-data-keyvalue-2.5.6</module>
+        <module>spring-data-redis-2.5.6</module>
     </modules>
 
 </project>
