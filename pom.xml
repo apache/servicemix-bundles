@@ -89,6 +89,7 @@
         <module>lucene-queryparser-8.10.1</module>
         <module>lucene-sandbox-8.10.1</module>
         <module>ant-1.10.12</module>
+        <module>xmlbeans-5.0.2</module>
     </modules>
 
 </project>
