@@ -91,6 +91,7 @@
         <module>ant-1.10.12</module>
         <module>xmlbeans-5.0.2</module>
         <module>libphonenumber-8.12.36</module>
+        <module>solr-solrj-8.10.1</module>
     </modules>
 
 </project>
