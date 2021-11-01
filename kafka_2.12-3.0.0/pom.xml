@@ -39,7 +39,6 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
@@ -134,6 +133,26 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>kafka-metadata</artifactId>
+            <version>${pkgVersion}</version>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>kafka-raft</artifactId>
+            <version>${pkgVersion}</version>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>kafka-server-common</artifactId>
+            <version>${pkgVersion}</version>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>kafka-storage</artifactId>
+            <version>${pkgVersion}</version>
+        </dependency>
 
         <!-- sources -->
         <dependency>
@@ -200,6 +219,30 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>kafka-metadata</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>kafka-raft</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>kafka-server-common</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>kafka-storage</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+        </dependency>
     </dependencies>
 
     <build>
@@ -217,6 +260,10 @@
                             <artifactSet>
                                 <includes>
                                     <include>${pkgGroupId}:${pkgArtifactId}</include>
+                                    <include>${pkgGroupId}:kafka-metadata</include>
+                                    <include>${pkgGroupId}:kafka-raft</include>
+                                    <include>${pkgGroupId}:kafka-server-common</include>
+                                    <include>${pkgGroupId}:kafka-storage</include>
                                 </includes>
                             </artifactSet>
                             <filters>
@@ -225,6 +272,31 @@
                                     <excludes>
                                         <exclude>**/*</exclude>
                                     </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:kafka-metadata</artifact>
+                                    <includes>
+                                        <include>**/*.json</include>
+                                    </includes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:kafka-raft</artifact>
+                                    <includes>
+                                        <include>**/*.json</include>
+                                        <include>common/META-INF/**/*</include>
+                                    </includes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:kafka-server-common</artifact>
+                                    <includes>
+                                        <include>**/kafka-version.properties</include>
+                                    </includes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:kafka-storage</artifact>
+                                    <includes>
+                                        <include>**/*.json</include>
+                                    </includes>
                                 </filter>
                             </filters>
                             <promoteTransitiveDependencies>true</promoteTransitiveDependencies>

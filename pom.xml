@@ -97,6 +97,10 @@
         <module>htmlunit-2.54.0</module>
         <module>aws-java-sdk-1.12.96</module>
         <module>postgresql-42.3.0</module>
+        <module>kafka_2.12-2.8.1</module>
+        <module>kafka_2.13-2.8.1</module>
+        <module>kafka_2.12-3.0.0</module>
+        <module>kafka_2.13-3.0.0</module>
     </modules>
 
 </project>
