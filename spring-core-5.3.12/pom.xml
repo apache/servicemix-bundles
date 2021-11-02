@@ -49,6 +49,7 @@
             org.springframework
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
+            io.netty.buffer;resolution:=optional,
             javax.net;resolution:=optional,
             javax.xml;resolution:=optional,
             javax.xml.bind;resolution:=optional,
