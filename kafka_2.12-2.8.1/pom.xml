@@ -46,18 +46,19 @@
         <pkgGroupId>org.apache.kafka</pkgGroupId>
         <pkgArtifactId>kafka_2.12</pkgArtifactId>
         <pkgVersion>2.8.1</pkgVersion>
-        <servicemix.osgi.export.pkg>
-            kafka
-        </servicemix.osgi.export.pkg>
+        <servicemix.osgi.export>
+            kafka*;version="${pkgVersion}";-split-package:=merge-first,
+            org.apache.kafka*;version="${pkgVersion}";-split-package:=merge-first
+        </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
             javax.crypto.*,
-            javax.xml.datatype.*,
+            javax.xml.datatype.*;resolution:=optional,
             javax.management.*,
             org.apache.kafka.*;version="[$(versionmask;==;${pkgVersion}),$(versionmask;+;${pkgVersion}))",
             scala.*;version="[2,3)",
             com.typesafe.scalalogging.*;version="[3.7,4)",
             org.slf4j.*,
-            com.fasterxml.jackson.*,
+            com.fasterxml.jackson.*;resolution:=optional,
             com.yammer.metrics.*;version="[2.2,3)",
             org.apache.zookeeper.*;version="[3.4,4)";resolution:=optional,
             joptsimple.*;resolution:=optional;version="[5.0,6)",

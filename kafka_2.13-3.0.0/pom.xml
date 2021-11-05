@@ -46,18 +46,19 @@
         <pkgGroupId>org.apache.kafka</pkgGroupId>
         <pkgArtifactId>kafka_2.13</pkgArtifactId>
         <pkgVersion>3.0.0</pkgVersion>
-        <servicemix.osgi.export.pkg>
-            kafka
-        </servicemix.osgi.export.pkg>
+        <servicemix.osgi.export>
+            kafka*;version="${pkgVersion}";-split-package:=merge-first,
+            org.apache.kafka*;version="${pkgVersion}";-split-package:=merge-first
+        </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
             javax.crypto.*,
-            javax.xml.datatype.*,
+            javax.xml.datatype.*;resolution:=optional,
             javax.management.*,
             org.apache.kafka.*;version="[$(versionmask;==;${pkgVersion}),$(versionmask;+;${pkgVersion}))",
             scala.*;version="[2,3)",
             com.typesafe.scalalogging.*;version="[3.7,4)",
             org.slf4j.*,
-            com.fasterxml.jackson.*,
+            com.fasterxml.jackson.*;resolution:=optional,
             com.yammer.metrics.*;version="[2.2,3)",
             org.apache.zookeeper.*;version="[3.4,4)";resolution:=optional,
             joptsimple.*;resolution:=optional;version="[5.0,6)",
@@ -144,16 +145,6 @@
             <artifactId>kafka-raft</artifactId>
             <version>${pkgVersion}</version>
         </dependency>
-        <dependency>
-            <groupId>${pkgGroupId}</groupId>
-            <artifactId>kafka-server-common</artifactId>
-            <version>${pkgVersion}</version>
-        </dependency>
-        <dependency>
-            <groupId>${pkgGroupId}</groupId>
-            <artifactId>kafka-storage</artifactId>
-            <version>${pkgVersion}</version>
-        </dependency>
 
         <!-- sources -->
         <dependency>
@@ -232,18 +223,6 @@
             <version>${pkgVersion}</version>
             <classifier>sources</classifier>
         </dependency>
-        <dependency>
-            <groupId>${pkgGroupId}</groupId>
-            <artifactId>kafka-server-common</artifactId>
-            <version>${pkgVersion}</version>
-            <classifier>sources</classifier>
-        </dependency>
-        <dependency>
-            <groupId>${pkgGroupId}</groupId>
-            <artifactId>kafka-storage</artifactId>
-            <version>${pkgVersion}</version>
-            <classifier>sources</classifier>
-        </dependency>
     </dependencies>
 
     <build>
@@ -263,8 +242,6 @@
                                     <include>${pkgGroupId}:${pkgArtifactId}</include>
                                     <include>${pkgGroupId}:kafka-metadata</include>
                                     <include>${pkgGroupId}:kafka-raft</include>
-                                    <include>${pkgGroupId}:kafka-server-common</include>
-                                    <include>${pkgGroupId}:kafka-storage</include>
                                 </includes>
                             </artifactSet>
                             <filters>
@@ -285,18 +262,6 @@
                                     <includes>
                                         <include>**/*.json</include>
                                         <include>common/META-INF/**/*</include>
-                                    </includes>
-                                </filter>
-                                <filter>
-                                    <artifact>${pkgGroupId}:kafka-server-common</artifact>
-                                    <includes>
-                                        <include>**/kafka-version.properties</include>
-                                    </includes>
-                                </filter>
-                                <filter>
-                                    <artifact>${pkgGroupId}:kafka-storage</artifact>
-                                    <includes>
-                                        <include>**/*.json</include>
                                     </includes>
                                 </filter>
                             </filters>
