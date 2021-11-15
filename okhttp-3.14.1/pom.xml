@@ -55,6 +55,7 @@
             android.util.*;resolution:=optional,
             android.os.*;resolution:=optional,
             org.conscrypt.*;resolution:=optional,
+            javax.annotation*;version="[3.0, 4)",
             *
         </servicemix.osgi.import.pkg>
     </properties>

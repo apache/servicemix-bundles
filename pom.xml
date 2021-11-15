@@ -41,66 +41,7 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
-        <module>jaxb-xjc-2.3.2</module>
-        <module>jaxb-runtime-2.3.2</module>
-        <module>spring-aop-5.3.12</module>
-        <module>spring-aspects-5.3.12</module>
-        <module>spring-beans-5.3.12</module>
-        <module>spring-context-5.3.12</module>
-        <module>spring-context-support-5.3.12</module>
-        <module>spring-core-5.3.12</module>
-        <module>spring-expression-5.3.12</module>
-        <module>spring-instrument-5.3.12</module>
-        <module>spring-jdbc-5.3.12</module>
-        <module>spring-jms-5.3.12</module>
-        <module>spring-messaging-5.3.12</module>
-        <module>spring-orm-5.3.12</module>
-        <module>spring-oxm-5.3.12</module>
-        <module>spring-test-5.3.12</module>
-        <module>spring-tx-5.3.12</module>
-        <module>spring-web-5.3.12</module>
-        <module>spring-webflux-5.3.12</module>
-        <module>spring-webmvc-5.3.12</module>
-        <module>spring-websocket-5.3.12</module>
-        <module>spring-security-acl-5.5.3</module>
-        <module>spring-security-aspects-5.5.3</module>
-        <module>spring-security-cas-5.5.3</module>
-        <module>spring-security-config-5.5.3</module>
-        <module>spring-security-core-5.5.3</module>
-        <module>spring-security-crypto-5.5.3</module>
-        <module>spring-security-data-5.5.3</module>
-        <module>spring-security-ldap-5.5.3</module>
-        <module>spring-security-messaging-5.5.3</module>
-        <module>spring-security-oauth2-client-5.5.3</module>
-        <module>spring-security-oauth2-core-5.5.3</module>
-        <module>spring-security-oauth2-jose-5.5.3</module>
-        <module>spring-security-remoting-5.5.3</module>
-        <module>spring-security-taglibs-5.5.3</module>
-        <module>spring-security-test-5.5.3</module>
-        <module>spring-security-web-5.5.3</module>
-        <module>spring-data-commons-2.5.6</module>
-        <module>spring-data-keyvalue-2.5.6</module>
-        <module>spring-data-redis-2.5.6</module>
-        <module>asterisk-java-3.14.0</module>
-        <module>aws-java-sdk-2.17.68</module>
-        <module>lucene-8.10.1</module>
-        <module>lucene-analyzers-common-8.10.1</module>
-        <module>lucene-queries-8.10.1</module>
-        <module>lucene-queryparser-8.10.1</module>
-        <module>lucene-sandbox-8.10.1</module>
-        <module>ant-1.10.12</module>
-        <module>xmlbeans-5.0.2</module>
-        <module>libphonenumber-8.12.36</module>
-        <module>solr-solrj-8.10.1</module>
-        <module>pring-integration-core-5.5.5</module>
-        <module>jruby-9.3.1.0</module>
-        <module>htmlunit-2.54.0</module>
-        <module>aws-java-sdk-1.12.96</module>
-        <module>postgresql-42.3.0</module>
-        <module>kafka_2.12-2.8.1</module>
-        <module>kafka_2.13-2.8.1</module>
-        <module>kafka_2.12-3.0.0</module>
-        <module>kafka_2.13-3.0.0</module>
+        <module>grpc-1.41.0</module>
     </modules>
 
 </project>
