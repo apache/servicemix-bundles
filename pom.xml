@@ -43,6 +43,7 @@
     <modules>
         <module>grpc-1.41.0</module>
         <module>okhttp-3.14.1</module>
+        <module>servlet-compatible</module>
     </modules>
 
 </project>
