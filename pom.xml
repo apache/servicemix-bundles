@@ -55,6 +55,7 @@
         <module>bcprov-jdk15on-1.70</module>
         <module>solr-solrj-8.11.0</module>
         <module>gae-1.9.92</module>
+        <module>htmlunit-2.55.0</module>
     </modules>
 
 </project>
