@@ -71,6 +71,9 @@
         <module>postgresql-42.3.1</module>
         <module>libphonenumber-8.12.38</module>
         <module>snmp4j-3.6.2</module>
+        <module>spring-data-commons-2.6.0</module>
+        <module>spring-data-keyvalue-2.6.0</module>
+        <module>spring-data-redis-2.6.0</module>
     </modules>
 
 </project>
