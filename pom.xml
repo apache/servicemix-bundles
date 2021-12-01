@@ -53,6 +53,7 @@
         <module>avro-1.11.0</module>
         <module>avro-ipc-1.11.0</module>
         <module>bcprov-jdk15on-1.70</module>
+        <module>solr-solrj-8.11.0</module>
     </modules>
 
 </project>
