@@ -103,7 +103,7 @@
 			org.hl7.fhir.instance.model.api,
 			org.hl7.fhir.r4.utils,
 			org.hl7.fhir.utilities.validation";
-		version=3.5.0,
+		version=5.6.0,
 	org.hl7.fhir.dstu3.validation;
 		uses:="javax.swing,
 			org.hl7.fhir.dstu3.context,
@@ -111,7 +111,7 @@
 			org.hl7.fhir.exceptions,
 			org.hl7.fhir.utilities.validation,
 			org.xml.sax";
-		version=3.5.0,
+		version=5.6.0,
 	org.hl7.fhir.instance.hapi.validation;
 		uses:="ca.uhn.fhir.context,
 			ca.uhn.fhir.rest.api,
@@ -123,7 +123,7 @@
 			org.hl7.fhir.instance.utils,
 			org.hl7.fhir.r4.utils,
 			org.hl7.fhir.utilities.validation";
-		version=3.5.0,
+		version=5.6.0,
 	org.hl7.fhir.instance.validation;
 		uses:="com.google.gson,
 			org.hl7.fhir.exceptions,
@@ -133,7 +133,7 @@
 			org.w3c.dom,
 			org.xml.sax,
 			org.xml.sax.helpers";
-		version=3.5.0,
+		version=5.6.0,
 	org.hl7.fhir.r4.hapi.validation;
 		uses:="ca.uhn.fhir.context,
 			ca.uhn.fhir.context.support,
@@ -145,7 +145,7 @@
 			org.hl7.fhir.r4.model,
 			org.hl7.fhir.r4.utils,
 			org.hl7.fhir.utilities.validation";
-		version=3.5.0,
+		version=5.6.0,
 	org.hl7.fhir.r4.validation;
 		uses:="com.google.gson,
 			javax.swing,
@@ -156,7 +156,7 @@
 			org.hl7.fhir.r4.utils,
 			org.hl7.fhir.utilities.validation,
 			org.w3c.dom";
-		version=3.5.0
+		version=5.6.0
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.fragment.host>
             ca.uhn.hapi.fhir.hapi-fhir-base
