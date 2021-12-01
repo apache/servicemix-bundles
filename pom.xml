@@ -57,6 +57,7 @@
         <module>gae-1.9.92</module>
         <module>htmlunit-2.55.0</module>
         <module>okio-3.0.0</module>
+        <module>spring-integration-core-5.5.6</module>
     </modules>
 
 </project>
