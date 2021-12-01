@@ -56,6 +56,7 @@
         <module>solr-solrj-8.11.0</module>
         <module>gae-1.9.92</module>
         <module>htmlunit-2.55.0</module>
+        <module>okio-3.0.0</module>
     </modules>
 
 </project>
