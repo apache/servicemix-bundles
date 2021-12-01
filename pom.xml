@@ -54,6 +54,7 @@
         <module>avro-ipc-1.11.0</module>
         <module>bcprov-jdk15on-1.70</module>
         <module>solr-solrj-8.11.0</module>
+        <module>gae-1.9.92</module>
     </modules>
 
 </project>
