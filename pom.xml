@@ -52,6 +52,7 @@
 	      <module>hapi-fhir-validation-5.6.0</module>
         <module>avro-1.11.0</module>
         <module>avro-ipc-1.11.0</module>
+        <module>bcprov-jdk15on-1.70</module>
     </modules>
 
 </project>
