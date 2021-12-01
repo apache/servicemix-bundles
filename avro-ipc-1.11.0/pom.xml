@@ -29,8 +29,8 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.avro</artifactId>
-    <version>1.10.2_2-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.avro-ipc</artifactId>
+    <version>1.11.0_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -39,30 +39,24 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>org.apache.avro</pkgGroupId>
-        <pkgArtifactId>avro</pkgArtifactId>
-        <pkgVersion>1.10.2</pkgVersion>
+        <pkgArtifactId>avro-ipc</pkgArtifactId>
+        <pkgVersion>1.11.0</pkgVersion>
         <servicemix.osgi.export>
-            !org.apache.avro.ipc;version="${project.version}",
-            org.apache.avro*;version="${project.version}";-noimport:=true;-split-package:=merge-first
+            org.apache.avro.ipc*;version="${project.version}";-noimport:=true;-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
-            javax.annotation,
-            com.thoughtworks.paranamer;version="[2.3,3)",
-            org.apache.commons.compress*,
-            org.codehaus.jackson*;version="[2,3)",
-            org.slf4j;resolution:=optional,
-            org.joda.time;resolution:=optional,
-            org.xerial.snappy;version="[1.0,2)";resolution:=optional,
-            sun.misc;resolution:=optional
+            javax.security*,
+            org.apache.avro*;version="[1.7,2)",
+            javax.servlet*;resolution:=optional,
+            org.apache.velocity*;resolution:=optional,
+            org.jboss.netty*;resolution:=optional,
+            org.mortbay*;resolution:=optional,
+            org.slf4j;resolution:=optional
         </servicemix.osgi.import.pkg>
-        <servicemix.osgi.private.pkg>
-            avro.shaded*
-        </servicemix.osgi.private.pkg>
     </properties>
 
     <dependencies>

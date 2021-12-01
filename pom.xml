@@ -44,12 +44,14 @@
         <module>grpc-1.41.0</module>
         <module>okhttp-3.14.1</module>
         <module>servlet-compatible-1.0</module>
-	<module>hapi-fhir-structures-dstu2-5.6.0</module>
-	<module>hapi-fhir-structures-dstu2.1-5.6.0</module>
-	<module>hapi-fhir-structures-dstu3-5.6.0</module>
-	<module>hapi-fhir-structures-r4-5.6.0</module>
-  <module>hapi-fhir-structures-hl7org-dstu2-5.6.0</module>
-	<module>hapi-fhir-validation-5.6.0</module>
+      	<module>hapi-fhir-structures-dstu2-5.6.0</module>
+      	<module>hapi-fhir-structures-dstu2.1-5.6.0</module>
+      	<module>hapi-fhir-structures-dstu3-5.6.0</module>
+      	<module>hapi-fhir-structures-r4-5.6.0</module>
+        <module>hapi-fhir-structures-hl7org-dstu2-5.6.0</module>
+	      <module>hapi-fhir-validation-5.6.0</module>
+        <module>avro-1.11.0</module>
+        <module>avro-ipc-1.11.0</module>
     </modules>
 
 </project>
