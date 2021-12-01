@@ -74,6 +74,11 @@
         <module>spring-data-commons-2.6.0</module>
         <module>spring-data-keyvalue-2.6.0</module>
         <module>spring-data-redis-2.6.0</module>
+        <module>lucene-8.11.0</module>
+        <module>lucene-analyzers-common-8.11.0</module>
+        <module>lucene-queries-8.11.0</module>
+        <module>lucene-queryparser-8.11.0</module>
+        <module>lucene-sandbox-8.11.0</module>
     </modules>
 
 </project>
