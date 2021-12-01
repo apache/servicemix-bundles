@@ -69,6 +69,7 @@
         <module>aws-java-sdk-1.12.122</module>
         <module>grpc-1.42.1</module>
         <module>postgresql-42.3.1</module>
+        <module>libphonenumber-8.12.38</module>
     </modules>
 
 </project>
