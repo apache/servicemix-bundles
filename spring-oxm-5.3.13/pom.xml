@@ -58,6 +58,7 @@
             com.thoughtworks.xstream.io.naming;version="[1.4,2)";resolution:=optional,
             com.thoughtworks.xstream.io.xml;version="[1.4,2)";resolution:=optional,
             com.thoughtworks.xstream.mapper;version="[1.4,2)";resolution:=optional,
+            com.thoughtworks.xstream.security;version="[1.4,2)";resolution:=optional,
             javax.activation;resolution:=optional,
             javax.xml;resolution:=optional,
             javax.xml.bind;resolution:=optional,
