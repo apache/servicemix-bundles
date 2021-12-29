@@ -65,6 +65,12 @@
       <module>gae-2.0.1</module>
       <module>pulsar-client-2.9.1</module>
       <module>pulsar-client-admin-2.9.1</module>
+      <module>hapi-fhir-structures-dstu2-5.6.1</module>
+      <module>hapi-fhir-structures-dstu2.1-5.6.1</module>
+      <module>hapi-fhir-structures-dstu3-5.6.1</module>
+      <module>hapi-fhir-structures-hl7org-dstu2-5.6.1</module>
+      <module>hapi-fhir-structures-r4-5.6.1</module>
+      <module>hapi-fhir-validation-5.6.1</module>
     </modules>
 
 </project>
