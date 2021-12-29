@@ -73,6 +73,10 @@
       <module>hapi-fhir-validation-5.6.1</module>
       <module>spring-xml-3.1.2</module>
       <module>jedis-4.0.0</module>
+      <module>spring-ws-core-3.1.2</module>
+      <module>spring-ws-security-3.1.2</module>
+      <module>spring-ws-support-3.1.2</module>
+      <module>spring-ws-test-3.1.2</module>
     </modules>
 
 </project>
