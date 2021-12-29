@@ -61,6 +61,7 @@
 	<module>spring-webmvc-5.3.14</module>
 	<module>spring-websocket-5.3.14</module>
       <module>aws-java-sdk-1.12.131</module>
+      <module>snmp4j-3.6.4</module>
     </modules>
 
 </project>
