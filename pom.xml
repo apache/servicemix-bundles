@@ -72,6 +72,7 @@
       <module>hapi-fhir-structures-r4-5.6.1</module>
       <module>hapi-fhir-validation-5.6.1</module>
       <module>spring-xml-3.1.2</module>
+      <module>jedis-4.0.0</module>
     </modules>
 
 </project>
