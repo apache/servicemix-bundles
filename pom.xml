@@ -113,6 +113,7 @@
       <module>java-util-1.66.0</module>
       <module>dnsjava-3.4.3</module>
       <module>aws-java-sdk-2.17.102</module>
+      <module>grpc-1.43.1</module>
     </modules>
 
 </project>
