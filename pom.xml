@@ -109,6 +109,7 @@
       <module>lucene-queryparser-9.0.0</module>
       <module>lucene-sandbox-9.0.0</module>
       <module>hppc-0.9.1</module>
+      <module>mybatis-3.5.9</module>
     </modules>
 
 </project>
