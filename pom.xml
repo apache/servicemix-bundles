@@ -83,6 +83,7 @@
       <module>lucene-queries-8.11.1</module>
       <module>lucene-queryparser-8.11.1</module>
       <module>lucene-sandbox-8.11.1</module>
+      <module>asterisk-java-3.24.0</module>
     </modules>
 
 </project>
