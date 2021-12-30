@@ -104,6 +104,10 @@
       <module>htmlunit-2.56.0</module>
       <module>thymeleaf-3.0.14.RELEASE</module>
       <module>jruby-9.3.2.0</module>
+      <module>lucene-9.0.0</module>
+      <module>lucene-queries-9.0.0</module>
+      <module>lucene-queryparser-9.0.0</module>
+      <module>lucene-sandbox-9.0.0</module>
     </modules>
 
 </project>
