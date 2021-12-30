@@ -78,6 +78,11 @@
       <module>spring-ws-support-3.1.2</module>
       <module>spring-ws-test-3.1.2</module>
       <module>spring-integration-core-5.5.7</module>
+      <module>lucene-8.11.1</module>
+      <module>lucene-analyzers-common-8.11.1</module>
+      <module>lucene-queries-8.11.1</module>
+      <module>lucene-queryparser-8.11.1</module>
+      <module>lucene-sandbox-8.11.1</module>
     </modules>
 
 </project>
