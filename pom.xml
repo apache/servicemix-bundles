@@ -84,6 +84,7 @@
       <module>lucene-queryparser-8.11.1</module>
       <module>lucene-sandbox-8.11.1</module>
       <module>asterisk-java-3.24.0</module>
+      <module>bcpg-jdk15on-1.70</module>
     </modules>
 
 </project>
