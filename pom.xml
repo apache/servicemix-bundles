@@ -115,6 +115,7 @@
       <module>aws-java-sdk-2.17.102</module>
       <module>grpc-1.43.1</module>
       <module>libphonenumber-8.12.40</module>
+      <module>solr-solrj-8.11.1</module>
     </modules>
 
 </project>
