@@ -110,6 +110,7 @@
       <module>lucene-sandbox-9.0.0</module>
       <module>hppc-0.9.1</module>
       <module>mybatis-3.5.9</module>
+      <module>java-util-1.66.0</module>
     </modules>
 
 </project>
