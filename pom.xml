@@ -112,6 +112,7 @@
       <module>mybatis-3.5.9</module>
       <module>java-util-1.66.0</module>
       <module>dnsjava-3.4.3</module>
+      <module>aws-java-sdk-2.17.102</module>
     </modules>
 
 </project>
