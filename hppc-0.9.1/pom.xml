@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.hppc</artifactId>
-    <version>0.9.0_2-SNAPSHOT</version>
+    <version>0.9.1_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} shaded jar file.</description>
@@ -39,13 +39,12 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>com.carrotsearch</pkgGroupId>
         <pkgArtifactId>hppc</pkgArtifactId>
-        <pkgVersion>0.9.0</pkgVersion>
+        <pkgVersion>0.9.1</pkgVersion>
         <servicemix.osgi.export.pkg>
             com.carrotsearch.hppc
         </servicemix.osgi.export.pkg>

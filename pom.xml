@@ -108,6 +108,7 @@
       <module>lucene-queries-9.0.0</module>
       <module>lucene-queryparser-9.0.0</module>
       <module>lucene-sandbox-9.0.0</module>
+      <module>hppc-0.9.1</module>
     </modules>
 
 </project>
