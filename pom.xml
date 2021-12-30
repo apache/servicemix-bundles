@@ -102,6 +102,7 @@
       <module>spring-security-test-5.6.1</module>
       <module>spring-security-web-5.6.1</module>
       <module>htmlunit-2.56.0</module>
+      <module>thymeleaf-3.0.14.RELEASE</module>
     </modules>
 
 </project>
