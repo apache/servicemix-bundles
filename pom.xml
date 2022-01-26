@@ -41,6 +41,7 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+        <module>kafka-clients-2.6.3</module>
     </modules>
 
 </project>
