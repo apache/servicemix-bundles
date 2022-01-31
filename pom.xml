@@ -63,6 +63,7 @@
 	<module>gae-2.0.3</module>
 	<module>gremlin-driver-3.5.2</module>
 	<module>xstream-1.4.19</module>
+	<module>spring-integration-core-5.5.8</module>
     </modules>
 
 </project>
