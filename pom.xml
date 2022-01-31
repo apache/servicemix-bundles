@@ -52,6 +52,7 @@
         <module>libphonenumber-8.12.42</module>
         <module>any23-2.6</module>
 	<module>aws-java-sdk-2.17.121</module>
+	<module>ognl-3.3.2</module>
     </modules>
 
 </project>
