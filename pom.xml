@@ -55,6 +55,7 @@
 	<module>ognl-3.3.2</module>
 	<module>aws-java-sdk-1.12.150</module>
 	<module>janusgraph-core-0.6.1</module>
+	<module>xerces-2.12.2</module>
     </modules>
 
 </project>
