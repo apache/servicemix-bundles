@@ -50,6 +50,7 @@
         <module>rhino-1.7.14</module>
         <module>xmlgraphics-commons-2.7</module>
         <module>libphonenumber-8.12.42</module>
+        <module>any23-2.6</module>
     </modules>
 
 </project>
