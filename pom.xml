@@ -45,6 +45,7 @@
         <module>kafka-clients-2.6.3</module>
         <module>kafka_2.12-2.6.3</module>
         <module>kafka_2.13-2.6.3</module>
+        <module>xmlbeans-5.0.3</module>
     </modules>
 
 </project>
