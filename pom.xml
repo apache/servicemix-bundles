@@ -67,6 +67,10 @@
 	<module>jruby-9.3.3.0</module>
 	<module>htmlunit-2.57.0</module>
 	<module>grpc-1.44.0</module>
+	<module>kafka_2.12-3.1.0</module>
+	<module>kafka_2.13-3.1.0</module>
+	<module>kafka-clients-3.1.0</module>
+	<module>kafka-streams-3.1.0</module>
     </modules>
 
 </project>
