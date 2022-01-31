@@ -54,6 +54,7 @@
 	<module>aws-java-sdk-2.17.121</module>
 	<module>ognl-3.3.2</module>
 	<module>aws-java-sdk-1.12.150</module>
+	<module>janusgraph-core-0.6.1</module>
     </modules>
 
 </project>
