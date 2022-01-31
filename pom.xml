@@ -66,6 +66,7 @@
 	<module>spring-integration-core-5.5.8</module>
 	<module>jruby-9.3.3.0</module>
 	<module>htmlunit-2.57.0</module>
+	<module>grpc-1.44.0</module>
     </modules>
 
 </project>
