@@ -56,6 +56,9 @@
 	<module>aws-java-sdk-1.12.150</module>
 	<module>janusgraph-core-0.6.1</module>
 	<module>xerces-2.12.2</module>
+	<module>spring-data-commons-2.6.1</module>
+	<module>spring-data-keyvalue-2.6.1</module>
+	<module>spring-data-redis-2.6.1</module>
     </modules>
 
 </project>
