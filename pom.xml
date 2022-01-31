@@ -61,6 +61,7 @@
 	<module>spring-data-redis-2.6.1</module>
 	<module>jedis-4.1.0</module>
 	<module>gae-2.0.3</module>
+	<module>gremlin-driver-3.5.2</module>
     </modules>
 
 </project>
