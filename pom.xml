@@ -90,6 +90,12 @@
 	<module>spring-webflux-5.3.15</module>
 	<module>spring-webmvc-5.3.15</module>
 	<module>spring-websocket-5.3.15</module>
+	<module>hapi-fhir-structures-dstu2.1-5.6.2</module>
+	<module>hapi-fhir-structures-dstu2-5.6.2</module>
+	<module>hapi-fhir-structures-dstu3-5.6.2</module>
+	<module>hapi-fhir-structures-hl7org-dstu2-5.6.2</module>
+	<module>hapi-fhir-structures-r4-5.6.2</module>
+	<module>hapi-fhir-validation-5.6.2</module>
     </modules>
 
 </project>
