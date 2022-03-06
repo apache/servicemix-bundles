@@ -41,61 +41,6 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
-        <module>kafka-streams-2.6.3</module>
-        <module>kafka-clients-2.6.3</module>
-        <module>kafka_2.12-2.6.3</module>
-        <module>kafka_2.13-2.6.3</module>
-        <module>xmlbeans-5.0.3</module>
-        <module>chunk-templates-3.6.2</module>
-        <module>rhino-1.7.14</module>
-        <module>xmlgraphics-commons-2.7</module>
-        <module>libphonenumber-8.12.42</module>
-        <module>any23-2.6</module>
-	<module>aws-java-sdk-2.17.121</module>
-	<module>ognl-3.3.2</module>
-	<module>aws-java-sdk-1.12.150</module>
-	<module>janusgraph-core-0.6.1</module>
-	<module>xerces-2.12.2</module>
-	<module>spring-data-commons-2.6.1</module>
-	<module>spring-data-keyvalue-2.6.1</module>
-	<module>spring-data-redis-2.6.1</module>
-	<module>jedis-4.1.0</module>
-	<module>gae-2.0.3</module>
-	<module>gremlin-driver-3.5.2</module>
-	<module>xstream-1.4.19</module>
-	<module>spring-integration-core-5.5.8</module>
-	<module>jruby-9.3.3.0</module>
-	<module>htmlunit-2.57.0</module>
-	<module>grpc-1.44.0</module>
-	<module>kafka_2.12-3.1.0</module>
-	<module>kafka_2.13-3.1.0</module>
-	<module>kafka-clients-3.1.0</module>
-	<module>kafka-streams-3.1.0</module>
-	<module>spring-aop-5.3.15</module>
-	<module>spring-aspects-5.3.15</module>
-	<module>spring-beans-5.3.15</module>
-	<module>spring-context-5.3.15</module>
-	<module>spring-context-support-5.3.15</module>
-	<module>spring-core-5.3.15</module>
-	<module>spring-expression-5.3.15</module>
-	<module>spring-instrument-5.3.15</module>
-	<module>spring-jdbc-5.3.15</module>
-	<module>spring-jms-5.3.15</module>
-	<module>spring-messaging-5.3.15</module>
-	<module>spring-orm-5.3.15</module>
-	<module>spring-oxm-5.3.15</module>
-	<module>spring-test-5.3.15</module>
-	<module>spring-tx-5.3.15</module>
-	<module>spring-web-5.3.15</module>
-	<module>spring-webflux-5.3.15</module>
-	<module>spring-webmvc-5.3.15</module>
-	<module>spring-websocket-5.3.15</module>
-	<module>hapi-fhir-structures-dstu2.1-5.6.2</module>
-	<module>hapi-fhir-structures-dstu2-5.6.2</module>
-	<module>hapi-fhir-structures-dstu3-5.6.2</module>
-	<module>hapi-fhir-structures-hl7org-dstu2-5.6.2</module>
-	<module>hapi-fhir-structures-r4-5.6.2</module>
-	<module>hapi-fhir-validation-5.6.2</module>
     </modules>
 
 </project>
