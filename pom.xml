@@ -63,6 +63,7 @@
 	<module>spring-websocket-5.3.16</module>
 	<module>zookeeper-3.8.0</module>
 	<module>libphonenumber-8.12.44</module>
+	<module>any23-2.7</module>
     </modules>
 
 </project>
