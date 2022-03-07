@@ -68,6 +68,7 @@
 	<module>antisamy-1.6.5</module>
 	<module>spring-batch-core-4.3.5</module>
 	<module>spring-batch-infrastructure-4.3.5</module>
+	<module>hadoop-client-3.3.2</module>
     </modules>
 
 </project>
