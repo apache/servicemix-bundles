@@ -69,6 +69,7 @@
 	<module>spring-batch-core-4.3.5</module>
 	<module>spring-batch-infrastructure-4.3.5</module>
 	<module>hadoop-client-3.3.2</module>
+	<module>spring-integration-core-5.5.9</module>
     </modules>
 
 </project>
