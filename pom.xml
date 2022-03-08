@@ -73,6 +73,7 @@
 	<module>grpc-1.44.1</module>
 	<module>jdom-2.0.6.1</module>
 	<module>aspectj-1.9.8</module>
+	<module>aws-java-sdk-1.12.172</module>
     </modules>
 
 </project>
