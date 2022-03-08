@@ -81,6 +81,7 @@
 	<module>spring-ldap-2.3.6.RELEASE</module>
 	<module>asterisk-java-3.26.0</module>
 	<module>dnsjava-3.5.0</module>
+	<module>libthrift-0.16.0</module>
     </modules>
 
 </project>
