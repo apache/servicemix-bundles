@@ -82,6 +82,7 @@
 	<module>asterisk-java-3.26.0</module>
 	<module>dnsjava-3.5.0</module>
 	<module>libthrift-0.16.0</module>
+	<module>braintree-java-3.14.0</module>
     </modules>
 
 </project>
