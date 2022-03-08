@@ -85,6 +85,7 @@
 	<module>braintree-java-3.14.0</module>
 	<module>postgresql-42.3.3</module>
 	<module>docker-java-3.2.13</module>
+	<module>java-util-2.0.0</module>
     </modules>
 
 </project>
