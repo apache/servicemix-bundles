@@ -79,6 +79,7 @@
 	<module>htmlunit-2.59.0</module>
 	<module>saxon-11.2</module>
 	<module>spring-ldap-2.3.6.RELEASE</module>
+	<module>asterisk-java-3.26.0</module>
     </modules>
 
 </project>
