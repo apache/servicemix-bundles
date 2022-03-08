@@ -83,6 +83,7 @@
 	<module>dnsjava-3.5.0</module>
 	<module>libthrift-0.16.0</module>
 	<module>braintree-java-3.14.0</module>
+	<module>postgresql-42.3.3</module>
     </modules>
 
 </project>
