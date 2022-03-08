@@ -89,6 +89,9 @@
 	<module>dbunit-2.7.3</module>
 	<module>fop-2.7</module>
 	<module>atlassian-jira-client-5.2.4</module>
+	<module>spring-data-commons-2.6.2</module>
+	<module>spring-data-keyvalue-2.6.2</module>
+	<module>spring-data-redis-2.6.2</module>
     </modules>
 
 </project>
