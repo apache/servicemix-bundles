@@ -76,6 +76,7 @@
 	<module>aws-java-sdk-1.12.172</module>
 	<module>jedis-4.1.1</module>
 	<module>gae-2.0.4</module>
+	<module>htmlunit-2.59.0</module>
     </modules>
 
 </project>
