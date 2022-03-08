@@ -31,7 +31,7 @@
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.atlassian-jira-client</artifactId>
     <packaging>bundle</packaging>
-    <version>5.2.2_2-SNAPSHOT</version>
+    <version>5.2.4_1-SNAPSHOT</version>
     <name>Apache ServiceMix :: Bundles :: Atlassian Jira Client</name>
     <description>
         This OSGi bundle wraps atlassian jira-rest-java-client-api, jira-rest-java-client-core ${pkgVersion} jar files.
@@ -41,7 +41,6 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <repositories>
@@ -60,7 +59,7 @@
 
     <properties>
         <pkgGroupId>com.atlassian.jira</pkgGroupId>
-        <pkgVersion>5.2.2</pkgVersion>
+        <pkgVersion>5.2.4</pkgVersion>
         <servicemix.osgi.export>
             com.atlassian.jira.rest.client*;version=${pkgVersion},
             com.atlassian.httpclient*;version=${pkgVersion},
