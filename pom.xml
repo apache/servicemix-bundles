@@ -74,6 +74,7 @@
 	<module>jdom-2.0.6.1</module>
 	<module>aspectj-1.9.8</module>
 	<module>aws-java-sdk-1.12.172</module>
+	<module>jedis-4.1.1</module>
     </modules>
 
 </project>
