@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.hapi-fhir-structures-dstu3</artifactId>
-    <version>5.6.2_2-SNAPSHOT</version>
+    <version>5.7.0_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -39,13 +39,12 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>ca.uhn.hapi.fhir</pkgGroupId>
         <pkgArtifactId>hapi-fhir-structures-dstu3</pkgArtifactId>
-        <pkgVersion>5.6.2</pkgVersion>
+        <pkgVersion>5.7.0</pkgVersion>
         <servicemix.osgi.import.pkg>
             ca.uhn.fhir.context;version="[5,6)",
 	ca.uhn.fhir.context.api;version="[5,6)",
@@ -99,7 +98,7 @@
 			org.hl7.fhir.dstu3.model,
 			org.hl7.fhir.dstu3.utils,
 			org.hl7.fhir.exceptions";
-		version=5.6.0,
+		version=5.7.0,
 	org.hl7.fhir.dstu3.context;
 		uses:="org.hl7.fhir.dstu3.formats,
 			org.hl7.fhir.dstu3.model,
@@ -107,7 +106,7 @@
 			org.hl7.fhir.dstu3.utils,
 			org.hl7.fhir.exceptions,
 			org.hl7.fhir.utilities.validation";
-		version=5.6.0,
+		version=5.7.0,
 	org.hl7.fhir.dstu3.formats;
 		uses:="com.google.gson,
 			org.hl7.fhir.dstu3.model,
@@ -116,8 +115,8 @@
 			org.hl7.fhir.utilities.xhtml,
 			org.hl7.fhir.utilities.xml,
 			org.xmlpull.v1";
-		version=5.6.0,
-	org.hl7.fhir.dstu3.hapi.fluentpath;uses:="ca.uhn.fhir.context,ca.uhn.fhir.fluentpath,org.hl7.fhir.instance.model.api";version=5.6.0,
+		version=5.7.0,
+	org.hl7.fhir.dstu3.hapi.fluentpath;uses:="ca.uhn.fhir.context,ca.uhn.fhir.fluentpath,org.hl7.fhir.instance.model.api";version=5.7.0,
 	org.hl7.fhir.dstu3.hapi.ctx;
 		uses:="ca.uhn.fhir.context,
 			ca.uhn.fhir.context.support,
@@ -135,7 +134,7 @@
 			org.hl7.fhir.exceptions,
 			org.hl7.fhir.instance.model.api,
 			org.hl7.fhir.utilities.validation";
-		version=5.6.0,
+		version=5.7.0,
 	org.hl7.fhir.dstu3.hapi.rest.server;
 		uses:="ca.uhn.fhir.context,
 			ca.uhn.fhir.context.api,
@@ -148,7 +147,7 @@
 			javax.servlet.http,
 			org.hl7.fhir.dstu3.model,
 			org.hl7.fhir.instance.model.api";
-		version=5.6.0,
+		version=5.7.0,
 	org.hl7.fhir.dstu3.utils;
 		uses:="com.google.gson,
 			org.hl7.fhir.dstu3.conformance,
@@ -160,7 +159,7 @@
 			org.hl7.fhir.utilities.validation,
 			org.hl7.fhir.utilities.xhtml,
 			org.w3c.dom";
-		version=5.6.0,
+		version=5.7.0,
 	org.hl7.fhir.dstu3.utils.formats;
 		uses:="com.google.gson,
 			org.hl7.fhir.dstu3.model,
@@ -169,7 +168,7 @@
 			org.w3c.dom,
 			org.xml.sax,
 			org.xml.sax.helpers";
-		version=5.6.0,
+		version=5.7.0,
 	org.hl7.fhir.dstu3.model;
 		uses:="ca.uhn.fhir.context,
 			ca.uhn.fhir.model.api,
@@ -180,8 +179,8 @@
 			org.hl7.fhir.exceptions,
 			org.hl7.fhir.instance.model.api,
 			org.hl7.fhir.utilities.xhtml";
-		version=5.6.0,
-	org.hl7.fhir.dstu3.model.codesystems;uses:="org.hl7.fhir.dstu3.model,org.hl7.fhir.exceptions";version=5.6.0,
+		version=5.7.0,
+	org.hl7.fhir.dstu3.model.codesystems;uses:="org.hl7.fhir.dstu3.model,org.hl7.fhir.exceptions";version=5.7.0,
 	org.hl7.fhir.dstu3.elementmodel;
 		uses:="com.google.gson,
 			org.hl7.fhir.dstu3.context,
@@ -193,7 +192,7 @@
 			org.hl7.fhir.utilities.xhtml,
 			org.hl7.fhir.utilities.xml,
 			org.w3c.dom";
-		version=5.6.0,
+		version=5.7.0,
 	org.hl7.fhir.dstu3.conformance;
 		uses:="org.hl7.fhir.dstu3.context,
 			org.hl7.fhir.dstu3.elementmodel,
@@ -202,7 +201,7 @@
 			org.hl7.fhir.exceptions,
 			org.hl7.fhir.utilities.validation,
 			org.hl7.fhir.utilities.xhtml";
-		version=5.6.0
+		version=5.7.0
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.fragment.host>
             ca.uhn.hapi.fhir.hapi-fhir-base

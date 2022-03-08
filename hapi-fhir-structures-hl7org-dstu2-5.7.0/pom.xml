@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.hapi-fhir-structures-hl7org-dstu2</artifactId>
-    <version>5.6.2_2-SNAPSHOT</version>
+    <version>5.7.0_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -39,13 +39,12 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>ca.uhn.hapi.fhir</pkgGroupId>
         <pkgArtifactId>hapi-fhir-structures-hl7org-dstu2</pkgArtifactId>
-        <pkgVersion>5.6.2</pkgVersion>
+        <pkgVersion>5.7.0</pkgVersion>
         <servicemix.osgi.import.pkg>
         javax.servlet;resolution:=optional,
 	javax.servlet.http;resolution:=optional,
@@ -88,8 +87,8 @@
 	org.w3c.dom.ls
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.export.pkg>
-        org.hl7.fhir.instance.terminologies;uses:="org.hl7.fhir.exceptions,org.hl7.fhir.instance.model,org.hl7.fhir.instance.utils";version=5.6.0,
-	org.hl7.fhir.instance.formats;uses:=org.hl7.fhir.instance.model;version=5.6.0,
+        org.hl7.fhir.instance.terminologies;uses:="org.hl7.fhir.exceptions,org.hl7.fhir.instance.model,org.hl7.fhir.instance.utils";version=5.7.0,
+	org.hl7.fhir.instance.formats;uses:=org.hl7.fhir.instance.model;version=5.7.0,
 	org.hl7.fhir.instance.utils;
 		uses:="com.google.gson,
 			org.hl7.fhir.exceptions,
@@ -99,9 +98,9 @@
 			org.hl7.fhir.instance.terminologies,
 			org.hl7.fhir.utilities.validation,
 			org.w3c.dom";
-		version=5.6.0,
-	org.hl7.fhir.instance.utilities;uses:=javax.xml.transform;version=5.6.0,
-	org.hl7.fhir.instance.utilities.xml;uses:="org.hl7.fhir.instance.utilities,org.w3c.dom";version=5.6.0,
+		version=5.7.0,
+	org.hl7.fhir.instance.utilities;uses:=javax.xml.transform;version=5.7.0,
+	org.hl7.fhir.instance.utilities.xml;uses:="org.hl7.fhir.instance.utilities,org.w3c.dom";version=5.7.0,
 	org.hl7.fhir.instance.model;
 		uses:="ca.uhn.fhir.context,
 			ca.uhn.fhir.model.api.annotation,
@@ -109,8 +108,8 @@
 			org.hl7.fhir.instance.model.api,
 			org.hl7.fhir.instance.utils,
 			org.hl7.fhir.utilities.xhtml";
-		version=5.6.0,
-	org.hl7.fhir.instance.model.valuesets;uses:=org.hl7.fhir.instance.model;version=5.6.0,
+		version=5.7.0,
+	org.hl7.fhir.instance.model.valuesets;uses:=org.hl7.fhir.instance.model;version=5.7.0,
 	org.hl7.fhir.instance;
 		uses:="ca.uhn.fhir.context,
 			ca.uhn.fhir.context.support,
@@ -123,7 +122,7 @@
 			org.hl7.fhir.instance.conf,
 			org.hl7.fhir.instance.model,
 			org.hl7.fhir.instance.model.api";
-		version=5.6.0,
+		version=5.7.0,
 	org.hl7.fhir.instance.conf;
 		uses:="ca.uhn.fhir.rest.annotation,
 			ca.uhn.fhir.rest.server,
@@ -131,8 +130,8 @@
 			javax.servlet.http,
 			org.hl7.fhir.instance.model,
 			org.hl7.fhir.instance.model.api";
-		version=5.6.0,
-	org.hl7.fhir.instance.client;uses:=org.hl7.fhir.instance.model;version=5.6.0,
+		version=5.7.0,
+	org.hl7.fhir.instance.client;uses:=org.hl7.fhir.instance.model;version=5.7.0,
 	ca.uhn.fhir.rest.server.provider.dstu2hl7org;
 		uses:="ca.uhn.fhir.context,
 			ca.uhn.fhir.context.api,
@@ -140,7 +139,7 @@
 			ca.uhn.fhir.model.valueset,
 			ca.uhn.fhir.rest.api,
 			org.hl7.fhir.instance.model.api";
-		version=5.6.0
+		version=5.7.0
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.fragment.host>
             ca.uhn.hapi.fhir.hapi-fhir-base

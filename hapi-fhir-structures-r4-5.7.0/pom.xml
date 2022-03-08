@@ -29,8 +29,8 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.hapi-fhir-structures-dstu2.1</artifactId>
-    <version>5.6.2_2-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.hapi-fhir-structures-r4</artifactId>
+    <version>5.7.0_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -39,17 +39,14 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>ca.uhn.hapi.fhir</pkgGroupId>
-        <pkgArtifactId>hapi-fhir-structures-dstu2.1</pkgArtifactId>
-        <pkgVersion>5.6.2</pkgVersion>
+        <pkgArtifactId>hapi-fhir-structures-r4</pkgArtifactId>
+        <pkgVersion>5.7.0</pkgVersion>
         <servicemix.osgi.import.pkg>
-        javax.servlet;resolution:=optional,
-	javax.servlet.http;resolution:=optional,
-	ca.uhn.fhir.context;version="[5,6)",
+        ca.uhn.fhir.context;version="[5,6)",
 	ca.uhn.fhir.context.api;version="[5,6)",
 	ca.uhn.fhir.context.support;version="[5,6)",
 	ca.uhn.fhir.fluentpath;version="[5,6)",
@@ -67,35 +64,87 @@
 	ca.uhn.fhir.rest.server.method;resolution:=optional,
 	ca.uhn.fhir.rest.server.servlet;resolution:=optional,
 	ca.uhn.fhir.util;version="[5,6)",
-	ca.uhn.fhir.validation;version="[5,6)",
+	com.github.benmanes.caffeine.cache;resolution:=optional,
 	com.google.gson;version="[2.8,3)",
 	com.google.gson.stream;version="[2.8,3)",
+	javax.servlet;resolution:=optional;version="[3.1,4)",
+	javax.servlet.http;resolution:=optional;version="[3.1,4)",
+	javax.xml.crypto.dsig,
+	javax.xml.crypto.dsig.dom,
+	javax.xml.crypto.dsig.keyinfo,
+	javax.xml.crypto.dsig.spec,
 	javax.xml.parsers,
 	javax.xml.transform,
 	javax.xml.transform.dom,
 	javax.xml.transform.sax,
+	org.apache.commons.codec;version="[1.11,2)",
 	org.apache.commons.codec.binary;version="[1.11,2)",
 	org.apache.commons.io;version="[1.4,2)",
+	org.apache.commons.io.output;version="[1.4,2)",
 	org.apache.commons.lang3;version="[3.8,4)",
 	org.apache.commons.lang3.builder;version="[3.8,4)",
 	org.apache.commons.lang3.time;version="[3.8,4)",
+	org.apache.commons.lang3.tuple;version="[3.8,4)",
+	org.apache.http;resolution:=optional,
+	org.apache.http.client;resolution:=optional,
+	org.apache.http.client.methods;resolution:=optional,
+	org.apache.http.client.utils;resolution:=optional,
+	org.apache.http.entity;resolution:=optional,
+	org.apache.http.impl.client;resolution:=optional,
+	org.apache.http.params;resolution:=optional,
+	org.fhir.ucum;version="[5,6)",
 	org.hl7.fhir.exceptions;version="[5,6)",
 	org.hl7.fhir.instance.model.api;version="[5,6)",
 	org.hl7.fhir.utilities;version="[5,6)",
-	org.hl7.fhir.utilities.ucum;version="[5,6)",
+	org.hl7.fhir.utilities.graphql;version="[5,6)",
 	org.hl7.fhir.utilities.validation;version="[5,6)",
 	org.hl7.fhir.utilities.xhtml;version="[5,6)",
 	org.hl7.fhir.utilities.xml;version="[5,6)",
 	org.slf4j;version="[1.7,2)",
+	org.stringtemplate.v4;resolution:=optional,
 	org.w3c.dom,
 	org.w3c.dom.events,
 	org.xml.sax,
-	org.xml.sax.helpers
+	org.xml.sax.helpers,
+	org.xmlpull.v1;resolution:=optional
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.export.pkg>
-        org.hl7.fhir.dstu2016may.terminologies;uses:="org.hl7.fhir.dstu2016may.model,org.hl7.fhir.dstu2016may.utils";version=5.6.0,
-	org.hl7.fhir.dstu2016may.formats;uses:="org.hl7.fhir.dstu2016may.model,org.hl7.fhir.exceptions";version=5.6.0,
-	org.hl7.fhir.dstu2016may.hapi.ctx;
+        org.hl7.fhir.r4.terminologies;
+		uses:="javax.xml.parsers,
+			org.hl7.fhir.exceptions,
+			org.hl7.fhir.r4.context,
+			org.hl7.fhir.r4.model,
+			org.hl7.fhir.r4.utils,
+			org.hl7.fhir.utilities,
+			org.xml.sax,
+			org.xmlpull.v1";
+		version=5.7.0,
+	org.hl7.fhir.r4.context;
+		uses:="com.google.gson,
+			org.fhir.ucum,
+			org.hl7.fhir.exceptions,
+			org.hl7.fhir.r4.conformance,
+			org.hl7.fhir.r4.formats,
+			org.hl7.fhir.r4.model,
+			org.hl7.fhir.r4.terminologies,
+			org.hl7.fhir.r4.utils,
+			org.hl7.fhir.r4.utils.client,
+			org.hl7.fhir.utilities,
+			org.hl7.fhir.utilities.validation";
+		version=5.7.0,
+	org.hl7.fhir.r4.formats;
+		uses:="com.google.gson,
+			org.hl7.fhir.exceptions,
+			org.hl7.fhir.instance.model.api,
+			org.hl7.fhir.r4.elementmodel,
+			org.hl7.fhir.r4.model,
+			org.hl7.fhir.r4.utils.formats,
+			org.hl7.fhir.utilities.xhtml,
+			org.hl7.fhir.utilities.xml,
+			org.xmlpull.v1";
+		version=5.7.0,
+	org.hl7.fhir.r4.hapi.fluentpath;uses:="ca.uhn.fhir.context,ca.uhn.fhir.fluentpath,org.hl7.fhir.instance.model.api";version=5.7.0,
+	org.hl7.fhir.r4.hapi.ctx;
 		uses:="ca.uhn.fhir.context,
 			ca.uhn.fhir.context.support,
 			ca.uhn.fhir.fluentpath,
@@ -103,10 +152,19 @@
 			ca.uhn.fhir.rest.api,
 			ca.uhn.fhir.rest.api.server,
 			ca.uhn.fhir.rest.server,
-			org.hl7.fhir.dstu2016may.hapi.rest.server,
-			org.hl7.fhir.instance.model.api";
-		version=5.6.0,
-	org.hl7.fhir.dstu2016may.hapi.rest.server;
+			org.fhir.ucum,
+			org.hl7.fhir.exceptions,
+			org.hl7.fhir.instance.model.api,
+			org.hl7.fhir.r4.context,
+			org.hl7.fhir.r4.formats,
+			org.hl7.fhir.r4.hapi.rest.server,
+			org.hl7.fhir.r4.model,
+			org.hl7.fhir.r4.terminologies,
+			org.hl7.fhir.r4.utils,
+			org.hl7.fhir.utilities,
+			org.hl7.fhir.utilities.validation";
+		version=5.7.0,
+	org.hl7.fhir.r4.hapi.rest.server;
 		uses:="ca.uhn.fhir.context,
 			ca.uhn.fhir.context.api,
 			ca.uhn.fhir.model.api,
@@ -116,45 +174,38 @@
 			ca.uhn.fhir.rest.server,
 			ca.uhn.fhir.rest.server.servlet,
 			javax.servlet.http,
-			org.hl7.fhir.dstu2016may.model,
-			org.hl7.fhir.instance.model.api";
-		version=5.6.0,
-	org.hl7.fhir.dstu2016may.hapi.validation;
-		uses:="ca.uhn.fhir.context,
-			ca.uhn.fhir.context.support,
-			ca.uhn.fhir.rest.api,
-			ca.uhn.fhir.validation,
-			org.hl7.fhir.dstu2016may.formats,
-			org.hl7.fhir.dstu2016may.model,
-			org.hl7.fhir.dstu2016may.terminologies,
-			org.hl7.fhir.dstu2016may.utils,
-			org.hl7.fhir.dstu2016may.validation,
 			org.hl7.fhir.instance.model.api,
-			org.hl7.fhir.utilities.validation";
-		version=5.6.0,
-	org.hl7.fhir.dstu2016may.utils;
+			org.hl7.fhir.r4.hapi.ctx,
+			org.hl7.fhir.r4.model,
+			org.hl7.fhir.r4.utils";
+		version=5.7.0,
+	org.hl7.fhir.r4.utils;
 		uses:="com.google.gson,
-			org.hl7.fhir.dstu2016may.formats,
-			org.hl7.fhir.dstu2016may.model,
-			org.hl7.fhir.dstu2016may.terminologies,
-			org.hl7.fhir.dstu2016may.validation,
+			javax.xml.parsers,
 			org.hl7.fhir.exceptions,
+			org.hl7.fhir.r4.conformance,
+			org.hl7.fhir.r4.context,
+			org.hl7.fhir.r4.elementmodel,
+			org.hl7.fhir.r4.model,
+			org.hl7.fhir.r4.terminologies,
+			org.hl7.fhir.utilities,
+			org.hl7.fhir.utilities.graphql,
 			org.hl7.fhir.utilities.validation,
+			org.hl7.fhir.utilities.xhtml,
+			org.w3c.dom,
+			org.xml.sax";
+		version=5.7.0,
+	org.hl7.fhir.r4.utils.formats;
+		uses:="com.google.gson,
+			org.hl7.fhir.exceptions,
+			org.hl7.fhir.r4.model,
+			org.hl7.fhir.utilities,
 			org.w3c.dom,
 			org.xml.sax,
 			org.xml.sax.helpers";
-		version=5.6.0,
-	org.hl7.fhir.dstu2016may.metamodel;
-		uses:="com.google.gson,
-			org.hl7.fhir.dstu2016may.formats,
-			org.hl7.fhir.dstu2016may.model,
-			org.hl7.fhir.dstu2016may.utils,
-			org.hl7.fhir.exceptions,
-			org.hl7.fhir.utilities.validation,
-			org.hl7.fhir.utilities.xhtml,
-			org.w3c.dom";
-		version=5.6.0,
-	org.hl7.fhir.dstu2016may.model;
+		version=5.7.0,
+	org.hl7.fhir.r4.utils.client;uses:="org.apache.http,org.apache.http.client.methods,org.hl7.fhir.r4.formats,org.hl7.fhir.r4.model";version=5.7.0,
+	org.hl7.fhir.r4.model;
 		uses:="ca.uhn.fhir.context,
 			ca.uhn.fhir.model.api,
 			ca.uhn.fhir.model.api.annotation,
@@ -162,16 +213,31 @@
 			ca.uhn.fhir.rest.gclient,
 			org.hl7.fhir.exceptions,
 			org.hl7.fhir.instance.model.api,
+			org.hl7.fhir.r4.context,
 			org.hl7.fhir.utilities.xhtml";
-		version=5.6.0,
-	org.hl7.fhir.dstu2016may.validation;
+		version=5.7.0,
+	org.hl7.fhir.r4.model.codesystems;uses:="org.hl7.fhir.exceptions,org.hl7.fhir.r4.model";version=5.7.0,
+	org.hl7.fhir.r4.elementmodel;
 		uses:="com.google.gson,
-			org.hl7.fhir.dstu2016may.metamodel,
-			org.hl7.fhir.dstu2016may.model,
-			org.hl7.fhir.dstu2016may.utils,
+			org.hl7.fhir.exceptions,
+			org.hl7.fhir.r4.context,
+			org.hl7.fhir.r4.formats,
+			org.hl7.fhir.r4.model,
+			org.hl7.fhir.r4.utils.formats,
 			org.hl7.fhir.utilities.validation,
+			org.hl7.fhir.utilities.xhtml,
+			org.hl7.fhir.utilities.xml,
 			org.w3c.dom";
-		version=5.6.0
+		version=5.7.0,
+	org.hl7.fhir.r4.conformance;
+		uses:="org.hl7.fhir.exceptions,
+			org.hl7.fhir.r4.context,
+			org.hl7.fhir.r4.elementmodel,
+			org.hl7.fhir.r4.model,
+			org.hl7.fhir.r4.utils,
+			org.hl7.fhir.utilities.validation,
+			org.hl7.fhir.utilities.xhtml";
+		version=5.7.0
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.fragment.host>
             ca.uhn.hapi.fhir.hapi-fhir-base
