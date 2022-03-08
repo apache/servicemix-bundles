@@ -87,6 +87,7 @@
 	<module>docker-java-3.2.13</module>
 	<module>java-util-2.0.0</module>
 	<module>dbunit-2.7.3</module>
+	<module>fop-2.7</module>
     </modules>
 
 </project>
