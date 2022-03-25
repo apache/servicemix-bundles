@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <!--
+
+        Licensed to the Apache Software Foundation (ASF) under one or more
+        contributor license agreements.  See the NOTICE file distributed with
+        this work for additional information regarding copyright ownership.
+        The ASF licenses this file to You under the Apache License, Version 2.0
+        (the "License"); you may not use this file except in compliance with
+        the License.  You may obtain a copy of the License at
+
+           http://www.apache.org/licenses/LICENSE-2.0
+
+        Unless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an "AS IS" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License.
+    -->
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.apache.servicemix.bundles</groupId>
+        <artifactId>bundles-pom</artifactId>
+        <version>14</version>
+        <relativePath>../bundles-pom/pom.xml</relativePath>
+    </parent>
+
+    <groupId>org.apache.servicemix.bundles</groupId>
+    <artifactId>org.apache.servicemix.bundles.azure-identity</artifactId>
+    <version>1.4.6_1-SNAPSHOT</version>
+    <packaging>bundle</packaging>
+    <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
+    <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
+
+    <scm>
+        <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
+        <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
+        <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <properties>
+        <pkgGroupId>com.azure</pkgGroupId>
+        <pkgArtifactId>azure-identity</pkgArtifactId>
+        <pkgVersion>1.4.6</pkgVersion>
+        <servicemix.osgi.export.pkg>
+            com.azure.identity*
+        </servicemix.osgi.export.pkg>
+        <servicemix.osgi.import.pkg>
+            !com.azure.identity*,
+            javax.annotation;version="1.1.0",
+            javax.annotation.concurrent;version="1.1.0",
+            javax.annotation.meta;version="1.1.0",
+            com.sun.jna*;resolution:=optional,
+            com.sun.net.httpserver;resolution:=optional,
+            com.fasterxml.jackson*;version="[2,3)",
+            com.google.crypto*;resolution:=optional,
+            reactor*;version="[3,4)",
+            org.bouncycastle.jcajce.provider;version="1.70";resolution:=optional,
+            org.apache.xml.security*,
+            org.cryptacular,
+            org.opensaml*,
+            org.apache.velocity*;resolution:=optional,
+            *
+        </servicemix.osgi.import.pkg>
+        <servicemix.osgi.private.pkg>
+            com.microsoft.azure.msal4j*,
+            com.microsoft.aad.msal4j,
+            com.microsoft.aad.msal4jextensions*,
+            com.nimbusds*,
+            net.jcip.annotations,
+            net.shibboleth.utilities*,
+            com.beust*,
+            com.google*;-split-package:=merge-first,
+            io.opencensus*,
+            io.grpc*,
+            reactor.blockhound*,
+            io.reactivex.*;resolution:=optional,
+            org.checkerframework*,
+            org.cryptomator*,
+            net.shibboleth*,
+            com.codahale.metrics,
+            com.sun.jna*
+        </servicemix.osgi.private.pkg>
+
+        <msal4j-version>1.11.2</msal4j-version>
+        <msal4j-persistence-extension-version>1.1.0</msal4j-persistence-extension-version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.microsoft.azure</groupId>
+            <artifactId>msal4j</artifactId>
+            <version>${msal4j-version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.microsoft.azure</groupId>
+            <artifactId>msal4j-persistence-extension</artifactId>
+            <version>${msal4j-persistence-extension-version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.http-client</groupId>
+            <artifactId>google-http-client</artifactId>
+            <version>1.41.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.nimbusds</groupId>
+            <artifactId>oauth2-oidc-sdk</artifactId>
+            <version>9.22.2</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.crypto.tink</groupId>
+            <artifactId>tink</artifactId>
+            <version>1.6.1</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>31.0.1-jre</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.opencensus</groupId>
+            <artifactId>opencensus-api</artifactId>
+            <version>0.31.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.opencensus</groupId>
+            <artifactId>opencensus-contrib-http-util</artifactId>
+            <version>0.31.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.opencensus</groupId>
+            <artifactId>opencensus-contrib-http-util</artifactId>
+            <version>0.31.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.grpc</groupId>
+            <artifactId>grpc-context</artifactId>
+            <version>1.27.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.projectreactor.tools</groupId>
+            <artifactId>blockhound</artifactId>
+            <version>1.0.6.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.reactivex.rxjava2</groupId>
+            <artifactId>rxjava</artifactId>
+            <version>2.2.21</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.checkerframework</groupId>
+            <artifactId>checker-qual</artifactId>
+            <version>3.0.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.cryptomator</groupId>
+            <artifactId>siv-mode</artifactId>
+            <version>1.3.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>net.jcip</groupId>
+            <artifactId>jcip-annotations</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>net.shibboleth.utilities</groupId>
+            <artifactId>java-support</artifactId>
+            <version>7.1.1</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.beust/jcommander -->
+        <dependency>
+            <groupId>com.beust</groupId>
+            <artifactId>jcommander</artifactId>
+            <version>1.82</version>
+        </dependency>
+
+        <!-- sources -->
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <optional>true</optional>
+        </dependency>
+
+        <dependency>
+            <groupId>net.shibboleth.utilities</groupId>
+            <artifactId>java-support</artifactId>
+            <version>8.0.0</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.codahale.metrics/metrics-core -->
+        <dependency>
+            <groupId>com.codahale.metrics</groupId>
+            <artifactId>metrics-core</artifactId>
+            <version>3.0.2</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.codahale.metrics/metrics-core -->
+        <dependency>
+            <groupId>com.codahale.metrics</groupId>
+            <artifactId>metrics-core</artifactId>
+            <version>3.0.2</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/net.java.dev.jna/jna-platform -->
+        <dependency>
+            <groupId>net.java.dev.jna</groupId>
+            <artifactId>jna-platform</artifactId>
+            <version>4.5.0</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <artifactSet>
+                                <includes>
+                                    <include>${pkgGroupId}:${pkgArtifactId}</include>
+                                    <include>com.google.http-client:google-http-client</include>
+                                    <include>com.google.j2objc:j2objc-annotations</include>
+                                    <include>io.opencensus:opencensus-contrib-http-util</include>
+                                    <include>io.grpc:grpc-context</include>
+                                    <include>io.projectreactor.tools:blockhound</include>
+                                    <include>io.reactivex.rxjava2:rxjava</include>
+                                    <include>org.checkerframework:checker-qual</include>
+                                    <include>org.cryptomator:siv-mode</include>
+                                    <include>org.opensaml:opensaml-saml-api</include>
+                                    <include>org.opensaml:opensaml-saml-impl</include>
+                                    <include>net.shibboleth.utilities:java-support</include>
+                                    <include>com.codahale.metrics:metrics-core</include>
+                                    <include>net.java.dev.jna:jna-platform</include>
+                                </includes>
+                            </artifactSet>
+                            <filters>
+                                <filter>
+                                    <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                            </filters>
+                            <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
+                            <createDependencyReducedPom>true</createDependencyReducedPom>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
