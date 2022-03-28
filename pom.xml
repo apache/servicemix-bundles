@@ -81,6 +81,7 @@
       <module>spring-data-commons-2.6.3</module>
       <module>spring-data-keyvalue-2.6.3</module>
       <module>spring-data-redis-2.6.3</module>
+      <module>bazaarvoice-jolt-0.1.6</module>
     </modules>
 
 </project>
