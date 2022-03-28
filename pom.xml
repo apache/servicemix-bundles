@@ -73,6 +73,7 @@
       <module>aws-java-sdk-2.17.157</module>
       <module>spring-integration-core-5.5.10</module>
       <module>asterisk-java-3.28.0</module>
+      <module>grpc-1.45.0</module>
     </modules>
 
 </project>
