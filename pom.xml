@@ -77,6 +77,7 @@
       <module>aspectj-1.9.9</module>
       <module>aws-java-sdk-1.12.186</module>
       <module>jedis-4.2.0</module>
+      <module>htmlunit-2.60.0</module>
     </modules>
 
 </project>
