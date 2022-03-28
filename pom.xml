@@ -78,6 +78,9 @@
       <module>aws-java-sdk-1.12.186</module>
       <module>jedis-4.2.0</module>
       <module>htmlunit-2.60.0</module>
+      <module>spring-data-commons-2.6.3</module>
+      <module>spring-data-keyvalue-2.6.3</module>
+      <module>spring-data-redis-2.6.3</module>
     </modules>
 
 </project>
