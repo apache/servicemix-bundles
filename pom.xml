@@ -74,6 +74,7 @@
       <module>spring-integration-core-5.5.10</module>
       <module>asterisk-java-3.28.0</module>
       <module>grpc-1.45.0</module>
+      <module>aspectj-1.9.9</module>
     </modules>
 
 </project>
