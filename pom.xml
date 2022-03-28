@@ -75,6 +75,7 @@
       <module>asterisk-java-3.28.0</module>
       <module>grpc-1.45.0</module>
       <module>aspectj-1.9.9</module>
+      <module>aws-java-sdk-1.12.186</module>
     </modules>
 
 </project>
