@@ -85,6 +85,12 @@
       <module>fastjson-1.2.80</module>
       <module>jruby-9.3.4.0</module>
       <module>thymeleaf-3.0.15.RELEASE</module>
+      <module>hapi-fhir-structures-dstu2.1-5.7.1</module>
+      <module>hapi-fhir-structures-dstu2-5.7.1</module>
+      <module>hapi-fhir-structures-dstu3-5.7.1</module>
+      <module>hapi-fhir-structures-hl7org-dstu2-5.7.1</module>
+      <module>hapi-fhir-structures-r4-5.7.1</module>
+      <module>hapi-fhir-validation-5.7.1</module>
     </modules>
 
 </project>
