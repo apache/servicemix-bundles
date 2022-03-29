@@ -69,6 +69,12 @@
             <version>${pkgVersion}</version>
         </dependency>
 
+	<dependency>
+	    <groupId>io.projectreactor.netty</groupId>
+	    <artifactId>reactor-netty-http</artifactId>
+	    <version>1.0.17</version>
+	</dependency>
+
         <!-- sources -->
         <dependency>
             <groupId>${pkgGroupId}</groupId>
@@ -94,6 +100,7 @@
                             <artifactSet>
                                 <includes>
                                     <include>${pkgGroupId}:${pkgArtifactId}</include>
+				    <include>io.projectreactor.netty:reactor-netty-http</include>
                                 </includes>
                             </artifactSet>
                             <filters>
