@@ -91,6 +91,7 @@
       <module>hapi-fhir-structures-hl7org-dstu2-5.7.1</module>
       <module>hapi-fhir-structures-r4-5.7.1</module>
       <module>hapi-fhir-validation-5.7.1</module>
+      <module>azure-core-1.26.0</module>
     </modules>
 
 </project>
