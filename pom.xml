@@ -92,6 +92,7 @@
       <module>hapi-fhir-structures-r4-5.7.1</module>
       <module>hapi-fhir-validation-5.7.1</module>
       <module>azure-core-1.26.0</module>
+      <module>azure-core-amqp-2.4.1</module>
     </modules>
 
 </project>
