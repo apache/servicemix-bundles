@@ -93,6 +93,7 @@
       <module>hapi-fhir-validation-5.7.1</module>
       <module>azure-core-1.26.0</module>
       <module>azure-core-amqp-2.4.1</module>
+      <module>azure-core-http-netty-1.11.8</module>
     </modules>
 
 </project>
