@@ -60,6 +60,7 @@
 	    <module>spring-webflux-5.3.19</module>
 	    <module>spring-webmvc-5.3.19</module>
 	    <module>spring-websocket-5.3.19</module>
+	    <module>azure-storage-common-12.15.1</module>
     </modules>
 
 </project>
