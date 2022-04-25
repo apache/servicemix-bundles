@@ -45,7 +45,7 @@
     <properties>
         <pkgGroupId>org.elasticsearch</pkgGroupId>
         <pkgArtifactId>elasticsearch</pkgArtifactId>
-        <pkgVersion>7.10.2</pkgVersion>
+        <pkgVersion>7.14.0</pkgVersion>
         <servicemix.osgi.export>
             org.elasticsearch*;version="${pkgVersion}";-split-package:=merge-first
         </servicemix.osgi.export>
