@@ -44,7 +44,7 @@
 
     <properties>
         <pkgGroupId>org.apache.hadoop</pkgGroupId>
-        <pkgVersion>2.7.7</pkgVersion>
+        <pkgVersion>3.2.3</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.apache.hadoop
         </servicemix.osgi.export.pkg>
