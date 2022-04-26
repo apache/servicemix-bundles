@@ -89,6 +89,7 @@
 	    <module>azure-storage-blob-12.16.0</module>
 	    <module>okio-3.1.0</module>
 	    <module>azure-storage-queue-12.12.1</module>
+	    <module>azure-cosmos-4.29.0</module>
     </modules>
 
 </project>
