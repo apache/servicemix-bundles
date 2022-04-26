@@ -81,6 +81,8 @@
 	    <module>spring-data-keyvalue-2.6.4</module>
 	    <module>spring-data-redis-2.6.4</module>
 	    <module>fastjson-2.0.1</module>
+	    <module>pulsar-client-2.10.0</module>
+	    <module>pulsar-client-admin-2.10.0</module>
     </modules>
 
 </project>
