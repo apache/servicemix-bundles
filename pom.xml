@@ -85,6 +85,7 @@
 	    <module>pulsar-client-admin-2.10.0</module>
 	    <module>aws-java-sdk-1.12.205</module>
 	    <module>esapi-2.4.0.0</module>
+	    <module>azure-messaging-servicebus-7.8.0</module>
     </modules>
 
 </project>
