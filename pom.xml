@@ -109,6 +109,7 @@
       <module>olingo-odata2-core-2.0.12</module>
       <module>saxon-11.3</module>
       <module>libphonenumber-8.12.47</module>
+      <module>janino-3.1.7</module>
     </modules>
 
 </project>
