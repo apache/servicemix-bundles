@@ -92,6 +92,7 @@
 	    <module>azure-cosmos-4.29.0</module>
 	    <module>antisamy-1.6.8</module>
 	    <module>grpc-1.45.1</module>
+	    <module>stringtemplate-4.3.3</module>
     </modules>
 
 </project>
