@@ -96,6 +96,7 @@
 	    <module>azure-core-amqp-2.4.2</module>
 	    <module>azure-keyvault-core-1.2.6</module>
 	    <module>bazaarvoice-jolt-0.1.7</module>
+	    <module>fastinfoset-2.1.0</module>
     </modules>
 
 </project>
