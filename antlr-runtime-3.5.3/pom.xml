@@ -18,38 +18,35 @@
         See the License for the specific language governing permissions and
         limitations under the License.
     -->
-
+    
     <modelVersion>4.0.0</modelVersion>
-
+    
     <parent>
-	    <groupId>org.apache.servicemix.bundles</groupId>
-	    <artifactId>bundles-pom</artifactId>
-	    <version>11</version>
-       <relativePath>../bundles-pom/pom.xml</relativePath>
+        <groupId>org.apache.servicemix.bundles</groupId>
+        <artifactId>bundles-pom</artifactId>
+        <version>11</version>
+        <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
-
+    
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.antlr</artifactId>
-    <version>3.5.2_2-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.antlr-runtime</artifactId>
+    <version>3.5.3_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
-
+    
     <properties>
         <pkgGroupId>org.antlr</pkgGroupId>
-        <pkgArtifactId>antlr</pkgArtifactId>
-        <pkgVersion>3.5.2</pkgVersion>
-        <servicemix.osgi.export>
-            !org.antlr.stringtemplate*,
-            org.antlr*;version=${pkgVersion};-split-package:=merge-first,
-        </servicemix.osgi.export>
+        <pkgArtifactId>antlr-runtime</pkgArtifactId>
+        <pkgVersion>3.5.3</pkgVersion>
+        <servicemix.osgi.export.pkg>
+            org.antlr.runtime
+        </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            org.stringtemplate*;resolution:=optional;version="[3,5)",
-            org.antlr.stringtemplate*;resolution:=optional;version="[3,5)",
-            org.hibernate.hql.ast;resolution:=optional
+            org.antlr.stringtemplate*;resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
-
+    
     <dependencies>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
@@ -65,7 +62,7 @@
             <classifier>sources</classifier>
         </dependency>
     </dependencies>
-
+    
     <build>
         <plugins>
             <plugin>
