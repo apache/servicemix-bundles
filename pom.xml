@@ -107,6 +107,7 @@
 	    <module>spring-integration-core-5.5.11</module>
       <module>olingo-odata2-api-2.0.12</module>
       <module>olingo-odata2-core-2.0.12</module>
+      <module>saxon-11.3</module>
     </modules>
 
 </project>
