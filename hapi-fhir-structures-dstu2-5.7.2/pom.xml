@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.hapi-fhir-structures-dstu2</artifactId>
-    <version>5.7.1_2-SNAPSHOT</version>
+    <version>5.7.2_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -39,13 +39,12 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>ca.uhn.hapi.fhir</pkgGroupId>
         <pkgArtifactId>hapi-fhir-structures-dstu2</pkgArtifactId>
-        <pkgVersion>5.7.1</pkgVersion>
+        <pkgVersion>5.7.2</pkgVersion>
         <servicemix.osgi.import.pkg>
             javax.servlet;resolution:=optional;version="[3.1,4)",
 	javax.servlet.http;resolution:=optional;version="[3.1,4)",
@@ -85,8 +84,8 @@
 			ca.uhn.fhir.rest.server,
 			ca.uhn.fhir.rest.server.provider.dstu2,
 			org.hl7.fhir.instance.model.api";
-		version=5.7.1,
-	ca.uhn.fhir.model.dstu2.valueset;uses:=ca.uhn.fhir.model.api;version=5.7.1,
+		version=5.7.2,
+	ca.uhn.fhir.model.dstu2.valueset;uses:=ca.uhn.fhir.model.api;version=5.7.2,
 	ca.uhn.fhir.model.dstu2.composite;
 		uses:="ca.uhn.fhir.model.api,
 			ca.uhn.fhir.model.api.annotation,
@@ -94,7 +93,7 @@
 			ca.uhn.fhir.model.dstu2.valueset,
 			ca.uhn.fhir.model.primitive,
 			org.hl7.fhir.instance.model.api";
-		version=5.7.1,
+		version=5.7.2,
 	ca.uhn.fhir.model.dstu2.resource;
 		uses:="ca.uhn.fhir.context,
 			ca.uhn.fhir.model.api,
@@ -106,7 +105,7 @@
 			ca.uhn.fhir.model.primitive,
 			ca.uhn.fhir.rest.gclient,
 			org.hl7.fhir.instance.model.api";
-		version=5.7.1,
+		version=5.7.2,
 	ca.uhn.fhir.rest.server.provider.dstu2;
 		uses:="ca.uhn.fhir.context,
     ca.uhn.fhir.context.api,
@@ -120,7 +119,7 @@
 			ca.uhn.fhir.rest.server.servlet,
 			javax.servlet.http,
 			org.hl7.fhir.instance.model.api";
-		version=5.7.1
+		version=5.7.2
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.fragment.host>
             ca.uhn.hapi.fhir.hapi-fhir-base

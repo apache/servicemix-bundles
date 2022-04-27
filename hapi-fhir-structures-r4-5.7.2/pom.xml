@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.hapi-fhir-structures-r4</artifactId>
-    <version>5.7.1_2-SNAPSHOT</version>
+    <version>5.7.2_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -39,13 +39,12 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>ca.uhn.hapi.fhir</pkgGroupId>
         <pkgArtifactId>hapi-fhir-structures-r4</pkgArtifactId>
-        <pkgVersion>5.7.1</pkgVersion>
+        <pkgVersion>5.7.2</pkgVersion>
         <servicemix.osgi.import.pkg>
         ca.uhn.fhir.context;version="[5,6)",
 	ca.uhn.fhir.context.api;version="[5,6)",
@@ -119,7 +118,7 @@
 			org.hl7.fhir.utilities,
 			org.xml.sax,
 			org.xmlpull.v1";
-		version=5.7.1,
+		version=5.7.2,
 	org.hl7.fhir.r4.context;
 		uses:="com.google.gson,
 			org.fhir.ucum,
@@ -132,7 +131,7 @@
 			org.hl7.fhir.r4.utils.client,
 			org.hl7.fhir.utilities,
 			org.hl7.fhir.utilities.validation";
-		version=5.7.1,
+		version=5.7.2,
 	org.hl7.fhir.r4.formats;
 		uses:="com.google.gson,
 			org.hl7.fhir.exceptions,
@@ -143,8 +142,8 @@
 			org.hl7.fhir.utilities.xhtml,
 			org.hl7.fhir.utilities.xml,
 			org.xmlpull.v1";
-		version=5.7.1,
-	org.hl7.fhir.r4.hapi.fluentpath;uses:="ca.uhn.fhir.context,ca.uhn.fhir.fluentpath,org.hl7.fhir.instance.model.api";version=5.7.1,
+		version=5.7.2,
+	org.hl7.fhir.r4.hapi.fluentpath;uses:="ca.uhn.fhir.context,ca.uhn.fhir.fluentpath,org.hl7.fhir.instance.model.api";version=5.7.2,
 	org.hl7.fhir.r4.hapi.ctx;
 		uses:="ca.uhn.fhir.context,
 			ca.uhn.fhir.context.support,
@@ -164,7 +163,7 @@
 			org.hl7.fhir.r4.utils,
 			org.hl7.fhir.utilities,
 			org.hl7.fhir.utilities.validation";
-		version=5.7.1,
+		version=5.7.2,
 	org.hl7.fhir.r4.hapi.rest.server;
 		uses:="ca.uhn.fhir.context,
 			ca.uhn.fhir.context.api,
@@ -179,7 +178,7 @@
 			org.hl7.fhir.r4.hapi.ctx,
 			org.hl7.fhir.r4.model,
 			org.hl7.fhir.r4.utils";
-		version=5.7.1,
+		version=5.7.2,
 	org.hl7.fhir.r4.utils;
 		uses:="com.google.gson,
 			javax.xml.parsers,
@@ -195,7 +194,7 @@
 			org.hl7.fhir.utilities.xhtml,
 			org.w3c.dom,
 			org.xml.sax";
-		version=5.7.1,
+		version=5.7.2,
 	org.hl7.fhir.r4.utils.formats;
 		uses:="com.google.gson,
 			org.hl7.fhir.exceptions,
@@ -204,8 +203,8 @@
 			org.w3c.dom,
 			org.xml.sax,
 			org.xml.sax.helpers";
-		version=5.7.1,
-	org.hl7.fhir.r4.utils.client;uses:="org.apache.http,org.apache.http.client.methods,org.hl7.fhir.r4.formats,org.hl7.fhir.r4.model";version=5.7.1,
+		version=5.7.2,
+	org.hl7.fhir.r4.utils.client;uses:="org.apache.http,org.apache.http.client.methods,org.hl7.fhir.r4.formats,org.hl7.fhir.r4.model";version=5.7.2,
 	org.hl7.fhir.r4.model;
 		uses:="ca.uhn.fhir.context,
 			ca.uhn.fhir.model.api,
@@ -216,8 +215,8 @@
 			org.hl7.fhir.instance.model.api,
 			org.hl7.fhir.r4.context,
 			org.hl7.fhir.utilities.xhtml";
-		version=5.7.1,
-	org.hl7.fhir.r4.model.codesystems;uses:="org.hl7.fhir.exceptions,org.hl7.fhir.r4.model";version=5.7.1,
+		version=5.7.2,
+	org.hl7.fhir.r4.model.codesystems;uses:="org.hl7.fhir.exceptions,org.hl7.fhir.r4.model";version=5.7.2,
 	org.hl7.fhir.r4.elementmodel;
 		uses:="com.google.gson,
 			org.hl7.fhir.exceptions,
@@ -229,7 +228,7 @@
 			org.hl7.fhir.utilities.xhtml,
 			org.hl7.fhir.utilities.xml,
 			org.w3c.dom";
-		version=5.7.1,
+		version=5.7.2,
 	org.hl7.fhir.r4.conformance;
 		uses:="org.hl7.fhir.exceptions,
 			org.hl7.fhir.r4.context,
@@ -238,7 +237,7 @@
 			org.hl7.fhir.r4.utils,
 			org.hl7.fhir.utilities.validation,
 			org.hl7.fhir.utilities.xhtml";
-		version=5.7.1
+		version=5.7.2
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.fragment.host>
             ca.uhn.hapi.fhir.hapi-fhir-base

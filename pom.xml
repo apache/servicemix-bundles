@@ -98,6 +98,12 @@
 	    <module>bazaarvoice-jolt-0.1.7</module>
 	    <module>fastinfoset-2.1.0</module>
 	    <module>azure-messaging-eventhubs-checkpointstore-blob-1.12.1</module>
+	    <module>hapi-fhir-structures-dstu2.1-5.7.2</module>
+	    <module>hapi-fhir-structures-dstu2-5.7.2</module>
+	    <module>hapi-fhir-structures-dstu3-5.7.2</module>
+	    <module>hapi-fhir-structures-hl7org-dstu2-5.7.2</module>
+	    <module>hapi-fhir-structures-r4-5.7.2</module>
+	    <module>hapi-fhir-validation-5.7.2</module>
     </modules>
 
 </project>
