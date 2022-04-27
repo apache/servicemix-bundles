@@ -110,6 +110,7 @@
       <module>saxon-11.3</module>
       <module>libphonenumber-8.12.47</module>
       <module>janino-3.1.7</module>
+      <module>snmp4j-3.6.7</module>
     </modules>
 
 </project>
