@@ -95,6 +95,7 @@
 	    <module>stringtemplate-4.3.3</module>
 	    <module>azure-core-amqp-2.4.2</module>
 	    <module>azure-keyvault-core-1.2.6</module>
+	    <module>bazaarvoice-jolt-0.1.7</module>
     </modules>
 
 </project>
