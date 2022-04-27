@@ -29,8 +29,8 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.olingo-odata2-core</artifactId>
-    <version>2.0.11_2-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.olingo-odata2-api</artifactId>
+    <version>2.0.12_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -39,15 +39,14 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>org.apache.olingo</pkgGroupId>
-        <pkgArtifactId>olingo-odata2-core</pkgArtifactId>
-        <pkgVersion>2.0.11</pkgVersion>
+        <pkgArtifactId>olingo-odata2-api</pkgArtifactId>
+        <pkgVersion>2.0.12</pkgVersion>
         <servicemix.osgi.export.pkg>
-          org.apache.olingo.odata2.core*
+          org.apache.olingo.odata2.api*
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             *
@@ -90,9 +89,9 @@
                             <filters>
                                 <filter>
                                   <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
-                                    <includes>
-                                        <include>**/i18n*.properties</include>
-                                    </includes>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
                                 </filter>
                             </filters>
                             <promoteTransitiveDependencies>true</promoteTransitiveDependencies>

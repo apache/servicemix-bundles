@@ -105,6 +105,8 @@
 	    <module>hapi-fhir-structures-r4-5.7.2</module>
 	    <module>hapi-fhir-validation-5.7.2</module>
 	    <module>spring-integration-core-5.5.11</module>
+      <module>olingo-odata2-api-2.0.12</module>
+      <module>olingo-odata2-core-2.0.12</module>
     </modules>
 
 </project>
