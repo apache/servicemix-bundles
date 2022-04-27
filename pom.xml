@@ -97,6 +97,7 @@
 	    <module>azure-keyvault-core-1.2.6</module>
 	    <module>bazaarvoice-jolt-0.1.7</module>
 	    <module>fastinfoset-2.1.0</module>
+	    <module>azure-messaging-eventhubs-checkpointstore-blob-1.12.1</module>
     </modules>
 
 </project>
