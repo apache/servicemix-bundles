@@ -120,6 +120,7 @@
       <module>azure-core-http-netty-1.11.9</module>
       <module>azure-storage-file-datalake-12.9.0</module>
       <module>spring-xml-3.1.3</module>
+      <module>jedis-4.2.2</module>
     </modules>
 
 </project>
