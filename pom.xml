@@ -116,6 +116,7 @@
       <module>antlr-3.5.3</module>
       <module>antlr-runtime-3.5.3</module>
       <module>commons-compiler-3.1.7</module>
+      <module>azure-messaging-eventhubs-5.11.2</module>
     </modules>
 
 </project>
