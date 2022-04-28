@@ -118,6 +118,7 @@
       <module>commons-compiler-3.1.7</module>
       <module>azure-messaging-eventhubs-5.11.2</module>
       <module>azure-core-http-netty-1.11.9</module>
+      <module>azure-storage-file-datalake-12.9.0</module>
     </modules>
 
 </project>
