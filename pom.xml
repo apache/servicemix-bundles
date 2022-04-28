@@ -123,6 +123,7 @@
       <module>jedis-4.2.2</module>
       <module>braintree-java-3.15.0</module>
       <module>postgresql-42.3.4</module>
+      <module>spring-ldap-2.3.7.RELEASE</module>
     </modules>
 
 </project>
