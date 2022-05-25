@@ -44,7 +44,7 @@
     <properties>
         <pkgGroupId>org.springframework.security</pkgGroupId>
         <pkgArtifactId>spring-security-core</pkgArtifactId>
-        <pkgVersion>5.6.3</pkgVersion>
+        <pkgVersion>5.6.4</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.springframework.security
         </servicemix.osgi.export.pkg>
