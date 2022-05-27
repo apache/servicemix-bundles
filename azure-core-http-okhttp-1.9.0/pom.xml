@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>14</version>
+        <version>15-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -45,6 +45,7 @@
         <pkgGroupId>com.azure</pkgGroupId>
         <pkgArtifactId>azure-core-http-okhttp</pkgArtifactId>
         <pkgVersion>1.9.0</pkgVersion>
+        <servicemix.osgi.source.version>1.9.0.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             com.azure.core.http.okhttp
          </servicemix.osgi.export.pkg>
