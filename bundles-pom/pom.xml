@@ -129,7 +129,7 @@
                                     <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                                         <manifestEntries>
                                             <Bundle-SymbolicName>${project.artifactId}.source</Bundle-SymbolicName>
-                                            <Eclipse-SourceBundle>${project.artifactId};version="${project.version}"</Eclipse-SourceBundle>
+                                            <Eclipse-SourceBundle>${project.artifactId};version="${servicemix.osgi.source.version}"</Eclipse-SourceBundle>
                                             <Export-Package></Export-Package>
                                             <Import-Package></Import-Package>
                                             <Provide-Capability></Provide-Capability>
