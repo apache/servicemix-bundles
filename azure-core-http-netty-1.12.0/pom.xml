@@ -24,13 +24,13 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>14</version>
+        <version>15-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.azure-core-http-netty</artifactId>
-    <version>1.11.9_2-SNAPSHOT</version>
+    <version>1.12.0_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -39,13 +39,13 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>com.azure</pkgGroupId>
         <pkgArtifactId>azure-core-http-netty</pkgArtifactId>
-        <pkgVersion>1.11.9</pkgVersion>
+        <pkgVersion>1.12.0</pkgVersion>
+        <servicemix.osgi.source.version>1.12.0.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             com.azure.core.http.netty
          </servicemix.osgi.export.pkg>
