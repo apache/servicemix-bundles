@@ -50,6 +50,8 @@
       <module>azure-core-http-netty-1.12.0</module>
       <module>gae-2.0.5</module>
       <module>postgresql-42.3.6</module>
+      <module>spring-batch-core-4.3.6</module>
+      <module>spring-batch-infrastructure-4.3.6</module>
     </modules>
 
 </project>
