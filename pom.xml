@@ -54,6 +54,7 @@
       <module>spring-batch-infrastructure-4.3.6</module>
       <module>aws-java-sdk-2.17.198</module>
       <module>jt400-11.0</module>
+      <module>jedis-4.2.3</module>
     </modules>
 
 </project>
