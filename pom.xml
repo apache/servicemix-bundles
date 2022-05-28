@@ -48,6 +48,7 @@
       <module>azure-identity-1.5.1</module>
       <module>zxing-3.5.0</module>
       <module>azure-core-http-netty-1.12.0</module>
+      <module>gae-2.0.5</module>
     </modules>
 
 </project>
