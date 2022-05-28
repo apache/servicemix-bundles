@@ -52,6 +52,7 @@
       <module>postgresql-42.3.6</module>
       <module>spring-batch-core-4.3.6</module>
       <module>spring-batch-infrastructure-4.3.6</module>
+      <module>aws-java-sdk-2.17.198</module>
     </modules>
 
 </project>
