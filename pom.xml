@@ -53,6 +53,7 @@
       <module>spring-batch-core-4.3.6</module>
       <module>spring-batch-infrastructure-4.3.6</module>
       <module>aws-java-sdk-2.17.198</module>
+      <module>jt400-11.0</module>
     </modules>
 
 </project>
