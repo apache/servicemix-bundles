@@ -46,6 +46,7 @@
       <module>okhttp-4.9.3</module>
       <module>guice-5.1.0</module>
       <module>azure-identity-1.5.1</module>
+      <module>zxing-3.5.0</module>
     </modules>
 
 </project>
