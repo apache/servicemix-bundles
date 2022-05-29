@@ -61,6 +61,7 @@
       <module>azure-core-1.28.0</module>
       <module>azure-messaging-servicebus-7.9.0</module>
       <module>mybatis-3.5.10</module>
+      <module>libphonenumber-8.12.48</module>
     </modules>
 
 </project>
