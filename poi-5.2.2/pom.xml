@@ -24,13 +24,13 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>14</version>
+        <version>15-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.poi</artifactId>
-    <version>4.1.2_3-SNAPSHOT</version>
+    <version>5.2.2_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>
@@ -41,14 +41,14 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>org.apache.poi</pkgGroupId>
         <pkgArtifactId>poi</pkgArtifactId>
-        <pkgVersion>4.1.2</pkgVersion>
+        <pkgVersion>5.2.2</pkgVersion>
         <ooxmlVersion>1.4</ooxmlVersion>
+        <servicemix.osgi.source.version>5.2.2.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             org.etsi.uri.x01903.v13;version=${pkgVersion};-split-package:=merge-first,
             org.openxmlformats.schemas.drawingml.x2006.chart;version=${pkgVersion};-split-package:=merge-first,
@@ -148,7 +148,7 @@
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>poi-ooxml-schemas</artifactId>
-            <version>${pkgVersion}</version>
+            <version>4.1.2</version>
             <exclusions>
                 <exclusion>
                     <artifactId>xmlbeans</artifactId>
