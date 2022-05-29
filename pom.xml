@@ -59,6 +59,7 @@
       <module>azure-core-amqp-2.5.0</module>
       <module>spring-integration-core-5.5.12</module>
       <module>azure-core-1.28.0</module>
+      <module>azure-messaging-servicebus-7.9.0</module>
     </modules>
 
 </project>
