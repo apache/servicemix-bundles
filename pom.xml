@@ -55,6 +55,7 @@
       <module>aws-java-sdk-2.17.198</module>
       <module>jt400-11.0</module>
       <module>jedis-4.2.3</module>
+      <module>azure-messaging-eventhubs-5.12.0</module>
     </modules>
 
 </project>
