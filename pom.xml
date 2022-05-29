@@ -57,6 +57,7 @@
       <module>jedis-4.2.3</module>
       <module>azure-messaging-eventhubs-5.12.0</module>
       <module>azure-core-amqp-2.5.0</module>
+      <module>spring-integration-core-5.5.12</module>
     </modules>
 
 </project>
