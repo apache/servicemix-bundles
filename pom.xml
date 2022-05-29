@@ -63,6 +63,7 @@
       <module>mybatis-3.5.10</module>
       <module>libphonenumber-8.12.48</module>
       <module>grpc-1.46.0</module>
+      <module>aws-java-sdk-1.12.227</module>
     </modules>
 
 </project>
