@@ -24,14 +24,14 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>14</version>
+        <version>15-SNAPSHOT</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.solr-solrj</artifactId>
     <packaging>bundle</packaging>
-    <version>8.11.1_2-SNAPSHOT</version>
+    <version>9.0.0_1-SNAPSHOT</version>
     <name>Apache ServiceMix :: Bundles :: SolrJ</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
 
@@ -39,13 +39,13 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>org.apache.solr</pkgGroupId>
         <pkgArtifactId>solr-solrj</pkgArtifactId>
-        <pkgVersion>8.11.1</pkgVersion>
+        <pkgVersion>9.0.0</pkgVersion>
+	<servicemix.osgi.source.version>9.0.0.1</servicemix.osgi.source.version>
         <servicemix.osgi.export>
             org.apache.solr*,
             org.noggit*
