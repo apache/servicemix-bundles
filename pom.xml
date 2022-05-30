@@ -76,6 +76,7 @@
       <module>kafka_2.13-3.2.0</module>
       <module>kafka-clients-3.2.0</module>
       <module>kafka-streams-3.2.0</module>
+      <module>braintree-java-3.16.0</module>
     </modules>
 
 </project>
