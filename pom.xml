@@ -102,6 +102,10 @@
       <module>hapi-fhir-structures-hl7org-dstu2-6.0.0</module>
       <module>hapi-fhir-structures-r4-6.0.0</module>
       <module>hapi-fhir-validation-6.0.0</module>
+      <module>lucene-9.2.0</module>
+      <module>lucene-queries-9.2.0</module>
+      <module>lucene-queryparser-9.2.0</module>
+      <module>lucene-sandbox-9.2.0</module>
     </modules>
 
 </project>
