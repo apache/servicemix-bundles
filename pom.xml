@@ -95,6 +95,7 @@
       <module>spring-security-taglibs-5.7.1</module>
       <module>spring-security-test-5.7.1</module>
       <module>spring-security-web-5.7.1</module>
+      <module>asterisk-java-3.29.0</module>
     </modules>
 
 </project>
