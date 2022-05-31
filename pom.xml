@@ -109,6 +109,7 @@
       <module>dnsjava-3.5.1</module>
       <module>hadoop-client-3.3.3</module>
       <module>azure-storage-blob-changefeed-12.0.0-beta17</module>
+      <module>azure-cosmos-4.30.0</module>
     </modules>
 
 </project>
