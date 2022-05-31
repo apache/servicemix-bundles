@@ -106,6 +106,7 @@
       <module>lucene-queries-9.2.0</module>
       <module>lucene-queryparser-9.2.0</module>
       <module>lucene-sandbox-9.2.0</module>
+      <module>dnsjava-3.5.1</module>
     </modules>
 
 </project>
