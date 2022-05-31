@@ -107,6 +107,7 @@
       <module>lucene-queryparser-9.2.0</module>
       <module>lucene-sandbox-9.2.0</module>
       <module>dnsjava-3.5.1</module>
+      <module>hadoop-client-3.3.3</module>
     </modules>
 
 </project>
