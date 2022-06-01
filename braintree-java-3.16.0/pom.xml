@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>14</version>
+        <version>15</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -45,12 +45,13 @@
         <pkgGroupId>com.braintreepayments.gateway</pkgGroupId>
         <pkgArtifactId>braintree-java</pkgArtifactId>
         <pkgVersion>3.16.0</pkgVersion>
-        <servicemix.osgi.export.pkg>
+	<servicemix.osgi.source.version>3.16.0.1</servicemix.osgi.source.version>
+        <servicemix.osgi.export>
             com.braintreegateway;version=${pkgVersion};-split-package:=merge-first,
             com.braintreegateway.exceptions;version=${pkgVersion};-split-package:=merge-first,
             com.braintreegateway.util;version=${pkgVersion};-split-package:=merge-first,
             com.braintreegateway.test;version=${pkgVersion};-split-package:=merge-first
-        </servicemix.osgi.export.pkg>
+        </servicemix.osgi.export>
         <servicemix.osgi.private.pkg>
             com.braintreegateway.org.*;-split-package:=merge-first
         </servicemix.osgi.private.pkg>
