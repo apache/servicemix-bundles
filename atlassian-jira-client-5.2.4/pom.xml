@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>14</version>
+        <version>15</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -61,11 +61,12 @@
     <properties>
         <pkgGroupId>com.atlassian.jira</pkgGroupId>
         <pkgVersion>5.2.4</pkgVersion>
+	<pkgSourceVersion>5.2.4.1</pkgSourceVersion>
         <servicemix.osgi.export>
             com.atlassian.jira.rest.client*;version=${pkgVersion},
             com.atlassian.httpclient*;version=${pkgVersion},
             com.atlassian.event*;version=${pkgVersion},
-            com.atlassian.sal*;version=3.0.7,
+            com.atlassian.sal*;version=4.4.2,
             io.atlassian.fugue*;version=3.0.0,
             io.atlassian.util*,
             com.atlassian.fugue*;version=3.0.0
@@ -81,14 +82,29 @@
             !io.atlassian.fugue*,
             !com.atlassian.fugue*,
             !io.atlassian.util*,
-            com.google.common*;version="[20,30)",
-            org.springframework*;resolition:=optional,
+            !com.google.common*,
+	    !com.google.appengine*,
+	    !com.google.apphosting*,
+	    !com.google.errorprone*,
+	    !com.google.thirdparty*,
+	    !javax.annotation*,
+	    !org.checkerframework*,
+	    javax.servlet*;resolution:=optional,
+            org.springframework*;resolution:=optional,
+	    net.jcip*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
            com.atlassian.analytics*,
            com.atlassian.inject*,
-           com.atlassian.plugin*
+	   com.atlassian.plugin*,
+	   com.google.common*,
+	   com.google.appengine*,
+	   com.google.apphosting*,
+	   com.google.errorprone*,
+	   com.google.thirdparty*,
+		javax.annotation*,
+		org.checkerframework*
         </servicemix.osgi.private.pkg>
     </properties>
 
@@ -105,6 +121,13 @@
             <version>${pkgVersion}</version>
             <optional>false</optional>
         </dependency>
+	<dependency>
+            <groupId>com.atlassian.sal</groupId>
+            <artifactId>sal-api</artifactId>
+            <version>4.4.2</version>
+	    <type>jar</type>
+            <optional>false</optional>
+	</dependency>
         <dependency>
             <groupId>io.atlassian.fugue</groupId>
             <artifactId>fugue</artifactId>

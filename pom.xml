@@ -41,6 +41,7 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+      <module>atlassian-jira-client-5.2.4</module>
     </modules>
 
 </project>
