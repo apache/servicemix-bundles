@@ -44,7 +44,7 @@
     <properties>
         <pkgGroupId>commons-collections</pkgGroupId>
         <pkgArtifactId>commons-collections</pkgArtifactId>
-        <pkgVersion>3.2.1</pkgVersion>
+        <pkgVersion>3.2.2</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.apache.commons.collections
         </servicemix.osgi.export.pkg>
