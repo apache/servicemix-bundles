@@ -55,6 +55,7 @@
 			org.springframework.jdbc*;resolution:=optional,
 			org.springframework.web.reactive*;resolution:=optional,
 			reactor.*;resolution:=optional,
+	    com.ibm.websphere*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
     </properties>
