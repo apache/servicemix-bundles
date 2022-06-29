@@ -88,6 +88,8 @@
       <module>guava-31.1</module>
       <module>azure-messaging-eventhubs-5.12.1</module>
       <module>spring-ldap-2.4.1</module>
+      <module>derby-10.16.1.1</module>
+      <module>derbynet-10.16.1.1</module>
     </modules>
 
 </project>
