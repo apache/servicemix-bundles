@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.grpc</artifactId>
-    <version>1.46.0_2-SNAPSHOT</version>
+    <version>1.47.0_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: gRPC</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar files.</description>
@@ -39,14 +39,13 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>io.grpc</pkgGroupId>
         <pkgArtifactId>grpc-all</pkgArtifactId>
-        <pkgVersion>1.46.0</pkgVersion>
-        <servicemix.osgi.source.version>1.46.0.1</servicemix.osgi.source.version>
+        <pkgVersion>1.47.0</pkgVersion>
+        <servicemix.osgi.source.version>1.47.0.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
            io.grpc
         </servicemix.osgi.export.pkg>
