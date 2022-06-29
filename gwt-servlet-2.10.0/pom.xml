@@ -24,13 +24,13 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>14</version>
+        <version>15</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.gwt-servlet</artifactId>
-    <version>2.9.0_2-SNAPSHOT</version>
+    <version>2.10.0_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -39,13 +39,13 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>com.google.gwt</pkgGroupId>
         <pkgArtifactId>gwt-servlet</pkgArtifactId>
-        <pkgVersion>2.9.0</pkgVersion>
+        <pkgVersion>2.10.0</pkgVersion>
+	<pkgSourceVersion>2.10.0.1</pkgSourceVersion>
         <servicemix.osgi.export>
             com.google.gwt.user.client.rpc;version=${pkgVersion};-split-package:=merge-first,
             com.google.gwt.user.client.rpc.*;version=${pkgVersion};-split-package:=merge-first,
