@@ -95,6 +95,7 @@
       <module>google-http-client-1.42.0</module>
       <module>grpc-1.47.0</module>
       <module>gwt-servlet-2.10.0</module>
+      <module>libphonenumber-8.12.50</module>
     </modules>
 
 </project>
