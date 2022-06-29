@@ -87,6 +87,7 @@
       <module>okio-3.2.0</module>
       <module>guava-31.1</module>
       <module>azure-messaging-eventhubs-5.12.1</module>
+      <module>spring-ldap-2.4.1</module>
     </modules>
 
 </project>
