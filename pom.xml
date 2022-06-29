@@ -85,6 +85,7 @@
       <module>spring-data-redis-2.7.1</module>
       <module>azure-core-1.29.1</module>
       <module>okio-3.2.0</module>
+      <module>guava-31.1</module>
     </modules>
 
 </project>
