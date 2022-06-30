@@ -24,13 +24,13 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>13</version>
+        <version>15</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.splunk</artifactId>
-    <version>1.6.5.0_2-SNAPSHOT</version>
+    <version>1.9.0_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -39,13 +39,13 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>com.splunk</pkgGroupId>
         <pkgArtifactId>splunk</pkgArtifactId>
-        <pkgVersion>1.6.5.0</pkgVersion>
+        <pkgVersion>1.9.0</pkgVersion>
+	<servicemix.osgi.source.version>1.9.0.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             com.splunk
         </servicemix.osgi.export.pkg>
@@ -68,17 +68,11 @@
     </properties>
 
     <repositories>
-        <repository>
-            <id>splunk</id>
-            <name>Splunk Artifactory</name>
-            <url>https://splunk.artifactoryonline.com/splunk/ext-releases-local/</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
+	<repository>
+		<id>splunk-artifactory</id>
+		<name>Splunk Releases</name>
+		<url>https://splunk.jfrog.io/splunk/ext-releases-local</url>
+	</repository>
     </repositories>
 
     <dependencies>
