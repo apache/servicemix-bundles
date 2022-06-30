@@ -47,7 +47,7 @@
 	<pkgGroupId>com.google.guava</pkgGroupId>
 	<pkgArtifactId>guava</pkgArtifactId>
 	<pkgVersion>30.1.1-jre</pkgVersion>
-	<pkgSourceVersion>30.1.1.1</pkgSourceVersion>
+	<servicemix.osgi.source.version>30.1.1.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
 		com.google
         </servicemix.osgi.export.pkg>
