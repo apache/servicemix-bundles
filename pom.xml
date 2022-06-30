@@ -105,6 +105,7 @@
       <module>postgresql-42.4.0</module>
       <module>azure-core-http-netty-1.12.2</module>
       <module>xmlbeans-5.1.0</module>
+      <module>braintree-java-3.16.1</module>
     </modules>
 
 </project>

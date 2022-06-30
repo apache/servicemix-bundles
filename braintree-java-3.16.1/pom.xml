@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.braintree-java</artifactId>
-    <version>3.16.0_2-SNAPSHOT</version>
+    <version>3.16.1_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -45,8 +45,8 @@
     <properties>
         <pkgGroupId>com.braintreepayments.gateway</pkgGroupId>
         <pkgArtifactId>braintree-java</pkgArtifactId>
-        <pkgVersion>3.16.0</pkgVersion>
-	<servicemix.osgi.source.version>3.16.0.1</servicemix.osgi.source.version>
+        <pkgVersion>3.16.1</pkgVersion>
+	<servicemix.osgi.source.version>3.16.1.1</servicemix.osgi.source.version>
         <servicemix.osgi.export>
             com.braintreegateway;version=${pkgVersion};-split-package:=merge-first,
             com.braintreegateway.exceptions;version=${pkgVersion};-split-package:=merge-first,
