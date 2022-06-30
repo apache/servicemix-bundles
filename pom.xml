@@ -114,6 +114,7 @@
       <module>hapi-fhir-structures-hl7org-dstu2-6.0.2</module>
       <module>hapi-fhir-structures-r4-6.0.2</module>
       <module>hapi-fhir-validation-6.0.2</module>
+      <module>poi-5.2.2</module>
     </modules>
 
 </project>

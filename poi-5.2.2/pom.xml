@@ -34,7 +34,7 @@
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>
-        This OSGi bundle wraps poi, poi-ooxml, poi-ooxml-schemas and poi-scratchpad ${pkgVersion} jar files.
+        This OSGi bundle wraps poi, poi-ooxml, and poi-scratchpad ${pkgVersion} jar files.
     </description>
 
     <scm>
@@ -48,7 +48,6 @@
         <pkgGroupId>org.apache.poi</pkgGroupId>
         <pkgArtifactId>poi</pkgArtifactId>
         <pkgVersion>5.2.2</pkgVersion>
-        <ooxmlVersion>1.4</ooxmlVersion>
         <servicemix.osgi.source.version>5.2.2.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             org.etsi.uri.x01903.v13;version=${pkgVersion};-split-package:=merge-first,
@@ -93,12 +92,12 @@
             org.apache.commons.collections4.*,
             org.apache.commons.math3.*,
             org.apache.commons.compress.*,
-            org.apache.xmlbeans.impl.schema,
             org.bouncycastle.*;resolution:=optional,
             org.apache.jcp.xml.dsig.internal.dom;resolution:=optional,
             org.apache.xml.security.*;resolution:=optional,
             org.apache.batik.*;resolution:=optional,
-            javax.imageio.*;resolution:=optional
+		javax.imageio.*;resolution:=optional,
+		org.apache.xmlbeans.impl.schema*
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
             com.graphbuilder*;-split-package:=merge-first,
@@ -148,18 +147,6 @@
         </dependency>
         <dependency>
             <groupId>${pkgGroupId}</groupId>
-            <artifactId>poi-ooxml-schemas</artifactId>
-            <version>4.1.2</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>xmlbeans</artifactId>
-                    <groupId>org.apache.xmlbeans</groupId>
-                </exclusion>
-            </exclusions>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>${pkgGroupId}</groupId>
             <artifactId>poi-ooxml</artifactId>
             <version>${pkgVersion}</version>
             <exclusions>
@@ -170,10 +157,6 @@
                 <exclusion>
                     <artifactId>commons-compress</artifactId>
                     <groupId>org.apache.commons</groupId>
-                </exclusion>
-                <exclusion>
-                    <artifactId>poi-ooxml-schemas</artifactId>
-                    <groupId>org.apache.poi</groupId>
                 </exclusion>
                 <exclusion>
                     <artifactId>curvesapi</artifactId>
@@ -187,21 +170,9 @@
             <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>${pkgGroupId}</groupId>
-            <artifactId>ooxml-schemas</artifactId>
-            <version>${ooxmlVersion}</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>xmlbeans</artifactId>
-                    <groupId>org.apache.xmlbeans</groupId>
-                </exclusion>
-            </exclusions>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
             <groupId>com.github.virtuald</groupId>
             <artifactId>curvesapi</artifactId>
-            <version>1.05</version>
+            <version>1.06</version>
             <optional>false</optional>
         </dependency>
 
@@ -258,23 +229,6 @@
                     <artifactId>poi</artifactId>
                     <groupId>org.apache.poi</groupId>
                 </exclusion>
-                <exclusion>
-                    <artifactId>poi-ooxml-schemas</artifactId>
-                    <groupId>org.apache.poi</groupId>
-                </exclusion>
-            </exclusions>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>${pkgGroupId}</groupId>
-            <artifactId>ooxml-schemas</artifactId>
-            <version>1.4</version>
-            <classifier>sources</classifier>
-            <exclusions>
-                <exclusion>
-                    <artifactId>xmlbeans</artifactId>
-                    <groupId>org.apache.xmlbeans</groupId>
-                </exclusion>
             </exclusions>
             <optional>true</optional>
         </dependency>
@@ -321,18 +275,6 @@
                                 </filter>
                                 <filter>
                                     <artifact>${pkgGroupId}:poi-ooxml</artifact>
-                                    <excludes>
-                                        <exclude>**</exclude>
-                                    </excludes>
-                                </filter>
-                                <filter>
-                                    <artifact>${pkgGroupId}:poi-ooxml-schemas</artifact>
-                                    <excludes>
-                                        <exclude>**</exclude>
-                                    </excludes>
-                                </filter>
-                                <filter>
-                                    <artifact>${pkgGroupId}:ooxml-schemas</artifact>
                                     <excludes>
                                         <exclude>**</exclude>
                                     </excludes>
