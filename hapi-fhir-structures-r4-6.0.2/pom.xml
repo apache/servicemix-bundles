@@ -29,8 +29,8 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.hapi-fhir-validation</artifactId>
-    <version>6.0.0_2-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.hapi-fhir-structures-r4</artifactId>
+    <version>6.0.2_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -39,68 +39,90 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>ca.uhn.hapi.fhir</pkgGroupId>
-        <pkgArtifactId>hapi-fhir-validation</pkgArtifactId>
-        <pkgVersion>6.0.0</pkgVersion>
-	<servicemix.osgi.source.version>6.0.0.1</servicemix.osgi.source.version>
+        <pkgArtifactId>hapi-fhir-structures-r4</pkgArtifactId>
+        <pkgVersion>6.0.2</pkgVersion>
+	<servicemix.osgi.source.version>6.0.2.1</servicemix.osgi.source.version>
         <servicemix.osgi.import.pkg>
 		ca.uhn.fhir.context;version="[6,7)",
+		ca.uhn.fhir.context.api;version="[6,7)",
 		ca.uhn.fhir.context.support;version="[6,7)",
+		ca.uhn.fhir.fluentpath;version="[6,7)",
 		ca.uhn.fhir.model.api;version="[6,7)",
+		ca.uhn.fhir.model.api.annotation;version="[6,7)",
+		ca.uhn.fhir.model.primitive;version="[6,7)",
+		ca.uhn.fhir.model.valueset;version="[6,7)",
 		ca.uhn.fhir.parser;version="[6,7)",
+		ca.uhn.fhir.rest.annotation;version="[6,7)",
 		ca.uhn.fhir.rest.api;version="[6,7)",
+		ca.uhn.fhir.rest.api.server;version="[6,7)",
+		ca.uhn.fhir.rest.gclient;version="[6,7)",
+		ca.uhn.fhir.rest.server;resolution:=optional,
 		ca.uhn.fhir.rest.server.exceptions;version="[6,7)",
+		ca.uhn.fhir.rest.server.method;resolution:=optional,
+		ca.uhn.fhir.rest.server.servlet;resolution:=optional,
 		ca.uhn.fhir.util;version="[6,7)",
-		ca.uhn.fhir.validation;version="[6,7)",
-		com.github.benmanes.caffeine.cache,
+		com.github.benmanes.caffeine.cache;resolution:=optional,
 		com.google.gson;version="[2.8,3)",
-		javax.swing,
+		com.google.gson.stream;version="[2.8,3)",
+		javax.servlet;resolution:=optional;version="[3,5)",
+		javax.servlet.http;resolution:=optional;version="[3,5)",
+		javax.xml.crypto.dsig,
+		javax.xml.crypto.dsig.dom,
+		javax.xml.crypto.dsig.keyinfo,
+		javax.xml.crypto.dsig.spec,
 		javax.xml.parsers,
+		javax.xml.transform,
+		javax.xml.transform.dom,
+		javax.xml.transform.sax,
+		org.apache.commons.codec;version="[1.11,2)",
+		org.apache.commons.codec.binary;version="[1.11,2)",
 		org.apache.commons.io;version="[2,3)",
+		org.apache.commons.io.output;version="[2,3)",
 		org.apache.commons.lang3;version="[3.8,4)",
 		org.apache.commons.lang3.builder;version="[3.8,4)",
+		org.apache.commons.lang3.time;version="[3.8,4)",
+		org.apache.commons.lang3.tuple;version="[3.8,4)",
+		org.apache.http;resolution:=optional,
+		org.apache.http.client;resolution:=optional,
+		org.apache.http.client.methods;resolution:=optional,
+		org.apache.http.client.utils;resolution:=optional,
+		org.apache.http.entity;resolution:=optional,
+		org.apache.http.impl.client;resolution:=optional,
+		org.apache.http.params;resolution:=optional,
 		org.fhir.ucum;version="[6,7)",
-		org.hl7.fhir.convertors;version="[6,7)",
-		org.hl7.fhir.dstu3.context;resolution:=optional;version="[6,7)",
-		org.hl7.fhir.dstu3.hapi.ctx;resolution:=optional;version="[6,7)",
-		org.hl7.fhir.dstu3.model;resolution:=optional;version="[6,7)",
-		org.hl7.fhir.dstu3.terminologies;resolution:=optional;version="[6,7)",
-		org.hl7.fhir.dstu3.utils;resolution:=optional;version="[6,7)",
 		org.hl7.fhir.exceptions;version="[6,7)",
-		org.hl7.fhir.instance.formats;resolution:=optional;version="[6,7)",
-		org.hl7.fhir.instance.model;resolution:=optional;version="[6,7)",
 		org.hl7.fhir.instance.model.api;version="[6,7)",
-		org.hl7.fhir.instance.terminologies;resolution:=optional;version="[6,7)",
-		org.hl7.fhir.instance.utils;resolution:=optional;version="[6,7)",
-		org.hl7.fhir.r4.conformance;resolution:=optional;version="[6,7)",
-		org.hl7.fhir.r4.context;resolution:=optional;version="[6,7)",
-		org.hl7.fhir.r4.elementmodel;resolution:=optional;version="[6,7)",
-		org.hl7.fhir.r4.formats;resolution:=optional;version="[6,7)",
-		org.hl7.fhir.r4.hapi.ctx;resolution:=optional;version="[6,7)",
-		org.hl7.fhir.r4.model;resolution:=optional;version="[6,7)",
-		org.hl7.fhir.r4.terminologies;resolution:=optional;version="[6,7)",
-		org.hl7.fhir.r4.utils;resolution:=optional;version="[6,7)",
 		org.hl7.fhir.utilities;version="[6,7)",
+		org.hl7.fhir.utilities.graphql;version="[6,7)",
 		org.hl7.fhir.utilities.validation;version="[6,7)",
 		org.hl7.fhir.utilities.xhtml;version="[6,7)",
 		org.hl7.fhir.utilities.xml;version="[6,7)",
 		org.slf4j;version="[1.7,2)",
+		org.stringtemplate.v4;resolution:=optional,
 		org.w3c.dom,
 		org.w3c.dom.events,
 		org.xml.sax,
-		org.xml.sax.helpers
+		org.xml.sax.helpers,
+		org.xmlpull.v1;resolution:=optional
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.export>
-		org.hl7.fhir.dstu3.hapi.validation;version="${pkgVersion}";-split-package:=merge-first,
-		org.hl7.fhir.dstu3.validation;version="${pkgVersion}";-split-package:=merge-first,
-		org.hl7.fhir.instance.hapi.validation;version="${pkgVersion}";-split-package:=merge-first,
-		org.hl7.fhir.instance.validation;version="${pkgVersion}";-split-package:=merge-first,
-		org.hl7.fhir.r4.hapi.validation;version="${pkgVersion}";-split-package:=merge-first,
-		org.hl7.fhir.r4.validation;version="${pkgVersion}";-split-package:=merge-first
+		org.hl7.fhir.r4.terminologies;version="${pkgVersion}";-split-package:=merge-first,
+		org.hl7.fhir.r4.context;version="${pkgVersion}";-split-package:=merge-first,
+		org.hl7.fhir.r4.formats;version="${pkgVersion}";-split-package:=merge-first,
+		org.hl7.fhir.r4.hapi.fluentpath;version="${pkgVersion}";-split-package:=merge-first,
+		org.hl7.fhir.r4.hapi.ctx;version="${pkgVersion}";-split-package:=merge-first,
+		org.hl7.fhir.r4.hapi.rest.server;version="${pkgVersion}";-split-package:=merge-first,
+		org.hl7.fhir.r4.utils;version="${pkgVersion}";-split-package:=merge-first,
+		org.hl7.fhir.r4.utils.formats;version="${pkgVersion}";-split-package:=merge-first,
+		org.hl7.fhir.r4.utils.client;version="${pkgVersion}";-split-package:=merge-first,
+		org.hl7.fhir.r4.model;version="${pkgVersion}";-split-package:=merge-first,
+		org.hl7.fhir.r4.model.codesystems;version="${pkgVersion}";-split-package:=merge-first,
+		org.hl7.fhir.r4.elementmodel;version="${pkgVersion}";-split-package:=merge-first,
+		org.hl7.fhir.r4.conformance;version="${pkgVersion}";-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.fragment.host>
 		ca.uhn.hapi.fhir.hapi-fhir-base

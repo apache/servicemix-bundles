@@ -108,6 +108,12 @@
       <module>braintree-java-3.16.1</module>
       <module>splunk-1.9.0</module>
       <module>opensearch-2.0.1</module>
+      <module>hapi-fhir-structures-dstu2.1-6.0.2</module>
+      <module>hapi-fhir-structures-dstu2-6.0.2</module>
+      <module>hapi-fhir-structures-dstu3-6.0.2</module>
+      <module>hapi-fhir-structures-hl7org-dstu2-6.0.2</module>
+      <module>hapi-fhir-structures-r4-6.0.2</module>
+      <module>hapi-fhir-validation-6.0.2</module>
     </modules>
 
 </project>
