@@ -102,6 +102,7 @@
       <module>azure-messaging-servicebus-7.9.1</module>
       <module>aws-java-sdk-2.17.220</module>
       <module>spring-integration-core-5.5.13</module>
+      <module>postgresql-42.4.0</module>
     </modules>
 
 </project>
