@@ -97,6 +97,7 @@
       <module>gwt-servlet-2.10.0</module>
       <module>libphonenumber-8.12.50</module>
       <module>aws-java-sdk-1.12.249</module>
+      <module>azure-cosmos-4.31.0</module>
     </modules>
 
 </project>
