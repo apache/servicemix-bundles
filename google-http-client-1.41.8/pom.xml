@@ -31,7 +31,7 @@
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.google-http-client</artifactId>
     <packaging>bundle</packaging>
-    <version>1.41.8_1-SNAPSHOT</version>
+    <version>1.41.8_1</version>
     <name>Apache ServiceMix :: Bundles :: Google HTTP Client</name>
     <description>
         This OSGi bundle wraps google-http-client, google-oauth-client, google-http-client-gson jar files.
@@ -41,6 +41,7 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
+    <tag>org.apache.servicemix.bundles.google-http-client-1.41.8_1</tag>
   </scm>
 
     <properties>
