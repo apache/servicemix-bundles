@@ -104,6 +104,7 @@
       <module>spring-integration-core-5.5.13</module>
       <module>postgresql-42.4.0</module>
       <module>azure-core-http-netty-1.12.2</module>
+      <module>xmlbeans-5.1.0</module>
     </modules>
 
 </project>
