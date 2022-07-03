@@ -45,7 +45,7 @@
         <pkgGroupId>com.google.gwt</pkgGroupId>
         <pkgArtifactId>gwt-servlet</pkgArtifactId>
         <pkgVersion>2.10.0</pkgVersion>
-	<pkgSourceVersion>2.10.0.1</pkgSourceVersion>
+	<servicemix.osgi.source.version>2.10.0.1</servicemix.osgi.source.version>
         <servicemix.osgi.export>
             com.google.gwt.user.client.rpc;version=${pkgVersion};-split-package:=merge-first,
             com.google.gwt.user.client.rpc.*;version=${pkgVersion};-split-package:=merge-first,
