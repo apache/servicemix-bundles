@@ -44,7 +44,7 @@
   </scm>
 
     <properties>
-	<pkgSourceVersion>1.42.0.1</pkgSourceVersion>
+	<servicemix.osgi.source.version>1.42.0.1</servicemix.osgi.source.version>
         <servicemix.osgi.export>
 		com.google.api.client.auth.oauth*;version="1.34.1",
 		com.google.api.client.http*;version="1.42.0",
