@@ -45,7 +45,7 @@
         <pkgGroupId>org.jruby</pkgGroupId>
         <pkgArtifactId>jruby</pkgArtifactId>
         <pkgVersion>9.3.6.0</pkgVersion>
-	<pkgSourceVersion>9.3.6.0.1</pkgSourceVersion>
+	<servicemix.osgi.source.version>9.3.6.0.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             org.jruby
         </servicemix.osgi.export.pkg>
