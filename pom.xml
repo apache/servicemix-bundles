@@ -47,6 +47,25 @@
       <module>lucene-sandbox-9.2.0</module>
       <module>jasypt-spring4-1.9.3</module>
       <module>influxdb-java-2.23</module>
+      <module>spring-aop-5.3.22</module>
+      <module>spring-aspects-5.3.22</module>
+      <module>spring-beans-5.3.22</module>
+      <module>spring-context-5.3.22</module>
+      <module>spring-context-support-5.3.22</module>
+      <module>spring-core-5.3.22</module>
+      <module>spring-expression-5.3.22</module>
+      <module>spring-instrument-5.3.22</module>
+      <module>spring-jdbc-5.3.22</module>
+      <module>spring-jms-5.3.22</module>
+      <module>spring-messaging-5.3.22</module>
+      <module>spring-orm-5.3.22</module>
+      <module>spring-oxm-5.3.22</module>
+      <module>spring-test-5.3.22</module>
+      <module>spring-tx-5.3.22</module>
+      <module>spring-web-5.3.22</module>
+      <module>spring-webflux-5.3.22</module>
+      <module>spring-webmvc-5.3.22</module>
+      <module>spring-websocket-5.3.22</module>
     </modules>
 
 </project>
