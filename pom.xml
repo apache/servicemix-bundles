@@ -46,6 +46,7 @@
       <module>lucene-queryparser-9.2.0</module>
       <module>lucene-sandbox-9.2.0</module>
       <module>jasypt-spring4-1.9.3</module>
+      <module>influxdb-java-2.23</module>
     </modules>
 
 </project>
