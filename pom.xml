@@ -74,6 +74,7 @@
       <module>hapi-fhir-structures-r4-6.0.3</module>
       <module>hapi-fhir-validation-6.0.3</module>
       <module>azure-identity-1.5.3</module>
+      <module>esapi-2.5.0.0</module>
     </modules>
 
 </project>
