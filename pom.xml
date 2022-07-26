@@ -66,6 +66,7 @@
       <module>spring-webflux-5.3.22</module>
       <module>spring-webmvc-5.3.22</module>
       <module>spring-websocket-5.3.22</module>
+      <module>azure-core-amqp-2.6.0</module>
     </modules>
 
 </project>
