@@ -75,6 +75,7 @@
       <module>hapi-fhir-validation-6.0.3</module>
       <module>azure-identity-1.5.3</module>
       <module>esapi-2.5.0.0</module>
+      <module>google-http-client-1.42.2</module>
     </modules>
 
 </project>
