@@ -78,6 +78,7 @@
       <module>google-http-client-1.42.2</module>
       <module>azure-messaging-eventhubs-checkpointstore-blob-1.14.0</module>
       <module>grpc-1.48.0</module>
+      <module>azure-cosmos-4.33.1</module>
     </modules>
 
 </project>
