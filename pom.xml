@@ -73,6 +73,7 @@
       <module>hapi-fhir-structures-hl7org-dstu2-6.0.3</module>
       <module>hapi-fhir-structures-r4-6.0.3</module>
       <module>hapi-fhir-validation-6.0.3</module>
+      <module>azure-identity-1.5.3</module>
     </modules>
 
 </project>
