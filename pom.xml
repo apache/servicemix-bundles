@@ -83,6 +83,8 @@
       <module>spring-data-keyvalue-2.7.2</module>
       <module>spring-data-redis-2.7.2</module>
       <module>azure-storage-file-datalake-12.11.0</module>
+      <module>pulsar-client-2.10.1</module>
+      <module>pulsar-client-admin-2.10.1</module>
     </modules>
 
 </project>
