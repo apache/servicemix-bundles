@@ -90,6 +90,7 @@
       <module>aws-java-sdk-2.17.238</module>
       <module>azure-messaging-servicebus-7.10.0</module>
       <module>azure-core-http-netty-1.12.3</module>
+      <module>htmlunit-2.63.0</module>
     </modules>
 
 </project>
