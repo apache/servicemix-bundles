@@ -93,6 +93,7 @@
       <module>htmlunit-2.63.0</module>
       <module>azure-core-1.30.0</module>
       <module>azure-messaging-eventhubs-5.12.2</module>
+      <module>libphonenumber-8.12.52</module>
     </modules>
 
 </project>
