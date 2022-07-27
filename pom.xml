@@ -85,6 +85,7 @@
       <module>azure-storage-file-datalake-12.11.0</module>
       <module>pulsar-client-2.10.1</module>
       <module>pulsar-client-admin-2.10.1</module>
+      <module>azure-storage-common-12.17.0</module>
     </modules>
 
 </project>
