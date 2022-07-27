@@ -101,6 +101,7 @@
       <module>antisamy-1.7.0</module>
       <module>azure-storage-blob-12.18.0</module>
       <module>ognl-3.3.3</module>
+      <module>asterisk-java-3.30.0</module>
     </modules>
 
 </project>
