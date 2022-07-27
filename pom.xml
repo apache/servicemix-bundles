@@ -99,6 +99,7 @@
       <module>azure-storage-queue-12.14.0</module>
       <module>sparkjava-core-2.9.4</module>
       <module>antisamy-1.7.0</module>
+      <module>azure-storage-blob-12.18.0</module>
     </modules>
 
 </project>
