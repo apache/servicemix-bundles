@@ -91,6 +91,7 @@
       <module>azure-messaging-servicebus-7.10.0</module>
       <module>azure-core-http-netty-1.12.3</module>
       <module>htmlunit-2.63.0</module>
+      <module>azure-core-1.30.0</module>
     </modules>
 
 </project>
