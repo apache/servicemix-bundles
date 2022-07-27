@@ -87,7 +87,7 @@
       <module>pulsar-client-admin-2.10.1</module>
       <module>azure-storage-common-12.17.0</module>
       <module>aws-java-sdk-1.12.269</module>
-      <module>aws-java-sdk-2.17.238</module>
+      <module>aws-java-sdk-2.17.240</module>
       <module>azure-messaging-servicebus-7.10.0</module>
       <module>azure-core-http-netty-1.12.3</module>
       <module>htmlunit-2.63.0</module>
