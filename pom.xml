@@ -67,12 +67,12 @@
       <module>spring-webmvc-5.3.22</module>
       <module>spring-websocket-5.3.22</module>
       <module>azure-core-amqp-2.6.0</module>
-      <module>hapi-fhir-structures-dstu2-6.0.3</module>
-      <module>hapi-fhir-structures-dstu2.1-6.0.3</module>
-      <module>hapi-fhir-structures-dstu3-6.0.3</module>
-      <module>hapi-fhir-structures-hl7org-dstu2-6.0.3</module>
-      <module>hapi-fhir-structures-r4-6.0.3</module>
-      <module>hapi-fhir-validation-6.0.3</module>
+      <module>hapi-fhir-structures-dstu2-6.0.4</module>
+      <module>hapi-fhir-structures-dstu2.1-6.0.4</module>
+      <module>hapi-fhir-structures-dstu3-6.0.4</module>
+      <module>hapi-fhir-structures-hl7org-dstu2-6.0.4</module>
+      <module>hapi-fhir-structures-r4-6.0.4</module>
+      <module>hapi-fhir-validation-6.0.4</module>
       <module>azure-identity-1.5.3</module>
       <module>esapi-2.5.0.0</module>
       <module>google-http-client-1.42.2</module>
