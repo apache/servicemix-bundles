@@ -82,6 +82,7 @@
       <module>spring-data-commons-2.7.2</module>
       <module>spring-data-keyvalue-2.7.2</module>
       <module>spring-data-redis-2.7.2</module>
+      <module>azure-storage-file-datalake-12.11.0</module>
     </modules>
 
 </project>
