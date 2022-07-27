@@ -97,6 +97,7 @@
       <module>spring-integration-core-5.5.14</module>
       <module>opensearch-2.1.0</module>
       <module>azure-storage-queue-12.14.0</module>
+      <module>sparkjava-core-2.9.4</module>
     </modules>
 
 </project>
