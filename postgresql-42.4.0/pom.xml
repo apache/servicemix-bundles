@@ -45,7 +45,7 @@
     <properties>
         <pkgGroupId>org.postgresql</pkgGroupId>
         <pkgArtifactId>postgresql</pkgArtifactId>
-        <pkgVersion>42.4.0</pkgVersion>
+        <pkgVersion>42.4.1</pkgVersion>
         <servicemix.osgi.source.version>42.4.0.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             org.postgresql
