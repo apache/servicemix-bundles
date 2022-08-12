@@ -75,6 +75,7 @@
       <module>hapi-fhir-validation-6.0.4</module>
       <module>azure-identity-1.5.3</module>
       <module>esapi-2.5.0.0</module>
+      <module>google-cloud-pubsub-1.119.0</module>
       <module>google-http-client-1.42.2</module>
       <module>azure-messaging-eventhubs-checkpointstore-blob-1.14.0</module>
       <module>grpc-1.48.0</module>
