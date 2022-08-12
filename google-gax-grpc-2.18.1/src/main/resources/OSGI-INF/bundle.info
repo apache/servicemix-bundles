@@ -1,0 +1,12 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    Google API Extensions for Java (GAX Java) is a library which aids in the development of client libraries for server
+    APIs, based on GRPC and Google API conventions.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttps://github.com/googleapis/gax-java\u001B[0m
