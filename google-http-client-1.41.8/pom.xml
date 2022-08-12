@@ -41,19 +41,24 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
-	<servicemix.osgi.source.version>1.41.8.1</servicemix.osgi.source.version>
+	<servicemix.osgi.source.version>1.41.8.2</servicemix.osgi.source.version>
         <servicemix.osgi.export>
-		com.google.api.client.auth.oauth*;version="1.34.0",
-		com.google.api.client.http*;version="1.41.8",
-		com.google.api.client.json*;version="1.41.8",
-		com.google.api.client.util*;version="1.41.8"
+	    com.google.api.client.auth.oauth*;version="1.34.0",
+	    com.google.api.client.http*;version="1.41.8",
+	    com.google.api.client.json*;version="1.41.8",
+	    com.google.api.client.util*;version="1.41.8"
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
+	    !javax.annotation*,
+            com.google.common*;version="30.1",
+            *
         </servicemix.osgi.import.pkg>
+        <servicemix.osgi.private.pkg>
+            javax.annotation*
+        </servicemix.osgi.private.pkg>
     </properties>
 
     <dependencies>
