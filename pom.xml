@@ -50,6 +50,7 @@
        <module>google-cloud-pubsub-1.119.0</module>
        <module>okhttp-3.14.9</module>
        <module>google-http-client-1.41.8</module>
+       <module>grpc-1.48.0</module>
     </modules>
 
 </project>
