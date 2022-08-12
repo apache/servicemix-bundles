@@ -46,6 +46,7 @@
        <module>postgresql-42.4.2</module>
        <module>braintree-java-3.18.0</module>
        <module>poi-5.2.2</module>
+       <module>google-gax-grpc-2.18.1</module>
     </modules>
 
 </project>
