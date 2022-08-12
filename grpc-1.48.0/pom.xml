@@ -48,15 +48,53 @@
         <pkgVersion>1.48.0</pkgVersion>
         <servicemix.osgi.source.version>1.48.0.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
-           io.grpc
+           io.grpc*
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
            !com.google.rpc,
            !org.mockito*,
            !org.junit*,
            !com.google.common.truth*,
+           !com.google.appengine*,
+           !com.google.apphosting*,
+           !com.aayushatharva.brotli4j*,
+           !com.github.luben.zstd*,
+           !com.ning.compress*,
+           !com.jcraft.jzlib*,
+           !javax.annotation*,
+           !lzma.sdk*,
+           !net.jpountz*,
+           !org.checkerframework*,
+           !org.eclipse.jetty*,
+           !org.jboss.marshalling*,
+           !reactor.blockhound*,
+           !org.conscrypt*,
+           android.net*;resolution:=optional,
+           com.oracle.svm*;resolution:=optional,
+           com.sun.jndi.dns*;resolution:=optional,
+           io.grpc.census*;resolution:=optional,
+           io.grpc.override*;resolution:=optional,
+           sun.security*;resolution:=optional,
+           com.google.protobuf.nano*;resolution:=optional,
+           com.google.protobuf.util*;resolution:=optional,
            *
         </servicemix.osgi.import.pkg>
+        <servicemix.osgi.private.pkg>
+           com.google.appengine*,
+           com.google.apphosting*,
+           com.aayushatharva.brotli4j*,
+           com.github.luben.zstd*,
+           com.ning.compress*,
+           com.jcraft.jzlib*,
+           javax.annotation*,
+           lzma.sdk*,
+           net.jpountz*,
+           org.checkerframework*,
+           org.eclipse.jetty*,
+           org.jboss.marshalling*,
+           reactor.blockhound*,
+           org.conscrypt*
+        </servicemix.osgi.private.pkg>
     </properties>
 
     <dependencies>
