@@ -41,67 +41,6 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
-      <module>lucene-9.2.0</module>
-      <module>lucene-queries-9.2.0</module>
-      <module>lucene-queryparser-9.2.0</module>
-      <module>lucene-sandbox-9.2.0</module>
-      <module>jasypt-spring4-1.9.3</module>
-      <module>influxdb-java-2.23</module>
-      <module>spring-aop-5.3.22</module>
-      <module>spring-aspects-5.3.22</module>
-      <module>spring-beans-5.3.22</module>
-      <module>spring-context-5.3.22</module>
-      <module>spring-context-support-5.3.22</module>
-      <module>spring-core-5.3.22</module>
-      <module>spring-expression-5.3.22</module>
-      <module>spring-instrument-5.3.22</module>
-      <module>spring-jdbc-5.3.22</module>
-      <module>spring-jms-5.3.22</module>
-      <module>spring-messaging-5.3.22</module>
-      <module>spring-orm-5.3.22</module>
-      <module>spring-oxm-5.3.22</module>
-      <module>spring-test-5.3.22</module>
-      <module>spring-tx-5.3.22</module>
-      <module>spring-web-5.3.22</module>
-      <module>spring-webflux-5.3.22</module>
-      <module>spring-webmvc-5.3.22</module>
-      <module>spring-websocket-5.3.22</module>
-      <module>azure-core-amqp-2.6.0</module>
-      <module>hapi-fhir-structures-dstu2-6.0.4</module>
-      <module>hapi-fhir-structures-dstu2.1-6.0.4</module>
-      <module>hapi-fhir-structures-dstu3-6.0.4</module>
-      <module>hapi-fhir-structures-hl7org-dstu2-6.0.4</module>
-      <module>hapi-fhir-structures-r4-6.0.4</module>
-      <module>hapi-fhir-validation-6.0.4</module>
-      <module>azure-identity-1.5.3</module>
-      <module>esapi-2.5.0.0</module>
-      <module>google-http-client-1.42.2</module>
-      <module>azure-messaging-eventhubs-checkpointstore-blob-1.14.0</module>
-      <module>grpc-1.48.0</module>
-      <module>azure-cosmos-4.33.1</module>
-      <module>spring-data-commons-2.7.2</module>
-      <module>spring-data-keyvalue-2.7.2</module>
-      <module>spring-data-redis-2.7.2</module>
-      <module>azure-storage-file-datalake-12.11.0</module>
-      <module>pulsar-client-2.10.1</module>
-      <module>pulsar-client-admin-2.10.1</module>
-      <module>azure-storage-common-12.17.0</module>
-      <module>aws-java-sdk-1.12.269</module>
-      <module>aws-java-sdk-2.17.240</module>
-      <module>azure-messaging-servicebus-7.10.0</module>
-      <module>azure-core-http-netty-1.12.3</module>
-      <module>htmlunit-2.63.0</module>
-      <module>azure-core-1.30.0</module>
-      <module>azure-messaging-eventhubs-5.12.2</module>
-      <module>libphonenumber-8.12.52</module>
-      <module>spring-integration-core-5.5.14</module>
-      <module>opensearch-2.1.0</module>
-      <module>azure-storage-queue-12.14.0</module>
-      <module>sparkjava-core-2.9.4</module>
-      <module>antisamy-1.7.0</module>
-      <module>azure-storage-blob-12.18.0</module>
-      <module>ognl-3.3.3</module>
-      <module>asterisk-java-3.30.0</module>
     </modules>
 
 </project>
