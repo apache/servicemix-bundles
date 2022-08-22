@@ -24,13 +24,13 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>14</version>
+        <version>15</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.okhttp</artifactId>
-    <version>3.14.1_3-SNAPSHOT</version>
+    <version>3.14.9_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -39,13 +39,13 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>com.squareup.okhttp3</pkgGroupId>
         <pkgArtifactId>okhttp</pkgArtifactId>
-        <pkgVersion>3.14.1</pkgVersion>
+        <pkgVersion>3.14.9</pkgVersion>
+	<servicemix.osgi.source.version>3.14.9.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             okhttp3
         </servicemix.osgi.export.pkg>
@@ -55,7 +55,7 @@
             android.util.*;resolution:=optional,
             android.os.*;resolution:=optional,
             org.conscrypt.*;resolution:=optional,
-            javax.annotation*;version="[3.0, 4)",
+            javax.annotation*;version="[3.0,4)",
             *
         </servicemix.osgi.import.pkg>
     </properties>
