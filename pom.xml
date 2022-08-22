@@ -45,6 +45,7 @@
        <module>hadoop-client-3.3.4</module>
        <module>postgresql-42.4.2</module>
        <module>braintree-java-3.18.0</module>
+       <module>poi-5.2.2</module>
     </modules>
 
 </project>
