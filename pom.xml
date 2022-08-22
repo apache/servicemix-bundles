@@ -41,6 +41,7 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+       <module>gae-2.0.7</module>
     </modules>
 
 </project>
