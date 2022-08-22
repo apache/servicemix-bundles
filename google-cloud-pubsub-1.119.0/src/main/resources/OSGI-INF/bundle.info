@@ -1,0 +1,12 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    Google Cloud Pub / Sub is a fully-managed real-time messaging service that allows you to send and receive
+    messages between independent applications.
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttps://github.com/googleapis/java-pubsub\u001B[0m

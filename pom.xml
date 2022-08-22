@@ -47,6 +47,7 @@
        <module>braintree-java-3.18.0</module>
        <module>poi-5.2.2</module>
        <module>google-gax-grpc-2.18.1</module>
+       <module>google-cloud-pubsub-1.119.0</module>
     </modules>
 
 </project>
