@@ -87,7 +87,6 @@
         <servicemix.osgi.import.pkg>
             org.xml.sax*,
 	    org.xml.sax.ext,
-            org.w3c.dom*,
             javax.xml.*,
             org.apache.xmlbeans.*,
             org.apache.commons.collections4.*,
