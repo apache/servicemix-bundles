@@ -42,6 +42,7 @@
 
     <modules>
        <module>gae-2.0.7</module>
+       <module>hadoop-client-3.3.4</module>
     </modules>
 
 </project>
