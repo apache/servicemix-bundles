@@ -44,6 +44,7 @@
        <module>gae-2.0.7</module>
        <module>hadoop-client-3.3.4</module>
        <module>postgresql-42.4.2</module>
+       <module>braintree-java-3.18.0</module>
     </modules>
 
 </project>
