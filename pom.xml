@@ -82,6 +82,7 @@
        <module>kafka-clients-3.2.1</module>
        <module>kafka-streams-3.2.1</module>
        <module>azure-core-1.31.0</module>
+       <module>azure-messaging-eventhubs-checkpointstore-blob-1.15.0</module>
     </modules>
 
 </project>
