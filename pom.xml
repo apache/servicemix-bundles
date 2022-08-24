@@ -70,6 +70,7 @@
        <module>azure-core-amqp-2.7.0</module>
        <module>gremlin-driver-3.6.1</module>
        <module>opensearch-2.2.0</module>
+       <module>azure-messaging-servicebus-7.10.1</module>
     </modules>
 
 </project>
