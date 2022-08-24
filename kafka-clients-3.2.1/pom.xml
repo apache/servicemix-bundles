@@ -29,8 +29,8 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.kafka-streams</artifactId>
-    <version>3.2.0_2-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.kafka-clients</artifactId>
+    <version>3.2.1_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -39,22 +39,32 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>org.apache.kafka</pkgGroupId>
-        <pkgArtifactId>kafka-streams</pkgArtifactId>
-        <pkgVersion>3.2.0</pkgVersion>
-	<servicemix.osgi.source.version>3.2.0.1</servicemix.osgi.source.version>
+        <pkgArtifactId>kafka-clients</pkgArtifactId>
+        <pkgVersion>3.2.1</pkgVersion>
+	<servicemix.osgi.source.version>3.2.1.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
-            org.apache.kafka.streams
+            org.apache.kafka
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !org.apache.kafka.streams.*,
-            org.apache.kafka.*;version="[$(versionmask;==;${pkgVersion}),$(versionmask;+;${pkgVersion}))",
-            org.slf4j,
-            org.rocksdb;resolution:=optional;version="[5.7,6)"
+            javax.management.*,
+            javax.security.*,
+            javax.net.ssl.*,
+            javax.crypto.*,
+            org.ietf.jgss.*,
+            org.slf4j.*,
+            net.jpountz.*;resolution:=optional,
+            javax.xml.bind;resolution:=optional,
+            org.xerial.snappy;resolution:=optional;version="[1.1,2)",
+            sun.misc;resolution:=optional,
+            sun.nio.ch;resolution:=optional,
+            sun.security.krb5;resolution:=optional,
+            com.ibm.security.krb5.internal;resolution:=optional,
+            com.github.luben.zstd;resolution:=optional,
+            com.fasterxml.jackson*;resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
 
@@ -93,9 +103,9 @@
                             <filters>
                                 <filter>
                                     <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
-                                    <excludes>
-                                        <exclude>**/*</exclude>
-                                    </excludes>
+                                    <includes>
+                                        <include>kafka/kafka-version.properties</include>
+                                    </includes>
                                 </filter>
                             </filters>
                             <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
