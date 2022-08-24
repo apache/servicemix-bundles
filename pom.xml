@@ -68,6 +68,7 @@
        <module>spring-security-test-5.7.3</module>
        <module>spring-security-web-5.7.3</module>
        <module>azure-core-amqp-2.7.0</module>
+       <module>gremlin-driver-3.6.1</module>
     </modules>
 
 </project>

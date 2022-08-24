@@ -24,13 +24,13 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>14</version>
+        <version>15</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.gremlin-driver</artifactId>
-    <version>3.6.0_2-SNAPSHOT</version>
+    <version>3.6.1_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -39,13 +39,13 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>org.apache.tinkerpop</pkgGroupId>
         <pkgArtifactId>gremlin-driver</pkgArtifactId>
-        <pkgVersion>3.6.0</pkgVersion>
+        <pkgVersion>3.6.1</pkgVersion>
+	<servicemix.osgi.source.version>3.6.1.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             org.apache.tinkerpop.gremlin.*
         </servicemix.osgi.export.pkg>
