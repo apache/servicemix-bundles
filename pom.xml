@@ -51,6 +51,22 @@
        <module>okhttp-3.14.9</module>
        <module>google-http-client-1.41.8</module>
        <module>grpc-1.48.0</module>
+       <module>spring-security-acl-5.7.3</module>
+       <module>spring-security-aspects-5.7.3</module>
+       <module>spring-security-cas-5.7.3</module>
+       <module>spring-security-config-5.7.3</module>
+       <module>spring-security-core-5.7.3</module>
+       <module>spring-security-crypto-5.7.3</module>
+       <module>spring-security-data-5.7.3</module>
+       <module>spring-security-ldap-5.7.3</module>
+       <module>spring-security-messaging-5.7.3</module>
+       <module>spring-security-oauth2-client-5.7.3</module>
+       <module>spring-security-oauth2-core-5.7.3</module>
+       <module>spring-security-oauth2-jose-5.7.3</module>
+       <module>spring-security-remoting-5.7.3</module>
+       <module>spring-security-taglibs-5.7.3</module>
+       <module>spring-security-test-5.7.3</module>
+       <module>spring-security-web-5.7.3</module>
     </modules>
 
 </project>
