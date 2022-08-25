@@ -92,6 +92,7 @@
        <module>azure-storage-common-12.18.0</module>
        <module>avro-1.11.1</module>
        <module>avro-ipc-1.11.1</module>
+       <module>saxon-11.4</module>
     </modules>
 
 </project>
