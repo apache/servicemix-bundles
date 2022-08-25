@@ -88,6 +88,7 @@
        <module>lucene-queryparser-9.3.0</module>
        <module>lucene-sandbox-9.3.0</module>
        <module>azure-messaging-eventhubs-5.13.0</module>
+       <module>htmlunit-2.64.0</module>
     </modules>
 
 </project>
