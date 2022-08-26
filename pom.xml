@@ -97,6 +97,7 @@
        <module>azure-core-http-netty-1.12.4</module>
        <module>grpc-1.48.1</module>
        <module>azure-cosmos-4.34.0</module>
+       <module>azure-storage-file-datalake-12.12.0</module>
     </modules>
 
 </project>
