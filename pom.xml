@@ -99,6 +99,7 @@
        <module>azure-cosmos-4.34.0</module>
        <module>azure-storage-file-datalake-12.12.0</module>
        <module>libphonenumber-8.12.54</module>
+       <module>azure-storage-blob-12.19.0</module>
     </modules>
 
 </project>
