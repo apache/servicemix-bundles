@@ -94,6 +94,7 @@
        <module>avro-ipc-1.11.1</module>
        <module>saxon-11.4</module>
        <module>jruby-9.3.7.0</module>
+       <module>azure-core-http-netty-1.12.4</module>
     </modules>
 
 </project>
