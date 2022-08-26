@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.libphonenumber</artifactId>
-    <version>8.12.52_2-SNAPSHOT</version>
+    <version>8.12.54_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -39,14 +39,13 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>com.googlecode.libphonenumber</pkgGroupId>
         <pkgArtifactId>libphonenumber</pkgArtifactId>
-        <pkgVersion>8.12.52</pkgVersion>
-        <servicemix.osgi.source.version>8.12.52.1</servicemix.osgi.source.version>
+        <pkgVersion>8.12.54</pkgVersion>
+        <servicemix.osgi.source.version>8.12.54.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             com.google.i18n.phonenumbers
         </servicemix.osgi.export.pkg>

@@ -98,6 +98,7 @@
        <module>grpc-1.48.1</module>
        <module>azure-cosmos-4.34.0</module>
        <module>azure-storage-file-datalake-12.12.0</module>
+       <module>libphonenumber-8.12.54</module>
     </modules>
 
 </project>
