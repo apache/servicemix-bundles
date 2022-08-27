@@ -102,6 +102,7 @@
        <module>azure-storage-blob-12.19.0</module>
        <module>azure-storage-queue-12.14.1</module>
        <module>aws-java-sdk-2.17.25</module>
+       <module>aws-java-sdk-1.12.286</module>
     </modules>
 
 </project>
