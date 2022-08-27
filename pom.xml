@@ -101,6 +101,7 @@
        <module>libphonenumber-8.12.54</module>
        <module>azure-storage-blob-12.19.0</module>
        <module>azure-storage-queue-12.14.1</module>
+       <module>aws-java-sdk-2.17.25</module>
     </modules>
 
 </project>
