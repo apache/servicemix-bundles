@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.okhttp</artifactId>
-    <version>4.9.3_2-SNAPSHOT</version>
+    <version>4.10.0_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -45,21 +45,22 @@
     <properties>
         <pkgGroupId>com.squareup.okhttp3</pkgGroupId>
         <pkgArtifactId>okhttp</pkgArtifactId>
-        <pkgVersion>4.9.3</pkgVersion>
-        <servicemix.osgi.source.version>4.9.3.1</servicemix.osgi.source.version>
+        <pkgVersion>4.10.0</pkgVersion>
+        <servicemix.osgi.source.version>4.10.0.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             okhttp3
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            okio;version="[1.11.0,3)",
-            org.apache.http.*;resolution:=optional,
-	          org.bouncycastle.*;resolution:=optional,
-	          org.openjsse.*;resolution:=optional,
+            okio;version="[3.0.0,4)",
+            org.bouncycastle.*;resolution:=optional,
+            org.conscrypt.*;resolution:=optional,
+            org.openjsse.*;resolution:=optional,
             android.net.*;resolution:=optional,
             android.os.*;resolution:=optional,
             android.security.*;resolution:=optional,
             android.util.*;resolution:=optional,
-            org.conscrypt.*;resolution:=optional,
+            dalvik.system.*;resolution:=optional,
+            sun.security.ssl.*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
     </properties>
@@ -70,47 +71,11 @@
             <artifactId>okhttp</artifactId>
             <version>${pkgVersion}</version>
         </dependency>
-        <dependency>
-            <groupId>${pkgGroupId}</groupId>
-            <artifactId>okhttp-urlconnection</artifactId>
-            <version>${pkgVersion}</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>${pkgGroupId}</groupId>
-                    <artifactId>okhttp</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>${pkgGroupId}</groupId>
-            <artifactId>logging-interceptor</artifactId>
-            <version>${pkgVersion}</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>${pkgGroupId}</groupId>
-                    <artifactId>okhttp</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
 
         <!-- sources -->
         <dependency>
             <groupId>${pkgGroupId}</groupId>
             <artifactId>okhttp</artifactId>
-            <version>${pkgVersion}</version>
-            <classifier>sources</classifier>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>${pkgGroupId}</groupId>
-            <artifactId>okhttp-urlconnection</artifactId>
-            <version>${pkgVersion}</version>
-            <classifier>sources</classifier>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>${pkgGroupId}</groupId>
-            <artifactId>logging-interceptor</artifactId>
             <version>${pkgVersion}</version>
             <classifier>sources</classifier>
             <optional>true</optional>
@@ -132,9 +97,7 @@
                             <artifactSet>
                                 <includes>
                                     <include>${pkgGroupId}:okhttp</include>
-                                    <include>${pkgGroupId}:okhttp-urlconnection</include>
-                                    <include>${pkgGroupId}:okhttp-apache</include>
-                                    <include>${pkgGroupId}:logging-interceptor</include>
+                                    <include>${pkgGroupId}:okio-jvm</include>
                                 </includes>
                             </artifactSet>
                             <filters>
@@ -145,19 +108,7 @@
                                     </excludes>
                                 </filter>
                                 <filter>
-                                    <artifact>${pkgGroupId}:okhttp-urlconnection</artifact>
-                                    <excludes>
-                                        <exclude>**</exclude>
-                                    </excludes>
-                                </filter>
-                                <filter>
-                                    <artifact>${pkgGroupId}:okhttp-apache</artifact>
-                                    <excludes>
-                                        <exclude>**</exclude>
-                                    </excludes>
-                                </filter>
-                                <filter>
-                                    <artifact>${pkgGroupId}:logging-interceptor</artifact>
+                                    <artifact>${pkgGroupId}:okio-jvm</artifact>
                                     <excludes>
                                         <exclude>**</exclude>
                                     </excludes>
