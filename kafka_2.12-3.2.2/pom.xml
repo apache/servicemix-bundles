@@ -29,8 +29,8 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.kafka_2.13</artifactId>
-    <version>3.2.1_2-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.kafka_2.12</artifactId>
+    <version>3.2.2_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -44,9 +44,9 @@
 
     <properties>
         <pkgGroupId>org.apache.kafka</pkgGroupId>
-        <pkgArtifactId>kafka_2.13</pkgArtifactId>
-        <pkgVersion>3.2.1</pkgVersion>
-	<servicemix.osgi.source.version>3.2.1.1</servicemix.osgi.source.version>
+        <pkgArtifactId>kafka_2.12</pkgArtifactId>
+        <pkgVersion>3.2.2</pkgVersion>
+        <servicemix.osgi.source.version>3.2.2.1</servicemix.osgi.source.version>
         <servicemix.osgi.export>
             kafka*;version="${pkgVersion}";-split-package:=merge-first,
             org.apache.kafka*;version="${pkgVersion}";-split-package:=merge-first
