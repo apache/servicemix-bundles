@@ -103,6 +103,10 @@
        <module>azure-storage-queue-12.14.1</module>
        <module>aws-java-sdk-2.17.25</module>
        <module>aws-java-sdk-1.12.286</module>
+       <module>kafka_2.12-2.8.2</module>
+       <module>kafka_2.13-2.8.2</module>
+       <module>kafka-clients-2.8.2</module>
+       <module>kafka-streams-2.8.2</module>
     </modules>
 
 </project>
