@@ -41,6 +41,7 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+			<module>poi-5.2.2</module>
     </modules>
 
 </project>
