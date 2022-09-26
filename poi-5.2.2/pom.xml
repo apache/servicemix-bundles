@@ -86,7 +86,7 @@
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             org.xml.sax*,
-	    org.xml.sax.ext,
+						org.xml.sax.ext,
             javax.xml.*,
             org.apache.xmlbeans.*,
             org.apache.commons.collections4.*,
@@ -97,8 +97,9 @@
             org.apache.jcp.xml.dsig.internal.dom;resolution:=optional,
             org.apache.xml.security.*;resolution:=optional,
             org.apache.batik.*;resolution:=optional,
-		javax.imageio.*;resolution:=optional,
-		org.apache.xmlbeans.impl.schema*
+						javax.imageio.*;resolution:=optional,
+						org.apache.xmlbeans.impl.schema*,
+						org.w3c.dom*;resolution:=optional
         </servicemix.osgi.import.pkg>
         <servicemix.osgi.private.pkg>
             com.graphbuilder*;-split-package:=merge-first,
