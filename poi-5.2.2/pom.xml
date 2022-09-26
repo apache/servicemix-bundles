@@ -92,6 +92,7 @@
             org.apache.commons.collections4.*,
             org.apache.commons.math3.*,
             org.apache.commons.compress.*,
+            org.apache.logging.*,
             org.bouncycastle.*;resolution:=optional,
             org.apache.jcp.xml.dsig.internal.dom;resolution:=optional,
             org.apache.xml.security.*;resolution:=optional,
@@ -258,34 +259,44 @@
                                 <excludes>
                                     <exclude>*:*:*:sources</exclude>
                                     <exclude>${project.groupId}:${project.artifactId}:*:sources</exclude>
+                                    <exclude>org.apache.logging.log4j:*</exclude>
                                 </excludes>
                             </artifactSet>
                             <filters>
-                                <filter>
+                               <filter>
                                     <artifact>${pkgGroupId}:poi</artifact>
-                                    <excludes>
-                                        <exclude>**</exclude>
-                                    </excludes>
-                                </filter>
+                                    <includes>
+                                        <include>META-INF/services/**</include>
+                                    </includes>
+                               </filter>
                                 <filter>
                                     <artifact>${pkgGroupId}:poi-scratchpad</artifact>
-                                    <excludes>
-                                        <exclude>**</exclude>
-                                    </excludes>
+                                    <includes>
+                                        <include>META-INF/services/**</include>
+                                    </includes>
                                 </filter>
                                 <filter>
                                     <artifact>${pkgGroupId}:poi-ooxml</artifact>
-                                    <excludes>
-                                        <exclude>**</exclude>
-                                    </excludes>
+                                    <includes>
+                                        <include>META-INF/services/**</include>
+                                    </includes>
+                                </filter>
+								<filter>
+                                    <artifact>${pkgGroupId}:poi-ooxml-lite</artifact>
+                                    <includes>
+                                        <include>META-INF/services/**</include>
+                                    </includes>
                                 </filter>
                                 <filter>
                                     <artifact>com.github.virtuald:curvesapi</artifact>
-                                    <excludes>
-                                        <exclude>**</exclude>
-                                    </excludes>
+                                    <includes>
+                                        <include>META-INF/services/**</include>
+                                    </includes>
                                 </filter>
                             </filters>
+                            <transformers>
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
+                            </transformers>
                             <promoteTransitiveDependencies>false</promoteTransitiveDependencies>
                             <createDependencyReducedPom>false</createDependencyReducedPom>
                         </configuration>
