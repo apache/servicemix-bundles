@@ -41,68 +41,6 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
-       <module>gae-2.0.7</module>
-       <module>hadoop-client-3.3.4</module>
-       <module>postgresql-42.4.2</module>
-       <module>braintree-java-3.18.0</module>
-       <module>poi-5.2.2</module>
-       <module>google-gax-grpc-2.18.1</module>
-       <module>google-cloud-pubsub-1.119.0</module>
-       <module>okhttp-3.14.9</module>
-       <module>google-http-client-1.41.8</module>
-       <module>grpc-1.48.0</module>
-       <module>spring-security-acl-5.7.3</module>
-       <module>spring-security-aspects-5.7.3</module>
-       <module>spring-security-cas-5.7.3</module>
-       <module>spring-security-config-5.7.3</module>
-       <module>spring-security-core-5.7.3</module>
-       <module>spring-security-crypto-5.7.3</module>
-       <module>spring-security-data-5.7.3</module>
-       <module>spring-security-ldap-5.7.3</module>
-       <module>spring-security-messaging-5.7.3</module>
-       <module>spring-security-oauth2-client-5.7.3</module>
-       <module>spring-security-oauth2-core-5.7.3</module>
-       <module>spring-security-oauth2-jose-5.7.3</module>
-       <module>spring-security-remoting-5.7.3</module>
-       <module>spring-security-taglibs-5.7.3</module>
-       <module>spring-security-test-5.7.3</module>
-       <module>spring-security-web-5.7.3</module>
-       <module>azure-core-amqp-2.7.0</module>
-       <module>gremlin-driver-3.6.1</module>
-       <module>opensearch-2.2.0</module>
-       <module>azure-messaging-servicebus-7.10.1</module>
-       <module>hapi-fhir-structures-dstu2.1-6.1.0</module>
-       <module>hapi-fhir-structures-dstu2-6.1.0</module>
-       <module>hapi-fhir-structures-dstu3-6.1.0</module>
-       <module>hapi-fhir-structures-hl7org-dstu2-6.1.0</module>
-       <module>hapi-fhir-structures-r4-6.1.0</module>
-       <module>hapi-fhir-validation-6.1.0</module>
-       <module>kafka_2.12-3.2.1</module>
-       <module>kafka_2.13-3.2.1</module>
-       <module>kafka-clients-3.2.1</module>
-       <module>kafka-streams-3.2.1</module>
-       <module>azure-core-1.31.0</module>
-       <module>azure-messaging-eventhubs-checkpointstore-blob-1.15.0</module>
-       <module>lucene-9.3.0</module>
-       <module>lucene-queries-9.3.0</module>
-       <module>lucene-queryparser-9.3.0</module>
-       <module>lucene-sandbox-9.3.0</module>
-       <module>azure-messaging-eventhubs-5.13.0</module>
-       <module>htmlunit-2.64.0</module>
-       <module>azure-storage-common-12.18.0</module>
-       <module>avro-1.11.1</module>
-       <module>avro-ipc-1.11.1</module>
-       <module>saxon-11.4</module>
-       <module>jruby-9.3.7.0</module>
-       <module>azure-core-http-netty-1.12.4</module>
-       <module>grpc-1.48.1</module>
-       <module>azure-cosmos-4.34.0</module>
-       <module>azure-storage-file-datalake-12.12.0</module>
-       <module>libphonenumber-8.12.54</module>
-       <module>azure-storage-blob-12.19.0</module>
-       <module>azure-storage-queue-12.14.1</module>
-       <module>aws-java-sdk-2.17.25</module>
-       <module>aws-java-sdk-1.12.286</module>
     </modules>
 
 </project>
