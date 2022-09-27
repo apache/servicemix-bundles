@@ -50,6 +50,7 @@
 			<module>kafka_2.13-3.2.3</module>
 			<module>kafka-clients-3.2.3</module>
 			<module>kafka-streams-3.2.3</module>
+			<module>opensearch-2.3.0</module>
     </modules>
 
 </project>
