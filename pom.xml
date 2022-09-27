@@ -51,6 +51,7 @@
 			<module>kafka-clients-3.2.3</module>
 			<module>kafka-streams-3.2.3</module>
 			<module>opensearch-2.3.0</module>
+			<module>aws-java-sdk-1.12.310</module>
     </modules>
 
 </project>
