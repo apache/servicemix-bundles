@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.google-cloud-pubsub</artifactId>
-    <version>1.119.0_2-SNAPSHOT</version>
+    <version>1.120.18_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: Google Cloud PubSub</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar files.</description>
@@ -39,14 +39,13 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>com.google.cloud</pkgGroupId>
         <pkgArtifactId>google-cloud-pubsub</pkgArtifactId>
-        <pkgVersion>1.119.0</pkgVersion>
-        <servicemix.osgi.source.version>1.119.0.1</servicemix.osgi.source.version>
+        <pkgVersion>1.120.18</pkgVersion>
+        <servicemix.osgi.source.version>1.120.18.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
            com.google.cloud.pubsub*,
            com.google.pubsub*
