@@ -74,6 +74,12 @@
 			<module>spring-websocket-5.3.23</module>
 			<module>libphonenumber-8.12.56</module>
 			<module>commons-compiler-3.1.8</module>
+			<module>hapi-fhir-structures-dstu2.1-6.1.1</module>
+			<module>hapi-fhir-structures-dstu2-6.1.1</module>
+			<module>hapi-fhir-structures-dstu3-6.1.1</module>
+			<module>hapi-fhir-structures-hl7org-dstu2-6.1.1</module>
+			<module>hapi-fhir-structures-r4-6.1.1</module>
+			<module>hapi-fhir-validation-6.1.1</module>
     </modules>
 
 </project>
