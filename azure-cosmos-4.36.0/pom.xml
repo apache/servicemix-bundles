@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.azure-cosmos</artifactId>
-    <version>4.34.0_2-SNAPSHOT</version>
+    <version>4.36.0_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -39,14 +39,13 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>com.azure</pkgGroupId>
         <pkgArtifactId>azure-cosmos</pkgArtifactId>
-        <pkgVersion>4.34.0</pkgVersion>
-	<servicemix.osgi.source.version>4.34.0.1</servicemix.osgi.source.version>
+        <pkgVersion>4.36.0</pkgVersion>
+	<servicemix.osgi.source.version>4.36.0.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
           com.azure.cosmos
         </servicemix.osgi.export.pkg>
