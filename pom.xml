@@ -102,6 +102,7 @@
 			<module>azure-cosmos-4.36.0</module>
 			<module>janino-3.1.8</module>
 			<module>poi-5.2.3</module>
+			<module>jruby-9.3.8.0</module>
     </modules>
 
 </project>
