@@ -96,6 +96,7 @@
 			<module>azure-messaging-eventhubs-checkpointstore-blob-1.15.1</module>
 			<module>spring-batch-core-4.3.7</module>
 			<module>spring-batch-infrastructure-4.3.7</module>
+			<module>postgresql-42.5.0</module>
     </modules>
 
 </project>
