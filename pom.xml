@@ -97,6 +97,7 @@
 			<module>spring-batch-core-4.3.7</module>
 			<module>spring-batch-infrastructure-4.3.7</module>
 			<module>postgresql-42.5.0</module>
+			<module>azure-core-amqp-2.7.1</module>
     </modules>
 
 </project>
