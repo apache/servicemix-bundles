@@ -93,6 +93,7 @@
 			<module>aws-java-sdk-2.17.281</module>
 			<module>libthrift-0.17.0</module>
 			<module>gae-2.0.8</module>
+			<module>azure-messaging-eventhubs-checkpointstore-blob-1.15.1</module>
     </modules>
 
 </project>
