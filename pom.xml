@@ -92,6 +92,7 @@
 			<module>google-cloud-pubsub-1.120.18</module>
 			<module>aws-java-sdk-2.17.281</module>
 			<module>libthrift-0.17.0</module>
+			<module>gae-2.0.8</module>
     </modules>
 
 </project>
