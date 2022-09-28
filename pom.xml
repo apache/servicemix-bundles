@@ -83,6 +83,9 @@
 			<module>azure-core-1.32.0</module>
 			<module>azure-messaging-eventhubs-5.13.1</module>
 			<module>splunk-1.9.1</module>
+			<module>spring-data-commons-2.7.3</module>
+			<module>spring-data-keyvalue-2.7.3</module>
+			<module>spring-data-redis-2.7.3</module>
     </modules>
 
 </project>
