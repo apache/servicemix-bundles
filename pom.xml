@@ -87,6 +87,7 @@
 			<module>spring-data-keyvalue-2.7.3</module>
 			<module>spring-data-redis-2.7.3</module>
 			<module>antisamy-1.7.1</module>
+			<module>snmp4j-3.7.1</module>
     </modules>
 
 </project>
