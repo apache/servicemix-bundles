@@ -82,6 +82,7 @@
 			<module>hapi-fhir-validation-6.1.1</module>
 			<module>azure-core-1.32.0</module>
 			<module>azure-messaging-eventhubs-5.13.1</module>
+			<module>splunk-1.9.1</module>
     </modules>
 
 </project>
