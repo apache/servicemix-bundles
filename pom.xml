@@ -91,6 +91,7 @@
 			<module>ognl-3.3.4</module>
 			<module>google-cloud-pubsub-1.120.18</module>
 			<module>aws-java-sdk-2.17.281</module>
+			<module>libthrift-0.17.0</module>
     </modules>
 
 </project>
