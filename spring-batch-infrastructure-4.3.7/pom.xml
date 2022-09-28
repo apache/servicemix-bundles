@@ -29,8 +29,8 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.spring-batch-core</artifactId>
-    <version>4.3.6_2-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.spring-batch-infrastructure</artifactId>
+    <version>4.3.7_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
 
@@ -38,102 +38,84 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>org.springframework.batch</pkgGroupId>
-        <pkgArtifactId>spring-batch-core</pkgArtifactId>
-        <pkgVersion>4.3.6</pkgVersion>
-        <servicemix.osgi.source.version>4.3.6.1</servicemix.osgi.source.version>
+        <pkgArtifactId>spring-batch-infrastructure</pkgArtifactId>
+        <pkgVersion>4.3.7</pkgVersion>
+        <servicemix.osgi.source.version>4.3.7.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
-            org.springframework.batch.core
+            org.springframework.batch
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            com.fasterxml.jackson.core.type;resolution:=optional,
-            com.fasterxml.jackson.databind;resolution:=optional,
-            com.thoughtworks.xstream;resolution:=optional, 
-            com.thoughtworks.xstream.converters.reflection;resolution:=optional, 
-            com.thoughtworks.xstream.io;resolution:=optional, 
-            com.thoughtworks.xstream.io.json;resolution:=optional, 
-            javax.annotation, 
-            javax.batch.api;resolution:=optional, 
+            com.ibatis.sqlmap.client;resolution:=optional, 
+            com.ibatis.sqlmap.engine.execution;resolution:=optional, 
+            com.mongodb;resolution:=optional, 
+            com.mongodb.util;resolution:=optional, 
             javax.batch.api.chunk;resolution:=optional, 
-            javax.batch.api.chunk.listener;resolution:=optional, 
-            javax.batch.api.listener;resolution:=optional, 
-            javax.batch.api.partition;resolution:=optional, 
             javax.batch.operations;resolution:=optional, 
-            javax.batch.runtime;resolution:=optional, 
-            javax.batch.runtime.context;resolution:=optional, 
+            javax.jms, 
+            javax.mail.internet;resolution:=optional, 
+            javax.persistence;resolution:=optional, 
             javax.sql, 
+            javax.xml.namespace, 
+            javax.xml.stream, 
+            javax.xml.stream.events, 
+            javax.xml.transform, 
             org.aopalliance.aop;resolution:=optional, 
             org.aopalliance.intercept;resolution:=optional, 
             org.apache.commons.logging;resolution:=optional, 
-            org.aspectj.lang.annotation;resolution:=optional, 
+            org.codehaus.jackson;resolution:=optional, 
+            org.codehaus.jackson.map;resolution:=optional, 
+            org.hibernate;resolution:=optional, 
+            org.slf4j;resolution:=optional, 
+            org.springframework.amqp.core;resolution:=optional, 
             org.springframework.aop;resolution:=optional, 
             org.springframework.aop.framework;resolution:=optional, 
-            org.springframework.aop.scope;resolution:=optional, 
             org.springframework.aop.support;resolution:=optional, 
-            org.springframework.aop.target;resolution:=optional, 
-            org.springframework.batch.item;resolution:=optional, 
-            org.springframework.batch.item.adapter;resolution:=optional, 
-            org.springframework.batch.item.database.support;resolution:=optional, 
-            org.springframework.batch.item.support;resolution:=optional, 
-            org.springframework.batch.item.util;resolution:=optional, 
-            org.springframework.batch.jsr.item;resolution:=optional, 
-            org.springframework.batch.jsr.repeat;resolution:=optional, 
-            org.springframework.batch.repeat;resolution:=optional, 
-            org.springframework.batch.repeat.context;resolution:=optional, 
-            org.springframework.batch.repeat.exception;resolution:=optional, 
-            org.springframework.batch.repeat.policy;resolution:=optional, 
-            org.springframework.batch.repeat.support;resolution:=optional, 
-            org.springframework.batch.support;resolution:=optional, 
-            org.springframework.batch.support.transaction;resolution:=optional, 
             org.springframework.beans;resolution:=optional, 
             org.springframework.beans.factory;resolution:=optional, 
-            org.springframework.beans.factory.access;resolution:=optional, 
-            org.springframework.beans.factory.annotation;resolution:=optional, 
-            org.springframework.beans.factory.config;resolution:=optional, 
-            org.springframework.beans.factory.parsing;resolution:=optional, 
-            org.springframework.beans.factory.support;resolution:=optional, 
-            org.springframework.beans.factory.xml;resolution:=optional, 
             org.springframework.classify;resolution:=optional, 
-            org.springframework.context;resolution:=optional, 
-            org.springframework.context.access;resolution:=optional, 
-            org.springframework.context.annotation;resolution:=optional, 
-            org.springframework.context.event;resolution:=optional, 
-            org.springframework.context.expression;resolution:=optional, 
-            org.springframework.context.support;resolution:=optional, 
             org.springframework.core;resolution:=optional, 
             org.springframework.core.annotation;resolution:=optional, 
-            org.springframework.core.env;resolution:=optional, 
+            org.springframework.core.convert.converter;resolution:=optional, 
             org.springframework.core.io;resolution:=optional, 
-            org.springframework.core.serializer;resolution:=optional, 
-            org.springframework.core.task;resolution:=optional,  
-            org.springframework.core.type;resolution:=optional, 
+            org.springframework.core.task;resolution:=optional, 
             org.springframework.dao;resolution:=optional, 
+            org.springframework.data.domain;resolution:=optional, 
+            org.springframework.data.gemfire;resolution:=optional, 
+            org.springframework.data.mongodb.core;resolution:=optional, 
+            org.springframework.data.mongodb.core.query;resolution:=optional, 
+            org.springframework.data.neo4j.conversion;resolution:=optional, 
+            org.springframework.data.neo4j.template;resolution:=optional, 
+            org.springframework.data.repository;resolution:=optional, 
+            org.springframework.expression;resolution:=optional, 
+            org.springframework.expression.spel.standard;resolution:=optional, 
+            org.springframework.jdbc;resolution:=optional, 
             org.springframework.jdbc.core;resolution:=optional, 
-            org.springframework.jdbc.core.simple;resolution:=optional, 
+            org.springframework.jdbc.core.metadata;resolution:=optional, 
+            org.springframework.jdbc.core.namedparam;resolution:=optional, 
             org.springframework.jdbc.datasource;resolution:=optional, 
+            org.springframework.jdbc.support;resolution:=optional, 
             org.springframework.jdbc.support.incrementer;resolution:=optional, 
-            org.springframework.jdbc.support.lob;resolution:=optional, 
-            org.springframework.retry;resolution:=optional, 
-            org.springframework.retry.backoff;resolution:=optional, 
-            org.springframework.retry.context;resolution:=optional, 
-            org.springframework.retry.listener;resolution:=optional, 
-            org.springframework.retry.policy;resolution:=optional, 
-            org.springframework.retry.support;resolution:=optional, 
-            org.springframework.scheduling.concurrent;resolution:=optional, 
-            org.springframework.stereotype;resolution:=optional, 
+            org.springframework.jms;resolution:=optional, 
+            org.springframework.jms.core;resolution:=optional, 
+            org.springframework.ldap.core;resolution:=optional, 
+            org.springframework.ldap.ldif.parser;resolution:=optional, 
+            org.springframework.mail;resolution:=optional, 
+            org.springframework.mail.javamail;resolution:=optional, 
+            org.springframework.orm.hibernate3;resolution:=optional, 
+            org.springframework.orm.jpa;resolution:=optional, 
+            org.springframework.oxm;resolution:=optional, 
+            org.springframework.retry.interceptor;resolution:=optional, 
+            org.springframework.scripting;resolution:=optional, 
+            org.springframework.scripting.support;resolution:=optional, 
             org.springframework.transaction;resolution:=optional, 
-            org.springframework.transaction.annotation;resolution:=optional, 
-            org.springframework.transaction.interceptor;resolution:=optional, 
             org.springframework.transaction.support;resolution:=optional, 
             org.springframework.util;resolution:=optional, 
             org.springframework.util.xml;resolution:=optional, 
-            org.w3c.dom;resolution:=optional, 
-            org.w3c.dom.ls;resolution:=optional, 
-            org.w3c.dom.traversal;resolution:=optional
+            org.springframework.validation;resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
 
@@ -173,13 +155,9 @@
                             <filters>
                                 <filter>
                                     <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
-                                    <includes>
-                                        <include>**/*.properties</include>
-                                        <include>**/*.xsd</include>
-                                        <include>**/*.xml</include>
-                                        <include>**/*.sql</include>
-                                        <include>META-INF/**/*</include>
-                                    </includes>
+                                    <excludes>
+                                        <exclude>**/*</exclude>
+                                    </excludes>
                                 </filter>
                             </filters>
                             <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
