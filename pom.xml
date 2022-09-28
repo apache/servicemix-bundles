@@ -90,6 +90,7 @@
 			<module>snmp4j-3.7.1</module>
 			<module>ognl-3.3.4</module>
 			<module>google-cloud-pubsub-1.120.18</module>
+			<module>aws-java-sdk-2.17.281</module>
     </modules>
 
 </project>
