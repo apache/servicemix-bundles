@@ -107,6 +107,7 @@
 			<module>xsdlib-2022.7</module>
 			<module>azure-messaging-servicebus-7.11.0</module>
 			<module>batik-1.15</module>
+			<module>spring-integration-core-5.5.15</module>
     </modules>
 
 </project>

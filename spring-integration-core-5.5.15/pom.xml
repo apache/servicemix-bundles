@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.spring-integration-core</artifactId>
-    <version>5.5.14_2-SNAPSHOT</version>
+    <version>5.5.15_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -39,14 +39,13 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>org.springframework.integration</pkgGroupId>
         <pkgArtifactId>spring-integration-core</pkgArtifactId>
-        <pkgVersion>5.5.14</pkgVersion>
-        <servicemix.osgi.source.version>5.5.14.1</servicemix.osgi.source.version>
+        <pkgVersion>5.5.15</pkgVersion>
+        <servicemix.osgi.source.version>5.5.15.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             org.springframework.integration
         </servicemix.osgi.export.pkg>
