@@ -108,6 +108,7 @@
 			<module>azure-messaging-servicebus-7.11.0</module>
 			<module>batik-1.15</module>
 			<module>spring-integration-core-5.5.15</module>
+			<module>google-gax-grpc-2.19.1</module>
     </modules>
 
 </project>
