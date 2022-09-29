@@ -24,13 +24,13 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>10</version>
+        <version>15</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.xsdlib</artifactId>
-    <version>2013.6.1_2-SNAPSHOT</version>
+    <version>2022.7_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -38,7 +38,7 @@
     <properties>
         <pkgGroupId>net.java.dev.msv</pkgGroupId>
         <pkgArtifactId>xsdlib</pkgArtifactId>
-        <pkgVersion>2013.6.1</pkgVersion>
+        <pkgVersion>2022.7</pkgVersion>
         <servicemix.osgi.import.pkg>
             org.relaxng*
         </servicemix.osgi.import.pkg>

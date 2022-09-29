@@ -104,6 +104,7 @@
 			<module>poi-5.2.3</module>
 			<module>jruby-9.3.8.0</module>
 			<module>grpc-1.49.1</module>
+			<module>xsdlib-2022.7</module>
     </modules>
 
 </project>
