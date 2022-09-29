@@ -41,7 +41,6 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
-			<module>poi-5.2.2</module>
 			<module>kafka_2.12-2.8.2</module>
 			<module>kafka_2.13-2.8.2</module>
 			<module>kafka-clients-2.8.2</module>
