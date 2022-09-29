@@ -112,6 +112,7 @@
 			<module>xmlbeans-5.1.1</module>
 			<module>stringtemplate-4.3.4</module>
 			<module>asterisk-java-3.31.0</module>
+			<module>okhttp-4.10.0</module>
     </modules>
 
 </project>
