@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.xsdlib</artifactId>
-    <version>2022.7_1-SNAPSHOT</version>
+    <version>2022.7_1</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -114,4 +114,8 @@
             </plugin>
         </plugins>
     </build>
+
+  <scm>
+    <tag>org.apache.servicemix.bundles.xsdlib-2022.7_1</tag>
+  </scm>
 </project>
