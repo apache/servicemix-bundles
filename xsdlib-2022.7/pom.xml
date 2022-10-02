@@ -30,15 +30,22 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.xsdlib</artifactId>
-    <version>2022.7_1</version>
+    <version>2022.7_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
+
+    <scm>
+        <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
+        <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
+        <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
+    </scm>
 
     <properties>
         <pkgGroupId>net.java.dev.msv</pkgGroupId>
         <pkgArtifactId>xsdlib</pkgArtifactId>
         <pkgVersion>2022.7</pkgVersion>
+				<servicemix.osgi.source.version>2022.7.1</servicemix.osgi.source.version>
         <servicemix.osgi.import.pkg>
             org.relaxng*
         </servicemix.osgi.import.pkg>
