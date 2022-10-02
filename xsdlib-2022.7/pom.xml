@@ -122,7 +122,4 @@
         </plugins>
     </build>
 
-  <scm>
-    <tag>org.apache.servicemix.bundles.xsdlib-2022.7_1</tag>
-  </scm>
 </project>
