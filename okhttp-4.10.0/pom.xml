@@ -51,10 +51,10 @@
             okhttp3
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            okio;version="[1.11.0,3)",
+            okio;version="[3.0.0,4)",
             org.apache.http.*;resolution:=optional,
-	          org.bouncycastle.*;resolution:=optional,
-	          org.openjsse.*;resolution:=optional,
+            org.bouncycastle.*;resolution:=optional,
+            org.openjsse.*;resolution:=optional,
             android.net.*;resolution:=optional,
             android.os.*;resolution:=optional,
             android.security.*;resolution:=optional,
