@@ -88,6 +88,7 @@
 			<module>fastjson-2.0.17</module>
 			<module>asterisk-java-3.34.0</module>
 			<module>google-http-client-1.42.3</module>
+			<module>aws-java-sdk-2.18.7</module>
     </modules>
 
 </project>
