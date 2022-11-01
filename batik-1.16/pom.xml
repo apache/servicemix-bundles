@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.batik</artifactId>
-    <version>1.15_2-SNAPSHOT</version>
+    <version>1.16_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: batik</name>
     <description>This OSGi bundle wraps batik-bridge, batik-extension, batik-svggen, batik-transcoder ${pkgVersion} jar files.</description>
@@ -44,8 +44,8 @@
 
     <properties>
         <pkgGroupId>org.apache.xmlgraphics</pkgGroupId>
-        <pkgVersion>1.15</pkgVersion>
-				<servicemix.osgi.source.version>1.15.1</servicemix.osgi.source.version>
+        <pkgVersion>1.16</pkgVersion>
+				<servicemix.osgi.source.version>1.16.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             org.apache.batik
         </servicemix.osgi.export.pkg>
