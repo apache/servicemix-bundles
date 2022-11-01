@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.fastjson</artifactId>
-    <version>2.0.4_2-SNAPSHOT</version>
+    <version>2.0.17_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -39,16 +39,15 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>com.alibaba</pkgGroupId>
         <pkgArtifactId>fastjson</pkgArtifactId>
-        <pkgVersion>2.0.4</pkgVersion>
-        <servicemix.osgi.source.version>2.0.4.1</servicemix.osgi.source.version>
+        <pkgVersion>2.0.17</pkgVersion>
+        <servicemix.osgi.source.version>2.0.17.1</servicemix.osgi.source.version>
         <servicemix.osgi.export>
-          com.alibaba.fastjson*;version=2.0.4;-split-package:=merge-first
+          com.alibaba.fastjson*;version=2.0.17;-split-package:=merge-first
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
         </servicemix.osgi.import.pkg>
