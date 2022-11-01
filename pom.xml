@@ -54,6 +54,22 @@
 			<module>lucene-sandbox-9.4.1</module>
 			<module>aws-java-sdk-1.12.332</module>
 			<module>azure-storage-blob-12.20.0</module>
+			<module>spring-security-acl-5.7.5</module>
+			<module>spring-security-aspects-5.7.5</module>
+			<module>spring-security-cas-5.7.5</module>
+			<module>spring-security-config-5.7.5</module>
+			<module>spring-security-core-5.7.5</module>
+			<module>spring-security-crypto-5.7.5</module>
+			<module>spring-security-data-5.7.5</module>
+			<module>spring-security-ldap-5.7.5</module>
+			<module>spring-security-messaging-5.7.5</module>
+			<module>spring-security-oauth2-client-5.7.5</module>
+			<module>spring-security-oauth2-core-5.7.5</module>
+			<module>spring-security-oauth2-jose-5.7.5</module>
+			<module>spring-security-remoting-5.7.5</module>
+			<module>spring-security-taglibs-5.7.5</module>
+			<module>spring-security-test-5.7.5</module>
+			<module>spring-security-web-5.7.5</module>
     </modules>
 
 </project>
