@@ -78,6 +78,7 @@
 			<module>hapi-fhir-validation-6.1.3</module>
 			<module>azure-messaging-eventhubs-checkpointstore-blob-1.16.0</module>
 			<module>grpc-1.50.2</module>
+			<module>jruby-9.3.9.0</module>
     </modules>
 
 </project>
