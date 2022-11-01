@@ -84,6 +84,7 @@
 			<module>spring-data-redis-2.7.5</module>
 			<module>pulsar-client-2.10.2</module>
 			<module>pulsar-client-admin-2.10.2</module>
+			<module>snmp4j-3.7.3</module>
     </modules>
 
 </project>
