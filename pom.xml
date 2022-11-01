@@ -87,6 +87,7 @@
 			<module>snmp4j-3.7.3</module>
 			<module>fastjson-2.0.17</module>
 			<module>asterisk-java-3.34.0</module>
+			<module>google-http-client-1.42.3</module>
     </modules>
 
 </project>
