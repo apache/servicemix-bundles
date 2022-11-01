@@ -48,6 +48,10 @@
       <module>kafka_2.12-3.3.1</module>
       <module>kafka_2.13-3.3.1</module>
 			<module>azure-storage-common-12.19.0</module>
+			<module>lucene-9.4.1</module>
+			<module>lucene-queries-9.4.1</module>
+			<module>lucene-queryparser-9.4.1</module>
+			<module>lucene-sandbox-9.4.1</module>
     </modules>
 
 </project>
