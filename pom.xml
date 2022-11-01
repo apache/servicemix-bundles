@@ -52,6 +52,7 @@
 			<module>lucene-queries-9.4.1</module>
 			<module>lucene-queryparser-9.4.1</module>
 			<module>lucene-sandbox-9.4.1</module>
+			<module>aws-java-sdk-1.12.332</module>
     </modules>
 
 </project>
