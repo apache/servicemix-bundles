@@ -76,6 +76,7 @@
 			<module>hapi-fhir-structures-hl7org-dstu2-6.1.3</module>
 			<module>hapi-fhir-structures-r4-6.1.3</module>
 			<module>hapi-fhir-validation-6.1.3</module>
+			<module>azure-messaging-eventhubs-checkpointstore-blob-1.16.0</module>
     </modules>
 
 </project>
