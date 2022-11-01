@@ -53,6 +53,7 @@
 			<module>lucene-queryparser-9.4.1</module>
 			<module>lucene-sandbox-9.4.1</module>
 			<module>aws-java-sdk-1.12.332</module>
+			<module>azure-storage-blob-12.20.0</module>
     </modules>
 
 </project>
