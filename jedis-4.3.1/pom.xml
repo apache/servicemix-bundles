@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.jedis</artifactId>
-    <version>4.2.3_2-SNAPSHOT</version>
+    <version>4.3.1_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps the ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -39,14 +39,13 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>redis.clients</pkgGroupId>
         <pkgArtifactId>jedis</pkgArtifactId>
-        <pkgVersion>4.2.3</pkgVersion>
-        <servicemix.osgi.source.version>4.2.3.1</servicemix.osgi.source.version>
+        <pkgVersion>4.3.1</pkgVersion>
+        <servicemix.osgi.source.version>4.3.1.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             redis.clients
         </servicemix.osgi.export.pkg>
