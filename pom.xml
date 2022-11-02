@@ -90,6 +90,7 @@
 			<module>google-http-client-1.42.3</module>
 			<module>aws-java-sdk-2.18.7</module>
       <module>gae-2.0.9</module>
+      <module>azure-core-http-netty-1.12.6</module>
     </modules>
 
 </project>
