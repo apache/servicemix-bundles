@@ -96,6 +96,7 @@
       <module>azure-core-1.33.0</module>
       <module>azure-messaging-eventhubs-5.14.0</module>
       <module>google-cloud-pubsub-1.120.24</module>
+      <module>azure-storage-file-datalake-12.13.0</module>
     </modules>
 
 </project>
