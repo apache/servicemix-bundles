@@ -100,6 +100,7 @@
       <module>twitter4j-4.1.2</module>
       <module>azure-storage-queue-12.15.0</module>
       <module>htmlunit-2.66.0</module>
+      <module>google-gax-grpc-2.19.4</module>
     </modules>
 
 </project>
