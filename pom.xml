@@ -103,6 +103,7 @@
       <module>google-gax-grpc-2.19.4</module>
       <module>azure-messaging-servicebus-7.12.1</module>
       <module>azure-cosmos-4.38.1</module>
+      <module>azure-core-amqp-2.7.2</module>
     </modules>
 
 </project>
