@@ -93,6 +93,7 @@
       <module>azure-core-http-netty-1.12.6</module>
       <module>jedis-4.3.1</module>
       <module>libphonenumber-8.12.57</module>
+      <module>azure-core-1.33.0</module>
     </modules>
 
 </project>
