@@ -94,6 +94,7 @@
       <module>jedis-4.3.1</module>
       <module>libphonenumber-8.12.57</module>
       <module>azure-core-1.33.0</module>
+      <module>azure-messaging-eventhubs-5.14.0</module>
     </modules>
 
 </project>
