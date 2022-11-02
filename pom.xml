@@ -92,6 +92,7 @@
       <module>gae-2.0.9</module>
       <module>azure-core-http-netty-1.12.6</module>
       <module>jedis-4.3.1</module>
+      <module>libphonenumber-8.12.57</module>
     </modules>
 
 </project>
