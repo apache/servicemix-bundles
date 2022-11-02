@@ -97,6 +97,7 @@
       <module>azure-messaging-eventhubs-5.14.0</module>
       <module>google-cloud-pubsub-1.120.24</module>
       <module>azure-storage-file-datalake-12.13.0</module>
+      <module>twitter4j-4.1.2</module>
     </modules>
 
 </project>
