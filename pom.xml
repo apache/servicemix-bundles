@@ -104,6 +104,7 @@
       <module>azure-messaging-servicebus-7.12.1</module>
       <module>azure-cosmos-4.38.1</module>
       <module>azure-core-amqp-2.7.2</module>
+      <module>opensaml-3.4.6</module>
     </modules>
 
 </project>

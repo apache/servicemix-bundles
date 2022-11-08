@@ -1,0 +1,1 @@
+These are scripts that can be used to help sync the OpenSAML stuff from the Shibboleth repo to central.  They download the artifacts, strip the repositories entries out, double check that the dependencies can be found, then prepares things for staging. 
