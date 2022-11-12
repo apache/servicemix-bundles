@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>14</version>
+        <version>15</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
@@ -39,13 +39,13 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>org.opensaml</pkgGroupId>
         <pkgArtifactId>opensaml</pkgArtifactId>
         <pkgVersion>3.4.6</pkgVersion>
+				<servicemix.osgi.source.version>3.4.6.1</servicemix.osgi.source.version>
         <servicemix.osgi.export>
              org.opensaml*;version="${pkgVersion}";-split-package:=merge-first,
              net.shibboleth.utilities*;version="${pkgVersion}";-split-package:=merge-first
