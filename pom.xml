@@ -60,6 +60,7 @@
       <module>spring-webflux-5.3.24</module>
       <module>spring-webmvc-5.3.24</module>
       <module>spring-websocket-5.3.24</module>
+      <module>dnsjava-3.5.2</module>
     </modules>
 
 </project>
