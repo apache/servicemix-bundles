@@ -61,6 +61,7 @@
       <module>spring-webmvc-5.3.24</module>
       <module>spring-websocket-5.3.24</module>
       <module>dnsjava-3.5.2</module>
+      <module>azure-core-http-okhttp-1.11.4</module>
     </modules>
 
 </project>
