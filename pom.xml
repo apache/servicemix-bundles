@@ -65,6 +65,7 @@
       <module>solr-solrj-9.1.0</module>
       <module>docker-java-3.2.14</module>
       <module>splunk-1.9.2</module>
+      <module>xmlgraphics-commons-2.8</module>
     </modules>
 
 </project>
