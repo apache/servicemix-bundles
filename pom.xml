@@ -71,6 +71,7 @@
 			<module>janino-3.1.9</module>
 			<module>braintree-java-3.19.0</module>
 			<module>azure-cosmos-4.39.0</module>
+			<module>azure-messaging-servicebus-7.13.0</module>
     </modules>
 
 </project>
