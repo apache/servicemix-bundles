@@ -79,6 +79,7 @@
 			<module>aws-java-sdk-2.18.24</module>
 			<module>asterisk-java-3.37.0</module>
 			<module>snmp4j-3.7.4</module>
+			<module>jruby-9.4.0.0</module>
     </modules>
 
 </project>

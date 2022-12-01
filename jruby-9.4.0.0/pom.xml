@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.jruby</artifactId>
-    <version>9.3.9.0_2-SNAPSHOT</version>
+    <version>9.4.0.0_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -39,14 +39,13 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>org.jruby</pkgGroupId>
         <pkgArtifactId>jruby</pkgArtifactId>
-        <pkgVersion>9.3.9.0</pkgVersion>
-	      <servicemix.osgi.source.version>9.3.9.0.1</servicemix.osgi.source.version>
+        <pkgVersion>9.4.0.0</pkgVersion>
+	      <servicemix.osgi.source.version>9.4.0.0.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             org.jruby
         </servicemix.osgi.export.pkg>
