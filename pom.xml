@@ -72,6 +72,7 @@
 			<module>braintree-java-3.19.0</module>
 			<module>azure-cosmos-4.39.0</module>
 			<module>azure-messaging-servicebus-7.13.0</module>
+			<module>google-gax-grpc-2.19.5</module>
     </modules>
 
 </project>
