@@ -81,6 +81,7 @@
 			<module>snmp4j-3.7.4</module>
 			<module>jruby-9.4.0.0</module>
 			<module>grpc-1.51.0</module>
+			<module>azure-storage-blob-12.20.1</module>
     </modules>
 
 </project>
