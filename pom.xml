@@ -76,6 +76,7 @@
 			<module>htmlunit-2.67.0</module>
 			<module>libphonenumber-8.13.1</module>
 			<module>azure-core-http-netty-1.12.7</module>
+			<module>aws-java-sdk-2.18.24</module>
     </modules>
 
 </project>
