@@ -69,6 +69,7 @@
 			<module>azure-identity-1.7.1</module>
 			<module>opensearch-2.4.0</module>
 			<module>janino-3.1.9</module>
+			<module>braintree-java-3.19.0</module>
     </modules>
 
 </project>
