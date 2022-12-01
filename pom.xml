@@ -66,6 +66,7 @@
       <module>docker-java-3.2.14</module>
       <module>splunk-1.9.2</module>
       <module>xmlgraphics-commons-2.8</module>
+			<module>azure-identity-1.7.1</module>
     </modules>
 
 </project>
