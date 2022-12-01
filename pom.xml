@@ -78,6 +78,7 @@
 			<module>azure-core-http-netty-1.12.7</module>
 			<module>aws-java-sdk-2.18.24</module>
 			<module>asterisk-java-3.37.0</module>
+			<module>snmp4j-3.7.4</module>
     </modules>
 
 </project>
