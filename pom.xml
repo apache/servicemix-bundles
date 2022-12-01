@@ -67,6 +67,7 @@
       <module>splunk-1.9.2</module>
       <module>xmlgraphics-commons-2.8</module>
 			<module>azure-identity-1.7.1</module>
+			<module>opensearch-2.4.0</module>
     </modules>
 
 </project>
