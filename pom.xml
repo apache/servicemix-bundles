@@ -75,6 +75,7 @@
 			<module>google-gax-grpc-2.19.5</module>
 			<module>htmlunit-2.67.0</module>
 			<module>libphonenumber-8.13.1</module>
+			<module>azure-core-http-netty-1.12.7</module>
     </modules>
 
 </project>
