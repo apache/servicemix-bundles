@@ -87,6 +87,7 @@
 			<module>azure-core-1.34.0</module>
 			<module>postgresql-42.5.1</module>
 			<module>gae-2.0.10</module>
+			<module>google-cloud-pubsub-1.121.1</module>
     </modules>
 
 </project>
