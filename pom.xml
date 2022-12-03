@@ -105,6 +105,10 @@
       <module>lucene-queries-9.4.2</module>
       <module>lucene-queryparser-9.4.2</module>
       <module>lucene-sandbox-9.4.2</module>
+      <module>spring-ws-core-4.0.0</module>
+      <module>spring-ws-security-4.0.0</module>
+      <module>spring-ws-support-4.0.0</module>
+      <module>spring-ws-test-4.0.0</module>
     </modules>
 
 </project>
