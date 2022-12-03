@@ -24,13 +24,13 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>13</version>
+        <version>15</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.spring-xml</artifactId>
-    <version>2.4.2.RELEASE_2-SNAPSHOT</version>
+    <version>4.0.0_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
 
@@ -38,13 +38,13 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-      <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>org.springframework.ws</pkgGroupId>
         <pkgArtifactId>spring-xml</pkgArtifactId>
-        <pkgVersion>2.4.2.RELEASE</pkgVersion>
+        <pkgVersion>4.0.0</pkgVersion>
+        <servicemix.osgi.source.version>4.0.0.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             org.springframework.xml
         </servicemix.osgi.export.pkg>
@@ -65,13 +65,13 @@
             org.apache.ws.commons.schema.resolver;resolution:=optional, 
             org.jaxen;resolution:=optional, 
             org.jaxen.dom;resolution:=optional, 
-            org.springframework.beans;version="[4,5)";resolution:=optional, 
-            org.springframework.beans.factory;version="[4,5)";resolution:=optional, 
-            org.springframework.context;version="[4,5)";resolution:=optional, 
-            org.springframework.core;version="[4,5)";resolution:=optional, 
-            org.springframework.core.io;version="[4,5)";resolution:=optional, 
-            org.springframework.util;version="[4,5)";resolution:=optional, 
-            org.springframework.util.xml;version="[4,5)";resolution:=optional, 
+            org.springframework.beans;version="[6,7)";resolution:=optional, 
+            org.springframework.beans.factory;version="[6,7)";resolution:=optional, 
+            org.springframework.context;version="[6,7)";resolution:=optional, 
+            org.springframework.core;version="[6,7)";resolution:=optional, 
+            org.springframework.core.io;version="[6,7)";resolution:=optional, 
+            org.springframework.util;version="[6,7)";resolution:=optional, 
+            org.springframework.util.xml;version="[6,7)";resolution:=optional, 
             org.w3c.dom;resolution:=optional, 
             org.xml.sax;resolution:=optional, 
             org.xml.sax.ext;resolution:=optional, 
