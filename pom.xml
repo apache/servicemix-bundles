@@ -111,6 +111,7 @@
       <module>spring-ws-test-4.0.0</module>
       <module>commons-compiler-3.1.9</module>
       <module>azure-core-amqp-2.8.0</module>
+      <module>elasticsearch-java-8.5.2</module>
     </modules>
 
 </project>
