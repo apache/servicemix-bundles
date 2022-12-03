@@ -95,6 +95,7 @@
       <module>azure-storage-file-datalake-12.13.1</module>
       <module>azure-storage-common-12.19.1</module>
       <module>azure-storage-queue-12.15.1</moddule>
+      <module>azure-messaging-eventhubs-5.15.0</module>
     </modules>
 
 </project>
