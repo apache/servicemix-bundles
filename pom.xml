@@ -89,6 +89,9 @@
 			<module>gae-2.0.10</module>
 			<module>google-cloud-pubsub-1.121.1</module>
 			<module>antisamy-1.7.2</module>
+      <module>spring-data-commons-3.0.0</module>
+      <module>spring-data-keyvalue-3.0.0</module>
+      <module>spring-data-redis-3.0.0</module>
     </modules>
 
 </project>
