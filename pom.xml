@@ -109,6 +109,7 @@
       <module>spring-ws-security-4.0.0</module>
       <module>spring-ws-support-4.0.0</module>
       <module>spring-ws-test-4.0.0</module>
+      <module>commons-compiler-3.1.9</module>
     </modules>
 
 </project>

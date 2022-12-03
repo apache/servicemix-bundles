@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.commons-compiler</artifactId>
-    <version>3.1.8_2-SNAPSHOT</version>
+    <version>3.1.9_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -39,14 +39,13 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
-				<servicemix.osgi.source.version>3.1.8.1</servicemix.osgi.source.version>
+				<servicemix.osgi.source.version>3.1.9.1</servicemix.osgi.source.version>
         <pkgGroupId>org.codehaus.janino</pkgGroupId>
         <pkgArtifactId>commons-compiler</pkgArtifactId>
-        <pkgVersion>3.1.8</pkgVersion>
+        <pkgVersion>3.1.9</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.codehaus.commons.compiler
         </servicemix.osgi.export.pkg>
