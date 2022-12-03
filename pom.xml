@@ -92,6 +92,7 @@
       <module>spring-data-commons-3.0.0</module>
       <module>spring-data-keyvalue-3.0.0</module>
       <module>spring-data-redis-3.0.0</module>
+      <module>azure-storage-file-datalake-12.13.1</module>
     </modules>
 
 </project>
