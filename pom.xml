@@ -153,6 +153,20 @@
 			<module>spring-webflux-6.0.2</module>
 			<module>spring-webmvc-6.0.2</module>
 			<module>spring-websocket-6.0.2</module>
+			<module>spring-security-acl-6.0.0</module>
+			<module>spring-security-aspects-6.0.0</module>
+			<module>spring-security-config-6.0.0</module>
+			<module>spring-security-core-6.0.0</module>
+			<module>spring-security-crypto-6.0.0</module>
+			<module>spring-security-data-6.0.0</module>
+			<module>spring-security-ldap-6.0.0</module>
+			<module>spring-security-messaging-6.0.0</module>
+			<module>spring-security-oauth2-client-6.0.0</module>
+			<module>spring-security-oauth2-core-6.0.0</module>
+			<module>spring-security-oauth2-jose-6.0.0</module>
+			<module>spring-security-taglibs-6.0.0</module>
+			<module>spring-security-test-6.0.0</module>
+			<module>spring-security-web-6.0.0</module>
     </modules>
 
 </project>
