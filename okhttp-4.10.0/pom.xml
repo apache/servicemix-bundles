@@ -52,7 +52,6 @@
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             okio;version="[3.0.0,4)",
-            org.apache.http.*;resolution:=optional,
             org.bouncycastle.*;resolution:=optional,
             org.openjsse.*;resolution:=optional,
             android.net.*;resolution:=optional,
@@ -133,7 +132,6 @@
                                 <includes>
                                     <include>${pkgGroupId}:okhttp</include>
                                     <include>${pkgGroupId}:okhttp-urlconnection</include>
-                                    <include>${pkgGroupId}:okhttp-apache</include>
                                     <include>${pkgGroupId}:logging-interceptor</include>
                                 </includes>
                             </artifactSet>
@@ -146,12 +144,6 @@
                                 </filter>
                                 <filter>
                                     <artifact>${pkgGroupId}:okhttp-urlconnection</artifact>
-                                    <excludes>
-                                        <exclude>**</exclude>
-                                    </excludes>
-                                </filter>
-                                <filter>
-                                    <artifact>${pkgGroupId}:okhttp-apache</artifact>
                                     <excludes>
                                         <exclude>**</exclude>
                                     </excludes>
