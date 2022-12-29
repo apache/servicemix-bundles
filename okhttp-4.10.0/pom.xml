@@ -59,6 +59,7 @@
             android.security.*;resolution:=optional,
             android.util.*;resolution:=optional,
             org.conscrypt.*;resolution:=optional,
+            dalvik.system.*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
     </properties>
