@@ -45,7 +45,7 @@
     <properties>
         <pkgGroupId>com.thoughtworks.xstream</pkgGroupId>
         <pkgArtifactId>xstream</pkgArtifactId>
-        <pkgVersion>1.4.19</pkgVersion>
+        <pkgVersion>1.4.20</pkgVersion>
         <servicemix.osgi.export.pkg>
             com.thoughtworks.xstream
         </servicemix.osgi.export.pkg>
