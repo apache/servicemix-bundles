@@ -47,6 +47,7 @@
       <module>thymeleaf-3.1.1.RELEASE</module>
       <module>grpc-1.51.1</module>
       <module>elasticsearch-java-8.5.3</module>
+      <module>google-cloud-pubsub-1.122.2</module>
     </modules>
 
 </project>
