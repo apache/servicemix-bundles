@@ -52,6 +52,7 @@
       <module>fastjson-2.0.22</module>
       <module>htmlunit-2.68.0</module>
       <module>splunk-1.9.3</module>
+      <module>xstream-1.4.20</module>
     </modules>
 
 </project>
