@@ -53,6 +53,7 @@
       <module>htmlunit-2.68.0</module>
       <module>splunk-1.9.3</module>
       <module>xstream-1.4.20</module>
+      <module>esapi-2.5.1.0</module>
     </modules>
 
 </project>
