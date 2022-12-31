@@ -50,6 +50,7 @@
       <module>google-cloud-pubsub-1.122.2</module>
       <module>aspectj-1.9.19</module>
       <module>fastjson-2.0.22</module>
+      <module>htmlunit-2.68.0</module>
     </modules>
 
 </project>
