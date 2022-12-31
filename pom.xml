@@ -43,6 +43,7 @@
     <modules>
       <module>google-gax-grpc-2.20.1</module>
       <module>libphonenumber-8.13.3</module>
+      <module>opensearch-2.4.1</module>
     </modules>
 
 </project>
