@@ -46,6 +46,7 @@
       <module>opensearch-2.4.1</module>
       <module>thymeleaf-3.1.1.RELEASE</module>
       <module>grpc-1.51.1</module>
+      <module>elasticsearch-java-8.5.3</module>
     </modules>
 
 </project>
