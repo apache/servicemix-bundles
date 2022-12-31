@@ -167,6 +167,7 @@
 			<module>spring-security-taglibs-6.0.0</module>
 			<module>spring-security-test-6.0.0</module>
 			<module>spring-security-web-6.0.0</module>
+      <module>google-gax-grpc-2.20.1</module>
     </modules>
 
 </project>
