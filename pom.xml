@@ -54,6 +54,7 @@
       <module>splunk-1.9.3</module>
       <module>xstream-1.4.20</module>
       <module>esapi-2.5.1.0</module>
+      <module>aws-java-sdk-1.12.376</module>
     </modules>
 
 </project>
