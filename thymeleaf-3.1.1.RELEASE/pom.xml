@@ -24,12 +24,12 @@
   <parent>
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>bundles-pom</artifactId>
-    <version>14</version>
+    <version>15</version>
     <relativePath>../bundles-pom/pom.xml</relativePath>
   </parent>
 
   <artifactId>org.apache.servicemix.bundles.thymeleaf</artifactId>
-  <version>3.0.15.RELEASE_2-SNAPSHOT</version>
+  <version>3.1.1.RELEASE_1-SNAPSHOT</version>
   <packaging>bundle</packaging>
   <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
   <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -38,13 +38,13 @@
     <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
     <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
     <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
   <properties>
     <pkgGroupId>org.thymeleaf</pkgGroupId>
     <pkgArtifactId>thymeleaf</pkgArtifactId>
-    <pkgVersion>3.0.15.RELEASE</pkgVersion>
+    <pkgVersion>3.1.1.RELEASE</pkgVersion>
+    <servicemix.osgi.source.version>3.1.1.1</servicemix.osgi.source.version>
     <servicemix.osgi.export.pkg>
       org.thymeleaf
     </servicemix.osgi.export.pkg>
