@@ -49,6 +49,7 @@
       <module>elasticsearch-java-8.5.3</module>
       <module>google-cloud-pubsub-1.122.2</module>
       <module>aspectj-1.9.19</module>
+      <module>fastjson-2.0.22</module>
     </modules>
 
 </project>
