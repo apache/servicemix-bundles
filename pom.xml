@@ -51,6 +51,7 @@
       <module>aspectj-1.9.19</module>
       <module>fastjson-2.0.22</module>
       <module>htmlunit-2.68.0</module>
+      <module>splunk-1.9.3</module>
     </modules>
 
 </project>
