@@ -39,18 +39,19 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>com.squareup.okio</pkgGroupId>
         <pkgArtifactId>okio</pkgArtifactId>
         <pkgVersion>3.2.0</pkgVersion>
-	<servicemix.osgi.source.version>3.2.0.1</servicemix.osgi.source.version>
+	      <servicemix.osgi.source.version>3.2.0.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             okio
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
+            !okio*,
+            kotlin*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
     </properties>

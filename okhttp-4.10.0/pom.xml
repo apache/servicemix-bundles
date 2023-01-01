@@ -39,7 +39,6 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
@@ -51,6 +50,7 @@
             okhttp3
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
+            !okhttp3*,
             okio;version="[3.0.0,4)",
             org.apache.http.*;resolution:=optional,
             org.bouncycastle.*;resolution:=optional,
@@ -60,6 +60,9 @@
             android.security.*;resolution:=optional,
             android.util.*;resolution:=optional,
             org.conscrypt.*;resolution:=optional,
+            kotlin*;resolution:=optional,
+            sun.security.ssl;resolution:=optional,
+            dalvik.system;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
     </properties>
