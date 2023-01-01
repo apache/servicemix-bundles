@@ -56,6 +56,12 @@
       <module>esapi-2.5.1.0</module>
       <module>aws-java-sdk-1.12.376</module>
       <module>aws-java-sdk-1.12.376</module>
+      <module>hapi-fhir-structures-dstu2-6.2.2</module>
+      <module>hapi-fhir-structures-dstu2.1-6.2.2</module>
+      <module>hapi-fhir-structures-dstu3-6.2.2</module>
+      <module>hapi-fhir-structures-hl7org-dstu2-6.2.2</modulee>
+      <module>hapi-fhir-structures-r4-6.2.2</module>
+      <module>hapi-fhir-validation-6.2.2</module>
     </modules>
 
 </project>
