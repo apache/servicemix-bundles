@@ -45,7 +45,7 @@
   </scm>
 
     <properties>
-	<pkgVersion>2.4.1</pkgVersion>
+	<pkgVersion>2.5.0</pkgVersion>
 	<servicemix.osgi.source.version>2.4.1.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
 		org.opensearch
