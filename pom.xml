@@ -48,6 +48,7 @@
       <module>kafka_2.12-3.3.2</module>
       <module>kafka_2.13-3.3.2</module>
       <module>azure-messaging-eventhubs-5.15.1</module>
+      <module>htmlunit-2.70.0</module>
     </modules>
 
 </project>
