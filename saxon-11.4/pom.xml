@@ -68,6 +68,7 @@
             com.saxonica.stream;resolution:=optional,
             org.apache.xml.resolver,
             org.apache.xml.resolver.helpers,
+            org.xmlresolver*,
             org.w3c.dom,
             org.xml.sax,
             org.xml.sax.ext,

@@ -42,6 +42,7 @@
 
     <modules>
       <module>xmlresolver-4.4.3</module>
+      <module>saxon-11.4</module>
     </modules>
 
 </project>
