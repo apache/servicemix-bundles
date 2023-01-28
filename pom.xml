@@ -53,6 +53,7 @@
       <module>okio-3.3.0</module>
       <module>google-gax-grpc-2.22.0</module>
       <module>ant-1.10.13</module>
+      <module>opensearch-2.5.0</module>
     </modules>
 
 </project>
