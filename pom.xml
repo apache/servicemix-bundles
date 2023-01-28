@@ -51,6 +51,7 @@
       <module>htmlunit-2.70.0</module>
       <module>fastjson-2.0.23</module>
       <module>okio-3.3.0</module>
+      <module>google-gax-grpc-2.22.0</module>
     </modules>
 
 </project>
