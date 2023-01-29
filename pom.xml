@@ -85,6 +85,9 @@
       <module>spring-ws-security-4.0.1</module>
       <module>spring-ws-support-4.0.1</module>
       <module>spring-ws-test-4.0.1</module>
+      <module>spring-data-commons-3.0.1</module>
+      <module>spring-data-keyvalue-3.0.1</module>
+      <module>spring-data-redis-3.0.1</module>
     </modules>
 
 </project>
