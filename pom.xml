@@ -64,6 +64,7 @@
       <module>google-cloud-pubsub-1.123.1</module>
       <module>aws-java-sdk-1.12.394</module>
       <module>dom4j-2.1.4</module>
+      <module>elasticsearch-java-8.6.1</module>
     </modules>
 
 </project>
