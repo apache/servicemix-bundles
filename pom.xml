@@ -70,6 +70,7 @@
       <module>libphonenumber-8.13.5</module>
       <module>azure-messaging-servicebus-7.13.1</module>
       <module>azure-storage-queue-12.15.2</module>
+      <module>saxon-12.0</module>
     </modules>
 
 </project>
