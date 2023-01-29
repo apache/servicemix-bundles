@@ -57,6 +57,7 @@
       <module>azure-core-http-netty-1.12.8</module>
       <module>braintree-java-3.20.0</module>
       <module>spring-ldap-3.0.0</module>
+      <module>spring-integration-core-6.0.2</module>
     </modules>
 
 </project>
