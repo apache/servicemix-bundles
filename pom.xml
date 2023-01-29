@@ -59,6 +59,7 @@
       <module>spring-ldap-3.0.0</module>
       <module>spring-integration-core-6.0.2</module>
       <module>grpc-1.52.1</module>
+      <module>azure-cosmos-4.40.0</module>
     </modules>
 
 </project>
