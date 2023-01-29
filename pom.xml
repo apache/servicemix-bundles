@@ -75,6 +75,7 @@
       <module>azure-storage-file-datalake-12.13.2</module>
       <module>spring-xml-4.0.1</module>
       <module>gremlin-driver-3.6.2</module>
+      <module>solr-solrj-9.1.1</module>
     </modules>
 
 </project>
