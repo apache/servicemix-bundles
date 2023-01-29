@@ -29,8 +29,8 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.pulsar-client</artifactId>
-    <version>2.10.2_2-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.pulsar-client-admin</artifactId>
+    <version>2.11.0_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -39,28 +39,18 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>org.apache.pulsar</pkgGroupId>
-        <pkgArtifactId>pulsar-client</pkgArtifactId>
-        <pkgVersion>2.10.2</pkgVersion>
-        <servicemix.osgi.source.version>2.10.2.1</servicemix.osgi.source.version>
+        <pkgArtifactId>pulsar-client-admin</pkgArtifactId>
+        <pkgVersion>2.11.0</pkgVersion>
+        <servicemix.osgi.source.version>2.11.0.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
-            com.scurrilous.circe.*,
-            avro.*,
-            org.apache.avro.*,
-            org.apache.pulsar,
-            org.apache.pulsar.*
+            org.apache.pulsar
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            javax.security.cert,
-            org.slf4j,
-            javax.naming,javax.net.ssl,
-            net.jpountz.lz4;resolution:=optional,
-            org.w3c.dom,
-            io.airlift.compress.*;resolution:=optional
+
         </servicemix.osgi.import.pkg>
     </properties>
 
