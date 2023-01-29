@@ -67,6 +67,7 @@
       <module>elasticsearch-java-8.6.1</module>
       <module>pulsar-client-2.11.0</module>
       <module>pulsar-client-admin-2.11.0</module>
+      <module>libphonenumber-8.13.5</module>
     </modules>
 
 </project>
