@@ -73,6 +73,7 @@
       <module>saxon-12.0</module>
       <module>azure-storage-common-12.19.2</module>
       <module>azure-storage-file-datalake-12.13.2</module>
+      <module>spring-xml-4.0.1</module>
     </modules>
 
 </project>
