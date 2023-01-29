@@ -69,6 +69,7 @@
       <module>pulsar-client-admin-2.11.0</module>
       <module>libphonenumber-8.13.5</module>
       <module>azure-messaging-servicebus-7.13.1</module>
+      <module>azure-storage-queue-12.15.2</module>
     </modules>
 
 </project>
