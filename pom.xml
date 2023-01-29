@@ -78,6 +78,7 @@
       <module>solr-solrj-9.1.1</module>
       <module>freemarker-2.3.32</module>
       <module>azure-core-amqp-2.8.1</module>
+      <module>azure-messaging-eventhubs-checkpointstore-blob-1.16.2</module>
     </modules>
 
 </project>
