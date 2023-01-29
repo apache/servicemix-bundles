@@ -81,6 +81,10 @@
       <module>azure-messaging-eventhubs-checkpointstore-blob-1.16.2</module>
       <module>aws-java-sdk-2.19.25</module>
       <module>azure-core-1.35.0</module>
+      <module>spring-ws-core-4.0.1</module>
+      <module>spring-ws-security-4.0.1</module>
+      <module>spring-ws-support-4.0.1</module>
+      <module>spring-ws-test-4.0.1</module>
     </modules>
 
 </project>
