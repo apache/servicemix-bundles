@@ -77,6 +77,7 @@
       <module>gremlin-driver-3.6.2</module>
       <module>solr-solrj-9.1.1</module>
       <module>freemarker-2.3.32</module>
+      <module>azure-core-amqp-2.8.1</module>
     </modules>
 
 </project>
