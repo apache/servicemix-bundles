@@ -63,6 +63,7 @@
       <module>azure-storage-blob-12.20.2</module>
       <module>google-cloud-pubsub-1.123.1</module>
       <module>aws-java-sdk-1.12.394</module>
+      <module>dom4j-2.1.4</module>
     </modules>
 
 </project>
