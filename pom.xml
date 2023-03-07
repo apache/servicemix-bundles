@@ -68,6 +68,10 @@
 			<module>spring-webflux-6.0.6</module>
 			<module>spring-webmvc-6.0.6</module>
 			<module>spring-websocket-6.0.6</module>
+			<module>spring-ws-core-4.0.2</module>
+			<module>spring-ws-security-4.0.2</module>
+			<module>spring-ws-support-4.0.2</module>
+			<module>spring-ws-test-4.0.2</module>
     </modules>
 
 </project>
