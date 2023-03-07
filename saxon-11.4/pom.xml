@@ -39,14 +39,13 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>net.sf.saxon</pkgGroupId>
         <pkgArtifactId>Saxon-HE</pkgArtifactId>
         <pkgVersion>11.4</pkgVersion>
-	<servicemix.osgi.source.version>11.4.1</servicemix.osgi.source.version>
+	<servicemix.osgi.source.version>11.4.3</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             net.sf.saxon
         </servicemix.osgi.export.pkg>
@@ -66,8 +65,6 @@
             javax.xml.xquery;resolution:=optional,
             com.saxonica.functions.map;resolution:=optional,
             com.saxonica.stream;resolution:=optional,
-            org.apache.xml.resolver,
-            org.apache.xml.resolver.helpers,
             org.xmlresolver*,
             org.w3c.dom,
             org.xml.sax,
