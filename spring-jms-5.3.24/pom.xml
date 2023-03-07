@@ -85,6 +85,7 @@
             org.springframework.core.annotation;version="[${pkgVersion},5.4)",
             org.springframework.core.convert;version="[${pkgVersion},5.4)",
             org.springframework.core.convert.support;version="[${pkgVersion},5.4)",
+            org.springframework.core.log;version="[${pkgVersion},5.4)",
             org.springframework.core.task;version="[${pkgVersion},5.4)",
             org.springframework.expression;version="[${pkgVersion},5.4)",
             org.springframework.expression.spel;version="[${pkgVersion},5.4)",
