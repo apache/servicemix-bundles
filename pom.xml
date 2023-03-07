@@ -45,6 +45,10 @@
 			<module>saxon-11.4</module>
 			<module>saxon-12.0</module>
 			<module>elasticsearch-java-7.17.9</module>
+			<module>kafka-clients-3.4.0</module>
+			<module>kafka-streams-3.4.0</module>
+			<module>kafka_2.12-3.4.0</module>
+			<module>kafka_2.13-3.4.0</module>
     </modules>
 
 </project>
