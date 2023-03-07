@@ -72,6 +72,7 @@
 			<module>spring-ws-security-4.0.2</module>
 			<module>spring-ws-support-4.0.2</module>
 			<module>spring-ws-test-4.0.2</module>
+			<module>opensearch-2.6.0</module>
     </modules>
 
 </project>
