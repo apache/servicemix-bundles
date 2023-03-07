@@ -78,6 +78,7 @@
 			<module>azure-cosmos-4.41.0</module>
 			<module>mybatis-3.5.12</module>
       <module>braintree-java-3.21.0</module>
+      <module>libthrift-0.18.1</module>
     </modules>
 
 </project>
