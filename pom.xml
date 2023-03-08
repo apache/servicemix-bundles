@@ -98,6 +98,9 @@
 			<module>spring-security-test-6.0.2</module>
 			<module>spring-security-web-6.0.2</module>
 			<module>gae-2.0.11</module>
+			<module>spring-data-commons-3.0.3</module>
+			<module>spring-data-keyvalue-3.0.3</module>
+			<module>spring-data-redis-3.0.3</module>
     </modules>
 
 </project>
