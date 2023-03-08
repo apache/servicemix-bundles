@@ -102,6 +102,7 @@
 			<module>spring-data-keyvalue-3.0.3</module>
 			<module>spring-data-redis-3.0.3</module>
 			<module>google-gax-grpc-2.23.2</module>
+			<module>libphonenumber-8.13.7</module>
     </modules>
 
 </project>
