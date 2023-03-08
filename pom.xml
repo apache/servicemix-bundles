@@ -79,6 +79,10 @@
 			<module>mybatis-3.5.12</module>
       <module>braintree-java-3.21.0</module>
       <module>libthrift-0.18.1</module>
+			<module>lucene-9.5.0</module>
+			<module>lucene-queries-9.5.0</module>
+			<module>lucene-queryparser-9.5.0</module>
+			<module>lucene-sandbox-9.5.0</module>
     </modules>
 
 </project>
