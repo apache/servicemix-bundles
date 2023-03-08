@@ -97,6 +97,7 @@
 			<module>spring-security-taglibs-6.0.2</module>
 			<module>spring-security-test-6.0.2</module>
 			<module>spring-security-web-6.0.2</module>
+			<module>gae-2.0.11</module>
     </modules>
 
 </project>
