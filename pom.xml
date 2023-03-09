@@ -104,6 +104,7 @@
 			<module>google-gax-grpc-2.23.2</module>
 			<module>libphonenumber-8.13.7</module>
 			<module>aws-java-sdk-1.12.420</module>
+			<module>aws-java-sdk-2.20.17</module>
     </modules>
 
 </project>
