@@ -124,6 +124,12 @@
 			<module>spring-webflux-5.3.25</module>
 			<module>spring-webmvc-5.3.25</module>
 			<module>spring-websocket-5.3.25</module>
+			<module>hapi-fhir-structures-dstu2-6.4.2</module>
+			<module>hapi-fhir-structures-dstu2.1-6.4.2</module>
+			<module>hapi-fhir-structures-dstu3-6.4.2</module>
+			<module>hapi-fhir-structures-hl7org-dstu2-6.4.2</module>
+			<module>hapi-fhir-structures-r4-6.4.2</module>
+			<module>hapi-fhir-validation-6.4.2</module>
     </modules>
 
 </project>

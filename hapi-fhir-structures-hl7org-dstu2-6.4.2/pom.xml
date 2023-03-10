@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.hapi-fhir-structures-hl7org-dstu2</artifactId>
-    <version>6.2.5_1-SNAPSHOT</version>
+    <version>6.4.2_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -44,8 +44,8 @@
     <properties>
         <pkgGroupId>ca.uhn.hapi.fhir</pkgGroupId>
         <pkgArtifactId>hapi-fhir-structures-hl7org-dstu2</pkgArtifactId>
-        <pkgVersion>6.2.5</pkgVersion>
-	      <servicemix.osgi.source.version>6.2.5.1</servicemix.osgi.source.version>
+        <pkgVersion>6.4.2</pkgVersion>
+	      <servicemix.osgi.source.version>6.4.2.1</servicemix.osgi.source.version>
         <servicemix.osgi.import.pkg>
 		javax.servlet;resolution:=optional,
 		javax.servlet.http;resolution:=optional,
