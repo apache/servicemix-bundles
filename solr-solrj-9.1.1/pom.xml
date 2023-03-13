@@ -62,6 +62,7 @@
             org.apache.http*,
             org.apache.noggit;resolution:=optional,
             org.apache.zookeeper*;resolution:=optional,
+            org.eclipse.jetty*;resolution:=optional,
             org.noggit;resolution:=optional,
             org.slf4j;resolution:=optional
         </servicemix.osgi.import.pkg>
