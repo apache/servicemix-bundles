@@ -44,7 +44,7 @@
     <properties>
         <pkgGroupId>org.springframework</pkgGroupId>
         <pkgArtifactId>spring-expression</pkgArtifactId>
-        <pkgVersion>5.0.20.RELEASE</pkgVersion>
+        <pkgVersion>5.2.20.RELEASE</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.springframework
         </servicemix.osgi.export.pkg>
