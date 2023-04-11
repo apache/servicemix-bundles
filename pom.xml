@@ -97,6 +97,7 @@
 			<module>spring-webflux-6.0.7</module>
 			<module>spring-webmvc-6.0.7</module>
 			<module>spring-websocket-6.0.7</module>
+			<module>solr-solrj-9.2.0</module>
     </modules>
 
 </project>
