@@ -116,6 +116,7 @@
 			<module>postgresql-42.6.0</module>
 			<module>grpc-1.54.0</module>
 			<module>zookeeper-3.8.1</module>
+			<module>snmp4j-3.7.7</module>
     </modules>
 
 </project>
