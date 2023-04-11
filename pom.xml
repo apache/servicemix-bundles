@@ -117,6 +117,7 @@
 			<module>grpc-1.54.0</module>
 			<module>zookeeper-3.8.1</module>
 			<module>snmp4j-3.7.7</module>
+			<module>google-cloud-pubsub-1.123.8</module>
     </modules>
 
 </project>
