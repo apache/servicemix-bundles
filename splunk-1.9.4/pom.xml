@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.splunk</artifactId>
-    <version>1.9.3_2-SNAPSHOT</version>
+    <version>1.9.4_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -39,14 +39,13 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>com.splunk</pkgGroupId>
         <pkgArtifactId>splunk</pkgArtifactId>
-        <pkgVersion>1.9.3</pkgVersion>
-				<servicemix.osgi.source.version>1.9.3.1</servicemix.osgi.source.version>
+        <pkgVersion>1.9.4</pkgVersion>
+				<servicemix.osgi.source.version>1.9.4.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             com.splunk
         </servicemix.osgi.export.pkg>
