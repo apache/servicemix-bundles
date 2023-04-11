@@ -115,6 +115,7 @@
 			<module>gae-2.0.12</module>
 			<module>postgresql-42.6.0</module>
 			<module>grpc-1.54.0</module>
+			<module>zookeeper-3.8.1</module>
     </modules>
 
 </project>
