@@ -105,6 +105,7 @@
 			<module>hapi-fhir-structures-r4-6.4.4</module>
 			<module>hapi-fhir-validation-6.4.4</module>
 			<module>google-gax-grpc-2.24.0</module>
+			<module>jt400-11.2</module>
     </modules>
 
 </project>
