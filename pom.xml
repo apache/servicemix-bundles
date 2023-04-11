@@ -126,6 +126,7 @@
 			<module>elasticsearch-java-8.7.0</module>
 			<module>mybatis-3.5.13</module>
 			<module>jruby-9.4.2.0</module>
+			<module>xmlresolver-5.1.2</module>
     </modules>
 
 </project>
