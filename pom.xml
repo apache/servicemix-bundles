@@ -109,6 +109,9 @@
 			<module>spring-xml-4.0.2</module>
 			<module>saxon-12.1</module>
 			<module>splunk-1.9.4</module>
+			<module>spring-data-commons-3.0.4</module>
+			<module>spring-data-keyvalue-3.0.4</module>
+			<module>spring-data-redis-3.0.4</module>
     </modules>
 
 </project>
