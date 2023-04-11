@@ -78,6 +78,25 @@
 			<module>spring-webflux-5.3.26</module>
 			<module>spring-webmvc-5.3.26</module>
 			<module>spring-websocket-5.3.26</module>
+			<module>spring-aop-6.0.7</module>
+			<module>spring-aspects-6.0.7</module>
+			<module>spring-beans-6.0.7</module>
+			<module>spring-context-6.0.7</module>
+			<module>spring-context-support-6.0.7</module>
+			<module>spring-core-6.0.7</module>
+			<module>spring-expression-6.0.7</module>
+			<module>spring-instrument-6.0.7</module>
+			<module>spring-jdbc-6.0.7</module>
+			<module>spring-jms-6.0.7</module>
+			<module>spring-messaging-6.0.7</module>
+			<module>spring-orm-6.0.7</module>
+			<module>spring-oxm-6.0.7</module>
+			<module>spring-test-6.0.7</module>
+			<module>spring-tx-6.0.7</module>
+			<module>spring-web-6.0.7</module>
+			<module>spring-webflux-6.0.7</module>
+			<module>spring-webmvc-6.0.7</module>
+			<module>spring-websocket-6.0.7</module>
     </modules>
 
 </project>
