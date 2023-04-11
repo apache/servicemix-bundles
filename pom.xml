@@ -123,6 +123,7 @@
 			<module>libphonenumber-8.13.9</module>
 			<module>spring-ldap-3.0.1</module>
 			<module>hadoop-client-3.3.5</module>
+			<module>elasticsearch-java-8.7.0</module>
     </modules>
 
 </project>
