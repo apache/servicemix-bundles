@@ -121,6 +121,7 @@
 			<module>docker-java-3.3.0</module>
 			<module>fastjson-2.0.26</module>
 			<module>libphonenumber-8.13.9</module>
+			<module>spring-ldap-3.0.1</module>
     </modules>
 
 </project>
