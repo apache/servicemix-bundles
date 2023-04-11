@@ -120,6 +120,7 @@
 			<module>google-cloud-pubsub-1.123.8</module>
 			<module>docker-java-3.3.0</module>
 			<module>fastjson-2.0.26</module>
+			<module>libphonenumber-8.13.9</module>
     </modules>
 
 </project>
