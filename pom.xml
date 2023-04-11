@@ -119,6 +119,7 @@
 			<module>snmp4j-3.7.7</module>
 			<module>google-cloud-pubsub-1.123.8</module>
 			<module>docker-java-3.3.0</module>
+			<module>fastjson-2.0.26</module>
     </modules>
 
 </project>
