@@ -127,6 +127,7 @@
 			<module>mybatis-3.5.13</module>
 			<module>jruby-9.4.2.0</module>
 			<module>xmlresolver-5.1.2</module>
+			<module>aws-java-sdk-1.12.442</module>
     </modules>
 
 </project>
