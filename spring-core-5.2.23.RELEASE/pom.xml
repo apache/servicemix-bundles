@@ -44,7 +44,7 @@
     <properties>
         <pkgGroupId>org.springframework</pkgGroupId>
         <pkgArtifactId>spring-core</pkgArtifactId>
-        <pkgVersion>5.2.23.RELEASE</pkgVersion>
+        <pkgVersion>5.2.24.RELEASE</pkgVersion>
 	<servicemix.osgi.source.version>5.2.23.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             org.springframework
