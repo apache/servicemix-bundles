@@ -41,6 +41,7 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+			<module>hadoop-client-3.3.5</module>
     </modules>
 
 </project>

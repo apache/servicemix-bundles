@@ -39,13 +39,12 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>org.apache.hadoop</pkgGroupId>
         <pkgVersion>3.3.5</pkgVersion>
-	<servicemix.osgi.source.version>3.3.5.1</servicemix.osgi.source.version>
+	<servicemix.osgi.source.version>3.3.5.2</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             org.apache.hadoop
         </servicemix.osgi.export.pkg>
@@ -56,9 +55,9 @@
             org.iq80.leveldb;resolution:=optional,
             com.google.common*,
             com.google.gson.stream;resolution:=optional,
-            com.google.inject;version="[3,4)", 
-            com.google.inject.binder;version="[3,4)", 
-            com.google.inject.servlet;version="[3,4)";resolution:=optional,
+            com.google.inject;version="[1,2)", 
+            com.google.inject.binder;version="[1,2)", 
+            com.google.inject.servlet;version="[1,2)";resolution:=optional,
             com.google.protobuf;version="[2.5,3)",
             com.jcraft.jsch;resolution:=optional,
             io.netty*;resolution:=optional,
