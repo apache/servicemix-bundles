@@ -62,6 +62,7 @@
             org.springframework.beans;version="[${pkgVersion},6.1)",
             org.springframework.beans.factory;version="[${pkgVersion},6.1)",
             org.springframework.beans.factory.annotation;version="[${pkgVersion},6.1)",
+            org.springframework.beans.factory.aot;version="[${pkgVersion},6.1)",
             org.springframework.beans.factory.wiring;version="[${pkgVersion},6.1)",
             org.springframework.cache;version="[${pkgVersion},6.1)";resolution:=optional,
             org.springframework.cache.annotation;version="[${pkgVersion},6.1)";resolution:=optional,

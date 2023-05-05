@@ -92,6 +92,7 @@
             org.springframework.beans;version="[${pkgVersion},6.1)";resolution:=optional,
             org.springframework.beans.factory;version="[${pkgVersion},6.1)";resolution:=optional,
             org.springframework.beans.factory.annotation;version="[${pkgVersion},6.1)";resolution:=optional,
+            org.springframework.beans.factory.aot;version="[${pkgVersion},6.1)";resolution:=optional,
             org.springframework.beans.factory.config;version="[${pkgVersion},6.1)";resolution:=optional,
             org.springframework.beans.factory.parsing;version="[${pkgVersion},6.1)";resolution:=optional,
             org.springframework.beans.factory.support;version="[${pkgVersion},6.1)";resolution:=optional,
