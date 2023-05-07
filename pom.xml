@@ -61,6 +61,8 @@
 			<module>spring-webflux-6.0.7</module>
 			<module>spring-webmvc-6.0.7</module>
 			<module>spring-websocket-6.0.7</module>
+      <module>pulsar-client-2.11.1</module>
+      <module>pulsar-client-admin-2.11.1</module>
     </modules>
 
 </project>
