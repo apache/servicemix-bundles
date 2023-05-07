@@ -63,6 +63,7 @@
 			<module>spring-websocket-6.0.7</module>
       <module>pulsar-client-2.11.1</module>
       <module>pulsar-client-admin-2.11.1</module>
+      <module>saxon-11.5</module>
     </modules>
 
 </project>
