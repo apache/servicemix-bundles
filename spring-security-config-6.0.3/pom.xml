@@ -29,8 +29,8 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.spring-security-ldap</artifactId>
-    <version>6.0.2_2-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.spring-security-config</artifactId>
+    <version>6.0.3_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
 
@@ -38,21 +38,39 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>org.springframework.security</pkgGroupId>
-        <pkgArtifactId>spring-security-ldap</pkgArtifactId>
-        <pkgVersion>6.0.2</pkgVersion>
-	      <servicemix.osgi.source.version>6.0.2.1</servicemix.osgi.source.version>
+        <pkgArtifactId>spring-security-config</pkgArtifactId>
+        <pkgVersion>6.0.3</pkgVersion>
+	      <servicemix.osgi.source.version>6.0.3.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
-            org.springframework.security.ldap
+            org.springframework.security.config
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            com.unboundid*;resolution:=optional,
-            org.apache.directory*;resolution:=optional,
-            netscape.ldap*;resolution:=optional, 
+            io.rsocket.plugins;resolution:=optional,
+            org.reactivestreams;resolution:=optional,
+	    reactor.*;resolution:=optional,
+	    org.aspectj.*;resolution:=optional,
+	    org.openid4java.*;resolution:=optional,
+            kotlin*;resolution:=optional,
+	    org.opensaml*;resolution:=optional,
+            org.springframework.cglib;resolution:=optional,
+            org.springframework.cglib.core;resolution:=optional,
+            org.springframework.cglib.proxy;resolution:=optional,
+            org.springframework.cglib.reflect;resolution:=optional,
+            org.springframework.jdbc.*;resolution:=optional,
+	    org.springframework.ldap*;resolution:=optional,
+	    org.springframework.messaging*;resolution:=optional,
+	    org.springframework.web*;resolution:=optional,
+	    org.springframework.security.ldap*;resolution:=optional,
+	    org.springframework.security.messaging*;resolution:=optional,
+	    org.springframework.security.saml2*;resolution:=optional,
+	    org.springframework.security.oauth2*;resolution:=optional,
+	    org.springframework.security.openid*;resolution:=optional,
+	    org.springframework.security.rsocket*;resolution:=optional,
+	    org.springframework.security.web*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
     </properties>
@@ -93,9 +111,9 @@
                             <filters>
                                 <filter>
                                     <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
-                                    <excludes>
-                                        <exclude>**</exclude>
-                                    </excludes>
+                                    <includes>
+                                        <include>META-INF/spring*</include>
+                                    </includes>
                                 </filter>
                             </filters>
                             <promoteTransitiveDependencies>true</promoteTransitiveDependencies>

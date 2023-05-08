@@ -75,6 +75,20 @@
       <module>fastjson-2.0.29</module>
       <module>solr-solrj-9.2.1</module>
       <module>aws-java-sdk-1.12.460</module>
+      <module>spring-security-acl-6.0.3</module>
+      <module>spring-security-aspects-6.0.3</module>
+      <module>spring-security-config-6.0.3</module>
+      <module>spring-security-core-6.0.3</module>
+      <module>spring-security-crypto-6.0.3</module>
+      <module>spring-security-data-6.0.3</module>
+      <module>spring-security-ldap-6.0.3</module>
+      <module>spring-security-messaging-6.0.3</module>
+      <module>spring-security-oauth2-client-6.0.3</module>
+      <module>spring-security-oauth2-core-6.0.3</module>
+      <module>spring-security-oauth2-jose-6.0.3</module>
+      <module>spring-security-taglibs-6.0.3</module>
+      <module>spring-security-test-6.0.3</module>
+      <module>spring-security-web-6.0.3</module>
     </modules>
 
 </project>
