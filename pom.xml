@@ -65,6 +65,10 @@
       <module>pulsar-client-admin-2.11.1</module>
       <module>saxon-11.5</module>
       <module>xmlresolver-4.6.4</module>
+      <module>spring-ws-core-4.0.3</module>
+      <module>spring-ws-security-4.0.3</module>
+      <module>spring-ws-support-4.0.3</module>
+      <module>spring-ws-test-4.0.3</module>
     </modules>
 
 </project>
