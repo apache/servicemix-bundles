@@ -70,6 +70,7 @@
       <module>spring-ws-support-4.0.3</module>
       <module>spring-ws-test-4.0.3</module>
       <module>spring-xml-4.0.3</module>
+      <module>aws-java-sdk-2.20.57</module>
     </modules>
 
 </project>
