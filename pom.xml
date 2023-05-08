@@ -72,6 +72,7 @@
       <module>spring-xml-4.0.3</module>
       <module>aws-java-sdk-2.20.57</module>
       <module>grpc-1.54.1</module>
+      <module>fastjson-2.0.29</module>
     </modules>
 
 </project>
