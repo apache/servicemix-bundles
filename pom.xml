@@ -73,6 +73,7 @@
       <module>aws-java-sdk-2.20.57</module>
       <module>grpc-1.54.1</module>
       <module>fastjson-2.0.29</module>
+      <module>solr-solrj-9.2.1</module>
     </modules>
 
 </project>
