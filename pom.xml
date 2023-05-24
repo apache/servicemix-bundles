@@ -149,6 +149,7 @@
 			<module>spring-websocket-5.1.20.RELEASE</module>
 			<module>pulsar-client-3.0.0</module>
 			<module>pulsar-client-admin-3.0.0</module>
+			<module>jedis-4.4.1</module>
     </modules>
 
 </project>
