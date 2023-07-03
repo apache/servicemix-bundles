@@ -41,6 +41,7 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+      <module>google-gax-grpc-2.30.0</module>
     </modules>
 
 </project>
