@@ -42,6 +42,7 @@
 
     <modules>
       <module>google-gax-grpc-2.30.0</module>
+      <module>braintree-java-3.24.0</module>
     </modules>
 
 </project>
