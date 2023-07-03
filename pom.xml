@@ -45,6 +45,7 @@
       <module>braintree-java-3.24.0</module>
       <module>asterisk-java-3.39.0</module>
       <module>google-cloud-pubsub-1.123.17</module>
+      <module>antisamy-1.7.3</module>
     </modules>
 
 </project>
