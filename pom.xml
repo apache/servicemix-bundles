@@ -46,6 +46,7 @@
       <module>asterisk-java-3.39.0</module>
       <module>google-cloud-pubsub-1.123.17</module>
       <module>antisamy-1.7.3</module>
+      <module>libphonenumber-8.13.15</module>
     </modules>
 
 </project>
