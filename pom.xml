@@ -47,6 +47,7 @@
       <module>google-cloud-pubsub-1.123.17</module>
       <module>antisamy-1.7.3</module>
       <module>libphonenumber-8.13.15</module>
+      <module>gae-2.0.16</module>
     </modules>
 
 </project>
