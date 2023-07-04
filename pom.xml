@@ -57,6 +57,7 @@
       <module>lucene-queryparser-9.7.0</module>
       <module>lucene-sandbox-9.7.0</module>
       <module>elasticsearch-java-8.8.2</module>
+      <module>grpc-1.56.1</module>
     </modules>
 
 </project>
