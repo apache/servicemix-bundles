@@ -76,6 +76,9 @@
       <module>opensearch-2.8.0</module>
       <module>spring-batch-core-5.0.2</module>
       <module>spring-batch-infrastructure-5.0.2</module>
+			<module>spring-data-commons-3.1.1</module>
+			<module>spring-data-keyvalue-3.1.1</module>
+			<module>spring-data-redis-3.1.1</module>
     </modules>
 
 </project>
