@@ -80,6 +80,7 @@
 			<module>spring-data-keyvalue-3.1.1</module>
 			<module>spring-data-redis-3.1.1</module>
 			<module>splunk-1.9.5</module>
+      <module>bazaarvoice-jolt-0.1.8</module>
     </modules>
 
 </project>
