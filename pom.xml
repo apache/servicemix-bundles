@@ -119,6 +119,10 @@
 			<module>spring-webflux-5.3.28</module>
 			<module>spring-webmvc-5.3.28</module>
 			<module>spring-websocket-5.3.28</module>
+			<module>spring-ws-core-4.0.5</module>
+			<module>spring-ws-security-4.0.5</module>
+			<module>spring-ws-support-4.0.5</module>
+			<module>spring-ws-test-4.0.5</module>
     </modules>
 
 </project>
