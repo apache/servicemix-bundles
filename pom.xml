@@ -134,6 +134,7 @@
       <module>xmlresolver-5.1.2</module>
       <module>xmlresolver-5.2.0</module>
       <module>saxon-12.2</module>
+      <module>aws-java-sdk-2.20.99</module>
     </modules>
 
 </project>
