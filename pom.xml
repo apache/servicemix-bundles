@@ -132,6 +132,7 @@
       <module>xmlresolver-4.4.3</module>
       <module>xmlresolver-4.6.4</module>
       <module>xmlresolver-5.1.2</module>
+      <module>xmlresolver-5.2.0</module>
     </modules>
 
 </project>
