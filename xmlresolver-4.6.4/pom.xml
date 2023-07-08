@@ -39,23 +39,29 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>org.xmlresolver</pkgGroupId>
         <pkgArtifactId>xmlresolver</pkgArtifactId>
         <pkgVersion>4.6.4</pkgVersion>
-        <servicemix.osgi.source.version>4.6.4.1</servicemix.osgi.source.version>
+        <servicemix.osgi.source.version>4.6.4.2</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             org.xmlresolver
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
+            com.thaiopensource.util;resolution:=optional,
+            com.thaiopensource.validate;resolution:=optional,
             javax.xml.parsers,
+            javax.xml.stream,
             javax.xml.transform,
             javax.xml.transform.sax,
+            org.apache.hc.clients5*;resolution:=optional,
+            org.apache.xerces*;resolution:=optional,
             org.w3c.dom,
+            org.w3c.dom.ls,
             org.xml.sax,
+            org.xml.sax.ext,
             org.xml.sax.helpers
         </servicemix.osgi.import.pkg>
     </properties>
