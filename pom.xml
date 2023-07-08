@@ -133,6 +133,7 @@
       <module>xmlresolver-4.6.4</module>
       <module>xmlresolver-5.1.2</module>
       <module>xmlresolver-5.2.0</module>
+      <module>saxon-12.2</module>
     </modules>
 
 </project>
