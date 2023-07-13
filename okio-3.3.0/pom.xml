@@ -45,7 +45,7 @@
     <properties>
         <pkgGroupId>com.squareup.okio</pkgGroupId>
         <pkgArtifactId>okio</pkgArtifactId>
-        <pkgVersion>3.3.0</pkgVersion>
+        <pkgVersion>3.4.0</pkgVersion>
 	      <servicemix.osgi.source.version>3.3.0.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             okio
