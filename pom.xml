@@ -43,6 +43,7 @@
     <modules>
 			<module>janino-3.1.10</module>
 			<module>fastjson-2.0.38</module>
+			<module>solr-solrj-9.3.0</module>
     </modules>
 
 </project>
