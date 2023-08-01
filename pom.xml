@@ -45,6 +45,7 @@
 			<module>fastjson-2.0.38</module>
 			<module>solr-solrj-9.3.0</module>
 			<module>opensearch-2.9.0</module>
+			<module>elasticsearch-java-8.9.0</module>
     </modules>
 
 </project>
