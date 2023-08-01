@@ -46,6 +46,9 @@
 			<module>solr-solrj-9.3.0</module>
 			<module>opensearch-2.9.0</module>
 			<module>elasticsearch-java-8.9.0</module>
+			<module>spring-data-commons-3.1.2</module>
+			<module>spring-data-keyvalue-3.1.2</module>
+			<module>spring-data-redis-3.1.2</module>
     </modules>
 
 </project>
