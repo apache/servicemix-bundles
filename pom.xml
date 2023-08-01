@@ -63,6 +63,7 @@
 			<module>hapi-fhir-structures-hl7org-dstu2-6.6.2</module>
 			<module>hapi-fhir-structures-r4-6.6.2</module>
 			<module>hapi-fhir-validation-6.6.2</module>
+			<module>braintree-java-3.25.0</module>
     </modules>
 
 </project>
