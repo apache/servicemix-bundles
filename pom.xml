@@ -57,6 +57,12 @@
 			<module>kafka-streams-3.5.1</module>
 			<module>kafka_2.12-3.5.1</module>
 			<module>kafka_2.13-3.5.1</module>
+			<module>hapi-fhir-structures-dstu2-6.6.2</module>
+			<module>hapi-fhir-structures-dstu2.1-6.6.2</module>
+			<module>hapi-fhir-structures-dstu3-6.6.2</module>
+			<module>hapi-fhir-structures-hl7org-dstu2-6.6.2</module>
+			<module>hapi-fhir-structures-r4-6.6.2</module>
+			<module>hapi-fhir-validation-6.6.2</module>
     </modules>
 
 </project>
