@@ -113,6 +113,20 @@
       <module>spring-security-taglibs-5.8.5</module>
       <module>spring-security-test-5.8.5</module>
       <module>spring-security-web-5.8.5</module>
+      <module>spring-security-acl-6.1.2</module>
+      <module>spring-security-aspects-6.1.2</module>
+      <module>spring-security-config-6.1.2</module>
+      <module>spring-security-core-6.1.2</module>
+      <module>spring-security-crypto-6.1.2</module>
+      <module>spring-security-data-6.1.2</module>
+      <module>spring-security-ldap-6.1.2</module>
+      <module>spring-security-messaging-6.1.2</module>
+      <module>spring-security-oauth2-client-6.1.2</module>
+      <module>spring-security-oauth2-core-6.1.2</module>
+      <module>spring-security-oauth2-jose-6.1.2</module>
+      <module>spring-security-taglibs-6.1.2</module>
+      <module>spring-security-test-6.1.2</module>
+      <module>spring-security-web-6.1.2</module>
     </modules>
 
 </project>
