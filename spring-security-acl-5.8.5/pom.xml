@@ -57,6 +57,8 @@
             org.springframework.context;version="[5,6)",
             org.springframework.context.support;version="[5,6)",
             org.springframework.core.convert;version="[5,6)",
+            org.springframework.core.convert.converter;version="[5,6)",
+            org.springframework.core.convert.support;version="[5,6)",
             org.springframework.dao;version="[5,6)",
             org.springframework.jdbc.core;version="[5,6)",
             org.springframework.security.access*;version="[${pkgVersion},6)",
