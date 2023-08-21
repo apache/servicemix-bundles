@@ -146,6 +146,7 @@
       <module>spring-webflux-5.3.29</module>
       <module>spring-webmvc-5.3.29</module>
       <module>spring-websocket-5.3.29</module>
+      <module>jedis-4.4.1</module>
     </modules>
 
 </project>
