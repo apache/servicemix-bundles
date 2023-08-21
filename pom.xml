@@ -147,6 +147,8 @@
       <module>spring-webmvc-5.3.29</module>
       <module>spring-websocket-5.3.29</module>
       <module>jedis-4.4.1</module>
+      <module>xalan-2.7.3</module>
+      <module>xalan-serializer-2.7.3</module>
     </modules>
 
 </project>
