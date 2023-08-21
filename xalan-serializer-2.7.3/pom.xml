@@ -24,13 +24,13 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>11</version>
+        <version>15</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.xalan-serializer</artifactId>
-    <version>2.7.2_2-SNAPSHOT</version>
+    <version>2.7.3_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -38,7 +38,7 @@
     <properties>
         <pkgGroupId>xalan</pkgGroupId>
         <pkgArtifactId>serializer</pkgArtifactId>
-        <pkgVersion>2.7.2</pkgVersion>
+        <pkgVersion>2.7.3</pkgVersion>
         <servicemix.osgi.export.pkg>
           org.apache.xml.serializer
         </servicemix.osgi.export.pkg>
