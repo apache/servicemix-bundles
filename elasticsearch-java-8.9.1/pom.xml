@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.elasticsearch-java</artifactId>
-    <version>8.9.0_1-SNAPSHOT</version>
+    <version>8.9.1_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: Elasticsearch Java Client</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar files.</description>
@@ -44,8 +44,8 @@
     <properties>
         <pkgGroupId>co.elastic.clients</pkgGroupId>
         <pkgArtifactId>elasticsearch-java</pkgArtifactId>
-        <pkgVersion>8.9.0</pkgVersion>
-        <servicemix.osgi.source.version>8.9.0.1</servicemix.osgi.source.version>
+        <pkgVersion>8.9.1</pkgVersion>
+        <servicemix.osgi.source.version>8.9.1.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
            co.elastic.clients*,
            org.elasticsearch.client*
