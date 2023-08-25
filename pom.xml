@@ -52,7 +52,7 @@
 			<module>avro-1.11.2</module>
 			<module>avro-ipc-1.11.2</module>
 			<module>thymeleaf-3.1.2.RELEASE</module>
-			<module>okio-3.4.0</module>
+			<module>okio-3.5.0</module>
 			<module>kafka-clients-3.5.1</module>
 			<module>kafka-streams-3.5.1</module>
 			<module>kafka_2.12-3.5.1</module>
