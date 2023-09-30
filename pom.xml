@@ -120,6 +120,7 @@
       <module>braintree-java-3.26.0</module>
       <module>avro-1.11.3</module>
       <module>avro-ipc-1.11.3</module>
+      <module>elasticsearch-java-8.10.2</module>
     </modules>
 
 </project>
