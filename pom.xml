@@ -41,6 +41,8 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+      <module>bundles-pom</module>
+      <module>xalan-2.7.3</module>
     </modules>
 
 </project>

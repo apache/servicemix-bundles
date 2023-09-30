@@ -30,6 +30,7 @@ import java.util.Enumeration;
 import java.util.Vector;
 import javax.xml.transform.Templates;
 import javax.xml.parsers.DocumentBuilderFactory;
+
 import org.w3c.dom.Document;
 import org.w3c.dom.DOMImplementation;
 import javax.xml.parsers.ParserConfigurationException;
@@ -44,8 +45,8 @@ import org.apache.xalan.xsltc.TransletException;
 import org.apache.xalan.xsltc.dom.DOMAdapter;
 import org.apache.xalan.xsltc.dom.KeyIndex;
 import org.apache.xalan.xsltc.runtime.output.TransletOutputHandlerFactory;
-import org.apache.xml.dtm.DTMAxisIterator;
 import org.apache.xml.serializer.SerializationHandler;
+import org.apache.xml.dtm.DTMAxisIterator;
 
 /**
  * @author Jacek Ambroziak
@@ -142,7 +143,7 @@ public abstract class AbstractTranslet implements Translet {
      * Push a new parameter frame.
      */
     public final void pushParamFrame() {
-	paramsStack.add(pframe, new Integer(pbase));
+	paramsStack.add(pframe, Integer.valueOf(pbase));
 	pbase = ++pframe;
     }
 
