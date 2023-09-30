@@ -121,6 +121,7 @@
       <module>avro-1.11.3</module>
       <module>avro-ipc-1.11.3</module>
       <module>elasticsearch-java-8.10.2</module>
+      <module>opensearch-2.10.0</module>
     </modules>
 
 </project>
