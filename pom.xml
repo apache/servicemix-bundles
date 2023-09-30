@@ -130,6 +130,7 @@
       <module>lucene-sandbox-9.8.0</module>
       <module>aspectj-1.9.20.1</module>
       <module>zxing-3.5.2</module>
+      <module>gae-2.0.19</module>
     </modules>
 
 </project>
