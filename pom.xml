@@ -123,6 +123,7 @@
       <module>elasticsearch-java-8.10.2</module>
       <module>opensearch-2.10.0</module>
       <module>fastjson-2.0.40</module>
+      <module>xmlresolver-5.2.1</module>
     </modules>
 
 </project>
