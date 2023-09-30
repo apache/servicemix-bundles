@@ -113,6 +113,7 @@
             org.hibernate.event.def;version="[3,6)";resolution:=optional,
             org.hibernate.exception;version="[3,6)";resolution:=optional,
             org.hibernate.impl;version="[3,6)";resolution:=optional,
+            org.hibernate.integrator.spi;version="[3,6)";resolution:=optional,
             org.hibernate.jdbc;version="[3,6)";resolution:=optional,
             org.hibernate.jpa;version="[3,6)";resolution:=optional,
             org.hibernate.jpa.boot.internal;version="[3,6)";resolution:=optional,
