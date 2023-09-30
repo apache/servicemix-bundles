@@ -80,7 +80,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-release-plugin</artifactId>
-                    <version>2.5.3</version>
+                    <version>3.0.1</version>
                     <configuration>
                         <useReleaseProfile>false</useReleaseProfile>
                         <preparationGoals>clean install</preparationGoals>
@@ -94,7 +94,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
-                    <version>2.19.1</version>
+                    <version>3.1.2</version>
                     <configuration>
                         <skip>true</skip>
                     </configuration>
@@ -102,7 +102,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-shade-plugin</artifactId>
-                    <version>3.3.0</version>
+                    <version>3.5.1</version>
                     <executions>
                         <execution>
                             <id>sources</id>
@@ -147,7 +147,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-source-plugin</artifactId>
-                    <version>3.2.1</version>
+                    <version>3.3.0</version>
                     <executions>
                         <execution>
                             <phase>generate-sources</phase>
@@ -173,10 +173,10 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
-                    <version>3.9.0</version>
+                    <version>3.11.0</version>
                     <configuration>
-                        <source>1.5</source>
-                        <target>1.5</target>
+                        <source>1.8</source>
+                        <target>1.8</target>
                     </configuration>
                 </plugin>
             </plugins>
@@ -187,7 +187,7 @@
             <plugin>
                 <groupId>org.apache.felix</groupId>
                 <artifactId>maven-bundle-plugin</artifactId>
-                <version>5.1.6</version>
+                <version>5.1.9</version>
                 <extensions>true</extensions>
                 <configuration>
                     <instructions>
@@ -216,7 +216,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
-                <version>3.3.0</version>
+                <version>3.6.0</version>
                 <executions>
                     <execution>
                         <id>copy-legal</id>
@@ -250,7 +250,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-remote-resources-plugin</artifactId>
-                <version>1.7.0</version>
+                <version>3.1.0</version>
                 <executions>
                     <execution>
                         <phase>generate-resources</phase>
@@ -271,7 +271,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>
-                <version>3.3.0</version>
+                <version>3.6.0</version>
                 <dependencies>
                     <dependency>
                         <groupId>org.apache.servicemix.bundles</groupId>
@@ -306,7 +306,7 @@
                     <plugin>
                         <inherited>true</inherited>
                         <artifactId>maven-deploy-plugin</artifactId>
-                        <version>2.8.2</version>
+                        <version>3.1.1</version>
                         <configuration>
                             <updateReleaseInfo>true</updateReleaseInfo>
                         </configuration>
@@ -314,7 +314,7 @@
                     <!-- We want to sign the artifact, the POM, and all attached artifacts -->
                     <plugin>
                         <artifactId>maven-gpg-plugin</artifactId>
-                        <version>1.6</version>
+                        <version>3.1.0</version>
                         <executions>
                             <execution>
                                 <goals>
