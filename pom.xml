@@ -118,6 +118,8 @@
       <module>spring-webmvc-6.0.11</module>
       <module>spring-websocket-6.0.11</module>
       <module>braintree-java-3.26.0</module>
+      <module>avro-1.11.3</module>
+      <module>avro-ipc-1.11.3</module>
     </modules>
 
 </project>
