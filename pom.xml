@@ -161,6 +161,7 @@
       <module>hapi-fhir-structures-hl7org-dstu2-6.8.3</module>
       <module>hapi-fhir-structures-r4-6.8.3</module>
       <module>hapi-fhir-validation-6.8.3</module>
+      <module>antisamy-1.7.4</module>
     </modules>
 
 </project>
