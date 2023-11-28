@@ -44,7 +44,7 @@
     <properties>
         <pkgGroupId>org.springframework</pkgGroupId>
         <pkgArtifactId>spring-webmvc</pkgArtifactId>
-        <pkgVersion>6.0.12</pkgVersion>
+        <pkgVersion>6.0.14</pkgVersion>
 	      <servicemix.osgi.source.version>6.0.12.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             org.springframework
