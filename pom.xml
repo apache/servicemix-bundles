@@ -42,6 +42,7 @@
 
     <modules>
       <module>gae-2.0.22</module>
+      <module>java-util-2.4.0</module>
     </modules>
 
 </project>
