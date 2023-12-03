@@ -50,9 +50,9 @@
             org.springframework
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            jakarta.el;resolution:=optional,
-            jakarta.inject;resolution:=optional,
-            jakarta.xml.parsers;resolution:=optional,
+            javax.el;version="[1,3)";resolution:=optional,
+            javax.inject;version="[1,2)";resolution:=optional,
+            javax.xml.parsers;resolution:=optional,
             groovy.lang;resolution:=optional,
             groovy.xml;resolution:=optional,
             org.codehaus.groovy.reflection;resolution:=optional,
