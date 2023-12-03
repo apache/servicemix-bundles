@@ -39,7 +39,6 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
@@ -86,6 +85,12 @@
             <version>${pkgVersion}</version>
             <optional>false</optional>
         </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>serializer</artifactId>
+            <version>${pkgVersion}</version>
+            <optional>false</optional>
+        </dependency>
 
         <!-- sources -->
         <!-- Not available
@@ -122,11 +127,18 @@
                             <artifactSet>
                                 <includes>
                                     <include>${pkgGroupId}:${pkgArtifactId}</include>
+                                    <include>${pkgGroupId}:serializer</include>
                                 </includes>
                             </artifactSet>
                             <filters>
                                 <filter>
                                     <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:serializer</artifact>
                                     <excludes>
                                         <exclude>**</exclude>
                                     </excludes>
