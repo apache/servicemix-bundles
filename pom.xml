@@ -65,6 +65,10 @@
       <module>spring-websocket-5.3.31</module>
       <module>pulsar-client-3.1.1</module>
       <module>pulsar-client-admin-3.1.1</module>
+      <module>kafka-clients-3.6.1</module>
+      <module>kafka-streams-3.6.1</module>
+      <module>kafka_2.12-3.6.1</module>
+      <module>kafka_2.13-3.6.1</module>
     </modules>
 
 </project>
