@@ -88,6 +88,8 @@
       <module>spring-webflux-6.0.12</module>
       <module>spring-webmvc-6.0.12</module>
       <module>spring-websocket-6.0.12</module>
+      <module>zookeeper-3.8.3</module>
+      <module>zookeeper-3.9.1</module>
     </modules>
 
 </project>
