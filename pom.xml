@@ -76,7 +76,7 @@
       <module>spring-context-suiupport-6.0.14</module>
       <module>spring-core-6.0.14</module>
       <module>spring-expression-6.0.14</module>
-      <module>spring-instrument-6.0.14</module>i
+      <module>spring-instrument-6.0.14</module>
       <module>spring-jdbc-6.0.14</module>
       <module>spring-jms-6.0.14</module>
       <module>spring-messaging-6.0.14</module>
