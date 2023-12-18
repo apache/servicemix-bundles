@@ -73,7 +73,7 @@
       <module>spring-aspects-6.0.14</module>
       <module>spring-beans-6.0.14</module>
       <module>spring-context-6.0.14</module>
-      <module>spring-context-suiupport-6.0.14</module>
+      <module>spring-context-support-6.0.14</module>
       <module>spring-core-6.0.14</module>
       <module>spring-expression-6.0.14</module>
       <module>spring-instrument-6.0.14</module>
