@@ -130,6 +130,7 @@
       <module>spring-webflux-6.1.1</module>
       <module>spring-webmvc-6.1.1</module>
       <module>spring-websocket-6.1.1</module>
+      <module>influxdb-java-2.24</module>
     </modules>
 
 </project>
