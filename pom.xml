@@ -135,6 +135,9 @@
 			<module>lucene-queries-9.9.1</module>
 			<module>lucene-queryparser-9.9.1</module>
 			<module>lucene-sandbox-9.9.1</module>
+			<module>spring-data-commons-3.2.1</module>
+			<module>spring-data-keyvalue-3.2.1</module>
+			<module>spring-data-redis-3.2.1</module>
     </modules>
 
 </project>
