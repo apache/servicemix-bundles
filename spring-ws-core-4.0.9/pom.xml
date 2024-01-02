@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.spring-ws-core</artifactId>
-    <version>4.0.7_1-SNAPSHOT</version>
+    <version>4.0.9_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
 
@@ -43,8 +43,8 @@
     <properties>
         <pkgGroupId>org.springframework.ws</pkgGroupId>
         <pkgArtifactId>spring-ws-core</pkgArtifactId>
-        <pkgVersion>4.0.7</pkgVersion>
-        <servicemix.osgi.source.version>4.0.7.1</servicemix.osgi.source.version>
+        <pkgVersion>4.0.9</pkgVersion>
+        <servicemix.osgi.source.version>4.0.9.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             org.springframework.ws
         </servicemix.osgi.export.pkg>

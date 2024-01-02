@@ -90,10 +90,10 @@
       <module>spring-websocket-6.0.14</module>
       <module>zookeeper-3.8.3</module>
       <module>zookeeper-3.9.1</module>
-      <module>spring-ws-core-4.0.7</module>
-      <module>spring-ws-security-4.0.7</module>
-      <module>spring-ws-support-4.0.7</module>
-      <module>spring-ws-test-4.0.7</module>
+      <module>spring-ws-core-4.0.9</module>
+      <module>spring-ws-security-4.0.9</module>
+      <module>spring-ws-support-4.0.9</module>
+      <module>spring-ws-test-4.0.9</module>
       <module>spring-data-commons-3.1.5</module>
       <module>spring-data-keyvalue-3.1.5</module>
       <module>spring-data-redis-3.1.5</module>
