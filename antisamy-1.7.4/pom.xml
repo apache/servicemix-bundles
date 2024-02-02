@@ -45,7 +45,7 @@
     <properties>
         <pkgGroupId>org.owasp.antisamy</pkgGroupId>
         <pkgArtifactId>antisamy</pkgArtifactId>
-        <pkgVersion>1.7.4</pkgVersion>
+        <pkgVersion>1.7.5</pkgVersion>
         <servicemix.osgi.source.version>1.7.4.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             org.owasp.validator
