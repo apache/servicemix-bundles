@@ -44,7 +44,7 @@
     <properties>
         <pkgGroupId>org.springframework</pkgGroupId>
         <pkgArtifactId>spring-messaging</pkgArtifactId>
-        <pkgVersion>5.1.20.RELEASE</pkgVersion>
+        <pkgVersion>5.2.22.RELEASE</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.springframework
         </servicemix.osgi.export.pkg>
