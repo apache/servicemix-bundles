@@ -43,6 +43,7 @@
     <modules>
 			<module>fastjson-2.0.46</module>
 			<module>jruby-9.4.5.0</module>
+			<module>zxing-3.5.3</module>
     </modules>
 
 </project>
