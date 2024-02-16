@@ -41,6 +41,7 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+			<module>fastjson-2.0.46</module>
     </modules>
 
 </project>
