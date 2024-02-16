@@ -45,6 +45,7 @@
 			<module>jruby-9.4.5.0</module>
 			<module>zxing-3.5.3</module>
 			<module>libphonenumber-8.13.30</module>
+			<module>commons-compiler-3.1.12</module>
     </modules>
 
 </project>
