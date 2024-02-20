@@ -53,6 +53,7 @@
       <module>solr-solrj-9.5.0</module>
       <module>okio-3.8.0</module>
       <module>braintree-java-3.32.0</module>
+      <module>jt400-20.0.7</module>
     </modules>
 
 </project>
