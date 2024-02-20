@@ -52,6 +52,7 @@
       <module>docker-java-3.3.4</module>
       <module>solr-solrj-9.5.0</module>
       <module>okio-3.8.0</module>
+      <module>braintree-java-3.32.0</module>
     </modules>
 
 </project>
