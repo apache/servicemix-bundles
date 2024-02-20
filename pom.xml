@@ -54,6 +54,7 @@
       <module>okio-3.8.0</module>
       <module>braintree-java-3.32.0</module>
       <module>jt400-20.0.7</module>
+      <module>elasticsearch-java-8.12.1</module>
     </modules>
 
 </project>
