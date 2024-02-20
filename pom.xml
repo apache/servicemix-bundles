@@ -58,6 +58,7 @@
       <module>fastinfoset-2.1.1</module>
       <module>mybatis-3.5.15</module>
       <module>gremlin-driver-3.7.1</module>
+      <module>aspectj-1.9.21.1</module>
     </modules>
 
 </project>
