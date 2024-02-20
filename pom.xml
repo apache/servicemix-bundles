@@ -63,6 +63,8 @@
       <module>dnsjava-3.5.3</module>
       <module>xmlresolver-6.0.4</module>
       <module>gae-2.0.24</module>
+      <module>olingo-odata2-api-2.0.13</module>
+      <module>olingo-odata2-core-2.0.13</module>
     </modules>
 
 </project>
