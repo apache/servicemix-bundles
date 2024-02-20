@@ -48,6 +48,7 @@
 			<module>commons-compiler-3.1.12</module>
       <module>aws-java-sdk-1.12.660</module>
       <module>xmlbeans-5.2.0</module>
+      <module>janino-3.1.12</module>
     </modules>
 
 </project>
