@@ -60,6 +60,7 @@
       <module>gremlin-driver-3.7.1</module>
       <module>aspectj-1.9.21.1</module>
       <module>opensearch-2.11.1</module>
+      <module>dnsjava-3.5.3</module>
     </modules>
 
 </project>
