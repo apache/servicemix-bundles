@@ -62,6 +62,7 @@
       <module>opensearch-2.11.1</module>
       <module>dnsjava-3.5.3</module>
       <module>xmlresolver-6.0.4</module>
+      <module>gae-2.0.24</module>
     </modules>
 
 </project>
