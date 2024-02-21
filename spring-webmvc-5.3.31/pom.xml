@@ -51,6 +51,8 @@
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             javax.validation;resolution:=optional,
+            com.google.gson;version="[2.3,3)";resolution:=optional,
+            com.google.gson.reflect;version="[2.3,3)";resolution:=optional,
             com.lowagie.text.*;version="[2,3)";resolution:=optional,
             com.rometools.rome.feed;version="[1.5,2)";resolution:=optional,
             com.rometools.rome.feed.atom;version="[1.5,2)";resolution:=optional,
