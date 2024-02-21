@@ -77,6 +77,9 @@
       <module>hapi-fhir-structures-r4-7.0.0</module>
       <module>hapi-fhir-validation-7.0.0</module>
       <module>saxon-12.4</module>
+      <module>spring-data-commons-3.2.3</module>
+      <module>spring-data-keyvalue-3.2.3</module>
+      <module>spring-data-redis-3.2.3</module>
     </modules>
 
 </project>
