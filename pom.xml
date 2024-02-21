@@ -69,6 +69,7 @@
       <module>lucene-queries-9.9.2</module>
       <module>lucene-queryparser-9.9.2</module>
       <module>lucene-sandbox-9.9.2</module>
+      <module>snmp4j-3.7.8</module>
     </modules>
 
 </project>
