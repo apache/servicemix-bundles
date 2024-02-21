@@ -83,6 +83,10 @@
       <module>postgresql-42.7.2</module>
       <module>pulsar-client-3.2.0</module>
       <module>pulsar-client-admin-3.2.0</module>
+      <module>spring-ws-core-4.0.10</module>
+      <module>spring-ws-security-4.0.10</module>
+      <module>spring-ws-support-4.0.10</module>
+      <module>spring-ws-test-4.0.10</module>
     </modules>
 
 </project>
