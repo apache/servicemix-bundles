@@ -76,6 +76,7 @@
       <module>hapi-fhir-structures-hl7org-dstu2-7.0.0</module>
       <module>hapi-fhir-structures-r4-7.0.0</module>
       <module>hapi-fhir-validation-7.0.0</module>
+      <module>saxon-12.4</module>
     </modules>
 
 </project>
