@@ -81,6 +81,8 @@
       <module>spring-data-keyvalue-3.2.3</module>
       <module>spring-data-redis-3.2.3</module>
       <module>postgresql-42.7.2</module>
+      <module>pulsar-client-3.2.0</module>
+      <module>pulsar-client-admin-3.2.0</module>
     </modules>
 
 </project>
