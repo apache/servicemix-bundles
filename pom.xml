@@ -65,6 +65,10 @@
       <module>gae-2.0.24</module>
       <module>olingo-odata2-api-2.0.13</module>
       <module>olingo-odata2-core-2.0.13</module>
+      <module>lucene-9.9.2</module>
+      <module>lucene-queries-9.9.2</module>
+      <module>lucene-queryparser-9.9.2</module>
+      <module>lucene-sandbox-9.9.2</module>
     </modules>
 
 </project>
