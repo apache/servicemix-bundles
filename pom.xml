@@ -117,6 +117,7 @@
       <module>spring-security-taglibs-5.8.7</module>
       <module>spring-security-test-5.8.7</module>
       <module>spring-security-web-5.8.7</module>
+      <module>antisamy-1.7.5</module>
     </modules>
 
 </project>
