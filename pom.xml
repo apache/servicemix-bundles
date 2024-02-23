@@ -175,6 +175,7 @@
       <module>spring-webflux-5.3.32</module>
       <module>spring-webmvc-5.3.32</module>
       <module>spring-websocket-5.3.32</module>
+      <module>aws-java-sdk-2.24.4</module>
     </modules>
 
 </project>
