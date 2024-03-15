@@ -44,7 +44,7 @@
 
     <properties>
         <pkgGroupId>org.apache.zookeeper</pkgGroupId>
-        <pkgVersion>3.8.3</pkgVersion>
+        <pkgVersion>3.8.4</pkgVersion>
 				<servicemix.osgi.source.version>3.8.3.1</servicemix.osgi.source.version>
         <servicemix.osgi.export>
             org.apache.zookeeper*,
