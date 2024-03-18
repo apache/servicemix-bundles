@@ -44,7 +44,7 @@
     <properties>
         <pkgGroupId>org.springframework</pkgGroupId>
         <pkgArtifactId>spring-web</pkgArtifactId>
-        <pkgVersion>5.2.25.RELEASE</pkgVersion>
+        <pkgVersion>6.0.18</pkgVersion>
         <servicemix.osgi.source.version>5.2.25.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             org.springframework
