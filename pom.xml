@@ -175,6 +175,22 @@
       <module>spring-webflux-5.3.33</module>
       <module>spring-webmvc-5.3.33</module>
       <module>spring-websocket-5.3.33</module>
+      <module>spring-security-acl-5.7.12</module>
+      <module>spring-security-aspects-5.7.12</module>
+      <module>spring-security-cas-5.7.12</module>
+      <module>spring-security-config-5.7.12</module>
+      <module>spring-security-core-5.7.12</module>
+      <module>spring-security-crypto-5.7.12</module>
+      <module>spring-security-data-5.7.12</module>
+      <module>spring-security-ldap-5.7.12</module>
+      <module>spring-security-messaging-5.7.12</module>
+      <module>spring-security-oauth2-client-5.7.12</module>
+      <module>spring-security-oauth2-core-5.7.12</module>
+      <module>spring-security-oauth2-jose-5.7.12</module>
+      <module>spring-security-remoting-5.7.12</module>
+      <module>spring-security-taglibs-5.7.12</module>
+      <module>spring-security-test-5.7.12</module>
+      <module>spring-security-web-5.7.12</module>
       <module>aws-java-sdk-2.24.4</module>
     </modules>
 
