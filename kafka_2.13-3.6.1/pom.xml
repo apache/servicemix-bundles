@@ -45,7 +45,7 @@
     <properties>
         <pkgGroupId>org.apache.kafka</pkgGroupId>
         <pkgArtifactId>kafka_2.13</pkgArtifactId>
-        <pkgVersion>3.6.1</pkgVersion>
+        <pkgVersion>3.6.2</pkgVersion>
 				<servicemix.osgi.source.version>3.6.1.1</servicemix.osgi.source.version>
         <servicemix.osgi.export>
             kafka*;version="${pkgVersion}";-split-package:=merge-first,
