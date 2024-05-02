@@ -156,25 +156,25 @@
       <module>spring-webflux-6.0.18</module>
       <module>spring-webmvc-6.0.18</module>
       <module>spring-websocket-6.0.18</module>
-      <module>spring-aop-5.3.33</module>
-      <module>spring-aspects-5.3.33</module>
-      <module>spring-beans-5.3.33</module>
-      <module>spring-context-5.3.33</module>
-      <module>spring-context-support-5.3.33</module>
-      <module>spring-core-5.3.33</module>
-      <module>spring-expression-5.3.33</module>
-      <module>spring-instrument-5.3.33</module>
-      <module>spring-jdbc-5.3.33</module>
-      <module>spring-jms-5.3.33</module>
-      <module>spring-messaging-5.3.33</module>
-      <module>spring-orm-5.3.33</module>
-      <module>spring-oxm-5.3.33</module>
-      <module>spring-test-5.3.33</module>
-      <module>spring-tx-5.3.33</module>
-      <module>spring-web-5.3.33</module>
-      <module>spring-webflux-5.3.33</module>
-      <module>spring-webmvc-5.3.33</module>
-      <module>spring-websocket-5.3.33</module>
+      <module>spring-aop-5.3.34</module>
+      <module>spring-aspects-5.3.34</module>
+      <module>spring-beans-5.3.34</module>
+      <module>spring-context-5.3.34</module>
+      <module>spring-context-support-5.3.34</module>
+      <module>spring-core-5.3.34</module>
+      <module>spring-expression-5.3.34</module>
+      <module>spring-instrument-5.3.34</module>
+      <module>spring-jdbc-5.3.34</module>
+      <module>spring-jms-5.3.34</module>
+      <module>spring-messaging-5.3.34</module>
+      <module>spring-orm-5.3.34</module>
+      <module>spring-oxm-5.3.34</module>
+      <module>spring-test-5.3.34</module>
+      <module>spring-tx-5.3.34</module>
+      <module>spring-web-5.3.34</module>
+      <module>spring-webflux-5.3.34</module>
+      <module>spring-webmvc-5.3.34</module>
+      <module>spring-websocket-5.3.34</module>
       <module>spring-security-acl-5.7.12</module>
       <module>spring-security-aspects-5.7.12</module>
       <module>spring-security-cas-5.7.12</module>
