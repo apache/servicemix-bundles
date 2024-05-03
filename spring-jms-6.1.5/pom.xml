@@ -135,7 +135,9 @@
             reactor.tuple;resolution:=optional,
             reactor.rx;resolution:=optional,
             reactor.rx.action;resolution:=optional,
-            org.w3c.dom;resolution:=optional
+            org.w3c.dom;resolution:=optional,
+            io.micrometer.jakarta9.instrument.jms;resolution:=optional,
+            io.micrometer.observation
         </servicemix.osgi.import.pkg>
     </properties>
 
