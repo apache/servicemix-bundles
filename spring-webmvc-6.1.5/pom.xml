@@ -66,7 +66,6 @@
             jakarta.servlet,
             jakarta.servlet.http,
             jakarta.servlet.jsp.*;resolution:=optional,
-            jakarta.xml.*;resolution:=optional,
             jxl.*;version="[2.6,3)";resolution:=optional,
             net.sf.jasperreports.*;version="[5,7)";resolution:=optional,
             org.aopalliance.aop;resolution:=optional,

@@ -68,7 +68,7 @@
             jakarta.servlet.http;resolution:=optional,
             javax.sql;resolution:=optional,
             jakarta.transaction;resolution:=optional,
-            jakarta.xml.parsers;resolution:=optional,
+            javax.xml.parsers;resolution:=optional,
             oracle.toplink.essentials.ejb.cmp3;resolution:=optional,
             oracle.toplink.essentials.expressions;resolution:=optional,
             oracle.toplink.essentials.internal.databaseaccess;resolution:=optional,

@@ -80,7 +80,7 @@
             jakarta.validation.groups;resolution:=optional,
             jakarta.validation.metadata;resolution:=optional,
             jakarta.validation.spi;resolution:=optional,
-            jakarta.xml.namespace;resolution:=optional,
+            javax.xml.namespace;resolution:=optional,
             jakarta.xml.ws;resolution:=optional,
             org.aopalliance.aop;version="[1,2)";resolution:=optional,
             org.aopalliance.intercept;version="[1,2)";resolution:=optional,
