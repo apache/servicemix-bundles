@@ -159,6 +159,7 @@
       <module>spring-security-test-6.2.1</module>
       <module>spring-security-web-6.2.1</module>
       <module>solr-solrj-9.6.0</module>
+      <module>docker-java-3.3.6</module>
     </modules>
 
 </project>
