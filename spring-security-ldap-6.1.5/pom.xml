@@ -53,6 +53,7 @@
             com.unboundid*;resolution:=optional,
             org.apache.directory*;resolution:=optional,
             netscape.ldap*;resolution:=optional, 
+            org.apache.mina.transport.socket;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
     </properties>
