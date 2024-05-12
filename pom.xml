@@ -171,6 +171,9 @@
       <module>kafka-streams-3.7.0</module>
       <module>kafka_2.12-3.7.0</module>
       <module>kafka_2.13-3.7.0</module>
+      <module>spring-data-commons-3.2.5</module>
+      <module>spring-data-keyvalue-3.2.5</module>
+      <module>spring-data-redis-3.2.5</module>
     </modules>
 
 </project>
