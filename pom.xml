@@ -167,6 +167,10 @@
       <module>kafka_2.12-3.6.2</module>
       <module>kafka-streams-3.6.2</module>
       <module>kafka_2.13-3.6.2</module>
+      <module>kafka-clients-3.7.0</module>
+      <module>kafka-streams-3.7.0</module>
+      <module>kafka_2.12-3.7.0</module>
+      <module>kafka_2.13-3.7.0</module>
     </modules>
 
 </project>
