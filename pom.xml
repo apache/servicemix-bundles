@@ -144,20 +144,20 @@
       <module>spring-security-taglibs-6.1.5</module>
       <module>spring-security-test-6.1.5</module>
       <module>spring-security-web-6.1.5</module>
-      <module>spring-security-acl-6.2.1</module>
-      <module>spring-security-aspects-6.2.1</module>
-      <module>spring-security-config-6.2.1</module>
-      <module>spring-security-core-6.2.1</module>
-      <module>spring-security-crypto-6.2.1</module>
-      <module>spring-security-data-6.2.1</module>
-      <module>spring-security-ldap-6.2.1</module>
-      <module>spring-security-messaging-6.2.1</module>
-      <module>spring-security-oauth2-client-6.2.1</module>
-      <module>spring-security-oauth2-core-6.2.1</module>
-      <module>spring-security-oauth2-jose-6.2.1</module>
-      <module>spring-security-taglibs-6.2.1</module>
-      <module>spring-security-test-6.2.1</module>
-      <module>spring-security-web-6.2.1</module>
+      <module>spring-security-acl-6.2.4</module>
+      <module>spring-security-aspects-6.2.4</module>
+      <module>spring-security-config-6.2.4</module>
+      <module>spring-security-core-6.2.4</module>
+      <module>spring-security-crypto-6.2.4</module>
+      <module>spring-security-data-6.2.4</module>
+      <module>spring-security-ldap-6.2.4</module>
+      <module>spring-security-messaging-6.2.4</module>
+      <module>spring-security-oauth2-client-6.2.4</module>
+      <module>spring-security-oauth2-core-6.2.4</module>
+      <module>spring-security-oauth2-jose-6.2.4</module>
+      <module>spring-security-taglibs-6.2.4</module>
+      <module>spring-security-test-6.2.4</module>
+      <module>spring-security-web-6.2.4</module>
       <module>solr-solrj-9.6.0</module>
       <module>docker-java-3.3.6</module>
       <module>zookeeper-3.9.2</module>
