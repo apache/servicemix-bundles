@@ -161,6 +161,7 @@
       <module>solr-solrj-9.6.0</module>
       <module>docker-java-3.3.6</module>
       <module>zookeeper-3.9.2</module>
+      <module>rhino-1.7.15</module>
       <module>pulsar-client-3.2.2</module>
       <module>pulsar-client-admin-3.2.2</module>
       <module>kafka-clients-3.6.2</module>
