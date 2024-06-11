@@ -45,7 +45,7 @@
 	<properties>
 		<pkgGroupId>com.azure</pkgGroupId>
 		<pkgArtifactId>azure-identity</pkgArtifactId>
-		<pkgVersion>1.7.1</pkgVersion>
+		<pkgVersion>1.12.2</pkgVersion>
     <servicemix.osgi.source.version>1.7.1.1</servicemix.osgi.source.version>
 		<servicemix.osgi.export.pkg>
 			com.azure.identity*
