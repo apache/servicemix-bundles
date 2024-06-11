@@ -86,7 +86,7 @@
 			com.codahale.metrics,
 			com.sun.jna*
 		</servicemix.osgi.private.pkg>
-		<msal4j-version>1.11.2</msal4j-version>
+		<msal4j-version>1.15.1</msal4j-version>
 		<msal4j-persistence-extension-version>1.1.0</msal4j-persistence-extension-version>
 	</properties>
 
