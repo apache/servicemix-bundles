@@ -44,7 +44,7 @@
 
     <properties>
         <pkgGroupId>org.apache.derby</pkgGroupId>
-        <pkgVersion>10.16.1.1</pkgVersion>
+        <pkgVersion>10.17.1.0</pkgVersion>
 	<servicemix.osgi.source.version>10.16.1.1.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             org.apache.derby
