@@ -45,7 +45,7 @@
     <properties>
         <pkgGroupId>com.azure</pkgGroupId>
         <pkgArtifactId>azure-storage-blob</pkgArtifactId>
-        <pkgVersion>12.11.1</pkgVersion>
+        <pkgVersion>12.18.0</pkgVersion>
         <servicemix.osgi.export.pkg>
             com.azure.storage.blob
          </servicemix.osgi.export.pkg>
