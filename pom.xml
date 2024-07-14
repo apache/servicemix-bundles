@@ -41,6 +41,10 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+      <module>lucene-9.11.1</module>
+      <module>lucene-queries-9.11.1</module>
+      <module>lucene-queryparser-9.11.1</module>
+      <module>lucene-sandbox-9.11.1</module>
     </modules>
 
 </project>
