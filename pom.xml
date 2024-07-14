@@ -45,6 +45,7 @@
       <module>lucene-queries-9.11.1</module>
       <module>lucene-queryparser-9.11.1</module>
       <module>lucene-sandbox-9.11.1</module>
+      <module>mustache-compiler-0.9.14</module>
     </modules>
 
 </project>
