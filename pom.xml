@@ -54,6 +54,7 @@
       <module>hapi-fhir-structures-hl7org-dstu2-7.2.1</module>
       <module>hapi-fhir-structures-r4-7.2.1</module>
       <module>hapi-fhir-validation-7.2.1</module>
+      <module>postgresql-42.7.3</module>
     </modules>
 
 </project>
