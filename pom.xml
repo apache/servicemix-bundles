@@ -63,6 +63,9 @@
       <module>spring-batch-core-5.1.2</module>
       <module>spring-batch-infrastructure-5.1.2</module>
       <module>saxon-12.5</module>
+      <module>spring-data-commons-3.3.2</module>
+      <module>spring-data-keyvalue-3.3.2</module>
+      <module>spring-data-redis-3.3.2</module>
     </modules>
 
 </project>
