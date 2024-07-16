@@ -62,6 +62,7 @@
       <module>java-util-2.13.0</module>
       <module>spring-batch-core-5.1.2</module>
       <module>spring-batch-infrastructure-5.1.2</module>
+      <module>saxon-12.5</module>
     </modules>
 
 </project>
