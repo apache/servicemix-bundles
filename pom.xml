@@ -69,6 +69,9 @@
       <module>spring-data-commons-3.2.8</module>
       <module>spring-data-keyvalue-3.2.8</module>
       <module>spring-data-redis-3.2.8</module>
+      <module>spring-data-commons-3.1.12</module>
+      <module>spring-data-keyvalue-3.1.12</module>
+      <module>spring-data-redis-3.1.12</module>
     </modules>
 
 </project>
