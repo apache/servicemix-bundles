@@ -58,6 +58,7 @@
       <module>pulsar-client-3.3.0</module>
       <module>pulsar-client-admin-3.3.0</module>
       <module>snmp4j-3.8.2</module>
+      <module>hadoop-client-3.4.0</module>
     </modules>
 
 </project>
