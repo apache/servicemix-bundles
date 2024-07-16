@@ -29,8 +29,8 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.spring-ws-support</artifactId>
-    <version>4.0.10_2-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.spring-ws-test</artifactId>
+    <version>4.0.11_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
 
@@ -38,83 +38,40 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <properties>
         <pkgGroupId>org.springframework.ws</pkgGroupId>
-        <pkgArtifactId>spring-ws-support</pkgArtifactId>
-        <pkgVersion>4.0.10</pkgVersion>
-        <servicemix.osgi.source.version>4.0.10.1</servicemix.osgi.source.version>
+        <pkgArtifactId>spring-ws-test</pkgArtifactId>
+        <pkgVersion>4.0.11</pkgVersion>
+        <servicemix.osgi.source.version>4.0.11.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
-            org.springframework.ws.transport
+            org.springframework.ws.test
         </servicemix.osgi.export.pkg>
-        <servicemix.osgi.fragment.host>
-            ${project.groupId}.spring-ws-core
-        </servicemix.osgi.fragment.host>
         <servicemix.osgi.import.pkg>
-            com.sun.mail.imap;resolution:=optional, 
-            com.sun.net.httpserver;resolution:=optional, 
-            jakarta.activation, 
-            jakarta.jms, 
-            jakarta.mail;resolution:=optional, 
-            jakarta.mail.event;resolution:=optional, 
-            jakarta.mail.internet;resolution:=optional, 
-            jakarta.mail.search;resolution:=optional, 
-            javax.net.ssl, 
-            jakarta.servlet, 
-            jakarta.servlet.http, 
             javax.xml.namespace, 
-            javax.xml.soap, 
             javax.xml.transform, 
             javax.xml.transform.dom, 
-            javax.xml.transform.stream, 
-            org.apache.commons.httpclient;resolution:=optional, 
-            org.apache.commons.httpclient.auth;resolution:=optional, 
-            org.apache.commons.httpclient.methods;resolution:=optional, 
-            org.apache.commons.httpclient.params;resolution:=optional, 
             org.apache.commons.logging;resolution:=optional, 
-            org.apache.http;resolution:=optional, 
-            org.apache.http.auth;resolution:=optional, 
-            org.apache.http.client;resolution:=optional, 
-            org.apache.http.client.methods;resolution:=optional, 
-            org.apache.http.conn;resolution:=optional, 
-            org.apache.http.conn.routing;resolution:=optional, 
-            org.apache.http.entity;resolution:=optional, 
-            org.apache.http.impl.client;resolution:=optional, 
-            org.apache.http.impl.conn;resolution:=optional, 
-            org.apache.http.params;resolution:=optional, 
-            org.apache.http.protocol;resolution:=optional, 
-            org.apache.http.util;resolution:=optional, 
-            org.jivesoftware.smack;resolution:=optional, 
-            org.jivesoftware.smack.filter;resolution:=optional, 
-            org.jivesoftware.smack.packet;resolution:=optional, 
-            org.jivesoftware.smack.tcp;resolution:=optional,
-            org.jivesoftware.smackx.jiveproperties;resolution:=optional,
+            org.custommonkey.xmlunit;resolution:=optional, 
+            org.springframework.beans;version="[6,7)";resolution:=optional, 
             org.springframework.beans.factory;version="[6,7)";resolution:=optional, 
-            org.springframework.context;version="[6,7)";resolution:=optional, 
-            org.springframework.core.task;version="[6,7)";resolution:=optional, 
-            org.springframework.http;version="[6,7)";resolution:=optional, 
-            org.springframework.http.client;version="[6,7)";resolution:=optional, 
-            org.springframework.jms.connection;version="[6,7)";resolution:=optional, 
-            org.springframework.jms.core;version="[6,7)";resolution:=optional, 
-            org.springframework.jms.listener;version="[6,7)";resolution:=optional, 
-            org.springframework.jms.support;version="[6,7)";resolution:=optional, 
-            org.springframework.jms.support.destination;version="[6,7)";resolution:=optional, 
-            org.springframework.scheduling;version="[6,7)";resolution:=optional, 
+            org.springframework.context;version="[6,7)";resolution:=optional,
+            org.springframework.core.io;version="[6,7)";resolution:=optional, 
             org.springframework.util;version="[6,7)";resolution:=optional, 
-            org.springframework.web.context;version="[6,7)";resolution:=optional, 
-            org.springframework.web.context.support;version="[6,7)";resolution:=optional, 
-            org.springframework.web.servlet;version="[6,7)";resolution:=optional, 
-            org.springframework.web.util;version="[6,7)";resolution:=optional, 
-            org.springframework.ws;resolution:=optional, 
-            org.springframework.ws.context;resolution:=optional, 
-            org.springframework.ws.support;resolution:=optional, 
-            org.springframework.ws.wsdl;resolution:=optional, 
+            org.springframework.ws;version="[${pkgVersion},5)";resolution:=optional, 
+            org.springframework.ws.client.core;version="[${pkgVersion},5)";resolution:=optional, 
+            org.springframework.ws.client.core.support;version="[${pkgVersion},5)";resolution:=optional, 
+            org.springframework.ws.context;version="[${pkgVersion},5)";resolution:=optional, 
+            org.springframework.ws.soap;version="[${pkgVersion},5)";resolution:=optional, 
+            org.springframework.ws.soap.saaj;version="[${pkgVersion},5)";resolution:=optional, 
+            org.springframework.ws.soap.server;version="[${pkgVersion},5)";resolution:=optional, 
+            org.springframework.ws.transport;version="[${pkgVersion},5)";resolution:=optional, 
             org.springframework.xml.transform;resolution:=optional, 
+            org.springframework.xml.validation;resolution:=optional, 
             org.springframework.xml.xpath;resolution:=optional, 
-            org.springframework.xml.xsd;resolution:=optional, 
-            org.w3c.dom;resolution:=optional
+            org.w3c.dom;resolution:=optional, 
+            org.xml.sax;resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
 

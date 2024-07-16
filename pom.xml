@@ -78,6 +78,10 @@
       <module>kafka-streams-3.7.1</module>
       <module>kafka_2.12-3.7.1</module>
       <module>kafka_2.13-3.7.1</module>
+      <module>spring-ws-core-4.0.11</module>
+      <module>spring-ws-security-4.0.11</module>
+      <module>spring-ws-support-4.0.11</module>
+      <module>spring-ws-test-4.0.11</module>
     </modules>
 
 </project>
