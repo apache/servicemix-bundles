@@ -86,6 +86,7 @@
       <module>spring-ws-security-3.1.8</module>
       <module>spring-ws-support-3.1.8</module>
       <module>spring-ws-test-3.1.8</module>
+      <module>aws-java-sdk-2.26.20</module>
     </modules>
 
 </project>
