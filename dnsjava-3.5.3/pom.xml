@@ -45,7 +45,7 @@
     <properties>
         <pkgGroupId>dnsjava</pkgGroupId>
         <pkgArtifactId>dnsjava</pkgArtifactId>
-        <pkgVersion>3.5.3</pkgVersion>
+        <pkgVersion>3.6.0</pkgVersion>
         <servicemix.osgi.source.version>3.5.3.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             org.xbill
