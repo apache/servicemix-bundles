@@ -48,12 +48,12 @@
       <module>mustache-compiler-0.9.14</module>
       <module>jruby-9.4.8.0</module>
       <module>solr-solrj-9.6.1</module>
-      <module>hapi-fhir-structures-dstu2-7.2.1</module>
-      <module>hapi-fhir-structures-dstu2.1-7.2.1</module>
-      <module>hapi-fhir-structures-dstu3-7.2.1</module>
-      <module>hapi-fhir-structures-hl7org-dstu2-7.2.1</module>
-      <module>hapi-fhir-structures-r4-7.2.1</module>
-      <module>hapi-fhir-validation-7.2.1</module>
+      <module>hapi-fhir-structures-dstu2-7.2.2</module>
+      <module>hapi-fhir-structures-dstu2.1-7.2.2</module>
+      <module>hapi-fhir-structures-dstu3-7.2.2</module>
+      <module>hapi-fhir-structures-hl7org-dstu2-7.2.2</module>
+      <module>hapi-fhir-structures-r4-7.2.2</module>
+      <module>hapi-fhir-validation-7.2.2</module>
       <module>postgresql-42.7.3</module>
       <module>pulsar-client-3.3.0</module>
       <module>pulsar-client-admin-3.3.0</module>
