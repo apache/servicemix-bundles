@@ -203,6 +203,7 @@
       <module>spring-webmvc-5.3.37</module>
       <module>spring-websocket-5.3.37</module>
       <module>dnsjava-3.6.0</module>
+      <module>c3p0-0.10.1</module>
     </modules>
 
 </project>
