@@ -43,7 +43,7 @@
     <properties>
         <pkgGroupId>org.springframework</pkgGroupId>
         <pkgArtifactId>spring-web</pkgArtifactId>
-        <pkgVersion>6.0.22</pkgVersion>
+        <pkgVersion>6.0.23</pkgVersion>
 	      <servicemix.osgi.source.version>6.0.22.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             org.springframework
