@@ -54,7 +54,7 @@
       <module>hapi-fhir-structures-hl7org-dstu2-7.2.2</module>
       <module>hapi-fhir-structures-r4-7.2.2</module>
       <module>hapi-fhir-validation-7.2.2</module>
-      <module>postgresql-42.7.3</module>
+      <module>postgresql-42.7.4</module>
       <module>pulsar-client-3.3.0</module>
       <module>pulsar-client-admin-3.3.0</module>
       <module>snmp4j-3.8.2</module>
