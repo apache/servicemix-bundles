@@ -29,8 +29,8 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.spring-security-messaging</artifactId>
-    <version>6.3.1_1-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.spring-security-web</artifactId>
+    <version>6.3.3_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
 
@@ -42,13 +42,19 @@
 
     <properties>
         <pkgGroupId>org.springframework.security</pkgGroupId>
-        <pkgArtifactId>spring-security-messaging</pkgArtifactId>
-        <pkgVersion>6.3.1</pkgVersion>
-	      <servicemix.osgi.source.version>6.3.1.1</servicemix.osgi.source.version>
+        <pkgArtifactId>spring-security-web</pkgArtifactId>
+        <pkgVersion>6.3.3</pkgVersion>
+	      <servicemix.osgi.source.version>6.3.3.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
-            org.springframework.security.messaging
+            org.springframework.security.web
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
+            !org.springframework.security.web*,
+			org.reactivestreams;resolution:=optional,
+			org.springframework.jdbc*;resolution:=optional,
+			org.springframework.web.reactive*;resolution:=optional,
+			reactor.*;resolution:=optional,
+	    com.ibm.websphere*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
     </properties>

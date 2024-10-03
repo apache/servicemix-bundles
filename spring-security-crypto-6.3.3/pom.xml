@@ -29,8 +29,8 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.spring-security-core</artifactId>
-    <version>6.3.1_1-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.spring-security-crypto</artifactId>
+    <version>6.3.3_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
 
@@ -42,22 +42,14 @@
 
     <properties>
         <pkgGroupId>org.springframework.security</pkgGroupId>
-        <pkgArtifactId>spring-security-core</pkgArtifactId>
-        <pkgVersion>6.3.1</pkgVersion>
-	      <servicemix.osgi.source.version>6.3.1.1</servicemix.osgi.source.version>
+        <pkgArtifactId>spring-security-crypto</pkgArtifactId>
+        <pkgVersion>6.3.3</pkgVersion>
+	      <servicemix.osgi.source.version>6.3.3.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
-            org.springframework.security
+            org.springframework.security.crypto
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-			net.sf.ehcache;resolution:="optional",
-			org.aspectj.*;resolution:="optional",
-			org.bouncycastle.*;resolution:="optional",
-			org.reactivestreams;resolution:="optional",
-			reactor.*;resolution:="optional",
-			org.springframework.jdbc.*;resolution:="optional",
-			kotlinx.coroutines.*;resolution:="optional",
-			kotlin.coroutines.*;resolution:="optional",
-			*
+            *
         </servicemix.osgi.import.pkg>
     </properties>
 

@@ -29,8 +29,8 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.spring-security-test</artifactId>
-    <version>6.3.1_1-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.spring-security-oauth2-jose</artifactId>
+    <version>6.3.3_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
 
@@ -42,14 +42,16 @@
 
     <properties>
         <pkgGroupId>org.springframework.security</pkgGroupId>
-        <pkgArtifactId>spring-security-test</pkgArtifactId>
-        <pkgVersion>6.3.1</pkgVersion>
-	      <servicemix.osgi.source.version>6.3.1.1</servicemix.osgi.source.version>
+        <pkgArtifactId>spring-security-oauth2-jose</pkgArtifactId>
+        <pkgVersion>6.3.3</pkgVersion>
+	      <servicemix.osgi.source.version>6.3.3.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
-            org.springframework.security.test
+            org.springframework.security.oauth2.j*
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !org.springframework.security.test*,
+            com.nimbusds.oauth2.sdk;resolution:=optional,
+            com.nimbusds.jose;resolution:=optional,
+            com.nimbusds*;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
     </properties>

@@ -29,8 +29,8 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.spring-security-crypto</artifactId>
-    <version>6.3.1_1-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.spring-security-oauth2-core</artifactId>
+    <version>6.3.3_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
 
@@ -42,13 +42,16 @@
 
     <properties>
         <pkgGroupId>org.springframework.security</pkgGroupId>
-        <pkgArtifactId>spring-security-crypto</pkgArtifactId>
-        <pkgVersion>6.3.1</pkgVersion>
-	      <servicemix.osgi.source.version>6.3.1.1</servicemix.osgi.source.version>
+        <pkgArtifactId>spring-security-oauth2-core</pkgArtifactId>
+        <pkgVersion>6.3.3</pkgVersion>
+	      <servicemix.osgi.source.version>6.3.3.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
-            org.springframework.security.crypto
+            org.springframework.security.oauth2.core*
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
+            com.nimbusds*;resolution:=optional,
+            com.fasterxml.jackson.databind;resolution:=optional,
+            com.fasterxml.jackson.core;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
     </properties>

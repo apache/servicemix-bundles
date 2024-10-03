@@ -29,8 +29,8 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.spring-security-taglibs</artifactId>
-    <version>6.3.1_1-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.spring-security-aspects</artifactId>
+    <version>6.3.3_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
 
@@ -42,15 +42,15 @@
 
     <properties>
         <pkgGroupId>org.springframework.security</pkgGroupId>
-        <pkgArtifactId>spring-security-taglibs</pkgArtifactId>
-        <pkgVersion>6.3.1</pkgVersion>
-	      <servicemix.osgi.source.version>6.3.1.1</servicemix.osgi.source.version>
+        <pkgArtifactId>spring-security-aspects</pkgArtifactId>
+        <pkgVersion>6.3.3</pkgVersion>
+	      <servicemix.osgi.source.version>6.3.3.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
-            org.springframework.security.taglibs
+            org.springframework.security.access.intercept.aspectj
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            !org.springframework.security.taglibs*,
-            *
+            org.aspectj*,
+            org.springframework.beans.factory;version="[6,7)"
         </servicemix.osgi.import.pkg>
     </properties>
 
@@ -91,7 +91,7 @@
                                 <filter>
                                     <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
                                     <includes>
-                                        <include>META-INF/security.tld</include>
+                                        <include>META-INF/aop.xml</include>
                                     </includes>
                                 </filter>
                             </filters>
