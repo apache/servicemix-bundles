@@ -211,6 +211,7 @@
       <module>freemarker-2.3.33</module>
       <module>docker-java-3.4.0</module>
       <module>mybatis-3.5.16</module>
+      <module>xmlresolver-6.0.10</module>
     </modules>
 
 </project>
