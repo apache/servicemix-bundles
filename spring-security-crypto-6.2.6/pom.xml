@@ -29,8 +29,8 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.spring-security-aspects</artifactId>
-    <version>6.2.5_1-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.spring-security-crypto</artifactId>
+    <version>6.2.6_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
 
@@ -42,15 +42,14 @@
 
     <properties>
         <pkgGroupId>org.springframework.security</pkgGroupId>
-        <pkgArtifactId>spring-security-aspects</pkgArtifactId>
-        <pkgVersion>6.2.5</pkgVersion>
-	      <servicemix.osgi.source.version>6.2.5.1</servicemix.osgi.source.version>
+        <pkgArtifactId>spring-security-crypto</pkgArtifactId>
+        <pkgVersion>6.2.6</pkgVersion>
+	      <servicemix.osgi.source.version>6.2.6.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
-            org.springframework.security.access.intercept.aspectj
+            org.springframework.security.crypto
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-            org.aspectj*,
-            org.springframework.beans.factory;version="[6,7)"
+            *
         </servicemix.osgi.import.pkg>
     </properties>
 
@@ -90,9 +89,9 @@
                             <filters>
                                 <filter>
                                     <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
-                                    <includes>
-                                        <include>META-INF/aop.xml</include>
-                                    </includes>
+                                    <excludes>
+                                        <exclude>**</exclude>
+                                    </excludes>
                                 </filter>
                             </filters>
                             <promoteTransitiveDependencies>true</promoteTransitiveDependencies>

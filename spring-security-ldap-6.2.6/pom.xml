@@ -29,8 +29,8 @@
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.spring-security-messaging</artifactId>
-    <version>6.2.5_1-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.spring-security-ldap</artifactId>
+    <version>6.2.6_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
 
@@ -42,13 +42,17 @@
 
     <properties>
         <pkgGroupId>org.springframework.security</pkgGroupId>
-        <pkgArtifactId>spring-security-messaging</pkgArtifactId>
-        <pkgVersion>6.2.5</pkgVersion>
-	      <servicemix.osgi.source.version>6.2.5.1</servicemix.osgi.source.version>
+        <pkgArtifactId>spring-security-ldap</pkgArtifactId>
+        <pkgVersion>6.2.6</pkgVersion>
+	      <servicemix.osgi.source.version>6.2.6.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
-            org.springframework.security.messaging
+            org.springframework.security.ldap
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
+            com.unboundid*;resolution:=optional,
+            org.apache.directory*;resolution:=optional,
+            netscape.ldap*;resolution:=optional, 
+            org.apache.mina.transport.socket;resolution:=optional,
             *
         </servicemix.osgi.import.pkg>
     </properties>
