@@ -202,7 +202,7 @@
       <module>spring-webflux-5.3.37</module>
       <module>spring-webmvc-5.3.37</module>
       <module>spring-websocket-5.3.37</module>
-      <module>dnsjava-3.6.0</module>
+      <module>dnsjava-3.6.2</module>
       <module>c3p0-0.10.1</module>
       <module>mchange-commons-java-0.3.1</module>
       <module>aws-java-sdk-2.26.24</module>
