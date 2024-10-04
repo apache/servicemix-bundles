@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.spring-data-commons</artifactId>
-    <version>3.2.8_1-SNAPSHOT</version>
+    <version>3.2.10_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
 
@@ -43,8 +43,8 @@
     <properties>
         <pkgGroupId>org.springframework.data</pkgGroupId>
         <pkgArtifactId>spring-data-commons</pkgArtifactId>
-        <pkgVersion>3.2.8</pkgVersion>
-	      <servicemix.osgi.source.version>3.2.8.1</servicemix.osgi.source.version>
+        <pkgVersion>3.2.10</pkgVersion>
+	      <servicemix.osgi.source.version>3.2.10.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             org.springframework.data
         </servicemix.osgi.export.pkg>
