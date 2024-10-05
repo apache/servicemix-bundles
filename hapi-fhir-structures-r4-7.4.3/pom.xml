@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.hapi-fhir-structures-r4</artifactId>
-    <version>7.2.2_1-SNAPSHOT</version>
+    <version>7.4.3_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
@@ -44,8 +44,8 @@
     <properties>
         <pkgGroupId>ca.uhn.hapi.fhir</pkgGroupId>
         <pkgArtifactId>hapi-fhir-structures-r4</pkgArtifactId>
-        <pkgVersion>7.2.2</pkgVersion>
-	      <servicemix.osgi.source.version>7.2.2.1</servicemix.osgi.source.version>
+        <pkgVersion>7.4.3</pkgVersion>
+	      <servicemix.osgi.source.version>7.4.3.1</servicemix.osgi.source.version>
         <servicemix.osgi.import.pkg>
 		ca.uhn.fhir.context;version="[7,8)",
 		ca.uhn.fhir.context.api;version="[7,8)",
@@ -103,7 +103,7 @@
 		org.hl7.fhir.utilities.validation;version="[7,8)",
 		org.hl7.fhir.utilities.xhtml;version="[7,8)",
 		org.hl7.fhir.utilities.xml;version="[7,8)",
-		org.slf4j;version="[1.7,2)",
+		org.slf4j;version="[1.7,3)",
 		org.stringtemplate.v4;resolution:=optional,
 		org.w3c.dom,
 		org.w3c.dom.events,
