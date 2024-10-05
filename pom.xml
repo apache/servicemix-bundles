@@ -41,10 +41,10 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
-      <module>lucene-9.11.1</module>
-      <module>lucene-queries-9.11.1</module>
-      <module>lucene-queryparser-9.11.1</module>
-      <module>lucene-sandbox-9.11.1</module>
+      <module>lucene-9.12.0</module>
+      <module>lucene-queries-9.12.0</module>
+      <module>lucene-queryparser-9.12.0</module>
+      <module>lucene-sandbox-9.12.0</module>
       <module>mustache-compiler-0.9.14</module>
       <module>jruby-9.4.8.0</module>
       <module>solr-solrj-9.7.0</module>
