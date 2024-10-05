@@ -216,6 +216,7 @@
       <module>docker-java-3.4.0</module>
       <module>mybatis-3.5.16</module>
       <module>xmlresolver-6.0.10</module>
+      <module>spring-xml-4.0.11</module>
     </modules>
 
 </project>
