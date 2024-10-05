@@ -187,25 +187,25 @@
       <module>spring-webflux-6.0.23</module>
       <module>spring-webmvc-6.0.23</module>
       <module>spring-websocket-6.0.23</module>
-      <module>spring-aop-5.3.37</module>
-      <module>spring-aspects-5.3.37</module>
-      <module>spring-beans-5.3.37</module>
-      <module>spring-context-5.3.37</module>
-      <module>spring-context-support-5.3.37</module>
-      <module>spring-core-5.3.37</module>
-      <module>spring-expression-5.3.37</module>
-      <module>spring-instrument-5.3.37</module>
-      <module>spring-jdbc-5.3.37</module>
-      <module>spring-jms-5.3.37</module>
-      <module>spring-messaging-5.3.37</module>
-      <module>spring-orm-5.3.37</module>
-      <module>spring-oxm-5.3.37</module>
-      <module>spring-test-5.3.37</module>
-      <module>spring-tx-5.3.37</module>
-      <module>spring-web-5.3.37</module>
-      <module>spring-webflux-5.3.37</module>
-      <module>spring-webmvc-5.3.37</module>
-      <module>spring-websocket-5.3.37</module>
+      <module>spring-aop-5.3.39</module>
+      <module>spring-aspects-5.3.39</module>
+      <module>spring-beans-5.3.39</module>
+      <module>spring-context-5.3.39</module>
+      <module>spring-context-support-5.3.39</module>
+      <module>spring-core-5.3.39</module>
+      <module>spring-expression-5.3.39</module>
+      <module>spring-instrument-5.3.39</module>
+      <module>spring-jdbc-5.3.39</module>
+      <module>spring-jms-5.3.39</module>
+      <module>spring-messaging-5.3.39</module>
+      <module>spring-orm-5.3.39</module>
+      <module>spring-oxm-5.3.39</module>
+      <module>spring-test-5.3.39</module>
+      <module>spring-tx-5.3.39</module>
+      <module>spring-web-5.3.39</module>
+      <module>spring-webflux-5.3.39</module>
+      <module>spring-webmvc-5.3.39</module>
+      <module>spring-websocket-5.3.39</module>
       <module>dnsjava-3.6.2</module>
       <module>c3p0-0.10.1</module>
       <module>mchange-commons-java-0.3.1</module>
