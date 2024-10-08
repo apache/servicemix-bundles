@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <!--
+
+        Licensed to the Apache Software Foundation (ASF) under one or more
+        contributor license agreements.  See the NOTICE file distributed with
+        this work for additional information regarding copyright ownership.
+        The ASF licenses this file to You under the Apache License, Version 2.0
+        (the "License"); you may not use this file except in compliance with
+        the License.  You may obtain a copy of the License at
+
+           http://www.apache.org/licenses/LICENSE-2.0
+
+        Unless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an "AS IS" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License.
+    -->
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.apache.servicemix.bundles</groupId>
+        <artifactId>bundles-pom</artifactId>
+        <version>16</version>
+        <relativePath>../bundles-pom/pom.xml</relativePath>
+    </parent>
+
+    <groupId>org.apache.servicemix.bundles</groupId>
+    <artifactId>org.apache.servicemix.bundles.poi</artifactId>
+    <version>5.3.0_1-SNAPSHOT</version>
+    <packaging>bundle</packaging>
+    <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
+    <description>
+        This OSGi bundle wraps poi, poi-ooxml, and poi-scratchpad ${pkgVersion} jar files.
+    </description>
+
+    <scm>
+        <connection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</connection>
+        <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
+        <url>https://gitbox.apache.org/repos/asf?p=servicemix-bundles.git</url>
+  </scm>
+
+    <properties>
+        <pkgGroupId>org.apache.poi</pkgGroupId>
+        <pkgArtifactId>poi</pkgArtifactId>
+        <pkgVersion>5.3.0</pkgVersion>
+        <servicemix.osgi.source.version>5.3.0.1</servicemix.osgi.source.version>
+        <servicemix.osgi.export.pkg>
+            org.etsi.uri.x01903.v13;version=${pkgVersion};-split-package:=merge-first,
+            org.openxmlformats.schemas.drawingml.x2006.chart;version=${pkgVersion};-split-package:=merge-first,
+            org.openxmlformats.schemas.drawingml.x2006.main;version=${pkgVersion};-split-package:=merge-first,
+            org.openxmlformats.schemas.drawingml.x2006.chartDrawing;version=${pkgVersion};-split-package:=merge-first,
+            org.openxmlformats.schemas.drawingml.x2006.picture;version=${pkgVersion};-split-package:=merge-first,
+            org.openxmlformats.schemas.drawingml.x2006.spreadsheetDrawing;version=${pkgVersion};-split-package:=merge-first,
+            org.openxmlformats.schemas.drawingml.x2006.wordprocessingDrawing;version=${pkgVersion};-split-package:=merge-first,
+            org.openxmlformats.schemas.officeDocument.x2006.customProperties;version=${pkgVersion};-split-package:=merge-first,
+            org.openxmlformats.schemas.officeDocument.x2006.docPropsVTypes;version=${pkgVersion};-split-package:=merge-first,
+            org.openxmlformats.schemas.officeDocument.x2006.extendedProperties;version=${pkgVersion};-split-package:=merge-first,
+            org.openxmlformats.schemas.officeDocument.x2006.relationships;version=${pkgVersion};-split-package:=merge-first,
+            org.openxmlformats.schemas.officeDocument.x2006.math;version=${pkgVersion};-split-package:=merge-first,
+            org.openxmlformats.schemas.presentationml.x2006.main;version=${pkgVersion};-split-package:=merge-first,
+            org.openxmlformats.schemas.schemaLibrary.x2006.main;version=${pkgVersion};-split-package:=merge-first,
+            org.openxmlformats.schemas.spreadsheetml.x2006.main;version=${pkgVersion};-split-package:=merge-first,
+            org.openxmlformats.schemas.wordprocessingml.x2006.main;version=${pkgVersion};-split-package:=merge-first,
+            org.openxmlformats.schemas.xpackage.x2006.digitalSignature;version=${pkgVersion};-split-package:=merge-first,
+            org.w3.x2000.x09.xmldsig;version=${pkgVersion};-split-package:=merge-first,
+            com.graphbuilder.curve;-split-package:=merge-first,
+            com.graphbuilder.math;-split-package:=merge-first,
+            com.graphbuilder.math.func;-split-package:=merge-first,
+            com.microsoft.schemas.compatibility;version=${pkgVersion};-split-package:=merge-first,
+            com.microsoft.schemas.office.excel;version=${pkgVersion};-split-package:=merge-first,
+            com.microsoft.schemas.office.office;version=${pkgVersion};-split-package:=merge-first,
+            com.microsoft.schemas.office.word;version=${pkgVersion};-split-package:=merge-first,
+            com.microsoft.schemas.office.powerpoint;version=${pkgVersion};-split-package:=merge-first,
+            com.microsoft.schemas.office.visio.x2012.main;version=${pkgVersion};-split-package:=merge-first,
+            com.microsoft.schemas.office.x2006.digsig;version=${pkgVersion};-split-package:=merge-first,
+            com.microsoft.schemas.office.x2006.encryption;version=${pkgVersion};-split-package:=merge-first,
+            com.microsoft.schemas.office.x2006.keyEncryptor.certificate;version=${pkgVersion};-split-package:=merge-first,
+            com.microsoft.schemas.office.x2006.keyEncryptor.password;version=${pkgVersion};-split-package:=merge-first,
+            com.microsoft.schemas.vml;version=${pkgVersion};-split-package:=merge-first,
+            org.apache.poi*
+        </servicemix.osgi.export.pkg>
+        <servicemix.osgi.import.pkg>
+            org.xml.sax*,
+						org.xml.sax.ext,
+            javax.xml.*,
+            org.apache.xmlbeans.*,
+            org.apache.commons.collections4.*,
+            org.apache.commons.math3.*,
+            org.apache.commons.compress.*,
+            org.apache.commons.io.*,
+            org.apache.logging.*,
+            org.bouncycastle.*;resolution:=optional,
+            org.apache.jcp.xml.dsig.internal.dom;resolution:=optional,
+            org.apache.xml.security.*;resolution:=optional,
+            org.apache.batik.*;resolution:=optional,
+						javax.imageio.*;resolution:=optional,
+						org.apache.xmlbeans.impl.schema*,
+						org.w3c.dom*;resolution:=optional
+        </servicemix.osgi.import.pkg>
+        <servicemix.osgi.private.pkg>
+            com.graphbuilder*;-split-package:=merge-first,
+            com.microsoft.schemas*;-split-package:=merge-first,
+            org.etsi*;-split-package:=merge-first,
+            org.openxmlformats*;-split-package:=merge-first,
+            org.w3.x2000.x09*;-split-package:=merge-first,
+            schemaorg_apache_xmlbeans*;-split-package:=merge-first
+        </servicemix.osgi.private.pkg>
+        <servicemix.osgi.dynamicimport.pkg>
+            schemaorg_apache_xmlbeans.*
+        </servicemix.osgi.dynamicimport.pkg>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>commons-codec</artifactId>
+                    <groupId>commons-codec</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>commons-collections4</artifactId>
+                    <groupId>org.apache.commons</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>commons-math3</artifactId>
+                    <groupId>org.apache.commons</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>commons-io</artifactId>
+                    <groupId>commons-io</groupId>
+                </exclusion>
+            </exclusions>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>poi-scratchpad</artifactId>
+            <version>${pkgVersion}</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>poi</artifactId>
+                    <groupId>org.apache.poi</groupId>
+                </exclusion>
+            </exclusions>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>${pkgVersion}</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>xmlbeans</artifactId>
+                    <groupId>org.apache.xmlbeans</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>commons-compress</artifactId>
+                    <groupId>org.apache.commons</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>curvesapi</artifactId>
+                    <groupId>com.github.virtuald</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>poi</artifactId>
+                    <groupId>org.apache.poi</groupId>
+                </exclusion>
+            </exclusions>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>com.github.virtuald</groupId>
+            <artifactId>curvesapi</artifactId>
+            <version>1.06</version>
+            <optional>false</optional>
+        </dependency>
+
+        <!-- sources -->
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>${pkgArtifactId}</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <exclusions>
+                <exclusion>
+                    <artifactId>commons-codec</artifactId>
+                    <groupId>commons-codec</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>commons-collections4</artifactId>
+                    <groupId>org.apache.commons</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>commons-math3</artifactId>
+                    <groupId>org.apache.commons</groupId>
+                </exclusion>
+            </exclusions>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>poi-scratchpad</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <exclusions>
+                <exclusion>
+                    <artifactId>poi</artifactId>
+                    <groupId>org.apache.poi</groupId>
+                </exclusion>
+            </exclusions>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${pkgGroupId}</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>${pkgVersion}</version>
+            <classifier>sources</classifier>
+            <exclusions>
+                <exclusion>
+                    <artifactId>commons-compress</artifactId>
+                    <groupId>org.apache.commons</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>curvesapi</artifactId>
+                    <groupId>com.github.virtuald</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>poi</artifactId>
+                    <groupId>org.apache.poi</groupId>
+                </exclusion>
+            </exclusions>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>com.github.virtuald</groupId>
+            <artifactId>curvesapi</artifactId>
+            <version>1.05</version>
+            <classifier>sources</classifier>
+            <optional>false</optional>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>binaries</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <artifactSet>
+                                <excludes>
+                                    <exclude>*:*:*:sources</exclude>
+                                    <exclude>${project.groupId}:${project.artifactId}:*:sources</exclude>
+                                    <exclude>org.apache.logging.log4j:*</exclude>
+                                </excludes>
+                            </artifactSet>
+                            <filters>
+                               <filter>
+                                    <artifact>${pkgGroupId}:poi</artifact>
+                                    <includes>
+                                        <include>META-INF/services/**</include>
+                                    </includes>
+                               </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:poi-scratchpad</artifact>
+                                    <includes>
+                                        <include>META-INF/services/**</include>
+                                    </includes>
+                                </filter>
+                                <filter>
+                                    <artifact>${pkgGroupId}:poi-ooxml</artifact>
+                                    <includes>
+                                        <include>META-INF/services/**</include>
+                                    </includes>
+                                </filter>
+								<filter>
+                                    <artifact>${pkgGroupId}:poi-ooxml-lite</artifact>
+                                    <includes>
+                                        <include>META-INF/services/**</include>
+                                    </includes>
+                                </filter>
+                                <filter>
+                                    <artifact>com.github.virtuald:curvesapi</artifact>
+                                    <includes>
+                                        <include>META-INF/services/**</include>
+                                    </includes>
+                                </filter>
+                            </filters>
+                            <transformers>
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
+                            </transformers>
+                            <promoteTransitiveDependencies>false</promoteTransitiveDependencies>
+                            <createDependencyReducedPom>false</createDependencyReducedPom>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
