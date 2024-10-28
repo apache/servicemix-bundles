@@ -44,7 +44,7 @@
     <properties>
         <pkgGroupId>org.springframework.security</pkgGroupId>
         <pkgArtifactId>spring-security-web</pkgArtifactId>
-        <pkgVersion>6.3.3</pkgVersion>
+        <pkgVersion>6.3.4</pkgVersion>
 	      <servicemix.osgi.source.version>6.3.3.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             org.springframework.security.web
