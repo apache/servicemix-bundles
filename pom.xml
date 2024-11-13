@@ -116,6 +116,8 @@
       <module>spring-security-taglibs-6.3.3</module>
       <module>spring-security-test-6.3.3</module>
       <module>spring-security-web-6.3.3</module>
+      <module>avro-1.11.4</module>
+      <module>avro-ipc-1.11.4</module>
     </modules>
 
 </project>
