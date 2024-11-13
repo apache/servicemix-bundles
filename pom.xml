@@ -102,20 +102,20 @@
       <module>spring-security-taglibs-6.2.6</module>
       <module>spring-security-test-6.2.6</module>
       <module>spring-security-web-6.2.6</module>
-      <module>spring-security-acl-6.3.3</module>
-      <module>spring-security-aspects-6.3.3</module>
-      <module>spring-security-config-6.3.3</module>
-      <module>spring-security-core-6.3.3</module>
-      <module>spring-security-crypto-6.3.3</module>
-      <module>spring-security-data-6.3.3</module>
-      <module>spring-security-ldap-6.3.3</module>
-      <module>spring-security-messaging-6.3.3</module>
-      <module>spring-security-oauth2-client-6.3.3</module>
-      <module>spring-security-oauth2-core-6.3.3</module>
-      <module>spring-security-oauth2-jose-6.3.3</module>
-      <module>spring-security-taglibs-6.3.3</module>
-      <module>spring-security-test-6.3.3</module>
-      <module>spring-security-web-6.3.3</module>
+      <module>spring-security-acl-6.3.4</module>
+      <module>spring-security-aspects-6.3.4</module>
+      <module>spring-security-config-6.3.4</module>
+      <module>spring-security-core-6.3.4</module>
+      <module>spring-security-crypto-6.3.4</module>
+      <module>spring-security-data-6.3.4</module>
+      <module>spring-security-ldap-6.3.4</module>
+      <module>spring-security-messaging-6.3.4</module>
+      <module>spring-security-oauth2-client-6.3.4</module>
+      <module>spring-security-oauth2-core-6.3.4</module>
+      <module>spring-security-oauth2-jose-6.3.4</module>
+      <module>spring-security-taglibs-6.3.4</module>
+      <module>spring-security-test-6.3.4</module>
+      <module>spring-security-web-6.3.4</module>
       <module>avro-1.11.4</module>
       <module>avro-ipc-1.11.4</module>
     </modules>
