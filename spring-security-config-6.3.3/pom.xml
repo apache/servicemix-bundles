@@ -50,6 +50,7 @@
             org.springframework.security.config
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
+            com.nimbusds.jose*;resolution:=optional,
             io.rsocket.plugins;resolution:=optional,
             org.reactivestreams;resolution:=optional,
 	    reactor.*;resolution:=optional,
