@@ -143,6 +143,9 @@
       <module>hapi-fhir-structures-hl7org-dstu2-7.4.5</module>
       <module>hapi-fhir-structures-r4-7.4.5</module>
       <module>hapi-fhir-validation-7.4.5</module>
+      <module>spring-data-commons-3.3.5</module>
+      <module>spring-data-keyvalue-3.3.5</module>
+      <module>spring-data-redis-3.3.5</module>
     </modules>
 
 </project>
