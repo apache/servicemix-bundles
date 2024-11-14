@@ -152,6 +152,10 @@
       <module>kafka_2.13-3.8.1</module>
       <module>pulsar-client-3.3.2</module>
       <module>pulsar-client-admin-3.3.2</module>
+      <module>lucene-10.0.0</module>
+      <module>lucene-queries-10.0.0</module>
+      <module>lucene-queryparser-10.0.0</module>
+      <module>lucene-sandbox-10.0.0</module>
     </modules>
 
 </project>
