@@ -160,6 +160,7 @@
       <module>jedis-4.4.1</module>
       <module>spring-ldap-3.2.7</module>
       <module>xmlresolver-6.0.11</module>
+      <module>hadoop-client-3.4.1</module>
     </modules>
 
 </project>
