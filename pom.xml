@@ -159,6 +159,7 @@
       <module>aws-java-sdk-2.29.6</module>
       <module>jedis-4.4.1</module>
       <module>spring-ldap-3.2.7</module>
+      <module>xmlresolver-6.0.11</module>
     </modules>
 
 </project>
