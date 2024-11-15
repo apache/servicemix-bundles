@@ -156,6 +156,7 @@
       <module>lucene-queries-10.0.0</module>
       <module>lucene-queryparser-10.0.0</module>
       <module>lucene-sandbox-10.0.0</module>
+      <module>aws-java-sdk-2.29.6</module>
     </modules>
 
 </project>
