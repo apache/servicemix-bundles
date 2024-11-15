@@ -162,6 +162,7 @@
       <module>xmlresolver-6.0.11</module>
       <module>hadoop-client-3.4.1</module>
       <module>elasticsearch-java-8.15.3</module>
+      <module>hppc-0.10.0</module>
     </modules>
 
 </project>
