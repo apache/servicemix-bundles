@@ -45,7 +45,7 @@
     <properties>
         <pkgGroupId>org.apache.kafka</pkgGroupId>
         <pkgArtifactId>kafka-clients</pkgArtifactId>
-        <pkgVersion>3.6.2</pkgVersion>
+        <pkgVersion>3.7.1</pkgVersion>
 				<servicemix.osgi.source.version>3.6.2.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             org.apache.kafka
