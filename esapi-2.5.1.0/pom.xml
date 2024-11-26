@@ -45,7 +45,7 @@
     <properties>
         <pkgGroupId>org.owasp.esapi</pkgGroupId>
         <pkgArtifactId>esapi</pkgArtifactId>
-        <pkgVersion>2.5.1.0</pkgVersion>
+        <pkgVersion>2.6.0.0</pkgVersion>
         <servicemix.osgi.source.version>2.5.1.0.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             org.owasp.esapi
