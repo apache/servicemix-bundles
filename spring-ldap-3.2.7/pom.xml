@@ -43,7 +43,7 @@
 
     <properties>
         <pkgGroupId>org.springframework.ldap</pkgGroupId>
-        <pkgVersion>3.2.7</pkgVersion>
+        <pkgVersion>3.2.8</pkgVersion>
         <servicemix.osgi.source.version>3.2.7.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             org.springframework;-split-package:=merge-first,
