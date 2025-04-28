@@ -41,6 +41,7 @@
     <name>Apache ServiceMix :: Bundles</name>
 
     <modules>
+      <module>opensaml-4.3.2</module>
     </modules>
 
 </project>
