@@ -53,7 +53,7 @@
         </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
             javax.annotation,
-            com.thoughtworks.paranamer;version="[2.3,3)",
+            com.thoughtworks.paranamer;version="[2.3,3)";resolution:=optional,
             org.apache.commons.compress*,
             org.codehaus.jackson*;version="[2,3)",
             org.slf4j;resolution:=optional,
