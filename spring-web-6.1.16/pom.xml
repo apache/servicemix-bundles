@@ -64,6 +64,7 @@
             com.rometools.rome.io;version="[1.5,2)";resolution:=optional,
             com.sun.net.*;resolution:=optional,
             groovy.lang;version="[2.4,3)";resolution:=optional,
+            io.micrometer*;resolution:=optional,
             io.netty.bootstrap;resolution:=optional,
             io.netty.buffer;resolution:=optional, 
             io.netty.channel;resolution:=optional, 
