@@ -217,6 +217,9 @@
 <module>spring-data-keyvalue-3.4.5</module>
 <module>spring-data-redis-3.4.5</module>
 <module>jruby-10.0.0.0</module>
+<module>kafka_2.13-4.0.0</module>
+<module>kafka-clients-4.0.0</module>
+<module>kafka-streams-4.0.0</module>
     </modules>
 
 </project>
