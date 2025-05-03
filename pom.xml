@@ -222,6 +222,8 @@
 <module>kafka-streams-4.0.0</module>
 <module>spring-batch-core-5.2.2</module>
 <module>spring-batch-infrastructure-5.2.2</module>
+<module>pulsar-client-4.0.4</module>
+<module>pulsar-client-admin-4.0.4</module>
     </modules>
 
 </project>
