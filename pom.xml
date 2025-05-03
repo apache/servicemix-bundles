@@ -225,6 +225,7 @@
 <module>pulsar-client-4.0.4</module>
 <module>pulsar-client-admin-4.0.4</module>
 <module>jt400-21.0.3</module>
+<module>mybatis-3.5.19</module>
     </modules>
 
 </project>
