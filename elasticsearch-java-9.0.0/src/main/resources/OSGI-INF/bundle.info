@@ -1,0 +1,14 @@
+\u001B[1mSYNOPSIS\u001B[0m
+    ${project.description}
+
+    Original Maven URL:
+        \u001B[33mmvn:${pkgGroupId}/${pkgArtifactId}/${pkgVersion}\u001B[0m
+
+\u001B[1mDESCRIPTION\u001B[0m
+    The Java client for Elasticsearch provides strongly typed requests and responses for all Elasticsearch
+    APIs. It delegates protocol handling to an http client such as the Elasticsearch Low Level REST client
+    that takes care of all transport-level concerns (http connection establishment and pooling, retries,
+    etc).
+
+\u001B[1mSEE ALSO\u001B[0m
+    \u001B[36mhttps://github.com/elastic/elasticsearch-java\u001B[0m
