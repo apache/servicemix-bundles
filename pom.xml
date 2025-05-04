@@ -230,6 +230,7 @@
 <module>lucene-queries-10.2.0</module>
 <module>lucene-queryparser-10.2.0</module>
 <module>lucene-sandbox-10.2.0</module>
+<module>xstream-1.4.21</module>
     </modules>
 
 </project>
