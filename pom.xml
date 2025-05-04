@@ -237,6 +237,7 @@
 <module>elasticsearch-java-9.0.0</module>
 <module>zookeeper-3.9.3</module>
 <module>dnsjava-3.6.3</module>
+<module>paranamer-2.8.3</module>
     </modules>
 
 </project>
