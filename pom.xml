@@ -238,6 +238,7 @@
 <module>zookeeper-3.9.3</module>
 <module>dnsjava-3.6.3</module>
 <module>paranamer-2.8.3</module>
+<module>influxdb-java-2.25</module>
     </modules>
 
 </project>
