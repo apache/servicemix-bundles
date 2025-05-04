@@ -240,6 +240,12 @@
 <module>paranamer-2.8.3</module>
 <module>influxdb-java-2.25</module>
 <module>snmp4j-3.9.2</module>
+<module>hapi-fhir-structures-dstu2-8.0.0</module>
+<module>hapi-fhir-structures-dstu2.1-8.0.0</module>
+<module>hapi-fhir-structures-dstu3-8.0.0</module>
+<module>hapi-fhir-structures-hl7org-dstu2-8.0.0</module>
+<module>hapi-fhir-structures-r4-8.0.0</module>
+<module>hapi-fhir-validation-8.0.0</module>
     </modules>
 
 </project>
