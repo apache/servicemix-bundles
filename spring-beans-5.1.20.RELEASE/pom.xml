@@ -44,7 +44,7 @@
     <properties>
         <pkgGroupId>org.springframework</pkgGroupId>
         <pkgArtifactId>spring-beans</pkgArtifactId>
-        <pkgVersion>5.1.20.RELEASE</pkgVersion>
+        <pkgVersion>6.1.14</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.springframework
         </servicemix.osgi.export.pkg>
