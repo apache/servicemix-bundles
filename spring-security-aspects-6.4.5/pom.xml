@@ -44,7 +44,7 @@
     <properties>
         <pkgGroupId>org.springframework.security</pkgGroupId>
         <pkgArtifactId>spring-security-aspects</pkgArtifactId>
-        <pkgVersion>6.4.5</pkgVersion>
+        <pkgVersion>6.4.6</pkgVersion>
 	      <servicemix.osgi.source.version>6.4.5.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             org.springframework.security.access.intercept.aspectj
