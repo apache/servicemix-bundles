@@ -44,7 +44,7 @@
     <properties>
         <pkgGroupId>org.springframework</pkgGroupId>
         <pkgArtifactId>spring-context</pkgArtifactId>
-        <pkgVersion>6.2.6</pkgVersion>
+        <pkgVersion>6.2.7</pkgVersion>
 	      <servicemix.osgi.source.version>6.2.6.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             org.springframework
