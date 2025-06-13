@@ -54,6 +54,7 @@
 			org.reactivestreams;resolution:=optional,
 			org.springframework.jdbc*;resolution:=optional,
 			org.springframework.web.reactive*;resolution:=optional,
+			com.webauthn4j.*;resolution:=optional,
 			reactor.*;resolution:=optional,
 	    com.ibm.websphere*;resolution:=optional,
             *
