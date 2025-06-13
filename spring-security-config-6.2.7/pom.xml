@@ -51,6 +51,7 @@
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             com.nimbusds.*;resolution:=optional,
+            io.micrometer.*;resolution:=optional,
             io.rsocket.plugins;resolution:=optional,
             org.reactivestreams;resolution:=optional,
 	    reactor.*;resolution:=optional,

@@ -50,6 +50,7 @@
             org.springframework.security
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
+            io.micrometer.*;resolution:=optional,
 			net.sf.ehcache;resolution:="optional",
 			org.aspectj.*;resolution:="optional",
 			org.bouncycastle.*;resolution:="optional",
