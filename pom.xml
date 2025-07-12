@@ -179,6 +179,7 @@
 <module>spring-data-redis-3.3.13</module>
 <module>pulsar-client-4.0.5</module>
 <module>pulsar-client-admin-4.0.5</module>
+<module>jruby-10.0.0.1</module>
     </modules>
 
 </project>
