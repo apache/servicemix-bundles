@@ -180,6 +180,10 @@
 <module>pulsar-client-4.0.5</module>
 <module>pulsar-client-admin-4.0.5</module>
 <module>jruby-10.0.0.1</module>
+<module>lucene-10.2.2</module>
+<module>lucene-queries-10.2.2</module>
+<module>lucene-queryparser-10.2.2</module>
+<module>lucene-sandbox-10.2.2</module>
     </modules>
 
 </project>
