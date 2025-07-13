@@ -191,6 +191,7 @@
 <module>hapi-fhir-structures-r4-8.2.0</module>
 <module>hapi-fhir-validation-8.2.0</module>
 <module>elasticsearch-java-9.0.3</module>
+<module>c3p0-0.11.2</module>
     </modules>
 
 </project>
