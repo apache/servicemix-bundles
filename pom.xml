@@ -193,6 +193,10 @@
 <module>elasticsearch-java-9.0.3</module>
 <module>c3p0-0.11.2</module>
 <module>postgresql-42.7.7</module>
+<module>kafka_2.12-3.9.1</module>
+<module>kafka_2.13-3.9.1</module>
+<module>kafka-clients-3.9.1</module>
+<module>kafka-streams-3.9.1</module>
     </modules>
 
 </project>
