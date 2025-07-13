@@ -190,6 +190,7 @@
 <module>hapi-fhir-structures-hl7org-dstu2-8.2.0</module>
 <module>hapi-fhir-structures-r4-8.2.0</module>
 <module>hapi-fhir-validation-8.2.0</module>
+<module>elasticsearch-java-9.0.3</module>
     </modules>
 
 </project>
