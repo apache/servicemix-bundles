@@ -184,6 +184,12 @@
 <module>lucene-queries-10.2.2</module>
 <module>lucene-queryparser-10.2.2</module>
 <module>lucene-sandbox-10.2.2</module>
+<module>hapi-fhir-structures-dstu2-8.2.0</module>
+<module>hapi-fhir-structures-dstu2.1-8.2.0</module>
+<module>hapi-fhir-structures-dstu3-8.2.0</module>
+<module>hapi-fhir-structures-hl7org-dstu2-8.2.0</module>
+<module>hapi-fhir-structures-r4-8.2.0</module>
+<module>hapi-fhir-validation-8.2.0</module>
     </modules>
 
 </project>
