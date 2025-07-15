@@ -213,6 +213,7 @@
 <module>spring-security-taglibs-5.8.16</module>
 <module>spring-security-test-5.8.16</module>
 <module>spring-security-web-5.8.16</module>
+<module>esapi-2.6.0.0</module>
     </modules>
 
 </project>
