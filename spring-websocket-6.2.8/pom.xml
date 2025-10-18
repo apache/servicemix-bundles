@@ -44,7 +44,7 @@
     <properties>
         <pkgGroupId>org.springframework</pkgGroupId>
         <pkgArtifactId>spring-websocket</pkgArtifactId>
-        <pkgVersion>6.2.8</pkgVersion>
+        <pkgVersion>6.2.12</pkgVersion>
 	      <servicemix.osgi.source.version>6.2.8.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             org.springframework
