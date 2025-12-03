@@ -44,7 +44,7 @@
 
     <properties>
         <pkgGroupId>org.mozilla</pkgGroupId>
-        <pkgVersion>1.7.15</pkgVersion>
+        <pkgVersion>1.7.15.1</pkgVersion>
         <servicemix.osgi.source.version>1.7.15.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             org.mozilla
