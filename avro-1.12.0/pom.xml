@@ -45,7 +45,7 @@
     <properties>
         <pkgGroupId>org.apache.avro</pkgGroupId>
         <pkgArtifactId>avro</pkgArtifactId>
-        <pkgVersion>1.12.0</pkgVersion>
+        <pkgVersion>1.12.1</pkgVersion>
         <servicemix.osgi.source.version>1.12.0.1</servicemix.osgi.source.version>
         <servicemix.osgi.export>
             !org.apache.avro.ipc;version="${project.version}",
