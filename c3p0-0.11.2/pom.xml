@@ -45,7 +45,7 @@
     <properties>
         <pkgGroupId>com.mchange</pkgGroupId>
         <pkgArtifactId>c3p0</pkgArtifactId>
-        <pkgVersion>0.11.2</pkgVersion>
+        <pkgVersion>0.12.0</pkgVersion>
         <servicemix.osgi.source.version>0.11.2.1</servicemix.osgi.source.version>
         <servicemix.osgi.export.pkg>
             com.mchange
