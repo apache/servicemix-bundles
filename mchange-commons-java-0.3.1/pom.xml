@@ -45,7 +45,7 @@
     <properties>
         <pkgGroupId>com.mchange</pkgGroupId>
         <pkgArtifactId>mchange-commons-java</pkgArtifactId>
-        <pkgVersion>0.3.1</pkgVersion>
+        <pkgVersion>0.4.0</pkgVersion>
         <servicemix.osgi.export.pkg>
             com.mchange
         </servicemix.osgi.export.pkg>
